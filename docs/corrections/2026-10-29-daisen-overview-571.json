@@ -1,0 +1,28 @@
+{
+  "checkedOn": "2026-10-29",
+  "baseCommit": "0afd4e82fc0bfd40b4cded3fee15acbbe5d47116",
+  "scope": "Only course571.feature numeric practice-range values; matching existing official detail evidence. Both HTML data hash references updated.",
+  "finding": "Browser QA found card overview still said 300 yards / 14 bays while the updated detailed field correctly said 250 yards /17 bays.",
+  "source": "https://booking.pacificgolf.co.jp/?cc_id=113&p=guide.access_map",
+  "sourceReview": "Official facility information independently reviewed on 2026-10-29; same evidence as prior mixed play correction",
+  "changes": [
+    {
+      "id": 571,
+      "field": "feature",
+      "before": "18ホール・パー72・丘陵コース・フラット。設計：(株)日建設計。練習場は300ヤード・14打席の掲載。",
+      "after": "18ホール・パー72・丘陵コース・フラット。設計：(株)日建設計。練習場は250ヤード・17打席の掲載。"
+    }
+  ],
+  "tests": {
+    "exactFeaturePreimage": true,
+    "allOtherDataDeepEqual": true,
+    "allRecords": 1800,
+    "IDOrderAndCategoriesUnchanged": true,
+    "overviewAndDetailBoth250Yards17Bays": true,
+    "otherFacilitiesWithSimilarNumbersUntouched": true,
+    "publicationGate": "passed",
+    "dataBlob": "eb6cb3be62ff4ccba1c7e313331cf74aa490aabf"
+  },
+  "applicationMethod": "Explicit one-field exact-preimage correction and full unrelated-data equality test; no expansion of generic field allowlist",
+  "rollback": "Restore data.js and both HTML from baseCommit in a new commit; leaves prior content history recoverable"
+}
