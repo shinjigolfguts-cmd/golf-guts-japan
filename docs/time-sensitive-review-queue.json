@@ -83,5 +83,7 @@
       "reason": "公式11/4以降シーズン終了までレストラン利用不可の開始条件。終了予定11/8は降雪で前倒しの場合あり、再開を推測しない。"
     }
   ],
-  "updatedOn": "2026-10-29"
+  "updatedOn": "2026-10-29",
+  "dateTimezone": "Asia/Tokyo",
+  "datePolicy": "Review dates and newly verified dates use Japan local calendar day; preserve old source dates and never fabricate a new price/checked date."
 }

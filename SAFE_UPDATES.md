@@ -43,3 +43,14 @@ node scripts/apply-reviewed.mjs INPUT_DATA MANIFEST NEW_OUTPUT HEAD_FILE YYYY-MM
 - access.js・details.js・finder.jsを変更した場合は両HTMLで使用される各スクリプトの参照にも内容hashを付け、一組として公開してください。dataだけ先行して旧rendererで混合出典を表示させないこと。
 
 公開gateは読み取り専用です。dataのJSON構造/1,800件/ID唯一、両HTMLのdata hash、canonical、実在2URL sitemap、任意の旧dataとのID順序・カテゴリ順序を確認します。事実照合・正式Pages・実ブラウザ・検索エンジン登録の代わりではありません。
+
+
+## 確認日・期限の日付基準
+- 新しい確認日、料金有効期間の判定、期限レビューは `Asia/Tokyo`（JST）の日付を用います。UTC15:00以降は日本では翌日です。
+- `apply-reviewed.mjs` の最後の `YYYY-MM-DD` はその時点のJST日付を渡してください。UTCの日付との1日差を理由に、正しく記録したJST確認日を未来日として拒否しないよう呼出側で揃えます。
+- 既存出典の日付は一括更新しません。URLが応答しただけで確認日を刷新しないこと。旧段落は旧出典日、新たに事実を確認した段落だけ新確認日とします。
+- 期限後に未確認の新金額・期間を作らず、掲載済み参考プランの期間と確認日を維持し、予約日の料金を保証しない表示を保ちます。期限キューは既存点検の入力であり、新しいスケジュールを作りません。
+
+## 訂正の再発防止
+`node scripts/check-known-corrections.mjs data.js` と `node scripts/check-hole-counts.mjs data.js` を公開gateと併用します。対象の限定回帰であり全施設の事実監査ではありません。意図的に根拠付き訂正を更新する場合は、独立レビューを経て固定条件も更新します。
+削除・書換候補は `node scripts/list-review-required.mjs normalized-changes.json` で抽出し、`docs/deletion-review-procedure.md` に従って出典と条件の保持を人手確認してください。
