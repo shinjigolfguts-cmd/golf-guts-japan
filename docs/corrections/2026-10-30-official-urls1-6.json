@@ -1,0 +1,996 @@
+{
+  "patchSetId": "2026-10-30-url-audit-batches1-6",
+  "parentSha": "8a0e082529597b00d59e043c9615f1e9dda9ab62",
+  "checkedOn": "2026-10-30",
+  "scope": "公式URL欠損のみ補完。対象施設の名称・所在地・公式運営ページを照合。料金や交通時間など他の事実の確認完了を意味しません。",
+  "changes": [
+    {
+      "id": 312,
+      "name": "表蔵王国際ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.omotezao.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.omotezao.co.jp/",
+          "sha256": "16eaa3e11f0f7d2db20c0d960736ec4440944c3119b4c8e26907c6399de69e16",
+          "acquiredAtUtc": "2026-10-29T15:01:40.453785+00:00"
+        },
+        {
+          "url": "https://www.omotezao.co.jp/restaurant/",
+          "sha256": "dd863e780090578231ef5a06092802f2fef24ebeed73c2aedc7f10d37f0d83b7",
+          "acquiredAtUtc": "2026-10-29T15:00:41.207185+00:00"
+        }
+      ],
+      "scope": "既存公式restaurant出典から施設HOMEへ。宮城県柴田町船迫字日光48・0224-56-1711、表蔵王国際の施設全体で既存地域一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 334,
+      "name": "安達太良カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://adataracc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://adataracc.co.jp/",
+          "sha256": "bf5a3b5f71b95c03a2c644ba5fe697652e96af7166bb6e3c48e5a93cfc9b46a3",
+          "acquiredAtUtc": "2026-10-29T15:00:44.750997+00:00"
+        }
+      ],
+      "scope": "既存公式料理/コース出典と同一ドメイン。二本松市雄平台15・0243-24-2111、同名施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 360,
+      "name": "秋田森岳温泉36ゴルフ場",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "http://www.moritake36.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.moritake36.com/",
+          "sha256": "e88cba7a25aadaa8e9884150be2103d3e296c0d70043e6f93a299452390e5e3c",
+          "acquiredAtUtc": "2026-10-29T15:01:04.633193+00:00"
+        },
+        {
+          "url": "http://www.moritake36.com/about.html",
+          "sha256": "8f9d3801968af4e7b7c955b40008ea9e3e9ad64e95cef784e307fbe2be9df70f",
+          "acquiredAtUtc": "2026-10-29T15:02:26.122484+00:00"
+        }
+      ],
+      "scope": "会社概要で運営会社・東京本社とゴルフ場所在地を分離。株式会社市川ゴルフ興業の施設は三種町森岳木戸沢199-183・0185-83-2000。公式HOME予約リンクc_id50005も既存予約ID一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 406,
+      "name": "オリムピックカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.olympic-cc.jp/club.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.olympic-cc.jp/club.html",
+          "sha256": "de2c57f3c95e611813be5567fa3be2e33f2a944d99df5e6aca949f8f1fc10497",
+          "acquiredAtUtc": "2026-10-29T15:00:53.385291+00:00"
+        }
+      ],
+      "scope": "同名類似グループ場でなく山梨県上野原市野田尻3085・0554-66-2211のクラブ概要。リンドウ/フジザクラ/ハナミズキの施設範囲。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 441,
+      "name": "愛知カンツリー倶楽部 東山コース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.aichicc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.aichicc.jp/",
+          "sha256": "fba65a4740b9952fda15f34cf5a4e96c3f70e3033228cb6f7564320afc629474",
+          "acquiredAtUtc": "2026-10-29T15:01:39.692400+00:00"
+        },
+        {
+          "url": "https://www.aichicc.jp/page/2/",
+          "sha256": "f6cf9ec4712dc0ed4cd8f80af4d71c1f9b58631110e048d384adece389f2b341",
+          "acquiredAtUtc": "2026-10-29T15:00:42.216723+00:00"
+        }
+      ],
+      "scope": "公式本文が愛知カンツリー倶楽部東山コースと明示。名古屋市名東区猪高町高針山ノ中20-1・052-701-1161、既存東山コースと一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 569,
+      "name": "小金井カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://koganeicc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://koganeicc.jp/",
+          "sha256": "c893ee561178ad07c1b593b1612574ebc5a3705a3c29f62b8ff453cddf080420",
+          "acquiredAtUtc": "2026-10-29T15:01:40.101973+00:00"
+        },
+        {
+          "url": "https://koganeicc.jp/history.html",
+          "sha256": "3c4e09dc7c228945a9415b1222856a970e30858ccc73c520c8bd3cd5ef8193da",
+          "acquiredAtUtc": "2026-10-29T15:00:42.931192+00:00"
+        }
+      ],
+      "scope": "既存公式historyとHOMEの連続性。東京都小平市御幸町331・042-381-1221、東京都小金井市と誤認しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1366,
+      "name": "トム・ワトソンゴルフコース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://seagaia.co.jp/twgc/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://seagaia.co.jp/hotel-facility/",
+          "sha256": "b88f0cd1ea2a736837f729486f77f5006061596e9a286c38b1612202124b2ce4",
+          "acquiredAtUtc": "2026-10-29T15:01:39.709642+00:00"
+        },
+        {
+          "url": "https://seagaia.co.jp/twgc/",
+          "sha256": "8761c1dbef761813022d1264e02c1a56a5d5ea94433a82654b1519d35eef5ee8",
+          "acquiredAtUtc": "2026-10-29T15:00:42.731210+00:00"
+        }
+      ],
+      "scope": "運営会社フェニックスリゾートの専用twgcページ。施設概要のトム・ワトソン節で宮崎市山崎町浜山・0985-21-1301。併存フェニックスCC/ゴルフアカデミーと区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1499,
+      "name": "磯子カンツリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://isogocc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://isogocc.jp/",
+          "sha256": "f824a4596fbab68af2285e3665dd0a21df729b9e22b7c93c4b5fa3e773f54f91",
+          "acquiredAtUtc": "2026-10-29T15:01:39.219870+00:00"
+        },
+        {
+          "url": "https://isogocc.jp/access/",
+          "sha256": "a5656dc7c28b5793ce0a891092432c58235f0165031ed9e0630d43af5df54164",
+          "acquiredAtUtc": "2026-10-29T15:00:45.028535+00:00"
+        }
+      ],
+      "scope": "既存公式accessとHOMEの連続性。横浜市磯子区洋光台6-43-24・045-833-0641、同名施設を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1566,
+      "name": "伊豆大島リゾートゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://oshima-golf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://oshima-golf.com/access/",
+          "sha256": "9a46fbf760c06651f3b537248938b433aa54e43ac8add39487ad2037b6d55028",
+          "acquiredAtUtc": "2026-10-29T15:02:28.868138+00:00"
+        },
+        {
+          "url": "https://oshima-golf.com/",
+          "sha256": "3b61bb49078439adb68432a205bc9b925000df7a57600d00fd7a6a3e56b9926e",
+          "acquiredAtUtc": "2026-10-29T15:00:47.879885+00:00"
+        }
+      ],
+      "scope": "既存公式サイトは2021年旧大島ゴルフクラブから現名称への変更を明示。アクセス概要は東京都大島町岡田大久保26・080-7445-6638で同島施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 346,
+      "name": "イーストヒルゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.ehgc.jp/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.ehgc.jp/about.html",
+          "sha256": "345c2904067475069225c2346c721e3d3a6f44f0e67c38190c935378b49f0e5d",
+          "acquiredAtUtc": "2026-10-29T15:01:37.919031+00:00"
+        },
+        {
+          "url": "https://www.ehgc.jp/index.html",
+          "sha256": "253ebadb775bc922fb6708cdb1a50038c766ba3afce0e676c4363cd6abe960cf",
+          "acquiredAtUtc": "2026-10-29T15:06:07.299514+00:00"
+        }
+      ],
+      "scope": "イーストヒルゴルフクラブ／株式会社オリエントプラン。阿賀野市保田5107-7、0250-68-5100。18H、PAR72。KGA同住所・電話・会社名・ehgc.jpリンク一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 399,
+      "name": "トナミロイヤルゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.tonami-rgc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.tonami-rgc.co.jp/access",
+          "sha256": "5d7ef1538cd785af988a79b373d235fc2437689d47e96eec1a1de42cf4f1786c",
+          "acquiredAtUtc": "2026-10-29T15:01:36.830340+00:00"
+        },
+        {
+          "url": "https://www.tonami-rgc.co.jp/",
+          "sha256": "b762abf22a760d2d641b6e1767d54f6776077570d284bb350a67af725314f3e0",
+          "acquiredAtUtc": "2026-10-29T15:06:10.527095+00:00"
+        }
+      ],
+      "scope": "トナミロイヤルゴルフ倶楽部。南砺市井口13番地の1、0763-62-3000（予約）/62-3955（代表）。旧レコード井口字小山13-1と地域番地が対応。富山県ゴルフ連盟の同名リンクが同ドメイン。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 431,
+      "name": "芦の湖カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://ashinokocc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://ashinokocc.com/english/",
+          "sha256": "34c4bd663c0e4725484b0320d21a8d9ad2ace89b48a9e440dfb374156a3c9399",
+          "acquiredAtUtc": "2026-10-29T15:01:37.140889+00:00"
+        },
+        {
+          "url": "https://ashinokocc.com/",
+          "sha256": "4b1b3d34b1bc54bb9274dc54ad7110eae692f9c3dd7697205cc802c2619a7af6",
+          "acquiredAtUtc": "2026-10-29T15:06:07.620672+00:00"
+        }
+      ],
+      "scope": "株式会社芦の湖カントリークラブ／三島市字南原菅4708、18H。KGA同名同所在地・運営会社・同ドメインを確認。KGA電話0559-85-2121と現在施設front055-985-2146は完全一致ではないので電話一致とは扱わない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 469,
+      "name": "越前武生カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://banryugolf.com/echizentakefu/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://banryugolf.com/echizentakefu/",
+          "sha256": "49c2f8a23e0cda2857f0281e0f03cdd0f1877e0c5e5762ba52c2b341982b1641",
+          "acquiredAtUtc": "2026-10-29T15:01:38.625694+00:00"
+        }
+      ],
+      "scope": "越前武生カントリークラブ、越前市勝蓮花町62-1-1、0778-29-2201。自社コース案内・施設・予約・会員案内を持つ対象専用ページ。別施設ゴールド福井/越前CCではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 649,
+      "name": "土佐ユートピアカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://tosa-yutopia.com/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://tosa-yutopia.com/index.html",
+          "sha256": "f8f58291c6a3ef5fad533e0db2dc67180c87e2a99f478ba8f4b6517c3d8e42bc",
+          "acquiredAtUtc": "2026-10-29T15:01:36.679382+00:00"
+        }
+      ],
+      "scope": "土佐ユートピアカントリークラブ、黒潮町浮鞭3878、0880-43-2345。HATA SPORTSの同住所電話と明示HPリンクをたどり施設本文で照合。土佐CC（香南市）とは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1377,
+      "name": "大西テェラスゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.otgc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.otgc.co.jp/",
+          "sha256": "66a6cf0aa07eda05c7837dc86f3faf81683775913f5e7458d2702a99222dc8f6",
+          "acquiredAtUtc": "2026-10-29T15:01:36.390503+00:00"
+        }
+      ],
+      "scope": "合同会社大西テラスゴルフクラブ、北中城村大城190番地、098-935-4300。既掲載の観光ページ「大西テェラス」同住所電話と一致。運営会社・ゴルフコース予約/約款の対象同一性確認、名称文字差のみで別施設としない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1546,
+      "name": "PGM富岡カントリークラブ サウスコース",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/74.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/74.html",
+          "sha256": "df236110851f40c028b1167020ffd6876e700bd6b5f078cb751c988464222d47",
+          "acquiredAtUtc": "2026-10-29T15:01:36.899978+00:00"
+        }
+      ],
+      "scope": "PGM運営公式対象ページ・コースID74。富岡市星田814-1、0274-63-1100。施設名サウスを明記、既currentUrlと一致、ノースではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 770,
+      "name": "桂ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.pacificgolf.co.jp/katsura/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.pacificgolf.co.jp/katsura/",
+          "sha256": "82d5f0c26302c72a94e473fba444d4c108655774a2446da81d6ab4599c38788d",
+          "acquiredAtUtc": "2026-10-29T15:07:15.384646+00:00"
+        },
+        {
+          "url": "https://www.japan47go.travel/ja/detail/327b44db-5028-4b74-8f65-5bf84af7cf95",
+          "sha256": "cc5b0187be5be5c04773a2a9a611dc2923e0f6e9479dccff9dc1e7aa281fb5a7",
+          "acquiredAtUtc": "2026-10-29T15:07:45.808850+00:00"
+        },
+        {
+          "url": "https://www.pacificgolf.co.jp/katsura/information.asp",
+          "sha256": "b894876006db35548fb780f06d14533a9efe0a3da3092a7038d7b14f266c69df",
+          "acquiredAtUtc": "2026-10-29T15:06:51.545504+00:00"
+        }
+      ],
+      "scope": "桂ゴルフ倶楽部の18ホール本コース。隣接する桂ゴルフガーデンだけのページではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 327,
+      "name": "栗駒ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.kurikoma-golf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.kurikoma-golf.com/",
+          "sha256": "e0c18ccdaf86eef9a33f6c7866e05bacd16acd10a459e49bc8184cd9ac4d32fb",
+          "acquiredAtUtc": "2026-10-29T15:07:15.383991+00:00"
+        },
+        {
+          "url": "https://iwatetabi.jp/spots/6600/",
+          "sha256": "b212407c3cec8cc618cc2d4bf4eb4999d67422fa3fdab27bf1ba43024a1c6a81",
+          "acquiredAtUtc": "2026-10-29T15:07:45.808314+00:00"
+        }
+      ],
+      "scope": "栗駒ゴルフ俱楽部の本施設。別の金ケ崎ゴルフコース/きたかみCCを公式URLとして採用していない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 347,
+      "name": "石地シーサイドカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.ishijicc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.ishijicc.jp/",
+          "sha256": "00cf9d9c0b5874126e2466b3da6ffdecd593af782c18e1594cc6bbfaad500ff9",
+          "acquiredAtUtc": "2026-10-29T15:06:51.544592+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=15004",
+          "sha256": "016735d323effe1e960b367d0ba28a2fb8ce6bad8123811d8b35f8c32cf792e5",
+          "acquiredAtUtc": "2026-10-29T15:07:04.290579+00:00"
+        }
+      ],
+      "scope": "石地シーサイドカントリークラブ全施設TOP。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 411,
+      "name": "北の杜カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://kitanomori-cc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://kitanomori-cc.jp/",
+          "sha256": "141d4e027c2a66009524f197f66d56932489b4d0cab15558561f695fa77bf617",
+          "acquiredAtUtc": "2026-10-29T15:06:51.545103+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=19012",
+          "sha256": "61eb102fb9d80ae5f116c6b5a55f2ffc718592d73579b4ce3940d5abb118e041",
+          "acquiredAtUtc": "2026-10-29T15:07:04.291246+00:00"
+        }
+      ],
+      "scope": "北の杜カントリー倶楽部本体TOP。敷地内ホテル北の杜のみを案内するページとは区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 470,
+      "name": "ゴールド福井カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.goldgolf.co.jp/fukui/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.goldgolf.co.jp/fukui/",
+          "sha256": "54015efa12c5a37fd65bfe30ac8e6f3313a28baaf3ac514ffb2f139ccd82ccda",
+          "acquiredAtUtc": "2026-10-29T15:07:04.292004+00:00"
+        },
+        {
+          "url": "https://www.golf.fukui.jp/member/",
+          "sha256": "d874b0fec28b730eedac254f24f38387cb24f6bc743bba1a57bd39d9311acf29",
+          "acquiredAtUtc": "2026-10-29T15:07:04.292765+00:00"
+        }
+      ],
+      "scope": "goldgolfグループの福井固有ページ。栃木・佐野等の別コースやグループ総合TOPではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1281,
+      "name": "太田川ゴルフ場",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "http://www.otagawa-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.otagawa-gc.com/",
+          "sha256": "5467feb219c2bcdbab3aa24afa849ecf45ea5ccad7782e48138b48bafabea71a",
+          "acquiredAtUtc": "2026-10-29T15:07:01.067200+00:00"
+        }
+      ],
+      "scope": "同名運営公式HOMEに広島市安佐南区東原1-21-16/082-875-0586。既存広島市太田川ゴルフ場に対応、地域/施設名を比較。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1554,
+      "name": "前橋ゴルフ場",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.maebashi-golf.jp/access/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.maebashi-golf.jp/access/index.html",
+          "sha256": "5d3b2fb2b4a364d9265946d7a85219bd6298e2ef4448b0a8572eccc3a716e2a9",
+          "acquiredAtUtc": "2026-10-29T15:07:01.972816+00:00"
+        }
+      ],
+      "scope": "既存公式access出典を実読。群馬県前橋市川原町1-42-4/027-231-7575、前橋ゴルフ場の対象一致。成功取得したアクセスページ自体を公式URL候補とする。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 924,
+      "name": "名岐国際ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.meigikokusaigc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.meigikokusaigc.jp/",
+          "sha256": "6380d8e9a4fd9a00671b5bfe2a926686b6bfe1fe32a06eb30999925142028180",
+          "acquiredAtUtc": "2026-10-29T15:07:03.282484+00:00"
+        }
+      ],
+      "scope": "名岐国際GC公式HOME、土岐市妻木町3059/0572-43-4181、三国/妻木両コースの同施設。名岐別クラブや国際という一般名だけでなく所在地一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 313,
+      "name": "グレート仙台カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/19.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/19.html",
+          "sha256": "b2bc4b9ccb2ff71cb1bc6ba09df2cf81c7d382597a19db0d36bbe482b22d22c8",
+          "acquiredAtUtc": "2026-10-29T15:06:30.803511+00:00"
+        }
+      ],
+      "scope": "PGM公式コースID19。グレート仙台カントリー倶楽部、仙台市青葉区上愛子五ッ森6-1、022-392-3505。検索取得した宮城県ゴルフ連盟の同名住所電話と一致。別の仙台ヒルズなど近隣カードではなく当該INFO欄。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 336,
+      "name": "猪苗代ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.inawashiro-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.inawashiro-gc.com/",
+          "sha256": "ec1c98a4987d31a3b0a7d36a86c576f5021f20cf87a81df1d9ad1195e8711807",
+          "acquiredAtUtc": "2026-10-29T15:06:31.038161+00:00"
+        }
+      ],
+      "scope": "猪苗代ゴルフクラブ対象公式トップ、猪苗代町大字若宮字中原向甲2999、0242-64-2800。同名市町と対象コース紹介/予約欄。旧猪苗代ホテル猪苗代ゴルフコースからの名称変更は検索公式PDFで言及されるが今回は名称更新提案なし。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 430,
+      "name": "愛鷹シックスハンドレッドクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/shizuoka/ashitaka/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/ashitaka/",
+          "sha256": "c6c225c5f92364977b448bdc1801c81906d128cec11c23f4fa1d24d82eeb5ce5",
+          "acquiredAtUtc": "2026-10-29T15:06:33.755449+00:00"
+        }
+      ],
+      "scope": "アコーディアのashitaka施設専用ページ。愛鷹シックスハンドレッドクラブ、沼津市宮本512。対象h1直下住所と運営予約ページの一致。近隣カードの所在地/条件は不採用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1265,
+      "name": "MGM MANIWA",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://mgm-maniwa.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://mgm-maniwa.com/",
+          "sha256": "8e5b4ae152d587a890d3b1a0415c77068102eca493f54aec6f4e5d267e562d72",
+          "acquiredAtUtc": "2026-10-29T15:06:32.175382+00:00"
+        }
+      ],
+      "scope": "岡山県観光のMGM MANIWA（旧真庭CC）欄に真庭市杉山684・0867-42-5678と公式リンク。通常リンクからwww→非wwwへリダイレクト成功。運営トップが同じ現名称/旧名称を明示し電話href0867-42-5678一致。会社概要子リンク404で以後取得停止、住所は観光側の根拠で運営本文確認とはしない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1502,
+      "name": "相模カンツリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://sagamicc.org/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://sagamicc.org/",
+          "sha256": "c3ada9056aedfcd024ea08f7643505e44ae4755a267ca39bdab06c465ed4ecb2",
+          "acquiredAtUtc": "2026-10-29T15:06:31.696323+00:00"
+        }
+      ],
+      "scope": "一般社団法人相模カンツリー倶楽部の公式サイト、神奈川県大和市中央林間西七丁目1番1号、046-274-3130。対象倶楽部のコース/会員/マナー案内と所在地一致。相模野/相武とは区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1568,
+      "name": "東京相武カントリークラブ ショートコース",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+          "sha256": "5025dd6a1fd1b8215acc44baba5f34597443d0b66b9c51006e97d278d015c873",
+          "acquiredAtUtc": "2026-10-29T15:06:33.588867+00:00"
+        }
+      ],
+      "scope": "アコーディア東京相武カントリークラブ ショートコース専用sobufamilygolfページ。町田市相原町2498、042-773-3087。対象本文が旧名そうぶファミリーゴルフと本コースのクラブハウスとは別の受付場所を明記。ショート施設のみのofficialUrlとして採用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 403,
+      "name": "小杉カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.kosugi.cc/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.kosugi.cc/",
+          "sha256": "2fc259582f928b235808758483b91a241df7e2b96f93967015a0f1fcf69ef3fc",
+          "acquiredAtUtc": "2026-10-29T15:06:35.806887+00:00"
+        }
+      ],
+      "scope": "富山県ゴルフ連盟の小杉カントリークラブ明示リンクと同ドメイン。成功運営トップ/交通案内は小杉CC、富山県・小杉IC周辺・予約0766-56-7558、北/東/南コースの施設全体を表示。既存area射水市浄土寺1の番地は今回本文にはなく、名称・連盟リンク・地域・施設範囲の一致で候補（番地を本文再確認済としない）。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 434,
+      "name": "伊豆にらやまカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.izu-nirayama.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.izu-nirayama.co.jp/",
+          "sha256": "fedc14a164ee2c3d6c0b7256b99366a8fd00402e5a9ad0077eec6c6552e904e7",
+          "acquiredAtUtc": "2026-10-29T15:12:57.469448+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22013",
+          "sha256": "99ddd9dfb550e4af4cf7a8cdef7191e806823aebf1a15b89060696e0745a6cd9",
+          "acquiredAtUtc": "2026-10-29T15:13:24.704498+00:00"
+        }
+      ],
+      "scope": "伊豆にらやまカントリークラブ全体。別施設の伊豆の国カントリークラブや伊豆大仁ではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 828,
+      "name": "福島ゴルフ倶楽部・民報コース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://minpo-course.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://minpo-course.com/",
+          "sha256": "485a40863f0e8f157baab78a6569a6a5d28bc72d3a0ac96aa64519352ccf2171",
+          "acquiredAtUtc": "2026-10-29T15:12:57.470049+00:00"
+        },
+        {
+          "url": "https://minpo-course.com/access/",
+          "sha256": "576c4f33c57c57cc6e2ec119e59fdfeb30e9636c55278fbbb62154fdf503b60e",
+          "acquiredAtUtc": "2026-10-29T15:13:52.979079+00:00"
+        },
+        {
+          "url": "https://minpo-course.com/aboutus/",
+          "sha256": "dde795072b075ee2791411f92a3b7dd54759c7748c044bac73b526accecbd7b2",
+          "acquiredAtUtc": "2026-10-29T15:14:25.938884+00:00"
+        }
+      ],
+      "scope": "福島ゴルフ倶楽部 民報コース。社名だけでなく民報コース名称と施設アクセスを確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 955,
+      "name": "中央都留カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/69.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/69.html",
+          "sha256": "d54b9fa3951b54190148ace37ed01f246d33e659e80d49f49780cbe8c3cb1dad",
+          "acquiredAtUtc": "2026-10-29T15:13:52.980706+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=19019",
+          "sha256": "c8a528fdc38ab519384bccbb1463330337742701261d944dd602b986cf5d0ba0",
+          "acquiredAtUtc": "2026-10-29T15:12:57.475607+00:00"
+        },
+        {
+          "url": "http://www.pacificgolf.co.jp/chuotsuru/",
+          "sha256": "9ac166f2c57e7ebe0cbd251d3b20d7eb99f5f56be1381a1d36ed957b175bca8d",
+          "acquiredAtUtc": "2026-10-29T15:13:41.173493+00:00"
+        }
+      ],
+      "scope": "中央都留カントリー倶楽部。シャトレーゼ都留カントリー倶楽部とは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1380,
+      "name": "許田ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://kyoda-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://kyoda-gc.com/",
+          "sha256": "87452d5adb669ca7d176f71a5fbfe5c4b9f2b333fa01d971d1ba422341fe59bb",
+          "acquiredAtUtc": "2026-10-29T15:12:57.470617+00:00"
+        },
+        {
+          "url": "https://okinawasportsisland.jp/golfcourse/detail/2641/",
+          "sha256": "6a5c85b5540c93e18930de65f3b0e020b63e0a8efe18cfcecbe3eb556f147470",
+          "acquiredAtUtc": "2026-10-29T15:12:57.477005+00:00"
+        }
+      ],
+      "scope": "許田ゴルフクラブのショートコース。頁内のおすすめ美らオーチャードPar72とは明確に分離。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1549,
+      "name": "ネイチャーヒルズ軽井沢カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://nature-hills-karuizawa.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://nature-hills-karuizawa.com/",
+          "sha256": "6cb9ca347a6e5bb2a50f137a5604633a422fe7e5ef2df2b8a66063efbc1edc3c",
+          "acquiredAtUtc": "2026-10-29T15:13:41.174145+00:00"
+        },
+        {
+          "url": "https://karuizawa.holidayinnresorts.com/golf/",
+          "sha256": "a8fbd3cf411f50afe6c3d43d50c42d909280d49e26782f997023fe9b0dcbca5b",
+          "acquiredAtUtc": "2026-10-29T15:12:57.471061+00:00"
+        }
+      ],
+      "scope": "ネイチャーヒルズ軽井沢本ゴルフコース。隣接ANAホテルの宿泊のみのページやプリンスランドとは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1794,
+      "name": "宮崎サンシャインカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://sunshine-cc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://sunshine-cc.jp/",
+          "sha256": "e4933f9ac75bdd8885273467593f28175e1914bb4fa5ef377205e0b2c315072c",
+          "acquiredAtUtc": "2026-10-29T15:13:24.705492+00:00"
+        },
+        {
+          "url": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+          "sha256": "7fecba4406d0a8c6947558a0db806e48c09e9070a357d1d47178aff5118a4fe2",
+          "acquiredAtUtc": "2026-10-29T15:12:57.476630+00:00"
+        }
+      ],
+      "scope": "宮崎サンシャインカントリークラブ。新しいPacific Sunshine表記のグッズ・ブランド案内があっても別施設としない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 435,
+      "name": "伊東カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://banryugolf.com/itocc/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://banryugolf.com/itocc/",
+          "sha256": "40c94546750d6301819a41bc68aceeb70452789a21f856cbedcb8ae4b8daf7b6",
+          "acquiredAtUtc": "2026-10-29T15:12:57.472055+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22014",
+          "sha256": "74bcc4fe97b874c38f60ab341359f72091a8360e9156b0920b772b060a3f323d",
+          "acquiredAtUtc": "2026-10-29T15:13:24.704999+00:00"
+        }
+      ],
+      "scope": "Banryu Golfの伊東カントリークラブ固有ディレクトリ。グループ総合・別コースではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1552,
+      "name": "プリンスランドゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.prgc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.prgc.jp/",
+          "sha256": "6123cb1cc81dde2d88173e372aa033b062cf85699ac7834a55cb83b3dfaf0b3f",
+          "acquiredAtUtc": "2026-10-29T15:12:57.472694+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=10041",
+          "sha256": "ae92a8401e0f7edf6f544dfe31b613c161280f40a9737fb2b6f2c70dd84c7a46",
+          "acquiredAtUtc": "2026-10-29T15:13:52.980141+00:00"
+        }
+      ],
+      "scope": "プリンスランドゴルフクラブ。長野原町のネイチャーヒルズや軽井沢プリンスホテルゴルフ場とは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1569,
+      "name": "東急ゴルフパークたまがわ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.tokyu-sports.com/golf/tamagawa.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.tokyu-sports.com/golf/tamagawa.html",
+          "sha256": "62a4cd73ee50076d11eeb4f86b81b264f3785c497dcb13fa1701d3c6df0c1bcf",
+          "acquiredAtUtc": "2026-10-29T15:13:52.979626+00:00"
+        },
+        {
+          "url": "https://www.tokyu-sports.com/golf/tamagawa/",
+          "sha256": "62a4cd73ee50076d11eeb4f86b81b264f3785c497dcb13fa1701d3c6df0c1bcf",
+          "acquiredAtUtc": "2026-10-29T15:12:57.474678+00:00"
+        },
+        {
+          "url": "https://www.tokyu-sports.com/golf/tamagawa/info/150617-01_copy.html",
+          "sha256": "35fb226dff0f648180d79dadd6438cf7720d1154b4b81e057d9f3f2d4780c55e",
+          "acquiredAtUtc": "2026-10-29T15:14:25.939769+00:00"
+        }
+      ],
+      "scope": "東急ゴルフパークたまがわ。共通ナビの東急スイミングスクールたまがわ・あざみ野等と混同せず、河川敷のゴルフ施設ページのみ。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 471,
+      "name": "フォーレスト福井ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://forest-gc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://forest-gc.jp/",
+          "sha256": "7e157efb5968f60bb5717e096ed841448263fa591e9f8fab41ba03de325a5524",
+          "acquiredAtUtc": "2026-10-29T15:12:59.860195+00:00"
+        }
+      ],
+      "scope": "フォーレスト福井ゴルフクラブ対象運営トップ。福井市燈豊町42字53番地、0776-83-1118。コース/施設/料金/クラブ競技/会員予約を備えた同一施設専用ページ。ゴールド福井・フクイCCと別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 898,
+      "name": "シーダーヒルズカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.cedarhillscc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.cedarhillscc.jp/",
+          "sha256": "9c9dfc12dfa9d8f89ae0d05ba37ea7e4175dd4862e09aada1f449bbffa9e03a8",
+          "acquiredAtUtc": "2026-10-29T15:12:58.803323+00:00"
+        }
+      ],
+      "scope": "シーダーヒルズカントリークラブ、岐阜県関市西神野1181-1、0575-29-0380。対象運営トップは全18H・会員/施設/コース紹介を提供。同名・関市所在地・対象範囲一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1504,
+      "name": "湘南カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://shonan-cc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://shonan-cc.co.jp/",
+          "sha256": "f46aa93c57ed90d26ff0e100703c60a1030770028c78081af30afd5a8a0940b0",
+          "acquiredAtUtc": "2026-10-29T15:13:00.412441+00:00"
+        }
+      ],
+      "scope": "湘南カントリークラブ運営トップ。茅ヶ崎市赤羽根4123、0467-51-0211。関東ゴルフ連盟の同名住所電話/株式会社湘南CC/同ドメインと一致。湘南シーサイドとは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 350,
+      "name": "小千谷カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://ojiya-cc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://ojiya-cc.co.jp/",
+          "sha256": "aaf77ad6580b05631d4e2956aa90fb327b3c2c9955ca43402e9f0a5588424925",
+          "acquiredAtUtc": "2026-10-29T15:13:00.124385+00:00"
+        }
+      ],
+      "scope": "小千谷カントリークラブ運営トップ。新潟県小千谷市大字坪野1231。対象コース/クラブ概要/会員専用/利用約款を備える公式本文。検索された公式利用約款に小千谷綜合開発株式会社が運営と記載。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1507,
+      "name": "東京ロイヤルゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://tokyo-royal.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://tokyo-royal.jp/",
+          "sha256": "8f7ab82387aff60e97beb71fc478c3da1c359582b3c2d487981fa61ed7ca9049",
+          "acquiredAtUtc": "2026-10-29T15:13:01.064822+00:00"
+        }
+      ],
+      "scope": "東京ロイヤルゴルフ俱楽部対象運営トップ。神奈川県愛甲郡愛川町三増1764-4、046-281-1181。コース/施設/歴史/ゲスト料金/会員募集が同一施設に帰属。東京都という地名から誤同定せず現住所の愛川町を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1036,
+      "name": "鳴沢ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://zuien.net/narusawa/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://zuien.net/narusawa/",
+          "sha256": "18ea888dff4325a1e28f421859dc728e2395de4bd7fec05bc7209dbce1eefa8d",
+          "acquiredAtUtc": "2026-10-29T15:13:02.988950+00:00"
+        }
+      ],
+      "scope": "隨縁グループの鳴沢ゴルフ倶楽部専用ページ。山梨県南都留郡鳴沢村5224、0555-85-3611。対象access欄が一致。下部our groupの別コース、フォレスト鳴沢を不採用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1736,
+      "name": "GDO茅ヶ崎ゴルフリンクス",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://chigasaki.golfdigest.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://chigasaki.golfdigest.co.jp/",
+          "sha256": "9781523c3660108e0ca44973729375734cb0c713bfcd1c3bee6c373989234289",
+          "acquiredAtUtc": "2026-10-29T15:13:03.703800+00:00"
+        }
+      ],
+      "scope": "GDO茅ヶ崎ゴルフリンクスの運営公式施設サイト。茅ヶ崎市菱沼海岸9-38。対象コース紹介/利用案内/イベント/施設アクセスを掲載。予約比較サイトのGDO一般掲載ではなく専用施設運営ページであり既currentUrlも同じ。",
+      "reviewStatus": "supported"
+    }
+  ],
+  "inputSha256": "19a1c7317eb50837f85d0dfc78758bb4c91be5bdbde8f2562a2a8a57346a76ab",
+  "outputSha256": "8c137b91b067cc72fcfdde354065217086936556568047ba4328feae5662a3d4"
+}
