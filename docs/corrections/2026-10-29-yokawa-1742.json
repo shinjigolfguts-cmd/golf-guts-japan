@@ -1,0 +1,33 @@
+{
+  "courseId": 1742,
+  "courseName": "吉川ロイヤルゴルフクラブ",
+  "field": "comparison.rail",
+  "checkedAt": "2026-10-29",
+  "source": "https://yokawa-rgc.co.jp/access/",
+  "evidence": "公式「電車でお越しのお客様」欄：JR福知山線・相野駅、タクシーで25分。",
+  "before": {
+    "text": "相野駅からタクシーで約15分。",
+    "url": "https://reserve.golfdigest.co.jp/golf-course/645207/access/",
+    "checked": "2026-10-25",
+    "basis": "予約サイトの施設案内確認：タクシー\n\n相野駅から15分",
+    "sourceType": "booking"
+  },
+  "after": {
+    "text": "JR福知山線・相野駅からタクシーで約25分。",
+    "url": "https://yokawa-rgc.co.jp/access/",
+    "checked": "2026-10-29",
+    "basis": "公式交通アクセス「電車でお越しのお客様」欄で、JR福知山線・相野駅からタクシーで25分と確認。予約サイト由来の15分を訂正。",
+    "sourceType": "official"
+  },
+  "baseCommit": "42a00ddac9a74e057efc6405ea4d6eda01a78e9b",
+  "originalBlob": "a92bc661152ff682569aa11f8cdf61a274c3bcc5",
+  "candidateBlob": "17ed56b123ad4daf51c69c216e10a208b2ba0fc0",
+  "scope": "1742の鉄道駅からのタクシー所要時間・根拠URL・確認日・根拠種別のみ。料金、他項目、1800件のID・順序、デザイン、ランキング、元Sitesは変更しない。",
+  "tests": [
+    "JavaScript syntax passed",
+    "1800 courses and ID order unchanged",
+    "Actual details renderer shows 25 minutes, official source, 2026-10-29",
+    "Entire DATA deep-equal after restoring only approved rail field"
+  ],
+  "rollback": "Restore data.js from baseCommit via a new reviewed commit; no history rewrite."
+}
