@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-10-29",
+  "baseCommit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+  "scope": [
+    "index.html canonical and data content-hash query",
+    "find.html canonical and same data content-hash query",
+    "sitemap.xml existing two pages only"
+  ],
+  "unchanged": [
+    "data.js and all course facts",
+    "CSS and functionality",
+    "public URLs",
+    "rankings",
+    "access permissions"
+  ],
+  "basis": [
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+  ],
+  "cacheEvidence": "After deployment the browser showed prior data despite new HTTP data.js?v1800 bytes; native hard reload displayed new data. Content-hash asset references avoid reusing unchanged old resource URLs. Not proof of all client caches.",
+  "dataBlob": "9484924f75e55150bcb0a3ad6b8450e1d32db757",
+  "tests": "Canonical-removal and data-query reversal reproduces original HTML byte-for-byte. XML has exactly 2 existing URLs.",
+  "rollback": "Restore these HTML files from base commit and remove sitemap in a new commit.",
+  "futurePublicationRequirement": "Every data.js change MUST update BOTH HTML data references to its new Git blob SHA and validate their equality before publication."
+}
