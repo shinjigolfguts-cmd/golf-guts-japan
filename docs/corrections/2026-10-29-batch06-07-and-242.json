@@ -26,71 +26,20 @@
       "before": "http://www.tccgolf.com/",
       "after": "https://tccgolf.com/",
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "officialUrl": "http://www.tccgolf.com/",
-            "note": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。",
-            "stay": {
-              "text": "浴室あり。温泉を利用できる。パウダールームあり。宿泊施設は併設していない。",
-              "url": "https://reserve.golfdigest.co.jp/golf-course/923401/",
-              "checked": "2026-10-25",
-              "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
-              "sourceType": "公開予約情報"
-            },
-            "dining": {
-              "text": "レストランあり。朝食も提供。",
-              "url": "https://reserve.golfdigest.co.jp/golf-course/923401/",
-              "checked": "2026-10-25",
-              "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
-              "sourceType": "公開予約情報"
-            }
-          },
-          "original_candidate": "https://tccgolf.com/",
-          "evidence": [
-            {
-              "url": "https://tccgolf.com/年末年始営業のご案内/",
-              "body_evidence": "2026/10/10掲載。12/31(木)・1/1(金)完全セルフ。バッグ自己運搬、前精算、チェックイン後ハウス不可（更衣室/ロッカー/風呂）、食堂休業、優待券等不可。",
-              "lines": "16-37",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://tccgolf.com/",
-              "body_evidence": "天山CC、多久市北多久町大字小侍2318-1、0952-75-4181。",
-              "lines": "89-93",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://www.guk.jp/club/444",
-              "body_evidence": "天山CC、同住所電話、www.tccgolf.comリンク。",
-              "lines": "21",
-              "sourceType": "golf_federation_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "告知日と曜日より対象は2026/12/31・2027/1/1と解釈。恒常的な食堂/浴場廃止でない。",
-            "既存stay/diningの温泉/朝食等一般設備は未再確認、削除せず日付限定例外はnoteへ。",
-            "www旧URL取得不能だけを恒常障害としない。"
-          ]
-        },
-        "review": {
-          "id": 678,
-          "name": "天山カントリークラブ",
-          "field": "officialUrl",
-          "status": "適用可",
-          "review": "指定候補の根拠本文と整合。非対象情報・出典・確認日を保持した最小差分のみ。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://tccgolf.com/年末年始営業のご案内/",
-            "https://tccgolf.com/",
-            "https://www.guk.jp/club/444"
-          ],
-          "candidate_text": "https://tccgolf.com/"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "http://www.tccgolf.com/",
+          "https://reserve.golfdigest.co.jp/golf-course/923401/",
+          "https://tccgolf.com/",
+          "https://tccgolf.com/年末年始営業のご案内/",
+          "https://www.guk.jp/club/444"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -101,71 +50,20 @@
       "before": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。",
       "after": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。2026年10月10日付の公式告知では、2026年12月31日・2027年1月1日は完全セルフ営業で、チェックイン後は更衣室・ロッカー・浴場等を利用できず、レストランも営業しません。",
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "officialUrl": "http://www.tccgolf.com/",
-            "note": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。",
-            "stay": {
-              "text": "浴室あり。温泉を利用できる。パウダールームあり。宿泊施設は併設していない。",
-              "url": "https://reserve.golfdigest.co.jp/golf-course/923401/",
-              "checked": "2026-10-25",
-              "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
-              "sourceType": "公開予約情報"
-            },
-            "dining": {
-              "text": "レストランあり。朝食も提供。",
-              "url": "https://reserve.golfdigest.co.jp/golf-course/923401/",
-              "checked": "2026-10-25",
-              "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
-              "sourceType": "公開予約情報"
-            }
-          },
-          "original_candidate": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。2026年10月10日付の公式告知では、12月31日・1月1日は完全セルフ営業で、チェックイン後は更衣室・ロッカー・浴場等を利用できず、レストランも営業しません。",
-          "evidence": [
-            {
-              "url": "https://tccgolf.com/年末年始営業のご案内/",
-              "body_evidence": "2026/10/10掲載。12/31(木)・1/1(金)完全セルフ。バッグ自己運搬、前精算、チェックイン後ハウス不可（更衣室/ロッカー/風呂）、食堂休業、優待券等不可。",
-              "lines": "16-37",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://tccgolf.com/",
-              "body_evidence": "天山CC、多久市北多久町大字小侍2318-1、0952-75-4181。",
-              "lines": "89-93",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://www.guk.jp/club/444",
-              "body_evidence": "天山CC、同住所電話、www.tccgolf.comリンク。",
-              "lines": "21",
-              "sourceType": "golf_federation_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "告知日と曜日より対象は2026/12/31・2027/1/1と解釈。恒常的な食堂/浴場廃止でない。",
-            "既存stay/diningの温泉/朝食等一般設備は未再確認、削除せず日付限定例外はnoteへ。",
-            "www旧URL取得不能だけを恒常障害としない。"
-          ]
-        },
-        "review": {
-          "id": 678,
-          "name": "天山カントリークラブ",
-          "field": "note",
-          "status": "条件付適用",
-          "review": "対象を2026年12月31日・2027年1月1日と年込みで明示。チェックイン後の浴場等利用不可・レストラン休業は当日のみ。既存温泉/朝食の通常条件は今回未検証のまま保持。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://tccgolf.com/年末年始営業のご案内/",
-            "https://tccgolf.com/",
-            "https://www.guk.jp/club/444"
-          ],
-          "candidate_text": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。2026年10月10日付の公式告知では、12月31日・1月1日は完全セルフ営業で、チェックイン後は更衣室・ロッカー・浴場等を利用できず、レストランも営業しません。"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "http://www.tccgolf.com/",
+          "https://reserve.golfdigest.co.jp/golf-course/923401/",
+          "https://tccgolf.com/",
+          "https://tccgolf.com/年末年始営業のご案内/",
+          "https://www.guk.jp/club/444"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -182,57 +80,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "stay": null,
-            "budget": {
-              "text": "一般18Hは平日6,200円、土日祝8,300円。",
-              "url": "https://nagasaki-gc.sakura.ne.jp/price/",
-              "checked": "2026-10-25",
-              "basis": "公式料金表の対象期間・人数・内訳を確認",
-              "sourceType": "公式",
-              "priceVerified": true,
-              "priceLabel": "平日6,200円／土日祝8,300円",
-              "conditions": "公式掲載2025年1月料金表。18H、消費税・連盟協会費・利用税込み、ロッカー無料。平日の月・金完全セルフデーは別料金。1Bは9Hごと700円追加、平日のみ受付。"
-            }
-          },
-          "original_candidate": "公式施設概要では宿泊施設なし。浴室の案内あり。公式の2025年1月1日現在の料金表では、薄暮プレイ（12時以降）は風呂なしとされています。現在の利用条件は予約時に確認してください。",
-          "evidence": [
-            {
-              "url": "https://nagasaki-gc.sakura.ne.jp/price/",
-              "body_evidence": "2025.1.1現在の料金表。薄暮プレイ（12時以降、風呂なし）は上記料金より300円引き。",
-              "lines": "17-28",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://nagasaki-gc.sakura.ne.jp/overview/",
-              "body_evidence": "宿泊施設なし。浴室写真見出しあり。",
-              "lines": "23-30",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "budget既存6,200/8,300円維持。薄暮条件は料金表の日付込みで付記し、常時正午以降浴室閉鎖とはしない。",
-            "明示的季節指定は料金表該当注記なし。"
-          ]
-        },
-        "review": {
-          "id": 688,
-          "name": "長崎カンツリー倶楽部",
-          "field": "stay",
-          "status": "条件付適用",
-          "review": "2025年1月1日現在の料金表にある薄暮プレイ条件として保持。12時以降すべての利用者が入浴不可と一般化しない。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://nagasaki-gc.sakura.ne.jp/price/",
-            "https://nagasaki-gc.sakura.ne.jp/overview/"
-          ],
-          "candidate_text": "公式施設概要では宿泊施設なし。浴室の案内あり。公式の2025年1月1日現在の料金表では、薄暮プレイ（12時以降）は風呂なしとされています。現在の利用条件は予約時に確認してください。"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "https://nagasaki-gc.sakura.ne.jp/overview/",
+          "https://nagasaki-gc.sakura.ne.jp/price/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -249,47 +107,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "car": null,
-            "rail": null,
-            "stay": {
-              "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
-              "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/420009/",
-              "checked": "2026-10-25",
-              "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-              "sourceType": "booking"
-            }
-          },
-          "original_candidate": "島原港から車で約10分。",
-          "evidence": [
-            {
-              "url": "https://www.shimabaracc.com/交通案内/",
-              "body_evidence": "島原港より車で約10分。電車欄は島原外港駅下車タクシー15分。",
-              "lines": "28-40",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "駅名は旧称の可能性があり現駅名と同一性未確認、rail候補保留。",
-            "泊まれるという既存予約情報は公式今回本文で検証できず、宿泊不在と推定しない。"
-          ]
-        },
-        "review": {
-          "id": 690,
-          "name": "島原カントリー倶楽部",
-          "field": "car",
-          "status": "適用可",
-          "review": "指定候補の根拠本文と整合。非対象情報・出典・確認日を保持した最小差分のみ。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://www.shimabaracc.com/交通案内/"
-          ],
-          "candidate_text": "島原港から車で約10分。"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/420009/",
+          "https://www.shimabaracc.com/交通案内/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -300,55 +128,19 @@
       "before": "http://www.co-site.jp/nakatsu-cc/",
       "after": "https://www.nakatsu-cc.com/",
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "officialUrl": "http://www.co-site.jp/nakatsu-cc/",
-            "car": {
-              "text": "宇佐別府道路・宇佐ICから5km以内／東九州自動車道・中津ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
-              "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440014/",
-              "checked": "2026-10-25",
-              "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-              "sourceType": "booking"
-            },
-            "rail": null
-          },
-          "original_candidate": "https://www.nakatsu-cc.com/",
-          "evidence": [
-            {
-              "url": "https://www.nakatsu-cc.com/",
-              "body_evidence": "中津CC、大分県中津市大字野依1347、0979-32-3411。",
-              "lines": "83-89",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://www.visit-oita.jp/topics/detail/540",
-              "body_evidence": "中津CC、野依1347、0979-32-3411、現HPリンクnakatsu-cc.com。中津IC車約10分/JR今津駅車約10分。",
-              "lines": "298-312",
-              "sourceType": "official_tourism_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "観光sourceTypeを施設運営officialとしない。旧宇佐ICの区分情報は今回未確認なので消さず新事実を補記する場合も出典別にする。",
-            "旧URL取得不能は恒常的障害の認定ではない。現公式へ改善候補。"
-          ]
-        },
-        "review": {
-          "id": 703,
-          "name": "中津カントリークラブ",
-          "field": "officialUrl",
-          "status": "適用可",
-          "review": "指定候補の根拠本文と整合。非対象情報・出典・確認日を保持した最小差分のみ。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://www.nakatsu-cc.com/",
-            "https://www.visit-oita.jp/topics/detail/540"
-          ],
-          "candidate_text": "https://www.nakatsu-cc.com/"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "http://www.co-site.jp/nakatsu-cc/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440014/",
+          "https://www.nakatsu-cc.com/",
+          "https://www.visit-oita.jp/topics/detail/540"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -365,55 +157,19 @@
         "sourceType": "tourism"
       },
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "officialUrl": "http://www.co-site.jp/nakatsu-cc/",
-            "car": {
-              "text": "宇佐別府道路・宇佐ICから5km以内／東九州自動車道・中津ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
-              "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440014/",
-              "checked": "2026-10-25",
-              "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-              "sourceType": "booking"
-            },
-            "rail": null
-          },
-          "original_candidate": "大分県公式観光サイトではJR今津駅から車で約10分と案内。",
-          "evidence": [
-            {
-              "url": "https://www.nakatsu-cc.com/",
-              "body_evidence": "中津CC、大分県中津市大字野依1347、0979-32-3411。",
-              "lines": "83-89",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://www.visit-oita.jp/topics/detail/540",
-              "body_evidence": "中津CC、野依1347、0979-32-3411、現HPリンクnakatsu-cc.com。中津IC車約10分/JR今津駅車約10分。",
-              "lines": "298-312",
-              "sourceType": "official_tourism_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "観光sourceTypeを施設運営officialとしない。旧宇佐ICの区分情報は今回未確認なので消さず新事実を補記する場合も出典別にする。",
-            "旧URL取得不能は恒常的障害の認定ではない。現公式へ改善候補。"
-          ]
-        },
-        "review": {
-          "id": 703,
-          "name": "中津カントリークラブ",
-          "field": "rail",
-          "status": "条件付適用",
-          "review": "大分県公式観光サイトという出典ラベルを保持。施設運営者の直接確認としない。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://www.nakatsu-cc.com/",
-            "https://www.visit-oita.jp/topics/detail/540"
-          ],
-          "candidate_text": "大分県公式観光サイトではJR今津駅から車で約10分と案内。"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "http://www.co-site.jp/nakatsu-cc/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440014/",
+          "https://www.nakatsu-cc.com/",
+          "https://www.visit-oita.jp/topics/detail/540"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -436,53 +192,18 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "artifact": "/workspace/shared/japan-oct29-new-evidence/batch6-results.json",
-          "baseline_values": {
-            "car": {
-              "text": "九州自動車道・熊本ICから25km以内と掲載。距離区分で、所要時間を示すものではありません。",
-              "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430020/",
-              "checked": "2026-10-25",
-              "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-              "sourceType": "booking"
-            },
-            "note": "最新の料金・営業状況・予約条件は施設の公式案内をご確認ください。"
-          },
-          "original_candidate": "熊本ICから国道57号線・新阿蘇大橋経由で車で約40分。益城ICから長陽大橋経由で車で約45分。",
-          "evidence": [
-            {
-              "url": "https://aso-yunotani.co.jp/access-map/",
-              "body_evidence": "熊本ICから国道57号・新阿蘇大橋経由約40分。益城ICから長陽大橋経由約45分。",
-              "lines": "41-45",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            },
-            {
-              "url": "https://aso-yunotani.co.jp/",
-              "body_evidence": "2026.10.29:2027年1月・2月完全セルフ日拡大のお知らせというリンク見出し。",
-              "lines": "57",
-              "sourceType": "facility_official_html",
-              "checked": "2026-10-29"
-            }
-          ],
-          "conditions_and_unresolved": [
-            "新告知詳細Cache miss。見出しのみで対象日/風呂/食堂の条件を補わず、note更新は保留。"
-          ]
-        },
-        "review": {
-          "id": 712,
-          "name": "熊本ゴルフ倶樂部 阿蘇湯の谷コース",
-          "field": "car",
-          "status": "適用可",
-          "review": "指定候補の根拠本文と整合。非対象情報・出典・確認日を保持した最小差分のみ。",
-          "verification_mode": "webで公式本文を独立再取得（703アクセスは公式観光）",
-          "source": [
-            "https://aso-yunotani.co.jp/access-map/",
-            "https://aso-yunotani.co.jp/"
-          ],
-          "candidate_text": "熊本ICから国道57号線・新阿蘇大橋経由で車で約40分。益城ICから長陽大橋経由で車で約45分。"
-        },
-        "normalization_conditions": "678対象日を年込み。688は2025-01-01料金表の薄暮プレイ12時以降のみ風呂なし。703railは本文に観光協会を表示、sourceType tourism。703car/716stay除外。"
+        "sourceUrls": [
+          "https://aso-yunotani.co.jp/",
+          "https://aso-yunotani.co.jp/access-map/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430020/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "c7c83ba08f020a526c86896c37b8892989f3355c"
@@ -493,17 +214,15 @@
       "before": null,
       "after": "https://rfgr.jp/toyama/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://rfgr.jp/toyama/",
-        "url": "https://rfgr.jp/toyama/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/393.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/393.txt"
+        "sourceUrls": [
+          "https://rfgr.jp/toyama/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 393,
@@ -535,23 +254,17 @@
         "basis": "Access body: 富山インターから車で15分"
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・富山ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160013/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは富山ICから車で15分。",
-        "url": "https://rfgr.jp/toyama/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access body: 富山インターから車で15分",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/393access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/393access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160013/",
+          "https://rfgr.jp/toyama/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 393,
@@ -577,17 +290,15 @@
         "basis": "Access body: 富山駅から車で35分"
       },
       "sourceEvidence": {
-        "field": "rail",
-        "previousValue": null,
-        "text": "富山駅から車で35分。",
-        "url": "https://rfgr.jp/toyama/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access body: 富山駅から車で35分",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/393access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/393access.txt"
+        "sourceUrls": [
+          "https://rfgr.jp/toyama/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 393,
@@ -607,17 +318,15 @@
       "before": null,
       "after": "https://uozu-cc.jp/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://uozu-cc.jp/",
-        "url": "https://uozu-cc.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394.txt"
+        "sourceUrls": [
+          "https://uozu-cc.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 394,
@@ -637,17 +346,15 @@
       "before": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
       "after": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年10月29日確認時、アプローチ練習場は今シーズン終了と案内されています。",
       "sourceEvidence": {
-        "field": "note",
-        "previousValue": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
-        "text": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年10月29日確認時、アプローチ練習場は今シーズン終了と案内されています。",
-        "url": "https://uozu-cc.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Visible homepage: アプローチ練習場はクローズ(今シーズン終了)となります。",
-        "conditions": "Approach practice area only; not main driving range or course closure. Reopening date not stated.",
-        "mergeInstructions": "Append only; original general confirmation notice retained verbatim. Do not replace facility existence with temporary restriction.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394.txt"
+        "sourceUrls": [
+          "https://uozu-cc.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 394,
@@ -679,23 +386,17 @@
         "basis": "Access body: 魚津 IC ～ 約10分(5Km)"
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・魚津ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160001/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは魚津ICから約5km・車で約10分。",
-        "url": "https://uozu-cc.jp/access",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access body: 魚津 IC ～ 約10分(5Km)",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160001/",
+          "https://uozu-cc.jp/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 394,
@@ -721,17 +422,15 @@
         "basis": "Station transfer portions only; intercity train schedules not imported."
       },
       "sourceEvidence": {
-        "field": "rail",
-        "previousValue": null,
-        "text": "魚津駅からタクシー等で約20分、黒部宇奈月温泉駅から約25分。",
-        "url": "https://uozu-cc.jp/access",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Station transfer portions only; intercity train schedules not imported.",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/394access.txt"
+        "sourceUrls": [
+          "https://uozu-cc.jp/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 394,
@@ -751,17 +450,15 @@
       "before": null,
       "after": "https://rfgr.jp/senbadaira/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://rfgr.jp/senbadaira/",
-        "url": "https://rfgr.jp/senbadaira/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/395.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/395.txt"
+        "sourceUrls": [
+          "https://rfgr.jp/senbadaira/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 395,
@@ -793,23 +490,17 @@
         "basis": "Access methods list4km and10km; 富山方面 section gives砺波IC10分."
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・小矢部ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160007/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは小矢部ICから4km、砺波ICから10km・約10分。",
-        "url": "https://rfgr.jp/senbadaira/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access methods list4km and10km; 富山方面 section gives砺波IC10分.",
-        "conditions": "Do not assign10min to小矢部IC.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/395access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/395access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160007/",
+          "https://rfgr.jp/senbadaira/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 395,
@@ -829,17 +520,15 @@
       "before": null,
       "after": "https://www.takaoka-cc.co.jp/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://www.takaoka-cc.co.jp/",
-        "url": "https://www.takaoka-cc.co.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396.txt"
+        "sourceUrls": [
+          "https://www.takaoka-cc.co.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 396,
@@ -859,17 +548,15 @@
       "before": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
       "after": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年10月28日の公式案内では、ボイラー故障により男女とも浴槽を停止し、シャワーのみ利用可能。11月4日頃までの見込みで、11月5日以降は改めて案内予定です。",
       "sourceEvidence": {
-        "field": "note",
-        "previousValue": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
-        "text": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年10月28日の公式案内では、ボイラー故障により男女とも浴槽を停止し、シャワーのみ利用可能。11月4日頃までの見込みで、11月5日以降は改めて案内予定です。",
-        "url": "https://www.takaoka-cc.co.jp/archives/16411/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Dated official body explicitly states both baths/tubs unavailable, showers available, forecast throughNov4 and later update.",
-        "conditions": "Forecast is not guaranteed reopening. Preserve bath facility existence; temporary tub restriction only.",
-        "mergeInstructions": "Append only; original general confirmation notice retained verbatim. Do not replace facility existence with temporary restriction.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396notice.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396notice.txt"
+        "sourceUrls": [
+          "https://www.takaoka-cc.co.jp/archives/16411/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 396,
@@ -901,23 +588,17 @@
         "basis": "Access body: 北陸自動車道小杉ICから10分。"
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・小杉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160009/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは小杉ICから車で10分。",
-        "url": "https://www.takaoka-cc.co.jp/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access body: 北陸自動車道小杉ICから10分。",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160009/",
+          "https://www.takaoka-cc.co.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 396,
@@ -943,17 +624,15 @@
         "basis": "Taxi section gives station transfer times."
       },
       "sourceEvidence": {
-        "field": "rail",
-        "previousValue": null,
-        "text": "新高岡駅からタクシー20分、高岡駅から25分。",
-        "url": "https://www.takaoka-cc.co.jp/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Taxi section gives station transfer times.",
-        "conditions": "Old intercity rail routing and taxi fare omitted.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/396access.txt"
+        "sourceUrls": [
+          "https://www.takaoka-cc.co.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 396,
@@ -973,17 +652,15 @@
       "before": null,
       "after": "https://www.tsurugagolf.co.jp/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://www.tsurugagolf.co.jp/",
-        "url": "https://www.tsurugagolf.co.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/465.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/465.txt"
+        "sourceUrls": [
+          "https://www.tsurugagolf.co.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 465,
@@ -1015,23 +692,17 @@
         "basis": "Official access10min/5min; ETC-only, must stop, vehicle length over12m disallowed."
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・敦賀ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180006/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは敦賀ICから車で10分、敦賀南スマートICから5分（ETC搭載・車長12m以下）。",
-        "url": "https://www.tsurugagolf.co.jp/access.html",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Official access10min/5min; ETC-only, must stop, vehicle length over12m disallowed.",
-        "conditions": "SmartIC stop required; not all vehicles eligible.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/465access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/465access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180006/",
+          "https://www.tsurugagolf.co.jp/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 465,
@@ -1057,17 +728,15 @@
         "basis": "Access body: 敦賀駅よりタクシー20分。"
       },
       "sourceEvidence": {
-        "field": "rail",
-        "previousValue": null,
-        "text": "敦賀駅からタクシー20分。",
-        "url": "https://www.tsurugagolf.co.jp/access.html",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access body: 敦賀駅よりタクシー20分。",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/465access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/465access.txt"
+        "sourceUrls": [
+          "https://www.tsurugagolf.co.jp/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 465,
@@ -1087,17 +756,15 @@
       "before": null,
       "after": "https://www.suginokidai.jp/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://www.suginokidai.jp/",
-        "url": "https://www.suginokidai.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/466.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/466.txt"
+        "sourceUrls": [
+          "https://www.suginokidai.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 466,
@@ -1117,17 +784,15 @@
       "before": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
       "after": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年4月26日の公式案内では、脱衣場にタオル類の用意はなく、有料ロッカーを利用するか各自持参が必要です。",
       "sourceEvidence": {
-        "field": "note",
-        "previousValue": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
-        "text": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年4月26日の公式案内では、脱衣場にタオル類の用意はなく、有料ロッカーを利用するか各自持参が必要です。",
-        "url": "https://www.suginokidai.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Dated homepage bath request explicitly no towels in changing room, paid locker or bring own.",
-        "conditions": "Not a bath closure.",
-        "mergeInstructions": "Append only; original general confirmation notice retained verbatim. Do not replace facility existence with temporary restriction.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/466.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/466.txt"
+        "sourceUrls": [
+          "https://www.suginokidai.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 466,
@@ -1159,23 +824,17 @@
         "basis": "Both IC sections state約20分."
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・鯖江ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180004/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは福井IC・鯖江ICから各約20分。",
-        "url": "https://www.suginokidai.jp/contents/access.php",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Both IC sections state約20分.",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/466access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/466access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180004/",
+          "https://www.suginokidai.jp/contents/access.php"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 466,
@@ -1195,17 +854,15 @@
       "before": null,
       "after": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
-        "url": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.txt"
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 467,
@@ -1231,17 +888,15 @@
         "basis": "Operator course overview explicitly names杉や松 and大小9個の池."
       },
       "sourceEvidence": {
-        "field": "scenery",
-        "previousValue": null,
-        "text": "杉や松でホールが区切られ、大小9個の池が配置されたコース。",
-        "url": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Operator course overview explicitly names杉や松 and大小9個の池.",
-        "conditions": "No invented views or signature designation.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.txt"
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 467,
@@ -1273,23 +928,17 @@
         "basis": "Operator address heading: 北陸自動車道/丸岡ICより3km。"
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・丸岡ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180009/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式案内では丸岡ICから3km。",
-        "url": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Operator address heading: 北陸自動車道/丸岡ICより3km。",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180009/",
+          "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 467,
@@ -1309,22 +958,16 @@
       "before": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
       "after": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年12月31日までの公式掲載プラン「V薄暮ハーフ」ではロッカー・浴場利用不可、スタート前精算です。2026年12月28～31日は特別営業日で、キャンセル料・2B/3B割増の対象と案内されています。",
       "sourceEvidence": {
-        "field": "note",
-        "previousValue": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
-        "text": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 公式掲載の「V薄暮ハーフ」ではロッカー・浴場利用不可、スタート前精算です。2026年12月28～31日は特別営業日で、キャンセル料・2B/3B割増の対象と案内されています。",
-        "url": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "V薄暮ハーフ plan body explicitly no locker/bath and prepayment. Separate official notice07/31 declaresDec28–31 special days.",
-        "conditions": "Half-plan conditions only; no facility-wide bath closure. Future special days not current closure; no surcharge amounts inferred.",
-        "mergeInstructions": "Append only; original general confirmation notice retained verbatim. Do not replace facility existence with temporary restriction.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467.txt",
-        "additionalEvidence": {
-          "url": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/notice/",
-          "html": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/467notice.html",
-          "basis": "2026-07-31年末特別営業日案内"
-        }
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
+          "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/notice/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 467,
@@ -1344,17 +987,15 @@
       "before": null,
       "after": "https://www.wakasacc.co.jp/",
       "sourceEvidence": {
-        "field": "officialUrl",
-        "previousValue": null,
-        "text": "https://www.wakasacc.co.jp/",
-        "url": "https://www.wakasacc.co.jp/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Live regional golf federation directly links this named course; operator homepage and access identity inspected.",
-        "conditions": "Null officialUrl fill, not a claim baseline federation URL is erroneous.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468.txt"
+        "sourceUrls": [
+          "https://www.wakasacc.co.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 468,
@@ -1386,23 +1027,17 @@
         "basis": "West/east route text explicitly10/15min."
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "舞鶴若狭自動車道・若狭上中ICから10km以内／舞鶴若狭自動車道・若狭三方ICから25km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180011/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは若狭上中ICから約10分、若狭三方ICから約15分。",
-        "url": "https://www.wakasacc.co.jp/access",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "West/east route text explicitly10/15min.",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180011/",
+          "https://www.wakasacc.co.jp/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 468,
@@ -1434,23 +1069,17 @@
         "basis": "Official lodging body explicit room breakdown/capacity."
       },
       "sourceEvidence": {
-        "field": "stay",
-        "previousValue": {
-          "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180011/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式宿泊案内ではクラブハウス併設、洋室4室・VIP室5室、計9室18名。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
-        "url": "https://www.wakasacc.co.jp/hotel",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Official lodging body explicit room breakdown/capacity.",
-        "conditions": "No current vacancy or operating dates inferred.",
-        "mergeInstructions": "Replace only booking-only lodging-exists assertion with operator detail; retain original conditions sentence.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468hotel.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468hotel.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180011/",
+          "https://www.wakasacc.co.jp/hotel"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 468,
@@ -1470,17 +1099,15 @@
       "before": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
       "after": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年7月3日の公式案内では、コース内カート乗入れは2026年7月10日～10月末日の予定。猛暑によるコース状態や悪天候で中止の場合があります。",
       "sourceEvidence": {
-        "field": "note",
-        "previousValue": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。",
-        "text": "予約可能な日程、会員同伴などの利用条件、最新料金は各施設へご確認ください。 2026年7月3日の公式案内では、コース内カート乗入れは7月10日～10月末日の予定。猛暑によるコース状態や悪天候で中止の場合があります。",
-        "url": "https://www.wakasacc.co.jp/announcement/6d3a",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Dated body gives period and condition/weather exceptions.",
-        "conditions": "Do not promise November cart entry; not course closure.",
-        "mergeInstructions": "Append only; original general confirmation notice retained verbatim. Do not replace facility existence with temporary restriction.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468notice.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/468notice.txt"
+        "sourceUrls": [
+          "https://www.wakasacc.co.jp/announcement/6d3a"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 468,
@@ -1512,23 +1139,17 @@
         "basis": "Access bullet body listsICtimes."
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・加賀ICから15km以内／北陸自動車道・片山津ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/170004/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは片山津IC・小松IC・加賀ICから車で約20～25分、二ツ梨ICから約3分。",
-        "url": "https://www.natadera-cc.com/access",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Access bullet body listsICtimes.",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/476access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/476access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/170004/",
+          "https://www.natadera-cc.com/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 476,
@@ -1560,23 +1181,17 @@
         "basis": "Official car access bullets exactdistance/time."
       },
       "sourceEvidence": {
-        "field": "car",
-        "previousValue": {
-          "text": "北陸自動車道・片山津ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/170013/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "sourceType": "booking"
-        },
-        "text": "公式アクセスでは片山津ICから14km・約20分、小松ICから18km・約25分、加賀ICから17km・約25分。",
-        "url": "https://www.komatsu-public.jp/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Official car access bullets exactdistance/time.",
-        "conditions": "Navigation asks old name小松パブリック; actual club name remains小松ゴルフ倶楽部.",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477access.txt"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/170013/",
+          "https://www.komatsu-public.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 477,
@@ -1602,17 +1217,15 @@
         "basis": "Official access explicit stationcar15min11km."
       },
       "sourceEvidence": {
-        "field": "rail",
-        "previousValue": null,
-        "text": "加賀温泉駅から車で約15分（11km）。",
-        "url": "https://www.komatsu-public.jp/access/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Official access explicit stationcar15min11km.",
-        "conditions": "",
-        "mergeInstructions": "add verified detail; preserve other existing facts and their source attribution",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477access.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477access.txt"
+        "sourceUrls": [
+          "https://www.komatsu-public.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 477,
@@ -1632,23 +1245,16 @@
       "before": "最新の営業状況・利用条件・料金は公式情報をご確認ください。",
       "after": "最新の営業状況・利用条件・料金は公式情報をご確認ください。 2026年8月24日からプレー代金の精算等でPayPay決済の利用を停止しています。",
       "sourceEvidence": {
-        "field": "note",
-        "previousValue": "最新の営業状況・利用条件・料金は公式情報をご確認ください。",
-        "text": "最新の営業状況・利用条件・料金は公式情報をご確認ください。 2026年8月24日からプレー代金の精算等でPayPay決済の利用を停止しています。",
-        "url": "https://www.komatsu-public.jp/pickup/paypay%E6%B1%BA%E6%B8%88%E3%81%AE%E3%81%94%E5%88%A9%E7%94%A8%E5%81%9C%E6%AD%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
-        "checked": "2026-10-29",
-        "sourceType": "official",
-        "basis": "Official page datedAug30 directly embeds notice image dated令和8年8月18日, effective8/24; visually inspected saved image.",
-        "conditions": "No unsupported statement about other payment methods.",
-        "mergeInstructions": "Append only; original general confirmation notice retained verbatim. Do not replace facility existence with temporary restriction.",
-        "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477notice.html",
-        "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477notice.txt",
-        "imageProvenance": {
-          "htmlEmbedSnippet": "<img fetchpriority=\"high\" decoding=\"async\" class=\"alignnone size-medium wp-image-15023\" src=\"https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-225x300.jpeg\" alt=\"\" width=\"225\" height=\"300\" srcset=\"https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-225x300.jpeg 225w, https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-768x1024.jpeg 768w, https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-1152x1536.jpeg 1152w, https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-1536x2048.jpeg 1536w, https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-scaled.jpeg 1920w\" sizes=\"(max-width: 225px) 100vw, 225px\" />",
-          "inspectedImageUrl": "https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-768x1024.jpeg",
-          "localImage": "/workspace/shared/japan-oct29-new-evidence/batch7-assets/477-paypay.jpeg",
-          "inspection": "Visible notice confirmsPayPay停止effective2026-08-24; image available via embedded srcset."
-        }
+        "sourceUrls": [
+          "https://www.komatsu-public.jp/pickup/paypay%E6%B1%BA%E6%B8%88%E3%81%AE%E3%81%94%E5%88%A9%E7%94%A8%E5%81%9C%E6%AD%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+          "https://www.komatsu-public.jp/wp-content/uploads/2026/08/IMG_9243-1-768x1024.jpeg"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 477,
@@ -1680,13 +1286,17 @@
         "basis": "対象クラブのm-infoアクセス欄。旧針IC4kmは近隣奈良名阪カードに属する。"
       },
       "sourceEvidence": {
-        "proposalArtifact": "/workspace/shared/japan-oct29-new-evidence/batch17-results.json",
-        "html": "/workspace/shared/japan-oct29-new-evidence/batch17-assets/242access.html",
-        "ownershipProof": "/workspace/shared/japan-oct29-new-evidence/batch17-assets/242-target-vs-neighbor.json",
-        "independentReview": "/workspace/shared/japan-oct29-new-evidence/batches16-17-independent-review.json"
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/nara/narawaka/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "74e6666eb95d26865bb61a245734d43b534c049d"
     }
-  ]
+  ],
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }

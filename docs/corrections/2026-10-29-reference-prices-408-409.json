@@ -32,15 +32,17 @@
         "validThrough": "2026-11-30"
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://kaihills.chateraisegolf.jp/fee/",
-          "checked": "2026-10-29",
-          "basis": "既存独立支持維持。11:52公式本文で全条件再確認。",
-          "evidenceRef": "turn245view0",
-          "lineScope": "59-78"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://kaihills.chateraisegolf.jp/fee/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "baseSha": "af89895885f0f65ac12dd66377b384204280eade",
       "editorFreshOfficialCheck": "2026-10-29T13:07Z successful web official fee pages; same plan conditions confirmed;409caddie advance consultation visibly in conditions."
     },
@@ -73,15 +75,17 @@
         "validThrough": "2026-10-31"
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://kasugai.chateraisegolf.jp/fee/",
-          "checked": "2026-10-29",
-          "basis": "既存独立支持維持。11:52公式本文で全条件再確認。",
-          "evidenceRef": "turn245view1",
-          "lineScope": "40-41,75-77,101-119"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://kasugai.chateraisegolf.jp/fee/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "editorDisplayReview": "Finder renders conditions instead of full text; carry prior-consultation requirement into visible conditions too.",
       "baseSha": "af89895885f0f65ac12dd66377b384204280eade",
       "editorFreshOfficialCheck": "2026-10-29T13:07Z successful web official fee pages; same plan conditions confirmed;409caddie advance consultation visibly in conditions."
@@ -110,5 +114,6 @@
     "408caddie/early/half/lodging and409weekend/specialday/half/competition exclusions remain explicit.",
     "409actual finder-result screen may remain unreachable under normal ranking; local function test is not browser observation."
   ],
-  "rollback": "Restore data,HTML andqueue from baseCommit in a new commit; read-only regression files may remain or be restored independently."
+  "rollback": "Restore data,HTML andqueue from baseCommit in a new commit; read-only regression files may remain or be restored independently.",
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }

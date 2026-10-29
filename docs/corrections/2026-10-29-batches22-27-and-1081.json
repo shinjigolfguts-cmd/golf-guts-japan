@@ -28,32 +28,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "東名阪自動車道/桑名東ICから約17km。",
-            "url": "https://www.nagashima-onsen.co.jp/wp-content/uploads/2022/06/MAPgolf2023-02.pdf",
-            "checked": "2026-10-25",
-            "basis": "施設公式アクセスを個別照合。公式linked PDF実取得/視認:桑名東IC17km約25分。現17km supports.",
-            "sourceType": "official"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "東名阪自動車道・桑名東ICから17km・約25分（公式アクセス地図の目安）。",
-            "url": "https://www.nagashima-onsen.co.jp/wp-content/uploads/2022/06/MAPgolf2023-02.pdf",
-            "checked": "2026-10-29",
-            "basis": "現公式TOPから直リンクしたPDFを保存/レンダー目視、桑名東IC→ナガシマCC17km約25分。",
-            "sourceType": "official"
-          },
-          "candidate": "東名阪自動車道・桑名東ICから17km・約25分（公式アクセス地図の目安）。",
-          "sourceUrl": "https://www.nagashima-onsen.co.jp/wp-content/uploads/2022/06/MAPgolf2023-02.pdf",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "現公式TOPから直リンクしたPDFを保存/レンダー目視、桑名東IC→ナガシマCC17km約25分。",
-          "conditions": "既存17kmを維持し同根拠時間追加。別起点の桑名IC15km25分/大安5km10分と混同しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/560.html"
-        }
+        "sourceUrls": [
+          "https://www.nagashima-onsen.co.jp/wp-content/uploads/2022/06/MAPgolf2023-02.pdf"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 560,
@@ -88,32 +72,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "大久保駅からタクシーで約15分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/625201/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 大久保駅から15分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "近鉄京都線・大久保駅からタクシーで約15分。寺田駅から倶楽部送迎バスで約10分。寺田駅の乗り場は東出口から南（奈良方面）へ約200mです。",
-            "url": "https://www.higashijoyo.com/access",
-            "checked": "2026-10-29",
-            "basis": "電車で来場欄に大久保taxi15分/寺田送迎10分、乗り場欄に東出口南200m。",
-            "sourceType": "official"
-          },
-          "candidate": "近鉄京都線・大久保駅からタクシーで約15分。寺田駅から倶楽部送迎バスで約10分。寺田駅の乗り場は東出口から南（奈良方面）へ約200mです。",
-          "sourceUrl": "https://www.higashijoyo.com/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "電車で来場欄に大久保taxi15分/寺田送迎10分、乗り場欄に東出口南200m。",
-          "conditions": "城陽CCバスの東城陽経由は朝のみの別便。時刻を補充する場合この制限必須。予約不要/無料等は未確認で追加しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/1102access.html"
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/625201/access/",
+          "https://www.higashijoyo.com/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1102,
@@ -164,48 +133,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "山陽自動車道/三木東ICから約6km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/642403/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC\n    山陽自動車道/三木東ＩＣ 6 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "山陽自動車道/三木東ICから約6km。 公式アクセスでは、山陽自動車道・三木東ICから車で約10分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/642403/",
-            "checked": "2026-10-25",
-            "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
-            "sourceType": "mixed",
-            "evidenceSegments": [
-              {
-                "text": "山陽自動車道/三木東ICから約6km。",
-                "url": "https://reserve.golfdigest.co.jp/golf-course/642403/",
-                "checked": "2026-10-25",
-                "basis": "予約サイトの施設案内確認：最寄りIC\n    山陽自動車道/三木東ＩＣ 6 km",
-                "sourceType": "booking"
-              },
-              {
-                "text": "公式アクセスでは、山陽自動車道・三木東ICから車で約10分。",
-                "url": "https://century-yokawa.jp/access/",
-                "checked": "2026-10-29",
-                "sourceType": "official",
-                "basis": "西宮北方面→三木東IC→当倶楽部の最終区間約10分。途中高速15分を含めて合算しない。"
-              }
-            ]
-          },
-          "candidate": "山陽自動車道/三木東ICから約6km。 公式アクセスでは、山陽自動車道・三木東ICから車で約10分。",
-          "sourceUrl": "https://century-yokawa.jp/access/",
-          "sourceType": "mixed",
-          "checked": "2026-10-29",
-          "basis": "西宮北方面→三木東IC→当倶楽部の最終区間約10分。途中高速15分を含めて合算しない。",
-          "conditions": "既存6km/booking/10月25日を第一段落として完全保持。新公式時間の第二段落のみ10月29日。evidenceSegmentsは既存local形式による準備のみ、renderer未公開中は公開不可。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/1098access.html"
-        }
+        "sourceUrls": [
+          "https://century-yokawa.jp/access/",
+          "https://reserve.golfdigest.co.jp/golf-course/642403/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1098,
@@ -229,20 +167,15 @@
       "beforeExists": true,
       "after": "https://booking.pacificgolf.co.jp/guide/15.html",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "after": "https://booking.pacificgolf.co.jp/guide/15.html",
-          "candidate": "https://booking.pacificgolf.co.jp/guide/15.html",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/guide/15.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "PGM公式/kitahiroshima/のHTTP200メタrefresh指定先を正常追跡。対象名/北広島市中の沢450-1/011-373-1111一致。",
-          "conditions": "隣接PGM施設と混同しない。旧nullへ補充候補。meta refreshは取得失敗の迂回ではなく正常なサイト指定遷移。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/785target.html"
-        }
+        "sourceUrls": [
+          "https://booking.pacificgolf.co.jp/guide/15.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 785,
@@ -293,48 +226,18 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "ＪＲ千歳線・北広島駅から約10分。クラブバスは運行なし。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/112112/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "JR千歳線・北広島駅から車で約10分。クラブバスは運行していません。",
-            "url": "https://booking.pacificgolf.co.jp/guide/15.html",
-            "checked": "2026-10-29",
-            "basis": "対象公式TOPの北広島駅車約10分と、同対象clubid15ゴルフ場情報のクラブバス運行なしを照合。",
-            "sourceType": "official",
-            "evidenceSegments": [
-              {
-                "text": "JR千歳線・北広島駅から車で約10分。",
-                "url": "https://booking.pacificgolf.co.jp/guide/15.html",
-                "checked": "2026-10-29",
-                "sourceType": "official",
-                "basis": "対象施設TOPのアクセス本文。"
-              },
-              {
-                "text": "クラブバスは運行していません。",
-                "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=15",
-                "checked": "2026-10-29",
-                "sourceType": "official",
-                "basis": "同対象ゴルフ場情報クラブバス欄。"
-              }
-            ]
-          },
-          "candidate": "JR千歳線・北広島駅から車で約10分。クラブバスは運行していません。",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/guide/15.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "対象公式TOPの北広島駅車約10分と、同対象clubid15ゴルフ場情報のクラブバス運行なしを照合。",
-          "conditions": "移動手段は車と公式に明示。両方operator current10/29、旧バスなし条件を削除しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/785target.html"
-        }
+        "sourceUrls": [
+          "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=15",
+          "https://booking.pacificgolf.co.jp/guide/15.html",
+          "https://reserve.golfdigest.co.jp/golf-course/112112/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 785,
@@ -370,32 +273,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "近鉄奈良駅からタクシーで約35分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/657102/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 近鉄奈良駅から35分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "近鉄奈良駅から約15km、タクシーで約40分。",
-            "url": "https://yamato-cc.com/access",
-            "checked": "2026-10-29",
-            "basis": "電車アクセス: JR奈良駅/近鉄奈良駅約15Km、taxi約40分。",
-            "sourceType": "official"
-          },
-          "candidate": "近鉄奈良駅から約15km、タクシーで約40分。",
-          "sourceUrl": "https://yamato-cc.com/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "電車アクセス: JR奈良駅/近鉄奈良駅約15Km、taxi約40分。",
-          "conditions": "旧近鉄奈良35分と現在公式40分が異なる。経路/交通条件差不明で誤記断定しない。天理駅taxi25分と混同なし。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/1152access.html"
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/657102/access/",
+          "https://yamato-cc.com/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1152,
@@ -430,32 +318,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "名阪国道/福住ICから約3km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/657102/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 名阪国道/福住IC 3 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "名阪国道・福住ICから3km・約5分。",
-            "url": "https://yamato-cc.com/access",
-            "checked": "2026-10-29",
-            "basis": "公式アクセスの福住IC3km約5分と道順（天理ICから名阪国道を進んで福住IC）を照合。",
-            "sourceType": "official"
-          },
-          "candidate": "名阪国道・福住ICから3km・約5分。",
-          "sourceUrl": "https://yamato-cc.com/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式アクセスの福住IC3km約5分と道順（天理ICから名阪国道を進んで福住IC）を照合。",
-          "conditions": "本文の路線見出しは西名阪だが道順では名阪国道。既存名阪国道区分を維持しIC距離・目安時間のみ公式化。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/1152access.html"
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/657102/access/",
+          "https://yamato-cc.com/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1152,
@@ -478,20 +351,15 @@
       "beforeExists": true,
       "after": "https://www.kitakamicc.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch22-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "after": "https://www.kitakamicc.jp/",
-          "candidate": "https://www.kitakamicc.jp/",
-          "sourceUrl": "https://www.kitakamicc.jp/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "現公式TOP HTTP200、きたかみ名称/北上市和賀町煤孫1地割97-1/0197-73-6911一致。",
-          "conditions": "access下層timeout前に成功した独立TOP実体を根拠。アクセス数値は追加しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch22-assets/325.html"
-        }
+        "sourceUrls": [
+          "https://www.kitakamicc.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 325,
@@ -526,25 +394,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "堅田駅からタクシーで約10分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/615206/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー\n    堅田駅から10分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "JR湖西線・堅田駅からタクシーで約10分。",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/shiga/hira/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "対象施設住所大津市小野1611のm-infoアクセス本文。近隣カード不使用。旧値裏取り。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/shiga/hira/access",
+          "https://reserve.golfdigest.co.jp/golf-course/615206/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1122,
@@ -579,25 +439,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "湖西道路/真野ICから約2km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/615206/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC\n    湖西道路/真野ＩＣ 2 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "湖西道路・真野ICから側道を通って約2km、約5分。京都東ICからは西大津バイパス・湖西道路を敦賀方面へ。",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/shiga/hira/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "対象施設自身の車アクセス本文。旧2kmの公式裏取りと所要時間。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/shiga/hira/access",
+          "https://reserve.golfdigest.co.jp/golf-course/615206/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1122,
@@ -620,19 +472,16 @@
       "beforeExists": true,
       "after": "https://www.yumotospcc.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "candidate": "https://www.yumotospcc.jp/",
-          "sourceUrl": "https://www.yumotospcc.jp/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "施設名・住所いわき市遠野町滝字山ノ神24-5・電話0246-89-2421一致。null補充。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://www.yumotospcc.jp/",
+          "https://www.yumotospcc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 841,
@@ -683,25 +532,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "常磐自動車道・いわき湯本ICから10km以内／常磐自動車道・いわき小名浜ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70054/",
-            "checked": "2026-10-25",
-            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "常磐自動車道・湯本ICより約10km、約10分。いわき小名浜ICから小名浜道路（無料）を経由し、いわき山田ICより約7km、約10分。",
-          "sourceUrl": "https://www.yumotospcc.jp/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式アクセスの2ルート本文。7km/10分の起点は山田ICであり小名浜ICからとしない。旧小名浜IC10km以内は今回未検証なので別予約segmentで保持。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70054/",
+          "https://www.yumotospcc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 841,
@@ -737,25 +578,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "大曲駅から約７分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/240503/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "大曲駅から車で約10分。",
-          "sourceUrl": "https://golf.omagari-sc.com/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式TOP「大仙市大曲中心市街地まで約10分」直後に「最寄りの大曲駅から車で約10分」と明記。旧7分を訂正、移動手段具体化。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://golf.omagari-sc.com/",
+          "https://reserve.golfdigest.co.jp/golf-course/240503/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 191,
@@ -790,25 +623,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "東海環状自動車道/いなべICから約8km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/531203/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 東海環状自動車道/いなべIC 8 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "東海環状自動車道・いなべICより約7km・約10分（伊勢湾岸道四日市JCT経由、2025年3月29日開通）。桑名ICより約25km・約35分、関ヶ原ICより約23km・約30分。ETC利用の場合は養老スマートICからのルートも利用できます。",
-          "sourceUrl": "https://www.kyogano.net/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式交通のご案内。旧いなべ8kmを7kmへ訂正、条件保持。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/531203/access/",
+          "https://www.kyogano.net/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1193,
@@ -859,25 +684,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "舞鶴若狭自動車道/三田西ICから約3km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/648101/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC\n    舞鶴若狭自動車道/三田西ＩＣ 3 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "中国自動車道・神戸三田ICから車で約10分。",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/guide/101.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式当該施設PLEASURES本文。旧三田西IC3kmは別ICのため削除せず予約旧segment保持。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://booking.pacificgolf.co.jp/guide/101.html",
+          "https://reserve.golfdigest.co.jp/golf-course/648101/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1753,
@@ -929,25 +746,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "三田駅からタクシーで約15分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/648101/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー\n    三田駅から約15分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "JR三田駅南口からクラブバスを運行。平日は往路8:00・復路17:00、事前予約が必要で月曜・金曜は運休。土日祝は往路7:00・8:00、復路16:00・17:00。",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=101",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式クラブバス本文。予約条件/月金運休は平日段落に帰属。旧三田駅taxi15分は今回未検証のため旧予約segment保持。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=101",
+          "https://reserve.golfdigest.co.jp/golf-course/648101/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1753,
@@ -971,19 +780,16 @@
       "beforeExists": true,
       "after": "https://www.sapporo-regent.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "candidate": "https://www.sapporo-regent.jp/",
-          "sourceUrl": "https://www.sapporo-regent.jp/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式施設名、新/旧コース北広島市島松641・電話011-377-3111一致。トムソン別所在地も記載されるが36Hレコードの対象は新/旧。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://www.sapporo-regent.jp/",
+          "https://www.sapporo-regent.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 792,
@@ -1018,25 +824,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "札幌駅から約45分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/111501/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "札幌駅からタクシーで約45分、北広島駅からタクシーで約18分。",
-          "sourceUrl": "https://www.sapporo-regent.jp/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式「電車・タクシー」欄。旧45分の移動手段を具体化。料金は今回対象外として転記しない。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/111501/",
+          "https://www.sapporo-regent.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 792,
@@ -1087,25 +885,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch23-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "京奈和自動車道/橋本東ICから約4km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/665101/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 京奈和自動車道/橋本東IC 4 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "橋本ICから約15分、橋本東ICから約10分、河内長野方面から約20分。公式掲載時間は参考です。",
-          "sourceUrl": "https://hashimoto-cc.jp/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式道順見出しの総所要時間。途中道順「まっすぐ約7分」はICから施設までの時間と混同しない。旧橋本東4kmは未検証のため予約旧日付segmentで保持。",
-          "conditions": "所要時間は案内目安。対象外の旧条件は維持。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://hashimoto-cc.jp/access.html",
+          "https://reserve.golfdigest.co.jp/golf-course/665101/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 245,
@@ -1141,32 +931,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch24-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "東名阪自動車道桑名東ICから約35km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/535302/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：東名阪自動車道桑名東ICより約35km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "東名阪自動車道・桑名東ICから約25km（公式現在案内の目安）。",
-            "url": "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
-            "checked": "2026-10-29",
-            "basis": "対象TOP名称/所在地直下に東名阪自動車道/桑名東ICより25km。",
-            "sourceType": "official"
-          },
-          "candidate": "東名阪自動車道・桑名東ICから約25km（公式現在案内の目安）。",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "対象TOP名称/所在地直下に東名阪自動車道/桑名東ICより25km。",
-          "conditions": "旧35kmと同一ICだが経路差未確定。絶対的転記誤りではなく現公式目安への更新。いなべIC約10分は別起点であり混同しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch24-assets/558.html"
-        }
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
+          "https://reserve.golfdigest.co.jp/golf-course/535302/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 558,
@@ -1189,20 +964,16 @@
       "beforeExists": true,
       "after": "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch24-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=024",
-          "beforeExists": true,
-          "after": "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
-          "candidate": "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "既存gid024 URLの正常HTTPredirect先。藤原ゴルフクラブ/いなべ市藤原町上相場640-7一致。",
-          "conditions": "旧URLの故障断定ではない。正常な現canonicalへの整備候補。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch24-assets/558.html"
-        }
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/mie/fujiwara/",
+          "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=024"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 558,
@@ -1237,32 +1008,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch24-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "中国自動車道/吉川ICから約8km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/642104/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 中国自動車道/吉川ＩＣ 8 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "中国自動車道・吉川ICから約10km・約15分。",
-            "url": "https://www.kobesanda-gc.com/access.html",
-            "checked": "2026-10-29",
-            "basis": "お車の場合:吉川IC約10㎞約15分。上吉川小学校北交差点を右折後約2km先右折。",
-            "sourceType": "official"
-          },
-          "candidate": "中国自動車道・吉川ICから約10km・約15分。",
-          "sourceUrl": "https://www.kobesanda-gc.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "お車の場合:吉川IC約10㎞約15分。上吉川小学校北交差点を右折後約2km先右折。",
-          "conditions": "旧8kmから現公式目安へ更新。道路経路差未確定につき絶対的誤りと断定しない。三田西IC8km10分とは別ルート。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch24-assets/1077access.html"
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/642104/access/",
+          "https://www.kobesanda-gc.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1077,
@@ -1297,32 +1053,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch24-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "相野駅からタクシーで約10分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/642104/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 相野駅から10分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "JR福知山線・相野駅からタクシーで約10分。駅前を中心に動くタクシーは数台のため、事前に予約の上ご利用ください。",
-            "url": "https://www.kobesanda-gc.com/access.html",
-            "checked": "2026-10-29",
-            "basis": "電車の場合:相野駅taxi約10分、その直下に数台/事前予約のお願い。",
-            "sourceType": "official"
-          },
-          "candidate": "JR福知山線・相野駅からタクシーで約10分。駅前を中心に動くタクシーは数台のため、事前に予約の上ご利用ください。",
-          "sourceUrl": "https://www.kobesanda-gc.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "電車の場合:相野駅taxi約10分、その直下に数台/事前予約のお願い。",
-          "conditions": "既存10分は再確認し維持、事前予約条件追加。料金は今回追加しない。神戸三田GCと三田GCを混同しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch24-assets/1077access.html"
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/642104/access/",
+          "https://www.kobesanda-gc.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1077,
@@ -1357,32 +1098,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch24-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "阪和道・堺ICから車で約60分。",
-            "url": "https://reserve.accordiagolf.com/golfCourse/wakayama/sunresort/",
-            "checked": "2026-10-25",
-            "basis": "公式ページ本文確認：阪和道・堺ICから約60分！",
-            "sourceType": "official"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "阪和道・堺ICから車で約60分。阪和自動車道・海南東ICから約13km。",
-            "url": "https://reserve.accordiagolf.com/golfCourse/wakayama/sunresort/",
-            "checked": "2026-10-29",
-            "basis": "同じ現TOPの本文堺IC約60分、対象施設名称/所在地直下海南東IC13kmを確認。",
-            "sourceType": "official"
-          },
-          "candidate": "阪和道・堺ICから車で約60分。阪和自動車道・海南東ICから約13km。",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/wakayama/sunresort/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "同じ現TOPの本文堺IC約60分、対象施設名称/所在地直下海南東IC13kmを確認。",
-          "conditions": "既存堺60分を維持し別起点海南東13km追記。同一本文当日再確認なので混合不要、所要時間を距離から推定しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch24-assets/554.html"
-        }
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/wakayama/sunresort/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 554,
@@ -1405,20 +1130,15 @@
       "beforeExists": true,
       "after": "https://www.shonai-golf.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch24-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "after": "https://www.shonai-golf.jp/",
-          "candidate": "https://www.shonai-golf.jp/",
-          "sourceUrl": "https://www.shonai-golf.jp/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "庄内ゴルフ倶楽部公式TOP、山形県東田川郡庄内町狩川字小堤8-21/TEL0234-56-3322。既存dining/budget公式と同一ドメイン。",
-          "conditions": "協会urlやbookingUrlは削除しない、officialUrl nullのみ補充。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch24-assets/369.html"
-        }
+        "sourceUrls": [
+          "https://www.shonai-golf.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 369,
@@ -1453,25 +1173,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch25-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "名神高速道路/彦根ICから約2km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/615201/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 名神高速道路/彦根ＩＣ 2 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "名神高速道路・彦根ICから約2km。",
-          "sourceUrl": "https://www.hikone-cc.com/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "交通アクセス冒頭の距離2kmを確認。旧同一区間2kmの予約由来値を公式で裏取り。時間は同一ページに7/10分が併存するので転記しない。",
-          "conditions": "時間・距離は公式の目安。異なる起点・手段を旧値の誤りと断定しない。旧未確認条件は残す。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/615201/access/",
+          "https://www.hikone-cc.com/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1121,
@@ -1522,25 +1234,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch25-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "舞鶴若狭自動車道/宮津ICから約20km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/626202/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 舞鶴若狭自動車道/宮津ＩＣ 20 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "宮津与謝道路・与謝天橋立ICから約15km。IC出口を右折して国道176号を宮津市街方面へ進み、消防署前交差点を伊根方面へ左折、日置交差点から世屋高原方面へ。",
-          "sourceUrl": "https://miyazucc.com/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式対象宮津市下世屋303のアクセス本文。旧宮津IC20kmは別起点で未検証なので旧予約segmentに残す。",
-          "conditions": "時間・距離は公式の目安。異なる起点・手段を旧値の誤りと断定しない。旧未確認条件は残す。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://miyazucc.com/access",
+          "https://reserve.golfdigest.co.jp/golf-course/626202/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1107,
@@ -1592,25 +1296,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch25-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "三田駅からタクシーで約7分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/642105/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 三田駅から約７分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "JR・神戸電鉄の三田駅から無料送迎バスで約6分。乗り場は三田駅北側です。毎週月曜日（三田感謝日）は運行しませんが、祝日は除きます。",
-          "sourceUrl": "https://sanda-golf.com/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式本文と運行注意。旧taxi7分は移動手段が異なり未検証なので残す。バス6分をtaxi訂正にしない。",
-          "conditions": "時間・距離は公式の目安。異なる起点・手段を旧値の誤りと断定しない。旧未確認条件は残す。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/642105/access/",
+          "https://sanda-golf.com/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1080,
@@ -1662,25 +1358,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch25-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "中国自動車道/西宮北ICから約9km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/642105/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC  | 中国自動車道/西宮北ＩＣ 9 km",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "中国自動車道・西宮北ICおよび神戸三田ICから約20分、新名神高速道路・宝塚北スマートICから約25分。",
-          "sourceUrl": "https://sanda-golf.com/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式方面別IC所要時間。旧西宮北IC9kmは未検証なので予約旧segmentで保持。",
-          "conditions": "時間・距離は公式の目安。異なる起点・手段を旧値の誤りと断定しない。旧未確認条件は残す。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/642105/access/",
+          "https://sanda-golf.com/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1080,
@@ -1704,19 +1392,16 @@
       "beforeExists": true,
       "after": "https://kitamicc.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch25-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "candidate": "https://kitamicc.jp/",
-          "sourceUrl": "https://kitamicc.jp/about/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式施設名、北見市大正813番地、電話0157-36-8811と運営企業・施設概要を確認。null補充。",
-          "conditions": "時間・距離は公式の目安。異なる起点・手段を旧値の誤りと断定しない。旧未確認条件は残す。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://kitamicc.jp/",
+          "https://kitamicc.jp/about/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 772,
@@ -1767,25 +1452,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch25-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "河内長野駅からタクシーで約20分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/630102/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 河内長野駅から約20分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "河内長野駅のノバティ南館駐車場からクラブカーで約15分。泉ヶ丘駅南出口のロータリーからはクラブカーで約20分。公式では無料送迎バスを案内しています。",
-          "sourceUrl": "https://www.amanosan.jp/access",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式電車アクセス本文。旧河内長野taxi20分は別手段、未検証なので予約旧segmentで保持。運行曜日/時刻の画像は未取得で全日運行保証しない。",
-          "conditions": "時間・距離は公式の目安。異なる起点・手段を旧値の誤りと断定しない。旧未確認条件は残す。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/630102/access/",
+          "https://www.amanosan.jp/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 522,
@@ -1837,48 +1514,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "野洲駅からタクシーで約20分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/250041/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：ＪＲ東海道本線・近江八幡駅、野洲駅からタクシーで約20分。",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "野洲駅からタクシーで約20分。 公式ゴルフ場情報では、クラブバス送迎はありません。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/250041/",
-            "checked": "2026-10-25",
-            "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
-            "sourceType": "mixed",
-            "evidenceSegments": [
-              {
-                "text": "野洲駅からタクシーで約20分。",
-                "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/250041/",
-                "checked": "2026-10-25",
-                "basis": "予約サイトの施設案内確認：ＪＲ東海道本線・近江八幡駅、野洲駅からタクシーで約20分。",
-                "sourceType": "booking"
-              },
-              {
-                "text": "公式ゴルフ場情報では、クラブバス送迎はありません。",
-                "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=176",
-                "checked": "2026-10-29",
-                "sourceType": "official",
-                "basis": "当施設ID176/竜王ゴルフコース基本情報にクラブバス送迎なし。野洲taxi20分は本文未確認。"
-              }
-            ]
-          },
-          "candidate": "野洲駅からタクシーで約20分。 公式ゴルフ場情報では、クラブバス送迎はありません。",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=176",
-          "sourceType": "mixed",
-          "checked": "2026-10-29",
-          "basis": "当施設ID176/竜王ゴルフコース基本情報にクラブバス送迎なし。野洲taxi20分は本文未確認。",
-          "conditions": "旧根拠/日付/未再確認の時間を独立段落保持。新公式段落から旧時間の再確認を推定しない。数値差は現公式目安への更新であり絶対的誤記と断定しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/229access.html"
-        }
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/250041/",
+          "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=176"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 229,
@@ -1902,20 +1548,16 @@
       "beforeExists": true,
       "after": "https://sigc.co.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": "http://www.sigc.jp/",
-          "beforeExists": true,
-          "after": "https://sigc.co.jp/",
-          "candidate": "https://sigc.co.jp/",
-          "sourceUrl": "https://sigc.co.jp/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "既存http://www.sigc.jp/成功200内の移転告知とmeta refreshがhttp://sigc.co.jp/を指定、正常HTTPredirect後https://sigc.co.jp/関空クラシックゴルフ倶楽部本文・TEL072-482-1212。",
-          "conditions": "アクセス下層timeout前の独立成功TOPのみ使用。旧TOP記載電話は異なるため同一性根拠に使わず、明示移転来歴と対象名で確認。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/529next.html"
-        }
+        "sourceUrls": [
+          "http://www.sigc.jp/",
+          "https://sigc.co.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 529,
@@ -1938,20 +1580,15 @@
       "beforeExists": true,
       "after": "https://ohnumakokusai.jp/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "after": "https://ohnumakokusai.jp/",
-          "candidate": "https://ohnumakokusai.jp/",
-          "sourceUrl": "https://ohnumakokusai.jp/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "成功HGA加盟一覧762.htmlの大沼国際/駒見49-10/TEL01372-7-3311行がhttp://ohnumakokusai.jp/へ直リンク、正常redirect後同名称住所電話の現公式。",
-          "conditions": "大沼レイク/大沼プリンスと区別。アクセス画像timeout後再試行なし、URL補充は成功TOP本文に限定。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/762next.html"
-        }
+        "sourceUrls": [
+          "https://ohnumakokusai.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 762,
@@ -2002,48 +1639,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "最寄りIC：東北自動車道/白河ＩＣ 5 km (8分)。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/260401/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "予約サイトには、東北自動車道・白河ICから8分と掲載されています。 公式アクセスでは、白河ICから4.3km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/260401/",
-            "checked": "2026-10-25",
-            "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
-            "sourceType": "mixed",
-            "evidenceSegments": [
-              {
-                "text": "予約サイトには、東北自動車道・白河ICから8分と掲載されています。",
-                "url": "https://reserve.golfdigest.co.jp/golf-course/260401/",
-                "checked": "2026-10-25",
-                "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-                "sourceType": "booking"
-              },
-              {
-                "text": "公式アクセスでは、白河ICから4.3km。",
-                "url": "https://eightgg.kanekigp.co.jp/access/",
-                "checked": "2026-10-29",
-                "sourceType": "official",
-                "basis": "当施設所在地直下アクセス欄白河IC4.3km。旧5kmのみ現公式距離へ更新、旧8分は未再確認でbooking段落保持。"
-              }
-            ]
-          },
-          "candidate": "予約サイトには、東北自動車道・白河ICから8分と掲載されています。 公式アクセスでは、白河ICから4.3km。",
-          "sourceUrl": "https://eightgg.kanekigp.co.jp/access/",
-          "sourceType": "mixed",
-          "checked": "2026-10-29",
-          "basis": "当施設所在地直下アクセス欄白河IC4.3km。旧5kmのみ現公式距離へ更新、旧8分は未再確認でbooking段落保持。",
-          "conditions": "旧根拠/日付/未再確認の時間を独立段落保持。新公式段落から旧時間の再確認を推定しない。数値差は現公式目安への更新であり絶対的誤記と断定しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/869access.html"
-        }
+        "sourceUrls": [
+          "https://eightgg.kanekigp.co.jp/access/",
+          "https://reserve.golfdigest.co.jp/golf-course/260401/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 869,
@@ -2098,51 +1704,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "新白河駅から約8分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/260401/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking",
-            "updateExisting": true
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "新白河駅から約8分。 公式アクセスでは、JR東北本線・新白河駅から5.4km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/260401/",
-            "checked": "2026-10-25",
-            "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
-            "sourceType": "mixed",
-            "updateExisting": true,
-            "evidenceSegments": [
-              {
-                "text": "新白河駅から約8分。",
-                "url": "https://reserve.golfdigest.co.jp/golf-course/260401/",
-                "checked": "2026-10-25",
-                "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-                "sourceType": "booking",
-                "updateExisting": true
-              },
-              {
-                "text": "公式アクセスでは、JR東北本線・新白河駅から5.4km。",
-                "url": "https://eightgg.kanekigp.co.jp/access/",
-                "checked": "2026-10-29",
-                "sourceType": "official",
-                "basis": "当施設所在地直下アクセス欄新白河駅5.4km。移動手段/所要時間は書かれていない。"
-              }
-            ]
-          },
-          "candidate": "新白河駅から約8分。 公式アクセスでは、JR東北本線・新白河駅から5.4km。",
-          "sourceUrl": "https://eightgg.kanekigp.co.jp/access/",
-          "sourceType": "mixed",
-          "checked": "2026-10-29",
-          "basis": "当施設所在地直下アクセス欄新白河駅5.4km。移動手段/所要時間は書かれていない。",
-          "conditions": "旧根拠/日付/未再確認の時間を独立段落保持。新公式段落から旧時間の再確認を推定しない。数値差は現公式目安への更新であり絶対的誤記と断定しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/869access.html"
-        }
+        "sourceUrls": [
+          "https://eightgg.kanekigp.co.jp/access/",
+          "https://reserve.golfdigest.co.jp/golf-course/260401/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 869,
@@ -2178,32 +1750,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "舞鶴東ICから車で約10分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/260024",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：<若狭湾国定公園に広がるコースで、山と海に彩られた１８ホールズの山岳リゾートコースで、野性味あふれる大自然の中、爽快なショットが楽しめます。 コースは山岳コースならではの谷越え池越えとアップダウンがあり、ゴルファーの挑戦心を掻き立てます。 最寄りの舞鶴若狭道 舞鶴東ICより約１０分の恵まれた立地条件に位置しております。高速道路網の整備によりご来場までの所要時",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "舞鶴若狭自動車道・舞鶴東ICから車で約12分。",
-            "url": "http://maizurucc.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
-            "checked": "2026-10-29",
-            "basis": "公式アクセス本文「お車の方：舞鶴若狭自動車道 舞鶴東インターから約12分」。",
-            "sourceType": "official"
-          },
-          "candidate": "舞鶴若狭自動車道・舞鶴東ICから車で約12分。",
-          "sourceUrl": "http://maizurucc.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式アクセス本文「お車の方：舞鶴若狭自動車道 舞鶴東インターから約12分」。",
-          "conditions": "旧10分から現公式12分への目安更新。同一起点/車、道路経路や交通条件差は未特定、絶対的誤り断定なし。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/1104access.html"
-        }
+        "sourceUrls": [
+          "http://maizurucc.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/260024"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1104,
@@ -2238,32 +1795,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "舞鶴線東舞鶴駅からタクシーで約20分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/260024",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：ＪＲ舞鶴線東舞鶴駅よりタクシーで２０分。",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "JR東舞鶴駅からタクシーで24分（公式案内の目安）。",
-            "url": "http://maizurucc.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
-            "checked": "2026-10-29",
-            "basis": "公式アクセス本文「電車の方：JR東舞鶴駅から タクシーで24分」。",
-            "sourceType": "official"
-          },
-          "candidate": "JR東舞鶴駅からタクシーで24分（公式案内の目安）。",
-          "sourceUrl": "http://maizurucc.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式アクセス本文「電車の方：JR東舞鶴駅から タクシーで24分」。",
-          "conditions": "旧20分→現公式24分。同駅/同taxi、経路差不明、時間保証なし。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/1104access.html"
-        }
+        "sourceUrls": [
+          "http://maizurucc.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/260024"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1104,
@@ -2298,32 +1840,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "大河原駅から10分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/232404/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "JR東北本線・大河原駅からタクシーで約10分。クラブバスはありません。",
-            "url": "https://sendaiminamigc.com/access.html",
-            "checked": "2026-10-29",
-            "basis": "電車アクセス欄:JR東北本線大河原駅/タクシーで約10分/クラブバスはございません。",
-            "sourceType": "official"
-          },
-          "candidate": "JR東北本線・大河原駅からタクシーで約10分。クラブバスはありません。",
-          "sourceUrl": "https://sendaiminamigc.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "電車アクセス欄:JR東北本線大河原駅/タクシーで約10分/クラブバスはございません。",
-          "conditions": "旧10分を再確認し交通手段とバスなし条件を明記。料金は今回補充しない。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/320.html"
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/232404/",
+          "https://sendaiminamigc.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 320,
@@ -2357,31 +1884,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "村田ICから約5km。",
-            "url": "https://sendaiminamigc.com/access.html",
-            "checked": "2026-10-25",
-            "basis": "公式施設案内・公式観光情報の掲載内容を確認。"
-          },
-          "beforeExists": true,
-          "after": {
-            "text": "東北自動車道・村田ICから5km以内（公式アクセスの距離区分）。",
-            "url": "https://sendaiminamigc.com/access.html",
-            "checked": "2026-10-29",
-            "basis": "車アクセス図のテキスト:東北自動車道村田IC→5km以内→コース。",
-            "sourceType": "official"
-          },
-          "candidate": "東北自動車道・村田ICから5km以内（公式アクセスの距離区分）。",
-          "sourceUrl": "https://sendaiminamigc.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "車アクセス図のテキスト:東北自動車道村田IC→5km以内→コース。",
-          "conditions": "旧約5kmから公式が明示する距離区分へ。titleの5分を距離欄と合成せず、時間追加なし。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/320.html"
-        }
+        "sourceUrls": [
+          "https://sendaiminamigc.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 320,
@@ -2404,20 +1916,15 @@
       "beforeExists": true,
       "after": "https://sendaiminamigc.com/access.html",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch26-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "after": "https://sendaiminamigc.com/access.html",
-          "candidate": "https://sendaiminamigc.com/access.html",
-          "sourceUrl": "https://sendaiminamigc.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "既存car根拠と同一URLを通常取得、仙台南名称/宮城県柴田郡村田町沼田中屋敷200/TEL0224-83-6301の対象公式本文。",
-          "conditions": "協会url/bookingURLは維持しofficialUrl null補充。根拠取得済み対象公式アクセスURLを使用。",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch26-assets/320.html"
-        }
+        "sourceUrls": [
+          "https://sendaiminamigc.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 320,
@@ -2440,19 +1947,16 @@
       "beforeExists": true,
       "after": "https://www.taiheizan.net/",
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "beforeExists": true,
-          "candidate": "https://www.taiheizan.net/",
-          "sourceUrl": "https://www.taiheizan.net/sub7.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式会社情報の秋田市太平中関字務沢1-7/018-838-3333一致。公式TOPは2026年10月予定を掲載。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://www.taiheizan.net/",
+          "https://www.taiheizan.net/sub7.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 359,
@@ -2487,25 +1991,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "秋田駅から20分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/240103/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "秋田駅からタクシーで約20分。秋田駅東口から車で約20分。クラブバスはありません。",
-          "sourceUrl": "https://www.taiheizan.net/sub6.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式交通表の車/電車/taxi段落に各明記。旧駅20分を公式同日起点・移動手段で裏取り。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/240103/",
+          "https://www.taiheizan.net/sub6.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 359,
@@ -2540,25 +2036,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "御所駅からタクシーで約10分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/650102/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー\n    御所駅から約10分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "JR和歌山線・御所駅からタクシーで約10分。橿原神宮前駅からはタクシーで約25分。",
-          "sourceUrl": "https://www.akitsubara.co.jp/akitsubara_access_train.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式電車利用ガイド本文。御所10分の同起点・同手段を裏取り。料金は今回転記しない。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/650102/",
+          "https://www.akitsubara.co.jp/akitsubara_access_train.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 533,
@@ -2609,25 +2097,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "和歌山市駅からタクシーで約20分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/630501/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 和歌山市駅から20分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "みさき公園駅西出口からクラブカーに乗車できます。セルフデー（月曜、月曜祝日は翌日）は運休。和歌山市方面から来場する方、または時刻表外・セルフデーの運行を希望する方はクラブへ連絡してください。",
-          "sourceUrl": "https://www.nankaiosaka-golf.co.jp/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式クラブカー段落。旧和歌山市駅taxi20分は別経路未確認なので旧segment保持。問い合わせを運行保証とはしない。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/630501/access/",
+          "https://www.nankaiosaka-golf.co.jp/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 234,
@@ -2663,25 +2143,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "新千歳空港駅、苫小牧駅ともに所要時間約20分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/114203/",
-            "checked": "2026-10-25",
-            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "新千歳空港およびJR新千歳空港駅からタクシーで約20分。JR室蘭本線・苫小牧駅からタクシーで約20分。",
-          "sourceUrl": "https://www.nidomcc.jp/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "現日本語公式アクセスのタクシー表。空港車高速15分/国道20分とは分離、宿泊旧多言語ページ15分を流用しない。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/114203/",
+          "https://www.nidomcc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 177,
@@ -2732,25 +2204,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "新神戸駅からタクシーで約30分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/280008/?l-id=area-hyogo",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：JR東海道本線明石駅下車 地下鉄西神線西神戸中央駅下車 山陽新幹線 新神戸駅よりタクシーにて約３０分、神戸市営地下鉄 西神中央駅よりタクシーにて７分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "JR三ノ宮駅・新幹線新神戸駅から約25分で神戸市営地下鉄・西神中央駅へ、同駅からタクシーで約7分と公式が案内しています。",
-          "sourceUrl": "https://www.akashigc.jp/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式電車経由案内。25分の区間終点は西神中央駅でゴルフ場までではない。旧新神戸直行taxi30分は別移動未確認なので保持。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/280008/?l-id=area-hyogo",
+          "https://www.akashigc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 488,
@@ -2802,25 +2266,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "近鉄新田辺駅からタクシーで約35分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/620302/access/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー  | 近鉄新田辺駅から約35分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "近鉄新田辺駅から車で約35分。京阪宇治駅から車で約35分、JR奈良線宇治駅から車で約30分、JR片町線京田辺駅から車で約40分。",
-          "sourceUrl": "http://ujitawaracc.com/access/",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式アクセス本文。旧新田辺taxi35分のタクシー種別は未検証なので旧bookingsegment保持。公式は車と記載。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "http://ujitawaracc.com/access/",
+          "https://reserve.golfdigest.co.jp/golf-course/620302/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 498,
@@ -2856,25 +2312,17 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "car",
-          "before": {
-            "text": "治田I.Cから車で約40分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240019/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：名阪国道、治田I.Cより約40分 名阪国道治田I.Cから名張方面へ進む。 国道368号線バイパスに合流して名張市街へ。 国道165線を渡り2km先のトンネルを超えてすぐの 信号を右、100m先の信号を左折しつつじヶ丘住宅団地 を通過してコース。 尚、つつじが丘入り口を直進されると狭い林道ですので 必ず右折し坂を上ってつつじが丘住宅団地の中を通ってください。 ",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "名阪国道・治田ICから約22km・約40分。針ICまたは小倉ICから約30km・約45分、上野ICから約26km・約45分。",
-          "sourceUrl": "http://www.nabari-south.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式車アクセス各起点の距離/時間。同治田40分裏取り。途中の松原JCTから全距離と取り違えない。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": false
-        }
+        "sourceUrls": [
+          "http://www.nabari-south.com/access.html",
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240019/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1189,
@@ -2925,25 +2373,17 @@
         ]
       },
       "sourceEvidence": {
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch27-results.json",
-        "proposal": {
-          "field": "rail",
-          "before": {
-            "text": "名張駅から車で約20分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240019/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：近鉄大阪線名張駅特急で大阪より50分、名古屋より90分 名張駅より車で20分",
-            "sourceType": "booking"
-          },
-          "beforeExists": true,
-          "candidate": "名張駅東口からクラブバスで約20分。全日8:05・9:05発、完全予約制でプレー日前日15:00までに電話予約。待機場所は東口ロータリー一般車乗降場です。復路も完全予約制（来場前日15:00まで）で、プレーエントリー時に利用と人数を伝え、当日も車中またはフロントチェックイン時に復路利用を申し出てください。",
-          "sourceUrl": "http://www.nabari-south.com/access.html",
-          "sourceType": "official",
-          "checked": "2026-10-29",
-          "basis": "公式クラブバス本文。旧名張駅車20分は一般車か未確定のため旧bookingsegment保持。バス乗車場所/締切/復路申出を失わない。",
-          "conditions": "時間・距離は目安。移動起点・経路・手段の異なる旧値を誤記と断定しない。",
-          "requiresMixedEvidenceSegments": true
-        }
+        "sourceUrls": [
+          "http://www.nabari-south.com/access.html",
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240019/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "review": {
         "id": 1189,
@@ -2986,32 +2426,18 @@
       },
       "publicEdits": false,
       "sourceEvidence": {
-        "html": "/workspace/shared/japan-oct29-new-evidence/batch20-assets/1081.html",
-        "sha256": "992f6fac3849b9b10ff218f09eb02659ada6b26cb6793e05f7d5a5a20915c628",
-        "acquiredAtUtc": "2026-10-29T11:40:44.012978+00:00",
-        "courseIdentity": "HTML site-ID title三甲ゴルフ倶楽部 ジャパンコース、同header内COURSE GUIDE、TEL0794-77-3535",
-        "bodyEvidence": "<dt>OUT COURSE</dt>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/01hole/\">1 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/02hole/\">2 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/03hole/\">3 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/04hole/\">4 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/05hole/\">5 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/06hole/\">6 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/07hole/\">7 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/08hole/\">8 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/09hole/\">9 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t</dl>\n\t\t\t\t\t\t\t\t\t<dl class=\"cf\">\n\t\t\t\t\t\t\t\t\t\t<dt>IN COURSE</dt>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/10hole/\">10 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/11hole/\">11 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/12hole/\">12 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/13hole/\">13 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/14hole/\">14 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/15hole/\">15 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/16hole/\">16 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/17hole/\">17 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t\t<dd><a href=\"/course/18hole/\">18 HOLE</a></dd>\n\t\t\t\t\t\t\t\t\t</dl>\n\t\t\t\t\t\t\t\t</div>\n\t\t            \t\t",
-        "individualHoleNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18
+        "sourceUrls": [
+          "https://sanko-golf.co.jp/",
+          "https://sanko-golf.co.jp/course/"
         ],
-        "scope": "Successful stored TOP only; no reliance on failed fresh course page. Exact OUT1–9 / IN10–18 navigation, not neighbouring course or a single ninth-hole table."
+        "sourceContentSha256": [
+          "992f6fac3849b9b10ff218f09eb02659ada6b26cb6793e05f7d5a5a20915c628"
+        ],
+        "recordedEvidenceDates": [
+          "2026-10-29T11:40:44.012978+00:00"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "baseSha": "97df22b8b5ccea726043cd402a190852d308b96c",
       "independentReview": "1081-play-independent-review.json",
@@ -3036,5 +2462,6 @@
     "Some evidence is prior successful same-day saved officialHTML independently read; no denied retries.",
     "Previously held distance ranges, uncertain official differences and prices remain excluded."
   ],
-  "rollback": "Restore data and both HTML references from baseCommit via new commit."
+  "rollback": "Restore data and both HTML references from baseCommit via new commit.",
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }

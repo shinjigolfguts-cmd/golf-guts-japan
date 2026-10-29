@@ -27,29 +27,15 @@
         "basis": "公式コース説明 L12–17: flat terrain enclosed by mature red pines; undulating fairways, scattered trees and ponds; hole 18 has Anyobo pond (approximately 20,000 m²)."
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1749,
-          "name": "名神竜王カントリー倶楽部",
-          "field": "scenery",
-          "current_value": null,
-          "proposed": {
-            "text": "赤松に囲まれ、木立と大小の池が点在する丘陵・林間コース。18番には安養坊池がある。",
-            "url": "https://meishin-ryuou.jp/courses",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "basis": "公式コース説明 L12–17: flat terrain enclosed by mature red pines; undulating fairways, scattered trees and ponds; hole 18 has Anyobo pond (approximately 20,000 m²)."
-          },
-          "conditions": "Undated course description; not inferred from images."
-        },
-        "independentReview": {
-          "id": 1749,
-          "field": "scenery",
-          "name": "名神竜王カントリー倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://meishin-ryuou.jp/courses"
-        }
+        "sourceUrls": [
+          "https://meishin-ryuou.jp/courses"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -72,35 +58,17 @@
         "basis": "Official access L13–16 gives these two driving times."
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1749,
-          "name": "名神竜王カントリー倶楽部",
-          "field": "car",
-          "current_value": {
-            "text": "名神高速道路/蒲生スマートICから約7km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/616403/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC\n    名神高速道路/蒲生スマートIC 7 km",
-            "sourceType": "booking"
-          },
-          "proposed": {
-            "text": "名神高速・蒲生スマートICから車で約8分、竜王ICから約15分。",
-            "url": "https://meishin-ryuou.jp/access",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "basis": "Official access L13–16 gives these two driving times."
-          },
-          "conditions": null
-        },
-        "independentReview": {
-          "id": 1749,
-          "field": "car",
-          "name": "名神竜王カントリー倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://meishin-ryuou.jp/access"
-        }
+        "sourceUrls": [
+          "https://meishin-ryuou.jp/access",
+          "https://reserve.golfdigest.co.jp/golf-course/616403/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -123,35 +91,17 @@
         "basis": "Official access L17–25: Mikumo taxi 15 minutes; JR Mikumo shuttle 15–20 minutes, weekends only, six passengers, reserve when booking. Outbound departures 08:00 and 09:30; returns 16:00 and 17:00."
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1749,
-          "name": "名神竜王カントリー倶楽部",
-          "field": "rail",
-          "current_value": {
-            "text": "草津駅からタクシーで約35分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/616403/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー\n    草津駅から約35分",
-            "sourceType": "booking"
-          },
-          "proposed": {
-            "text": "三雲駅からタクシーで約15分。JR三雲駅から予約制送迎車あり（土日のみ・定員6名、所要15～20分、エントリー時申込）。",
-            "url": "https://meishin-ryuou.jp/access",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "basis": "Official access L17–25: Mikumo taxi 15 minutes; JR Mikumo shuttle 15–20 minutes, weekends only, six passengers, reserve when booking. Outbound departures 08:00 and 09:30; returns 16:00 and 17:00."
-          },
-          "conditions": "土日のみ, not a claim that public holidays run; verify timetable when booking."
-        },
-        "independentReview": {
-          "id": 1749,
-          "field": "rail",
-          "name": "名神竜王カントリー倶楽部",
-          "decision": "supported",
-          "note": "公式本文確認。三雲駅起点、土日のみ、定員6名、エントリー時予約を保持。祝日運行や草津駅値の誤りは断定しない。",
-          "source": "https://meishin-ryuou.jp/access"
-        }
+        "sourceUrls": [
+          "https://meishin-ryuou.jp/access",
+          "https://reserve.golfdigest.co.jp/golf-course/616403/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -168,29 +118,15 @@
         "basis": "Official OUT7 description L185–204 explicitly describes a pond-crossing short hole and beautiful shimmering water."
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1752,
-          "name": "マダムJゴルフ倶楽部",
-          "field": "scenery",
-          "current_value": null,
-          "proposed": {
-            "text": "OUT7番は池越えのショートホールで、水面の景観を楽しめる。",
-            "url": "https://madamej-gc.com/course-out/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "basis": "Official OUT7 description L185–204 explicitly describes a pond-crossing short hole and beautiful shimmering water."
-          },
-          "conditions": "Specific to OUT7; not generalized to panoramic or mountain views."
-        },
-        "independentReview": {
-          "id": 1752,
-          "field": "scenery",
-          "name": "マダムJゴルフ倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://madamej-gc.com/course-out/"
-        }
+        "sourceUrls": [
+          "https://madamej-gc.com/course-out/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -213,35 +149,17 @@
         "basis": "Official access L18–20 gives 8 km / 10 minutes and congestion caveat."
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1752,
-          "name": "マダムJゴルフ倶楽部",
-          "field": "car",
-          "current_value": {
-            "text": "中国自動車道/ひょうご東条ICから約8km。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/640301/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：最寄りIC\n    中国自動車道/ひょうご東条ＩＣ 8 km",
-            "sourceType": "booking"
-          },
-          "proposed": {
-            "text": "ひょうご東条ICから約8km・車で約10分（渋滞により変動）。",
-            "url": "https://madamej-gc.com/access/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "basis": "Official access L18–20 gives 8 km / 10 minutes and congestion caveat."
-          },
-          "conditions": null
-        },
-        "independentReview": {
-          "id": 1752,
-          "field": "car",
-          "name": "マダムJゴルフ倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://madamej-gc.com/access/"
-        }
+        "sourceUrls": [
+          "https://madamej-gc.com/access/",
+          "https://reserve.golfdigest.co.jp/golf-course/640301/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -264,35 +182,17 @@
         "basis": "Official access L15–17 states Shin-Sanda taxi 30 minutes and no club bus currently."
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1752,
-          "name": "マダムJゴルフ倶楽部",
-          "field": "rail",
-          "current_value": {
-            "text": "新三田駅からタクシーで約30分。",
-            "url": "https://reserve.golfdigest.co.jp/golf-course/640301/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：タクシー\n    新三田駅から30分",
-            "sourceType": "booking"
-          },
-          "proposed": {
-            "text": "JR福知山線・新三田駅からタクシーで約30分。クラブバスは運行なし。",
-            "url": "https://madamej-gc.com/access/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "basis": "Official access L15–17 states Shin-Sanda taxi 30 minutes and no club bus currently."
-          },
-          "conditions": null
-        },
-        "independentReview": {
-          "id": 1752,
-          "field": "rail",
-          "name": "マダムJゴルフ倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://madamej-gc.com/access/"
-        }
+        "sourceUrls": [
+          "https://madamej-gc.com/access/",
+          "https://reserve.golfdigest.co.jp/golf-course/640301/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -309,33 +209,15 @@
         "evidence_summary": "公式車所要時間表に西宮名塩駅7〜8分、宝塚駅25分。"
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1772,
-          "name": "よみうりカントリークラブ",
-          "field": "rail",
-          "current_value": null,
-          "proposed": {
-            "text": "JR西宮名塩駅から車で約7〜8分、JR・阪急宝塚駅から車で約25分（公式所要時間表の目安）。道路状況・時間帯・経路により変わります。",
-            "url": "https://yomiurigolf.co.jp/access/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "evidence_summary": "公式車所要時間表に西宮名塩駅7〜8分、宝塚駅25分。"
-          },
-          "conditions": [
-            "バス時刻表は2020年改正表示のため時刻を転載せず、現行ダイヤ未検証。",
-            "車時間をタクシー専用所要時間とは書かない。",
-            "東京都のよみうりゴルフ倶楽部、千葉よみうりとは別の兵庫県施設。"
-          ]
-        },
-        "independentReview": {
-          "id": 1772,
-          "field": "rail",
-          "name": "よみうりカントリークラブ",
-          "decision": "supported",
-          "note": "公式は車所要時間。タクシー専用・鉄道乗車時間としない。2020年バス時刻は転載しない。",
-          "source": "https://yomiurigolf.co.jp/access/"
-        }
+        "sourceUrls": [
+          "https://yomiurigolf.co.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -358,39 +240,17 @@
         "evidence_summary": "公式大阪方面・神戸方面案内とIC利用注意。"
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1772,
-          "name": "よみうりカントリークラブ",
-          "field": "car",
-          "current_value": {
-            "text": "中国自動車道宝塚ICから車で約30分。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/280146/",
-            "checked": "2026-10-25",
-            "basis": "予約サイトの施設案内確認：中国自動車道宝塚ICから約30分、西宮北ICから約20分",
-            "sourceType": "booking"
-          },
-          "proposed": {
-            "text": "中国自動車道・宝塚ICから12km・約25分。西宮北ICから10km・約20分。中国自動車道からは阪神高速北神戸線の西宮山口東ICでは降りられないため、公式経路をご確認ください。",
-            "url": "https://yomiurigolf.co.jp/access/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "evidence_summary": "公式大阪方面・神戸方面案内とIC利用注意。"
-          },
-          "conditions": [
-            "バス時刻表は2020年改正表示のため時刻を転載せず、現行ダイヤ未検証。",
-            "車時間をタクシー専用所要時間とは書かない。",
-            "東京都のよみうりゴルフ倶楽部、千葉よみうりとは別の兵庫県施設。"
-          ]
-        },
-        "independentReview": {
-          "id": 1772,
-          "field": "car",
-          "name": "よみうりカントリークラブ",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://yomiurigolf.co.jp/access/"
-        }
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/280146/",
+          "https://yomiurigolf.co.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -407,31 +267,15 @@
         "evidence_summary": "公式コースガイド：標高536m、豊かな樹木にセパレートされた18ホール。"
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1757,
-          "name": "兵庫カンツリー倶楽部",
-          "field": "scenery",
-          "current_value": null,
-          "proposed": {
-            "text": "標高536mに位置し、豊かな樹木で各ホールを区切ったコース。緑に囲まれた環境を公式に紹介しています。",
-            "url": "https://www.hyogocc.com/course/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "evidence_summary": "公式コースガイド：標高536m、豊かな樹木にセパレートされた18ホール。"
-          },
-          "conditions": [
-            "海・山の眺望や紅葉の見頃など公式にない観景情報は追加していない。"
-          ]
-        },
-        "independentReview": {
-          "id": 1757,
-          "field": "scenery",
-          "name": "兵庫カンツリー倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://www.hyogocc.com/course/"
-        }
+        "sourceUrls": [
+          "https://www.hyogocc.com/course/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -448,31 +292,15 @@
         "evidence_summary": "西5番右に池、西7番ティー正面に池、西9番グリーン手前にクリーク。"
       },
       "sourceEvidence": {
-        "proposalFile": "consolidated-proposals.json",
-        "originalCandidate": {
-          "id": 1767,
-          "name": "西脇カントリークラブ",
-          "field": "scenery",
-          "current_value": null,
-          "proposed": {
-            "text": "西コースは5番・7番に池、9番のグリーン手前にクリークを配したレイアウト。樹木や水辺を取り込んだホールを公式に案内しています。",
-            "url": "https://nishiwakicc.ne.jp/courseguide/west/",
-            "checked": "2026-10-29",
-            "sourceType": "official",
-            "evidence_summary": "西5番右に池、西7番ティー正面に池、西9番グリーン手前にクリーク。"
-          },
-          "conditions": [
-            "景観の事実だけ抽出し、攻略指示・難易度保証・見頃は追加しない。"
-          ]
-        },
-        "independentReview": {
-          "id": 1767,
-          "field": "scenery",
-          "name": "西脇カントリークラブ",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://nishiwakicc.ne.jp/courseguide/west/"
-        }
+        "sourceUrls": [
+          "https://nishiwakicc.ne.jp/courseguide/west/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -489,33 +317,16 @@
         "basis": "Official restaurant page links this 2-page PDF. Page 1 visually inspected: アベックカレー in central area; 三条カレーラーメン at left. No signature/specialty claim added."
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 856,
-          "name": "新津カントリークラブ",
-          "field": "dining",
-          "previousValue": null,
-          "text": "公式掲載メニューにアベックカレー、三条カレーラーメンなど。提供内容は来場時に確認。",
-          "url": "https://www.niitsu-cc.co.jp/restaurant",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "evidenceUrl": "https://www.niitsu-cc.co.jp/wp01/wp-content/themes/ncc/pdf/menu_202605_01.pdf",
-          "basis": "Official restaurant page links this 2-page PDF. Page 1 visually inspected: アベックカレー in central area; 三条カレーラーメン at left. No signature/specialty claim added.",
-          "inspection": "Downloaded official PDF and rendered page 1 via pdftoppm; viewed 856.png.",
-          "conditions": "Current-linked menu, but no explicit validity period confirmed. Filename contains 202605; not treated as proof of May-only availability or today's stock. No price or meal-included claim.",
-          "localEvidence": [
-            "batch2-assets/856.pdf",
-            "batch2-assets/856.png"
-          ]
-        },
-        "independentReview": {
-          "id": 856,
-          "field": "dining",
-          "name": "新津カントリークラブ",
-          "decision": "supported",
-          "note": "公式ページからPDFリンクを独立確認。保存レンダリングで料理名一致。期限未表示、来場時確認を保持。",
-          "source": "https://www.niitsu-cc.co.jp/restaurant"
-        }
+        "sourceUrls": [
+          "https://www.niitsu-cc.co.jp/restaurant",
+          "https://www.niitsu-cc.co.jp/wp01/wp-content/themes/ncc/pdf/menu_202605_01.pdf"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -532,28 +343,16 @@
         "basis": "Official restaurant HTML L47–57 lists スタミナ丼; L82–92 lists 南知多産シラス丼とそばセット, both under additional-charge menus. Homepage L135 explicitly says menu changes by season."
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 921,
-          "name": "美濃白川ゴルフ倶楽部",
-          "field": "dining",
-          "previousValue": null,
-          "text": "公式掲載メニューにスタミナ丼、南知多産シラス丼とそばセットなど。季節によりメニューが変わるため提供内容を確認。",
-          "url": "https://minoshirakawa-gc.co.jp/restaurant/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Official restaurant HTML L47–57 lists スタミナ丼; L82–92 lists 南知多産シラス丼とそばセット, both under additional-charge menus. Homepage L135 explicitly says menu changes by season.",
-          "additionalSource": "https://minoshirakawa-gc.co.jp/",
-          "conditions": "Seasonal menu, not year-round promise. Web restaurant crawl reported two months, while homepage fetched today. Dish names are body text, not image guesses. No price or lunch-included claim."
-        },
-        "independentReview": {
-          "id": 921,
-          "field": "dining",
-          "name": "美濃白川ゴルフ倶楽部",
-          "decision": "conditional",
-          "note": "条件追記必要：両品とも公式の追加料金メニュー。提案本文に「追加料金メニューとして掲載」を追加。季節変更・当日確認を保持。",
-          "source": "https://minoshirakawa-gc.co.jp/restaurant/"
-        }
+        "sourceUrls": [
+          "https://minoshirakawa-gc.co.jp/",
+          "https://minoshirakawa-gc.co.jp/restaurant/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -570,26 +369,15 @@
         "basis": "Official homepage L160 explicitly describes a course surrounded by natural hinoki forest; same description in restaurant footer L162. No inferred panorama or elevation."
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 921,
-          "name": "美濃白川ゴルフ倶楽部",
-          "field": "scenery",
-          "previousValue": null,
-          "text": "桧の自然林に囲まれたコース。",
-          "url": "https://minoshirakawa-gc.co.jp/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Official homepage L160 explicitly describes a course surrounded by natural hinoki forest; same description in restaurant footer L162. No inferred panorama or elevation."
-        },
-        "independentReview": {
-          "id": 921,
-          "field": "scenery",
-          "name": "美濃白川ゴルフ倶楽部",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://minoshirakawa-gc.co.jp/"
-        }
+        "sourceUrls": [
+          "https://minoshirakawa-gc.co.jp/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -606,33 +394,17 @@
         "basis": "Current Grand Menu first image visually inspected: meal label 旨辛！麻婆豆腐セット under chef recommendation; rice, dessert, pickles and soup labels visible. Homepage notices explicitly say special menus on open-competition and Minamikai days."
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 933,
-          "name": "南長野ゴルフ倶楽部",
-          "field": "dining",
-          "previousValue": null,
-          "text": "公式掲載メニューに「旨辛！麻婆豆腐セット」。オープンコンペやみなみ会開催日は特別メニューとなるため、当日の内容を確認。",
-          "url": "https://minaminagano-gc.jp/restaurant/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "evidenceUrl": "https://minaminagano-gc.jp/wp-content/uploads/b2d795ba8d20782f094f51746c04e0f3-scaled.jpg",
-          "basis": "Current Grand Menu first image visually inspected: meal label 旨辛！麻婆豆腐セット under chef recommendation; rice, dessert, pickles and soup labels visible. Homepage notices explicitly say special menus on open-competition and Minamikai days.",
-          "additionalSource": "https://minaminagano-gc.jp/",
-          "inspection": "Web image fetch cache miss; ordinary direct public download succeeded HTTP200, inspected local 933.jpg. No access denial bypass.",
-          "conditions": "Menu image has no validity period confirmed. Official homepage lists November 9–10 special buffet for Minamikai gathering; do not promise dish on event days. No prices inferred.",
-          "localEvidence": [
-            "batch2-assets/933.jpg"
-          ]
-        },
-        "independentReview": {
-          "id": 933,
-          "field": "dining",
-          "name": "南長野ゴルフ倶楽部",
-          "decision": "supported",
-          "note": "公式Grand Menuリンクの画像URL一致、取得はcache miss。保存画像を目視し料理名一致。公式ホームのコンペ/みなみ会特別メニュー条件確認。",
-          "source": "https://minaminagano-gc.jp/restaurant/"
-        }
+        "sourceUrls": [
+          "https://minaminagano-gc.jp/",
+          "https://minaminagano-gc.jp/restaurant/",
+          "https://minaminagano-gc.jp/wp-content/uploads/b2d795ba8d20782f094f51746c04e0f3-scaled.jpg"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -649,37 +421,16 @@
         "basis": "Official restaurant HTML embeds this catalog asset. Visually inspected meal page 5 shows ジンギスカン定食 and ステーキ丼; footer explains meal-included guests choose starred dishes and other items require difference. Each selected dish has a meal-plan difference badge."
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 944,
-          "name": "松本カントリークラブ",
-          "field": "dining",
-          "previousValue": null,
-          "text": "公式掲載メニューにジンギスカン定食、ステーキ丼など。食事付きプランでもメニューにより差額が必要。提供内容は来場時に確認。",
-          "url": "https://matsumotocc.co.jp/pages/64/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "evidenceUrl": "https://catalog.ds-ai.net/dsb641741/webroot/ad_img/5/001_700.jpg?1793267957",
-          "basis": "Official restaurant HTML embeds this catalog asset. Visually inspected meal page 5 shows ジンギスカン定食 and ステーキ丼; footer explains meal-included guests choose starred dishes and other items require difference. Each selected dish has a meal-plan difference badge.",
-          "inspection": "Ordinary public official page HTTP200 fetched; extracted exact embedded image URL; downloaded and viewed 944-5.jpg.",
-          "conditions": "External catalog host is directly embedded by official restaurant, not unrelated third-party review. No validity period or seasonal permanence stated; dish availability to be checked. No amounts copied into candidate.",
-          "localEvidence": [
-            "batch2-assets/944-5.jpg"
-          ]
-        },
-        "independentReview": {
-          "id": 944,
-          "field": "dining",
-          "name": "松本カントリークラブ",
-          "decision": "supported",
-          "note": "保存された公式埋込由来画像944-5.jpgを独立目視、ジンギスカン定食/ステーキ丼と食事付差額表示確認。今回のweb抽出には埋込URLが出ず、画像の公式ページへの紐付けは研究者の取得記録に依存。",
-          "source": "https://matsumotocc.co.jp/pages/64/"
-        },
-        "provenanceSupplementFiles": [
-          "hold-resolution-944.json",
-          "hold-resolution-independent-addendum.json"
+        "sourceUrls": [
+          "https://catalog.ds-ai.net/dsb641741/webroot/ad_img/5/001_700.jpg?1793267957",
+          "https://matsumotocc.co.jp/pages/64/"
         ],
-        "provenanceNote": "現公式HTMLからの直接埋込画像を保存し、旧取得メニュー画像とbytes/SHA256一致を独立検証。旧queryの当時保存HTMLがあるとは断定しない。"
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -696,33 +447,16 @@
         "basis": "Official restaurant page October lunch heading links this 6-page PDF. Page 1 visually inspected: 松阪牛すき焼き鍋御膳 marked 数量限定, and 浜名湖うなぎと信州そば御膳. Footer explicitly allows menu changes due to purchasing conditions."
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 961,
-          "name": "メイプルポイントゴルフクラブ",
-          "field": "dining",
-          "previousValue": null,
-          "text": "公式10月ランチメニューに松阪牛すき焼き鍋御膳（数量限定）、浜名湖うなぎと信州そば御膳。仕入れ状況等で料理内容が変わる場合あり。",
-          "url": "https://www.maplepoint.jp/news_restaurant.html",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "evidenceUrl": "https://maplepoint.jp/wp/wp-content/uploads/2026/09/953ee66338b32c6fd4bf73afa1b6a148.pdf",
-          "basis": "Official restaurant page October lunch heading links this 6-page PDF. Page 1 visually inspected: 松阪牛すき焼き鍋御膳 marked 数量限定, and 浜名湖うなぎと信州そば御膳. Footer explicitly allows menu changes due to purchasing conditions.",
-          "inspection": "Downloaded current-linked official PDF, rendered page 1 via pdftoppm and viewed 961.png.",
-          "conditions": "Specifically October menu, not year-round promise; superseded monthly menus should be rechecked. Page also shows November/December headings; no claim those have identical offerings. No price or meal-included claim.",
-          "localEvidence": [
-            "batch2-assets/961.pdf",
-            "batch2-assets/961.png"
-          ]
-        },
-        "independentReview": {
-          "id": 961,
-          "field": "dining",
-          "name": "メイプルポイントゴルフクラブ",
-          "decision": "conditional",
-          "note": "期間限定条件必要：「2026年10月確認時の公式10月ランチメニュー例」に限定し、以後は公式最新メニュー参照を明記。数量限定と仕入変更も保持。恒常の料理情報としては保留。年は確認日由来で原メニュー記載年とは断定しない。",
-          "source": "https://www.maplepoint.jp/news_restaurant.html"
-        }
+        "sourceUrls": [
+          "https://maplepoint.jp/wp/wp-content/uploads/2026/09/953ee66338b32c6fd4bf73afa1b6a148.pdf",
+          "https://www.maplepoint.jp/news_restaurant.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -733,28 +467,16 @@
       "before": "http://www.grandfields-cc.com",
       "after": "https://gran-cc.co.jp/ja",
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 963,
-          "name": "グランフィールズカントリークラブ",
-          "field": "officialUrl",
-          "current": "http://www.grandfields-cc.com",
-          "proposal": "https://gran-cc.co.jp/ja",
-          "source": "https://gran-cc.co.jp/ja",
-          "checked": "2026-10-29",
-          "basis": "旧 officialUrl https://www.grandfields-cc.com/ は現に別媒体ゴルフペディア。新公式に同一名称・三島市五輪4716。スポーツコミッションShizuoka施設情報も gran-cc.co.jp を掲載。",
-          "conditions": "公式URLのみ訂正。レコードurlはKGA詳細なので別目的として現状維持。",
-          "status": "ready"
-        },
-        "independentReview": {
-          "id": 963,
-          "field": "officialUrl",
-          "name": "グランフィールズカントリークラブ",
-          "decision": "supported",
-          "note": "旧URLが現在ゴルフペディアであることを独立確認。新公式の名称と三島市五輪4716一致。KGA url等別用途リンクは維持。",
-          "source": "https://gran-cc.co.jp/ja"
-        },
-        "identityNote": "独立レビューで新公式名称・三島市五輪4716一致および旧URL別媒体を確認。officialUrlのみ変更しrecord.urlのKGAは維持。"
+        "sourceUrls": [
+          "http://www.grandfields-cc.com",
+          "https://gran-cc.co.jp/ja"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -771,27 +493,15 @@
         "basis": "公式クラブ紹介：日本庭園を主体とし、富士山・駿河湾・伊豆半島を借景に取り込む。"
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 963,
-          "name": "グランフィールズカントリークラブ",
-          "field": "scenery",
-          "current": null,
-          "proposal": "日本庭園を主体としたコースで、富士山や駿河湾、伊豆半島の眺望を取り込んだ設計。",
-          "source": "https://www.gran-cc.co.jp/ja/about",
-          "checked": "2026-10-29",
-          "basis": "公式クラブ紹介：日本庭園を主体とし、富士山・駿河湾・伊豆半島を借景に取り込む。",
-          "conditions": "全ホールで見えるとはしない。",
-          "status": "ready"
-        },
-        "independentReview": {
-          "id": 963,
-          "field": "scenery",
-          "name": "グランフィールズカントリークラブ",
-          "decision": "supported",
-          "note": "公式本文と限定された提案内容が一致。新たな景観/提供保証を加えない。",
-          "source": "https://www.gran-cc.co.jp/ja/about"
-        }
+        "sourceUrls": [
+          "https://www.gran-cc.co.jp/ja/about"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -808,27 +518,15 @@
         "basis": "公式夕食コースとメニュー一例。"
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 966,
-          "name": "サザンクロスカントリークラブ",
-          "field": "dining",
-          "current": null,
-          "proposal": "リゾートの夕食では「贅沢二種しゃぶしゃぶコース」を案内。和牛とふじのくに豚のしゃぶしゃぶ、金目鯛と生姜の釜炊き御飯などがメニュー例です。季節により内容が変わります。",
-          "source": "https://www.southerncross.co.jp/dining/",
-          "checked": "2026-10-29",
-          "basis": "公式夕食コースとメニュー一例。",
-          "conditions": "昼食とは別。夕食/リゾート料理と明記。価格・提供保証・名物断定なし。",
-          "status": "ready"
-        },
-        "independentReview": {
-          "id": 966,
-          "field": "dining",
-          "name": "サザンクロスカントリークラブ",
-          "decision": "supported",
-          "note": "公式は夕食コース、季節変更あり。昼食/プレー料金込/常時提供としない。",
-          "source": "https://www.southerncross.co.jp/dining/"
-        }
+        "sourceUrls": [
+          "https://www.southerncross.co.jp/dining/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -845,27 +543,15 @@
         "basis": "現行公式HTMLの具体的料理名・ランチセットと外来条件。"
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 985,
-          "name": "富士見ヶ丘カントリー倶楽部",
-          "field": "dining",
-          "current": null,
-          "proposal": "公式ランチメニューには「オムハヤシ」「うなしらす重」「南鮪の鉄火重」などを掲載。ランチはデザートバー・ソフトドリンクバー付き。季節のおすすめは毎月変更。外来利用は当日9時までの事前確認・予約が必要です。",
-          "source": "https://fujimigaoka.chateraisegolf.jp/restaurant/",
-          "checked": "2026-10-29",
-          "basis": "現行公式HTMLの具体的料理名・ランチセットと外来条件。",
-          "conditions": "外来はゴルファー優先で混雑時不可・天候休場あり。掲載料金はプレーヤー用で外来料金と異なるため金額は提案に含めない。名物断定なし。",
-          "status": "ready"
-        },
-        "independentReview": {
-          "id": 985,
-          "field": "dining",
-          "name": "富士見ヶ丘カントリー倶楽部",
-          "decision": "conditional",
-          "note": "外来条件追記推奨：ゴルファー優先、混雑時外来不可・天候休場あり。9時まで予約は席確約保証ではない。料理/ランチバー/毎月変更は本文確認。",
-          "source": "https://fujimigaoka.chateraisegolf.jp/restaurant/"
-        }
+        "sourceUrls": [
+          "https://fujimigaoka.chateraisegolf.jp/restaurant/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
@@ -887,35 +573,21 @@
         "basis": "2026年2月告知：3月30日から月火休館、特定日は臨時営業の場合。現行ゴルフ宿泊プランも掲載。"
       },
       "sourceEvidence": {
-        "proposalFile": "batch2-consolidated.json",
-        "originalCandidate": {
-          "id": 997,
-          "name": "静岡カントリー浜岡コース",
-          "field": "stay",
-          "current": {
-            "text": "浜岡コース＆ホテルに宿泊でき、1ラウンドと宿泊を組み合わせたプランを案内。",
-            "url": "https://www.hamaoka-hotel.jp/index.html",
-            "checked": "2026-10-25",
-            "basis": "施設運営者の宿泊・ゴルフ案内を確認。"
-          },
-          "proposal": "浜岡コース＆ホテルに宿泊でき、1ラウンドと宿泊を組み合わせたプランを案内。ホテルは2026年3月30日から原則月曜・火曜休館（特定日は臨時営業の場合あり）。最新営業日は公式案内をご確認ください。",
-          "source": "https://hamaoka-hotel.jp/",
-          "checked": "2026-10-29",
-          "basis": "2026年2月告知：3月30日から月火休館、特定日は臨時営業の場合。現行ゴルフ宿泊プランも掲載。",
-          "conditions": "既存宿泊案内に休館条件を追記。ゴルフ場まで月火休業と誤解しない表現。",
-          "status": "ready"
-        },
-        "independentReview": {
-          "id": 997,
-          "field": "stay",
-          "name": "静岡カントリー浜岡コース",
-          "decision": "supported",
-          "note": "2026年3月30日からホテル月火休館、特定日臨時営業を公式本文で確認。ゴルフ場の休業と混同しない。",
-          "source": "https://hamaoka-hotel.jp/"
-        }
+        "sourceUrls": [
+          "https://hamaoka-hotel.jp/",
+          "https://www.hamaoka-hotel.jp/index.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported",
       "baseSha": "fe6f0976f14720060044171a578df99ac325c4be"
     }
-  ]
+  ],
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }

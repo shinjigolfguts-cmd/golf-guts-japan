@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-10-29",
+  "snapshotCommit": "941a6a5fd4607d046de1797bceda993b1db5d17b",
+  "latestVerifiedDataCommit": "c09bbe41b943880c340b0f5424186f1fde9b1fdc",
+  "selectionDefinition": "comparison.play.text begins exactly 9ホールのコース。",
+  "denominator": 15,
+  "counts": {
+    "publishedTotalCorrections": 6,
+    "unchangedSupported": 5,
+    "publishedQualifiedFormat": 1,
+    "held": 3,
+    "unattempted": 0
+  },
+  "rows": [
+    {
+      "id": 120,
+      "name": "玉村公園ゴルフ倶楽部",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://koengolf.co.jp/",
+        "https://koengolf.co.jp/ryoukin/"
+      ],
+      "evidenceSha256": [
+        "032ae6d078574f76b95d3c1aece18d4d765176563101fcbbabefedee03c15490",
+        "7b10054d881e19c80469a6b1b4713ab973f6bc4e9dc086038a2dbb4a79f7f2d8"
+      ],
+      "scope": "公式TOPは本格的ショートコース/樹木に囲まれた9ホール、料金も9ホール1周。料金ページ18ホールは9H2周であり別18Hではない。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://koengolf.co.jp/ryoukin/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 238,
+      "name": "有馬ロイヤルゴルフクラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_corrected_total_verified",
+      "officialEvidenceUrls": [
+        "https://arima-royal.com/about"
+      ],
+      "evidenceSha256": [
+        "b1f950f38f9c1d648cb4e95e77a513fb9050575ec1a893dc0202035f8212603d"
+      ],
+      "scope": "対象クラブ概要のコース欄はロイヤルOUT9/IN9・ノーブルOUT9/IN9。旧9ホールプレー後という食事/コンペ案内は総ホール数でない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "af89895885f0f65ac12dd66377b384204280eade",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    },
+    {
+      "id": 331,
+      "name": "水沢リバーサイドゴルフ場",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "held_no_current_operator_total_evidence_prior_tga403_not_retried",
+      "officialEvidenceUrls": [],
+      "evidenceSha256": [],
+      "scope": "現運営者の総ホール数未確認。先行TGA403を再試行せず、第三者9/18混在を公式確認としない。",
+      "fullFacilityCompleted": false,
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 522,
+      "name": "天野山カントリークラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_corrected_total_verified",
+      "officialEvidenceUrls": [
+        "https://www.amanosan.jp/course"
+      ],
+      "evidenceSha256": [
+        "44eaece9e2daf65bc15a7aa83d8ada9eb98e45c1d5d522a70dc6fe7a990b6887"
+      ],
+      "scope": "成功現HTMLの南/東/北/西各区分に独立9ホール表とNo.1〜No.9ホール見出し、計36。No.9という単独ホール番号を総数にしない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "af89895885f0f65ac12dd66377b384204280eade",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    },
+    {
+      "id": 555,
+      "name": "レオグラードゴルフクラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_corrected_total_verified",
+      "officialEvidenceUrls": [
+        "https://www.leograd.jp/concept_outline/"
+      ],
+      "evidenceSha256": [
+        "a6a7df84fdc807bf2cb35947fad79ac55af068c7b2b65cf79775f3f9256ef5b8"
+      ],
+      "scope": "対象クラブ概要にコースタイプ丘陵、コースOUT9H PAR36/IN9H PAR36を同表で明示。OUTのみを全体数としない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    },
+    {
+      "id": 878,
+      "name": "妙高サンシャインゴルフワールドくるみヶ丘",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://www.myokosunshine.co.jp/contents/short/"
+      ],
+      "evidenceSha256": [
+        "311d250d1bd5b635d5cf67daa2503cce6e60b1af395ecd378b6506b4c168f4fe"
+      ],
+      "scope": "公式short本文はゴルフワールドくるみヶ丘のショートコース9ホールズ、料金欄も9ホールとまわり放題を区別。大型サンシャイン本コースとは別施設。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://www.myokosunshine.co.jp/contents/short/",
+        "checked": "2026-10-25",
+        "basis": "公式本文のホール数表記: 9ホール。コース内の個別ホールを施設として分割せず掲載。"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1127,
+      "name": "ゴルフクラブ四条畷",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "held_prior_access503_no_retry",
+      "officialEvidenceUrls": [],
+      "evidenceSha256": [],
+      "scope": "旧根拠は早朝・薄暮9ホールプランで施設総数を確認できない。先行503取得失敗後の再試行なし。",
+      "fullFacilityCompleted": false,
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1136,
+      "name": "伏尾ゴルフ倶楽部",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_corrected_total_verified",
+      "officialEvidenceUrls": [
+        "https://fushio.com/course.html"
+      ],
+      "evidenceSha256": [
+        "43b6497989c64b8aca135f83825795bfef1e5b07e0e957b495b0791adc7ccafa",
+        "526908c07f1355892a889d77d2dcb28ad8948ac796cc1bc83d2654bcd1d50f9c",
+        "76d3d40509bcc3c3b51ffcf1fe5c30279575ddd315bc708822070f23a26cce3c",
+        "e4e86d93f03e01649b945c4ba4722c4364b07126dcb9ec48be355cef022a6ce9"
+      ],
+      "scope": "成功現HTMLの東/南/西各区分に埋込ヤーデージ画像を通常取得し目視。3画像ともHOLE1〜9とTOTALを明示。西だけの9ホール説明を総数としない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "af89895885f0f65ac12dd66377b384204280eade",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    },
+    {
+      "id": 1140,
+      "name": "ナパラゴルフクラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://www.napara.co.jp/"
+      ],
+      "evidenceSha256": [
+        "8214260f9adb366bbd73f2bcb1df7e3d26eebbd8110560f89198810532e60fea"
+      ],
+      "scope": "施設TOPヘッダー9Holes/Par36と本文9ホールズを2ユニット周回を明記。総数9を保持、2周を18実ホールとしない。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://napara.co.jp/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：ナパラゴルフクラブでは、全ホールに4面の広いティーグランドを設けています。バック、レギュラー、フロント、レディース･･･ティー位置を変えるだけでホールの表情は見事に変化します。9ホールズを２ユニットラウンドする場合でも、ティーの変化と朝・昼・夜とカップの位置を切り直すなど、いつも新鮮なホール・バイ・ホールがお楽しみいただけます。 | Image",
+        "sourceType": "official"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1159,
+      "name": "ライオンズゴルフ倶楽部",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_corrected_total_verified",
+      "officialEvidenceUrls": [
+        "https://www.lions-gc.co.jp/course/"
+      ],
+      "evidenceSha256": [
+        "585e8d99a799592093908613a6fe9650cbeef44fb525643cbda21a35e1ea5fac"
+      ],
+      "scope": "対象コースガイドのシンバ/レオ/エルザ各ヤーデージ表にHOLE1〜9とTOTAL/PAR36を独立掲載。9ホール増設という導入文だけで総数を推測しない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    },
+    {
+      "id": 1171,
+      "name": "COCOPARESORTCLUB白山ヴィレッジゴルフコース",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "held_related_denied_access_no_retry",
+      "officialEvidenceUrls": [],
+      "evidenceSha256": [],
+      "scope": "旧根拠は個別ホール難易度表記で施設総数を確認できない。関連する取得拒否を迂回せず保留。",
+      "fullFacilityCompleted": false,
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1209,
+      "name": "根来ゴルフクラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://negoro-golf.com/course/"
+      ],
+      "evidenceSha256": [
+        "701ff51bbddabb60b513bd6a1ec494ac4b2852b733adfd3a9d557ae3ea577c2a"
+      ],
+      "scope": "対象コース概要表ホール9パー31、設計三栖昇、タイプ丘陵を明記。現playとfeatureの全記載支持。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。丘陵タイプ。設計は三栖昇。",
+        "url": "https://negoro-golf.com/course/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：ホール | 9ホール パー31／同ページのコースタイプ・設計欄",
+        "sourceType": "official"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1210,
+      "name": "黒沢ハイランドゴルフコース",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://9638farm.com/highland/"
+      ],
+      "evidenceSha256": [
+        "8de8381e23b83ad033c0a24e5197cf6e1e1ad8ff92078c0aa0b0c3021b7c7845"
+      ],
+      "scope": "当日既成功保存対象黒沢ハイランドのショートコース、距離1428Y9ホールを明記。回り放題と物理総数を区別。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/520429",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：9ホール",
+        "sourceType": "booking"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1740,
+      "name": "日向山高原ゴルフコース",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_qualified_twintee_description_verified",
+      "officialEvidenceUrls": [
+        "https://www.hinatayamagolf.jp/"
+      ],
+      "evidenceSha256": [
+        "d4e87e92ab5067771ae5eb9412c3d1e615659e405250c8abbeb136a80d0c0122"
+      ],
+      "scope": "公式ツインティー方式18ホール、OUT1–9/IN10–18の対応、各詳細OUT01/IN10等のpaired表示を確認。18個の独立した実ホールとは断定しない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "c09bbe41b943880c340b0f5424186f1fde9b1fdc",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    },
+    {
+      "id": 1799,
+      "name": "ベル・グリーンカントリークラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "published_corrected_total_verified",
+      "officialEvidenceUrls": [
+        "https://www.bellgreen.cc/course_guide.html"
+      ],
+      "evidenceSha256": [
+        "02fc4883de261543f95f86d6a7bbe3b554131233805e1404d2b0a60552048be6",
+        "de7ffcd4945954f83d43a0d1efab73c920cda5a46c18c4c0e695f060fceaa030"
+      ],
+      "scope": "対象コースガイドの西/中/東各一覧に9ホールを明記。公式東・東案内は東9ホールを2回回る別プランと説明し、西・中の乗用カートラウンドと区別する。旧予約口コミの同じ9繰返しを施設総数に使わない。",
+      "fullFacilityCompleted": false,
+      "publishedCommit": "af89895885f0f65ac12dd66377b384204280eade",
+      "publicVerificationStage": "formal_deploy_public_bytes_and_target_browser_verified"
+    }
+  ],
+  "unchangedFieldReviews": [
+    {
+      "id": 120,
+      "name": "玉村公園ゴルフ倶楽部",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://koengolf.co.jp/",
+        "https://koengolf.co.jp/ryoukin/"
+      ],
+      "evidenceSha256": [
+        "032ae6d078574f76b95d3c1aece18d4d765176563101fcbbabefedee03c15490",
+        "7b10054d881e19c80469a6b1b4713ab973f6bc4e9dc086038a2dbb4a79f7f2d8"
+      ],
+      "scope": "公式TOPは本格的ショートコース/樹木に囲まれた9ホール、料金も9ホール1周。料金ページ18ホールは9H2周であり別18Hではない。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://koengolf.co.jp/ryoukin/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 878,
+      "name": "妙高サンシャインゴルフワールドくるみヶ丘",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://www.myokosunshine.co.jp/contents/short/"
+      ],
+      "evidenceSha256": [
+        "311d250d1bd5b635d5cf67daa2503cce6e60b1af395ecd378b6506b4c168f4fe"
+      ],
+      "scope": "公式short本文はゴルフワールドくるみヶ丘のショートコース9ホールズ、料金欄も9ホールとまわり放題を区別。大型サンシャイン本コースとは別施設。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://www.myokosunshine.co.jp/contents/short/",
+        "checked": "2026-10-25",
+        "basis": "公式本文のホール数表記: 9ホール。コース内の個別ホールを施設として分割せず掲載。"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1140,
+      "name": "ナパラゴルフクラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://www.napara.co.jp/"
+      ],
+      "evidenceSha256": [
+        "8214260f9adb366bbd73f2bcb1df7e3d26eebbd8110560f89198810532e60fea"
+      ],
+      "scope": "施設TOPヘッダー9Holes/Par36と本文9ホールズを2ユニット周回を明記。総数9を保持、2周を18実ホールとしない。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://napara.co.jp/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：ナパラゴルフクラブでは、全ホールに4面の広いティーグランドを設けています。バック、レギュラー、フロント、レディース･･･ティー位置を変えるだけでホールの表情は見事に変化します。9ホールズを２ユニットラウンドする場合でも、ティーの変化と朝・昼・夜とカップの位置を切り直すなど、いつも新鮮なホール・バイ・ホールがお楽しみいただけます。 | Image",
+        "sourceType": "official"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1209,
+      "name": "根来ゴルフクラブ",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://negoro-golf.com/course/"
+      ],
+      "evidenceSha256": [
+        "701ff51bbddabb60b513bd6a1ec494ac4b2852b733adfd3a9d557ae3ea577c2a"
+      ],
+      "scope": "対象コース概要表ホール9パー31、設計三栖昇、タイプ丘陵を明記。現playとfeatureの全記載支持。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。丘陵タイプ。設計は三栖昇。",
+        "url": "https://negoro-golf.com/course/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：ホール | 9ホール パー31／同ページのコースタイプ・設計欄",
+        "sourceType": "official"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 1210,
+      "name": "黒沢ハイランドゴルフコース",
+      "field": "play",
+      "reviewDate": "2026-10-29",
+      "status": "independently_supported_unchanged9",
+      "officialEvidenceUrls": [
+        "https://9638farm.com/highland/"
+      ],
+      "evidenceSha256": [
+        "8de8381e23b83ad033c0a24e5197cf6e1e1ad8ff92078c0aa0b0c3021b7c7845"
+      ],
+      "scope": "当日既成功保存対象黒沢ハイランドのショートコース、距離1428Y9ホールを明記。回り放題と物理総数を区別。",
+      "fullFacilityCompleted": false,
+      "comparedExistingValue": {
+        "text": "9ホールのコース。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/520429",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：9ホール",
+        "sourceType": "booking"
+      },
+      "comparisonResult": "unchanged_supported_in_stated_scope_only",
+      "publicVerificationStage": "no_public_change",
+      "publicCorrectionIncrement": 0
+    }
+  ],
+  "excludedEarlierCorrection": {
+    "id": 1081,
+    "commit": "941a6a5fd4607d046de1797bceda993b1db5d17b"
+  },
+  "limits": [
+    "This exact phrase is not all 9-hole statements or all courses. No bulk9→18 conversion. Total holes differ from plans/short courses/looping same9. Non-suspect does not mean independently verified.",
+    "施設全体の総ホール数は同一施設の公式全体構成・全コース表で確認する。No.9等個別番号、ハーフ/薄暮/早朝プラン、増設部分、口コミ、ショートコース、同一9ホール周回を施設総数へ転用しない。feature/説明等の全参照も確認。",
+    "This closes only the finite exact-phrase research/review queue;3 holds remain. No full-facility/all-field completion. Unchanged confirmations do not increment published correction counts.1740 states official twin-tee format, not18independent physical holes.",
+    "Raw source pages retained locally; portable summary contains URLs,hashes and short scope summaries only."
+  ]
+}

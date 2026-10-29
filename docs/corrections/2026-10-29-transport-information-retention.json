@@ -38,20 +38,19 @@
         ]
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://reserve.golfdigest.co.jp/golf-course/616403/",
-          "checked": "2026-10-25",
-          "basis": "予約サイトの施設案内確認：最寄りIC\n    名神高速道路/蒲生スマートIC 7 km",
-          "verification": "published-diff-changes.jsonの元掲載値。今回現在事実として再確認したものではない。"
-        },
-        {
-          "url": "https://meishin-ryuou.jp/access",
-          "checked": "2026-10-29",
-          "basis": "Official access L13–16 gives these two driving times.",
-          "reviewFile": "crossfield-consistency-oct29/information-omission-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://meishin-ryuou.jp/access",
+          "https://reserve.golfdigest.co.jp/golf-course/616403/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "changeRationale": "未反証の旧距離/別起点/移動条件を元出典・確認日で復元。新公式事実は現行値を保持。"
     },
     {
@@ -89,20 +88,19 @@
         ]
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://reserve.golfdigest.co.jp/golf-course/616403/",
-          "checked": "2026-10-25",
-          "basis": "予約サイトの施設案内確認：タクシー\n    草津駅から約35分",
-          "verification": "published-diff-changes.jsonの元掲載値。今回現在事実として再確認したものではない。"
-        },
-        {
-          "url": "https://meishin-ryuou.jp/access",
-          "checked": "2026-10-29",
-          "basis": "Official access L17–25: Mikumo taxi 15 minutes; JR Mikumo shuttle 15–20 minutes, weekends only, six passengers, reserve when booking. Outbound departures 08:00 and 09:30; returns 16:00 and 17:00.",
-          "reviewFile": "crossfield-consistency-oct29/information-omission-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://meishin-ryuou.jp/access",
+          "https://reserve.golfdigest.co.jp/golf-course/616403/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "changeRationale": "未反証の旧距離/別起点/移動条件を元出典・確認日で復元。新公式事実は現行値を保持。"
     },
     {
@@ -140,20 +138,19 @@
         ]
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://reserve.golfdigest.co.jp/golf-course/251401/",
-          "checked": "2026-10-25",
-          "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-          "verification": "published-diff-changes.jsonの元掲載値。今回現在事実として再確認したものではない。"
-        },
-        {
-          "url": "https://www.y-kenmingolf.com/access/",
-          "checked": "2026-10-29",
-          "basis": "Official access L15–17 gives Funagata IC approximately5 minutes6km.",
-          "reviewFile": "crossfield-consistency-oct29/information-omission-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/251401/",
+          "https://www.y-kenmingolf.com/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "changeRationale": "未反証の旧距離/別起点/移動条件を元出典・確認日で復元。新公式事実は現行値を保持。"
     },
     {
@@ -191,20 +188,19 @@
         ]
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50016/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "verification": "published-diff-changes.jsonの元掲載値。今回現在事実として再確認したものではない。"
-        },
-        {
-          "url": "https://www.akc-golf.com/access.html",
-          "checked": "2026-10-29",
-          "basis": "Official access L72–75 explicitly gives station/taxi15minutes.",
-          "reviewFile": "crossfield-consistency-oct29/information-omission-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50016/",
+          "https://www.akc-golf.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "changeRationale": "未反証の旧距離/別起点/移動条件を元出典・確認日で復元。新公式事実は現行値を保持。"
     },
     {
@@ -242,21 +238,20 @@
         ]
       },
       "reviewStatus": "supported_with_required_conditions_applied",
-      "sourceEvidence": [
-        {
-          "url": "https://reserve.golfdigest.co.jp/golf-course/240105/",
-          "checked": "2026-10-25",
-          "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
-          "verification": "published-diff-changes.jsonの元掲載値。今回現在事実として再確認したものではない。"
-        },
-        {
-          "url": "https://www.akc-golf.com/access.html",
-          "checked": "2026-10-29",
-          "basis": "Official access L65 and79 give these exact routes/times. 十和田IC45kmは独立レビュー information-omission-review.json が公式access.html L63–65で確認。",
-          "reviewFile": "crossfield-consistency-oct29/information-omission-review.json"
-        }
-      ],
-      "changeRationale": "旧十和田IC50kmは同起点の現公式45kmへ変更する根拠あり、復元しない。昭和男鹿半島IC50kmは別起点で未反証なので旧bookingのみ復元。公式十和田45kmはverify_kanto独立レビュー依存で、本作業の新取得ではない。"
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/240105/",
+          "https://www.akc-golf.com/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
+      "changeRationale": "旧十和田IC50kmは同起点の現公式45kmへ変更する根拠あり、復元しない。昭和男鹿半島IC50kmは別起点で未反証なので旧bookingのみ復元。公式十和田45kmは別途の独立レビュー依存で、本作業の新取得ではない。"
     }
   ],
   "rollback": "Restore changed data and both HTML references from baseCommit in a new commit.",
@@ -279,5 +274,6 @@
     "checkedOn": "2026-10-29",
     "scope": "Tenwada IC45km via Hinai/Route285, Gojome42km45min, airport10min, stationtaxi15min",
     "retrieval": "web open successful 12:28 UTC"
-  }
+  },
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }

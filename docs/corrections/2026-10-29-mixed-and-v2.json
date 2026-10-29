@@ -57,20 +57,19 @@
           }
         ]
       },
-      "sourceEvidence": [
-        {
-          "url": "https://booking.pacificgolf.co.jp/?cc_id=113&p=guide.access_map",
-          "checked": "2026-10-29",
-          "reviewFile": "batches4-5-independent-review.json",
-          "basis": "公式施設情報の練習場欄：250ヤード・17打席。旧300ヤード・14打席のみ訂正。"
-        },
-        {
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/310006/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-          "verification": "既存掲載根拠を維持。今回再取得・再確認した根拠ではない。"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/310006/",
+          "https://booking.pacificgolf.co.jp/?cc_id=113&p=guide.access_map"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -108,20 +107,19 @@
           }
         ]
       },
-      "sourceEvidence": [
-        {
-          "url": "https://reserve.accordiagolf.com/golfCourse/shimane/izumo/detail/",
-          "checked": "2026-10-29",
-          "reviewFile": "batches4-5-independent-review.json",
-          "basis": "公式施設案内のレストラン営業時間・ラストオーダー・ランチ終了後の利用条件。旧朝食・喫煙等は今回未再確認。"
-        },
-        {
-          "url": "https://reserve.golfdigest.co.jp/golf-course/720202/",
-          "checked": "2026-10-25",
-          "basis": "GDO施設案内の該当項目。名称・都道府県を再照合",
-          "verification": "既存掲載根拠を維持。今回再取得・再確認した根拠ではない。"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/shimane/izumo/detail/",
+          "https://reserve.golfdigest.co.jp/golf-course/720202/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -159,20 +157,19 @@
           }
         ]
       },
-      "sourceEvidence": [
-        {
-          "url": "https://www.natadera-cc.com/access",
-          "checked": "2026-10-29",
-          "reviewFile": "batches6-7-independent-review.json",
-          "basis": "公式アクセス本文の駅から車の所要時間。クラブバス条件の再確認を意味しない。"
-        },
-        {
-          "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/170004/",
-          "checked": "2026-10-25",
-          "basis": "楽天GORA掲載施設案内",
-          "verification": "既存掲載根拠を維持。今回再取得・再確認した根拠ではない。"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/170004/",
+          "https://www.natadera-cc.com/access"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25",
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -194,14 +191,18 @@
         "sourceType": "official",
         "basis": "公式アクセス本文の黒石IC国道102号経由20分を確認。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://biwanodai.com/",
-          "checked": "2026-10-29",
-          "basis": "公式アクセス本文の黒石IC国道102号経由20分を確認。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://biwanodai.com/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/20011/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -222,14 +223,17 @@
         "sourceType": "official",
         "basis": "公式トップ2026営業案内の10月26日18ホール化・11月8日予定・積雪条件を確認。施設総ホール数と当日の稼働を区別。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://towadako-gc.net/",
-          "checked": "2026-10-29",
-          "basis": "公式トップ2026営業案内の10月26日18ホール化・11月8日予定・積雪条件を確認。施設総ホール数と当日の稼働を区別。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://towadako-gc.net/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -251,14 +255,18 @@
         "sourceType": "official",
         "basis": "公式トップに天然温泉・ロッジ案内と2026年11月4日からお風呂無しの明文。宿泊営業日は未確認。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://towadako-gc.net/",
-          "checked": "2026-10-29",
-          "basis": "公式トップに天然温泉・ロッジ案内と2026年11月4日からお風呂無しの明文。宿泊営業日は未確認。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/20010/",
+          "https://towadako-gc.net/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -295,19 +303,18 @@
           }
         ]
       },
-      "sourceEvidence": [
-        {
-          "url": "https://towadako-gc.net/",
-          "checked": "2026-10-29",
-          "basis": "既存公式レストラン根拠の高原カレー情報は維持し、公式トップの2026年11月4日からレストラン無しを追加。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        },
-        {
-          "url": "https://towadako-gc.net/restaurant/",
-          "checked": "2026-10-29",
-          "basis": "独立レビューで高原カレー掲載を再確認済み。表示側は既存の根拠日を保持。"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://towadako-gc.net/",
+          "https://towadako-gc.net/restaurant/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -329,14 +336,18 @@
         "sourceType": "official",
         "basis": "公式トップ交通案内の黒石IC60分を確認。既存予約サイト45分との相違を公式優先で訂正する候補。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://towadako-gc.net/",
-          "checked": "2026-10-29",
-          "basis": "公式トップ交通案内の黒石IC60分を確認。既存予約サイト45分との相違を公式優先で訂正する候補。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://reserve.golfdigest.co.jp/golf-course/215102/",
+          "https://towadako-gc.net/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -358,14 +369,18 @@
         "sourceType": "official",
         "basis": "公式アクセス本文に大鰐温泉駅・無料送迎10分（冬季20分）。ICからの時間とは混同しない。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://a-royalgolf.com/access/",
-          "checked": "2026-10-29",
-          "basis": "公式アクセス本文に大鰐温泉駅・無料送迎10分（冬季20分）。ICからの時間とは混同しない。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://a-royalgolf.com/access/",
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/20002/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -381,14 +396,17 @@
         "sourceType": "official",
         "basis": "公式施設紹介本文の食事14時30分・飲料16時・朝食事前予約・オードブル相談を確認。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://hachinohecc.com/facility/",
-          "checked": "2026-10-29",
-          "basis": "公式施設紹介本文の食事14時30分・飲料16時・朝食事前予約・オードブル相談を確認。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://hachinohecc.com/facility/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     },
@@ -410,16 +428,21 @@
         "sourceType": "official",
         "basis": "公式交通アクセス本文のIC別距離と平常時の所要時間を確認。"
       },
-      "sourceEvidence": [
-        {
-          "url": "https://www.tsugaru-gc.jp/access/",
-          "checked": "2026-10-29",
-          "basis": "公式交通アクセス本文のIC別距離と平常時の所要時間を確認。",
-          "reviewFile": "original-sites-handoff-independent-review.json"
-        }
-      ],
+      "sourceEvidence": {
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/20005/",
+          "https://www.tsugaru-gc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
+      },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "f9b43fa32533333956c0c36d8b2dcf317b72d52b"
     }
-  ]
+  ],
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }

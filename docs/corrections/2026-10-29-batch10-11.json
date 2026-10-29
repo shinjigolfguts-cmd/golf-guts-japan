@@ -39,33 +39,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.car",
-          "before": {
-            "text": "日本海東北自動車道・聖籠新発田ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150015/",
-            "checked": "2026-10-25",
-            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-            "sourceType": "booking"
-          },
-          "candidate": "日本海東北自動車道・聖籠新発田ICから車で15分と公式案内。",
-          "sourceUrl": "https://www.shiun-gc.co.jp/access.html",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 198,
-          "name": "紫雲ゴルフ倶楽部",
-          "field": "car",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.shiun-gc.co.jp/access.html",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "IC15分と新潟駅R7経由車40分を公式本文確認。車をタクシーと断定しない。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150015/",
+          "https://www.shiun-gc.co.jp/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -83,27 +66,13 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.rail",
-          "before": null,
-          "candidate": "新潟駅から新新バイパス（R7）経由、車で40分と公式案内。",
-          "sourceUrl": "https://www.shiun-gc.co.jp/access.html",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 198,
-          "name": "紫雲ゴルフ倶楽部",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.shiun-gc.co.jp/access.html",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "IC15分と新潟駅R7経由車40分を公式本文確認。車をタクシーと断定しない。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.shiun-gc.co.jp/access.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -115,27 +84,13 @@
       "before": "最新の料金・予約条件・営業状況は公式情報をご確認ください。",
       "after": "最新の料金・予約条件・営業状況は公式情報をご確認ください。 キャディは事前予約制で、人数に限りがあり希望に添えない場合があります。",
       "sourceEvidence": {
-        "proposal": {
-          "field": "note",
-          "before": "最新の料金・予約条件・営業状況は公式情報をご確認ください。",
-          "candidate": "最新の料金・予約条件・営業状況は公式情報をご確認ください。 キャディは事前予約制で、人数に限りがあり希望に添えない場合があります。",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/?cc_id=22&p=guide.access_map",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 199,
-          "name": "中峰ゴルフ倶楽部",
-          "field": "note",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://booking.pacificgolf.co.jp/?cc_id=22&p=guide.access_map",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "キャディ事前予約・人数制限をPGM当該施設本文確認。クラブバスなしだけではrail空欄解消不可。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://booking.pacificgolf.co.jp/?cc_id=22&p=guide.access_map"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -159,33 +114,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.car",
-          "before": {
-            "text": "中央自動車道・河口湖ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190030/",
-            "checked": "2026-10-25",
-            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-            "sourceType": "booking"
-          },
-          "candidate": "河口湖ICから約6km。中央道方面からは河口湖IC、東名・御殿場方面からは富士吉田ICを利用。公式は各方面から反対側のICでは降りられないと案内しています。",
-          "sourceUrl": "https://www.fujizakura-cc.jp/access/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 210,
-          "name": "富士桜カントリー倶楽部",
-          "field": "car",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.fujizakura-cc.jp/access/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "河口湖IC6km。中央道側河口湖/東名御殿場側富士吉田、反対側では降車不可を保持。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190030/",
+          "https://www.fujizakura-cc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -209,33 +147,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.car",
-          "before": {
-            "text": "中央自動車道・河口湖ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190032/",
-            "checked": "2026-10-25",
-            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-            "sourceType": "booking"
-          },
-          "candidate": "河口湖ICから約8km。中央道方面からは河口湖IC、東名・御殿場方面からは富士吉田ICを利用。公式は各方面から反対側のICでは降りられないと案内しています。",
-          "sourceUrl": "https://www.fujilakeside-cc.jp/access/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 211,
-          "name": "富士レイクサイドカントリー倶楽部",
-          "field": "car",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.fujilakeside-cc.jp/access/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "河口湖IC8km。中央道側河口湖/東名御殿場側富士吉田、反対側では降車不可を保持。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190032/",
+          "https://www.fujilakeside-cc.jp/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -253,27 +174,13 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.rail",
-          "before": null,
-          "candidate": "公式掲載の無料送迎案内では、茅野駅東口との送迎はコース利用客限定で1週間前までの予約が必要です。7名まで、除外日あり。予約がない場合は運行せず、諸事情により受けられない場合があります。掲載ダイヤは2025年12月現在のため、利用便・実施日は予約時に確認してください。",
-          "sourceUrl": "https://kajima-resort.co.jp/access/sougei.pdf",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 215,
-          "name": "鹿島南蓼科ゴルフコース",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://kajima-resort.co.jp/access/sougei.pdf",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "PDF抽出本文でコース利用者限定・無料・1週間前予約・7名まで・除外日・予約なければ運休・諸事情で不可・2025年12月現在を確認。時刻方向を新たに推定しない。電話によるキャンセル連絡も公式条件（付記可）。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://kajima-resort.co.jp/access/sougei.pdf"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -291,27 +198,13 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.rail",
-          "before": null,
-          "candidate": "JR中央本線・土岐市駅からタクシーで約25分。クラブバスはありません。",
-          "sourceUrl": "https://www.pacificgolf.co.jp/hananoki/information.asp",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 217,
-          "name": "花の木ゴルフクラブ",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.pacificgolf.co.jp/hananoki/information.asp",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "土岐市駅タクシー25分・クラブバスなしを公式本文確認。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.pacificgolf.co.jp/hananoki/information.asp"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -334,32 +227,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.car",
-          "before": {
-            "text": "御殿場ICから約3分（2km）。",
-            "url": "https://www.fujicountryclub.com/feature_fcc/",
-            "checked": "2026-10-25",
-            "basis": "[wordlim: 200] Crawled: today; 富士カントリークラブは御殿場ICから2km(約3分)というアクセスの良さ。 ... 御殿場の東名高速南側の箱根外輪山の丘陵、標高470mのところにクラブハウスがあり18ホール全てのコースから、霊峰富士を望むことができます。 ... グリーンの広さは平均約780m2、最高1,100m2あり、砲台グリーンが多くアンジュレーションがあります。"
-          },
-          "candidate": "乗用車の場合、東京方面からは御殿場IC第2出口（富士五湖・箱根方面）から2km・約3分、名古屋方面からは第1出口（御殿場市街方面）から3km・約4分。大型バスは別ルートのため公式案内を確認してください。",
-          "sourceUrl": "https://www.fujicountryclub.com/access/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 221,
-          "name": "富士カントリークラブ",
-          "field": "car",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.fujicountryclub.com/access/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "東京方面乗用車第2出口2km3分、名古屋方面第1出口3km4分。大型バスは別経路2.5km4分/3km5分。クラブバス事前予約、朝迎えのみ前日16時まで。無料未確認。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.fujicountryclub.com/access/",
+          "https://www.fujicountryclub.com/feature_fcc/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -377,27 +254,13 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.rail",
-          "before": null,
-          "candidate": "JR御殿場線・御殿場駅乙女口のロータリーからクラブバス送迎があります。事前予約制で、朝のお迎えは前日の16時までに予約が必要です。",
-          "sourceUrl": "https://www.fujicountryclub.com/access/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 221,
-          "name": "富士カントリークラブ",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.fujicountryclub.com/access/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "東京方面乗用車第2出口2km3分、名古屋方面第1出口3km4分。大型バスは別経路2.5km4分/3km5分。クラブバス事前予約、朝迎えのみ前日16時まで。無料未確認。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.fujicountryclub.com/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -409,27 +272,13 @@
       "before": null,
       "after": "https://www.asagiri.net/",
       "sourceEvidence": {
-        "proposal": {
-          "field": "officialUrl",
-          "before": null,
-          "candidate": "https://www.asagiri.net/",
-          "sourceUrl": "https://www.asagiri.net/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 429,
-          "name": "朝霧ジャンボリーゴルフクラブ",
-          "field": "officialUrl",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.asagiri.net/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "公式所在地/施設名でURL同一性確認。新富士IC26km35分/河口湖30km40分、新富士駅32km車45分。無料バスは5日前申込、予約状況で不可、1名から定時1往復/10名からプレー時刻対応。契約タクシーは有料で無料バスと区別。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.asagiri.net/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -453,33 +302,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.car",
-          "before": {
-            "text": "中央自動車道・河口湖ICから30km以内／新東名高速道路・新富士ICから25km以内と掲載。距離区分で、所要時間を示すものではありません。",
-            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220002/",
-            "checked": "2026-10-25",
-            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
-            "sourceType": "booking"
-          },
-          "candidate": "新富士ICから26km・約35分（西富士道路から国道139号へ）。河口湖ICから30km・約40分と公式案内。",
-          "sourceUrl": "https://www.asagiri.net/company/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 429,
-          "name": "朝霧ジャンボリーゴルフクラブ",
-          "field": "car",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.asagiri.net/company/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "公式所在地/施設名でURL同一性確認。新富士IC26km35分/河口湖30km40分、新富士駅32km車45分。無料バスは5日前申込、予約状況で不可、1名から定時1往復/10名からプレー時刻対応。契約タクシーは有料で無料バスと区別。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220002/",
+          "https://www.asagiri.net/company/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-25"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -497,27 +329,13 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "comparison.rail",
-          "before": null,
-          "candidate": "新富士駅から32km・車で約45分。駅とゴルフ場の無料送迎は利用日の5日前までに申込が必要で、予約状況により受けられない場合があります。定時クラブバスは1日1往復・1名から予約可、プレー時間に合わせるバス送迎は10名から予約可。",
-          "sourceUrl": "https://www.asagiri.net/company/",
-          "sourceType": "official",
-          "merge_instructions": "この項目だけの狭い差分。他の既存項目・note確認文・予約条件は維持。所要時間は公式の案内値で保証ではない。"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch10-results.json",
-        "review": {
-          "id": 429,
-          "name": "朝霧ジャンボリーゴルフクラブ",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "fresh_web_official_body_or_PDF_text",
-          "sourceUrl": "https://www.asagiri.net/company/",
-          "evidenceText": null,
-          "application_status": "applicable",
-          "review": "公式所在地/施設名でURL同一性確認。新富士IC26km35分/河口湖30km40分、新富士駅32km車45分。無料バスは5日前申込、予約状況で不可、1名から定時1往復/10名からプレー時刻対応。契約タクシーは有料で無料バスと区別。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.asagiri.net/company/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -529,32 +347,15 @@
       "before": null,
       "after": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
       "sourceEvidence": {
-        "proposal": {
-          "field": "officialUrl",
-          "previousValue": null,
-          "text": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
-          "url": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Liveoperator page says空港ゴルフコース成田,香取市小川1371-1,0478-79-2111.",
-          "conditions": "Course-specificoperator accesspage; not別施設成田ゴルフ倶楽部(大室127).",
-          "mergeInstructions": "Change only named field; keep unrelated baseline text/evidence unchanged.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1383access.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1383access.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1383,
-          "name": "アコーディア・ゴルフ空港ゴルフコース成田",
-          "field": "officialUrl",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1383access.txt",
-          "application_status": "applicable",
-          "review": "保存公式本文で施設名・香取市小川1371-1を確認。大栄IC20分/八日市場駅タクシー20分。距離16/16.5kmの本文内部差は未解消なので候補の時間のみ採用が安全。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -572,32 +373,15 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "rail",
-          "previousValue": null,
-          "text": "JR八日市場駅からタクシーで約20分。",
-          "url": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Official交通案内八日市場駅タクシー20分.",
-          "conditions": "Approximate, no guaranteeddispatch; fareexamplesomitted.",
-          "mergeInstructions": "Change only named field; keep unrelated baseline text/evidence unchanged.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1383access.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1383access.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1383,
-          "name": "アコーディア・ゴルフ空港ゴルフコース成田",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1383access.txt",
-          "application_status": "applicable",
-          "review": "保存公式本文で施設名・香取市小川1371-1を確認。大栄IC20分/八日市場駅タクシー20分。距離16/16.5kmの本文内部差は未解消なので候補の時間のみ採用が安全。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -609,32 +393,15 @@
       "before": null,
       "after": "https://www.kazusamonarch.com/",
       "sourceEvidence": {
-        "proposal": {
-          "field": "officialUrl",
-          "previousValue": null,
-          "text": "https://www.kazusamonarch.com/",
-          "url": "https://www.kazusamonarch.com/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Currentoperator rootmaintenance notice namesclub in title/logo andphone0439-29-3100matchingbaseline; validoperator domain.",
-          "conditions": "Websitecurrentlymaintenance; this is notcourseclosure.",
-          "mergeInstructions": "Change only named field; keep unrelated baseline text/evidence unchanged.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1391.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1391.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1391,
-          "name": "上総モナークカントリークラブ",
-          "field": "officialUrl",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://www.kazusamonarch.com/",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1391.txt",
-          "application_status": "applicable",
-          "review": "保存現公式maintenance本文で9–17問い合わせ受付と2H黒青白/3H金赤の一部ティー人工芝を確認。サイト停止をコース休業としない。日付付き一時状況として保存、恒久条件扱い不可。キャッシュ送迎は保留維持。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.kazusamonarch.com/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -646,32 +413,15 @@
       "before": "公式サイトはメンテナンス画面。イノシシ被害と2・3番の一部ティーの人工芝対応を案内しています。最新の営業・予約条件は0439-29-3100へ確認してください。",
       "after": "【2026年10月29日確認】公式サイトはメンテナンス画面。イノシシ被害と2・3番の一部ティーの人工芝対応を案内しています。最新の営業・予約条件は0439-29-3100へ確認してください。 電話のお問い合わせ受付は9:00～17:00。",
       "sourceEvidence": {
-        "proposal": {
-          "field": "note",
-          "previousValue": "公式サイトはメンテナンス画面。イノシシ被害と2・3番の一部ティーの人工芝対応を案内しています。最新の営業・予約条件は0439-29-3100へ確認してください。",
-          "text": "公式サイトはメンテナンス画面。イノシシ被害と2・3番の一部ティーの人工芝対応を案内しています。最新の営業・予約条件は0439-29-3100へ確認してください。 電話のお問い合わせ受付は9:00～17:00。",
-          "url": "https://www.kazusamonarch.com/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "CurrentHTMLmaintenance notice問い合わせ受付時間9–17.",
-          "conditions": "Telephonehours only; not clubhouseopeninghours.",
-          "mergeInstructions": "Append only; original general confirmation wording retained verbatim.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1391.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1391.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1391,
-          "name": "上総モナークカントリークラブ",
-          "field": "note",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://www.kazusamonarch.com/",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1391.txt",
-          "application_status": "conditional",
-          "review": "保存現公式maintenance本文で9–17問い合わせ受付と2H黒青白/3H金赤の一部ティー人工芝を確認。サイト停止をコース休業としない。日付付き一時状況として保存、恒久条件扱い不可。キャッシュ送迎は保留維持。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.kazusamonarch.com/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -683,32 +433,15 @@
       "before": "ご利用日・人数に合うプランを公式サイトでご確認ください。",
       "after": "ご利用日・人数に合うプランを公式サイトでご確認ください。 多幸コースの電話予約受付は8:00～16:30（0283-66-2121）。",
       "sourceEvidence": {
-        "proposal": {
-          "field": "note",
-          "previousValue": "ご利用日・人数に合うプランを公式サイトでご確認ください。",
-          "text": "ご利用日・人数に合うプランを公式サイトでご確認ください。 多幸コースの電話予約受付は8:00～16:30（0283-66-2121）。",
-          "url": "https://www.ashikaga-cc.com/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "SharedhomepageRESERVATION gives8–16:30 andseparatecourse-labelledphones.",
-          "conditions": "Eachrecordusesitsowncoursephone;noaddressorconditiontransferbetweencourses.",
-          "mergeInstructions": "Append only; original general confirmation wording retained verbatim.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1431-1432.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1431-1432.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1431,
-          "name": "足利カントリークラブ 多幸コース",
-          "field": "note",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://www.ashikaga-cc.com/",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1431-1432.txt",
-          "application_status": "applicable",
-          "review": "保存HTML data-title TAKOU/tablepress-12で朝クローズ、平日昼10時/土日祝9時を確認。電話8–16:30は多幸0283-66-2121。新料理名確認件数は0、既存料理の根拠日10/25と営業時間確認10/29を分離。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.ashikaga-cc.com/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -720,32 +453,15 @@
       "before": "ご利用日・人数に合うプランを公式サイトでご確認ください。",
       "after": "ご利用日・人数に合うプランを公式サイトでご確認ください。 飛駒コースの電話予約受付は8:00～16:30（0283-66-2201）。",
       "sourceEvidence": {
-        "proposal": {
-          "field": "note",
-          "previousValue": "ご利用日・人数に合うプランを公式サイトでご確認ください。",
-          "text": "ご利用日・人数に合うプランを公式サイトでご確認ください。 飛駒コースの電話予約受付は8:00～16:30（0283-66-2201）。",
-          "url": "https://www.ashikaga-cc.com/",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "SharedhomepageRESERVATION gives8–16:30 andseparatecourse-labelledphones.",
-          "conditions": "Eachrecordusesitsowncoursephone;noaddressorconditiontransferbetweencourses.",
-          "mergeInstructions": "Append only; original general confirmation wording retained verbatim.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1431-1432.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1431-1432.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1432,
-          "name": "足利カントリークラブ 飛駒コース",
-          "field": "note",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://www.ashikaga-cc.com/",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1431-1432.txt",
-          "application_status": "applicable",
-          "review": "保存HTML data-title HIKOMA/tablepress-13で朝クローズ、平日昼10時/土日祝9時、平日午後パーティー除き閉店を確認。電話8–16:30は飛駒0283-66-2201。新料理名確認件数0、旧料理根拠日と新営業時間を分離。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.ashikaga-cc.com/"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -763,38 +479,16 @@
         "sourceType": "official"
       },
       "sourceEvidence": {
-        "proposal": {
-          "field": "rail",
-          "previousValue": null,
-          "text": "公式交通図では安中榛名駅から約11km。駅からの移動手段・送迎の有無は予約先に確認。",
-          "url": "https://www.takanashiclub.jp/access.html",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Embeddedmap2.gif stationdiagramlabels安中榛名駅→club約11km;visuallyinspected.",
-          "conditions": "Distanceonly,noinferredtaxitimeorbus. Old長野新幹線label/intercitytimesnotimported.",
-          "mergeInstructions": "Change only named field; keep unrelated baseline text/evidence unchanged.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542access.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542access.txt",
-          "imageProvenance": {
-            "snippet": "<img src=\"images/access/map2.gif\" width=\"620\" height=\"249\" alt=\"\" />",
-            "url": "https://www.takanashiclub.jp/images/access/map2.gif",
-            "localPath": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542map2.gif",
-            "inspection": "Viewedmap1and2;map2explicit安中榛名駅約11km. Roadmap1nostationtime."
-          }
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1542,
-          "name": "髙梨子倶楽部",
-          "field": "rail",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://www.takanashiclub.jp/access.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542access.txt",
-          "application_status": "applicable",
-          "review": "公式保存map2.gifを目視し安中榛名駅→施設11km確認。距離のみで交通手段/時間/送迎は不明のまま。予約ページ本文は3か月前の1日。旧長野新幹線表記や都市間所要時間を移植しない。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.takanashiclub.jp/access.html",
+          "https://www.takanashiclub.jp/images/access/map2.gif"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
@@ -806,36 +500,20 @@
       "before": "ご利用日・人数に合うプランを公式サイトでご確認ください。",
       "after": "ご利用日・人数に合うプランを公式サイトでご確認ください。 公式案内では予約開始日は3か月前の1日です。",
       "sourceEvidence": {
-        "proposal": {
-          "field": "note",
-          "previousValue": "ご利用日・人数に合うプランを公式サイトでご確認ください。",
-          "text": "ご利用日・人数に合うプランを公式サイトでご確認ください。 公式案内では予約開始日は3か月前の1日です。",
-          "url": "https://www.takanashiclub.jp/reservation.html",
-          "checked": "2026-10-29",
-          "sourceType": "official",
-          "basis": "Reservationpageexplicit※予約開始日は3ヶ月前の1日.",
-          "conditions": "Noexactopeninghourinferred;promotionalpointsnotimported.",
-          "mergeInstructions": "Append only; original general confirmation wording retained verbatim.",
-          "evidenceHtml": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542reserve.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542reserve.txt"
-        },
-        "artifact": "/workspace/shared/japan-oct29-new-evidence/batch11-results.json",
-        "review": {
-          "id": 1542,
-          "name": "髙梨子倶楽部",
-          "field": "note",
-          "source_fact_status": "official_body_verified_for_new_claims_only",
-          "verification_method": "independent_read_saved_official_text_and_HTML;1542_map_visually_inspected",
-          "sourceUrl": "https://www.takanashiclub.jp/reservation.html",
-          "evidenceText": "/workspace/shared/japan-oct29-new-evidence/batch11-assets/1542reserve.txt",
-          "application_status": "applicable",
-          "review": "公式保存map2.gifを目視し安中榛名駅→施設11km確認。距離のみで交通手段/時間/送迎は不明のまま。予約ページ本文は3か月前の1日。旧長野新幹線表記や都市間所要時間を移植しない。"
-        },
-        "normalization_conditions": "1391一時メンテナンスは確認日明記。215取消電話条件追加。214/1383car及び1431/1432dining混合根拠は保留。非対象データは変更不可。"
+        "sourceUrls": [
+          "https://www.takanashiclub.jp/reservation.html"
+        ],
+        "sourceContentSha256": [],
+        "recordedEvidenceDates": [
+          "2026-10-29"
+        ],
+        "scope": "Selected field evidence only; exact factual change, source type and statement-specific dates are retained in before/after. Legacy statements are not newly verified by this audit.",
+        "sourceArchive": "Original successful source captures and independent reviews retained locally; no full third-party page or tool response republished."
       },
       "reviewStatus": "supported_with_required_conditions_applied",
       "baseSha": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
       "beforeExists": true
     }
-  ]
+  ],
+  "publicEvidencePolicy": "Official URLs, recorded source hashes/dates and scoped change records only. Full external pages/tool responses excluded; own-site before/after and restoration commits retained."
 }
