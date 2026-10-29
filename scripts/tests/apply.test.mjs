@@ -32,3 +32,7 @@ test('checked-only and metadata-disguised refresh rejected',()=>{
  const m=manifest();m.inputSha256=sha(r);m.patches[0].before=before;m.patches[0].after=a;assert.throws(()=>run(m,r));
  }
 });
+function mixed(){const m=manifest(),s1={...fact,text:'旧予約情報。',checked:'2026-10-25',sourceType:'booking',url:'https://example.com/old'},s2={...fact,text:'新公式情報。'};m.patches[0].after={...s1,sourceType:'mixed',text:s1.text+' '+s2.text,evidenceSegments:[s1,s2],basis:'文単位の別出典'};return m;}
+test('mixed statements preserve distinct sources and dates',()=>assert.equal(run(mixed()).changed,1));
+for(const [n,mut] of [['missing',m=>delete m.patches[0].after.evidenceSegments],['scope mismatch',m=>m.patches[0].after.text='all newly verified'],['unsafe segment',m=>m.patches[0].after.evidenceSegments[1].url='javascript:alert(1)'],['future segment',m=>m.patches[0].after.evidenceSegments[1].checked='2026-10-30'],['no segment basis',m=>delete m.patches[0].after.evidenceSegments[1].basis],['misleading fallback date',m=>m.patches[0].after.checked='2026-10-29'],['unscoped condition',m=>m.patches[0].after.conditions='hidden scope'],['verified mixed price',m=>m.patches[0].after.priceVerified=true]])test('mixed rejects '+n,()=>{let m=mixed();mut(m);assert.throws(()=>run(m));});
+test('missing property differs from explicit null preimage when declared',()=>{let m=manifest();m.patches[0].beforeExists=false;assert.throws(()=>run(m));m.patches[0].beforeExists=true;assert.equal(run(m).changed,1);});

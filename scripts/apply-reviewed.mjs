@@ -17,8 +17,16 @@ function validateAfter(p,today){
  if(p.field==='note'){if(typeof p.after!=='string'||!p.after.trim())fail('invalid note');return;}
  const a=p.after;if(!a||typeof a!=='object'||Array.isArray(a)||typeof a.text!=='string'||!a.text.trim())fail('invalid fact');
  url(a.url);date(a.checked);if(a.checked>today)fail('future checked');
- if(!['official','tourism','booking','review'].includes(a.sourceType))fail('invalid source type');
+ if(!['official','tourism','booking','review','mixed'].includes(a.sourceType))fail('invalid source type');
  if(a.sourceType==='tourism'&&!/(観光|協会|自治体|市の|県の)/.test(a.text))fail('visible attribution missing');
+ if(a.sourceType==='mixed'){
+ const es=a.evidenceSegments;if(!Array.isArray(es)||es.length<2)fail('mixed segments missing');
+ if(a.priceVerified===true||a.conditions)fail('mixed price or unscoped conditions unsupported');
+ for(const e of es){if(!e||typeof e.text!=='string'||!e.text.trim()||typeof e.basis!=='string'||!e.basis.trim())fail('mixed statement evidence missing');url(e.url);date(e.checked);if(e.checked>today)fail('mixed future checked');if(!['official','tourism','booking','review'].includes(e.sourceType))fail('mixed source type');if(e.sourceType==='tourism'&&!/(観光|協会|自治体|市の|県の)/.test(e.text))fail('mixed tourism attribution missing');}
+ if(es.map(e=>e.text).join(' ')!==a.text)fail('mixed text scope mismatch');
+ if(a.url!==es[0].url||a.checked!==es[0].checked)fail('mixed fallback source mismatch');
+ }
+
  if(a.priceVerified===true){
  const v=p.priceValidation;if(!v||!v.independentlyReviewed)fail('price review missing');
  for(const k of ['weekdays','holesOrRound','style','groupSize','meal','taxes','cart','surcharges'])if(typeof v[k]!=='string'||!v[k].trim())fail('price condition missing: '+k);
@@ -43,6 +51,7 @@ export function prepare(raw,m,{currentHead,today}){
  validateAfter(p,today);
  const c=map.get(p.id),top=['note','officialUrl'].includes(p.field),v=top?(c[p.field]??null):(c.comparison?.[p.field]??null);
  if(eq(v,p.after)){already++;continue;}
+ if(p.beforeExists!==undefined&&Object.prototype.hasOwnProperty.call(top?c:c.comparison,p.field)!==p.beforeExists)fail('before existence conflict '+key);
  if(!eq(v,p.before))fail('before conflict '+key);
  if(!top){
  if(typeof p.after.basis!=='string'||!p.after.basis.trim())fail('basis missing');

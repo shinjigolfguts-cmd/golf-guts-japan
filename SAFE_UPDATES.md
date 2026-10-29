@@ -7,7 +7,8 @@
 Node.js の標準ライブラリのみを使います。
 
 ```sh
-node --test scripts/tests/apply.test.mjs
+node --test scripts/tests/*test*
+node scripts/validate-publication.mjs . --baseline OLD_DATA_JS
 node scripts/apply-reviewed.mjs INPUT_DATA MANIFEST NEW_OUTPUT HEAD_FILE YYYY-MM-DD
 ```
 
@@ -28,3 +29,17 @@ node scripts/apply-reviewed.mjs INPUT_DATA MANIFEST NEW_OUTPUT HEAD_FILE YYYY-MM
 7. 復元が必要なら旧コミットの対象ファイルを新しいコミットで戻す。履歴を書き換えない。復元後もテスト・公開確認を行う。
 
 この道具だけでは定期自動更新の完成ではありません。予定実行、失敗時の運用、正式公開と復元の実観測、Search Console の運用、全施設の事実照合は別途確認が必要です。元 Sites との無条件同期、ホスト全体の robots.txt の変更、アクセス権変更はしません。
+
+
+## 部分確認と混合出典
+
+一つの項目の中で旧予約情報と新しい公式情報が混在する場合、全内容を新しい確認日で表示しません。`sourceType: "mixed"` と `evidenceSegments` を用い、各セグメントに **対象の本文 `text`、根拠URL `url`、確認日 `checked`、出典種別 `sourceType`、照合根拠 `basis`** を記録します。
+
+- 各セグメントの本文の直下へ、その記述だけの出典・確認日を表示します。予約・運営公式・観光案内・口コミを区別します。
+- 項目全体の `text` は各セグメント本文を半角空白で連結した値と一致させます。互換用の `url` と `checked` は先頭セグメントを保持し、画面では全体確認日として表示しません。
+- 未確認の旧文の確認日を更新しません。新しく確定した文だけに新確認日を付けます。旧数値を訂正するときはその数値の旧文を残して矛盾させず、関係のない旧条件・出典を残します。
+- `mixed` と項目全体の `conditions`、または `priceVerified: true` の併用は未対応として拒否します。分割できない料金・条件は保留です。制約は対象セグメントの本文へ正確に含めます。
+- 追加根拠URLはHTTP(S)のみ、認証情報入りURLを拒否します。本文・日付はHTMLとして解釈せずエスケープし、外部リンクのnoopener/noreferrerを維持します。
+- access.js・details.js・finder.jsを変更した場合は両HTMLで使用される各スクリプトの参照にも内容hashを付け、一組として公開してください。dataだけ先行して旧rendererで混合出典を表示させないこと。
+
+公開gateは読み取り専用です。dataのJSON構造/1,800件/ID唯一、両HTMLのdata hash、canonical、実在2URL sitemap、任意の旧dataとのID順序・カテゴリ順序を確認します。事実照合・正式Pages・実ブラウザ・検索エンジン登録の代わりではありません。
