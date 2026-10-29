@@ -1,0 +1,451 @@
+{
+  "baseCommit": "628e91aa5af79339b0092273e07095409401b02f",
+  "checkedOn": "2026-10-29",
+  "dateTimezone": "Asia/Tokyo",
+  "scope": "11 facilities /15 fields:7 access fields and8 official URLs. Current official route estimates and qualified transport services; no ranking/design changes.",
+  "changes": [
+    {
+      "id": 342,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.meadow-golf.com/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.meadow-golf.com/access/"
+        ],
+        "sourceContentSha256": [
+          "b8315324fd189c4dda377872fa888e4fad4235a1b53736668cc7d9fe4a944329"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同一対象公式施設名・地域・連絡先/アクセス本文の同定確認。URL接続だけの判定ではなく、施設全field確認には転用しない。"
+      }
+    },
+    {
+      "id": 760,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://barato.jp/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://barato.jp/map"
+        ],
+        "sourceContentSha256": [
+          "764d99aabd17997d7d51dd22742a783fa5302f067ec26ed3a8ac36f682eb84fd"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同一対象公式施設名・地域・連絡先/アクセス本文の同定確認。URL接続だけの判定ではなく、施設全field確認には転用しない。"
+      }
+    },
+    {
+      "id": 810,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.michinokukoto-cc.co.jp/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.michinokukoto-cc.co.jp/access.html"
+        ],
+        "sourceContentSha256": [
+          "dd98bacc39b25e34a94de3c28b1dd0cc9d0bd4bb2e1e88215aa804edf6b0859c"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同一対象公式施設名・地域・連絡先/アクセス本文の同定確認。URL接続だけの判定ではなく、施設全field確認には転用しない。"
+      }
+    },
+    {
+      "id": 822,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.mori-golf.co.jp/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.mori-golf.co.jp/access/"
+        ],
+        "sourceContentSha256": [
+          "af583a4f0d5101e3291b429356fa48861d85abc04efacf6696f0f12c66be85c8"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同一対象公式施設名・地域・連絡先/アクセス本文の同定確認。URL接続だけの判定ではなく、施設全field確認には転用しない。"
+      }
+    },
+    {
+      "id": 1136,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "池田駅からタクシーで約15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/635301/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー  | 池田駅から15分",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "池田駅からタクシーで約15分。 能勢電鉄・鼓滝駅とクラブ間のシャトルバスは所要約10分、予約不要。停留所は鼓滝駅から徒歩1分です。運行時刻は公式時刻表をご確認ください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/635301/access/",
+        "checked": "2026-10-25",
+        "basis": "旧予約由来の池田駅taxi15分を未確認のまま保持、新公式シャトル条件だけ別段落支持。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "池田駅からタクシーで約15分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/635301/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：タクシー  | 池田駅から15分",
+            "sourceType": "booking"
+          },
+          {
+            "text": "能勢電鉄・鼓滝駅とクラブ間のシャトルバスは所要約10分、予約不要。停留所は鼓滝駅から徒歩1分です。運行時刻は公式時刻表をご確認ください。",
+            "url": "https://fushio.com/access.html",
+            "checked": "2026-10-29",
+            "basis": "対象公式の駅→バス停徒歩1分とバス→施設約10分を分離し、予約不要を確認。旧池田taxi15は支持しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://fushio.com/access.html"
+        ],
+        "sourceContentSha256": [
+          "f69278b8dcdf65d546138d086627845fe90a3115198a3cf46ffc8d05a969bbd9"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "new official shuttle segment only;oldtaxi15 unverified;previousplayreviewdoesnotconfirmrail"
+      }
+    },
+    {
+      "id": 763,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/hokkaido/onuma/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/hokkaido/onuma/"
+        ],
+        "sourceContentSha256": [
+          "00a106943b9e9007d7767f165ba96c3512aad797604432fa916881075928d68e"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "運営アコーディア対象名称/住所/電話同定、近隣カード不使用。"
+      }
+    },
+    {
+      "id": 763,
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "道央自動車道・大沼公園ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10018/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "道央自動車道・大沼公園ICから5km、約5分。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/hokkaido/onuma/access",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "対象header距離5kmと対象アクセス欄IC約5分を同じ施設/起点で対応。旧5km以内区分から現公式距離値への具体化。"
+      },
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/hokkaido/onuma/access"
+        ],
+        "sourceContentSha256": [
+          "79d80c5f33948b636c3aa5b745b65549974ddc49aae6e3a45a1b562466c2ea59"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "対象header距離5kmと対象アクセス欄IC約5分を同じ施設/起点で対応。旧5km以内区分から現公式距離値への具体化。"
+      }
+    },
+    {
+      "id": 812,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://miyako-countryclub.com/access",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://miyako-countryclub.com/access"
+        ],
+        "sourceContentSha256": [
+          "bc59768f63507c7cd2817e1e0e2119a22e2b79f6281b30decfdf2a39fedf6748"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "名称・岩手県宮古市崎山の所在地・電話が対象運営施設。宮古島の別施設ではない。"
+      }
+    },
+    {
+      "id": 823,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://mmgc.jp/clubinfo/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://mmgc.jp/clubinfo/"
+        ],
+        "sourceContentSha256": [
+          "87ea2c6d45391915254ebd4dcba78e8c8e309e31379006b6d8f6d18a3b70ea8b"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "運営のご利用案内/対象名称住所/交通アクセス節を同定。"
+      }
+    },
+    {
+      "id": 823,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "仙台駅から40分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/236501/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "仙台駅から一般道で約50分、高速道路で約40分。平日の通勤時間帯は混雑する場合があるため、余裕を持って来場してください。",
+        "url": "https://mmgc.jp/clubinfo/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "旧40分と一致するのは高速道路経由に限る。現公式の経路条件と一般道50分/混雑注意を保持。タクシーなど手段は推測追加しない。"
+      },
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://mmgc.jp/clubinfo/"
+        ],
+        "sourceContentSha256": [
+          "87ea2c6d45391915254ebd4dcba78e8c8e309e31379006b6d8f6d18a3b70ea8b"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "旧40分と一致するのは高速道路経由に限る。現公式の経路条件と一般道50分/混雑注意を保持。タクシーなど手段は推測追加しない。"
+      }
+    },
+    {
+      "id": 1065,
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "加古川バイパス/加古川ICから約10km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/641101/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC  | 加古川バイパス/加古川ＩＣ 10 km",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "加古川バイパス/加古川ICから約10km。 公式アクセスでは山陽自動車道・三木・小野ICから9.2km、約15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/641101/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載は旧根拠日・出典のまま保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "加古川バイパス/加古川ICから約10km。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/641101/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：最寄りIC  | 加古川バイパス/加古川ＩＣ 10 km",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは山陽自動車道・三木・小野ICから9.2km、約15分。",
+            "url": "https://kakogawa-gc.jp/access",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "三木・小野IC→対象施設の区間を明示。旧加古川バイパス/加古川IC約10kmは今回直接支持なしのため旧文/出典/日付を完全保持。"
+          }
+        ]
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://kakogawa-gc.jp/access"
+        ],
+        "sourceContentSha256": [
+          "208e17534337d6e867713855c23d4de81e41d98edd236ee1b87f8a964c1ff580"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "三木・小野IC→対象施設の区間を明示。旧加古川バイパス/加古川IC約10kmは今回直接支持なしのため旧文/出典/日付を完全保持。"
+      }
+    },
+    {
+      "id": 1139,
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "阪神高速道路/川西小花ランプから約9km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/636202/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC  | 阪神高速道路/川西小花ランプ 9 km",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "阪神高速道路/川西小花ランプから約9km。 公式アクセスでは川西小花ICから約16分。五月山ドライブウェイの利用料金は往復300円が必要です。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/636202/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載は旧根拠日・出典のまま保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "阪神高速道路/川西小花ランプから約9km。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/636202/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：最寄りIC  | 阪神高速道路/川西小花ランプ 9 km",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは川西小花ICから約16分。五月山ドライブウェイの利用料金は往復300円が必要です。",
+            "url": "https://www.minogolf.co.jp/access",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "対象川西小花IC経由条件を保持。旧9kmは公式で直接確認できずbooking段落のまま完全保持。"
+          }
+        ]
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.minogolf.co.jp/access"
+        ],
+        "sourceContentSha256": [
+          "7d1fec6e1050fbc6c6fa506f4ce4ec9262436713c5466e02fdb1259a78d0168c"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "対象川西小花IC経由条件を保持。旧9kmは公式で直接確認できずbooking段落のまま完全保持。"
+      }
+    },
+    {
+      "id": 1139,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "池田駅からタクシーで約15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/636202/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー  | 池田駅から15分",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "池田駅からタクシーで約15分。 阪急電鉄宝塚本線・池田駅から送迎倶楽部バスを運行しています。PGM池田カントリークラブとの共同バスです。コンペ等で複数名が乗車予定の場合は事前連絡を推奨しています。交通事情により遅延する場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/636202/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載は旧根拠日・出典のまま保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "池田駅からタクシーで約15分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/636202/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：タクシー  | 池田駅から15分",
+            "sourceType": "booking"
+          },
+          {
+            "text": "阪急電鉄宝塚本線・池田駅から送迎倶楽部バスを運行しています。PGM池田カントリークラブとの共同バスです。コンペ等で複数名が乗車予定の場合は事前連絡を推奨しています。交通事情により遅延する場合があります。",
+            "url": "https://www.minogolf.co.jp/access",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "旧taxi15分は独立支持せず保持。バスは別手段。徒歩/停留所区間の図約5分をtaxi時間に混入せず、今回候補ではバス所要時分の追加も省略。事前連絡推奨を全員予約必須とは言い換えない。"
+          }
+        ]
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.minogolf.co.jp/access"
+        ],
+        "sourceContentSha256": [
+          "7d1fec6e1050fbc6c6fa506f4ce4ec9262436713c5466e02fdb1259a78d0168c"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "旧taxi15分は独立支持せず保持。バスは別手段。徒歩/停留所区間の図約5分をtaxi時間に混入せず、今回候補ではバス所要時分の追加も省略。事前連絡推奨を全員予約必須とは言い換えない。"
+      }
+    },
+    {
+      "id": 344,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/18.html",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://booking.pacificgolf.co.jp/guide/18.html"
+        ],
+        "sourceContentSha256": [
+          "20361a2a686cadaae9ba7373ced4a1ad1962abf556c2adbb4857611785ddd072"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "運営PGM対象名称/伊達市の住所・コース情報同一性。"
+      }
+    },
+    {
+      "id": 344,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "福島駅から30分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/265101/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "福島駅から30分。 公式の施設案内ではクラブバスはありません。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/265101/",
+        "checked": "2026-10-25",
+        "basis": "旧記載は旧根拠日・出典のまま保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "福島駅から30分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/265101/",
+            "checked": "2026-10-25",
+            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の施設案内ではクラブバスはありません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=18",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "旧福島駅30分は今回支持なしのまま保持。福島市内車30分を福島駅へ読み替えない。"
+          }
+        ]
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=18"
+        ],
+        "sourceContentSha256": [
+          "3a4098c37a4924b36e2b3df393cab2ab7f5c960b2fe84c69d6de283c4c6bf86d"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "旧福島駅30分は今回支持なしのまま保持。福島市内車30分を福島駅へ読み替えない。"
+      }
+    }
+  ],
+  "validation": {
+    "exactBeforeAndExistence": true,
+    "allUntargetedDataUnchanged": true,
+    "unitTestsPassed": 89,
+    "courses": 1800,
+    "dataGitBlob": "c663e1a8af868688b424fbc40460bbee29573b1f",
+    "mixedLegacySourceDatePreserved": true
+  },
+  "reviewScope": "Independent official evidence, source separation and before/after condition preservation. No facility fully certified."
+}
