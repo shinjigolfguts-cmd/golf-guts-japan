@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-29T13:29:17.822729+00:00",
+  "snapshotAt": "2026-10-29T13:59:23.300267+00:00",
   "artifactStatus": "verified_publication_snapshot",
   "repository": "shinjigolfguts-cmd/golf-guts-japan",
   "linkBase": "repository_root",
-  "auditDocumentPathsConfirmedBy": "Exact current repository tree and sole-editor publication records through c09bbe41",
+  "auditDocumentPathsConfirmedBy": "sole editor messages 2026-10-29 11:29,12:28 and12:38 UTC",
   "fieldReviews": [
     {
       "id": 177,
@@ -403,6 +403,66 @@
         "checked": "2026-10-29",
         "basis": "成功現アクセス埋込accessTrain.pngで鵜方taxi約15分、同対象HTML賢島→NEMU GOLF CLUBバス前日17時予約/予約なし運行なし。",
         "sourceType": "official"
+      }
+    },
+    {
+      "id": 227,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240056",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Only new official segments checked2026-10-29; retained older statements keep their own source/date and are not newly verified.",
+      "publishedText": "榊原温泉口駅からタクシーで約10分。 榊原温泉口駅との無料送迎は事前予約制で平日限定。駅発は毎時30分、コース発は毎時50分。乗車する電車の時間を確認して予約してください。土日の送迎は対応できない場合があるため、希望時は事前に相談してください。",
+      "evidenceSegments": [
+        {
+          "text": "榊原温泉口駅からタクシーで約10分。",
+          "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240056",
+          "checked": "2026-10-25",
+          "sourceType": "booking",
+          "basis": "予約サイトの施設案内確認：タクシー：榊原温泉口駅から１０分",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "榊原温泉口駅との無料送迎は事前予約制で平日限定。駅発は毎時30分、コース発は毎時50分。乗車する電車の時間を確認して予約してください。土日の送迎は対応できない場合があるため、希望時は事前に相談してください。",
+          "url": "https://www.sakakibara-golf.co.jp/access/",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "公式本文の平日限定・事前予約・駅毎時30分発/コース毎時50分発・電車時刻確認・土日対応不可の場合ありを同一対象節で確認。旧taxi10分は対象外。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "榊原温泉口駅からタクシーで約10分。 榊原温泉口駅との無料送迎は事前予約制で平日限定。駅発は毎時30分、コース発は毎時50分。乗車する電車の時間を確認して予約してください。土日の送迎は対応できない場合があるため、希望時は事前に相談してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240056",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "本文の平日事前予約送迎時刻/土日例外を保持。画像の駅→コース所要文字は読取不十分、旧taxi10分は独立支持せず。",
+        "evidenceSegments": [
+          {
+            "text": "榊原温泉口駅からタクシーで約10分。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240056",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "予約サイトの施設案内確認：タクシー：榊原温泉口駅から１０分"
+          },
+          {
+            "text": "榊原温泉口駅との無料送迎は事前予約制で平日限定。駅発は毎時30分、コース発は毎時50分。乗車する電車の時間を確認して予約してください。土日の送迎は対応できない場合があるため、希望時は事前に相談してください。",
+            "url": "https://www.sakakibara-golf.co.jp/access/",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "公式本文の平日限定・事前予約・駅毎時30分発/コース毎時50分発・電車時刻確認・土日対応不可の場合ありを同一対象節で確認。旧taxi10分は対象外。"
+          }
+        ]
       }
     },
     {
@@ -1503,6 +1563,138 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 300,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://www.taisetsuzan.co.jp/"
+    },
+    {
+      "id": 301,
+      "field": "car",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://takasu-golf.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "道央自動車道・旭川北ICから車で約15分・約13km。",
+        "url": "https://takasu-golf.com/access/",
+        "checked": "2026-10-29",
+        "basis": "同対象公式画像の旭川北IC→車約15分/約13km。",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 301,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://takasu-golf.com/access/"
+    },
+    {
+      "id": 301,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://takasu-golf.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "旭川駅から車で約35分・約23km。",
+        "url": "https://takasu-golf.com/access/",
+        "checked": "2026-10-29",
+        "basis": "対象公式アクセス埋込accessimg.svgを保存しPNGへrender目視。旭川駅→旭川たかすGCの車約35分/約23km。",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 303,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://abira-gc.com/",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 306,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "http://www.eniwa-cc.com/",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 306,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "http://www.eniwa-cc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "恵庭駅から車で約20分。",
+        "url": "http://www.eniwa-cc.com/access/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "公式埋込info-5.pngを視認。旧駅約15分から現公式目安20分への更新。旧交通手段未記載、経路差や状況差があり絶対的誤記とは断定しない。"
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
       "id": 307,
       "field": "scenery",
       "source": {
@@ -1887,6 +2079,21 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 332,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "http://www.minamigolf.com/"
+    },
+    {
       "id": 333,
       "field": "car",
       "source": {
@@ -2041,6 +2248,116 @@
           }
         ]
       }
+    },
+    {
+      "id": 338,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://greenacademycc.com/"
+    },
+    {
+      "id": 339,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://kacc.kanekigp.co.jp/"
+    },
+    {
+      "id": 339,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://kacc.kanekigp.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "JR磐越西線・磐梯熱海駅から車で13分。",
+        "url": "https://kacc.kanekigp.co.jp/access/",
+        "checked": "2026-10-29",
+        "basis": "対象郡山熱海アクセス本文に磐梯熱海駅から車13分、所在地郡山市熱海町高玉字株原1-1/TEL024-984-3111。",
+        "sourceType": "official",
+        "updateExisting": true
+      }
+    },
+    {
+      "id": 340,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://www.koriyama-gc.jp/",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 341,
+      "field": "car",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://skcc.tatemono-golf.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "東北自動車道・白河ICから国道289号経由で約18km、約20分。",
+        "url": "https://skcc.tatemono-golf.com/access/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "同ページ埋込network.png視認。旧15km以内区分と現公式約18kmが異なる。現公式指定国道289号経由の目安への更新、距離区分の一般誤りと断定しない。"
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 341,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://skcc.tatemono-golf.com/",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
     },
     {
       "id": 345,
@@ -2234,6 +2551,44 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 364,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://www.ogagolf.com/"
+    },
+    {
+      "id": 364,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://www.ogagolf.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "JR男鹿線・脇本駅から車で約12分（公式案内の目安）。",
+        "url": "https://www.ogagolf.com/access/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "公式対象アクセスは脇本駅→車約12分。旧15分と経路差は不明なので絶対誤記とは断定しない。"
+      }
     },
     {
       "id": 365,
@@ -2818,6 +3173,44 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 387,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://www.golfpark-sakata.com/access/"
+    },
+    {
+      "id": 387,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://www.golfpark-sakata.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "羽越本線・酒田駅から車で約25分。",
+        "url": "https://www.golfpark-sakata.com/access/",
+        "checked": "2026-10-29",
+        "basis": "電車アクセス本文に羽越本線酒田駅→車約25分。当施設ゴルフパーク酒田/酒田市北沢字鷹尾山1-6。",
+        "sourceType": "official"
+      }
     },
     {
       "id": 393,
@@ -3823,6 +4216,67 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 517,
+      "field": "car",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://reserve.golfdigest.co.jp/golf-course/611502/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Only new official segments checked2026-10-29; retained older statements keep their own source/date and are not newly verified.",
+      "publishedText": "新名神高速道路/甲賀土山ICから約3km。 公式アクセスでは新名神高速道路・甲賀土山ICから車で約8分。",
+      "evidenceSegments": [
+        {
+          "text": "新名神高速道路/甲賀土山ICから約3km。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/611502/access/",
+          "checked": "2026-10-25",
+          "basis": "予約サイトの施設案内確認：最寄りIC  | 新名神高速道路/甲賀土山IC 3 km",
+          "sourceType": "booking",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "公式アクセスでは新名神高速道路・甲賀土山ICから車で約8分。",
+          "url": "https://www.daiwaroyalgolf.jp/comwood_gc/access.html",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "旧予約由来3kmは公式本文で未確認のため旧segment丸ごと保持。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "新名神高速道路/甲賀土山ICから約3km。 公式アクセスでは新名神高速道路・甲賀土山ICから車で約8分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/611502/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載の根拠日・出典を保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "新名神高速道路/甲賀土山ICから約3km。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/611502/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：最寄りIC  | 新名神高速道路/甲賀土山IC 3 km",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは新名神高速道路・甲賀土山ICから車で約8分。",
+            "url": "https://www.daiwaroyalgolf.jp/comwood_gc/access.html",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "旧予約由来3kmは公式本文で未確認のため旧segment丸ごと保持。"
+          }
+        ]
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
     },
     {
       "id": 522,
@@ -5329,6 +5783,38 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 806,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "http://www.morioka-hcc.com/",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 809,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://www.yudakogen.com/access.html",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
       "id": 814,
       "field": "officialUrl",
       "source": {
@@ -5342,6 +5828,60 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "publishedValue": "https://narukocc.com/"
+    },
+    {
+      "id": 816,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://reserve.accordiagolf.com/golfCourse/miyagi/hananomori/"
+    },
+    {
+      "id": 816,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/miyagi/hananomori/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "仙台駅からタクシーで約50分、古川駅からタクシーで約30分（公式案内の目安）。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/miyagi/hananomori/access",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "対象施設アクセス欄の仙台taxi50/古川taxi30。旧45と同一起点だが経路差は不明、現公式目安への更新。料金値は今回採用せず。"
+      }
+    },
+    {
+      "id": 821,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://reserve.accordiagolf.com/golfCourse/miyagi/miyagino",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
     },
     {
       "id": 840,
@@ -5755,6 +6295,29 @@
       "retainedTopLevelDate": "2026-10-25"
     },
     {
+      "id": 1058,
+      "field": "car",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/hyogo/inakoku/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "阪神高速道路・池田木部ランプから12km・約30分。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/hyogo/inakoku/access",
+        "checked": "2026-10-29",
+        "basis": "対象アクセス車欄池田木部ランプ12km（30分）。",
+        "sourceType": "official"
+      }
+    },
+    {
       "id": 1069,
       "field": "rail",
       "source": {
@@ -6082,6 +6645,67 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1106,
+      "field": "car",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://reserve.golfdigest.co.jp/golf-course/626203/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Only new official segments checked2026-10-29; retained older statements keep their own source/date and are not newly verified.",
+      "publishedText": "京都縦貫自動車道/丹波ICから約7km。 公式経路図では丹波ICから国道9号・府道経由で約8分。",
+      "evidenceSegments": [
+        {
+          "text": "京都縦貫自動車道/丹波ICから約7km。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/626203/access/",
+          "checked": "2026-10-25",
+          "basis": "予約サイトの施設案内確認：最寄りIC  | 京都縦貫自動車道/丹波ＩＣ 7 km",
+          "sourceType": "booking",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "公式経路図では丹波ICから国道9号・府道経由で約8分。",
+          "url": "https://www.mizuho-gc.com/access/",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "埋込B_72ppi.jpg視認。旧予約由来7km未支持のため完全保持。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "京都縦貫自動車道/丹波ICから約7km。 公式経路図では丹波ICから国道9号・府道経由で約8分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/626203/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載の根拠日・出典を保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "京都縦貫自動車道/丹波ICから約7km。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/626203/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：最寄りIC  | 京都縦貫自動車道/丹波ＩＣ 7 km",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式経路図では丹波ICから国道9号・府道経由で約8分。",
+            "url": "https://www.mizuho-gc.com/access/",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "埋込B_72ppi.jpg視認。旧予約由来7km未支持のため完全保持。"
+          }
+        ]
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
       "id": 1107,
       "field": "car",
       "source": {
@@ -6398,6 +7022,144 @@
       "retainedTopLevelDate": "2026-10-25"
     },
     {
+      "id": 1133,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://reserve.golfdigest.co.jp/golf-course/633101/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Only new official segments checked2026-10-29; retained older statements keep their own source/date and are not newly verified.",
+      "publishedText": "高槻駅からタクシーで約30分。 JR高槻駅から送迎バスがあり、所要約25～30分。2024年3月21日からの案内は阪急百貨店前発7:40・9:00、クラブハウス発16:10・17:40です。最新の運行は公式案内をご確認ください。",
+      "evidenceSegments": [
+        {
+          "text": "高槻駅からタクシーで約30分。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/633101/",
+          "checked": "2026-10-25",
+          "sourceType": "booking",
+          "basis": "予約サイトの施設案内確認：タクシー\n    高槻駅から30分",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "JR高槻駅から送迎バスがあり、所要約25～30分。2024年3月21日からの案内は阪急百貨店前発7:40・9:00、クラブハウス発16:10・17:40です。最新の運行は公式案内をご確認ください。",
+          "url": "https://takatsukicc.jp/access",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "対象公式送迎バス所要時間・2024/3/21改定時刻を本文で確認。旧taxi30分の公式支持ではない。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "高槻駅からタクシーで約30分。 JR高槻駅から送迎バスがあり、所要約25～30分。2024年3月21日からの案内は阪急百貨店前発7:40・9:00、クラブハウス発16:10・17:40です。最新の運行は公式案内をご確認ください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/633101/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "対象公式送迎バス所要時間・2024/3/21改定時刻を本文で確認。旧taxi30分の公式支持ではない。",
+        "evidenceSegments": [
+          {
+            "text": "高槻駅からタクシーで約30分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/633101/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "予約サイトの施設案内確認：タクシー\n    高槻駅から30分"
+          },
+          {
+            "text": "JR高槻駅から送迎バスがあり、所要約25～30分。2024年3月21日からの案内は阪急百貨店前発7:40・9:00、クラブハウス発16:10・17:40です。最新の運行は公式案内をご確認ください。",
+            "url": "https://takatsukicc.jp/access",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "対象公式送迎バス所要時間・2024/3/21改定時刻を本文で確認。旧taxi30分の公式支持ではない。"
+          }
+        ]
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 1135,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://booking.pacificgolf.co.jp/guide/88.html",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 1135,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://reserve.golfdigest.co.jp/golf-course/635202/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Only new official segments checked2026-10-29; retained older statements keep their own source/date and are not newly verified.",
+      "publishedText": "JR津田駅からタクシーで約5分。 京阪本線枚方市駅からクラブバスで約30分、JR学研都市線津田駅から約10分。",
+      "evidenceSegments": [
+        {
+          "text": "JR津田駅からタクシーで約5分。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/635202/access/",
+          "checked": "2026-10-25",
+          "basis": "予約サイトの施設案内確認：タクシー  | ＪＲ津田駅から約5分",
+          "sourceType": "booking",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "京阪本線枚方市駅からクラブバスで約30分、JR学研都市線津田駅から約10分。",
+          "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=88",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "クラブバスの別手段を明示して追加。旧taxi時間は未支持のまま旧booking段落を完全保持。運行日/詳細はリンク時刻表未取得につき断定しない。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "JR津田駅からタクシーで約5分。 京阪本線枚方市駅からクラブバスで約30分、JR学研都市線津田駅から約10分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/635202/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載の根拠日・出典を保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "JR津田駅からタクシーで約5分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/635202/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：タクシー  | ＪＲ津田駅から約5分",
+            "sourceType": "booking"
+          },
+          {
+            "text": "京阪本線枚方市駅からクラブバスで約30分、JR学研都市線津田駅から約10分。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=88",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "クラブバスの別手段を明示して追加。旧taxi時間は未支持のまま旧booking段落を完全保持。運行日/詳細はリンク時刻表未取得につき断定しない。"
+          }
+        ]
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
       "id": 1136,
       "field": "play",
       "source": {
@@ -6426,6 +7188,107 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 1145,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://www.narayagyu-cc.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "近鉄奈良駅からタクシーで片道約20分（公式案内の目安）。",
+        "url": "https://www.narayagyu-cc.co.jp/access.html",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "対象アクセス冒頭は近鉄奈良駅taxi片道約20分。旧25分との経路差不明のため絶対誤記ではなく現公式目安。"
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 1148,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": "https://booking.pacificgolf.co.jp/guide/93.html",
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
+    },
+    {
+      "id": 1148,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://reserve.golfdigest.co.jp/golf-course/655501/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Only new official segments checked2026-10-29; retained older statements keep their own source/date and are not newly verified.",
+      "publishedText": "法隆寺駅からタクシーで約10分。 JR大和路線法隆寺駅の南出口からクラブバスを運行、約15分。",
+      "evidenceSegments": [
+        {
+          "text": "法隆寺駅からタクシーで約10分。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/655501/access/",
+          "checked": "2026-10-25",
+          "basis": "予約サイトの施設案内確認：タクシー  | 法隆寺駅から10分",
+          "sourceType": "booking",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "JR大和路線法隆寺駅の南出口からクラブバスを運行、約15分。",
+          "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=93",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "クラブバスの別手段を明示して追加。旧taxi時間は未支持のまま旧booking段落を完全保持。運行日/詳細はリンク時刻表未取得につき断定しない。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "法隆寺駅からタクシーで約10分。 JR大和路線法隆寺駅の南出口からクラブバスを運行、約15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/655501/access/",
+        "checked": "2026-10-25",
+        "basis": "旧記載の根拠日・出典を保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "法隆寺駅からタクシーで約10分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/655501/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：タクシー  | 法隆寺駅から10分",
+            "sourceType": "booking"
+          },
+          {
+            "text": "JR大和路線法隆寺駅の南出口からクラブバスを運行、約15分。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=93",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "クラブバスの別手段を明示して追加。旧taxi時間は未支持のまま旧booking段落を完全保持。運行日/詳細はリンク時刻表未取得につき断定しない。"
+          }
+        ]
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
     },
     {
       "id": 1152,
@@ -6490,6 +7353,115 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 1161,
+      "field": "car",
+      "source": {
+        "origin": "research_batches30_31",
+        "auditDocument": "docs/corrections/2026-10-29-batches30-31.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/seki/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "d9be4216231593b1958006883ea3151de55117af",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "名阪国道・板屋ICから2km・約2分。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/mie/seki/access",
+        "checked": "2026-10-29",
+        "basis": "対象アクセス車欄板屋IC2km（2分）。",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1167,
+      "field": "car",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://www.aoyamakogen-cc.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "publishedValue": {
+        "text": "伊勢自動車道・久居ICから約15分、芸濃ICから約20分（公式案内の目安）。",
+        "url": "https://www.aoyamakogen-cc.com/access.html",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "対象施設の車アクセス本文に久居IC約15分/芸濃IC約20分を明示。旧60分は平成31年開通予定節の最寄ICまでの時間で、施設までの所要時間ではない。"
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields",
+      "verificationScope": "Wrong endpoint60min claim removed; replacement is officialHisaiIC15min/GeinoIC20min tofacility. Do not restore erroneous60asvalidoldsegment."
+    },
+    {
+      "id": 1167,
+      "field": "rail",
+      "source": {
+        "origin": "research_batches32_33_and1167endpoint",
+        "auditDocument": "docs/corrections/2026-10-29-batches32-33-and1167.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240002?tt=b",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-29",
+      "commit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "verificationScope": "Oldbookingcar7min retained without reconfirmation; newofficialtaxi15min separate segment, not proven same transportation conditions.",
+      "publishedText": "近鉄久居駅から車で約7分。 公式アクセスでは久居駅からタクシーで約15分。",
+      "evidenceSegments": [
+        {
+          "text": "近鉄久居駅から車で約7分。",
+          "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240002?tt=b",
+          "checked": "2026-10-25",
+          "basis": "予約サイトの施設案内確認：近鉄久居駅より車で約７分、 榊原温泉口駅より車で約15分。",
+          "sourceType": "booking",
+          "verificationScope": "retained_old_evidence_not_reverified"
+        },
+        {
+          "text": "公式アクセスでは久居駅からタクシーで約15分。",
+          "url": "https://www.aoyamakogen-cc.com/access.html",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "旧予約由来「車約7分」は交通手段表現/経路不明のため削除しない。異なる目安の混合表示、7分の裏付け未確認。榊原温泉口送迎は別駅なのでこの狭い候補には追加しない。",
+          "verificationScope": "new_official_evidence"
+        }
+      ],
+      "retainedTopLevelDate": "2026-10-25",
+      "publishedValue": {
+        "text": "近鉄久居駅から車で約7分。 公式アクセスでは久居駅からタクシーで約15分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240002?tt=b",
+        "checked": "2026-10-25",
+        "basis": "旧記載の根拠日・出典を保持。新公式段落のみ2026-10-29確認。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "近鉄久居駅から車で約7分。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240002?tt=b",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：近鉄久居駅より車で約７分、 榊原温泉口駅より車で約15分。",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは久居駅からタクシーで約15分。",
+            "url": "https://www.aoyamakogen-cc.com/access.html",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "旧予約由来「車約7分」は交通手段表現/経路不明のため削除しない。異なる目安の混合表示、7分の裏付け未確認。榊原温泉口送迎は別駅なのでこの狭い候補には追加しない。"
+          }
+        ]
+      },
+      "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
     },
     {
       "id": 1189,
@@ -7300,8 +8272,8 @@
   ],
   "gitPending": [],
   "counts": {
-    "publishedFields": 392,
-    "publishedFacilities": 225,
+    "publishedFields": 428,
+    "publishedFacilities": 250,
     "gitPendingFields": 0,
     "gitPendingFacilities": 0,
     "featureFields": 4,
@@ -7315,7 +8287,8 @@
     "Pending entries are excluded from published counts even when deployment succeeded but final browser verification is pending.",
     "Existing full research ledger is retained separately; this compact artifact is not a replacement.",
     "383car restoration supersedes its earlier published version without adding a unique field; mixed retained booking/official statements dated10/25 are not newly verified10/29.",
-    "unchangedFieldReviews are non-edit confirmations and excluded from published correction counts."
+    "unchangedFieldReviews are non-edit confirmations and excluded from published correction counts.",
+    "8 numeric-time non-edit confirmations, including340time-only with mode unverified, are separate; their public booking source metadata remains unchanged and they are not deducted from the machine booking-time pool."
   ],
   "preservationRepairStatus": {
     "facilities": 3,
@@ -7331,7 +8304,14 @@
       1127,
       1171,
       331
-    ]
+    ],
+    "batches32to33": {
+      "candidateFields": 19,
+      "candidateFacilities": 14,
+      "publicationState": "published_a5645e3",
+      "remainingUnpublishedCandidateFields": 0,
+      "reviewState": "independent_reviews_complete_with_conditions_and1167carseparate_support"
+    }
   },
   "unchangedFieldReviews": [
     {
@@ -7461,7 +8441,172 @@
     }
   ],
   "unchangedFieldReviewCount": 5,
-  "snapshotDataCommit": "c09bbe41b943880c340b0f5424186f1fde9b1fdc",
+  "unchangedNumericTimeFieldReviews": [
+    {
+      "id": 386,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "鶴岡駅から約20分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/250101/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.asahicc.jp/access.html",
+      "sourceSha256": "2bea0547206d41c82261de7e6213fb048954960516fa4257f9f10cef2f555908",
+      "verificationScope": "鶴岡駅から約20分という起点・数値所要の一致のみ。公式はtaxiと明記。既存全facility/料金3500円を確認済みにはしない。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 1128,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "泉ヶ丘駅からタクシーで約10分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/632101/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー  | 泉ヶ丘駅から約10分",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/osaka/sakai/access",
+      "sourceSha256": "be4887277e9467a30a271d0481cd4a98b281175c7555b351674cb8f5bc23bbe0",
+      "verificationScope": "対象堺CCアクセスのタクシー欄泉ヶ丘駅約10分。既存起点/手段/時間一致、source/checkedを公開更新せず非変更確認。近隣カードは不使用。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 1161,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "亀山駅からタクシーで約20分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/532501/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー\n    亀山駅から約20分",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/seki/access",
+      "sourceSha256": "7650dee07918cf3bde9dc30912c6b93219659e07c43cbf341b2985e40c853faf",
+      "verificationScope": "対象双鈴関アクセスのタクシー欄亀山駅約20分。既存起点/手段/時間一致、source/checkedを公開更新せず非変更確認。近隣カードは不使用。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 1058,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "阪急池田駅からタクシーで約25分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/640203/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー  | 阪急池田駅から25分",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/hyogo/inakoku/access",
+      "sourceSha256": "cb4f8b7c5237e46707b350ccdab243ed600b00ac067e8687be7535ad0b479717",
+      "verificationScope": "対象猪名川国際アクセスのタクシー欄阪急池田駅25分。既存起点/手段/時間一致、source/checkedを公開更新せず非変更確認。近隣カードは不使用。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 340,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "東北新幹線の郡山駅から車で約25分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70024/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載施設案内",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.koriyama-gc.jp/access.html",
+      "sourceSha256": "d010cc15b559980d90c7512a1fced39f3758b048e5a1b6c4f9523c27e22eb4cf",
+      "verificationScope": "公式JR東北新幹線郡山から25分を支持。旧文の車手段は公式本文で明記されず時間scopeのみ確認。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 806,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "盛岡駅から20分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/226502/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "http://www.morioka-hcc.com/access/",
+      "sourceSha256": "8f3550b69b48e317388995fba97b69dbe30093c310c00b7745c495c23ee32fde",
+      "verificationScope": "対象公式は盛岡駅前taxi約20分。既存駅20分と同値支持。料金2500前後は今回採用せず。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 341,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "新白河駅から25分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/262204/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://skcc.tatemono-golf.com/cms/wp-content/themes/skcc-golf/images/access/network.png",
+      "sourceSha256": "6f44ba0381d115ef86c67c2698044c6d45243ccdf6dea5580373ade7c4c0f5f4",
+      "verificationScope": "新白河駅25分の一致。画像は送迎バス/タクシーと明記。バス利用は完全予約制・2026/3/28～11/30限定、旧本文にバス利用を追加しない。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    },
+    {
+      "id": 821,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "坂元駅から約７分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/236202/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/miyagi/miyagino/access",
+      "sourceSha256": "d2078da3e76b304ec39203616bccafdd85e32283ea0219aef0e224433045ddf3",
+      "verificationScope": "坂元駅約7分の一致。公式はタクシー欄。旧料金や他駅や施設全項目の確認には拡張せず。",
+      "independentReviewState": "supported",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false
+    }
+  ],
+  "partialNumericTimeFieldReviews": [
+    {
+      "id": 1162,
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": " 9km・約15分。 近鉄本泉・津駅下車   タクシーで18km・約30分。 《タクシー》 亀山駅からタクシーで約15分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/map/c_id/240024",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシーで 9km・約15分。 近鉄本泉・津駅下車　　　タクシーで18km・約30分。 《タクシー》　亀山駅から約15分",
+        "sourceType": "booking"
+      },
+      "date": "2026-10-29",
+      "verificationScope": "公式亀山駅taxi15分のみ部分同値支持。旧冒頭9km15分/津駅18km30分/本泉表記は未確認、全rail確認扱いにしない。",
+      "independentReviewState": "reviewed_scope_as_recorded",
+      "publicCorrectionIncrement": 0,
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/geino/access",
+      "sourceSha256": "9409a1bcf03787556271d0aa236efba8040f2156800f64fb6fb56aea20d098f1"
+    }
+  ],
+  "snapshotDataCommit": "a5645e3096158b9d9bcd2e94c1a3047617aafd0f",
   "dateTimezone": "Asia/Tokyo",
   "relatedReviewDocument": "docs/nine-hole-claim-audit-2026-10-29.json"
 }
