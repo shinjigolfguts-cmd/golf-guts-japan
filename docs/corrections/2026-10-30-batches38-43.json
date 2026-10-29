@@ -1,0 +1,644 @@
+{
+  "patchSetId": "2026-10-30-batches38-43",
+  "parentSha": "8bc9e1e839c17237f596a02a46012f3bfcaab867",
+  "scope": "公式情報による項目単位の訂正・補完。既存情報の出典・確認日を分離し保持。全施設・全項目の検証完了ではありません。",
+  "inputSha256": "d6b9637c97278ba79940c975633f97eb46928276958a33e1c2f172fc0578f4f1",
+  "outputSha256": "19a1c7317eb50837f85d0dfc78758bb4c91be5bdbde8f2562a2a8a57346a76ab",
+  "changes": [
+    {
+      "id": 835,
+      "name": "白河ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "http://www.npo-shirakawagc.com",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.city.shirakawa.fukushima.jp/page/page000123.html",
+          "sha256": "ed4f7aae5f53774e6ea61f1bf0f1d2c4b0a8f21c3eb3e616eefe790b1c395850",
+          "acquiredAtUtc": "2026-10-29T14:18:09.823644+00:00"
+        },
+        {
+          "url": "http://www.npo-shirakawagc.com/access.html",
+          "sha256": "8e87d2c920b5e42d941a27909c6e9fae168ba8acc3a49366bf0c766ab452c5d7",
+          "acquiredAtUtc": "2026-10-29T14:20:21.624957+00:00"
+        }
+      ],
+      "scope": "白河市のHPリンク先を通常取得、白河市大信隈戸午房沢1-14/0248-46-2611/同名施設同一性確認。新白河GC等とは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 774,
+      "name": "釧路カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.kushiro-country-club.co.jp/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.kushiro-country-club.co.jp/access/",
+          "sha256": "242901177677af87f4bf0a0822bb63373bae7e22e5bd9b4434a83227f354f05c",
+          "acquiredAtUtc": "2026-10-29T14:18:13.252958+00:00"
+        }
+      ],
+      "scope": "釧路CC/鶴居村下幌呂/0154-65-2331、公式アクセス対象一致。釧路駅35分の支持とは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 836,
+      "name": "矢吹ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.yabukigc.com/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.yabukigc.com/access",
+          "sha256": "2365dd075299e161345753074324ce4154072c00b2a232239da548b1f9aaeccc",
+          "acquiredAtUtc": "2026-10-29T14:18:52.320052+00:00"
+        }
+      ],
+      "scope": "矢吹GC/西白河郡矢吹町松房314/0248-44-3886、施設同一性。矢吹ヒルズ834と別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 775,
+      "name": "釧路風林カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.fuurin-cc.co.jp/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.fuurin-cc.co.jp/",
+          "sha256": "85aac9ac02cc3cec50cb1857fbb0a42a6208f398dc466e4542deaa2a62e05845",
+          "acquiredAtUtc": "2026-10-29T14:18:09.303783+00:00"
+        }
+      ],
+      "scope": "対象釧路風林CCの名称住所電話を運営本文確認。別の釧路CC/下幌呂/0154-65-2331を排除。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 837,
+      "name": "白河国際カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "新白河駅から約30分。クラブバスは運行なし。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/262205/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "新白河駅から約30分。クラブバスは運行なし。 現在の公式アクセスでは、新白河駅からタクシーで35分と案内されています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/262205/",
+        "checked": "2026-10-25",
+        "basis": "旧booking段落の条件と根拠日を保持、新公式35分を別段落に限定。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "新白河駅から約30分。クラブバスは運行なし。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/262205/",
+            "checked": "2026-10-25",
+            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+            "sourceType": "booking"
+          },
+          {
+            "text": "現在の公式アクセスでは、新白河駅からタクシーで35分と案内されています。",
+            "url": "https://skcc.kanekigp.co.jp/access/",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "対象白河国際本文の駅/タクシー35分。旧30分とバス運行なしは元booking段落のまま、バスなしは今回未支持。"
+          }
+        ]
+      },
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://skcc.kanekigp.co.jp/access/",
+          "sha256": "d86cbefffd83ff3663540faa651c97aa1678868c2729eaaf7075c88b88c89b28",
+          "acquiredAtUtc": "2026-10-29T14:19:15.481645+00:00"
+        }
+      ],
+      "scope": "現在公式駅35分候補。旧クラブバスなしを公式確認済扱いしないため旧段落完全保持。旧30分との時点/経路差不明、絶対誤記認定でなく混合候補としてreviewへ。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 778,
+      "name": "グレート旭川カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.gacc.co.jp/access/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.gacc.co.jp/access/",
+          "sha256": "7340c06110f839ed96009d49e93ff0ffae454da7952969a3a452fd908543a0ca",
+          "acquiredAtUtc": "2026-10-29T14:18:10.802906+00:00"
+        }
+      ],
+      "scope": "対象名称/住所/電話・専用交通図の同定。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 843,
+      "name": "ヘレナ国際カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://cc.helena-international.jp/access",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://cc.helena-international.jp/access",
+          "sha256": "1f4cf82fe725249341eaace5b1113bd5eb44d5ed3f7ffb91fd64b5ead63dc237",
+          "acquiredAtUtc": "2026-10-29T14:18:11.417075+00:00"
+        }
+      ],
+      "scope": "運営ゴルフ用ccサブドメインと対象名称/住所/電話一致。乗馬horseサブドメインをゴルフ独立根拠にしない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 779,
+      "name": "グレート札幌カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/?cc_id=13&p=guide.access_map",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/?cc_id=13&p=guide.access_map",
+          "sha256": "fb407a8ba4be841a65657e02b2527f69ed91854607ff6dcb32e810e37d6501ff",
+          "acquiredAtUtc": "2026-10-29T14:32:38.616493+00:00"
+        }
+      ],
+      "scope": "同名施設の運営公式ページ、所在地電話と対象識別。接続成功だけでなく本文を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 779,
+      "name": "グレート札幌カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "千歳駅から20分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/111307/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR千歳駅から車で約25分（運営会社の公式案内の目安）。",
+        "url": "https://ir.pacificgolf.co.jp/membership/seikaiin/greatsapporo/",
+        "checked": "2026-10-29",
+        "basis": "同一施設の公式アクセス案内で駅・交通手段・所要時間を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://ir.pacificgolf.co.jp/membership/seikaiin/greatsapporo/",
+          "sha256": "149fa1fc839cfb1dca6bef4afb80569affd6a231ebad69a784238f270c261c69",
+          "acquiredAtUtc": "2026-10-29T14:33:47.639918+00:00"
+        }
+      ],
+      "scope": "運営会社PGM会員募集の同施設アクセスは千歳駅から車約25分。旧20分の誤記断定でなく現公式目安への更新。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 844,
+      "name": "小名浜オーシャンホテル＆ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.accordiahotel.com/onahama/golf/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.accordiahotel.com/onahama/golf/",
+          "sha256": "209be13521bcb0bd4154271751e4cb2556eea88fb90ee8e4f0b13bbf7beec962",
+          "acquiredAtUtc": "2026-10-29T14:32:21.827821+00:00"
+        }
+      ],
+      "scope": "同名施設の運営公式ページ、所在地電話と対象識別。接続成功だけでなく本文を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 844,
+      "name": "小名浜オーシャンホテル＆ゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "泉駅から約10分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/260502/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR常磐線・泉駅からタクシーで約15分（公式案内の目安）。",
+        "url": "https://www.accordiahotel.com/onahama/",
+        "checked": "2026-10-29",
+        "basis": "同一施設の公式アクセス案内で駅・交通手段・所要時間を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.accordiahotel.com/onahama/",
+          "sha256": "c8b7d41505ead970e259d0a1eef72f81ec7df671885ad176ff4cf08987eb39d2",
+          "acquiredAtUtc": "2026-10-29T14:33:04.595134+00:00"
+        }
+      ],
+      "scope": "ホテル＆ゴルフクラブ同一施設公式アクセスはJR泉駅taxi15分。旧約10分と経路条件不明のため現公式目安として具体化。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 780,
+      "name": "コート旭川カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://cote-asahikawa-cc.hokkaido.jp/access/index.html",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://cote-asahikawa-cc.hokkaido.jp/access/index.html",
+          "sha256": "a2598d4178ff81130a35c02ef5731394812026f359cfe20eab455020e49c8b9b",
+          "acquiredAtUtc": "2026-10-29T14:32:41.350218+00:00"
+        }
+      ],
+      "scope": "同名施設の運営公式ページ、所在地電話と対象識別。接続成功だけでなく本文を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 782,
+      "name": "ゴルフ5カントリー美唄コース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "美唄駅から約15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/110112/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR美唄駅からタクシーで約12分。",
+        "url": "https://alpen-group.net/bibai/access/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "旧美唄駅約15分から現公式目安12分へ更新。旧手段未記載、現公式はタクシーと明記。概算/経路差あるため絶対誤記とはしない。"
+      },
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://alpen-group.net/bibai/access/",
+          "sha256": "032c5bdffc95bfbb0578b205c2f6480c27ee36da72935690ac17b46854f9089f",
+          "acquiredAtUtc": "2026-10-29T14:28:18.045096+00:00"
+        }
+      ],
+      "scope": "旧美唄駅約15分から現公式目安12分へ更新。旧手段未記載、現公式はタクシーと明記。概算/経路差あるため絶対誤記とはしない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 783,
+      "name": "ザ・ノースカントリーゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.the-north.co.jp/access/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.the-north.co.jp/access/",
+          "sha256": "a741614d198e25af50f808a6cc719ca35dfdd279c3de44a56984254a73719f07",
+          "acquiredAtUtc": "2026-10-29T14:28:04.852067+00:00"
+        }
+      ],
+      "scope": "対象ゴルフ名称/千歳蘭越26/0123-27-2121確認。おすすめホテルカードを施設同定に使用しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 787,
+      "name": "札樽ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "小樽築港駅から15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/112101/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "小樽築港駅からタクシーで約20分。",
+        "url": "https://www.sassongc.com/access/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "成功公式埋込access_case.pngを視認。旧15分から現公式目安20分へ更新、旧手段不明を現公式タクシーで具体化。経路/混雑差を排除した絶対誤り認定ではない。"
+      },
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.sassongc.com/access/",
+          "sha256": "199d9826165987925f38f1bd795538f128d502505ec0e94a1d238ec879a05dbc",
+          "acquiredAtUtc": "2026-10-29T14:28:18.194830+00:00"
+        }
+      ],
+      "scope": "成功公式埋込access_case.pngを視認。旧15分から現公式目安20分へ更新、旧手段不明を現公式タクシーで具体化。経路/混雑差を排除した絶対誤り認定ではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 788,
+      "name": "札幌スコットヒルゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://sapporoscotshill.com/access/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://sapporoscotshill.com/access/",
+          "sha256": "12a7955b45a34cf596e1de7a93306d033467475be945a9dc14fdb21abee9cc2c",
+          "acquiredAtUtc": "2026-10-29T14:28:03.891060+00:00"
+        }
+      ],
+      "scope": "対象名称/住所/電話を成功運営本文及び地図で同定。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 789,
+      "name": "札幌テイネゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://sapporo-teine.com/golf/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://sapporo-teine.com/golf/",
+          "sha256": "161320250daa99430ac979f545dc3bf859102621de44acf3559e15ed3e4cbfa8",
+          "acquiredAtUtc": "2026-10-29T14:38:26.228939+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 790,
+      "name": "札幌芙蓉カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.sapporo-fuyo.com/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.sapporo-fuyo.com/",
+          "sha256": "874832b7bbcf785476be4b8ccd32baec71d29d4931d2c1579ff4f603dfbb5949",
+          "acquiredAtUtc": "2026-10-29T14:38:24.146578+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 791,
+      "name": "札幌ベイゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://sapporobay-gc.com/access/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://sapporobay-gc.com/access/",
+          "sha256": "e66b7fd1142d113c9d657d56566520f75bac494307a739802820d0cd3de7ddaf",
+          "acquiredAtUtc": "2026-10-29T14:38:31.082180+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 791,
+      "name": "札幌ベイゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "麻生駅から約20～30分。クラブバスは運行なし。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/112120/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "クラブバスは運行なし。 地下鉄南北線・麻生駅からタクシーで約30分（公式案内の目安）。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/112120/",
+        "checked": "2026-10-25",
+        "basis": "予約由来の未再確認条件と今回の公式案内を段落別に区別。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "クラブバスは運行なし。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/112120/",
+            "checked": "2026-10-25",
+            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+            "sourceType": "booking"
+          },
+          {
+            "text": "地下鉄南北線・麻生駅からタクシーで約30分（公式案内の目安）。",
+            "url": "https://sapporobay-gc.com/access/",
+            "checked": "2026-10-29",
+            "basis": "対象施設の公式交通案内で起点・手段・時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-25",
+      "sourceEvidence": [
+        {
+          "url": "https://sapporobay-gc.com/access/",
+          "sha256": "e66b7fd1142d113c9d657d56566520f75bac494307a739802820d0cd3de7ddaf",
+          "acquiredAtUtc": "2026-10-29T14:38:31.082180+00:00"
+        }
+      ],
+      "scope": "公式麻生駅taxi約30分。旧20～30分の範囲を現公式値で具体化、旧クラブバスなしは未再確認の予約出典段落として保持。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 793,
+      "name": "サホロカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://sahoro-resort.com/summer/golf",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://sahoro-resort.com/summer/golf",
+          "sha256": "1a2e95fe10720632a8cfc277c1afacf120ce2ff8c1305cb2ed96141fb9c7efce",
+          "acquiredAtUtc": "2026-10-29T14:38:24.604005+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 794,
+      "name": "サロベツカントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "JR豊富駅からタクシーで約5分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10069/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載施設案内",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR豊富駅からタクシーで約5分。 宗谷本線・豊富駅から車で約10分（公式案内の目安）。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10069/",
+        "checked": "2026-10-25",
+        "basis": "予約由来の未再確認条件と今回の公式案内を段落別に区別。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "JR豊富駅からタクシーで約5分。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10069/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORA掲載施設案内",
+            "sourceType": "booking"
+          },
+          {
+            "text": "宗谷本線・豊富駅から車で約10分（公式案内の目安）。",
+            "url": "https://sarobetsucountry.wixsite.com/golf/blank-2",
+            "checked": "2026-10-29",
+            "basis": "対象施設の公式交通案内で起点・手段・時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-25",
+      "sourceEvidence": [
+        {
+          "url": "https://sarobetsucountry.wixsite.com/golf/blank-2",
+          "sha256": "b74bb6dd345a99691f8be6830cc870782f5ffb2f355c8dff34d97a1fb39c3697",
+          "acquiredAtUtc": "2026-10-29T14:39:40.773919+00:00"
+        }
+      ],
+      "scope": "公式は豊富駅から車10分、旧taxi5分とは手段差あり。旧taxiを削除せず出典/日付別で公式車10を補充、旧5の検証完了ではない。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 795,
+      "name": "シェイクスピアカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://skp-cc.com/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://skp-cc.com/",
+          "sha256": "857df2e52f9ba3512ee721ddf6e8561c649ea2afe52af77739c41604a81b8e27",
+          "acquiredAtUtc": "2026-10-29T14:38:31.333253+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 798,
+      "name": "シャトレーゼカントリークラブ石狩",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://ishikari.chateraisegolf.jp/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://ishikari.chateraisegolf.jp/",
+          "sha256": "dbf0f8fb68c285d081046885a6c2b0692ccde0b1ea9e742301f4da1b277a4830",
+          "acquiredAtUtc": "2026-10-29T14:38:26.349382+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 800,
+      "name": "シャムロックカントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "http://www.shamrock.co.jp/",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "http://www.shamrock.co.jp/",
+          "sha256": "f83eb3e6aa60096ee993010a998ff529c6ae6deb600bff593db8eec201f02db9",
+          "acquiredAtUtc": "2026-10-29T14:38:40.400746+00:00"
+        }
+      ],
+      "scope": "同施設公式名称/所在自治体/住所電話を対象本文で確認。URL接続のみでなく施設同一性を照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 803,
+      "name": "新奈井江カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://shinnaiecountry.jp/?distinations=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://shinnaiecountry.jp/?distinations=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9",
+          "sha256": "b5c989f6c750cf9e5268e038885903163835ed2a073f1f3049e61bb95cffbed6",
+          "acquiredAtUtc": "2026-10-29T14:38:28.737036+00:00"
+        }
+      ],
+      "scope": "対象運営名称/住所/電話一致。JR駅2分の確認とは別の公式URL補充。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1760,
+      "name": "宝塚クラシックゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "宝塚駅からタクシーで約15分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/642302/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー  | 宝塚駅から約15分",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR・阪急宝塚駅からタクシーで約10分。",
+        "url": "https://www.takarazuka-cgc.com/access.html",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "旧宝塚駅taxi約15分を現在公式の駅からtaxi約10分目安へ更新。同駅系統/手段を明示。混雑/経路差を排除した絶対誤記認定ではない。バス利用条件は今回候補に追加しない。"
+      },
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "https://www.takarazuka-cgc.com/access.html",
+          "sha256": "450733bc28de3ddc799d53dc4778ad717d832048a0c9645115215c1644b5f851",
+          "acquiredAtUtc": "2026-10-29T14:38:47.282784+00:00"
+        }
+      ],
+      "scope": "旧宝塚駅taxi約15分を現在公式の駅からtaxi約10分目安へ更新。同駅系統/手段を明示。混雑/経路差を排除した絶対誤記認定ではない。バス利用条件は今回候補に追加しない。",
+      "reviewStatus": "supported"
+    }
+  ]
+}
