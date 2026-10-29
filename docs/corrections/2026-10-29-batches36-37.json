@@ -1,0 +1,264 @@
+{
+  "baseCommit": "3808e58950223779057e5446bea6cd2b76e6ad06",
+  "checkedOn": "2026-10-29",
+  "dateTimezone": "Asia/Tokyo",
+  "scope": "8 facilities /9 fields:4 rail-access fields and5 official URLs. Current official transport estimates/services; no ranking/design changes.",
+  "changes": [
+    {
+      "id": 830,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.taiheiyoclub.co.jp/course/shirakawa/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.taiheiyoclub.co.jp/course/shirakawa/"
+        ],
+        "sourceContentSha256": [
+          "ce504f4d1c0ba7319ad2affb8f1d298ba9d5f93d43bb62163ec5a76d3fea37f4"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同名対象施設の公式アクセス本文・所在地連絡先の同一性。施設全項目確認ではない。"
+      }
+    },
+    {
+      "id": 1115,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "寺庄駅からタクシーで約5分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/612402/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー  | 寺庄駅から5分",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "寺庄駅からタクシーで約5分。 JR草津線・寺庄駅とクラブ間の送迎は約5分。事前予約制のため、利用前にクラブへご連絡ください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/612402/access/",
+        "checked": "2026-10-25",
+        "basis": "旧予約文/日付を保持し、新公式の別交通手段又は別起点のみ支持。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "寺庄駅からタクシーで約5分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/612402/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：タクシー  | 寺庄駅から5分",
+            "sourceType": "booking"
+          },
+          {
+            "text": "JR草津線・寺庄駅とクラブ間の送迎は約5分。事前予約制のため、利用前にクラブへご連絡ください。",
+            "url": "https://www.century-gc.com/access.html",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "対象埋込電車図の寺庄駅→送迎約5分と本文事前予約を確認。旧taxi5の独立支持ではない。"
+          }
+        ]
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.century-gc.com/access.html",
+          "https://www.century-gc.com/images/access/access_train.png"
+        ],
+        "sourceContentSha256": [
+          "1d4dca2697d1b3780252b318f987ce29a53c2a62ef9a0cb7f86a71a1ab16040d",
+          "80fe84a5e0e07da0a7b3cfcaadb3f1d4b02d0d2a2cbe7d9a4347f9cedd903695"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "newofficialsegmentonly;legacyprioritytimeunverified"
+      }
+    },
+    {
+      "id": 765,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.obihiro-cc.com/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.obihiro-cc.com/facility/"
+        ],
+        "sourceContentSha256": [
+          "23ad72c98a84632c1699f955a9c7be1f40b4ead33b99387482b31347d7bb117b"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同名対象施設の公式アクセス本文・所在地連絡先の同一性。施設全項目確認ではない。"
+      }
+    },
+    {
+      "id": 831,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "郡山駅から約25分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/263501/",
+        "checked": "2026-10-25",
+        "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+        "sourceType": "booking",
+        "updateExisting": true
+      },
+      "after": {
+        "text": "郡山駅から約25分。 公式アクセスでは最寄りの須賀川駅からタクシーで約20分と案内されています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/263501/",
+        "checked": "2026-10-25",
+        "basis": "旧予約文/日付を保持し、新公式の別交通手段又は別起点のみ支持。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "郡山駅から約25分。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/263501/",
+            "checked": "2026-10-25",
+            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは最寄りの須賀川駅からタクシーで約20分と案内されています。",
+            "url": "https://www.totobus.co.jp/koriyama/about/",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "対象施設アクセス本文の須賀川駅taxi20を確認。旧郡山駅25は別起点で未確認。"
+          }
+        ],
+        "updateExisting": true
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.totobus.co.jp/koriyama/about/"
+        ],
+        "sourceContentSha256": [
+          "7c338061d68ec655b967347048fa3871e088b8597c35b85ef88f0e452d9c15fd"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "newofficialsegmentonly;legacyprioritytimeunverified"
+      }
+    },
+    {
+      "id": 1177,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "松阪駅からタクシーで約10分。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/536101/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：タクシー\n    松阪駅から10分",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR・近鉄松阪駅からタクシーで約15分。",
+        "url": "https://www.matsusakacc.com/access/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "同一起点/タクシー手段の現公式約15分。旧約10分を現在の公式目安へ更新。経路/混雑差を排除できず、旧時間が常に誤りとは断定しない。車節混雑注意を駅時間の条件に誤結合しない。"
+      },
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://www.matsusakacc.com/access",
+          "https://www.matsusakacc.com/access/"
+        ],
+        "sourceContentSha256": [
+          "15aac23894328d17a347c8ea5ddcd580746be7de1d7d20625228a637a95d5c54"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "同一起点/タクシー手段の現公式約15分。旧約10分を現在の公式目安へ更新。経路/混雑差を排除できず、旧時間が常に誤りとは断定しない。車節混雑注意を駅時間の条件に誤結合しない。"
+      }
+    },
+    {
+      "id": 766,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://obihirokokusai.com/access/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://obihirokokusai.com/access/"
+        ],
+        "sourceContentSha256": [
+          "a535001efb1aafc1bc751e89253b6bf1159387e80b6d6ceee800177c05ce79d4"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "運営名帯広国際CC/幕別町住所/0155-56-3225を成功本文で同定。白樺CCなど別施設ではない。"
+      }
+    },
+    {
+      "id": 833,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/fukushima/uzumine/",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://reserve.accordiagolf.com/golfCourse/fukushima/uzumine/"
+        ],
+        "sourceContentSha256": [
+          "71ffe70d4ea2edb633f80bd24ed7d6c943fa14dfe5f742510ec3454d4b20306e"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "アコーディア運営の宇津峰CC名前/所在地/専用アクセス節一致、近隣カード除外。"
+      }
+    },
+    {
+      "id": 767,
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://shirakaba.classicgolf.jp/m/contents/access/index.html",
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://shirakaba.classicgolf.jp/m/contents/access/index.html"
+        ],
+        "sourceContentSha256": [
+          "b80bd4c9933fcf7025dfa028657b978ab3b5c90deca3471d33501c6e0970ce98"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "対象公式クラシックゴルフドメインの帯広白樺名称/住所/電話確認。mobile表示ページだが対象運営アクセス本文。"
+      }
+    },
+    {
+      "id": 767,
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "JR帯広駅から車で約30分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10024/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載施設案内",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "JR根室線・帯広駅から車で約25分。",
+        "url": "https://shirakaba.classicgolf.jp/m/contents/access/index.html",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "旧帯広駅車約30分と同一起点/手段。現公式電車アクセス節の駅から25分への目安更新。市内から25分を駅へ読み替えたものではない。"
+      },
+      "reviewStatus": "supported",
+      "sourceEvidence": {
+        "publicSourceUrls": [
+          "https://shirakaba.classicgolf.jp/m/contents/access/index.html"
+        ],
+        "sourceContentSha256": [
+          "b80bd4c9933fcf7025dfa028657b978ab3b5c90deca3471d33501c6e0970ce98"
+        ],
+        "checkedOn": "2026-10-29",
+        "scope": "旧帯広駅車約30分と同一起点/手段。現公式電車アクセス節の駅から25分への目安更新。市内から25分を駅へ読み替えたものではない。"
+      }
+    }
+  ],
+  "validation": {
+    "exactBeforeAndExistence": true,
+    "allUntargetedDataUnchanged": true,
+    "unitTestsPassed": 89,
+    "courses": 1800,
+    "dataGitBlob": "69e0457a35f65b91011b95f5278331ee7576f579",
+    "mixedLegacySourceDatePreserved": true
+  },
+  "reviewScope": "Independent official evidence and preservation review; not full facility certification."
+}
