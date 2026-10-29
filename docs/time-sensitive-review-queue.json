@@ -1,0 +1,66 @@
+{
+  "createdOn": "2026-10-29",
+  "purpose": "Existing scheduled audit input only; this file creates no schedule and changes no public facts",
+  "items": [
+    {
+      "id": 961,
+      "field": "dining",
+      "reviewOn": "2026-11-01",
+      "reason": "10月メニュー例。翌月に提供継続とみなさず現公式を確認。"
+    },
+    {
+      "id": 468,
+      "field": "note",
+      "reviewOn": "2026-11-01",
+      "reason": "カート乗入れ期間は2026年10月末予定。11月以降を自動延長しない。"
+    },
+    {
+      "id": 396,
+      "field": "note",
+      "reviewOn": "2026-11-05",
+      "reason": "浴槽停止は11月4日頃まで見込み、5日以降再案内予定。再開を推測しない。"
+    },
+    {
+      "id": 375,
+      "field": "note",
+      "reviewOn": "2026-11-09",
+      "reason": "11月9日以降の季節営業条件を再確認。"
+    },
+    {
+      "id": 467,
+      "field": "note",
+      "reviewOn": "2027-01-01",
+      "reason": "V薄暮ハーフ掲載期限2026年12月31日、年末特別日も終了。"
+    },
+    {
+      "id": 678,
+      "field": "note",
+      "reviewOn": "2027-01-02",
+      "reason": "特別完全セルフは2026年12月31日・2027年1月1日限定、通常条件へ勝手に拡張しない。"
+    },
+    {
+      "id": 1376,
+      "field": "dining",
+      "reviewOn": "2026-10-30",
+      "reason": "ゴルフ場レストラン休業案内。再開未確認。"
+    },
+    {
+      "id": 1391,
+      "field": "note",
+      "reviewOn": "2026-10-30",
+      "reason": "公式メンテナンス/被害案内の一時状態。営業状況を推測しない。"
+    },
+    {
+      "id": 429,
+      "field": "stay",
+      "reviewOn": "2026-11-29",
+      "reason": "本館改修と女性大浴場の制限開始予定日。別館・新館まで休館扱いにしない。"
+    },
+    {
+      "id": 428,
+      "field": "stay",
+      "reviewOn": "2026-12-02",
+      "reason": "浴場の冬季時刻切替案内。12月1日の営業は未記載で推測しない。"
+    }
+  ]
+}

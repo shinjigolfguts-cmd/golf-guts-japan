@@ -1,0 +1,3788 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-10-29T11:32:00.936580+00:00",
+  "artifactStatus": "verified_public_snapshot",
+  "repository": "shinjigolfguts-cmd/golf-guts-japan",
+  "linkBase": "repository_root",
+  "auditDocumentPathsConfirmedBy": "sole editor message 2026-10-29 11:29 UTC",
+  "fieldReviews": [
+    {
+      "id": 197,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://hoshinoresorts.com/ja/sp/mellowwoodgolf/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 198,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.shiun-gc.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 198,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.shiun-gc.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 199,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 200,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.nihonkai-cc.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 210,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.fujizakura-cc.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 211,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.fujilakeside-cc.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 213,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.princehotels.co.jp/golf/karu72/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 213,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.princehotels.co.jp/golf/karu72/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 215,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://kajima-resort.co.jp/access/sougei.pdf",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 217,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.pacificgolf.co.jp/hananoki/information.asp",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 221,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.fujicountryclub.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 221,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.fujicountryclub.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 228,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.princehotels.co.jp/golf/seta/#access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 228,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.princehotels.co.jp/golf/seta/#access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 232,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "http://www.joyo-cc.co.jp/access/bus.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 233,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.tanabecc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 233,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 233,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.tanabecc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 235,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://izumigaoka-cc.com/about",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 236,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.hanna.ne.jp/m/contents/access/index.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 237,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 237,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://abc-golf.co.jp/about/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 238,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.arima-royal.com/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 238,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.arima-royal.com/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 242,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/nara/narawaka/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 242,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/nara/narawaka/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 244,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.nankishirahama-golfclub.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 250,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.tamacc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 250,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.tamacc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 251,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://kanagi-cc.co.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 252,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.tojigaoka.jp/trafficaccess/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 252,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 252,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.tojigaoka.jp/trafficaccess/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 253,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.setokan.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 253,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.setokan.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 254,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://kinojo.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 254,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://kinojo.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 260,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "http://www.sggc.co.jp/guide/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 260,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 261,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 262,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.jclassic.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 265,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "http://www.takamatsu-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 265,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "http://www.takamatsu-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 266,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 267,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "http://www.matsuyama-golf.jp/?page_id=29",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 268,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://niihamacc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 269,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.oozugolf.jp/guide/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 269,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 272,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.kochi-gc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 272,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.kochi-gc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 273,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.keyagc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 273,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.keyagc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 274,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 276,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.resol-golf.jp/karatsu/faq/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 276,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.resol-golf.jp/karatsu/faq/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 277,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://bridgestone-cc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 280,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 280,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://pk-islandgolf.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 282,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://kumamotokuko-cc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 282,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 282,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://kumamotokuko-cc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 284,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.asoyamanamigolf.com/blank-2",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 284,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.asoyamanamigolf.com/blank-2",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 285,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://ogiyama-golf.net/page-5022/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 286,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.yufukogen-gc.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 286,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.yufukogen-gc.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 288,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 289,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://miyazakicc.jp/about/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 289,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://miyazakicc.jp/about/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 292,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://takamakicc.net/access.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 292,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://takamakicc.net/access.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 299,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.asahikawa-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 299,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.asahikawa-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 299,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.asahikawa-gc.com/course/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 307,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://evergreen-gc.com/%E6%96%BD%E8%A8%AD%E6%83%85%E5%A0%B1/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 308,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://tomakomai-golfresort72.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 308,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 308,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://tomakomai-golfresort72.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 310,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.osaki-gc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 310,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 310,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.osaki-gc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 311,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 311,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/miyagi/oosato/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 316,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.kankou.natori.miyagi.jp/activity/420/",
+        "evidenceType": "tourism"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 316,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.kankou.natori.miyagi.jp/activity/420/",
+        "evidenceType": "tourism"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 321,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.ichinoseki.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 321,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 321,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.ichinoseki.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 321,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.ichinoseki.co.jp/course/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 322,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.iwategolf.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 322,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 322,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.iwategolf.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 322,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.iwategolf.co.jp/course.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 322,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.iwategolf.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 333,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.aizubandai-cc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 333,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 345,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://aga-gc.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 345,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 357,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 358,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.akc-golf.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 358,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 358,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.akc-golf.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 367,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://oishidagc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 367,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 367,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://oishidagc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 368,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.y-kenmingolf.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 368,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 374,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://toohcc.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 374,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 374,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://toohcc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 374,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://toohcc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 375,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://tsugaru-country.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 375,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 375,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 384,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 393,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://rfgr.jp/toyama/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 393,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 393,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://rfgr.jp/toyama/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 394,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://uozu-cc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 394,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 394,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 394,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://uozu-cc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 395,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://rfgr.jp/senbadaira/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 395,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 396,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.takaoka-cc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 396,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 396,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 396,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.takaoka-cc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 419,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.grandvrio-golfclub.com/maruko/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 428,
+      "field": "stay",
+      "source": {
+        "origin": "library_v3",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.alpico.co.jp/tateshinakogen-cc/information/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 429,
+      "field": "budget",
+      "source": {
+        "origin": "library_v3",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.asagiri.net/news/14996/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 429,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.asagiri.net/company/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 429,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 429,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.asagiri.net/company/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 429,
+      "field": "stay",
+      "source": {
+        "origin": "library_v3",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.asagiri.net/news/16110/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 465,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.tsurugagolf.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 465,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 465,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.tsurugagolf.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 466,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.suginokidai.jp/contents/access.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 466,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 466,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 467,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 467,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 467,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 467,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/fukui/fukui/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 468,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.wakasacc.co.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 468,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 468,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 468,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.wakasacc.co.jp/hotel",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 476,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.natadera-cc.com/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 477,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.komatsu-public.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 477,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 477,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.komatsu-public.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 492,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.ashiya-cc.or.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 492,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 492,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.ashiya-cc.or.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 510,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://rfgr.jp/ojiyama/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 535,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 535,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.asuka-cc.co.jp/access/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 539,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 539,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/?cc_id=89&p=guide.access_map",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 547,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.oguracc.com/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 553,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.kunikiharagolf.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 553,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.kunikiharagolf.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 557,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.rio-fcc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 566,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.a-jacknicklaus-gc.co.jp/access/index.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 567,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://yokkaichicc.jp/アクセス/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 567,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 567,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://yokkaichicc.jp/アクセス/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 570,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://banryugolf.com/gpdaisen/access/index.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 571,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 571,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 571,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.pacificgolf.co.jp/daisen/stay/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 574,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/shimane/izumo/detail/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 575,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://shimane-golf.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 579,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://banryugolf.com/ibara/access/index.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 580,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://kasumibashi-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 580,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://kasumibashi-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 581,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "http://occ-momonosato.co.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 581,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "http://occ-momonosato.co.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 582,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://okayamakita.com/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 589,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "http://www.aki-cc.net/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 590,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.ou-cc.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 590,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://www.ou-cc.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 591,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 601,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://icgc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 601,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://icgc.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 603,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://shunan.or.jp/profile/map.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 603,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 603,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://shunan.or.jp/profile/map.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 613,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.yoshinogawa-golf.co.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 614,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.awanavi.jp/archives/spot/2565",
+        "evidenceType": "tourism"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 622,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://shidocc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 622,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 623,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 623,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 623,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.olive-resort.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 634,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 634,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 635,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://dogogolf.com/アクセス/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 635,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://dogogolf.com/アクセス/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 646,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.nishikiyama.jp/access.htm",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 646,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.nishikiyama.jp/access.htm",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 647,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.pacificgc.jp/pages/2/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 665,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.wakamatsu.or.jp/access.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 665,
+      "field": "play",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.wakamatsu.or.jp/guide.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 665,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.wakamatsu.or.jp/access.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 665,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://www.wakamatsu.or.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 678,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 678,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 688,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://nagasaki-gc.sakura.ne.jp/price/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 690,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.shimabaracc.com/交通案内/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 703,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 703,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://www.visit-oita.jp/topics/detail/540",
+        "evidenceType": "tourism"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 712,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch06-07-and-242.json",
+        "fieldEvidenceUrl": "https://aso-yunotani.co.jp/access-map/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "65744729500d3f2e70babf1e9ca104f3dfc8739e",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 761,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json",
+        "fieldEvidenceUrl": "https://www.city.iwamizawa.hokkaido.jp/kanko/asobu/5698.html",
+        "evidenceType": "tourism"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 786,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://shimamatsu.co.jp/s_access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 786,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 786,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json",
+        "fieldEvidenceUrl": "https://shimamatsu.co.jp/s_access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 856,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://www.niitsu-cc.co.jp/restaurant",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 866,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 867,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 868,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches14-17-handoff-v3.json"
+      },
+      "date": "2026-10-29",
+      "commit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 921,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://minoshirakawa-gc.co.jp/restaurant/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 921,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://minoshirakawa-gc.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 933,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://minaminagano-gc.jp/restaurant/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 944,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://matsumotocc.co.jp/pages/64/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 961,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://www.maplepoint.jp/news_restaurant.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 963,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 963,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://www.gran-cc.co.jp/ja/about",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 966,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://www.southerncross.co.jp/dining/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 985,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://fujimigaoka.chateraisegolf.jp/restaurant/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 997,
+      "field": "stay",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://hamaoka-hotel.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1210,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batches08-09-12-13.json"
+      },
+      "date": "2026-10-29",
+      "commit": "ab5bf16c6beab2c008d4c3391b21e0b388314683",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1240,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.hiroshima-gc.net/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1240,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.hiroshima-gc.net/restaurant/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1240,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "http://www.hiroshima-gc.net/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1295,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://fukuokacc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1376,
+      "field": "dining",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1378,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch03-05.json",
+        "fieldEvidenceUrl": "https://nanzan.jimdosite.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "c7c83ba08f020a526c86896c37b8892989f3355c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1383,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1383,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/chiba/kukocourse/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1391,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1391,
+      "field": "officialUrl",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1431,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1432,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1542,
+      "field": "note",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1542,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch10-11.json",
+        "fieldEvidenceUrl": "https://www.takanashiclub.jp/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "05f5f28c9057fb8916af807b9b1ad8fc33367db6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1742,
+      "field": "rail",
+      "source": {
+        "origin": "prior_single_correction_outside_research170",
+        "auditDocument": "docs/corrections/2026-10-29-yokawa-1742.json",
+        "fieldEvidenceUrl": "https://yokawa-rgc.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "fe6f0976f14720060044171a578df99ac325c4be",
+      "publicVerificationStage": "pages_live_data_and_field_browser_pass",
+      "facilityIncludedInBrowserSample": true,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1749,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://meishin-ryuou.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1749,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://meishin-ryuou.jp/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1749,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://meishin-ryuou.jp/courses",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1752,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://madamej-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1752,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://madamej-gc.com/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1752,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://madamej-gc.com/course-out/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1757,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://www.hyogocc.com/course/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1767,
+      "field": "scenery",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://nishiwakicc.ne.jp/courseguide/west/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1772,
+      "field": "car",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://yomiurigolf.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    },
+    {
+      "id": 1772,
+      "field": "rail",
+      "source": {
+        "origin": "research170",
+        "auditDocument": "docs/corrections/2026-10-29-batch01-02.json",
+        "fieldEvidenceUrl": "https://yomiurigolf.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-29",
+      "commit": "1e3b6a9f5541b1467bf81baf1d7bb4cfe8227a4c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "facilityIncludedInBrowserSample": false,
+      "allFieldsBrowserVerified": false
+    }
+  ],
+  "gitPending": [],
+  "counts": {
+    "publishedFields": 260,
+    "publishedFacilities": 141,
+    "gitPendingFields": 0,
+    "gitPendingFacilities": 0,
+    "allFacilitiesAllFieldsComplete": 0,
+    "originalAuditLedgerDecrement": 0
+  },
+  "limitations": [
+    "Field-level selected changes only; no facility is certified fully complete.",
+    "Representative browser checks are not every field or every facility.",
+    "research170 and Libraryv3 provenance differ; id+field is the unique counting key.",
+    "Pending entries are excluded from published counts even when deployment succeeded but final browser verification is pending.",
+    "Existing full research ledger is retained separately; this compact artifact is not a replacement."
+  ],
+  "baseCommit": "2dfa3698444a4bfbd361a0b997e303c71a055b18",
+  "notes": "This is GitHub's independently recorded audit progress, not a copy of original Sites audit completion. Later commits must preserve these reviewed fields."
+}
