@@ -1,0 +1,224 @@
+{
+  "checkedOn": "2026-10-29",
+  "baseCommit": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+  "scope": "4 facilities / 5 fields correcting total course composition, not per-round entitlements.238Royal/Noble36,522fourcourses36,1136threecourses27,1799threecourses27 and matching overview.",
+  "changes": [
+    {
+      "id": 238,
+      "name": "有馬ロイヤルゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールのコース。",
+        "url": "https://arima-royal.com/info/3570",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：9ホールプレー後、2階コンペルームへの案内は随時スタッフが行っておりますが、",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "コース構成はロイヤル18ホール・ノーブル18ホールの計36ホール。",
+        "url": "https://arima-royal.com/about",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "対象クラブ概要のコース欄はロイヤルOUT9/IN9・ノーブルOUT9/IN9。旧9ホールプレー後という食事/コンペ案内は総ホール数でない。"
+      },
+      "baseSha": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "sourceEvidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/hole-count-assets/238about.html",
+          "sha256": "b1f950f38f9c1d648cb4e95e77a513fb9050575ec1a893dc0202035f8212603d"
+        }
+      ],
+      "reviewStatus": "supported",
+      "interpretation": "facility total confirmed; not half plan or individual hole number",
+      "featureUnchanged": "神戸市北区淡河町のクラブ。ロイヤルコースは日によって会員同伴条件がある。",
+      "independentReview": "four-facility-hole-count-independent-review.json"
+    },
+    {
+      "id": 1799,
+      "name": "ベル・グリーンカントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールのコース。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/645401/comment/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：### 同じ9ホール繰り返しだが、狙い所に打つ必要有り",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "コース構成は西・中・東の3コース、各9ホールの計27ホール。",
+        "url": "https://www.bellgreen.cc/course_guide.html",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "対象コースガイドの西/中/東各一覧に9ホールを明記。公式東・東案内は東9ホールを2回回る別プランと説明し、西・中の乗用カートラウンドと区別する。旧予約口コミの同じ9繰返しを施設総数に使わない。"
+      },
+      "baseSha": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "sourceEvidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/hole-count-assets/1799course.html",
+          "sha256": "02fc4883de261543f95f86d6a7bbe3b554131233805e1404d2b0a60552048be6"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/hole-count-assets/1799east.html",
+          "sha256": "de7ffcd4945954f83d43a0d1efab73c920cda5a46c18c4c0e695f060fceaa030"
+        }
+      ],
+      "reviewStatus": "supported",
+      "interpretation": "facility total confirmed; not half plan or individual hole number",
+      "featureUnchanged": null,
+      "independentReview": "four-facility-hole-count-independent-review.json"
+    },
+    {
+      "id": 1799,
+      "name": "ベル・グリーンカントリークラブ",
+      "field": "feature",
+      "beforeExists": true,
+      "before": "9ホールのコース。",
+      "after": "コース構成は西・中・東の3コース、各9ホールの計27ホール。",
+      "baseSha": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "sourceEvidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/hole-count-assets/1799course.html",
+          "sha256": "02fc4883de261543f95f86d6a7bbe3b554131233805e1404d2b0a60552048be6"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/hole-count-assets/1799east.html",
+          "sha256": "de7ffcd4945954f83d43a0d1efab73c920cda5a46c18c4c0e695f060fceaa030"
+        }
+      ],
+      "reviewStatus": "supported",
+      "reason": "Avoid old9 remaining in visible feature afterplay correction.",
+      "independentReview": "four-facility-hole-count-independent-review.json"
+    },
+    {
+      "id": 522,
+      "name": "天野山カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールのコース。",
+        "url": "https://www.amanosan.jp/course",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：#### No.9ホール4 7",
+        "sourceType": "official"
+      },
+      "featureBeforeUnchanged": "堺市に位置するゴルフ場。移動手段と利用条件を比較して検討できます。",
+      "after": {
+        "text": "コース構成は南・東・北・西の4コース、各9ホールの計36ホール。",
+        "url": "https://www.amanosan.jp/course",
+        "checked": "2026-10-29",
+        "basis": "成功現HTMLの南/東/北/西各区分に独立9ホール表とNo.1〜No.9ホール見出し、計36。No.9という単独ホール番号を総数にしない。",
+        "sourceType": "official"
+      },
+      "confidence": "high; explicit fourHTML tables or three visually inspected original official images",
+      "evidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/522course.html",
+          "sha256": "44eaece9e2daf65bc15a7aa83d8ada9eb98e45c1d5d522a70dc6fe7a990b6887",
+          "acquiredAtUtc": "2026-10-29T12:56:15.947167+00:00"
+        }
+      ],
+      "acquisitionProvenance": "522 existing successfulbatch25home /course link;1136 specified existingplay source firstGET; images are exact successful HTML embedded src",
+      "courseScope": "当施設通常コース。ショートコース別施設/近隣カード/料金のハーフ数は根拠にしない。",
+      "unverified": "対象play総ホール数のみ。他項目/全施設完了は認定しない。",
+      "reviewStatus": "supported",
+      "baseSha": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "sourceEvidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/522course.html",
+          "sha256": "44eaece9e2daf65bc15a7aa83d8ada9eb98e45c1d5d522a70dc6fe7a990b6887",
+          "acquiredAtUtc": "2026-10-29T12:56:15.947167+00:00"
+        }
+      ],
+      "independentReview": "four-facility-hole-count-independent-review.json"
+    },
+    {
+      "id": 1136,
+      "name": "伏尾ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールのコース。",
+        "url": "https://fushio.com/course.html",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：#### 広いフェアウェイと起伏のあるグリーンの9ホールズ",
+        "sourceType": "official"
+      },
+      "featureBeforeUnchanged": "池田市に位置するゴルフ場。移動手段と利用条件を比較して検討できます。",
+      "after": {
+        "text": "コース構成は東・南・西の3コース、各9ホールの計27ホール。",
+        "url": "https://fushio.com/course.html",
+        "checked": "2026-10-29",
+        "basis": "成功現HTMLの東/南/西各区分に埋込ヤーデージ画像を通常取得し目視。3画像ともHOLE1〜9とTOTALを明示。西だけの9ホール説明を総数としない。",
+        "sourceType": "official"
+      },
+      "confidence": "high; explicit fourHTML tables or three visually inspected original official images",
+      "evidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136course.html",
+          "sha256": "526908c07f1355892a889d77d2dcb28ad8948ac796cc1bc83d2654bcd1d50f9c",
+          "acquiredAtUtc": "2026-10-29T12:56:14.928679+00:00"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136east.jpg",
+          "sha256": "43b6497989c64b8aca135f83825795bfef1e5b07e0e957b495b0791adc7ccafa",
+          "acquiredAtUtc": "2026-10-29T12:56:47.642024+00:00"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136south.jpg",
+          "sha256": "76d3d40509bcc3c3b51ffcf1fe5c30279575ddd315bc708822070f23a26cce3c",
+          "acquiredAtUtc": "2026-10-29T12:56:47.283271+00:00"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136west.jpg",
+          "sha256": "e4e86d93f03e01649b945c4ba4722c4364b07126dcb9ec48be355cef022a6ce9",
+          "acquiredAtUtc": "2026-10-29T12:56:47.387668+00:00"
+        }
+      ],
+      "acquisitionProvenance": "522 existing successfulbatch25home /course link;1136 specified existingplay source firstGET; images are exact successful HTML embedded src",
+      "courseScope": "当施設通常コース。ショートコース別施設/近隣カード/料金のハーフ数は根拠にしない。",
+      "unverified": "対象play総ホール数のみ。他項目/全施設完了は認定しない。",
+      "reviewStatus": "supported",
+      "baseSha": "1d7b5530f093de2f039f7ceb96117d62b5c493cb",
+      "sourceEvidence": [
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136course.html",
+          "sha256": "526908c07f1355892a889d77d2dcb28ad8948ac796cc1bc83d2654bcd1d50f9c",
+          "acquiredAtUtc": "2026-10-29T12:56:14.928679+00:00"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136east.jpg",
+          "sha256": "43b6497989c64b8aca135f83825795bfef1e5b07e0e957b495b0791adc7ccafa",
+          "acquiredAtUtc": "2026-10-29T12:56:47.642024+00:00"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136south.jpg",
+          "sha256": "76d3d40509bcc3c3b51ffcf1fe5c30279575ddd315bc708822070f23a26cce3c",
+          "acquiredAtUtc": "2026-10-29T12:56:47.283271+00:00"
+        },
+        {
+          "path": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1136west.jpg",
+          "sha256": "e4e86d93f03e01649b945c4ba4722c4364b07126dcb9ec48be355cef022a6ce9",
+          "acquiredAtUtc": "2026-10-29T12:56:47.387668+00:00"
+        }
+      ],
+      "independentReview": "four-facility-hole-count-independent-review.json"
+    }
+  ],
+  "tests": {
+    "exactPreimages": true,
+    "onlyFiveFieldsChanged": true,
+    "safeToolPlay4PlusExactFeature1MatchesCandidate": true,
+    "allUntargetedDataIdentical": true,
+    "courses": 1800,
+    "unitTests": "77 passed",
+    "publicationGate": "passed",
+    "fixed571383": "passed",
+    "displayReferences": "Old total9 absent from all4 complete records;1799overview and detail match; no affected category memberships",
+    "dataGitBlobSha": "68eb67348ad6900ec9236f66a2604609976b0dfa"
+  },
+  "evidenceReview": "four-facility-hole-count-independent-review.json; target-specific official component tables/embedded original images independently reviewed, not a ninth-hole label or half-round plan.",
+  "limits": "Official evidence only for selected total-hole facts.1799east9twice plan not promoted to whole-facility9.1127/1171held/no retry.",
+  "rollback": "Restore changed data and both HTML references from baseCommit in a new commit."
+}
