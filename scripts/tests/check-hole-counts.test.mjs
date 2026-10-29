@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {parseData,check,EXPECTED} from '../check-hole-counts.mjs';
+const fixture=()=>({courses:Object.entries(EXPECTED).map(([id,n])=>({id:Number(id),feature:`各9ホールの計${n}ホール。`,comparison:{play:{text:`各9ホールの計${n}ホール。`,basis:'No.9 / OUT 9 / ハーフ / 9ホール増設 / 同じ9ホールを2周'}}}))});
+test('valid component9 and contextual evidence accepted; no mutation',()=>{const d=fixture(),s=JSON.stringify(d);assert.equal(check(d).ok,true);assert.equal(JSON.stringify(d),s)});
+test('unrelated genuine9 facility accepted unchanged',()=>{const d=fixture();d.courses.push({id:99999,feature:'9ホールのコース。',comparison:{play:{text:'9ホールのコース。'}}});assert.equal(check(d).ok,true)});
+test('each reviewed play regression fails',()=>{for(const id of Object.keys(EXPECTED)){const d=fixture();d.courses.find(r=>r.id===+id).comparison.play.text='9ホールのコース。';assert.equal(check(d).ok,false)}});
+test('both visible feature regressions fail',()=>{for(const id of [1159,1799]){const d=fixture();d.courses.find(r=>r.id===id).feature='9ホールのコース。';assert.equal(check(d).ok,false)}});
+test('obsolete sentence nested anywhere in target fails',()=>{const d=fixture();d.courses[0].nested={description:'旧9ホールのコース。'};assert.equal(check(d).ok,false)});
+test('different intended total needs review',()=>{const d=fixture();d.courses[0].comparison.play.text='計27ホール。';assert.equal(check(d).ok,false)});
+test('conflicting explicit totals fail',()=>{const d=fixture();d.courses[0].comparison.play.text+='計9ホール。';assert.equal(check(d).ok,false)});
+test('component or plan alone cannot establish total',()=>{for(const text of ['No.9ホール','OUT9ホール','ハーフ9ホール','9ホール増設','同じ9ホールを2周']){const d=fixture();d.courses[0].comparison.play.text=text;assert.equal(check(d).ok,false)}});
+test('missing or duplicate target fails',()=>{const d=fixture();d.courses.pop();assert.equal(check(d).ok,false);const e=fixture();e.courses.push(e.courses[0]);assert.equal(check(e).ok,false)});
+test('ID type mismatch fails',()=>{const d=fixture();d.courses[0].id=String(d.courses[0].id);assert.equal(check(d).ok,false)});
+test('JSON-only wrapper with/without semicolon accepted',()=>{for(const suffix of ['',';\n'])assert.deepEqual(parseData('const DATA='+JSON.stringify(fixture())+suffix),fixture())});
+test('executable and malformed input rejected without evaluation',()=>{for(const s of ['const DATA={}; globalThis.pwned=true;','const DATA=(()=>({}))();','var DATA={};','const DATA={courses:[]};'])assert.throws(()=>parseData(s));assert.equal(globalThis.pwned,undefined)});

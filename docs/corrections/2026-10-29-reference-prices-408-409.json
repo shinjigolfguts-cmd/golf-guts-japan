@@ -1,0 +1,114 @@
+{
+  "checkedOn": "2026-10-29",
+  "baseCommit": "af89895885f0f65ac12dd66377b384204280eade",
+  "scope": "2 previously empty budget fields as explicitly dated reference plans; maintenance queue entries and read-only hole-count regression guard. No finder ranking/date-input changes.",
+  "changes": [
+    {
+      "id": 408,
+      "field": "budget",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "2026年10月・11月のゲスト1R・4名セルフは平日14,400円（昼食付き）、土日祝18,900円（昼食別）。グリーンフィー・カート・諸経費・消費税・利用税込。セルフ2名は平日1,100円、土日祝2,200円追加、土日祝3名は550円追加です。キャディ付きは平日18,250円、土日祝22,750円で人数割増も別です。",
+        "url": "https://kaihills.chateraisegolf.jp/fee/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "公式10〜11月ゲスト基本料金表と直下注記を本文照合。2026年10〜12月案内リンクで年度確認。1R4B、税、カート、食事、人数別割増が全て明記。",
+        "priceVerified": true,
+        "priceLabel": "10〜11月 平日14,400円／土日祝18,900円",
+        "conditions": "2026年10〜11月ゲスト1R4Bセルフ。カート・諸経費・消費税・利用税込。平日昼食付、土日祝昼食別。2B平日1100円／土日祝2200円追加。3B土日祝550円追加。キャディ、早朝、ハーフ、宿泊は別条件。"
+      },
+      "priceValidation": {
+        "independentlyReviewed": true,
+        "weekdays": "平日14,400円、土日祝18,900円",
+        "holesOrRound": "1名1ラウンド",
+        "style": "セルフ通常料金。早朝・ハーフ・宿泊パックは対象外。",
+        "groupSize": "ゲスト4バッグ",
+        "meal": "平日昼食付き、土日祝昼食別",
+        "taxes": "消費税・ゴルフ場利用税・諸経費を含む",
+        "cart": "カートフィーを基本料金に含む（公式注記）",
+        "surcharges": "セルフ2B平日1,100円/人、土休日2,200円/人。3B平日なし、土休日550円/人。キャディ4B平日18,250円/休日22,750円、2B平日2,200円/休日3,300円、3B平日なし/休日1,100円追加。",
+        "validFrom": "2026-10-01",
+        "validThrough": "2026-11-30"
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": [
+        {
+          "url": "https://kaihills.chateraisegolf.jp/fee/",
+          "checked": "2026-10-29",
+          "basis": "既存独立支持維持。11:52公式本文で全条件再確認。",
+          "evidenceRef": "turn245view0",
+          "lineScope": "59-78"
+        }
+      ],
+      "baseSha": "af89895885f0f65ac12dd66377b384204280eade",
+      "editorFreshOfficialCheck": "2026-10-29T13:07Z successful web official fee pages; same plan conditions confirmed;409caddie advance consultation visibly in conditions."
+    },
+    {
+      "id": 409,
+      "field": "budget",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "2026年10月のビジター平日1R・3〜4名セルフは11,600円、昼食付き。乗用カート・諸経費・消費税・利用税を含みます。平日2名は1,100円追加で、組合せをお願いされる場合があります。キャディは事前相談で、3〜4名の場合1人3,500円追加。土日祝・特別日料金は別です。",
+        "url": "https://kasugai.chateraisegolf.jp/fee/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "2026年乗用カートセルフ料金10月平日昼食付11600円、1R3/4B・諸経費・両税含む、平日2B1100円、キャディ3500円を公式本文確認。平日だけ価格検証済とし、週末食事を推定しない。",
+        "priceVerified": true,
+        "priceLabel": "10月平日・昼食付11,600円",
+        "conditions": "2026年10月ビジター平日1R3〜4B乗用カートセルフ・昼食付。諸経費・消費税・利用税込。2B1100円追加、組合せの場合あり。キャディは事前相談、3〜4B3500円／人追加。土日祝・特別日・ハーフ・コンペは別条件。"
+      },
+      "priceValidation": {
+        "independentlyReviewed": true,
+        "weekdays": "2026年10月の平日11,600円のみ。土日祝・特別日除外。",
+        "holesOrRound": "1名1ラウンド",
+        "style": "セルフ通常料金。早朝・ハーフ・宿泊パックは対象外。",
+        "groupSize": "ビジター3〜4バッグ",
+        "meal": "対象平日料金は昼食付き",
+        "taxes": "消費税・ゴルフ場利用税・諸経費を含む",
+        "cart": "2026年乗用カートセルフ料金（公式表見出し）",
+        "surcharges": "平日2B1,100円追加、組合せの場合あり。キャディ3/4B3,500円/人追加、事前相談。",
+        "validFrom": "2026-10-01",
+        "validThrough": "2026-10-31"
+      },
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": [
+        {
+          "url": "https://kasugai.chateraisegolf.jp/fee/",
+          "checked": "2026-10-29",
+          "basis": "既存独立支持維持。11:52公式本文で全条件再確認。",
+          "evidenceRef": "turn245view1",
+          "lineScope": "40-41,75-77,101-119"
+        }
+      ],
+      "editorDisplayReview": "Finder renders conditions instead of full text; carry prior-consultation requirement into visible conditions too.",
+      "baseSha": "af89895885f0f65ac12dd66377b384204280eade",
+      "editorFreshOfficialCheck": "2026-10-29T13:07Z successful web official fee pages; same plan conditions confirmed;409caddie advance consultation visibly in conditions."
+    }
+  ],
+  "tests": {
+    "exactBeforeNullAndExists": true,
+    "onlyTwoBudgetFieldsChanged": true,
+    "allOtherDataUnchanged": true,
+    "courses": 1800,
+    "safeApplyMatchesIndependentCandidate": true,
+    "unitTests": "89 passed",
+    "publicationGate": "passed",
+    "fixed571383AndSevenHoleCounts": "passed",
+    "actualRenderer": "Both guide and finder functions preserve periods/weekdays/round/group/cart/meal/taxes/surcharges/official links;409advancecaddieconsultation added to visible conditions.",
+    "selection": "408 appears in Yamanashi/car/beginner/budget.409 not in top4 for Yamanashi12travel/style combinations; no ranking manipulation to force display.",
+    "dataGitBlobSha": "28c094da51c8c986f949bbd410af5ffe5f648ab9"
+  },
+  "expiryHandling": {
+    "runtime": "Existing finder prioritizes reference-price availability, not date eligibility. Global note explicitly says examples are not reservation-date prices; this implementation is unchanged.",
+    "queue": "409review2026-10-31(last eligible weekday10-30),408review2026-12-01. No automatic new amount or checked-date refresh.383seasonal dining also added to existing review queue.",
+    "automation": "Existing queue only; no new schedule/permissions/workflow."
+  },
+  "limits": [
+    "Reference plans only; not guaranteed current quoted price, all-days eligibility or all-preference match.",
+    "408caddie/early/half/lodging and409weekend/specialday/half/competition exclusions remain explicit.",
+    "409actual finder-result screen may remain unreachable under normal ranking; local function test is not browser observation."
+  ],
+  "rollback": "Restore data,HTML andqueue from baseCommit in a new commit; read-only regression files may remain or be restored independently."
+}
