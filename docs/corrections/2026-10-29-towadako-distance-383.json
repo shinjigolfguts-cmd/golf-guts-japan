@@ -1,0 +1,73 @@
+{
+  "checkedOn": "2026-10-29",
+  "baseCommit": "4d7db813132f955dd753ae18db4f4990351de771",
+  "scope": "Restore course383's previously recorded 45km distance as a distinct old booking-source statement; keep official 60-minute time",
+  "changes": [
+    {
+      "id": 383,
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "公式交通案内では東北自動車道・黒石ICから約60分とされています。",
+        "url": "https://towadako-gc.net/",
+        "checked": "2026-10-29",
+        "sourceType": "official",
+        "basis": "公式トップ交通案内の黒石IC60分を確認。既存予約サイト45分との相違を公式優先で訂正する候補。"
+      },
+      "after": {
+        "text": "予約サイトには、東北自動車道・黒石ICから45kmと掲載されています。 公式交通案内では東北自動車道・黒石ICから約60分とされています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/215102/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "旧予約情報の距離と、公式で確認した所要時間を文別に保持。距離45km自体は今回の再確認ではない。",
+        "evidenceSegments": [
+          {
+            "text": "予約サイトには、東北自動車道・黒石ICから45kmと掲載されています。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/215102/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認。旧45分は公式60分へ訂正し、距離45kmのみ旧根拠で保持。"
+          },
+          {
+            "text": "公式交通案内では東北自動車道・黒石ICから約60分とされています。",
+            "url": "https://towadako-gc.net/",
+            "checked": "2026-10-29",
+            "sourceType": "official",
+            "basis": "公式トップ交通案内の黒石IC60分を確認。既存予約サイト45分との相違を公式優先で訂正する候補。"
+          }
+        ]
+      },
+      "sourceEvidence": {
+        "previousDistance": {
+          "text": "最寄りIC：東北自動車道/黒石ＩＣ 45 km (45分)。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/215102/",
+          "checked": "2026-10-25",
+          "basis": "GDOゴルフ場予約の当施設・設備欄の明文を確認",
+          "sourceType": "booking"
+        },
+        "officialTime": {
+          "text": "公式交通案内では東北自動車道・黒石ICから約60分とされています。",
+          "url": "https://towadako-gc.net/",
+          "checked": "2026-10-29",
+          "sourceType": "official",
+          "basis": "公式トップ交通案内の黒石IC60分を確認。既存予約サイト45分との相違を公式優先で訂正する候補。"
+        },
+        "scope": "Restore retained old distance only; do not restore superseded 45-minute time"
+      },
+      "baseSha": "4d7db813132f955dd753ae18db4f4990351de771",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    }
+  ],
+  "tests": {
+    "exactPreimage": true,
+    "only383CarChanged": true,
+    "otherAllDataUnchanged": true,
+    "records": 1800,
+    "allPriorCorrectionsIncluding571FeaturePreserved": true,
+    "safeToolMatchesCandidate": true,
+    "publicationGate": "passed",
+    "dataBlob": "38bebcd5a75efac78e464fa0a40c1f4180e72c60"
+  },
+  "limits": "45km is preserved from 2026-10-25 booking evidence, not newly verified official distance. Superseded 45-minute time is not restored.",
+  "rollback": "Restore changed data and HTML from baseCommit in a new commit"
+}
