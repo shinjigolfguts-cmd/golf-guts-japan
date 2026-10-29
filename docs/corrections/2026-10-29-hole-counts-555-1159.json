@@ -1,0 +1,100 @@
+{
+  "checkedOn": "2026-10-29",
+  "baseCommit": "941a6a5fd4607d046de1797bceda993b1db5d17b",
+  "scope": "2 facilities / 3 fields:555 total18 with existing hillside description retained;1159 total27 in both detail and overview. No ranking/category/design changes.",
+  "changes": [
+    {
+      "id": 555,
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールのコース。丘陵タイプ。",
+        "url": "https://www.leograd.jp/concept_outline/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：コース | OUT 9H PAR36／同ページのコースタイプ・設計欄",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "OUT 9ホール・IN 9ホールの計18ホール。丘陵タイプ。",
+        "url": "https://www.leograd.jp/concept_outline/",
+        "checked": "2026-10-29",
+        "basis": "対象クラブ概要にコースタイプ丘陵、コースOUT9H PAR36/IN9H PAR36を同表で明示。OUTのみを全体数としない。",
+        "sourceType": "official"
+      },
+      "sourceEvidence": {
+        "url": "https://www.leograd.jp/concept_outline/",
+        "html": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/555outline.html",
+        "sha256": "a6a7df84fdc807bf2cb35947fad79ac55af068c7b2b65cf79775f3f9256ef5b8",
+        "acquiredAtUtc": "2026-10-29T12:52:15.544019+00:00",
+        "bodyText": "クラブ概要 | 和歌山県でゴルフするならレオグラードゴルフクラブ【LEOGRAD GOLF CLUB】 当サイトを快適にご利用いただくには、ブラウザでJavaScriptを有効にしてください。 English 0738-55-0810 プレー予約 MENU クラブ概要 トップページ コースガイド 施設紹介 料金カレンダー 宿泊パック アクセスマップ トップページ クラブ概要 クラブ概要 所在地 〒644-1164 和歌山県日高郡日高川町大字佐井694 連絡先 TEL. 0738-55-0810 FAX. 0738-55-0814 メールアドレス entry@leograd.jp 加盟団体 JGA、KGU、WGU 休場日 12/31、1/1 取り扱い クレジットカード AMEX、DC、JCB、NICOS、VISA、Master、ダイナース、UFJ 宅急便 有り コース概要 設計監修 加藤俊輔 ・ 株式会社植島建築事務所 コースレート 72 距離 3,316Y (OUT) 3,488Y (IN) コースタイプ 丘陵 ラウンドスタイル セルフプレー 乗用カート利用 別途予約によりフェアウェーカート有り グリーン ベント ２グリーン コース OUT 9H PAR36 IN 9H PAR36 シューズ ソフトスパイク：可 メタルスパイク：不可 スパイクレス：可 キャンセル料金 ■ゴルフプレー 平日：事前に当クラブにご連絡を頂いた場合にはキャンセル料は発生致しません。 土日祝：プレー日を除く5日前の正午より、キャンセル料が発生します。 メンバー2,200円（税込）/人 ビジター3,300円（税込）/人 ■ご宿泊 全日：プレー日を除く3日前の正午より、1泊1人様につき2,200円 ■お食事 全日： プレー日の前日より、食事代金の半額 プレー日の当日より、食事代金の全額 ※上記、ご予約日の変更に関しましてもキャンセルの適用となります。 レンタル料金 貸クラブ 1セット 3,000円（税別） 貸靴 500円（税別） ゴルフ場 経営 会社名 株式会社レオグラード 代表者 植島伸哉 所在地 〒541-0056 大阪市中央区久太郎町１丁目６番２１号 連絡先 TEL 06-6268-4550 FAX 06-6268-4521 おすすめ キャンペーン情報 コース紹介 コースガイド 施設について 施設紹介 クラブハウス レストラン 宿泊ロッジ 料金 料金カレンダー 宿泊パック 会員専用ログイン 新規正会員募集 --> 0738-55-0810 〒644-1164 和歌山県日高郡日高川町大字佐井694 クラブ概要 アクセスマップ お問い合わせ プレー予約 1人予約 競技カレンダー 競技結果 競技規則 --> レオグラードブログ 利用約款 プライバシーポリシー サイトマップ English お問い合わせ・プレー予約はこちらから 0738-55-0810 メールでのお問い合わせ プレー予約 1人予約 閉じる プレー予約 1人予約 料金カレンダー おすすめキャンペーン情報一覧 宿泊パック 会員専用ログイン Go To トラベルキャンペーン宿泊パック --> トップページ コースガイド 施設紹介 クラブハウス レストラン 宿泊ロッジ 新規正会員募集 --> アクセスマップ 競技カレンダー 競技結果 競技規則 --> ブログ一覧 クラブ概要 利用約款 1H 2H 3H 4H 5H 6H 7H 8H 9H 10H 11H 12H 13H 14H 15H 16H 17H 18H ローカルルール --> プライバシーポリシー サイトマップ お問い合わせ English 閉じる TOP Copyright (C) 2016 レオグラードゴルフクラブ. All Rights Reserved.",
+        "facilityIdentity": "レオグラード/日高川町佐井694/TEL0738-55-0810"
+      },
+      "reviewStatus": "supported",
+      "baseSha": "941a6a5fd4607d046de1797bceda993b1db5d17b",
+      "independentReview": "555-1159-play-hole-count-independent-review.json"
+    },
+    {
+      "id": 1159,
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールのコース。",
+        "url": "https://www.lions-gc.co.jp/course/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：スターティングホールから最終ホールまで、豊かで雄大な自然を活かしながらも、緻密にレイアウトされた本格的なコースは常にベストコンディション。9ホールの増設により、ハーフごとに3通りの楽しみ方が可能となりましたので、ビギナーから上級者まで、それぞれのレベルに応じたゴルフの醍醐味を、たっぷりとご満喫ください。",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "施設全体はシンバ・レオ・エルザの3コース、各9ホールの計27ホール。",
+        "url": "https://www.lions-gc.co.jp/course/",
+        "checked": "2026-10-29",
+        "basis": "対象コースガイドのシンバ/レオ/エルザ各ヤーデージ表にHOLE1〜9とTOTAL/PAR36を独立掲載。9ホール増設という導入文だけで総数を推測しない。",
+        "sourceType": "official"
+      },
+      "sourceEvidence": {
+        "url": "https://www.lions-gc.co.jp/course/",
+        "html": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1159course.html",
+        "sha256": "585e8d99a799592093908613a6fe9650cbeef44fb525643cbda21a35e1ea5fac",
+        "acquiredAtUtc": "2026-10-29T12:52:18.696305+00:00",
+        "bodyText": "コースガイド │ ライオンズゴルフ倶楽部 メンバーメニュー Web会員メニュー 料金表 姉妹コース インデックスハンディキャップメニュー 各種書類 HOME 最新情報 倶楽部概要 コースガイド 料金のご案内 レストランメニュー 施設・設備のご案内 交通のご案内 倶楽部競技 メンバーメニュー Web会員メニュー 料金表 姉妹コース インデックスハンディキャップメニュー 各種書類 スターティングホールから最終ホールまで、豊かで雄大な自然を活かしながらも、緻密にレイアウトされた本格的なコースは常にベストコンディション。9ホールの増設により、ハーフごとに3通りの楽しみ方が可能となりましたので、ビギナーから上級者まで、それぞれのレベルに応じたゴルフの醍醐味を、たっぷりとご満喫ください。 各コース詳細 シンバ レオ エルザ シンバ アフリカで「ライオン」を示す言葉として使われており、最近ではディズニー映画の「ライオンキング」の主人公の名前にも使われました。このコースは、「エルザコース」と「レオコース」の特徴を兼ね備えたホールが多く、微妙な変化に富んだフェアウェーを、ある時は繊細なショットで、ある時は果敢に、その特徴に合わせて攻めてください。 HOLE HDCP YARDAGE パー BT RT FT LT 1 6 385 365 349 290 4 2 9 176 148 140 129 3 3 4 546 517 493 437 5 4 3 463 446 428 340 4 5 1 466 437 411 334 4 6 5 441 416 394 314 4 7 8 143 138 128 117 3 8 2 547 529 510 405 5 9 7 408 383 370 318 4 TOTAL 3,575 3,379 3,223 2,684 36 レオ 英語で獅子を示す言葉で、手塚治虫の代表作「ジャングル大帝」にも使われていました。距離が長く池が多いコースで、雄ライオンにふさわしく、伸び伸びと大胆にボールを飛ばしていただきたい。池越えのホールは特に大胆にピンを狙ってください。 HOLE HDCP YARDAGE パー BT RT FT LT 1 3 427 412 394 367 4 2 7 495 478 440 398 5 3 5 430 400 400 331 4 4 2 381 356 356 306 4 5 9 165 143 143 94 3 6 6 387 355 355 299 4 7 1 417 399 377 340 4 8 4 215 180 154 111 3 9 8 519 499 473 430 5 TOTAL 3,436 3,222 3,092 2,676 36 エルザ かつて世界中で愛読された母ライオン「野生のエルザ」を思い出される方も多いことでしょう。そんなエルザを彷彿とさせるように、このコースは女性らしく上品にまとまっており、風光明媚な美しいコースです。しかし油断すると牙を剥きますので、慎重且つ正確なショットが必要となります。 HOLE HDCP YARDAGE パー BT RT FT LT 1 9 354 339 323 287 4 2 5 168 144 126 108 3 3 2 398 386 375 342 4 4 7 484 464 443 352 5 5 4 179 114 104 100 3 6 8 497 497 487 454 5 7 1 426 417 401 370 4 8 6 365 348 333 312 4 9 3 406 392 376 343 4 TOTAL 3,277 3,101 2,968 2,668 36 コースレーティング BT RT FT シンバ・レオ KG 74.3 71.8 70.3 BG 75.0 72.9 71.2 BT RT FT レオ・エルザ KG 73.7 71.5 70.1 BG 73.8 71.8 70.3 BT RT FT エルザ・シンバ KG 73.4 71.3 69.8 BG 73.8 71.9 70.3 HOME 最新情報 倶楽部概要 コースガイド 料金のご案内 レストランメニュー 施設・設備のご案内 求人情報 交通のご案内 倶楽部競技 新規web会員登録はこちら | 天気予報 ｜ ローカルルール＆倶楽部からのお願い | プライバシーポリシー | お問い合わせ ライオンズゴルフ倶楽部 〒519-0222 三重県亀山市両尾町字小屋ヶ畑603番地 予約専用電話番号: (0595)-85-1516 Copyright (C)1999-2019 Lions-Kaihatsu Co.,ltd",
+        "facilityIdentity": "ライオンズゴルフ倶楽部/〒519-0222三重県亀山市両尾町字小屋ヶ畑603番地/予約専用(0595)-85-1516; sister-course links excluded"
+      },
+      "reviewStatus": "supported",
+      "baseSha": "941a6a5fd4607d046de1797bceda993b1db5d17b",
+      "independentReview": "555-1159-play-hole-count-independent-review.json"
+    },
+    {
+      "id": 1159,
+      "field": "feature",
+      "beforeExists": true,
+      "before": "9ホールのコース。",
+      "after": "施設全体はシンバ・レオ・エルザの3コース、各9ホールの計27ホール。",
+      "sourceEvidence": {
+        "url": "https://www.lions-gc.co.jp/course/",
+        "html": "/workspace/shared/japan-oct29-new-evidence/holecount-assets/1159course.html",
+        "sha256": "585e8d99a799592093908613a6fe9650cbeef44fb525643cbda21a35e1ea5fac",
+        "acquiredAtUtc": "2026-10-29T12:52:18.696305+00:00",
+        "bodyText": "コースガイド │ ライオンズゴルフ倶楽部 メンバーメニュー Web会員メニュー 料金表 姉妹コース インデックスハンディキャップメニュー 各種書類 HOME 最新情報 倶楽部概要 コースガイド 料金のご案内 レストランメニュー 施設・設備のご案内 交通のご案内 倶楽部競技 メンバーメニュー Web会員メニュー 料金表 姉妹コース インデックスハンディキャップメニュー 各種書類 スターティングホールから最終ホールまで、豊かで雄大な自然を活かしながらも、緻密にレイアウトされた本格的なコースは常にベストコンディション。9ホールの増設により、ハーフごとに3通りの楽しみ方が可能となりましたので、ビギナーから上級者まで、それぞれのレベルに応じたゴルフの醍醐味を、たっぷりとご満喫ください。 各コース詳細 シンバ レオ エルザ シンバ アフリカで「ライオン」を示す言葉として使われており、最近ではディズニー映画の「ライオンキング」の主人公の名前にも使われました。このコースは、「エルザコース」と「レオコース」の特徴を兼ね備えたホールが多く、微妙な変化に富んだフェアウェーを、ある時は繊細なショットで、ある時は果敢に、その特徴に合わせて攻めてください。 HOLE HDCP YARDAGE パー BT RT FT LT 1 6 385 365 349 290 4 2 9 176 148 140 129 3 3 4 546 517 493 437 5 4 3 463 446 428 340 4 5 1 466 437 411 334 4 6 5 441 416 394 314 4 7 8 143 138 128 117 3 8 2 547 529 510 405 5 9 7 408 383 370 318 4 TOTAL 3,575 3,379 3,223 2,684 36 レオ 英語で獅子を示す言葉で、手塚治虫の代表作「ジャングル大帝」にも使われていました。距離が長く池が多いコースで、雄ライオンにふさわしく、伸び伸びと大胆にボールを飛ばしていただきたい。池越えのホールは特に大胆にピンを狙ってください。 HOLE HDCP YARDAGE パー BT RT FT LT 1 3 427 412 394 367 4 2 7 495 478 440 398 5 3 5 430 400 400 331 4 4 2 381 356 356 306 4 5 9 165 143 143 94 3 6 6 387 355 355 299 4 7 1 417 399 377 340 4 8 4 215 180 154 111 3 9 8 519 499 473 430 5 TOTAL 3,436 3,222 3,092 2,676 36 エルザ かつて世界中で愛読された母ライオン「野生のエルザ」を思い出される方も多いことでしょう。そんなエルザを彷彿とさせるように、このコースは女性らしく上品にまとまっており、風光明媚な美しいコースです。しかし油断すると牙を剥きますので、慎重且つ正確なショットが必要となります。 HOLE HDCP YARDAGE パー BT RT FT LT 1 9 354 339 323 287 4 2 5 168 144 126 108 3 3 2 398 386 375 342 4 4 7 484 464 443 352 5 5 4 179 114 104 100 3 6 8 497 497 487 454 5 7 1 426 417 401 370 4 8 6 365 348 333 312 4 9 3 406 392 376 343 4 TOTAL 3,277 3,101 2,968 2,668 36 コースレーティング BT RT FT シンバ・レオ KG 74.3 71.8 70.3 BG 75.0 72.9 71.2 BT RT FT レオ・エルザ KG 73.7 71.5 70.1 BG 73.8 71.8 70.3 BT RT FT エルザ・シンバ KG 73.4 71.3 69.8 BG 73.8 71.9 70.3 HOME 最新情報 倶楽部概要 コースガイド 料金のご案内 レストランメニュー 施設・設備のご案内 求人情報 交通のご案内 倶楽部競技 新規web会員登録はこちら | 天気予報 ｜ ローカルルール＆倶楽部からのお願い | プライバシーポリシー | お問い合わせ ライオンズゴルフ倶楽部 〒519-0222 三重県亀山市両尾町字小屋ヶ畑603番地 予約専用電話番号: (0595)-85-1516 Copyright (C)1999-2019 Lions-Kaihatsu Co.,ltd",
+        "facilityIdentity": "ライオンズゴルフ倶楽部/〒519-0222三重県亀山市両尾町字小屋ヶ畑603番地/予約専用(0595)-85-1516; sister-course links excluded"
+      },
+      "reviewStatus": "supported",
+      "independentReview": "555-1159-play-hole-count-independent-review.json"
+    }
+  ],
+  "tests": {
+    "exactPreimages": true,
+    "onlyThreeFieldsChanged": true,
+    "safeToolPlay2PlusExplicitFeature1MatchesCandidate": true,
+    "allOtherDataUnchanged": true,
+    "records": 1800,
+    "unitTests": "77 passed",
+    "publicationGate": "passed",
+    "fixed571383": "passed",
+    "allAffectedDisplayReferences": "Old total9 absent from both full facility records;555hillside retained; neither in category membership lists",
+    "dataGitBlobSha": "e9c07e7d05c96c9c760813922a50fd4bdc6891aa",
+    "facilityVsRound": "1159 explicitly states facility-wide27, not a single-round27-hole entitlement; no price/round conditions changed."
+  },
+  "officialEvidence": "555 outline explicitly OUT9+IN9;1159 Mie Lions three distinct Simba/Leo/Elsa tables each1–9. Independently read by reviewer and editor2026-10-29. Not the separate Hyogo Lions facility1753.",
+  "rollback": "Restore changed data and both HTML references from baseCommit via new commit.",
+  "limits": "Selected hole-count facts only. Other nine-hole claims remain separately reviewed/held;1127 inaccessible source not retried."
+}
