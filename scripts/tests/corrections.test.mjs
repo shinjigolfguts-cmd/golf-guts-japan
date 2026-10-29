@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync,writeFileSync,readFileSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import {checkKnownCorrections,parseData} from '../check-known-corrections.mjs';
+import {reviewRequired} from '../list-review-required.mjs';
+function fixture(){const segments=[{text:'黒石ICから45km。',sourceType:'booking',checked:'2026-10-25',url:'https://reserve.golfdigest.co.jp/golf-course/215102/'},{text:'黒石ICから約60分。',sourceType:'official',checked:'2026-10-29',url:'https://towadako-gc.net/'}];return {courses:[{id:571,feature:'練習場250ヤード・17打席。',comparison:{play:{text:'練習場250yd・17打席。'}}},{id:383,comparison:{car:{text:segments.map(s=>s.text).join(' '),sourceType:'mixed',evidenceSegments:segments}}}]};}
+test('valid minimal fixture; no mutation',()=>{const d=fixture(),before=JSON.stringify(d);assert.equal(checkKnownCorrections(d).ok,true);assert.equal(JSON.stringify(d),before);});
+test('571 feature stale detected',()=>{let d=fixture();d.courses[0].feature='300ヤード14打席';assert.throws(()=>checkKnownCorrections(d),/571 feature/);});
+test('571 detail stale detected',()=>{let d=fixture();d.courses[0].comparison.play.text='300yd14打席';assert.throws(()=>checkKnownCorrections(d),/571 detail/);});
+test('383 lost distance detected',()=>{let d=fixture();d.courses[1].comparison.car.evidenceSegments.shift();assert.throws(()=>checkKnownCorrections(d),/old distance/);});
+test('383 old source recertification rejected',()=>{let d=fixture();d.courses[1].comparison.car.evidenceSegments[0].checked='2026-10-29';assert.throws(()=>checkKnownCorrections(d),/old distance/);});
+test('383 official time source swap rejected',()=>{let d=fixture();d.courses[1].comparison.car.evidenceSegments[1].sourceType='booking';assert.throws(()=>checkKnownCorrections(d),/official time/);});
+test('383 obsolete displayed45min rejected',()=>{let d=fixture();let c=d.courses[1].comparison.car;c.evidenceSegments[0].text+='旧45分。';c.text=c.evidenceSegments.map(s=>s.text).join(' ');assert.throws(()=>checkKnownCorrections(d),/stale45min/);});
+test('383 historical basis may mention old45min',()=>{let d=fixture();d.courses[1].comparison.car.evidenceSegments[0].basis='旧45分は訂正済';assert.equal(checkKnownCorrections(d).ok,true);});
+test('single JSON only; no executable JS accepted',()=>{assert.throws(()=>parseData('const DATA={};globalThis.x=1;'));});
+test('distance deletion is review candidate, not automatic verdict',()=>{const r=reviewRequired([{id:1,field:'car',before:{text:'A IC 7km。'},after:{text:'A IC 8分。'}}]);assert.deepEqual(r[0].removedTokens,['7km']);assert.equal(r[0].decision,null);});
+test('same numeric at different origin still requires review',()=>{const r=reviewRequired([{id:1,field:'car',before:'A駅10km。',after:'B駅10km。'}]);assert.equal(r[0].removedTokens.length,0);assert.ok(r[0].changedAssertionTokens.includes('10km'));});
+test('mode/day/price condition deletion detected',()=>{const r=reviewRequired([{id:1,field:'rail',before:'土日予約制無料送迎、定員6名。',after:'駅から車15分。'}]);for(const v of ['土日','予約','無料','送迎','定員','6名'])assert.ok(r[0].removedTokens.includes(v));});
+test('unchanged and additive intact clauses not flagged',()=>{assert.deepEqual(reviewRequired([{id:1,field:'car',before:'A駅10km。',after:'A駅10km。追加案内。'}]),[]);});
+test('CLI invalid data remains unchanged and exits1',t=>{const dir=mkdtempSync(join(tmpdir(),'known-correction-'));t.after(()=>rmSync(dir,{recursive:true,force:true}));const path=join(dir,'data.js');const d=fixture();d.courses[0].feature='300yd14打席';const s='const DATA='+JSON.stringify(d)+';';writeFileSync(path,s);const r=spawnSync(process.execPath,[fileURLToPath(new URL('../check-known-corrections.mjs',import.meta.url)),path]);assert.equal(r.status,1);assert.equal(readFileSync(path,'utf8'),s);});
