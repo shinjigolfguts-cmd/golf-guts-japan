@@ -1,0 +1,1454 @@
+{
+  "patchSetId": "2026-10-30-url-audit-batches7-15",
+  "parentSha": "4506b574e2953e66c1ada51325721f67c1e2cd59",
+  "checkedOn": "2026-10-30",
+  "scope": "公式URL欠損のみ補完。対象施設の名称・所在地・公式運営ページを照合。料金や交通時間など他の事実の確認完了を意味しません。",
+  "changes": [
+    {
+      "id": 773,
+      "name": "北見ハーブヒルゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.kitami-herbhill.com/plan",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.kitami-herbhill.com/access",
+          "sha256": "0b35db49df58d81af4ec24d1e043f95d9aad80623593d6833bb34de151f300b3",
+          "acquiredAtUtc": "2026-10-29T15:18:05.657129+00:00"
+        },
+        {
+          "url": "https://www.kitami-herbhill.com/plan",
+          "sha256": "d730f00fc7bd74f726e7b9b2383474e82a21bc883dfa10f050c0938302b2f34c",
+          "acquiredAtUtc": "2026-10-29T15:16:35.944975+00:00"
+        },
+        {
+          "url": "https://www.kitami-herbhill.com/inquiry",
+          "sha256": "eec3f25dd365fc52a78874b2849704ab79b03406677c3b242cbb8e96c9b65472",
+          "acquiredAtUtc": "2026-10-29T15:19:42.488153+00:00"
+        },
+        {
+          "url": "https://www.kitami-herbhill.com/wp/images/topimg2_01.png",
+          "sha256": "4ceaafc757fce99d5b72eccc9cfacf2957c536415bf3062881bc834c4f9e1834",
+          "acquiredAtUtc": "2026-10-29T15:20:34.938268+00:00"
+        },
+        {
+          "url": "https://www.kitami-herbhill.com/wp/images/topimg2_05.png",
+          "sha256": "eccc657a300985330825ee4d2908ef8bbda63b4bc19f2acb4bed6a98d34370de",
+          "acquiredAtUtc": "2026-10-29T15:20:38.346518+00:00"
+        },
+        {
+          "url": "https://www.kitami-herbhill.com/wp/images/address2.png",
+          "sha256": "b38dae2012ba69a568804c812a02746d48b906c1a60ed07572e610535bb0a1f8",
+          "acquiredAtUtc": "2026-10-29T15:21:16.963483+00:00"
+        }
+      ],
+      "scope": "既存公式planとaccess/footer埋込画像を確認。画像address2.pngは北見市川東724番地1・予約専用0157-31-3900、「お問い合わせ・ご予約」画像は0157-31-0109で種別を区別。住所画像を実目視し同一施設を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 352,
+      "name": "櫛形ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.kushigata.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.kushigata.com/access.html",
+          "sha256": "ac78d2929874fd8f62f85bb650ebb73f3aaa9d4a810142a1542e93ef6855a2ae",
+          "acquiredAtUtc": "2026-10-29T15:18:13.398645+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=15030",
+          "sha256": "e18e271a9c2122c8802db05af5a6d69629836abb2364504c7c6bbc6c65f3587c",
+          "acquiredAtUtc": "2026-10-29T15:19:20.968785+00:00"
+        },
+        {
+          "url": "https://www.kushigata.com/",
+          "sha256": "7d01661ae3cf7baaf25ec8bbbe205fca9f768fc032182406d9f2373659280922",
+          "acquiredAtUtc": "2026-10-29T15:16:48.140420+00:00"
+        }
+      ],
+      "scope": "公式HOME/アクセスと関東ゴルフ連盟15030の明示公式URL一致、胎内市小牧台900・0254-43-7200。公式HTML本文に住所がないため連盟の所在地根拠と区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 832,
+      "name": "ローレルバレイカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/23.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/23.html",
+          "sha256": "d65b799983785e64ecc1fc3b5af4ac6a56d7eda6c9608639b4c5343d5b615fd1",
+          "acquiredAtUtc": "2026-10-29T15:16:47.101491+00:00"
+        }
+      ],
+      "scope": "PGM施設専用ID23ローレルバレイ、須賀川市守屋南高松22-35・0248-65-3131。一般予約ポータルでなく運営専用ページ。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1509,
+      "name": "戸塚カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://totsuka-cc.com/course/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://totsuka-cc.com/course/",
+          "sha256": "bfc000ca97a61f9ead57425aebb7286ef9bfa70a548c39dcfd5982c54e7e99dd",
+          "acquiredAtUtc": "2026-10-29T15:16:33.970892+00:00"
+        }
+      ],
+      "scope": "既存公式course出典を実取得。横浜市旭区大池町26・045-351-1241、東西コースを持つ戸塚CC施設全体。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 784,
+      "name": "札幌エルムカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "http://www.elmcc.com",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.visit-hokkaido.jp/etabigift/shop/detail_12516.html",
+          "sha256": "33252a8b3bd092408addca71b676e934d40409b5e3059298a20453594f3c665e",
+          "acquiredAtUtc": "2026-10-29T15:17:02.107358+00:00"
+        },
+        {
+          "url": "http://www.elmcc.com/access/access.html",
+          "sha256": "29c9e0fcbb5bb630d4da7d2cb74ae4f95a63a8a9c778c8c26167e191d11e7917",
+          "acquiredAtUtc": "2026-10-29T15:20:46.130500+00:00"
+        },
+        {
+          "url": "http://www.elmcc.com",
+          "sha256": "229d822e7cf6f5de05622f4cfa59b5b181bb21263a0bc65ffb6c9aec22255940",
+          "acquiredAtUtc": "2026-10-29T15:18:04.202158+00:00"
+        },
+        {
+          "url": "http://www.elmcc.com/index_top/head.html",
+          "sha256": "d9ac7edd30b850642cb74fa09a38a012dd9e85da5040c5cd58205ecb7fb974c9",
+          "acquiredAtUtc": "2026-10-29T15:19:21.470621+00:00"
+        },
+        {
+          "url": "http://www.elmcc.com/index_top/contents.html",
+          "sha256": "9cb9e1c2e3434e08fe3a0db40c71e597ef97dc1811533807cc02bf5d212637aa",
+          "acquiredAtUtc": "2026-10-29T15:19:21.462519+00:00"
+        },
+        {
+          "url": "http://www.elmcc.com/index_top/sidebar.html",
+          "sha256": "29ddaf78c130a26c8e42fa766af0b982677d4a35a7103338bbcab6b3f147611b",
+          "acquiredAtUtc": "2026-10-29T15:19:21.460544+00:00"
+        }
+      ],
+      "scope": "北海道観光の明示elmccリンクから通常取得。frameset及び埋込head/contents/sidebar、そこからaccess実取得。恵庭市島松沢55・東西36Hの同施設であり札幌市内本社等と混同しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 353,
+      "name": "グリーンヒル長岡ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.greenhill-nagaoka.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.greenhill-nagaoka.co.jp/",
+          "sha256": "4a8e3b1440c71b244d2947a63a36fba2edaf97708ed160b69b661de6a3be242c",
+          "acquiredAtUtc": "2026-10-29T15:17:08.023383+00:00"
+        }
+      ],
+      "scope": "連盟15044の検索結果のHP記載を発見用に使用（連盟本体の現取得とは別）。候補origin初回GETは通常HTTPSredirect成功、現運営本文の長岡市柿町4221・0258-23-8088でグリーンヒル長岡同施設を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 818,
+      "name": "松島チサンカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/16.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/16.html",
+          "sha256": "5228cae31e591fc6046d53ade5a067789cc997bff3d93f7b1c61c1dbb887451d",
+          "acquiredAtUtc": "2026-10-29T15:16:35.601465+00:00"
+        }
+      ],
+      "scope": "PGM専用ID16松島チサンCC、松島町桜渡戸上境田43・022-354-2241。複数コースを含む施設専用ページとして同定。個別コースの所在地を上書きしない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1033,
+      "name": "レイクウッドゴルフクラブ サンパーク明野コース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.lake-wood.co.jp/akeno/online.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.lake-wood.co.jp/akeno/online.html",
+          "sha256": "19fc49fe464e4a9f6bf00cfa4098fe740c2449335b3f6e46d667d23bddad6267",
+          "acquiredAtUtc": "2026-10-29T15:17:00.214265+00:00"
+        }
+      ],
+      "scope": "レイクウッドのサンパーク明野専用onlineページ。北杜市明野町小笠原大内窪3394-1・0551-25-2500で神奈川本体/富岡コースと区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 317,
+      "name": "仙台空港カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "http://www.sendai-airport-cc.jp/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.sendai-airport-cc.jp/index.html",
+          "sha256": "2892b4f0fdae1cc58ef95e557a9ad5830c218ef5d80b422f6da188f68a5d0718",
+          "acquiredAtUtc": "2026-10-29T15:16:44.345501+00:00"
+        }
+      ],
+      "scope": "仙台空港カントリークラブ公式専用ページ。宮城県名取市愛島北目2番地66、予約022-382-3711/問合せ022-382-2111を対象footerで確認。検索発見のURL自身を初回取得、仙台クラシック等を除外。HTTPのため未検証HTTPSへ書換しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 957,
+      "name": "フォレスト鳴沢ゴルフ＆カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.fngcc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.fngcc.com/",
+          "sha256": "5aa757c46d5a02e5eb611b4396a90f6dccec6ed2ec15e9aa4d076b956556dd98",
+          "acquiredAtUtc": "2026-10-29T15:16:46.967770+00:00"
+        }
+      ],
+      "scope": "フォレスト鳴沢ゴルフ＆カントリークラブ運営専用ページ。山梨県南都留郡鳴沢村7328-41、0555-85-5489。会社採用公示の検索結果も同番地/鳴沢森林開発株式会社。鳴沢ゴルフ倶楽部5224とは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1032,
+      "name": "サンメンバーズカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.sunmembers.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.sunmembers.co.jp/",
+          "sha256": "f247b625b92f8072ed5b70e829cce815288a8b2949d168e9e61fb6c01b5cb69c",
+          "acquiredAtUtc": "2026-10-29T15:16:44.986047+00:00"
+        }
+      ],
+      "scope": "サンメンバーズカントリークラブ運営専用トップ。山梨県上野原市犬目525、0554-66-2314。本文クラブ概要18H/施設コース/会員予約の対象帰属を確認。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1558,
+      "name": "ローランドゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "http://www.lordland-golf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.lordland-golf.com/",
+          "sha256": "d83944a6241c8b95625cae8df8396b2c855cada29a4f51ef56112819370b7d6d",
+          "acquiredAtUtc": "2026-10-29T15:16:46.550345+00:00"
+        }
+      ],
+      "scope": "ローランドゴルフ倶楽部現運営トップ。群馬県高崎市箕郷町中野73、027-371-3813。対象コース画像/案内/予約条件を確認。重要：同ページはビジターの予約を受けないと明記、一般予約可を意味しない。既存HTTP自身成功で未検証HTTPSへ変更しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 964,
+      "name": "御殿場ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.gotembagolf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.gotembagolf.com/",
+          "sha256": "ba7dcecf91aa9f011f2bf27af240050bc7eee7d6bd5488272909b2892d21ef7d",
+          "acquiredAtUtc": "2026-10-29T15:16:42.168449+00:00"
+        }
+      ],
+      "scope": "御殿場ゴルフ倶楽部運営公式トップ。静岡県御殿場市神山1924-2、0550-87-1555。対象footer。姉妹コースとして後置されるベルビュー長尾、御殿場ウエスト/東名等は対象でない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1560,
+      "name": "PGM富岡カントリークラブ ノースコース",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/165.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/165.html",
+          "sha256": "7eae487779d7ceb1e71fec19587e5c0be65e723f7f47da80d8ec89a57e327587",
+          "acquiredAtUtc": "2026-10-29T15:16:54.028521+00:00"
+        }
+      ],
+      "scope": "PGM公式の富岡ノース専用ID165。群馬県富岡市小桑原432、0274-64-0001。27H対象コース/施設/所在地一致。既調査サウスID74・星田814-1とは別で、相互にURLを流用しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 797,
+      "name": "士別同友会カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.shibetsu-cc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.shibetsu-cc.com/",
+          "sha256": "a787144d4a6e99dbcd4255b2d3e48ba5531b02fe6bcacb08f49959f0dcb36bda",
+          "acquiredAtUtc": "2026-10-29T15:28:23.022208+00:00"
+        },
+        {
+          "url": "https://www.city.shibetsu.lg.jp/shibetsunomiryokusaito/shibetsudekurasu/shigoto/5517.html",
+          "sha256": "f0a4a8de76413acc98838444fd01b1dc71e211c8758de7400262a467582edeb5",
+          "acquiredAtUtc": "2026-10-29T15:29:51.399626+00:00"
+        }
+      ],
+      "scope": "士別市の士別同友会カントリークラブ。本サイトのコース・施設住所・電話で同定。HGA禁止URLの検索自動混入結果は根拠不使用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 318,
+      "name": "仙台クラシックゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.sendaiclassicgc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.sendaiclassicgc.com/",
+          "sha256": "525eba94a374103c996a5aa5d7e3caf51e3cc4a28fd5b7146e2191e75c053d58",
+          "acquiredAtUtc": "2026-10-29T15:28:23.022924+00:00"
+        },
+        {
+          "url": "https://www.sendaiclassicgc.com/about-club/",
+          "sha256": "a81e557eda9b19698e28e5405ee499665b6504c898b8ebf089770d23926d811f",
+          "acquiredAtUtc": "2026-10-29T15:29:15.995496+00:00"
+        }
+      ],
+      "scope": "株式会社仙台クラシックゴルフ倶楽部の運営施設。TOPの施設アクセス住所と会社概要の所在地・電話が一致。既存car/dining/budgetと同じ運営ドメイン。仙台カントリー倶楽部とは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 354,
+      "name": "ゴールド越後湯沢カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.park-resort.com/golf/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.park-resort.com/golf/",
+          "sha256": "906af3169a85e3071cb4df6f885b14e53e33f765a32f81b09a51d3cbf21d9db6",
+          "acquiredAtUtc": "2026-10-29T15:28:23.023673+00:00"
+        },
+        {
+          "url": "https://niigata-kankou.or.jp/spot/detail_6936.html",
+          "sha256": "6a94a9cd134baf8e44379d15763fe99faff843678aadabde0a12d7f2b6186475",
+          "acquiredAtUtc": "2026-10-29T15:28:31.229647+00:00"
+        },
+        {
+          "url": "https://www.park-resort.com/golf/course/",
+          "sha256": "f963728cab43124f6d9dd931b30f88af05caf7ad9006f2c60dc01c76a3c45ae0",
+          "acquiredAtUtc": "2026-10-29T15:29:15.995979+00:00"
+        }
+      ],
+      "scope": "湯沢パークリゾート内のゴールド越後湯沢専用/golf/ページ。観光公式は同施設名・ホテル住所/電話と直接リンク。本体はプレー受付を湯沢パークホテルと明示。ホテル所在地をゴルフコース敷地番地と断定しない。18ホール別ページも当該/golf/内リンクで同定。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 439,
+      "name": "菊川カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.kikugawa.cc/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.kikugawa.cc/",
+          "sha256": "0ebfc048d9691545103fe2b6c3272b53ca428065da499b37b5ec83574cc79d78",
+          "acquiredAtUtc": "2026-10-29T15:28:23.024125+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22024",
+          "sha256": "7e9284fab716be2baea73f4a0207203815479f5668fa24dcee828302091e931c",
+          "acquiredAtUtc": "2026-10-29T15:28:29.702931+00:00"
+        }
+      ],
+      "scope": "関東ゴルフ連盟club_id22024の名称・施設所在地・電話・公式リンクと本体フッター一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 846,
+      "name": "バイロンネルソンカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://bncc.tatemono-golf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://bncc.tatemono-golf.com/",
+          "sha256": "282e544ba5c81f92bc600d29548b1efeba89c69c18971835e8f361e7d69a631c",
+          "acquiredAtUtc": "2026-10-29T15:28:23.024639+00:00"
+        },
+        {
+          "url": "https://www.tatemono-golf.com/",
+          "sha256": "36ba07db8266ff7866e569e1eda39ed3ab4e1d1ecdc9032c7250a956448d3c96",
+          "acquiredAtUtc": "2026-10-29T15:28:58.524261+00:00"
+        }
+      ],
+      "scope": "東京建物リゾートグループ公式のコース紹介から当該bnccサブドメインへリンク。本体に固有名・施設住所/電話/コース案内。別系列コースや会社本社の住所は不使用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1511,
+      "name": "箱根カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.hakonecc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.hakonecc.com/",
+          "sha256": "a562702681a52baa642a8daa6b989470be59bd9a7e43ac9c2e24e1ccdc0ad8ed",
+          "acquiredAtUtc": "2026-10-29T15:28:23.027415+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=14033",
+          "sha256": "d6602dc24ebe5b5026edbbd3812685f64242513f71e4549b59ee2de107c66525",
+          "acquiredAtUtc": "2026-10-29T15:28:23.029274+00:00"
+        }
+      ],
+      "scope": "関東ゴルフ連盟club_id14033の名称・施設所在地・電話・公式ドメインと現本体フッター一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1559,
+      "name": "下秋間カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "http://www.shimoakima.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.shimoakima.co.jp/",
+          "sha256": "9306cd072be7921b81674449fed8a382adf116291134cc30853e6ff8daddc0d2",
+          "acquiredAtUtc": "2026-10-29T15:28:23.029766+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=10021",
+          "sha256": "8dbf09e02232ee0db20578721e577a88ce3d3ba470057ff60e585cdddb9f0395",
+          "acquiredAtUtc": "2026-10-29T15:28:23.030441+00:00"
+        },
+        {
+          "url": "http://www.shimoakima.co.jp/access/",
+          "sha256": "0ad1b5ee8c9e0f745a4473589f500f8a09e88501143d1e05974089c52b3d37f0",
+          "acquiredAtUtc": "2026-10-29T15:29:15.994833+00:00"
+        }
+      ],
+      "scope": "関東ゴルフ連盟club_id10021の公式URLに一致。本体TOPは名称/コース説明、内部/access/成功本文で住所・電話を確認。連盟の新宿事務所住所を施設所在地に使用しない。HTTPSを未取得のまま推測変更せず成功HTTPを採用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 965,
+      "name": "御殿場東名ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/166.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/166.html",
+          "sha256": "fcbb4d939d2787b84aff05a90ea9420d92e93145d0f0eb75b2ad2a18bdd7dffe",
+          "acquiredAtUtc": "2026-10-29T15:28:58.523696+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22057",
+          "sha256": "2a969fc571ab83d7e5b84e19b2b5173f427128f776a262abd4e989b3d94eaf14",
+          "acquiredAtUtc": "2026-10-29T15:28:29.560089+00:00"
+        }
+      ],
+      "scope": "PGM公式の御殿場東名固有guide/166.htmlで施設住所・電話/FAXがKGA club_id22057に完全一致。連盟URL欄は空なので連盟からリンク確認したと偽らない。台東区の事務所住所は不使用。PGM御殿場カントリークラブ等とは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 799,
+      "name": "シャトレーゼカントリークラブマサリカップ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://masari.chateraisegolf.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://masari.chateraisegolf.jp/",
+          "sha256": "91a139c71bd1180772471ba1b28d2c770c2e4604988d432fa21f1208b9293160",
+          "acquiredAtUtc": "2026-10-29T15:25:19.455279+00:00"
+        }
+      ],
+      "scope": "シャトレーゼ運営のマサリカップ専用ページ。対象名と北海道石狩市厚田区望来485番地1、0133-77-2555一致。末尾の他シャトレーゼ各コースへのリンクは対象外。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 319,
+      "name": "仙台ヒルズゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/21.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/21.html",
+          "sha256": "0acdabe27239950bcd6fcd6b287ff75a5cf4048454d84ecb96849281d6949aff",
+          "acquiredAtUtc": "2026-10-29T15:25:26.597636+00:00"
+        }
+      ],
+      "scope": "PGM運営の仙台ヒルズ専用guide21。対象本文の基本情報：宮城県仙台市泉区実沢字中山南25-5、022-278-0736。同ページ内ホテル紹介はゴルフ場そのものと区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 440,
+      "name": "ギャツビイゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.gatsby-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.gatsby-gc.com/",
+          "sha256": "82af64182bc7e1212cc0d5ebf33aec70415b14aa81aa9fc6d95e72ab329505e2",
+          "acquiredAtUtc": "2026-10-29T15:25:21.387385+00:00"
+        }
+      ],
+      "scope": "ギャツビイゴルフクラブ専用公式トップ。静岡県駿東郡小山町大字新柴504-1、代表0550-76-0814、予約0550-76-0811。施設名・対象地域・自身の予約/コース案内一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 847,
+      "name": "小名浜カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/global/golfCourse/fukushima/onahamacc/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/global/golfCourse/fukushima/onahamacc/",
+          "sha256": "3b6cc91f12bf291f2e484f7414c6c9506b9fa3d0a337939de46cd31634a197f3",
+          "acquiredAtUtc": "2026-10-29T15:25:20.475311+00:00"
+        }
+      ],
+      "scope": "アコーディア運営の小名浜カントリー倶楽部専用ページ。対象header福島県いわき市小名浜上神白字東大沢1-44、27ホール東南西の施設説明。globalページ自身を取得したため未取得の別パスへ書換しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1513,
+      "name": "平塚富士見カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.lake-wood.co.jp/hcc/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.lake-wood.co.jp/hcc/index.html",
+          "sha256": "ff576dda678af457764c953dbed8cbc3aeb26b9633542295078070385920f894",
+          "acquiredAtUtc": "2026-10-29T15:25:18.454311+00:00"
+        }
+      ],
+      "scope": "レイクウッドコーポレーション運営平塚富士見専用hcc。対象footer神奈川県足柄上郡中井町井ノ口537、0463-59-8771一致。後置GroupCourseのレイクウッド本体/サンパーク明野は除外。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1561,
+      "name": "Royal Blue Golf Resort",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.bcm-co.jp/rbgr/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.bcm-co.jp/rbgr/",
+          "sha256": "8459467e4e2dcb85d1f0bb21e6405a18aa97740d5b3378e1b8e5b2b68a012211",
+          "acquiredAtUtc": "2026-10-29T15:25:20.834630+00:00"
+        }
+      ],
+      "scope": "ブルーキャピタルマネジメントのRoyal Blue Golf Resort専用rbgr。トップ対象名・嬬恋村説明と、成功トップの明示ACCESSリンク先に群馬県吾妻郡嬬恋村大字大笹字大平1832-1を確認。同名予約先とも対象範囲一致。トップ自身200とchild200を保存。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1035,
+      "name": "塩山カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://enzan-cc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://enzan-cc.co.jp/",
+          "sha256": "618441ac0b4c4c0f62e96858b906024167da6ef4271eeb68fc43ae236335cd1c",
+          "acquiredAtUtc": "2026-10-29T15:25:27.938948+00:00"
+        }
+      ],
+      "scope": "塩山カントリー倶楽部専用公式トップ。山梨県甲州市塩山中萩原3683-1、0553-33-7111。既名カントリークラブとの倶楽部表記差のみ、同一施設地域一致。名称変更は提案しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 967,
+      "name": "修善寺カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.shuzenji-cc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.shuzenji-cc.com/",
+          "sha256": "c022f72e462a24025bf5f7ddd4d5f2b01f08a8fedf0d4e387c50b1cd48cfca42",
+          "acquiredAtUtc": "2026-10-29T15:25:24.269762+00:00"
+        }
+      ],
+      "scope": "株式会社修善寺カントリークラブ運営公式。静岡県伊豆市日向965、0558-72-2227。ラフォーレ修善寺カントリークラブ大平1529とは別施設、誤混同なし。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 802,
+      "name": "新千歳カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/14.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/14.html",
+          "sha256": "cc05d3bbe7e0f37f82a072a51db2b2ba8222635e46582ac5988270e79311f86b",
+          "acquiredAtUtc": "2026-10-29T15:31:34.593414+00:00"
+        }
+      ],
+      "scope": "PGM新千歳固有guide14の施設基本情報・36ホール対象。禁止HGAを根拠不使用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 356,
+      "name": "下田城カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.shitadajo-cc.com/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.shitadajo-cc.com/index.html",
+          "sha256": "25ad462ddb1310f1cbee6a057928aba00a39a3d111519cc63a5b359ee00663de",
+          "acquiredAtUtc": "2026-10-29T15:31:34.594067+00:00"
+        },
+        {
+          "url": "https://www.n-golfrenmei.com/club/?code_club=15012",
+          "sha256": "238a9fb656bb1f9258bf214d23258a4f505de7b77c0a049384891b00162fe2ff",
+          "acquiredAtUtc": "2026-10-29T15:31:34.594496+00:00"
+        },
+        {
+          "url": "https://www.shitadajo-cc.com/access.html",
+          "sha256": "e4e6645ad9c297662a924c6ed4cd834dfab02cd8fa4cb7bc6c304ccb178175ef",
+          "acquiredAtUtc": "2026-10-29T15:34:05.929428+00:00"
+        }
+      ],
+      "scope": "NGAの固有名称・公式ドメインと本体内部アクセス所在地電話が一致。提携阿賀高原等の住所は不使用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 968,
+      "name": "十里木カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/shizuoka/jurigi/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/jurigi/",
+          "sha256": "79ab36568de174cedbf9063e187583edc846766f0a4cc4662f9d8e8a10f53e92",
+          "acquiredAtUtc": "2026-10-29T15:31:34.594877+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22035",
+          "sha256": "2dfd567ce9d1ae627172b967766f7f6111317d7eb678085cfd481d0cfe4f92e5",
+          "acquiredAtUtc": "2026-10-29T15:31:24.060508+00:00"
+        }
+      ],
+      "scope": "Accordia十里木専用ページの施設所在地がKGA22035と一致。KGAは旧Accordia guide3570031へのリンクで現URLと完全同一hrefではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1037,
+      "name": "大月ガーデンゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/yamanashi/ootsukigarden",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/yamanashi/ootsukigarden",
+          "sha256": "fad4ba54bf6d0659f281e2429ef7f7d90ba92c5d725865277a951232e5b11fa8",
+          "acquiredAtUtc": "2026-10-29T15:31:34.595455+00:00"
+        },
+        {
+          "url": "https://www.golf-yamanashi.com/2024/11/01/ohtsuki-garden-golfclub/",
+          "sha256": "bea87b77e418fc60473eb740ca3de2fa991c219888169bb625627fd348adc687",
+          "acquiredAtUtc": "2026-10-29T15:31:34.596264+00:00"
+        }
+      ],
+      "scope": "山梨県ゴルフ場支配人会の当該施設住所とAccordia本文住所一致。支配人会リンクは末尾slashあり、成功afterはslashなし。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1564,
+      "name": "しぶかわカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.shibukan.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.shibukan.jp/",
+          "sha256": "3f82e1198b0c6bbd300f68a8c33cb4eff38f0c4ce2e9f7fa205aeea912a69e15",
+          "acquiredAtUtc": "2026-10-29T15:31:24.057119+00:00"
+        },
+        {
+          "url": "https://www.shibukan.jp/company/",
+          "sha256": "0c37361d4b49d3837419ab52f4b73ffdbef8b75540cfce1682406637f005ee0c",
+          "acquiredAtUtc": "2026-10-29T15:34:05.929971+00:00"
+        }
+      ],
+      "scope": "既存urlと同一しぶかわ公式。施設アクセス住所・電話・会社概要内ゴルフ事業と同定。本社寄居町所在地を施設住所として使用しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 819,
+      "name": "宮城カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://miyagicc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://miyagicc.com/",
+          "sha256": "676ac2ef6406c24c5563e3917a885ade7259962229a364bf7ba25488587b1e62",
+          "acquiredAtUtc": "2026-10-29T15:33:51.689765+00:00"
+        },
+        {
+          "url": "https://miyagicc.com/fp/miyagi_cc_club",
+          "sha256": "9e5798d44ddad6259a3387d2b2d1670f264c97f1e228439549081437a4e87916",
+          "acquiredAtUtc": "2026-10-29T15:33:51.690266+00:00"
+        }
+      ],
+      "scope": "宮城CC公式TOPとクラブ概要が同一施設。涌谷観光株式会社運営27ホール全体。会社代表電話0229-43-3511とゴルフ場電話を区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 850,
+      "name": "大新潟カントリークラブ 出雲崎コース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/niigata/izumozaki",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/niigata/izumozaki",
+          "sha256": "78c1b5ea25d501bc2a3b945925beab678f5bc396ffc155f3bd4018330a6aacd2",
+          "acquiredAtUtc": "2026-10-29T15:33:51.690737+00:00"
+        },
+        {
+          "url": "https://www.n-golfrenmei.com/club/?code_club=15022",
+          "sha256": "bebf8ea32de07f41c3095551b93e9788c390ec699419fe37e6f037cac802ff29",
+          "acquiredAtUtc": "2026-10-29T15:33:51.691239+00:00"
+        }
+      ],
+      "scope": "大新潟CC出雲崎専用ページ。NGA15022の乙茂字金谷川内588甲と一致、三条コースではない。連盟hrefは旧地域なしパスでafterとは完全同一ではない。東京事務所住所不使用。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 970,
+      "name": "大熱海国際ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.resol-golf.jp/daiatami/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.resol-golf.jp/daiatami/",
+          "sha256": "fc38b89571ac1e1d2e2389907c2a93c2f5dde41d5dad5876d7252537321edc3d",
+          "acquiredAtUtc": "2026-10-29T15:31:24.057524+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22040",
+          "sha256": "232e3a9bb515c5d511e8decb12c9a5c31a8c7cdeef2b4dedad4fd552fb8920ce",
+          "acquiredAtUtc": "2026-10-29T15:31:24.059296+00:00"
+        }
+      ],
+      "scope": "リソル運営大熱海国際の熱海/大仁共通施設TOP。KGA22040と施設住所電話一致。連盟hrefから現URLを直接確認したとはしない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1516,
+      "name": "湯河原カンツリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://yugawara-cc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://yugawara-cc.com/",
+          "sha256": "f91e13388512cb6d05790d5cca63ef6e19a0ab10a1076b19195395c9cf70d03c",
+          "acquiredAtUtc": "2026-10-29T15:31:24.057922+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=14042",
+          "sha256": "137916e9ef08248b8c72af11504c00dafa28be4d9ef78c5658f3149726b80098",
+          "acquiredAtUtc": "2026-10-29T15:31:24.060082+00:00"
+        }
+      ],
+      "scope": "湯河原CC本体TOPとKGA14042の施設住所電話一致。真鶴ショート単独URLではなく倶楽部全体公式。連盟hrefはhttp www付きで現afterと表記差あり。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 969,
+      "name": "裾野カンツリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.susono-cc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.susono-cc.co.jp/",
+          "sha256": "eec1f4a56abca833ad0e7d9d5ec3466162d601f661cf28a5bc07958ae2da7ce0",
+          "acquiredAtUtc": "2026-10-29T15:29:53.601693+00:00"
+        }
+      ],
+      "scope": "裾野カンツリー俱楽部専用運営公式。対象所在地静岡県裾野市今里1060。コース・予約・会員ページの主体一致。予約リンクの存在は一般無条件利用可を意味しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1038,
+      "name": "大月カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.ohtsukicc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.ohtsukicc.com/",
+          "sha256": "8217499deb61154437ac16307383331ec73af91782d417a0b95542b30868823f",
+          "acquiredAtUtc": "2026-10-29T15:29:53.160432+00:00"
+        }
+      ],
+      "scope": "大月カントリークラブ。成功トップに旧ohtsukicc.co.jpから新ohtsukicc.comへの移行明記。通常リンクcompany.htmlはストラクス株式会社、山梨県大月市富浜町鳥沢7084、0554-26-5559。同会社ページ内URL欄だけ旧co.jpが残るが、移行告知と新ドメイン上の対象主体を確認。旧ドメイン取得なし。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1515,
+      "name": "程ヶ谷カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.hodogaya-country-club.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.hodogaya-country-club.jp/",
+          "sha256": "6097a9a3ba9f2a618ba15e0bf313c845d8fe4f60dfaf3d37fe09b0411ae48a81",
+          "acquiredAtUtc": "2026-10-29T15:29:54.876318+00:00"
+        }
+      ],
+      "scope": "程ヶ谷カントリー倶楽部専用公式。横浜市旭区上川井町1324、045-921-0115。横浜CC今井1025と別施設。既存会員条件等を変更しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1565,
+      "name": "美野原カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://minohara-cc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://minohara-cc.co.jp/",
+          "sha256": "a0d345449c5aa6c82450f40fdf29c64fcf8c38ac3455a820fc42fa0c4d9549fd",
+          "acquiredAtUtc": "2026-10-29T15:29:55.710895+00:00"
+        }
+      ],
+      "scope": "美野原カントリークラブ運営トップ。群馬県吾妻郡中之条町五反田3483-1、0279-75-4841。既currentUrl同ドメインaccessから施設同定。既存27H記載と矛盾なし、他field再確認完了は意味しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 820,
+      "name": "宮城蔵王カントリークラブ ロイヤルコース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.daiwaroyalgolf.jp/miyagizaou_cc/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.daiwaroyalgolf.jp/miyagizaou_cc/",
+          "sha256": "a2d2d2a57c4ec034ef8defafcd517a0b23a101408eb45df8ae8f9d06d84ce4a6",
+          "acquiredAtUtc": "2026-10-29T15:29:52.667804+00:00"
+        }
+      ],
+      "scope": "宮城蔵王カントリークラブ公式。刈田郡蔵王町円田土浮山2-132、0224-34-3700。連盟掲載のロイヤルコースと同住所電話。山形県の蔵王CCとは別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 851,
+      "name": "大新潟カントリークラブ 三条コース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/niigata/dainiigata_sanjo/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/niigata/dainiigata_sanjo/",
+          "sha256": "54a3ade3d99d428b50c4578ee311ca697d61642149849e54f26265889c9fd30f",
+          "acquiredAtUtc": "2026-10-29T15:29:59.063856+00:00"
+        }
+      ],
+      "scope": "アコーディア大新潟CC三条コース専用。対象header三条市長沢1385、0256-46-3221。出雲崎コースや後置近隣ノーザン等カードは対象外。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 971,
+      "name": "大富士ゴルフ場",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.daifuji-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.daifuji-gc.com/",
+          "sha256": "bd4439b287e2e67ceb13555b1cada31e1354b2d0e76a640f6de63d1dc3249a27",
+          "acquiredAtUtc": "2026-10-29T15:29:57.540066+00:00"
+        }
+      ],
+      "scope": "KGA22041の大富士ゴルフ場が現大富士ゴルフクラブ公式daifuji-gc.comを明示リンク。双方富士市今宮1243、0545-21-4111一致。名称表記の橋渡しあり、名称変更自体は提案せずofficialUrlのみ。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1517,
+      "name": "横浜カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": false,
+      "before": null,
+      "after": "https://www.yokohama-cc.jp/aboutus/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.yokohama-cc.jp/aboutus/",
+          "sha256": "1eafa8b5808baf6219a321334df7a3d33ae7fbfe2cbf18f080a0193fab71db78",
+          "acquiredAtUtc": "2026-10-29T15:30:00.564505+00:00"
+        }
+      ],
+      "scope": "横浜カントリークラブ公式概要そのもの。株式会社横浜国際ゴルフ倶楽部、対象今井町1025、045-351-1001。同頁バンラカットクラブは別施設で除外。afterは実取得済みaboutusを採用、未取得rootを補わない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 852,
+      "name": "十日町カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://tokamachi-country.club/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://tokamachi-country.club/",
+          "sha256": "2a31bfdbfc7f09499868e62a9be5b827a42a997a8f622c31cf33aa0852d0ec86",
+          "acquiredAtUtc": "2026-10-29T15:35:37.876523+00:00"
+        },
+        {
+          "url": "https://tokamachi-country.club/access/",
+          "sha256": "7a64952ffe55a49c4411a32537accb12385e8f3f2015f3695e8fd29f9264e509",
+          "acquiredAtUtc": "2026-10-29T15:36:19.311356+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_list.php?pref_code=1",
+          "sha256": "61a7de3eff35e16e4e336e292cf4e32bcaef1bcf70187948e7bbce0a0786a4d2",
+          "acquiredAtUtc": "2026-10-29T15:35:28.915138+00:00"
+        }
+      ],
+      "scope": "公式TOP内部access住所とKGA新潟一覧一致。苗場/つつじ/信濃の27ホール全体。KGA電話3515と予約電話3518の差は一致扱いしない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 973,
+      "name": "豊岡国際カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.toyookakokusaicc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.toyookakokusaicc.com/",
+          "sha256": "2f7a89ee4658521e5adebccd519c4c6afa70e6e022501d67f39ee3a7f5d37e9a",
+          "acquiredAtUtc": "2026-10-29T15:35:53.420371+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22044",
+          "sha256": "424a8c86c29c50a645de0ac602aada07271b9f30afe57cb9f066563d4282d85d",
+          "acquiredAtUtc": "2026-10-29T15:35:19.941645+00:00"
+        }
+      ],
+      "scope": "豊岡国際本体住所代表電話とKGA22044一致。連盟httpドメインの現https取得成功。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 854,
+      "name": "中条ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.nakajogc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nakajogc.jp/",
+          "sha256": "3f9f77a36bd0a4d8df8f62b41e794325a87f592c02d383d0517c5d2067de56df",
+          "acquiredAtUtc": "2026-10-29T15:35:37.877003+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_list.php?pref_code=1",
+          "sha256": "61a7de3eff35e16e4e336e292cf4e32bcaef1bcf70187948e7bbce0a0786a4d2",
+          "acquiredAtUtc": "2026-10-29T15:35:28.915138+00:00"
+        }
+      ],
+      "scope": "中条本体フッター施設住所電話とKGA新潟一覧村松浜字上原555・同電話が対応。名称だけでなく所在地照合。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 976,
+      "name": "東富士カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.hfg.co.jp/higashifuji/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.hfg.co.jp/higashifuji/index.html",
+          "sha256": "1ebc7527b49e1b6f29e630cab0e8544477b7ba98f533c1ef841cf6e3c6e42f95",
+          "acquiredAtUtc": "2026-10-29T15:36:01.918900+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22050",
+          "sha256": "2529d242276adb3e3246fc7737379aa156bfef80920b5841b28794bc2a8a42ba",
+          "acquiredAtUtc": "2026-10-29T15:35:19.942237+00:00"
+        }
+      ],
+      "scope": "東富士専用/higashifuji/index.html施設住所電話とKGA22050一致。HFGの他ゴルフ場や緑化部門とは区別。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 857,
+      "name": "ノーブルウッドゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://noblewood-gc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://noblewood-gc.jp/",
+          "sha256": "17586f30201a80baec2fa2d1b9082c012b5d3a9e98730fbc198ebc56cbad2c33",
+          "acquiredAtUtc": "2026-10-29T15:35:28.914130+00:00"
+        },
+        {
+          "url": "https://noblewood-gc.jp/access/",
+          "sha256": "852bdb8eaf19479a84055e4e7aaca7d8cb412283fad48241c135b6218130e435",
+          "acquiredAtUtc": "2026-10-29T15:36:19.311838+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_list.php?pref_code=1",
+          "sha256": "61a7de3eff35e16e4e336e292cf4e32bcaef1bcf70187948e7bbce0a0786a4d2",
+          "acquiredAtUtc": "2026-10-29T15:35:28.915138+00:00"
+        }
+      ],
+      "scope": "公式TOP内部アクセス施設住所電話とKGA新潟一覧一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 978,
+      "name": "フジ天城ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://fuji-amagigolf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://fuji-amagigolf.com/",
+          "sha256": "4f2a74cc135f670c73d1ee5a446aab8232b5e1f81e870e99c03e10226af047fc",
+          "acquiredAtUtc": "2026-10-29T15:35:53.420991+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22007",
+          "sha256": "b435127ccc4fe83143920bea4497ad9d2a409a946f3f2fc3a82b12aefb2173e4",
+          "acquiredAtUtc": "2026-10-29T15:35:19.942630+00:00"
+        }
+      ],
+      "scope": "フジ天城27ホール全体公式TOP。KGA22007施設住所電話・同ドメイン一致。天城高原とは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 859,
+      "name": "松ヶ峯カントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.matsugamine-cc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.matsugamine-cc.jp/",
+          "sha256": "9e88343cd0d883606bcc05035c8b81cd558ca413376a67a7782f3fb99b57e958",
+          "acquiredAtUtc": "2026-10-29T15:35:28.914734+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_list.php?pref_code=1",
+          "sha256": "61a7de3eff35e16e4e336e292cf4e32bcaef1bcf70187948e7bbce0a0786a4d2",
+          "acquiredAtUtc": "2026-10-29T15:35:28.915138+00:00"
+        }
+      ],
+      "scope": "松ヶ峯公式TOPの施設住所電話とKGA新潟一覧一致。27ホール施設全体。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 981,
+      "name": "富士チサンカントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://booking.pacificgolf.co.jp/guide/67.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/67.html",
+          "sha256": "8bb189c40c9599ecdeef00d8d61ee19fccf574c4271de6a7ca33469ab40088bb",
+          "acquiredAtUtc": "2026-10-29T15:36:19.310908+00:00"
+        },
+        {
+          "url": "https://www.pacificgolf.co.jp/fuji/index.asp",
+          "sha256": "60655bf906c711b2f31f5c078ab4da2a73045149b7f1ce63c38d22adc2e8280a",
+          "acquiredAtUtc": "2026-10-29T15:35:53.421484+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22058",
+          "sha256": "5dabcde70a884047cc8f70be195422aee9862be09fd6aecffa60655cdb0b3176",
+          "acquiredAtUtc": "2026-10-29T15:35:19.943007+00:00"
+        }
+      ],
+      "scope": "PGM旧fuji/index.asp成功HTMLのmeta refreshはguide67へ明示。遷移先自身GET200・住所電話がKGA22058と一致。27ホール富士チサン。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 984,
+      "name": "富士平原ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://fujiheigen-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://fujiheigen-gc.com/",
+          "sha256": "5fd5eb4cca2afe395dac846c683cd2cc4cf140bff82c95fc8b4629efe426ef5b",
+          "acquiredAtUtc": "2026-10-29T15:36:01.919574+00:00"
+        },
+        {
+          "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=22060",
+          "sha256": "2a5228f7e10241ce3c959c2ce8238c72af015c5bb64827381535714ff011e6d3",
+          "acquiredAtUtc": "2026-10-29T15:35:19.943615+00:00"
+        }
+      ],
+      "scope": "富士平原本体施設住所電話とKGA22060一致。KGAはhttp www付き、取得成功現afterはhttps wwwなし。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 855,
+      "name": "新潟ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://niigata-golf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://niigata-golf.com/",
+          "sha256": "9c43417605986dc8247c04a44f52ddb02151e3036c4ab91214fd6f6eada06c26",
+          "acquiredAtUtc": "2026-10-29T15:33:12.525138+00:00"
+        }
+      ],
+      "scope": "新潟ゴルフ倶楽部の運営専用サイト。株式会社新潟カントリー倶楽部、新潟市西蒲区峰岡744、0256-72-2562。大新潟や新潟サンライズとは別対象。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 977,
+      "name": "富嶽カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://fugakucc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://fugakucc.com/",
+          "sha256": "bd74bdeaf3920497426ef8aa9a2e2253900e58982383187d8542d6fcfbf3e5af",
+          "acquiredAtUtc": "2026-10-29T15:33:10.286865+00:00"
+        }
+      ],
+      "scope": "富嶽カントリークラブ現運営サイト。静岡市清水区宍原2730-1、0544-65-2211。メールtaiheiyoclub.co.jpと現在の太平洋クラブ経営権取得公表検索結果は整合、旧運営主体を現在と断定しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 979,
+      "name": "富士エースゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.fuji-ace-golf.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.fuji-ace-golf.co.jp/",
+          "sha256": "afaf05676e316f89048bb0a8a61ae606c4b43dedc89d48efa8833e756c478781",
+          "acquiredAtUtc": "2026-10-29T15:33:09.739155+00:00"
+        }
+      ],
+      "scope": "富士エースゴルフ倶楽部専用公式。駿東郡長泉町東野655-1、055-987-6011。対象施設コース・予約・会社概要リンクの主体一致。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 860,
+      "name": "妙高カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.myoko-cc.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.myoko-cc.jp/",
+          "sha256": "228f37e61e03b1b0d26cc7c00d6b710773d1544a1b977a19bf8cce8b7e1ea9a7",
+          "acquiredAtUtc": "2026-10-29T15:33:10.496660+00:00"
+        }
+      ],
+      "scope": "妙高カントリークラブ公式。新潟県妙高市関山6323-4、0255-82-3141。妙高高原CC/妙高サンシャイン/くるみヶ丘とは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 982,
+      "name": "富士宮ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.fujinomiya-gc.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.fujinomiya-gc.com/",
+          "sha256": "ed5d14102378f746ae93d3591b130aab11307e99465ec87a675c4c74543668e7",
+          "acquiredAtUtc": "2026-10-29T15:33:35.106963+00:00"
+        }
+      ],
+      "scope": "富士宮市観光協会guide180の明示外部リンクから運営サイト自身成功。双方富士宮市野中1127-1、0544-23-3000一致。観光ページはdiscoveryのみ、afterは運営施設サイト。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 862,
+      "name": "妙高サンシャインゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.myokosunshine.co.jp/contents/golf/course.php",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.myokosunshine.co.jp/contents/golf/course.php",
+          "sha256": "c31f893575f9ef300d19c922fc88b6f2cb0fa07d357d492821df9b65b2675728",
+          "acquiredAtUtc": "2026-10-29T15:33:11.218380+00:00"
+        }
+      ],
+      "scope": "妙高サンシャインリゾート運営のゴルフ倶楽部専用course.php。対象ゴルフ名称・コース全体説明、運営会社株式会社妙高サンシャインリゾート、上越市中郷区江口846-1を確認。footer0255-74-2421はリゾート共通連絡先でゴルフ予約0255-74-4152との同一電話確認とはしない。くるみヶ丘9Hは別で流用なし。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 986,
+      "name": "ホロンゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://hgc.tatemono-golf.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://hgc.tatemono-golf.com/",
+          "sha256": "ed51dc956e116657c66e03cb89543575605008fe177bb9d2265de7256fbf007d",
+          "acquiredAtUtc": "2026-10-29T15:33:12.981195+00:00"
+        }
+      ],
+      "scope": "東京建物リゾートのホロンゴルフ倶楽部専用hgc。菊川市友田1028-10、0537-36-5612。後置グループ他コース一覧の所在地を混同しない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 863,
+      "name": "湯田上カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.yutagami-cc.co.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.yutagami-cc.co.jp/",
+          "sha256": "c1011800e776454b7e851975c7c20669c7bd16bff1612472675608006ba7e175",
+          "acquiredAtUtc": "2026-10-29T15:33:34.281165+00:00"
+        }
+      ],
+      "scope": "湯田上カントリークラブの専用公式トップ、田上町大字湯川2986/0256-57-3040で所在地を同定。山口の湯田カントリークラブとは別施設。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 865,
+      "name": "米山水源カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://yoneyama-suigen.com/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://yoneyama-suigen.com/",
+          "sha256": "19046984e414e209e4c8da8a510c671bfa14747ff12f17f187b59cb0ee46dc3e",
+          "acquiredAtUtc": "2026-10-29T15:33:34.344592+00:00"
+        }
+      ],
+      "scope": "米山水源カントリークラブの専用公式トップ、上越市柿崎区上下浜2362/025-536-3121で同定。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 987,
+      "name": "三島カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://reserve.accordiagolf.com/golfCourse/shizuoka/mishima",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/mishima",
+          "sha256": "e9c29141a155a327945962aa417fad2098554e4a3ec5baaf17ebd7e7ea6ede6a",
+          "acquiredAtUtc": "2026-10-29T15:33:34.346185+00:00"
+        }
+      ],
+      "scope": "アコーディアの三島カントリークラブ対象見出し直下に三島市徳倉1195を確認。近隣コースカードや汎用予約プランの住所を対象に転用していない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 989,
+      "name": "レンブラントゴルフ倶楽部御殿場",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.rembrandt-golf.jp/",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.rembrandt-golf.jp/",
+          "sha256": "0b5562930e2ab453284def436ae61ad0850e5b00b2041b79d1c63399923170ba",
+          "acquiredAtUtc": "2026-10-29T15:33:34.662782+00:00"
+        }
+      ],
+      "scope": "レンブラントゴルフ倶楽部御殿場の専用トップ、御殿場市神山1922-1/0550-87-1355。併記ホテル宿泊プランの別施設住所ではない。",
+      "reviewStatus": "supported"
+    },
+    {
+      "id": 1053,
+      "name": "太平洋クラブ御殿場ウエストコース",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.taiheiyoclub.co.jp/course/west/index.html",
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.taiheiyoclub.co.jp/course/west/index.html",
+          "sha256": "e8f7d915a9ac4e0637e3084c30513f090168c5e32965e171d1f612d604715286",
+          "acquiredAtUtc": "2026-10-29T15:33:33.751373+00:00"
+        },
+        {
+          "url": "https://www.taiheiyoclub.co.jp/course/west/information.html",
+          "sha256": "220301f3a3efc6e52667148d801a82d1952b212db148b6822ea976c889cfd1eb",
+          "acquiredAtUtc": "2026-10-29T15:34:38.470291+00:00"
+        }
+      ],
+      "scope": "太平洋クラブの御殿場ウエスト専用/course/west/トップと同コースinformationの住所御殿場市印野1044-1/0550-89-0330を確認。通常の御殿場コースや東京の本社住所とは別。エントリーデスク0550-89-9321は予約・キャンセル専用で代表電話と区別。",
+      "reviewStatus": "supported"
+    }
+  ],
+  "inputSha256": "8c137b91b067cc72fcfdde354065217086936556568047ba4328feae5662a3d4",
+  "outputSha256": "843a9faca78e6e6e97e2bc4b8d31f90fed35585b4fc392ffb059aeedf3979eb5"
+}
