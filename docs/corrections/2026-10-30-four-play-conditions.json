@@ -1,0 +1,225 @@
+{
+  "status": "reviewed_proposal_not_published",
+  "baseCommit": "c878a00eb43cb7a37d016402543a6a465871b285",
+  "inputSha256": "81b83f19e970d6d9d45f51da0c0e44655143298f00765460d1ab2ecdf89479ae",
+  "outputSha256": "1a30397c6a0c63c572eec0aeca77e69e19e3c16124160e74330c312b570862a8",
+  "scope": "4 play fields in 4 facilities. Prior full paragraphs and dates preserved, missing classification supplied only where old full text is supported by saved official primary. No physical 18 unique holes claim or current operations guarantee.",
+  "patches": [
+    {
+      "id": 1705,
+      "name": "エヴァンタイユゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "広葉樹のあるOUTと、針葉樹に区切られたIN。2段グリーンなどパッティングも攻略の鍵。",
+        "url": "https://booking.pacificgolf.co.jp/guide/26.html",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。広葉樹のあるOUTと、針葉樹に区切られたIN。2段グリーンなどパッティングも攻略の鍵。"
+      },
+      "after": {
+        "text": "広葉樹のあるOUTと、針葉樹に区切られたIN。2段グリーンなどパッティングも攻略の鍵。 公式案内の室内練習場は3打席で無料ですが、利用できるクラブはアイアンのみです。",
+        "url": "https://booking.pacificgolf.co.jp/guide/26.html",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "広葉樹のあるOUTと、針葉樹に区切られたIN。2段グリーンなどパッティングも攻略の鍵。",
+            "url": "https://booking.pacificgolf.co.jp/guide/26.html",
+            "checked": "2026-10-24",
+            "basis": "公式ページの本文・メニュー・料金表を確認。広葉樹のあるOUTと、針葉樹に区切られたIN。2段グリーンなどパッティングも攻略の鍵。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内の室内練習場は3打席で無料ですが、利用できるクラブはアイアンのみです。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=26",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "室内練習場の打席数・無料利用・アイアン限定を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内の室内練習場は3打席で無料ですが、利用できるクラブはアイアンのみです。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=26",
+        "sha256": "3beee139daaf6f04bb8775bdda051c56af4fbc316c353ec781dab8459cce5f82",
+        "capturedAtUtc": "2026-10-30T12:25:12.452842+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "legacyClassificationEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/guide/26.html",
+        "sha256": "55fef495a733b071d7efc3a1c3f19900f4c5ccd81c7047584630e07bcbe70e0e",
+        "capturedAtUtc": "2026-10-30T12:23:24.498745+00:00",
+        "scope": "Old full facts supported by saved dedicated primary text; only missing sourceType supplied official. Existing text/url/date/basis exactly preserved, no guard exception."
+      },
+      "limits": [
+        "No price amount adopted; source capture is not a present-day availability guarantee. Existing source dates unchanged."
+      ]
+    },
+    {
+      "id": 1706,
+      "name": "ハーモニーヒルズゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "距離は短めながら、起伏とマウンドで狙いどころが絞られる丘陵コース。",
+        "url": "https://booking.pacificgolf.co.jp/guide/37.html",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。距離は短めながら、起伏とマウンドで狙いどころが絞られる丘陵コース。"
+      },
+      "after": {
+        "text": "距離は短めながら、起伏とマウンドで狙いどころが絞られる丘陵コース。 公式案内では、2025年9月からOUT・INのフェアウェイ走行が可能とされています。ただしOUT3番から4番、IN12番から13番への移動では、一旦電磁誘導に切り替えて運行する区間があります。傾斜地など一部は乗入れ禁止です。セルフプレー1ラウンドでの乗入れは有料・組単位で、天候やコースコンディションにより利用できない場合があります。",
+        "url": "https://booking.pacificgolf.co.jp/guide/37.html",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "距離は短めながら、起伏とマウンドで狙いどころが絞られる丘陵コース。",
+            "url": "https://booking.pacificgolf.co.jp/guide/37.html",
+            "checked": "2026-10-24",
+            "basis": "公式ページの本文・メニュー・料金表を確認。距離は短めながら、起伏とマウンドで狙いどころが絞られる丘陵コース。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、2025年9月からOUT・INのフェアウェイ走行が可能とされています。ただしOUT3番から4番、IN12番から13番への移動では、一旦電磁誘導に切り替えて運行する区間があります。傾斜地など一部は乗入れ禁止です。セルフプレー1ラウンドでの乗入れは有料・組単位で、天候やコースコンディションにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=37",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "FW走行開始時期、誘導切替区間、禁止区域と有料セルフ利用の条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、2025年9月からOUT・INのフェアウェイ走行が可能とされています。ただしOUT3番から4番、IN12番から13番への移動では、一旦電磁誘導に切り替えて運行する区間があります。傾斜地など一部は乗入れ禁止です。セルフプレー1ラウンドでの乗入れは有料・組単位で、天候やコースコンディションにより利用できない場合があります。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=37",
+        "sha256": "4961af8f738f3061fe39fb1771f12f36532ff574a72c1bffca5b33999f933e8a",
+        "capturedAtUtc": "2026-10-30T12:25:17.697005+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "legacyClassificationEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/guide/37.html",
+        "sha256": "37e85e79f22aee7c2c5de4e831c6967a5372bd0ea11f26f38f15de24bf5d079e",
+        "capturedAtUtc": "2026-10-30T12:23:29.880239+00:00",
+        "scope": "Old full facts supported by saved dedicated primary text; only missing sourceType supplied official. Existing text/url/date/basis exactly preserved, no guard exception."
+      },
+      "limits": [
+        "No price amount adopted; source capture is not a present-day availability guarantee. Existing source dates unchanged.",
+        "Fee scope limited to listed self-play1.0R; no statement about caddied-play fee. No cart availability guarantee."
+      ]
+    },
+    {
+      "id": 1631,
+      "name": "PGM南市原ゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "小林光昭設計。高低差が少なく、ホール間にもゆとりがあります。最終ホールの池が攻略ポイント。",
+        "url": "https://booking.pacificgolf.co.jp/guide/168.html",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "小林光昭設計。高低差が少なく、ホール間にもゆとりがあります。最終ホールの池が攻略ポイント。 公式案内では、2025年1月からキャディ付きプレーを廃止し、全組セルフプレーとしています。ラウンドはGPSナビ付き乗用カートによるセルフプレーのみです。",
+        "url": "https://booking.pacificgolf.co.jp/guide/168.html",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "小林光昭設計。高低差が少なく、ホール間にもゆとりがあります。最終ホールの池が攻略ポイント。",
+            "url": "https://booking.pacificgolf.co.jp/guide/168.html",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、2025年1月からキャディ付きプレーを廃止し、全組セルフプレーとしています。ラウンドはGPSナビ付き乗用カートによるセルフプレーのみです。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=168",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "キャディ付き廃止の適用時期と全組セルフの案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、2025年1月からキャディ付きプレーを廃止し、全組セルフプレーとしています。ラウンドはGPSナビ付き乗用カートによるセルフプレーのみです。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=168",
+        "sha256": "cfd2e26b0030973342f7075568130ff3ff8f8a40f7e24d83d48cbb856f3b658c",
+        "capturedAtUtc": "2026-10-30T12:07:46.975135+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "legacyClassificationEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/guide/168.html",
+        "sha256": "58c79fb11b840a9f1d936981c7e71217736e3fec554f5a152f8c204cfa752d39",
+        "capturedAtUtc": "2026-10-30T12:03:04.535468+00:00",
+        "scope": "Old full facts supported by saved dedicated primary text; only missing sourceType supplied official. Existing text/url/date/basis exactly preserved, no guard exception."
+      },
+      "limits": [
+        "No price amount adopted; source capture is not a present-day availability guarantee. Existing source dates unchanged."
+      ]
+    },
+    {
+      "id": 1782,
+      "name": "ラブ・ゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "全ホールパー3のショートコース。9ホールを2周する構成で、最長130ヤードです。",
+        "url": "https://love-gc.com/faq.html",
+        "checked": "2026-10-25",
+        "basis": "公式案内本文の該当記載を確認"
+      },
+      "after": {
+        "text": "全ホールパー3のショートコース。9ホールを2周する構成で、最長130ヤードです。 公式FAQでは、打ちっぱなし練習場・通常ショートコース・早朝ショートコースは予約不要で、スクールのみオンライン予約が必要です。通常は当日フロントで受け付けますが、早朝のフロント受付は7:30からです。それより前は受付前のバインダーへの記名、またはQRコードによるオンライン受付を利用します。",
+        "url": "https://love-gc.com/faq.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "全ホールパー3のショートコース。9ホールを2周する構成で、最長130ヤードです。",
+            "url": "https://love-gc.com/faq.html",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文の該当記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式FAQでは、打ちっぱなし練習場・通常ショートコース・早朝ショートコースは予約不要で、スクールのみオンライン予約が必要です。通常は当日フロントで受け付けますが、早朝のフロント受付は7:30からです。それより前は受付前のバインダーへの記名、またはQRコードによるオンライン受付を利用します。",
+            "url": "https://love-gc.com/faq.html",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "種別ごとの予約要否と早朝フロント開始前の受付方法を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式FAQでは、打ちっぱなし練習場・通常ショートコース・早朝ショートコースは予約不要で、スクールのみオンライン予約が必要です。通常は当日フロントで受け付けますが、早朝のフロント受付は7:30からです。それより前は受付前のバインダーへの記名、またはQRコードによるオンライン受付を利用します。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://love-gc.com/faq.html",
+        "sha256": "fc5101d9ec665a495a6c02d1bfcaee9e353bbdb88d8e8e48fc65afa31e9a8275",
+        "capturedAtUtc": "2026-10-30T12:23:43.537582+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "legacyClassificationEvidence": {
+        "url": "https://love-gc.com/faq.html",
+        "sha256": "fc5101d9ec665a495a6c02d1bfcaee9e353bbdb88d8e8e48fc65afa31e9a8275",
+        "capturedAtUtc": "2026-10-30T12:23:43.537582+00:00",
+        "scope": "Old full facts supported by saved dedicated primary text; only missing sourceType supplied official. Existing text/url/date/basis exactly preserved, no guard exception."
+      },
+      "limits": [
+        "No price amount adopted; source capture is not a present-day availability guarantee. Existing source dates unchanged.",
+        "Old allpar3/9holes twice/max130Y is explicitly restated in FAQ; full physical18H claim not newly adopted or resolved.",
+        "Early-round existing budget conditions (finish09:00/own clubs and balls) are not relaxed by reservation-free wording; rental generality not adopted.",
+        "予約不要は受付方法のみで、早朝9時終了/自前クラブ・ボール/貸出なし等の利用条件を解除しない。"
+      ]
+    }
+  ]
+}
