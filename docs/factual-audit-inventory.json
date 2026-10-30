@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-30T00:16:25.688712+00:00",
+  "snapshotAt": "2026-10-30T01:06:26.741334+00:00",
   "artifactStatus": "validated_snapshot",
   "repository": "shinjigolfguts-cmd/golf-guts-japan",
   "linkBase": "repository_root",
@@ -1970,6 +1970,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 317,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "http://www.sendai-airport-cc.jp/index.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Source announcement retained as dated claim; no total holes from news, no tee yardage or pink-tee effective removal date inference. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 318,
       "field": "officialUrl",
       "source": {
@@ -2000,6 +2020,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 319,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/21.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "ホテルからの蔵王/市街地眺望と区別。全ホール保証なし。"
     },
     {
       "id": 320,
@@ -2795,6 +2831,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 352,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_352_rail",
+        "auditDocument": "docs/corrections/2026-10-30-kushigata352-rail.json",
+        "fieldEvidenceUrl": "https://www.kushigata.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "3c8f6a72d263e0d1a573ce551435aa964836c329",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "rail_lastmile_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Saved official approximate taxi time/fare and clubbus absence; latest conditions confirmation retained. No whole-facility validation."
+    },
+    {
       "id": 353,
       "field": "officialUrl",
       "source": {
@@ -2827,6 +2879,46 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 354,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.park-resort.com/golf/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No lodging/included meal inference. Existing holes/par/design/terrain remain exact; course page warns images may differ after improvements. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 356,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.shitadajo-cc.com/access.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Preserve 平常時 and exact origin. Do not confuse with expressway Kawasaki interchange or 三条燕IC timing. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 356,
       "field": "officialUrl",
       "source": {
@@ -2841,6 +2933,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 356,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.shitadajo-cc.com/access.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Original HTML whitespace normalized; explicit 車, not taxi/bus. No shuttle inference."
     },
     {
       "id": 357,
@@ -4201,6 +4309,22 @@
     },
     {
       "id": 435,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://banryugolf.com/itocc/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "距離のみ、所要時間は推定しない。施設固有ヘッダーに明記。"
+    },
+    {
+      "id": 435,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -4230,6 +4354,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 440,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.gatsby-gc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "アウトレット迄3分は別目的地で除外。ETC条件は保存原文にないため追加しない。元の距離区分2IC保持。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 440,
@@ -4541,6 +4685,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 471,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://forest-gc.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "福井平野の眺望のみ追加。既存の標高・日本海・白山連峰は旧booking segmentに保持。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 476,
@@ -6804,6 +6968,26 @@
     },
     {
       "id": 784,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "http://www.elmcc.com/access/access.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Same HTML table row verified; no shortcut promise; existing booking both IC categories preserved. No rail/taxi inference. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 784,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -7101,6 +7285,22 @@
     },
     {
       "id": 797,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.shibetsu-cc.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "休止告知の掲載日・開始日・再開予定は保存本文にない。checked2026-10-30は保存資料確認日で、当日の営業現況保証ではない。baseline diningはnullで旧レストラン有の文は存在しない。食事提供ありとは推定しない。 Closure notice publication date is unknown. Captured homepage listing only, not certified current operational status. Check before visit."
+    },
+    {
+      "id": 797,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -7114,6 +7314,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 797,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.shibetsu-cc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "既存クラブバスなしのbooking文と出典日付を保持。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 798,
@@ -7148,6 +7368,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 799,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://masari.chateraisegolf.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "全長表示のみ。標準ティー/当日プレー距離と断定しない。既存練習場250ydとは別。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 800,
       "field": "officialUrl",
       "source": {
@@ -7162,6 +7402,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 802,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/14.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Airport origin only, not IC. Booking 千歳東IC category retained. Source target PLEASURES section, not PGM navigation. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 802,
@@ -7345,6 +7605,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 819,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://miyagicc.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No specific mountain invented; not every hole. Fairway riding statement not generalized across weather/operations."
+    },
+    {
       "id": 820,
       "field": "officialUrl",
       "source": {
@@ -7447,6 +7723,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 828,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next4",
+        "auditDocument": "docs/corrections/2026-10-30-next4-saved-facts.json",
+        "fieldEvidenceUrl": "https://minpo-course.com/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "69cac82c48d05a8feb857156f20d1b328a5045ed",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Preserve entire existing no-club-bus booking segment including date2026-10-25; official taxi segment checked2026-10-30. No summing partial car-route distances. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 830,
@@ -7717,6 +8013,46 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 846,
+      "field": "stay",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://bncc.tatemono-golf.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "宿泊プラン/料金/食事込みを推定しない。元の営業日・宿泊プラン・入浴条件確認注意保持。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 847,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/global/golfCourse/fukushima/onahamacc/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "元の2026年4月再開/掲載プラン11月30日までという期間を保持。昼食無料とは言わず、ノンアルコールビールも別料金。時刻は食事提供とドリンクのみを区別。 Missing sourceType in retained old official segment is classification supplementation only from old basis/source URL. Before unchanged; old text/date/URL/basis preserved, not newly reverified. Separate opening-hours listing says weekdays06:30. Restaurant06:00 text is not guarantee of entrance time; do not silently reconcile the discrepancy. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 847,
@@ -8156,6 +8492,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 955,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next4",
+        "auditDocument": "docs/corrections/2026-10-30-next4-saved-facts.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/69.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "69cac82c48d05a8feb857156f20d1b328a5045ed",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Course-specific COURSE GUIDE/PLEASURES text supports Mount Fuji view from course only. Does not promise every-hole views, guaranteed visibility, seasonal/weather conditions, or uninterrupted panorama."
+    },
+    {
       "id": 957,
       "field": "officialUrl",
       "source": {
@@ -8234,6 +8586,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 964,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.gotembagolf.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Only No.8 scope, not every-hole mountain view. Sister course Belle View Nagao address and facilities excluded."
+    },
+    {
       "id": 965,
       "field": "officialUrl",
       "source": {
@@ -8248,6 +8616,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 965,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/166.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "全18Hから見えるとはしない。天候による視認保証なし。PGM他施設カード不使用。"
     },
     {
       "id": 966,
@@ -8280,6 +8664,42 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 967,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.shuzenji-cc.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No all-hole view guarantee. 1B plan conditions and nearby hot spring not generalized."
+    },
+    {
+      "id": 968,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/jurigi/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No travel minutes supported. Specific competition plans and locker fees not generalized. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 968,
@@ -8600,6 +9020,42 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1035,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://enzan-cc.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Seasonal landscape, not current bloom or foliage forecast."
+    },
+    {
+      "id": 1036,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://zuien.net/narusawa/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "掲載メニュー例。現提供・営業時間・価格を保証せず、元の変更注意と朝食情報を保持。 Menu examples as listed at saved acquisition, not specialty/current availability guarantee. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1036,
@@ -10576,6 +11032,22 @@
     },
     {
       "id": 1380,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next4",
+        "auditDocument": "docs/corrections/2026-10-30-next4-saved-facts.json",
+        "fieldEvidenceUrl": "https://kyoda-gc.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "69cac82c48d05a8feb857156f20d1b328a5045ed",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Exact facility-specific title/footer supplies3km, not travel time. Nearby recommended美らオーチャードPar72 excluded."
+    },
+    {
+      "id": 1380,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -10773,6 +11245,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 1511,
+      "field": "stay",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.hakonecc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "定休対象はロッジ、ゴルフ場全体ではない。既存定員/客室/門限を元10-24segmentで保持。 Missing sourceType in retained old official segment is classification supplementation only from old basis/source URL. Before unchanged; old text/date/URL/basis preserved, not newly reverified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1513,
       "field": "officialUrl",
       "source": {
@@ -10787,6 +11279,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1513,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.lake-wood.co.jp/hcc/index.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Not every hole; earlier specific first-hole view retained. Other Lakewood group facilities excluded. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1515,
@@ -10974,6 +11486,26 @@
     },
     {
       "id": 1558,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "http://www.lordland-golf.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "New origins only; preserve existing 前橋/渋川伊香保 times and original date/source. Already existing 高崎駅taxi timing not repeated. Missing sourceType in retained old segment classified official from existing official basis and source URL; old text/date unchanged and not freshly reverified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1558,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -11003,6 +11535,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1559,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next18",
+        "auditDocument": "docs/corrections/2026-10-30-next18-saved-facts.json",
+        "fieldEvidenceUrl": "http://www.shimoakima.co.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "東京→駅約60分を最終区間に混ぜない。13名以上予約の首都圏クラブバスは別サービスなのでこの駅タクシー文には混在させない。"
     },
     {
       "id": 1560,
@@ -11117,6 +11665,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 1569,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next4",
+        "auditDocument": "docs/corrections/2026-10-30-next4-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.tokyu-sports.com/golf/tamagawa/info/150617-01_copy.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "69cac82c48d05a8feb857156f20d1b328a5045ed",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "3min applies only bus-stop→start house. Bus-ride duration absent. Do not present station→club as3min, and do not infer bus frequency."
+    },
+    {
       "id": 1572,
       "field": "car",
       "source": {
@@ -11147,6 +11711,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1736,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://chigasaki.golfdigest.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "9H×2は施設総ホール数18への変更ではない。空き枠保証なし。既存9H/par36/徒歩/手引きカート等は元segmentを保持。 Retained old sourceType classified official from existing basis and facility URL, old text/date unchanged. Two official segments retain separate sources/dates. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1740,
@@ -11500,6 +12084,22 @@
     },
     {
       "id": 1794,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://sunshine-cc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "具体メニュー/営業時間/当日空席はこの保存ページから確定しない。"
+    },
+    {
+      "id": 1794,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -11513,6 +12113,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1794,
+      "field": "stay",
+      "source": {
+        "origin": "saved_primary_next11",
+        "auditDocument": "docs/corrections/2026-10-30-next11-saved-facts.json",
+        "fieldEvidenceUrl": "https://sunshine-cc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "浴場設備とプラン別制限を同時記載。宿泊有無・温泉・サウナは推定しない。 Bathing only, no lodging availability claim."
     },
     {
       "id": 1799,
@@ -11549,7 +12165,7 @@
   ],
   "gitPending": [],
   "counts": {
-    "publishedFields": 612,
+    "publishedFields": 646,
     "publishedFacilities": 410,
     "gitPendingFields": 0,
     "gitPendingFacilities": 0,
@@ -11557,7 +12173,7 @@
     "allFacilitiesAllFieldsComplete": 0,
     "originalAuditLedgerDecrement": 0,
     "areaFields": 1,
-    "sevenComparisonFieldChanges": 346
+    "sevenComparisonFieldChanges": 380
   },
   "limitations": [
     "Field-level selected changes only; no facility is certified fully complete.",
@@ -13344,12 +13960,19 @@
     "unionFields": 49,
     "queueSnapshotCaveat": "The historical queue hash differed from later queue bytes; exact26targetvalues and archivedsource hashes were checked. Original snapshot preserved, no currentqueue completeness claim."
   },
-  "snapshotDataCommit": "e075014015182e0517c73e87aaff0e77a716ea98",
+  "snapshotDataCommit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
   "latestPublicationScope": {
-    "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
-    "fields": 14,
-    "facilities": 11,
-    "checkedDatesPreserved": true
+    "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+    "fields": 18,
+    "facilities": 16,
+    "checkedDatesPreserved": true,
+    "browserScope": {
+      "representativeFacilities": 6,
+      "representativeFields": 8,
+      "remainingIndividualFieldBrowserChecks": 10,
+      "mobileTested": false,
+      "normalNavigationTested": false
+    }
   },
   "preservedTimeScopeOverlayBaseDataCommit": "ccdeb02f0d90b1187619620ff21a1f6fadc8c221",
   "latestSeparateUnpublishedCandidates": {
@@ -13360,10 +13983,10 @@
     "optionalUrlImprovementsSeparate": 4
   },
   "latestMechanicalCoverageSnapshot": {
-    "dataCommit": "e075014015182e0517c73e87aaff0e77a716ea98",
+    "dataCommit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
     "comparisonCells": 12600,
-    "nonempty": 8958,
-    "empty": 3642,
+    "nonempty": 8974,
+    "empty": 3626,
     "officialUrlMissing": 78,
     "definition": "Textpresence only, not accuracy or overallcompletion."
   },
