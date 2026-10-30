@@ -1,0 +1,626 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next15",
+  "parentSha": "edbac569156de213c1dbfbfed74ed4411d4307f8",
+  "inputSha256": "0fe7b4aebae80e0bf6f22f4a48b154d0c66fca344354f9c06061d586953a9d66",
+  "outputSha256": "bd131e6cf6e1a9ced2bef91914311382458fc50281d422b2a306011f765f91e0",
+  "scope": "保存済み成功取得公式資料から13施設15項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 969,
+      "name": "裾野カンツリー倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東名高速道路・裾野ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220042/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東名高速道路・裾野ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式では、裾野ICと駒門スマートICから車で15分と案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220042/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "東名高速道路・裾野ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220042/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式では、裾野ICと駒門スマートICから車で15分と案内しています。",
+            "url": "https://www.susono-cc.co.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式の施設アクセス表示を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only",
+      "sourceEvidence": {
+        "id": 969,
+        "requestedUrl": "https://www.susono-cc.co.jp/",
+        "startedAtUtc": "2026-10-29T15:29:47.616362+00:00",
+        "status": 200,
+        "finalUrl": "https://www.susono-cc.co.jp/",
+        "sha256": "eec1f4a56abca833ad0e7d9d5ec3466162d601f661cf28a5bc07958ae2da7ce0",
+        "completedAtUtc": "2026-10-29T15:29:53.601693+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 820,
+      "name": "宮城蔵王カントリークラブ ロイヤルコース",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "蔵王連峰を見渡せるコースです。",
+        "url": "https://www.daiwaroyalgolf.jp/miyagizaou_cc/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "公式の対象コース眺望説明を確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only",
+      "sourceEvidence": {
+        "id": 820,
+        "requestedUrl": "https://www.daiwaroyalgolf.jp/miyagizaou_cc/",
+        "startedAtUtc": "2026-10-29T15:29:47.619946+00:00",
+        "status": 200,
+        "finalUrl": "https://www.daiwaroyalgolf.jp/miyagizaou_cc/",
+        "sha256": "a2d2d2a57c4ec034ef8defafcd517a0b23a101408eb45df8ae8f9d06d84ce4a6",
+        "completedAtUtc": "2026-10-29T15:29:52.667804+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 851,
+      "name": "大新潟カントリークラブ 三条コース",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "北陸自動車道・三条燕ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150028/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "北陸自動車道・三条燕ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式の三条コース案内では、北陸自動車道・三条燕ICから16km。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150028/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "北陸自動車道・三条燕ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150028/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の三条コース案内では、北陸自動車道・三条燕ICから16km。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/niigata/dainiigata_sanjo/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式の施設アクセス表示を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only",
+      "sourceEvidence": {
+        "id": 851,
+        "requestedUrl": "https://reserve.accordiagolf.com/golfCourse/niigata/dainiigata_sanjo/",
+        "startedAtUtc": "2026-10-29T15:29:52.667882+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/niigata/dainiigata_sanjo/",
+        "sha256": "54a3ade3d99d428b50c4578ee311ca697d61642149849e54f26265889c9fd30f",
+        "completedAtUtc": "2026-10-29T15:29:59.063856+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1517,
+      "name": "横浜カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "西コースは2014～16年にクーア＆クレンショーが改修。起伏と従来の地形を生かし、歩いて楽しむクラシックな設計です。",
+        "url": "https://www.yokohama-cc.jp/west/",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "西コースは2014～16年にクーア＆クレンショーが改修。起伏と従来の地形を生かし、歩いて楽しむクラシックな設計です。 公式概要では、東コースは18ホール・パー73でキャディ付きまたはセルフの乗用カートプレー、西コースは18ホール・パー71でキャディ付きの歩行プレーです。",
+        "url": "https://www.yokohama-cc.jp/west/",
+        "checked": "2026-10-24",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "西コースは2014～16年にクーア＆クレンショーが改修。起伏と従来の地形を生かし、歩いて楽しむクラシックな設計です。",
+            "url": "https://www.yokohama-cc.jp/west/",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式概要では、東コースは18ホール・パー73でキャディ付きまたはセルフの乗用カートプレー、西コースは18ホール・パー71でキャディ付きの歩行プレーです。",
+            "url": "https://www.yokohama-cc.jp/aboutus/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式のコース別特徴・利用方式を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only Retained old official segment sourceType classification only; before and old text/date/url/basis unchanged, no new verification of old renovation claims.",
+      "sourceEvidence": {
+        "id": 1517,
+        "requestedUrl": "https://www.yokohama-cc.jp/aboutus/",
+        "startedAtUtc": "2026-10-29T15:29:53.601750+00:00",
+        "status": 200,
+        "finalUrl": "https://www.yokohama-cc.jp/aboutus/",
+        "sha256": "1eafa8b5808baf6219a321334df7a3d33ae7fbfe2cbf18f080a0193fab71db78",
+        "completedAtUtc": "2026-10-29T15:30:00.564505+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 852,
+      "name": "十日町カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：ベンツ＆ポーレット社。練習場は200ヤード・17打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150018/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：ベンツ＆ポーレット社。練習場は200ヤード・17打席の掲載。 公式では、苗場コースは池越えが多く、つつじコースは段丘を生かし、信濃コースには長いロングホールや2段ドッグレッグがあると紹介しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150018/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：ベンツ＆ポーレット社。練習場は200ヤード・17打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150018/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式では、苗場コースは池越えが多く、つつじコースは段丘を生かし、信濃コースには長いロングホールや2段ドッグレッグがあると紹介しています。",
+            "url": "https://tokamachi-country.club/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式のコース別特徴・利用方式を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only",
+      "sourceEvidence": {
+        "key": "852",
+        "requestedUrl": "https://tokamachi-country.club/",
+        "retrievedAtUtc": "2026-10-29T15:35:37.876523+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://tokamachi-country.club/",
+        "sha256": "2a31bfdbfc7f09499868e62a9be5b827a42a997a8f622c31cf33aa0852d0ec86",
+        "bytes": 36796,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 973,
+      "name": "豊岡国際カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東名高速道路・袋井ICから15km以内／新東名高速道路・森掛川ICから15km以内／新東名高速道路・浜松浜北ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220051/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東名高速道路・袋井ICから15km以内／新東名高速道路・森掛川ICから15km以内／新東名高速道路・浜松浜北ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセスでは、新東名の新磐田スマートIC（ETC）から約7分、浜松浜北ICから14分、森掛川ICから15分。東名の袋井IC・磐田ICから各20分、浜松ICから30分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220051/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "東名高速道路・袋井ICから15km以内／新東名高速道路・森掛川ICから15km以内／新東名高速道路・浜松浜北ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220051/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、新東名の新磐田スマートIC（ETC）から約7分、浜松浜北ICから14分、森掛川ICから15分。東名の袋井IC・磐田ICから各20分、浜松ICから30分。",
+            "url": "https://www.toyookakokusaicc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式の施設アクセス表示を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only",
+      "sourceEvidence": {
+        "key": "973",
+        "requestedUrl": "https://www.toyookakokusaicc.com/",
+        "retrievedAtUtc": "2026-10-29T15:35:53.420371+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.toyookakokusaicc.com/",
+        "sha256": "2f7a89ee4658521e5adebccd519c4c6afa70e6e022501d67f39ee3a7f5d37e9a",
+        "bytes": 120229,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 973,
+      "name": "豊岡国際カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "27ホール・パー107・適度なアップダウン。設計：福井八十八。練習場は30ヤード・10打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220051/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "27ホール・パー107・適度なアップダウン。設計：福井八十八。練習場は30ヤード・10打席の掲載。 公式では、岩室コースは9ホールを2回ラウンドする方式と案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220051/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー107・適度なアップダウン。設計：福井八十八。練習場は30ヤード・10打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220051/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式では、岩室コースは9ホールを2回ラウンドする方式と案内しています。",
+            "url": "https://www.toyookakokusaicc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式のコース別特徴・利用方式を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "selected field only",
+      "sourceEvidence": {
+        "key": "973",
+        "requestedUrl": "https://www.toyookakokusaicc.com/",
+        "retrievedAtUtc": "2026-10-29T15:35:53.420371+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.toyookakokusaicc.com/",
+        "sha256": "2f7a89ee4658521e5adebccd519c4c6afa70e6e022501d67f39ee3a7f5d37e9a",
+        "bytes": 120229,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 857,
+      "name": "ノーブルウッドゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "日本海東北自動車道・中条ICから10km以内／日本海東北自動車道・聖籠新発田ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150045/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "日本海東北自動車道・中条ICから10km以内／日本海東北自動車道・聖籠新発田ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセスでは、聖籠新発田ICから車で約15分、中条ICから車で約10分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150045/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "日本海東北自動車道・中条ICから10km以内／日本海東北自動車道・聖籠新発田ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150045/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、聖籠新発田ICから車で約15分、中条ICから車で約10分。",
+            "url": "https://noblewood-gc.jp/access/",
+            "checked": "2026-10-30",
+            "basis": "対象施設の公式アクセス欄で起点と所要時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Both original booking distance categories retained.",
+      "sourceEvidence": {
+        "key": "857access",
+        "requestedUrl": "https://noblewood-gc.jp/access/",
+        "retrievedAtUtc": "2026-10-29T15:36:19.311838+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://noblewood-gc.jp/access/",
+        "sha256": "852bdb8eaf19479a84055e4e7aaca7d8cb412283fad48241c135b6218130e435",
+        "bytes": 32987,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 978,
+      "name": "フジ天城ゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "伊豆縦貫自動車道・大平ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220007/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "伊豆縦貫自動車道・大平ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセスでは、大平ICからゴルフ場まで約8分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220007/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "伊豆縦貫自動車道・大平ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220007/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、大平ICからゴルフ場まで約8分。",
+            "url": "https://fuji-amagigolf.com/",
+            "checked": "2026-10-30",
+            "basis": "対象施設の公式アクセス欄で起点と所要時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "No taxi/bus mode or inferred route distance added.",
+      "sourceEvidence": {
+        "key": "978",
+        "requestedUrl": "https://fuji-amagigolf.com/",
+        "retrievedAtUtc": "2026-10-29T15:35:53.420991+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://fuji-amagigolf.com/",
+        "sha256": "4f2a74cc135f670c73d1ee5a446aab8232b5e1f81e870e99c03e10226af047fc",
+        "bytes": 46851,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 859,
+      "name": "松ヶ峯カントリー倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、妙高の山並みを望む景観が特徴です。",
+        "url": "https://www.matsugamine-cc.jp/",
+        "checked": "2026-10-30",
+        "basis": "対象施設のコース紹介本文で眺望の対象と範囲を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "No all-hole or weather visibility guarantee;27holes already baseline, not counted new.",
+      "sourceEvidence": {
+        "key": "859",
+        "requestedUrl": "https://www.matsugamine-cc.jp/",
+        "retrievedAtUtc": "2026-10-29T15:35:28.914734+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.matsugamine-cc.jp/",
+        "sha256": "9e88343cd0d883606bcc05035c8b81cd558ca413376a67a7782f3fb99b57e958",
+        "bytes": 125829,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 981,
+      "name": "富士チサンカントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "富士山の南側に広がり、季節ごとの富士山の姿を眺められます。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220071/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載施設案内",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "富士山の南側に広がり、季節ごとの富士山の姿を眺められます。 公式のコース紹介では、駿河・富士・白糸の各コースで全ホールから富士山を望めると案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220071/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "富士山の南側に広がり、季節ごとの富士山の姿を眺められます。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220071/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORA掲載施設案内",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式のコース紹介では、駿河・富士・白糸の各コースで全ホールから富士山を望めると案内しています。",
+            "url": "https://booking.pacificgolf.co.jp/guide/67.html",
+            "checked": "2026-10-30",
+            "basis": "対象施設のコース紹介本文で眺望の対象と範囲を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "New all-hole scope beyond generic booking view; source-reported terrain visibility only, not weather guarantee. Saved successful981after target only; no original redirect retried.",
+      "sourceEvidence": {
+        "key": "981after",
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/67.html",
+        "retrievedAtUtc": "2026-10-29T15:36:19.310908+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/67.html",
+        "sha256": "8bb189c40c9599ecdeef00d8d61ee19fccf574c4271de6a7ca33469ab40088bb",
+        "bytes": 150611,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 984,
+      "name": "富士平原ゴルフクラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、全ホールから富士山を望めると案内しています。",
+        "url": "https://fujiheigen-gc.com/",
+        "checked": "2026-10-30",
+        "basis": "対象施設のコース紹介本文で眺望の対象と範囲を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Reported landscape, not guarantee in any weather. Not conflated with nearby similarly named clubs.",
+      "sourceEvidence": {
+        "key": "984",
+        "requestedUrl": "https://fujiheigen-gc.com/",
+        "retrievedAtUtc": "2026-10-29T15:36:01.919574+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://fujiheigen-gc.com/",
+        "sha256": "5fd5eb4cca2afe395dac846c683cd2cc4cf140bff82c95fc8b4629efe426ef5b",
+        "bytes": 41497,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 855,
+      "name": "新潟ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、JR越後線・巻駅からタクシーで約10分、上越新幹線・燕三条駅からタクシーで約40分。",
+        "url": "https://niigata-golf.com/",
+        "checked": "2026-10-30",
+        "basis": "公式アクセス欄で駅名、タクシー利用と所要時間を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Taxi explicit for both, no bus inferred.",
+      "sourceEvidence": {
+        "id": 855,
+        "requestedUrl": "https://niigata-golf.com/",
+        "startedAtUtc": "2026-10-29T15:33:05.510500+00:00",
+        "status": 200,
+        "finalUrl": "https://niigata-golf.com/",
+        "sha256": "9c43417605986dc8247c04a44f52ddb02151e3036c4ab91214fd6f6eada06c26",
+        "completedAtUtc": "2026-10-29T15:33:12.525138+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 855,
+      "name": "新潟ゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、北陸自動車道・巻潟東ICから車で約15分。",
+        "url": "https://niigata-golf.com/",
+        "checked": "2026-10-30",
+        "basis": "対象施設の公式アクセス欄で起点と所要時間を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Heading explicitly establishes driving; no distance inferred.",
+      "sourceEvidence": {
+        "id": 855,
+        "requestedUrl": "https://niigata-golf.com/",
+        "startedAtUtc": "2026-10-29T15:33:05.510500+00:00",
+        "status": 200,
+        "finalUrl": "https://niigata-golf.com/",
+        "sha256": "9c43417605986dc8247c04a44f52ddb02151e3036c4ab91214fd6f6eada06c26",
+        "completedAtUtc": "2026-10-29T15:33:12.525138+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 977,
+      "name": "富嶽カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "新東名高速道路・新清水ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220062/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "新東名高速道路・新清水ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセスでは、新東名高速道路・新清水ICから3分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220062/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "新東名高速道路・新清水ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220062/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、新東名高速道路・新清水ICから3分。",
+            "url": "https://fugakucc.com/",
+            "checked": "2026-10-30",
+            "basis": "対象施設の公式アクセス欄で起点と所要時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Separate route text 約2.5km(約3分)で右折し進入路へ concerns approach turn, not full-course distance; not included. Original booking5km以内 retained.",
+      "sourceEvidence": {
+        "id": 977,
+        "requestedUrl": "https://fugakucc.com/",
+        "startedAtUtc": "2026-10-29T15:33:05.511013+00:00",
+        "status": 200,
+        "finalUrl": "https://fugakucc.com/",
+        "sha256": "bd74bdeaf3920497426ef8aa9a2e2253900e58982383187d8542d6fcfbf3e5af",
+        "completedAtUtc": "2026-10-29T15:33:10.286865+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
