@@ -1,0 +1,165 @@
+{
+  "baseline": "29426781decefcd3d124b27ecf7de6dbbea63150",
+  "status": "proposed_not_published",
+  "inputSha256": "3398555125518ffceb4c69c5e51b41ffdb5a3170e14ac7df96933f66d364353c",
+  "outputSha256": "ab3d208ea36094146644c4536d43b88b3e463040785636fe89699610fd587747",
+  "scope": "Three limited use-condition additions; all old text/date/URL/basis retained. 700 legacy sourceType supported by complete saved official introduction; historical capture not retrospectively certified. 896 old booking facts not reverified.",
+  "changes": [
+    {
+      "id": 700,
+      "name": "別府ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "鶴見・由布の計36ホール。鶴見は広いフェアウェイが特徴。",
+        "url": "https://booking.pacificgolf.co.jp/guide/133.html",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約"
+      },
+      "after": {
+        "text": "鶴見・由布の計36ホール。鶴見は広いフェアウェイが特徴。 公式のゴルフ場情報では、GPSナビ付き乗用カートでのセルフプレーで、キャディはありません。レンタルクラブ・シューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+        "url": "https://booking.pacificgolf.co.jp/guide/133.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。新しい利用条件と既存情報を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "鶴見・由布の計36ホール。鶴見は広いフェアウェイが特徴。",
+            "url": "https://booking.pacificgolf.co.jp/guide/133.html",
+            "checked": "2026-10-25",
+            "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式のゴルフ場情報では、GPSナビ付き乗用カートでのセルフプレーで、キャディはありません。レンタルクラブ・シューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=133",
+            "checked": "2026-10-30",
+            "basis": "プレー方式と有料レンタルの事前確認条件を確認",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "scope": [
+        "ラウンドスタイル",
+        "キャディ",
+        "レンタルクラブ",
+        "レンタルシューズ"
+      ],
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=133",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=133",
+        "sha256": "3deab90eb7c35e9c258d6014c82ed25a0f713175513ec16c2907bc926b95b8d3",
+        "startedAtUtc": "2026-10-30T10:09:12.956200+00:00",
+        "completedAtUtc": "2026-10-30T10:09:16.913666+00:00",
+        "httpStatus": 200
+      },
+      "legacyClassificationEvidence": {
+        "sourceURL": "https://booking.pacificgolf.co.jp/guide/133.html",
+        "sha256": "279dfd6d04756053776f37324e4e10e06a440250239887f572935b1f17879f02",
+        "capturedAtUtc": "2026-10-30T10:06:34.435144+00:00",
+        "reviewDate": "2026-10-30",
+        "legacyCheckedUnchanged": "2026-10-25",
+        "supportedOldScope": [
+          "鶴見・由布の計36ホール",
+          "鶴見の広いフェアウェイ"
+        ],
+        "onlyOldSegmentSourceTypeAdded": "official",
+        "historicalAcquisitionRecertified": false
+      }
+    },
+    {
+      "id": 896,
+      "name": "笹平カントリー倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：レーモンド設計事務所。練習場は60ヤード・8打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210031/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：レーモンド設計事務所。練習場は60ヤード・8打席の掲載。 公式のゴルフ場情報では、乗用カートのフェアウェイ乗入れは有料・組単位です。天候やコースコンディション等により利用できない場合があり、可否は当日の朝に判断されます。ショートホールは安全確保のため乗入れできません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210031/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。新しい利用条件と既存情報を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：レーモンド設計事務所。練習場は60ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210031/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式のゴルフ場情報では、乗用カートのフェアウェイ乗入れは有料・組単位です。天候やコースコンディション等により利用できない場合があり、可否は当日の朝に判断されます。ショートホールは安全確保のため乗入れできません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+            "checked": "2026-10-30",
+            "basis": "有料フェアウェイ乗入れの利用単位・判断時期・除外ホールを確認",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "scope": [
+        "乗用カート フェアウェイ乗入れ"
+      ],
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "sha256": "25aedca5417effe8306650e6dbe240b9b05d722ea7ae4b052d41e2ef4d3a7a5d",
+        "startedAtUtc": "2026-10-30T10:28:18.851423+00:00",
+        "completedAtUtc": "2026-10-30T10:28:23.799806+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 896,
+      "name": "笹平カントリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "GDO施設案内の掲載内容：レストランあり。営業時間 9:00～14:00。昼食 9:00～14:00。メニュー・営業時間は来場日に変更される場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/522103/",
+        "checked": "2026-10-25",
+        "sourceType": "booking",
+        "basis": "あり 営業時間：9:00～14:00 昼食：9:00～14:00（料金：￥1,320～￥1,730） 朝食なし バイキングなし 喫煙席なし"
+      },
+      "after": {
+        "text": "GDO施設案内の掲載内容：レストランあり。営業時間 9:00～14:00。昼食 9:00～14:00。メニュー・営業時間は来場日に変更される場合があります。 公式施設案内では、レストランは昼食時間帯のみ営業し、朝とプレー後は営業していません。コンペパーティの利用は別途相談が必要です。来場日の営業内容は公式案内または施設へご確認ください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/522103/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧GDO情報は今回再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "GDO施設案内の掲載内容：レストランあり。営業時間 9:00～14:00。昼食 9:00～14:00。メニュー・営業時間は来場日に変更される場合があります。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/522103/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "あり 営業時間：9:00～14:00 昼食：9:00～14:00（料金：￥1,320～￥1,730） 朝食なし バイキングなし 喫煙席なし"
+          },
+          {
+            "text": "公式施設案内では、レストランは昼食時間帯のみ営業し、朝とプレー後は営業していません。コンペパーティの利用は別途相談が必要です。来場日の営業内容は公式案内または施設へご確認ください。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当施設のレストラン欄で、昼食時のみの営業と朝・プレー後の非営業、コンペパーティの相談条件を確認。"
+          }
+        ]
+      },
+      "scope": "新公式レストラン営業利用条件のみ。旧GDO時間を再確認/訂正していない。",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "sha256": "25aedca5417effe8306650e6dbe240b9b05d722ea7ae4b052d41e2ef4d3a7a5d",
+        "completedAtUtc": "2026-10-30T10:28:23.799806+00:00",
+        "httpStatus": 200
+      }
+    }
+  ]
+}
