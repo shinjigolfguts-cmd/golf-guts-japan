@@ -1,0 +1,216 @@
+{
+  "status": "reviewed_proposal_not_published",
+  "baseCommit": "bdf9e93d36f5b2c1ed6e792e8763cc5262d02ccb",
+  "inputSha256": "1a30397c6a0c63c572eec0aeca77e69e19e3c16124160e74330c312b570862a8",
+  "outputSha256": "edebb3179cee795fc5cbdb3bfb4e3c08fb0271b39de5f99c9f2ae1736aeafddc",
+  "scope": "Five fields across three facilities. Prior paragraphs and dates retained. 1322 is a dated announcement of a future 2026-11-01 change, not confirmation of implementation. No current operations guarantee.",
+  "patches": [
+    {
+      "id": 1049,
+      "name": "やまびこゴルフ場",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式交通案内では、金沢中心部から車で約40分です。",
+        "url": "https://forestpark-ishikawa.jp/imfomation/yamabikogolf/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "専用ゴルフ場本文の地域起点と車の掲載目安を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式交通案内では、金沢中心部から車で約40分です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://forestpark-ishikawa.jp/imfomation/yamabikogolf/",
+        "sha256": "c0f4717ce336f4222931cb3350d966df5310f8eedab32fe408ccb0ebc20b1fe6",
+        "capturedAtUtc": "2026-10-30T13:32:33.223846+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "金沢中心部という地域起点のみ。金沢駅/IC起点と読み替えない。実走時間保証ではない。"
+      ]
+    },
+    {
+      "id": 1049,
+      "name": "やまびこゴルフ場",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "8ホールのコース。",
+        "url": "https://forestpark-ishikawa.jp/sports/",
+        "checked": "2026-10-25",
+        "basis": "公式本文のホール数表記: 8ホール。コース内の個別ホールを施設として分割せず掲載。"
+      },
+      "after": {
+        "text": "8ホールのコース。 公式案内では、ゴルフプレー終了は16:15、最終受付は15:00です。混雑時は最終受付時間内に受け付けても8ホールを終了できない場合があるため、早めの来場を案内しています。積雪・悪天候により休業する場合があるため、来場前にご確認ください。休業時の電話はメッセージ対応です。",
+        "url": "https://forestpark-ishikawa.jp/sports/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧文・旧日付を保持し、新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "8ホールのコース。",
+            "url": "https://forestpark-ishikawa.jp/sports/",
+            "checked": "2026-10-25",
+            "basis": "公式本文のホール数表記: 8ホール。コース内の個別ホールを施設として分割せず掲載。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、ゴルフプレー終了は16:15、最終受付は15:00です。混雑時は最終受付時間内に受け付けても8ホールを終了できない場合があるため、早めの来場を案内しています。積雪・悪天候により休業する場合があるため、来場前にご確認ください。休業時の電話はメッセージ対応です。",
+            "url": "https://forestpark-ishikawa.jp/imfomation/yamabikogolf/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "コースの終了・最終受付、混雑時の完了制限、悪天候休業と確認方法を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、ゴルフプレー終了は16:15、最終受付は15:00です。混雑時は最終受付時間内に受け付けても8ホールを終了できない場合があるため、早めの来場を案内しています。積雪・悪天候により休業する場合があるため、来場前にご確認ください。休業時の電話はメッセージ対応です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://forestpark-ishikawa.jp/imfomation/yamabikogolf/",
+        "sha256": "c0f4717ce336f4222931cb3350d966df5310f8eedab32fe408ccb0ebc20b1fe6",
+        "capturedAtUtc": "2026-10-30T13:32:33.223846+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "終了/受付はゴルフコースの案内。打放し練習場の月曜午前休/翌日振替は別scopeとして不採用。",
+        "混雑・天候条件を保持。日々の営業保証なし。手引き/担ぎ既featureの同義追加はしない。"
+      ],
+      "legacyClassificationEvidence": {
+        "scope": "旧8ホール全文を専用公式保存本文で支持。旧/sports/本文の再取得ではなく、旧text/url/date/basisを不変にしsourceTypeだけ将来のmixed内で補足する提案。",
+        "url": "https://forestpark-ishikawa.jp/imfomation/yamabikogolf/",
+        "sha256": "c0f4717ce336f4222931cb3350d966df5310f8eedab32fe408ccb0ebc20b1fe6",
+        "capturedAtUtc": "2026-10-30T13:32:33.223846+00:00"
+      }
+    },
+    {
+      "id": 1267,
+      "name": "丸亀パブリックゴルフコース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "塩田跡地のフラットな18ホール。Aは9ホール・パー30、Bは9ホール・パー36。ナイター設備あり。",
+        "url": "https://m-publicgolf.com/course/",
+        "checked": "2026-10-25",
+        "basis": "公式施設・観光案内のコース記載を確認",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "塩田跡地のフラットな18ホール。Aは9ホール・パー30、Bは9ホール・パー36。ナイター設備あり。 公式案内では、営業時間は7:00～22:00、コース受付時間は7:00～19:00で、1月1日を除きます。天候など当コースの都合によりクローズする場合があります。",
+        "url": "https://m-publicgolf.com/course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "塩田跡地のフラットな18ホール。Aは9ホール・パー30、Bは9ホール・パー36。ナイター設備あり。",
+            "url": "https://m-publicgolf.com/course/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・観光案内のコース記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、営業時間は7:00～22:00、コース受付時間は7:00～19:00で、1月1日を除きます。天候など当コースの都合によりクローズする場合があります。",
+            "url": "https://m-publicgolf.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "営業時間とコース受付時間を分け、元日除外と臨時クローズ条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、営業時間は7:00～22:00、コース受付時間は7:00～19:00で、1月1日を除きます。天候など当コースの都合によりクローズする場合があります。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://m-publicgolf.com/",
+        "sha256": "924e60eb0d108dd05d7d0951ab5e8947e165b1426b5b0a0bb7b477090f92443a",
+        "capturedAtUtc": "2026-10-30T14:04:53.345031+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "施設営業時間とコース受付時間を区別。19時をプレー終了や22時を最終スタートと解釈しない。",
+        "当日営業/ナイター利用保証なし。旧18H/パー/地形等は保存のみ。"
+      ]
+    },
+    {
+      "id": 1267,
+      "name": "丸亀パブリックゴルフコース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR丸亀駅から車で約3分です。",
+        "url": "https://m-publicgolf.com/access/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "専用アクセス本文のJR丸亀駅からの車所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、JR丸亀駅から車で約3分です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://m-publicgolf.com/access/",
+        "sha256": "37ffeb351d1667d019217ccfa4b938907d60a4301588fe0c03a5a358dd18864e",
+        "capturedAtUtc": "2026-10-30T14:07:56.675954+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "当日の所要時間・道路混雑は保証しない。タクシー、徒歩、送迎、時刻表や料金は未確認。",
+        "コース受付等既play候補とは別field。旧他欄は再照合しない。"
+      ]
+    },
+    {
+      "id": 1322,
+      "name": "久住高原ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・フラット。設計：オオバ。練習場は250ヤード・11打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440013/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・フラット。設計：オオバ。練習場は250ヤード・11打席の掲載。 公式の2026年10月24日付のお知らせには、2026年11月1日より1番ホールをPAR 5からPAR 4へ、5番ホールをPAR 4からPAR 5へ変更する案内が掲載されています。来場時はスコアカードとコース内の表示をご確認ください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440013/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・フラット。設計：オオバ。練習場は250ヤード・11打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440013/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の2026年10月24日付のお知らせには、2026年11月1日より1番ホールをPAR 5からPAR 4へ、5番ホールをPAR 4からPAR 5へ変更する案内が掲載されています。来場時はスコアカードとコース内の表示をご確認ください。",
+            "url": "https://www.kuju-gc.net/announcement/a0de",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公表日と適用日を分け、対象2ホールのパー変更案内と来場時の確認事項を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の2026年10月24日付のお知らせには、2026年11月1日より1番ホールをPAR 5からPAR 4へ、5番ホールをPAR 4からPAR 5へ変更する案内が掲載されています。来場時はスコアカードとコース内の表示をご確認ください。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://www.kuju-gc.net/announcement/a0de",
+        "sha256": "33ded16a6ff7c6bdea08325f0f8b455c96e1a60f536ac34f8f63840f41a51d3c",
+        "capturedAtUtc": "2026-10-30T14:12:07.762115+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "変更の実施済みを断定しない。取得時の告知内容であって将来の実施保証なし。",
+        "全コース閉鎖・対象ホール休止・工事期間・営業制約の明文はない。不存在保証にも変換しない。",
+        "総パーを計算して旧PAR72の再確認とはしない。添付画像は取得・解釈していない。",
+        "manifest purposeはrail定型文のままだがintendedFieldScopeはplay。親の改修告知レビュー依頼に基づくplay限定reviewで、原manifest不変更。"
+      ]
+    }
+  ]
+}
