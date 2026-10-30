@@ -1,10 +1,126 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-30T01:06:26.741334+00:00",
-  "artifactStatus": "validated_snapshot",
+  "snapshotAt": "2026-10-30T03:42:42.798371+00:00",
+  "artifactStatus": "validated_published_snapshot_with_separate_unpublished_draft_proposals",
   "repository": "shinjigolfguts-cmd/golf-guts-japan",
   "linkBase": "repository_root",
   "fieldReviews": [
+    {
+      "id": 134,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_bus_waiting_supplement1",
+        "auditDocument": "docs/corrections/2026-10-30-checkmate134-bus-waiting.json",
+        "fieldEvidenceUrl": "https://checkmate-cc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "2bac4fa33fa4cec3d76f2625c44ab9e805f5a33c",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "クラブバス待機時の近隣配慮のみ補完。支店名・正しい待機場所は推測しない。旧所要時間・本文・URL・日付・basis保持、旧segmentのsourceType officialは既存施設公式URL/basis分類補足のみ。 Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 147,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_access_condition_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-access-condition-supplements.json",
+        "fieldEvidenceUrl": "https://ogosegc.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c1a347acfbec54f53abb06616f8881c6493074b6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "別駅起点の車26分のみ補完。taxiやバス時間とはしない。旧セルフデー運休/バッグ事前配送を保持。 Old sourceType classified official from prior basis and dedicated facility URL only, old text/date unchanged and not newly verified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 155,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_route_bath_supplements2",
+        "auditDocument": "docs/corrections/2026-10-30-two-scoped-access-bath-facts.json",
+        "fieldEvidenceUrl": "https://www.oarai-golf-club.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0526f8600b66f2d9950c7deca8ee9a1775d22b2b",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "New distinct route:常磐自動車道水戸IC approximately24km; old水戸大洗IC6km/route retains separate origin. Only road/IC/distance; no time inference. Old national-route51 directions not reverified. Rail source labelsJR常磐線大洗駅: do not adopt questionable railway label or alter old rail. Website maintenanceOct23–Nov4planned is website functionality, NOT golf-course closure. Old official classification supplement only; old text/date/url/basis retained. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 156,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_access_condition_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-access-condition-supplements.json",
+        "fieldEvidenceUrl": "https://www.ohtone.co.jp/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c1a347acfbec54f53abb06616f8881c6493074b6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "車内クラブ持込ケース必須の安全条件。平日コンペ10名以上の守谷7:40臨時便は相談条件、常時運行としない。旧予約期限・25〜35分等を保持。 1月・2月クラブ発14:00便減便・道路事情の遅延も新segmentに保持。通常便の常時増便ではない。 Old sourceType classified official from prior basis and dedicated facility URL only, old text/date unchanged and not newly verified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 161,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_outside115_next5",
+        "auditDocument": "docs/corrections/2026-10-30-five-null-field-supplements.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/27.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "ロッジ側施設である範囲を明記。ゴルフ場クラブハウスの食事や食事込みプランに転用しない。"
+    },
+    {
+      "id": 169,
+      "field": "stay",
+      "source": {
+        "origin": "saved_primary_route_bath_supplements2",
+        "auditDocument": "docs/corrections/2026-10-30-two-scoped-access-bath-facts.json",
+        "fieldEvidenceUrl": "https://akagi-cc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "0526f8600b66f2d9950c7deca8ee9a1775d22b2b",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "New distinct bath scope: clubhouse bath as well as lodge terrace bath uses natural hot-spring water. Existing stay mentions lodge terrace spring only. Keep lodge16twins and prices as old evidence, no new price/current availability check. Distinguish clubhouse bath from lodge in adjacent赤城ロマンドvilla area; no public day-use access promise or therapeutic claim. Old official classification supplement only; old text/date/url/basis retained. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
     {
       "id": 177,
       "field": "rail",
@@ -1044,6 +1160,38 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 263,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_outside115_next5",
+        "auditDocument": "docs/corrections/2026-10-30-five-null-field-supplements.json",
+        "fieldEvidenceUrl": "http://shikoku-cc.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "徳島市内/高松市内の別起点を混在させない。"
+    },
+    {
+      "id": 263,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_outside115_next5",
+        "auditDocument": "docs/corrections/2026-10-30-five-null-field-supplements.json",
+        "fieldEvidenceUrl": "http://shikoku-cc.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "車をtaxiに無断変更しない。古い料金目安は現運賃保証不可。"
     },
     {
       "id": 265,
@@ -2783,6 +2931,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 346,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_final115_next6",
+        "auditDocument": "docs/corrections/2026-10-30-next6-scoped-conditions.json",
+        "fieldEvidenceUrl": "https://www.ehgc.jp/about.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "キャディ先着枠、原則4人/状況による2サム、平日2B除外期間を全て保持。全期間2B保証やキャディ確約にしない。 Source clause specifies exclusion periods but no concrete dates; booking confirmation explicitly required. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 347,
       "field": "officialUrl",
       "source": {
@@ -2799,6 +2967,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 348,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_play_transport_supplements3",
+        "auditDocument": "docs/corrections/2026-10-30-three-scoped-transport-play-supplements.json",
+        "fieldEvidenceUrl": "https://itoigawa-cc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "83011dcb3be921d3a25554cae0c9f171f3e11e87",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Checkin30minutes before start; choice caddie/self; caddies first-reserved. Own CLUB INFORMATION table only. Adjacent openinghours seasonal exception relates to hours, which are not proposed. Historical covid/seasonal fee/cashback/calendar notices are not adopted; availability of requested caddie not guaranteed. Old text/date/url/basis retained. Only missing old sourceType official classification supplemented where supported by prior operator-specific URL/basis. No old condition revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 350,
       "field": "officialUrl",
       "source": {
@@ -2813,6 +3001,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 351,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://www.kashiwazaki-cc.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "佐渡コース全ホールのみで、全27H/常時見えるとの保証にしない。旧レストラン景観出典は再検証しない。 Old sourceType classified official from prior basis and dedicated facility URL only, old text/date unchanged and not newly verified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 352,
@@ -4024,6 +4232,26 @@
     },
     {
       "id": 403,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_final115_next6",
+        "auditDocument": "docs/corrections/2026-10-30-next6-scoped-conditions.json",
+        "fieldEvidenceUrl": "https://www.kosugi.cc/access/index.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "車約3分明記。公共交通の距離を時間やタクシーへ変換しない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 403,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -4166,6 +4394,22 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 420,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_outside115_next5",
+        "auditDocument": "docs/corrections/2026-10-30-five-null-field-supplements.json",
+        "fieldEvidenceUrl": "http://www.enrei.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "全ホール・常時視認の保証にしない。"
+    },
+    {
       "id": 428,
       "field": "stay",
       "source": {
@@ -4276,6 +4520,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 430,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_final115_next6",
+        "auditDocument": "docs/corrections/2026-10-30-next6-scoped-conditions.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/ashitaka/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "専用コース本文のみ。全ホール/常時視界/宿泊等を推定しない。"
+    },
+    {
       "id": 431,
       "field": "officialUrl",
       "source": {
@@ -4290,6 +4550,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 431,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_final115_next6",
+        "auditDocument": "docs/corrections/2026-10-30-next6-scoped-conditions.json",
+        "fieldEvidenceUrl": "https://ashinokocc.com/english/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Course欄で各ティーラベルと距離を明記。料金表とは別の施設仕様欄。男女資格・総距離への加算・現営業保証はしない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 434,
@@ -4406,6 +4686,102 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 450,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://kyowa-country.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "月替料理の掲載区分のみ。旧予約朝食/当日営業を再検証せず価格/名物/当日提供保証なし。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 454,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://akechi-club.com/kashio/access",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "既存美濃加茂IC5km以内を維持し、別起点の公式経路情報だけ補完。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 456,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_outside115_next5",
+        "auditDocument": "docs/corrections/2026-10-30-five-null-field-supplements.json",
+        "fieldEvidenceUrl": "https://akechi-club.com/shinsaiji/access",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "車をtaxiに補完しない。他の明智系列コースと分離。"
+    },
+    {
+      "id": 457,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://akechi-club.com/hirukawa/access",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "車をタクシーとしない。既存bookingクラブバスなしは今回未再確認の旧segmentに保持。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 460,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://iwamura-golf.co.jp/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "明文taxi約10分。既存29人乗りバス/2週間前電話予約/発着場所確認を完全保持。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 465,
@@ -4927,6 +5303,26 @@
       }
     },
     {
+      "id": 490,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_transport_use_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-transport-use-supplements.json",
+        "fieldEvidenceUrl": "http://www.akcgolf.com/access.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "441b6f42b1e8beb21fa47b3a4440f25e35df195a",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "新補完は有年/上郡の別駅からの車のみ。taxi/busへの変更なし。旧相生30分保持、旧checked更新なし。車アクセスの龍野西ICに付く原文中国道という路線表記は使用しない。 Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 492,
       "field": "car",
       "source": {
@@ -4971,6 +5367,26 @@
       "facilityIncludedInBrowserSample": true,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 493,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_play_transport_supplements3",
+        "auditDocument": "docs/corrections/2026-10-30-three-scoped-transport-play-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/hyogo/atagohara/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "83011dcb3be921d3a25554cae0c9f171f3e11e87",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Own header川西小花出口 precise3km. Old新名神川西IC10kmcategory and阪神川西小花IC5kmcategory retained. Source出口 vs oldIC nomenclature kept, no renaming assertion or time inference. Desktop/mobile duplicates are one source, not two routes. Old text/date/url/basis retained. Only missing old sourceType official classification supplemented where supported by prior operator-specific URL/basis. No old condition revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 498,
@@ -5327,6 +5743,26 @@
       }
     },
     {
+      "id": 524,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/osaka/izumisano/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "専用3コース紹介の比較であり予約フィルター/近隣カード不使用。旧27Hその他は新公式で一括再検証しない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 528,
       "field": "rail",
       "source": {
@@ -5649,6 +6085,46 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 563,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_transport_use_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-transport-use-supplements.json",
+        "fieldEvidenceUrl": "https://www.token-tado.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "441b6f42b1e8beb21fa47b3a4440f25e35df195a",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "旧桑名東IC11kmは別起点で保持。湾岸桑名IC車30分のみ新公式scope。名古屋30〜40分/大阪2時間など上流市内起点や宿泊施設への経路と混合しない。 Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 564,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_range_bus_conditions2",
+        "auditDocument": "docs/corrections/2026-10-30-club-bus-and-range-conditions.json",
+        "fieldEvidenceUrl": "https://www.kuwanacc.com/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "e52108bcdc58ed83d7331e49a223f283f6143f9d",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Explicit clubbus unavailable; stationtaxi oldtime unchanged. No bus-in-general claim: onlyclubbus. Publicbus options not established. Existing桑名taxi15min retained without rewriting. Old text/date/url/basis retained; no old fact revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 566,
       "field": "rail",
       "source": {
@@ -5725,6 +6201,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 569,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://koganeicc.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Source does not establish route/bus stop/walking distance or club shuttle. Existing officialクラブバスなし remains exact, bus here not relabeled free shuttle. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 570,
@@ -6107,6 +6603,46 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 595,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_range_bus_conditions2",
+        "auditDocument": "docs/corrections/2026-10-30-club-bus-and-range-conditions.json",
+        "fieldEvidenceUrl": "https://www.kui-cc.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "e52108bcdc58ed83d7331e49a223f283f6143f9d",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Practicefacility generalpublic availability with12bayrange/approach, sunrise–sunset exceptMondayFridayafternoon; unmanned100yencoin requirement. Practiceball take-home prohibition retained. Ownpracticebody, not facilitygolfroundoperatinghours. Do not infer all7days fullhours. Fee100yen15balls visible but not selected newprice claim; no tax/currentprice guarantee. Old18H/layout not reverified. Actualpractice section has no distinct受付終了time beyond statedhours/weekdayafternoonclosure; do not invent one. Phone受付weekday8–17 is a different header and not applied to range. Old text/date/url/basis retained; no old fact revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 596,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_scoped_supplements7",
+        "auditDocument": "docs/corrections/2026-10-30-seven-scoped-supplements.json",
+        "fieldEvidenceUrl": "https://www.geinan.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "ベント1グリーンのみ。道路通行止め/熊対策の告知は年の不明確さがあり現況へ拡張しない。 Retained old tourism statement prefixed with explicit prefectural-tourism attribution and classified tourism; old text fully preserved, old date/URL/basis unchanged. Old terrain not newly reverified, no elevation to facility official. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 601,
       "field": "car",
       "source": {
@@ -6183,6 +6719,26 @@
       "facilityIncludedInBrowserSample": true,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 607,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_transport_use_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-transport-use-supplements.json",
+        "fieldEvidenceUrl": "http://www.orvis.co.jp/nakasu/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "441b6f42b1e8beb21fa47b3a4440f25e35df195a",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "1人予約サービスであり1人での単独ラウンド保証や当日空き確約ではない。WEB会員登録必要条件を保持。24時間受付を現場営業時間に変換しない。旧公式orvis専用courseURL＋旧basisからafter旧segmentのみofficial分類補完、before missingtype/旧文日付URLbasis不変、旧18H/レイアウト再検証なし。 Old official sourceType classification only, old text/date/url/basis unchanged and not newly reverified. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 613,
@@ -6289,6 +6845,26 @@
       "facilityIncludedInBrowserSample": true,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 624,
+      "field": "play",
+      "source": {
+        "origin": "new_primary_solo_booking624",
+        "auditDocument": "docs/corrections/2026-10-30-sanuki624-solo-booking.json",
+        "fieldEvidenceUrl": "https://cherry-group.jp/course_sanuki/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "b3a13aaf301347942a84ccdef519f85afbed97ee",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "1名からの予約窓口案内のみ。 Singlepersonsoloround/otherplayersabsence/minimum成立人数/currentavailableplans not established. Nofee/currentavailabilityguarantee. Bookingplatformlink notfollowed. Existing18H/P72/yard/selfstyle textdateURLbasis preserved, not reverified. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 634,
@@ -6604,6 +7180,26 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 731,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_play_transport_supplements3",
+        "auditDocument": "docs/corrections/2026-10-30-three-scoped-transport-play-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/miyazaki/aoshima/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "83011dcb3be921d3a25554cae0c9f171f3e11e87",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Own targetbody airport→club car15minutes. Different origin from old宮崎IC10km; old distance retained. Time is official stated guide, not guaranteed actual traffic. No taxi fare/bus mode inference. Old text/date/url/basis retained. Only missing old sourceType official classification supplemented where supported by prior operator-specific URL/basis. No old condition revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 760,
@@ -7589,6 +8185,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 818,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/16.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Target COURSE GUIDE36-hole section; generic resort54-hole advertising excluded. Not ocean visible every hole."
+    },
+    {
       "id": 819,
       "field": "officialUrl",
       "source": {
@@ -7635,6 +8247,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 820,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.daiwaroyalgolf.jp/miyagizaou_cc/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only"
     },
     {
       "id": 821,
@@ -8087,6 +8715,46 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 850,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/niigata/izumozaki",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "General course paragraph, not plan-specific conditions. Car16km conflicts with old15km以内 and is held separately. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 851,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/niigata/dainiigata_sanjo/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 851,
       "field": "officialUrl",
       "source": {
@@ -8119,6 +8787,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 852,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://tokamachi-country.club/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 854,
       "field": "officialUrl",
       "source": {
@@ -8133,6 +8821,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 855,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://niigata-golf.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Heading explicitly establishes driving; no distance inferred."
     },
     {
       "id": 855,
@@ -8151,6 +8855,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 855,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://niigata-golf.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Taxi explicit for both, no bus inferred."
+    },
+    {
       "id": 856,
       "field": "dining",
       "source": {
@@ -8165,6 +8885,26 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 857,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://noblewood-gc.jp/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Both original booking distance categories retained. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 857,
@@ -8199,6 +8939,42 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 859,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.matsugamine-cc.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No all-hole or weather visibility guarantee;27holes already baseline, not counted new."
+    },
+    {
+      "id": 860,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.myoko-cc.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "コース内売店に限る自販機不在。レストラン不在/休業/水無料とはしない。告知日不明、掲載案内として記述。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 860,
       "field": "officialUrl",
       "source": {
@@ -8231,6 +9007,22 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 862,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.myokosunshine.co.jp/contents/golf/course.php",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "ホール番号と対象を限定。別施設くるみヶ丘ショート/ホテル景観は使わない。"
+    },
+    {
       "id": 863,
       "field": "officialUrl",
       "source": {
@@ -8261,6 +9053,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 865,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://yoneyama-suigen.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "冬季スルー予定headlineは別日程条件で不採用。カート乗入れ可とはしない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 866,
@@ -8394,6 +9206,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 915,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_access_condition_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-access-condition-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/gifu/mizunami/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c1a347acfbec54f53abb06616f8881c6493074b6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "旧楽天の瑞浪IC15km以内とは別起点の恵那IC13kmを追加。瑞浪と恵那を同一ICにせず旧値を削除/訂正しない。所要時間・最短経路・交通状況を推定しない。旧文/date/URL/basis/sourceType不変。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 921,
@@ -8719,6 +9551,26 @@
     },
     {
       "id": 969,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.susono-cc.co.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 969,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -8732,6 +9584,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 970,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.resol-golf.jp/daiatami/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No opening times/prices/included meals inferred; Atami IN specifically."
     },
     {
       "id": 970,
@@ -8767,6 +9635,26 @@
     },
     {
       "id": 973,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.toyookakokusaicc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 973,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -8780,6 +9668,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 973,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.toyookakokusaicc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 976,
@@ -8799,6 +9707,26 @@
     },
     {
       "id": 977,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://fugakucc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Separate route text 約2.5km(約3分)で右折し進入路へ concerns approach turn, not full-course distance; not included. Original booking5km以内 retained. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 977,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -8812,6 +9740,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 978,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://fuji-amagigolf.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No taxi/bus mode or inferred route distance added. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 978,
@@ -8862,6 +9810,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 981,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/67.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "New all-hole scope beyond generic booking view; source-reported terrain visibility only, not weather guarantee. Saved successful981after target only; no original redirect retried. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 982,
       "field": "officialUrl",
       "source": {
@@ -8878,6 +9846,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 982,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.fujinomiya-gc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "日付を現在取得日へ置換せず明示。対象はセルフスタンドバッグで、全ゴルフバッグ禁止ではない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 984,
       "field": "officialUrl",
       "source": {
@@ -8892,6 +9880,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 984,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://fujiheigen-gc.com/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Reported landscape, not guarantee in any weather. Not conflated with nearby similarly named clubs."
     },
     {
       "id": 985,
@@ -8927,6 +9931,26 @@
     },
     {
       "id": 987,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/mishima",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "対象三島のヘッダーリンクのみ。近隣コースの駅/時間や予約filter不採用。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 987,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -8943,6 +9967,26 @@
     },
     {
       "id": 989,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.rembrandt-golf.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "旧2IC距離区分はそのまま。ETC条件は保存top本文にないので推測しない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 989,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit7_15",
@@ -8956,6 +10000,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 989,
+      "field": "stay",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.rembrandt-golf.jp/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "旧場内宿泊なしと明示的に区別。トップ列挙5ホテルのみ確認、料金/対象日/現在空室・販売は未確認。個別ホテル紹介の2020年開業文から現在販売を推定しない。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 997,
@@ -9143,6 +10207,26 @@
       "retainedTopLevelDate": "2026-10-25"
     },
     {
+      "id": 1045,
+      "field": "play",
+      "source": {
+        "origin": "new_primary_phase2_play_conditions3",
+        "auditDocument": "docs/corrections/2026-10-30-three-new-primary-use-conditions.json",
+        "fieldEvidenceUrl": "https://cherry-group.jp/course_wakura/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "2f064a95ebea2b13820a6ad3e6d4c2f86c9314a5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "公式サイトでは、1人予約ランドを通じて1名からプレー予約ができると案内しています。 Booking channel only, not solo round, booking formation threshold, present plan availability, reopening/operating guarantee. No fee claim. Old field text/date/url/basis retained; new selected condition scope only. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1053,
       "field": "officialUrl",
       "source": {
@@ -9157,6 +10241,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1053,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.taiheiyoclub.co.jp/course/west/index.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "新宿/東京から駅までの列車時間は除外。クラブバス時刻は別サービスで今回は追記しないが運行なしとは言わない。御殿場本コースではなくWEST専用page。"
     },
     {
       "id": 1058,
@@ -9666,6 +10766,42 @@
         }
       ],
       "retainedTopLevelDate": "2026-10-25"
+    },
+    {
+      "id": 1108,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_road_distances3",
+        "auditDocument": "docs/corrections/2026-10-30-three-official-access-distances.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/kyoto/lakeforestcentury/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "4f0e0c10275129b1d7a17223e4735b6fb5bb01e5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "名阪国道/小倉ICより17km; only named-road/IC→targetfacility road-distance scope. Current car null. Ownザ・センチュリーコース targetheader, not nearbyバードスプリング or resort-wide45H. Source header supports road distance only; no time inference. Old text/date/url/basis retained when present. No time or route inference."
+    },
+    {
+      "id": 1109,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_transport_use_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-transport-use-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/kyoto/lakeforestbirdspring/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "441b6f42b1e8beb21fa47b3a4440f25e35df195a",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "対象バード・スプリング専用h1直下住所に隣接する小倉IC17km。全リゾート45Hをこのコースへ誤帰属させず、旧宝来ランプ区分や小倉20km以内を保持。時間に換算しない。 Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1110,
@@ -10198,6 +11334,26 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1138,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_transport_use_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-transport-use-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/osaka/misaki/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "441b6f42b1e8beb21fa47b3a4440f25e35df195a",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "施設専用h1直下アクセスspan19km。近隣カード除外。旧20km以内の区分/日付を保持し、距離を所要時間に変換しない。 Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1139,
       "field": "car",
       "source": {
@@ -10421,6 +11577,26 @@
       "browserCoverageLimit": "5 representative facilities, not all14changedfacilities or all19fields"
     },
     {
+      "id": 1149,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_access_condition_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-access-condition-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/nara/manju/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c1a347acfbec54f53abb06616f8881c6493074b6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "旧楽天の5km以内という距離区分は保持、公式の具体距離を別segmentで補完。所要時間・最短経路・交通状況を推定しない。旧文/date/URL/basis/sourceType不変。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1152,
       "field": "car",
       "source": {
@@ -10506,6 +11682,26 @@
         "basis": "対象アクセス車欄板屋IC2km（2分）。",
         "sourceType": "official"
       }
+    },
+    {
+      "id": 1164,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_access_condition_supplements5",
+        "auditDocument": "docs/corrections/2026-10-30-five-access-condition-supplements.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/kasumi/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "c1a347acfbec54f53abb06616f8881c6493074b6",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "旧楽天の5km以内という距離区分は保持、公式の具体距離を別segmentで補完。所要時間・最短経路・交通状況を推定しない。旧文/date/URL/basis/sourceType不変。 Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1167,
@@ -10625,6 +11821,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Batch sampled4transport fields and1URL in5facilities; not all8facilities or mobile. Individual sample inclusion not asserted here."
+    },
+    {
+      "id": 1182,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_road_distances3",
+        "auditDocument": "docs/corrections/2026-10-30-three-official-access-distances.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/route25/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "4f0e0c10275129b1d7a17223e4735b6fb5bb01e5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "名阪国道/下柘植ICより4km; only named-road/IC→targetfacility road-distance scope. Same named下柘植IC precise4km within old5kmcategory; old上柘植IC separate5kmcategory preserved. Old text/date/url/basis retained when present. No time or route inference. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1189,
@@ -10839,6 +12055,26 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1230,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_road_distances3",
+        "auditDocument": "docs/corrections/2026-10-30-three-official-access-distances.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/hiroshima/takehara/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "4f0e0c10275129b1d7a17223e4735b6fb5bb01e5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "山陽自動車道/河内ICより13km; only named-road/IC→targetfacility road-distance scope. Same named河内IC precise13km within old15kmcategory; preserve other本郷IC15kmcategory unchanged. Old text/date/url/basis retained when present. No time or route inference. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1240,
       "field": "car",
       "source": {
@@ -10935,6 +12171,82 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1304,
+      "field": "car",
+      "source": {
+        "origin": "new_primary_observed_target1304_access",
+        "auditDocument": "docs/corrections/2026-10-30-ariake1304-access-conditions.json",
+        "fieldEvidenceUrl": "https://www.greenland.co.jp/golf/acc/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Same南関IC origin, new explicit10km/about20min and datedETC-only/cash-alternative condition. Road/IC access context, no unsupported車 word added. No route measurement/traffic guarantee, alternateIC distances/times not given; oldbooking10km以内 retained as category, not corrected as false. Original booking text/dateURLbasis untouched. Facilitynotice only, no roadoperator PDF fetched or roadstatus verification. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1309,
+      "field": "car",
+      "source": {
+        "origin": "new_primary_observed_target1309_access",
+        "auditDocument": "docs/corrections/2026-10-30-kurume1309-access.json",
+        "fieldEvidenceUrl": "https://www.greenland.co.jp/golf/kcc/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "e317b3410fa8cb459a24c1cb6a4a11972ac08fd5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "広川IC→当施設、道路道順に続く約5分。 Do notderive5min fromold5kmcategory. Sourceexplicit車 word isonseparate福岡市内origin; proposedwording doesnotaddcarword toICstatement, roadaccesscontext isactualICexit/国道3directions. City30minexcluded. Oldbookingdistance/text/dateURLbasis/sourceType unchanged, noexistingroute revalidation. Actualtraffictime notguaranteed. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1327,
+      "field": "car",
+      "source": {
+        "origin": "new_primary_observed_target1327_access",
+        "auditDocument": "docs/corrections/2026-10-30-greenland1327-access.json",
+        "fieldEvidenceUrl": "https://www.greenland.co.jp/golf/grgc/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "798b53958b72f90654a2801aac3327ae9a64eadf",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "南関IC→当施設の約20分というACCESS掲載目安。 No addedexplicitcarword toICsentence; 車 wording appliesseparate熊本/福岡cityorigin andnottransferred. Carfieldselection basedACCESSICroadcontext only. City1hour excluded, no distance/fare/roadname ortrafficguarantee. Independentreview mayholdif explicitmode required. Identity supported with visible コース/current クラブ name variant, metadata-locality and operator routing; no name change."
+    },
+    {
+      "id": 1366,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://seagaia.co.jp/twgc/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Existing booking hours/breakfast retained without new verification. Resort-wide restaurant navigation excluded. Old sourceType 公開予約情報 normalized to equivalent booking enum only in retained after segment. No official upgrade; before and old text/date/URL/basis unchanged, old hours/breakfast not newly reverified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1366,
       "field": "officialUrl",
       "source": {
@@ -10949,6 +12261,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1366,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://seagaia.co.jp/twgc/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Tom Watson body only, not Phoenix CC or academy. No tee yardage/eligibility restriction inferred. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1376,
@@ -11149,6 +12481,26 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1440,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_taxi_play_conditions2",
+        "auditDocument": "docs/corrections/2026-10-30-two-transport-play-conditions.json",
+        "fieldEvidenceUrl": "https://www.karasawa-golf.or.jp/access/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "a34a6b41d6bdbe5097e75d24c5d5fb6e95f24ca8",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "三好 ownsection alternate佐野駅 taxi about20minutes. Old田沼駅 taxi7minutes kept. 唐沢course10min not confused. UpstreamTokyo90minutes excluded. Old text/date/url/basis retained; no old condition revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1499,
       "field": "officialUrl",
       "source": {
@@ -11163,6 +12515,38 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1499,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://isogocc.jp/access/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Taxi mode follows heading. Bus5min-before arrival not travel duration; no fare/free/reservation claim. Source停留所はございません therefore refer official boarding directions rather than standard bus stop."
+    },
+    {
+      "id": 1502,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_final115_next6",
+        "auditDocument": "docs/corrections/2026-10-30-next6-scoped-conditions.json",
+        "fieldEvidenceUrl": "https://sagamicc.org/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "No prices/hours/included meal inference. Not promotional comparison or plan-specific quote. Published menu categories only, no current serving or specialty guarantee."
     },
     {
       "id": 1502,
@@ -11227,6 +12611,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1509,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next16",
+        "auditDocument": "docs/corrections/2026-10-30-next16-saved-facts.json",
+        "fieldEvidenceUrl": "https://totsuka-cc.com/course/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "West course only; no every-hole/weather guarantee; old trees/terrain retained. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1511,
@@ -11347,6 +12751,26 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1517,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_next15",
+        "auditDocument": "docs/corrections/2026-10-30-next15-saved-facts.json",
+        "fieldEvidenceUrl": "https://www.yokohama-cc.jp/aboutus/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "9006912645381265ee7217a2ac1674982c0bf486",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "selected field only Retained old official segment sourceType classification only; before and old text/date/url/basis unchanged, no new verification of old renovation claims. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1542,
@@ -11649,6 +13073,26 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 1568,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_final115_next6",
+        "auditDocument": "docs/corrections/2026-10-30-next6-scoped-conditions.json",
+        "fieldEvidenceUrl": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Retain minimum price and per-person unit plus plan selection; tax status not specified, do not claim税込/総額. Not guaranteed available for all slots, not standalone budget or verified-price ranking. Short course not neighboring main course. Price is source-reported at saved acquisition, not guaranteed current price; confirm booking-plan amount. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified. Course excluded from Jikadori plan; tax inclusion not stated in this listing. Saved startingprice only, verify booking price/availability. Only added official segment newly reviewed; retained booking facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1569,
       "field": "officialUrl",
       "source": {
@@ -11695,6 +13139,66 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 1607,
+      "field": "play",
+      "source": {
+        "origin": "new_primary_phase2_play_conditions3",
+        "auditDocument": "docs/corrections/2026-10-30-three-new-primary-use-conditions.json",
+        "fieldEvidenceUrl": "https://zuien.net/pga/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "2f064a95ebea2b13820a6ad3e6d4c2f86c9314a5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "公式FAQでは、クラブハウス・練習場の開場は1～2月が6時30分、3～12月が6時で、変更される場合があります。来場時のデニム・サンダル・Tシャツの着用は控えるよう案内しています。 Clubhouse/practice opening and arrival dress restriction only; separate restaurant times not generalized. Cancellation fee not shortened or published, bus/18Hreopening headlines no operational verification. Prior course facts not reverified. Old field text/date/url/basis retained; new selected condition scope only. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1609,
+      "field": "play",
+      "source": {
+        "origin": "new_primary_phase2_play_conditions3",
+        "auditDocument": "docs/corrections/2026-10-30-three-new-primary-use-conditions.json",
+        "fieldEvidenceUrl": "https://www.chibacc.co.jp/kawama",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "2f064a95ebea2b13820a6ad3e6d4c2f86c9314a5",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "公式案内では、全組が乗用カートでのセルフプレーです。休場日は1月1日・2月1日・8月15日・12月31日と、平日の第1火曜日・最終火曜日です。 All-groups cart/self and listed regular closed days only; not guarantee no exceptional closures. Fee tables family/65+ targeted, excluded; prior27H/green not reverified. Old field text/date/url/basis retained; new selected condition scope only. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1637,
+      "field": "play",
+      "source": {
+        "origin": "saved_primary_taxi_play_conditions2",
+        "auditDocument": "docs/corrections/2026-10-30-two-transport-play-conditions.json",
+        "fieldEvidenceUrl": "https://boso-cc.com/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-30",
+      "commit": "a34a6b41d6bdbe5097e75d24c5d5fb6e95f24ca8",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "fieldScope": "selected_field_only",
+      "allFieldsBrowserVerified": false,
+      "verificationScope": "Clubgeneral useconditions apply target房総: checkin15minutes before, halfround target2h15, championshipTEE member accompaniment plus same-daymasterroomrequest. Commonoperator useconditions clearly apply clubfacilities including target; not大上-onlynotice. 大上Oct25closureheadline not房総closure. No assumption memberaccompaniment alone guaranteesTEE availability; no tax/otherpolicy claims. Old text/date/url/basis retained; no old condition revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1736,
@@ -12165,15 +13669,15 @@
   ],
   "gitPending": [],
   "counts": {
-    "publishedFields": 646,
-    "publishedFacilities": 410,
+    "publishedFields": 725,
+    "publishedFacilities": 451,
     "gitPendingFields": 0,
     "gitPendingFacilities": 0,
     "featureFields": 4,
     "allFacilitiesAllFieldsComplete": 0,
     "originalAuditLedgerDecrement": 0,
     "areaFields": 1,
-    "sevenComparisonFieldChanges": 380
+    "sevenComparisonFieldChanges": 459
   },
   "limitations": [
     "Field-level selected changes only; no facility is certified fully complete.",
@@ -12360,9 +13864,1158 @@
       "comparisonResult": "unchanged_supported_in_stated_scope_only",
       "publicVerificationStage": "no_public_change",
       "publicCorrectionIncrement": 0
+    },
+    {
+      "id": 129,
+      "name": "伊勢原カントリークラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.076375+00:00",
+      "acquiredAtUtc": "2026-10-29T16:11:37.297981+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://booking.pacificgolf.co.jp/guide/154.html",
+      "sourceRequestedUrl": "https://booking.pacificgolf.co.jp/guide/154.html",
+      "sourceSha256": "bf4e3bed8b8b5e21252196d0442d1077b28c93dfdd36406391bbf345575bdfa3",
+      "scope": "ICから車約5分は一致。既存約3kmはこの保存本文で再確認していない。",
+      "remainingUnverifiedConditions": "ICから車約5分は一致。既存約3kmはこの保存本文で再確認していない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "伊勢原大山ICから車で約5分（約3km）。",
+        "url": "https://www.pacificgolf.co.jp/membership/seikaiin/isehara/",
+        "checked": "2026-10-24",
+        "basis": "公式会員募集アクセス：最寄IC 伊勢原大山IC 約3km 車約5分。"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 163,
+      "name": "ゴールド栃木プレジデントカントリークラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.076433+00:00",
+      "acquiredAtUtc": "2026-10-29T16:16:04.775024+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "http://www.president-cc.jp/access.html",
+      "sourceRequestedUrl": "http://www.president-cc.jp/access.html",
+      "sourceSha256": "7e194440453c2a3ac13aa39b6a398859bc753696081a011d8c299ddb02bb4549",
+      "scope": "栃木IC約5分3kmが既存と一致。浦和IC→栃木IC時間は別区間で追加不要。",
+      "remainingUnverifiedConditions": "栃木IC約5分3kmが既存と一致。浦和IC→栃木IC時間は別区間で追加不要。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "栃木ICから車で約5分（約3km）。",
+        "url": "https://www.president-cc.jp/access.html",
+        "checked": "2026-10-24",
+        "basis": "栃木ICから車で約5分（約3km）。"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 156,
+      "name": "大利根カントリークラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.076472+00:00",
+      "acquiredAtUtc": "2026-10-29T16:13:57.704125+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://www.ohtone.co.jp/access/",
+      "sourceRequestedUrl": "https://www.ohtone.co.jp/access",
+      "sourceSha256": "c19ba5139982ebe84800a05a34803564b027e3676bf556b6d3d7a9cd25257039",
+      "scope": "図式の最終IC→倶楽部区間が谷和原25分/坂東15分で一致。手前JCT区間時間を混合しない。",
+      "remainingUnverifiedConditions": "図式の最終IC→倶楽部区間が谷和原25分/坂東15分で一致。手前JCT区間時間を混合しない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "坂東ICから車で約15分。谷和原ICから約25分。",
+        "url": "https://www.ohtone.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス案内の記載：坂東ICから車で約15分。谷和原ICから約25分。"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 153,
+      "name": "阿見ゴルフクラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.076607+00:00",
+      "acquiredAtUtc": "2026-10-29T16:13:50.482041+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://booking.pacificgolf.co.jp/guide/47.html",
+      "sourceRequestedUrl": "https://booking.pacificgolf.co.jp/guide/47.html",
+      "sourceSha256": "080891fe2273a98bd77844542590ed36c34430ff88c85e4c44434c7c67c07127",
+      "scope": "阿見東IC約3分は一致。追加文なし。",
+      "remainingUnverifiedConditions": "阿見東IC約3分は一致。追加文なし。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "阿見東ICから車で約3分。",
+        "url": "https://booking.pacificgolf.co.jp/guide/47.html",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス案内の記載：阿見東ICから車で約3分。"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 172,
+      "name": "小幡郷ゴルフ倶楽部",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.076659+00:00",
+      "acquiredAtUtc": "2026-10-29T16:15:44.373376+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://www.obatago-golf.com/",
+      "sourceRequestedUrl": "http://obatago-golf.com/",
+      "sourceSha256": "003c3b310b4de55ea81ca15d1dddba4efb7782ae7dc6ead1cade09b65e617df9",
+      "scope": "富岡IC約10分は一致。既存約5kmは保存トップで再確認していない。",
+      "remainingUnverifiedConditions": "富岡IC約10分は一致。既存約5kmは保存トップで再確認していない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "富岡ICから車で約10分（約5km）。",
+        "url": "https://www.obatago-golf.com/detail/",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス案内の記載：富岡ICから車で約10分（約5km）。"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 140,
+      "name": "鹿野山ゴルフ倶楽部",
+      "field": "scenery",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.076691+00:00",
+      "acquiredAtUtc": "2026-10-29T16:13:16.092816+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "http://www.kanozan.co.jp",
+      "sourceRequestedUrl": "http://www.kanozan.co.jp",
+      "sourceSha256": "0cc7ae37e44f1b2315637e5a488d780a05dec2cfd6e4e60cac99940fb1073983",
+      "scope": "白鳥の海/アクアライン、天神の房総連山九十九谷を本文で確認。全27Hすべてから両方見える保証はしない。旧検索インデックス根拠のbasis/dateを更新しない。",
+      "remainingUnverifiedConditions": "白鳥の海/アクアライン、天神の房総連山九十九谷を本文で確認。全27Hすべてから両方見える保証はしない。旧検索インデックス根拠のbasis/dateを更新しない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "東京湾と房総連山を一望する27ホール。海と山並みが広がる景観を楽しめます。",
+        "url": "https://www.kanozan.co.jp/",
+        "checked": "2026-10-24",
+        "basis": "公式トップの検索インデックスで東京湾＆房総連山を一望と明記。本文取得502"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 922,
+      "name": "美濃関カントリークラブ",
+      "field": "play",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.078970+00:00",
+      "acquiredAtUtc": "2026-10-29T16:05:40.756342+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/gifu/minozeki/",
+      "sourceRequestedUrl": "http://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=152",
+      "sourceSha256": "76138394a98a8769a9da61cd720d5e3efea8f3b4c23307e9d6e1b189a9afff11",
+      "scope": "18ホールという総ホール数のみ。",
+      "remainingUnverifiedConditions": "既存のパー72、丘陵/起伏、設計者、練習場40Y8打席は今回未照合。公式URL・日付・basis等の公開データ変更なし。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：中日本コンサルタント。練習場は40ヤード・8打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210069/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 174,
+      "name": "草津カントリークラブ",
+      "field": "play",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.079056+00:00",
+      "acquiredAtUtc": "2026-10-29T16:15:38.366980+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://www.kusatsu-cc.com/",
+      "sourceRequestedUrl": "http://www.kusatsu-cc.com/",
+      "sourceSha256": "49588599e754e4bc22ba9fc337ca5f0e701dc573a66583d024bbd6a9e5b66363",
+      "scope": "18ホールという総ホール数のみ。",
+      "remainingUnverifiedConditions": "起伏/個別レイアウトは未確認のまま。白樺/唐松は既存sceneryにあるが本レビューで別scope加算しない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "18ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=10016",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 573,
+      "name": "鳥取ゴルフ倶楽部",
+      "field": "play",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:45:32.079094+00:00",
+      "acquiredAtUtc": "2026-10-29T16:29:10.513923+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://www.tottori-golfclub.co.jp/",
+      "sourceRequestedUrl": "http://www.tottori-golfclub.co.jp/",
+      "sourceSha256": "8c52fdf358afdbf1b5d4b269446ab4a14dbc187919fa41071d5ad79845b15a2b",
+      "scope": "既存play全文の方向性/距離感・丘陵9H・前後ティーで18Hプレーという範囲。",
+      "remainingUnverifiedConditions": "独立18Hではなく9Hをティー変更してプレー。料金/営業日/設備/他fieldは未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "方向性と距離感を重視する丘陵9ホール。前後のティーを使い分けて18ホールプレーができます。",
+        "url": "https://www.tottori-golfclub.co.jp/",
+        "checked": "2026-10-25",
+        "basis": "公式施設案内・公式観光情報の該当本文を確認"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "394235966509e66f39cf1e9839acf6c918b5c140",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 131,
+      "name": "小田原湯本カントリークラブ",
+      "field": "rail",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.900134+00:00",
+      "acquiredAtUtc": "2026-10-29T16:11:06.333727+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://www.odawarayumotocc.com/",
+      "sourceRequestedUrl": "http://www.odawarayumotocc.com",
+      "sourceSha256": "c77fa9aa1d9e98573f2bb0874eeab15c0f30a8b747f01c1432299c4f138f9772",
+      "scope": "駅から車10分のみ部分一致。既存バス10分・曜日別運行は今回未確認。",
+      "remainingUnverifiedConditions": "駅から車10分のみ部分一致。既存バス10分・曜日別運行は今回未確認。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "箱根湯本駅から車で約10分。クラブバスも駅とクラブハウスを約10分で結び、平日・土日祝別の時刻表を掲載。",
+        "url": "https://www.odawarayumotocc.com/access.html",
+        "checked": "2026-10-24",
+        "basis": "既存公式トップ車10分と現在公式交通案内クラブバス10分を照合",
+        "supportingUrls": [
+          "https://odawarayumotocc.com/"
+        ]
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 154,
+      "name": "江戸崎カントリー倶楽部",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.900235+00:00",
+      "acquiredAtUtc": "2026-10-29T16:13:34.302489+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://www.edosaki-cc.co.jp/",
+      "sourceRequestedUrl": "http://www.edosaki-cc.co.jp",
+      "sourceSha256": "b8bfad32196ff7bc447197d8474d2cd081aabf901371bd06b60af64a8243856c",
+      "scope": "IC起点距離3kmのみ一致。未掲載所要時間を推定しない。",
+      "remainingUnverifiedConditions": "IC起点距離3kmのみ一致。未掲載所要時間を推定しない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "稲敷ICから約3km。確認した公式案内に所要時間の記載はありません。",
+        "url": "https://www.edosaki-cc.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス案内の記載：稲敷ICから約3km。確認した公式案内に所要時間の記載はありません。"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 1287,
+      "name": "福岡フェザントカントリークラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.902171+00:00",
+      "acquiredAtUtc": "2026-10-29T16:10:02.468333+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/fukuoka/fukuoka/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=042",
+      "sourceSha256": "d62f6dd994760f453e6a35c5386567b969212e22f69fd010d2a3922f266a2f8a",
+      "scope": "九州自動車道/小倉南ICより30kmに対応する起点・道路名・掲載距離の一致のみ。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "九州自動車道/小倉南ICより30km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=042",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 1307,
+      "name": "セントラル福岡ゴルフ倶楽部",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.904398+00:00",
+      "acquiredAtUtc": "2026-10-29T16:10:02.468795+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/fukuoka/central_fukuoka/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=114",
+      "sourceSha256": "e4e56eea51ca0532258084fd0df297966e369925acdeb2981203def404af56a9",
+      "scope": "九州自動車道/筑紫野ICより15kmに対応する起点・道路名・掲載距離の一致のみ。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "九州自動車道/筑紫野ICより15km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=114",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 1347,
+      "name": "湯の浦カントリー倶楽部",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.905358+00:00",
+      "acquiredAtUtc": "2026-10-29T16:10:18.468076+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/kagoshima/yunoura/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=029&glnv=001",
+      "sourceSha256": "e175d52bce787b31d0ed493d53d3d0cb3971ab989e99a8d6876e3b3f5310375a",
+      "scope": "指宿スカイライン/谷山ICより17kmに対応する起点・道路名・掲載距離の一致のみ。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "指宿スカイライン/谷山ICより17km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=029&glnv=001",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 1761,
+      "name": "山の原ゴルフクラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.908223+00:00",
+      "acquiredAtUtc": "2026-10-29T16:10:18.746959+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/hyogo/yamanohara/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=034",
+      "sourceSha256": "30f0a5e16dac50c370c88c37e44f6d9aed3cc330ddef22f2e7f647597a92bfc1",
+      "scope": "阪神高速・池田木部という起点名と約10kmの距離の一致のみ。既存は「ランプ」、公式本文は「IC」と表記。呼称の差を解消/変更したとは扱わず、ランプの方向別出入口や厳密な接続点は未照合。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "阪神高速道路/池田木部ランプから約10km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/642301/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC  | 阪神高速道路/池田木部ランプ 10 km",
+        "sourceType": "booking"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 708,
+      "name": "別府の森ゴルフ倶楽部",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.909510+00:00",
+      "acquiredAtUtc": "2026-10-29T16:05:55.976963+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/oita/beppu/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=027",
+      "sourceSha256": "68ffe4df438df9e67f0c64ac1a08bb84b29c303fbed1345ec932f61c1a407729",
+      "scope": "大分自動車道/別府ICより10kmに対応する起点・道路名・掲載距離の一致のみ。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "大分自動車道/別府ICより10km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=027",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 733,
+      "name": "レインボースポーツランドゴルフクラブ",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.910667+00:00",
+      "acquiredAtUtc": "2026-10-29T16:05:56.421262+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/miyazaki/rainbow/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=117",
+      "sourceSha256": "17a36f0b87bab4a78420a299187ab895348049d596d4e3a9ad1168bcaacd773e",
+      "scope": "宮崎自動車道/都城ICより5kmに対応する起点・道路名・掲載距離の一致のみ。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "宮崎自動車道/都城ICより5km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=117",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 696,
+      "name": "佐世保国際カントリー倶楽部",
+      "field": "car",
+      "reviewDate": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T01:54:42.912366+00:00",
+      "acquiredAtUtc": "2026-10-29T16:05:55.752607+00:00",
+      "sourceCheckedJst": "2026-10-30",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/nagasaki/sasebo/",
+      "sourceRequestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=099",
+      "sourceSha256": "505f2d5b4991aac0c32388cd17a1670e0ca942750f89f7ce540734c8640b4bb5",
+      "scope": "西九州自動車道/佐世保三川内ICより5kmに対応する起点・道路名・掲載距離の一致のみ。",
+      "remainingUnverifiedConditions": "所要時間、経路、交通規制、料金、進入方向、当日の道路状況と全施設他項目は未照合。公式5kmと旧約5kmは既存目安の支持であり精度向上/計測保証とはしない。",
+      "status": "independently_supported_unchanged_partial_scope",
+      "comparedExistingValue": {
+        "text": "西九州自動車道・佐世保三川内ICから約5km。",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=099",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約"
+      },
+      "comparisonResult": "unchanged_in_stated_scope_only",
+      "publicCorrectionIncrement": 0,
+      "publicSourceMetadataChanged": false,
+      "allFieldClaimsVerified": false,
+      "fullFacilityCompleted": false,
+      "independentReviewScope": "separate_independent_saved_source_review_pass",
+      "websiteDataCommitCompared": "183033389948cba2254e3d02a2773571593a1383",
+      "publicVerificationStage": "no_public_data_change",
+      "inventoryDocumentationStatus": "local_prepared_not_presumed_deployed"
+    },
+    {
+      "id": 168,
+      "field": "play",
+      "name": "ホウライカントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "18ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=9093",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "TargetホウライCC own block explicitly18H; adjacent西那須野18H is separate and not summed.",
+      "remainingUnverifiedScope": "既存起伏/レイアウト未確認の限定文は保持。料金/1人乗りcartプレスリリースの詳細・当日の利用条件は未確認。",
+      "sourceUrl": "https://golf.horai-kk.com/",
+      "sourceBodySha256": "76fc1084cdfd2bd52e4f3c4962bb6e47e1b351b9b6daccf96422ff5bd8e74120",
+      "sourceAcquiredAtUtc": "2026-10-29T16:15:35.041728+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:17:36.614146+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 246,
+      "field": "play",
+      "name": "旭国際浜村温泉ゴルフ倶楽部",
+      "comparedExistingValue": {
+        "text": "白兎・湖山の2コース、計36ホール。変化のあるレイアウトです。",
+        "url": "https://asahi-36.com/course.html",
+        "checked": "2026-10-25",
+        "basis": "公式案内本文の該当記載を確認"
+      },
+      "confirmedScope": "Own facility hero explicitly36H and varied layout; no inference from nearby group courses. Only36H count used for unchanged review.",
+      "remainingUnverifiedScope": "旧白兎/湖山2コース名と詳細レイアウトは本部分照合に含めない。宿泊施設更新題名から営業/プランを推定しない。",
+      "sourceUrl": "https://www.asahi-36.com/",
+      "sourceBodySha256": "1a62a254baa7cfeb9f02ad520947fb107283cfc9034168858f476e3f433a1eeb",
+      "sourceAcquiredAtUtc": "2026-10-29T16:15:45.075999+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:17:36.694472+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 124,
+      "field": "play",
+      "name": "立川国際カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "36ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=13008",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "Existing36H matches own body; verification is total36 only, not都内唯一 exclusivity.",
+      "remainingUnverifiedScope": "No new text. Course terrain/layout remains unverified; arrival/post-play jacket request also exists but is not a second reviewed scope.",
+      "sourceUrl": "https://www.tachikawakokusai.co.jp/",
+      "sourceBodySha256": "c3f52b37b19d3f253908ad9b42eaa9bfaa7954ea327bfd57a6b88ccddaed4826",
+      "sourceAcquiredAtUtc": "2026-10-29T16:10:45.061246+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:22:34.371572+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 127,
+      "field": "play",
+      "name": "東京よみうりカントリークラブ",
+      "comparedExistingValue": {
+        "text": "18ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=13015",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "Existing18H matches own body only.",
+      "remainingUnverifiedScope": "No new text. Reservation phone受付10時〜 appears but not adopted as opening time or full rules; detailed layout not reverified.",
+      "sourceUrl": "https://www.tokyoyomiuri.com/",
+      "sourceBodySha256": "515ca2fc7c3ef1768b8fd1927fd051fd61ee32048293fcd94dae1cc4a1f6971f",
+      "sourceAcquiredAtUtc": "2026-10-29T16:10:46.549810+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:22:34.450289+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 143,
+      "field": "play",
+      "name": "館山カントリークラブ",
+      "comparedExistingValue": {
+        "text": "27ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=12052",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "Existing27H total matches actual hero body.",
+      "remainingUnverifiedScope": "No text addition. 2026-05-15 sunset-halfplay1yr and singlecart notice headline not enough full booking conditions; no perpetual cart access inference. No old layout full verification.",
+      "sourceUrl": "https://tateyama-cc.com/",
+      "sourceBodySha256": "bb5ff2fd2db25e9eb47d8af76293bc43e5a28e60371573420afa3a0fb2da33bd",
+      "sourceAcquiredAtUtc": "2026-10-29T16:13:12.407446+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:22:34.697181+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 165,
+      "field": "play",
+      "name": "西那須野カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "18ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=9076",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "Target西那須野18holes only.",
+      "remainingUnverifiedScope": "Own targetblock at千本松804-2, notadjacentホウライ793. No tee/cart/cancellation/headline rules or old layout verification. OldKGA remains unchanged.",
+      "sourceUrl": "https://golf.horai-kk.com/",
+      "sourceBodySha256": "76fc1084cdfd2bd52e4f3c4962bb6e47e1b351b9b6daccf96422ff5bd8e74120",
+      "sourceAcquiredAtUtc": "2026-10-29T16:15:33.020066+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:29:50.540430+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 167,
+      "field": "play",
+      "name": "プレステージカントリークラブ",
+      "comparedExistingValue": {
+        "text": "36ホールのゴルフ場。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=9092",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "Own CONCEPT total36 only.",
+      "remainingUnverifiedScope": "No ownsource promotion of oldKGA; terrain/layout detail outside selected total scope remains unverified. GRANDPGM othercards excluded.",
+      "sourceUrl": "https://www.pacificgolf.co.jp/prestige/",
+      "sourceBodySha256": "9db6a5647ff700813ab8d529f26923f5f0aecd938fbc986d33f6ea1a67c76c17",
+      "sourceAcquiredAtUtc": "2026-10-29T16:15:16.602978+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:29:50.540430+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 407,
+      "field": "play",
+      "name": "甲斐駒カントリークラブ",
+      "comparedExistingValue": {
+        "text": "18ホールのコース。",
+        "url": "https://www.kga.gr.jp/club/club_detail.php?club_id=19006",
+        "checked": "2026-10-25",
+        "basis": "関東ゴルフ連盟の施設詳細に記載されたホール数。"
+      },
+      "confirmedScope": "Target total18 only.",
+      "remainingUnverifiedScope": "OldKGA source/date retained; website maintenance title is not course closure; bath reopening title not full conditions.",
+      "sourceUrl": "https://kaikoma.chateraisegolf.jp/",
+      "sourceBodySha256": "0f5a3596460ad8273bf4f9cfc685920ece57c724fc08e205a966708dbb467125",
+      "sourceAcquiredAtUtc": "2026-10-29T16:21:22.879254+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:29:50.540430+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 424,
+      "field": "play",
+      "name": "信濃ゴルフ倶楽部",
+      "comparedExistingValue": {
+        "text": "18ホールのコース。",
+        "url": "https://www.shinano-golf.co.jp/",
+        "checked": "2026-10-25",
+        "basis": "公式本文のホール数表記: 18ホール。コース内の個別ホールを施設として分割せず掲載。"
+      },
+      "confirmedScope": "Target total18 only.",
+      "remainingUnverifiedScope": "Oldsource/date remain; descriptive OUT/IN layout not added to pad total verification; no fullfacility verification.",
+      "sourceUrl": "https://www.shinano-golf.co.jp/",
+      "sourceBodySha256": "df1c0cba56d41deeab9d15ab15badbabf8ddda89750c0eb27be497107248eff5",
+      "sourceAcquiredAtUtc": "2026-10-29T16:21:44.018938+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:29:50.540430+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 538,
+      "field": "play",
+      "name": "春日台カントリークラブ",
+      "comparedExistingValue": {
+        "text": "27ホールのコース。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/290006",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：27ホール",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "Target total27 only.",
+      "remainingUnverifiedScope": "Oldbooking classification/date remain. October jacket notice lacks complete period; not adopted. No price/availability claims.",
+      "sourceUrl": "https://kasugadai.jp/",
+      "sourceBodySha256": "d5e1009e6b0e136d9dd2dfccfa9fc1ffa0e9e159ad4947f7165f9167c6ed7185",
+      "sourceAcquiredAtUtc": "2026-10-29T16:25:17.865084+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:29:50.540430+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 701,
+      "field": "car",
+      "name": "天瀬温泉カントリークラブ",
+      "comparedExistingValue": {
+        "text": "大分自動車道/天瀬高塚ICより10km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=050",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "confirmedScope": "Exact existing天瀬高塚IC10km only.",
+      "remainingUnverifiedScope": "Different origin鳥栖IC約60分 paragraph does not clearly state mode, excluded. No roadtime inference, no bathopening/cancellation headline adoption.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/oita/amagase/",
+      "sourceBodySha256": "4d244e65e75a3ee292849130b5522a76b7f3e92fde88369c6f20119910cfcb9f",
+      "sourceAcquiredAtUtc": "2026-10-29T16:06:10.983103+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:29:50.540430+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1116,
+      "field": "car",
+      "name": "双鈴ゴルフクラブ 土山コース",
+      "comparedExistingValue": {
+        "text": "新名神高速道路/甲賀土山から約7km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/612501/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC\n    新名神高速道路/甲賀土山 7 km",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "新名神自動車道/甲賀土山ICより7km; only named-road/IC→targetfacility road-distance scope.",
+      "remainingUnverifiedScope": "Existing約7km matches numeric distance. Source高速道路/自動車道 naming retained as current; no current route/time/exitdirection validation.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/shiga/tsuchiyama/",
+      "sourceBodySha256": "71a5690a9415f589a46e8154fa9a72b4c05b0ee428cd6080b63c15b86b171eb8",
+      "sourceAcquiredAtUtc": "2026-10-29T16:06:34.107345+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:33:43.010095+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1154,
+      "field": "car",
+      "name": "四日市の里ゴルフクラブ",
+      "comparedExistingValue": {
+        "text": "東名阪自動車道/四日市ICから約3km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/537502/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC  | 東名阪自動車道/四日市ＩＣ 3 km",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "東名阪自動車道/四日市ICより3km; only named-road/IC→targetfacility road-distance scope.",
+      "remainingUnverifiedScope": "Existing約3km matches numeric distance only; no oldsource/date promotion or extra text.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/mie/yokkaichi/",
+      "sourceBodySha256": "503b9210fbe966fa0e5ce92630f0a698087bfe54ed14f65c3c09facbf2567145",
+      "sourceAcquiredAtUtc": "2026-10-29T16:10:08.889251+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:33:43.010095+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 673,
+      "field": "car",
+      "name": "かほゴルフクラブ",
+      "comparedExistingValue": {
+        "text": "九州自動車道/福岡ICより30km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=146",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "confirmedScope": "九州自動車道/福岡ICより30km; only named-road/IC→targetfacility road-distance scope.",
+      "remainingUnverifiedScope": "Exact existing origin+distance only; plan-popup arrivalrules not adopted as general all-plan condition.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/fukuoka/kaho/",
+      "sourceBodySha256": "b445b45cc50a5d6529175fc4b46de632adb4261200b15f31a8ac0c1c03e4b605",
+      "sourceAcquiredAtUtc": "2026-10-29T16:06:00.211953+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:33:43.010095+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1305,
+      "field": "car",
+      "name": "二丈カントリークラブ",
+      "comparedExistingValue": {
+        "text": "福岡前原道路/前原ICより15km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=115",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "confirmedScope": "福岡前原道路/前原ICより15km; only named-road/IC→targetfacility road-distance scope.",
+      "remainingUnverifiedScope": "Exact existing origin+distance only. Plan-specific fairwaydrive conditions not adopted as unconditional facilityrules.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/fukuoka/nijo/",
+      "sourceBodySha256": "62010af1af593a0cb3f975c0d0243d2577b9bb7bc0bfc6b5d89a432a4d948dfb",
+      "sourceAcquiredAtUtc": "2026-10-29T16:10:20.677905+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:33:43.010095+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1328,
+      "field": "car",
+      "name": "菊池カントリークラブ",
+      "comparedExistingValue": {
+        "text": "九州自動車道/植木ICより25km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=040",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "confirmedScope": "九州自動車道/植木ICより25km; only named-road/IC→targetfacility road-distance scope.",
+      "remainingUnverifiedScope": "Exact existing origin+distance only; plan-specificarrival conditions not generalized.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/kumamoto/kikuchi/",
+      "sourceBodySha256": "a18ef386d99c19348a459981bf80cbf6c735dfdaf8fdfeeb37c35831e308b60a",
+      "sourceAcquiredAtUtc": "2026-10-29T16:10:20.035331+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:33:43.010095+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1389,
+      "field": "car",
+      "name": "かずさカントリークラブ",
+      "comparedExistingValue": {
+        "text": "市原鶴舞ICから約10分（6km）。",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=150",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "confirmedScope": "圏央道/市原鶴舞ICより6km; only named-road/IC→targetfacility road-distance scope.",
+      "remainingUnverifiedScope": "Existing6km matches only; old約10minutes NOT reverified by distanceheader. No refresh of oldtext/date/basis.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/chiba/kazusa/",
+      "sourceBodySha256": "41a4bddaa9af766d98c3c80dfe3c3fa17c8178ed0fc9418ea4257f6ccdb63f13",
+      "sourceAcquiredAtUtc": "2026-10-29T16:10:32.806878+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:33:43.010095+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1439,
+      "field": "rail",
+      "name": "唐沢ゴルフ倶楽部 唐沢コース",
+      "comparedExistingValue": {
+        "text": "佐野駅からタクシーで約10分。",
+        "url": "https://www.karasawa-golf.or.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。佐野駅からタクシーで約10分。"
+      },
+      "confirmedScope": "唐沢コース ownsection佐野駅 taxi about10minutes only.",
+      "remainingUnverifiedScope": "三好section佐野駅20min excluded; upstreamTokyo train journey not station→club; no other railconditions verified.",
+      "sourceUrl": "https://www.karasawa-golf.or.jp/access/",
+      "sourceBodySha256": "8455fa1f308a340057c2c6d7e47f49452f5192c154c76106e68f543612061d32",
+      "sourceAcquiredAtUtc": "2026-10-29T15:50:12.952697+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:38:05.766089+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1143,
+      "field": "car",
+      "name": "奈良万葉カンツリー倶楽部",
+      "comparedExistingValue": {
+        "text": "第二阪奈道路・宝来ランプICから15km以内／京奈和自動車道・木津ICから15km以内／西名阪自動車道・天理ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/290022/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "Official天理IC5km consistent with old5km以内category only.",
+      "remainingUnverifiedScope": "Not exactstringequality or verification ofother宝来/木津categories. No textadd/timeinfer.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/nara/naramanyo/",
+      "sourceBodySha256": "91380f19173824de83782f3500b9009f33e9110e2eb9a83763ffff8d373aa790",
+      "sourceAcquiredAtUtc": "2026-10-29T16:06:34.575346+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:38:05.766089+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1235,
+      "field": "car",
+      "name": "広島安佐ゴルフクラブ",
+      "comparedExistingValue": {
+        "text": "山陽自動車道・広島ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/340034/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "Official広島IC5km consistent with old5km以内category only.",
+      "remainingUnverifiedScope": "Category corroboration not equalprecisionclaim; no newtext/oldsourcepromotion/timeinfer.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/hiroshima/hiroshimaasa/",
+      "sourceBodySha256": "6dc267018081ab30778588969d0e420176fb0f0ac485e10ad7e02ece84b1098a",
+      "sourceAcquiredAtUtc": "2026-10-29T16:05:40.756953+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:38:05.766089+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1246,
+      "field": "car",
+      "name": "本郷カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "山陽自動車道・本郷ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/340040/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "Official本郷IC10km consistent with old10km以内category only.",
+      "remainingUnverifiedScope": "No newtext or newexactness in oldclaim; nearby竹原/白竜湖 routes excluded.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/hiroshima/hongo/",
+      "sourceBodySha256": "d6f701dc805bbcb00125754809c5cb024478ab13deeb266dbb7aedb846e2610a",
+      "sourceAcquiredAtUtc": "2026-10-29T16:05:46.732843+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:38:05.766089+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1316,
+      "field": "car",
+      "name": "ハウステンボスカントリークラブ",
+      "comparedExistingValue": {
+        "text": "西海パールライン/小迎ICより3km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=5&gid=122#alink01",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "confirmedScope": "Same namedroad/小迎IC3km only.",
+      "remainingUnverifiedScope": "No time or othergeneral useconditions. Ownheader target西海市八木原郷2879-2.",
+      "sourceUrl": "https://reserve.accordiagolf.com/golfCourse/nagasaki/huistenbosch/",
+      "sourceBodySha256": "8e433c8e01e158fcd678ba7da8a2981ef2ad824abc1cabf6db4a0ed085ea4201",
+      "sourceAcquiredAtUtc": "2026-10-29T15:49:29.374065+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:38:05.766089+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 461,
+      "field": "play",
+      "name": "恵那峡カントリークラブ",
+      "comparedExistingValue": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：松山　桂司。練習場は350ヤード・36打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210006/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "Linkedまきがねゴルフガーデン350yards/36bays only matches existing range figures.",
+      "remainingUnverifiedScope": "Own officialpage specific practicefacility block. Does not establish on-course location, accessavailability, total27H/P108, sharedfacility otherclaims, or東海随一superlative. Existingbooking source/date unchanged.",
+      "sourceUrl": "https://enakougen.jp/ec/",
+      "sourceBodySha256": "9d2846668ac300e44395a58a545179dc8acf69bd3e497954c68b02f0fc9304f5",
+      "sourceAcquiredAtUtc": "2026-10-29T16:25:14.506981+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:38:05.766089+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 561,
+      "field": "play",
+      "name": "スリーレイクスカントリークラブ",
+      "comparedExistingValue": {
+        "text": "18ホールのコース。設計はピーター・トムソン。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240034/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：18ホール／同ページのコースタイプ・設計欄",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "Own total18 only.",
+      "remainingUnverifiedScope": "No designerbiography/superlative or course-layout verification; oldbooking/date retained.",
+      "sourceUrl": "http://www.3lakes.jp/",
+      "sourceBodySha256": "31fd0b5f5260683c5b99c0b43b293f315aa7ac946eee419fb56d6ce9007e6ba2",
+      "sourceAcquiredAtUtc": "2026-10-29T16:25:15.496092+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:42:25.430420+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 3,
+      "field": "stay",
+      "name": "クリアビューゴルフクラブ＆ホテル",
+      "comparedExistingValue": {
+        "text": "ホテルを併設。宿泊プランの利用条件は公式案内で確認。",
+        "url": "https://booking.pacificgolf.co.jp/guide/50.html?golfclub=cc_58",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "Hotel lodgingavailability basicexistence only.",
+      "remainingUnverifiedScope": "Ownhotelsection supports lodging facility, not exactphysicaladjacency, currentrooms/availability or planconditions. No extra hoteltext, no fullstayverification.",
+      "sourceUrl": "https://booking.pacificgolf.co.jp/guide/50.html?golfclub=cc_58",
+      "sourceBodySha256": "aa38f17115e36dbc53f6c899408725ca582da37fa75651cab28a0a2bfa98447d",
+      "sourceAcquiredAtUtc": "2026-10-29T15:49:25.441203+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:42:25.430420+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 453,
+      "field": "dining",
+      "name": "愛岐カントリークラブ",
+      "comparedExistingValue": {
+        "text": "GDO施設案内の掲載内容：レストランあり。メニュー・営業時間は来場日に変更される場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/520101/",
+        "checked": "2026-10-25",
+        "sourceType": "booking",
+        "basis": "あり 朝食なし バイキングなし 喫煙席なし"
+      },
+      "confirmedScope": "Own restaurant existence only.",
+      "remainingUnverifiedScope": "No breakfast, smoking, menuavailability, bookingcondition, hours or wholefield verification; oldbooking/date preserved.",
+      "sourceUrl": "http://www.aigi-country.com/",
+      "sourceBodySha256": "9d3df8f34eb5a50a5d94e05184d78ca1a55e0c8a17c750c80702e54bcab12a00",
+      "sourceAcquiredAtUtc": "2026-10-29T16:22:02.428129+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:42:25.430420+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 605,
+      "field": "stay",
+      "name": "朝陽カントリークラブ",
+      "comparedExistingValue": {
+        "text": "宿泊施設：なし。浴場：あり パウダールームあり。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/753201/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設案内の該当項目。名称・都道府県を再照合",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "浴場存在のみ。",
+      "remainingUnverifiedScope": "OwnFacilityparagraph explicitly offers岩風呂, supports existing浴場あり only. Existing宿泊施設なし andパウダールームあり not reverified; no rockbathembellishment appended.",
+      "sourceUrl": "http://www.choyo-cc.jp/",
+      "sourceBodySha256": "30056f256d0881a40017c831ef71211c63a9b6ab6aa5d574cbf6cc7593545bb7",
+      "sourceAcquiredAtUtc": "2026-10-29T16:29:16.365476+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T02:46:49.627999+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
     }
   ],
-  "unchangedFieldReviewCount": 5,
+  "unchangedFieldReviewCount": 50,
   "unchangedNumericTimeFieldReviews": [
     {
       "id": 386,
@@ -13960,19 +16613,14 @@
     "unionFields": 49,
     "queueSnapshotCaveat": "The historical queue hash differed from later queue bytes; exact26targetvalues and archivedsource hashes were checked. Original snapshot preserved, no currentqueue completeness claim."
   },
-  "snapshotDataCommit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+  "snapshotDataCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
   "latestPublicationScope": {
-    "commit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
-    "fields": 18,
-    "facilities": 16,
+    "commit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+    "fields": 1,
+    "facilities": 1,
     "checkedDatesPreserved": true,
-    "browserScope": {
-      "representativeFacilities": 6,
-      "representativeFields": 8,
-      "remainingIndividualFieldBrowserChecks": 10,
-      "mobileTested": false,
-      "normalNavigationTested": false
-    }
+    "allChangedFieldsBrowserViewed": true,
+    "fullFacilityVerification": false
   },
   "preservedTimeScopeOverlayBaseDataCommit": "ccdeb02f0d90b1187619620ff21a1f6fadc8c221",
   "latestSeparateUnpublishedCandidates": {
@@ -13983,10 +16631,10 @@
     "optionalUrlImprovementsSeparate": 4
   },
   "latestMechanicalCoverageSnapshot": {
-    "dataCommit": "c43f888c00ff04e4b93923ac6f915814a6c71a69",
+    "dataCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
     "comparisonCells": 12600,
-    "nonempty": 8974,
-    "empty": 3626,
+    "nonempty": 8993,
+    "empty": 3607,
     "officialUrlMissing": 78,
     "definition": "Textpresence only, not accuracy or overallcompletion."
   },
@@ -14040,5 +16688,121 @@
       "notCurrentRemainingCounts": true
     }
   ],
-  "snapshotStatusScope": "Reflects verified public data snapshot; documentation deployment not presumed before commit."
+  "snapshotStatusScope": "Reflects verified public data snapshot; documentation deployment not presumed before commit.",
+  "unchangedFieldReviewCountScope": "Scoped field reviews only, includes partial checks. Separate from changed-field counters and separate numeric-time review list; not wholefacility count.",
+  "draftProposedFieldChanges": [
+    {
+      "id": 48,
+      "name": "真名カントリークラブ ゲーリー・プレーヤーコース",
+      "field": "play",
+      "status": "draft_proposal_only_not_deployed_not_browser_verified",
+      "alreadyHasPublishedFieldReview": false,
+      "countsAsNewUniqueFieldOnlyIfPublishedVerified": true,
+      "before": {
+        "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.mannacc.com/restaurant/gp-grill",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "proposedAfter": {
+        "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。 公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。",
+        "url": "https://www.mannacc.com/restaurant/gp-grill",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。",
+            "url": "https://www.mannacc.com/restaurant/gp-grill",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
+          },
+          {
+            "text": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。",
+            "url": "https://www.mannacc.com/course/gp-course",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "GPコース専用本文の総ホール数・グリーンと第一打OB時の案内を確認。"
+          }
+        ]
+      },
+      "scope": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。 GP course only, not combinedoperatorholecount. No unconditional cart fairway access guarantee, no penalty/strokecount inference, no tee unspecified yard figure. Prior detailedlayout uncertainty not treated as fully resolved. Old field text/date/url/basis retained; new selected condition scope only. Legacy source label/date range preserved as legacy_unclassified in exactly this48play tuple; no claim of old fact reverification.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.mannacc.com/course/gp-course",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.mannacc.com/course/gp-course",
+        "bytes": 23558,
+        "sha256": "330df1b263e86030a63e93e488995e7be850e4bea097676328248879f82b0458",
+        "completedAtUtc": "2026-10-30T03:27:09.794202+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1327,
+      "name": "グリーンランドリゾートゴルフクラブ",
+      "field": "car",
+      "status": "draft_proposal_only_not_deployed_not_browser_verified",
+      "alreadyHasPublishedFieldReview": true,
+      "countsAsNewUniqueFieldOnlyIfPublishedVerified": false,
+      "before": {
+        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
+        "url": "https://www.greenland.co.jp/golf/grgc/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+      },
+      "proposedAfter": {
+        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。 NEXCO西日本は、南関料金所を2025年3月17日0時からETC専用とし、ETC車載器を搭載していない車両は利用できないと公表しています。",
+        "url": "https://www.greenland.co.jp/golf/grgc/",
+        "checked": "2026-10-30",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。既存の施設所要時間を今回再照合したものではありません。",
+        "evidenceSegments": [
+          {
+            "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
+            "url": "https://www.greenland.co.jp/golf/grgc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+          },
+          {
+            "text": "NEXCO西日本は、南関料金所を2025年3月17日0時からETC専用とし、ETC車載器を搭載していない車両は利用できないと公表しています。",
+            "url": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+            "checked": "2026-10-30",
+            "sourceType": "nexco_west",
+            "basis": "NEXCO西日本の2024年12月13日公表文の保存された抽出記録で、南関の適用日時とETC車載器なし利用不可の条件のみ確認。"
+          }
+        ]
+      },
+      "scope": "Retain facility20minute statement exact/source/date. Separate roadoperator announcement: Nankan ETC-only from2025-03-17 00:00 and noETC-device vehicle exclusion only. Not course-time/alternativeIC/currentincident/PDF verification. Captured web-extraction artifact hash is not originHTML hash; originHTTPstatus not verified.",
+      "sourceEvidence": {
+        "url": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+        "finalUrl": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+        "sha256": "ee8c289f58c07eee080fc952074547670daa23970e47e6cf0cf08aae4cb04425",
+        "checkedJst": "2026-10-30",
+        "sourceType": "nexco_west",
+        "retrievedAtUtc": "2026-10-30T03:37:27Z",
+        "observationTimePrecision": "tool completion reminder, seconds approximate",
+        "representation": "saved_web_tool_text_extraction_observation_JSON",
+        "hashMeaning": "SHA256 of saved extraction-observation JSON only; not original HTML/HTTP response",
+        "originHttpStatusVerified": false,
+        "rawHtmlRetained": false,
+        "sourcePageDate": "2024-12-13"
+      }
+    }
+  ],
+  "draftProposalScope": {
+    "baseDataCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+    "proposedFields": 2,
+    "proposedFacilities": 2,
+    "newUniqueFieldsIfVerified": 1,
+    "newUniqueFacilitiesIfVerified": 1,
+    "proposedChangesExcludedFromPublishedCounts": true,
+    "mergeApprovalGranted": false,
+    "publicationVerificationComplete": false,
+    "excludedOrdinarySix": true,
+    "sourceHashMeaning": "NEXCO evidence hash is the saved extracted observation JSON, not raw origin HTML or HTTP response."
+  }
 }

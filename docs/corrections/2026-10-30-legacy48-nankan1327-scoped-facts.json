@@ -1,0 +1,108 @@
+{
+  "patchSetId": "2026-10-30-scoped-legacy-and-roadoperator-evidence",
+  "parentSha": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+  "inputSha256": "4f0c7beb888658cb1b25f0048a46e4763a4ce5be8687752c83116fa90311bb96",
+  "outputSha256": "31ae319f9b8a0e0ad1ba69afb9143938d25becff13114b3d7218210380a3fd88",
+  "scope": "48の旧文章・確認日期間・URL・basisを保持し新施設情報だけ別段落へ。1327の旧20分を保持しNEXCO西日本公表の料金所利用条件だけを別出典へ。全項目再確認ではありません。",
+  "changes": [
+    {
+      "id": 48,
+      "name": "真名カントリークラブ ゲーリー・プレーヤーコース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。",
+        "url": "https://www.mannacc.com/restaurant/gp-grill",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "after": {
+        "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。 公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。",
+        "url": "https://www.mannacc.com/restaurant/gp-grill",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。",
+            "url": "https://www.mannacc.com/restaurant/gp-grill",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
+          },
+          {
+            "text": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。",
+            "url": "https://www.mannacc.com/course/gp-course",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "GPコース専用本文の総ホール数・グリーンと第一打OB時の案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。 GP course only, not combinedoperatorholecount. No unconditional cart fairway access guarantee, no penalty/strokecount inference, no tee unspecified yard figure. Prior detailedlayout uncertainty not treated as fully resolved. Old field text/date/url/basis retained; new selected condition scope only. Legacy source label/date range preserved as legacy_unclassified in exactly this48play tuple; no claim of old fact reverification.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.mannacc.com/course/gp-course",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.mannacc.com/course/gp-course",
+        "bytes": 23558,
+        "sha256": "330df1b263e86030a63e93e488995e7be850e4bea097676328248879f82b0458",
+        "completedAtUtc": "2026-10-30T03:27:09.794202+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1327,
+      "name": "グリーンランドリゾートゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
+        "url": "https://www.greenland.co.jp/golf/grgc/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+      },
+      "after": {
+        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。 NEXCO西日本は、南関料金所を2025年3月17日0時からETC専用とし、ETC車載器を搭載していない車両は利用できないと公表しています。",
+        "url": "https://www.greenland.co.jp/golf/grgc/",
+        "checked": "2026-10-30",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。既存の施設所要時間を今回再照合したものではありません。",
+        "evidenceSegments": [
+          {
+            "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
+            "url": "https://www.greenland.co.jp/golf/grgc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+          },
+          {
+            "text": "NEXCO西日本は、南関料金所を2025年3月17日0時からETC専用とし、ETC車載器を搭載していない車両は利用できないと公表しています。",
+            "url": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+            "checked": "2026-10-30",
+            "sourceType": "nexco_west",
+            "basis": "NEXCO西日本の2024年12月13日公表文の保存された抽出記録で、南関の適用日時とETC車載器なし利用不可の条件のみ確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Retain facility20minute statement exact/source/date. Separate roadoperator announcement: Nankan ETC-only from2025-03-17 00:00 and noETC-device vehicle exclusion only. Not course-time/alternativeIC/currentincident/PDF verification. Captured web-extraction artifact hash is not originHTML hash; originHTTPstatus not verified.",
+      "sourceEvidence": {
+        "url": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+        "finalUrl": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+        "sha256": "ee8c289f58c07eee080fc952074547670daa23970e47e6cf0cf08aae4cb04425",
+        "checkedJst": "2026-10-30",
+        "sourceType": "nexco_west",
+        "retrievedAtUtc": "2026-10-30T03:37:27Z",
+        "observationTimePrecision": "tool completion reminder, seconds approximate",
+        "representation": "saved_web_tool_text_extraction_observation_JSON",
+        "hashMeaning": "SHA256 of saved extraction-observation JSON only; not original HTML/HTTP response",
+        "originHttpStatusVerified": false,
+        "rawHtmlRetained": false,
+        "sourcePageDate": "2024-12-13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Minimal provenance compatibility for a preserved pre-existing date range and a named road operator; no ranking, design or permission change.",
+  "parentCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+  "changedCode": [
+    "access.js",
+    "scripts/apply-reviewed.mjs"
+  ],
+  "newTest": "scripts/tests/compat.test.mjs",
+  "oldAccessBlob": "c1dc4dcff8ff336e47c059ec4ce4cec1de822e4d",
+  "newAccessBlob": "731e1f0bcdda0255e5747440f93d30a02f7f3fee",
+  "oldApplyBlob": "a2e259c3cb0850286d08664dad231c81375907cd",
+  "newApplyBlob": "a61ecd2fdcec7e6cbed9cd536939df35035b0973",
+  "legacyPolicy": "Only the exact original ID48 play text, URL, basis and literal date range may be retained as first mixed paragraph; original unclassified source is not promoted to facility official. Other ranges and modified preimages fail closed.",
+  "roadSourcePolicy": "Named NEXCO West mixed segment requires HTTPS exact corp.w-nexco.co.jp hostname without credentials/non-default port, visible NEXCO attribution, and separate road-operator label. Independent evidence remains mandatory.",
+  "validation": "120 portable tests passed (89 existing,31 added); separate private full-data comparisons are not additional unique user coverage.",
+  "notVerified": [
+    "mobile",
+    "normal interpage navigation",
+    "search indexing"
+  ],
+  "datePolicy": "Existing single-date renderer calendar validation retained. Future checks remain in the safe-apply gate using an explicit Japan review date.",
+  "restorePolicy": "Revert the whole release together, preserving matching data and access script asset hashes; no automatic production restore exercised."
+}
