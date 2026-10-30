@@ -1,0 +1,154 @@
+{
+  "patchSetId": "2026-10-30-three-primary-play-conditions",
+  "parentSha": "798b53958b72f90654a2801aac3327ae9a64eadf",
+  "inputSha256": "4a8d910ea2006d2dd42e08c16e780baffdc87dec1098781b7b8e3001eab50026",
+  "outputSha256": "0eecb040c4a01225a7afc8cab55fd4ed50a166337263b55360d0344c82428782",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1609,
+      "name": "千葉カントリークラブ 川間コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "東・南・西の27ホール。ペンA-2グリーンを採用。",
+        "url": "https://www.chibacc.co.jp/kawama/kawama-course",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "東・南・西の27ホール。ペンA-2グリーンを採用。 公式案内では、全組が乗用カートでのセルフプレーです。休場日は1月1日・2月1日・8月15日・12月31日と、平日の第1火曜日・最終火曜日です。",
+        "url": "https://www.chibacc.co.jp/kawama/kawama-course",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東・南・西の27ホール。ペンA-2グリーンを採用。",
+            "url": "https://www.chibacc.co.jp/kawama/kawama-course",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、全組が乗用カートでのセルフプレーです。休場日は1月1日・2月1日・8月15日・12月31日と、平日の第1火曜日・最終火曜日です。",
+            "url": "https://www.chibacc.co.jp/kawama",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "川間コースの概要欄にあるプレースタイルと休場日を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、全組が乗用カートでのセルフプレーです。休場日は1月1日・2月1日・8月15日・12月31日と、平日の第1火曜日・最終火曜日です。 All-groups cart/self and listed regular closed days only; not guarantee no exceptional closures. Fee tables family/65+ targeted, excluded; prior27H/green not reverified. Old field text/date/url/basis retained; new selected condition scope only.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.chibacc.co.jp/kawama",
+        "startedAtUtc": "2026-10-30T03:26:25.659362+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.chibacc.co.jp/kawama",
+        "bytes": 79576,
+        "sha256": "5dac01120893db0e403a888037d93d5bf473c1538e38d6b813af3514948c76e2",
+        "completedAtUtc": "2026-10-30T03:26:32.097580+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1045,
+      "name": "チェリーゴルフ和倉コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "OUTは長いミドルホールが特徴。自走式乗用カートによるセルフプレー。",
+        "url": "https://cherry-group.jp/course_wakura/round.html",
+        "checked": "2026-10-25",
+        "basis": "公式施設案内・コース情報",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "OUTは長いミドルホールが特徴。自走式乗用カートによるセルフプレー。 公式サイトでは、1人予約ランドを通じて1名からプレー予約ができると案内しています。",
+        "url": "https://cherry-group.jp/course_wakura/round.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "OUTは長いミドルホールが特徴。自走式乗用カートによるセルフプレー。",
+            "url": "https://cherry-group.jp/course_wakura/round.html",
+            "checked": "2026-10-25",
+            "basis": "公式施設案内・コース情報",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式サイトでは、1人予約ランドを通じて1名からプレー予約ができると案内しています。",
+            "url": "https://cherry-group.jp/course_wakura/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用トップ本文の1名からの予約案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式サイトでは、1人予約ランドを通じて1名からプレー予約ができると案内しています。 Booking channel only, not solo round, booking formation threshold, present plan availability, reopening/operating guarantee. No fee claim. Old field text/date/url/basis retained; new selected condition scope only.",
+      "sourceEvidence": {
+        "requestedUrl": "https://cherry-group.jp/course_wakura/",
+        "startedAtUtc": "2026-10-30T03:26:34.209619+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cherry-group.jp/course_wakura/",
+        "bytes": 15060,
+        "sha256": "4977db1c75e5d07d61c2522530bc5ff035cf7e5b2cd1eb1da4431ecf0d289f12",
+        "completedAtUtc": "2026-10-30T03:26:38.725180+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1607,
+      "name": "ジャパンPGAゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "日本プロゴルフ協会設計の18ホール。池と2段グリーンを攻略する距離感がポイント。",
+        "url": "https://zuien.net/pga/guide",
+        "checked": "2026-10-24",
+        "basis": "公式コース・施設案内本文を確認。"
+      },
+      "after": {
+        "text": "日本プロゴルフ協会設計の18ホール。池と2段グリーンを攻略する距離感がポイント。 公式FAQでは、クラブハウス・練習場の開場は1～2月が6時30分、3～12月が6時で、変更される場合があります。来場時のデニム・サンダル・Tシャツの着用は控えるよう案内しています。",
+        "url": "https://zuien.net/pga/guide",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "日本プロゴルフ協会設計の18ホール。池と2段グリーンを攻略する距離感がポイント。",
+            "url": "https://zuien.net/pga/guide",
+            "checked": "2026-10-24",
+            "basis": "公式コース・施設案内本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式FAQでは、クラブハウス・練習場の開場は1～2月が6時30分、3～12月が6時で、変更される場合があります。来場時のデニム・サンダル・Tシャツの着用は控えるよう案内しています。",
+            "url": "https://zuien.net/pga/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当施設FAQの季節別開場時刻と来場時の服装条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式FAQでは、クラブハウス・練習場の開場は1～2月が6時30分、3～12月が6時で、変更される場合があります。来場時のデニム・サンダル・Tシャツの着用は控えるよう案内しています。 Clubhouse/practice opening and arrival dress restriction only; separate restaurant times not generalized. Cancellation fee not shortened or published, bus/18Hreopening headlines no operational verification. Prior course facts not reverified. Old field text/date/url/basis retained; new selected condition scope only.",
+      "sourceEvidence": {
+        "requestedUrl": "https://zuien.net/pga/",
+        "startedAtUtc": "2026-10-30T03:26:47.749756+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://zuien.net/pga/",
+        "bytes": 61411,
+        "sha256": "87347cc10888c0a053a7724c8b6c438ed532d64d47eed8ba3c01f96e1013c63f",
+        "completedAtUtc": "2026-10-30T03:26:51.767061+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
