@@ -1,0 +1,26 @@
+{
+  "baseCommit": "e075014015182e0517c73e87aaff0e77a716ea98",
+  "checkedOn": "2026-10-30",
+  "scope": "Existing two-page technical sharing metadata only: four Open Graph tags per page derived from unchanged existing title, description and canonical. No visible copy, CSS, JavaScript, H1, ranking, permissions or URL additions.",
+  "values": {
+    "index.html": {
+      "og:title": "全国のゴルフコースガイド | GOLF GUTS",
+      "og:description": "初心者、価格、食事、アクセス。11の目的から選ぶ全国のゴルフコース。GOLF GUTS ベージュスタイルのコースガイド。",
+      "og:type": "website",
+      "og:url": "https://shinjigolfguts-cmd.github.io/golf-guts-japan/"
+    },
+    "find.html": {
+      "og:title": "４コースを見つける | GOLF GUTS",
+      "og:description": "４つの質問で、あなたに合う全国のゴルフコースを比較。",
+      "og:type": "website",
+      "og:url": "https://shinjigolfguts-cmd.github.io/golf-guts-japan/find.html"
+    }
+  },
+  "restoration": "Prior commit retains original two HTML files. Removing the8 added meta tags yields original bytes.",
+  "limitations": [
+    "No search indexing or social crawler fetch proof",
+    "No new OG image requested",
+    "No mobile visual test",
+    "Not full SEO completion"
+  ]
+}

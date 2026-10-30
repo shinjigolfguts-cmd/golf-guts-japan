@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-30T00:05:54.783494+00:00",
+  "snapshotAt": "2026-10-30T00:16:25.688712+00:00",
   "artifactStatus": "validated_snapshot",
   "repository": "shinjigolfguts-cmd/golf-guts-japan",
   "linkBase": "repository_root",
@@ -1885,6 +1885,43 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 313,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40006/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified. Same station30min fact already existed in car; railpresentation supplementation, not new factdiscovery.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 313,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.pacificgolf.co.jp/guide/19.html",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile."
+    },
+    {
       "id": 316,
       "field": "rail",
       "source": {
@@ -2241,6 +2278,27 @@
     },
     {
       "id": 334,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70004/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 334,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -2308,6 +2366,27 @@
     },
     {
       "id": 336,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 336,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -2321,6 +2400,27 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 336,
+      "field": "rail",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 337,
@@ -2875,6 +2975,27 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 360,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50005/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 360,
@@ -3900,6 +4021,27 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 411,
+      "field": "stay",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190013/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 419,
       "field": "rail",
       "source": {
@@ -4330,6 +4472,27 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 469,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180005/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 469,
@@ -6088,6 +6251,27 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 649,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://reserve.golfdigest.co.jp/golf-course/843502/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 665,
       "field": "car",
       "source": {
@@ -6406,6 +6590,27 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Batch sampled4transport fields and1URL in5facilities; not all8facilities or mobile. Individual sample inclusion not asserted here."
+    },
+    {
+      "id": 770,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10029/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 770,
@@ -10307,6 +10512,22 @@
     },
     {
       "id": 1377,
+      "field": "dining",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://www.otgc.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile."
+    },
+    {
+      "id": 1377,
       "field": "officialUrl",
       "source": {
         "origin": "official_url_missing_audit1_6",
@@ -10320,6 +10541,22 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1377,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://www.otgc.co.jp/",
+        "evidenceType": "official"
+      },
+      "date": "2026-10-30",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile."
     },
     {
       "id": 1378,
@@ -10646,6 +10883,27 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 1546,
+      "field": "scenery",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/100046/",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-25",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1549,
       "field": "officialUrl",
       "source": {
@@ -10676,6 +10934,27 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1554,
+      "field": "car",
+      "source": {
+        "origin": "saved_primary_next14",
+        "auditDocument": "docs/corrections/2026-10-30-next14-scoped-fields.json",
+        "fieldEvidenceUrl": "https://www.maebashi-golf.jp/access/index.html",
+        "evidenceType": "mixed"
+      },
+      "date": "2026-10-24",
+      "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+      "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
+      "allFieldsBrowserVerified": false,
+      "fieldScope": "selected_field_only",
+      "browserVerificationScope": "9fields in6 representative facilities verified; not all11facilities14fields/mobile.",
+      "verificationScope": "Only new official segments checked2026-10-30. Old10/25 or10/24 statements remain own date/source, not newly verified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1554,
@@ -11270,7 +11549,7 @@
   ],
   "gitPending": [],
   "counts": {
-    "publishedFields": 598,
+    "publishedFields": 612,
     "publishedFacilities": 410,
     "gitPendingFields": 0,
     "gitPendingFacilities": 0,
@@ -11278,7 +11557,7 @@
     "allFacilitiesAllFieldsComplete": 0,
     "originalAuditLedgerDecrement": 0,
     "areaFields": 1,
-    "sevenComparisonFieldChanges": 332
+    "sevenComparisonFieldChanges": 346
   },
   "limitations": [
     "Field-level selected changes only; no facility is certified fully complete.",
@@ -11290,6 +11569,7 @@
     "unchangedFieldReviews are non-edit confirmations and excluded from published correction counts.",
     "14 numeric-time non-edit confirmations, including340time-only with mode unverified, are separate; their public booking source metadata remains unchanged and they are not deducted from the machine booking-time pool.",
     "Historical ccdeb02 numeric-time scopes remain archived; their counts are not current00bcc1c remaining totals.151 formerly unpublished fields are now published; separate4 candidates now published after formal verification.",
+    "Historical ccdeb02 numeric-time scopes remain archived; their counts are not current00bcc1c remaining totals.151 formerly unpublished fields are now published; separate4 candidates are now published after formal verification.",
     "Historical ccdeb02 numeric-time scopes remain archived; their counts are not current00bcc1c remaining totals.151 formerly unpublished fields are now published; separate4 candidates are now published after formal verification."
   ],
   "preservationRepairStatus": {
@@ -13064,11 +13344,11 @@
     "unionFields": 49,
     "queueSnapshotCaveat": "The historical queue hash differed from later queue bytes; exact26targetvalues and archivedsource hashes were checked. Original snapshot preserved, no currentqueue completeness claim."
   },
-  "snapshotDataCommit": "1f854f89ba62c6d38f08a661aa9bb405b29376b6",
+  "snapshotDataCommit": "e075014015182e0517c73e87aaff0e77a716ea98",
   "latestPublicationScope": {
-    "commit": "1f854f89ba62c6d38f08a661aa9bb405b29376b6",
-    "fields": 4,
-    "facilities": 3,
+    "commit": "e075014015182e0517c73e87aaff0e77a716ea98",
+    "fields": 14,
+    "facilities": 11,
     "checkedDatesPreserved": true
   },
   "preservedTimeScopeOverlayBaseDataCommit": "ccdeb02f0d90b1187619620ff21a1f6fadc8c221",
@@ -13078,6 +13358,14 @@
     "publicationState": "extra4_published_verified",
     "excludedHeldIdentityFields": 2,
     "optionalUrlImprovementsSeparate": 4
+  },
+  "latestMechanicalCoverageSnapshot": {
+    "dataCommit": "e075014015182e0517c73e87aaff0e77a716ea98",
+    "comparisonCells": 12600,
+    "nonempty": 8958,
+    "empty": 3642,
+    "officialUrlMissing": 78,
+    "definition": "Textpresence only, not accuracy or overallcompletion."
   },
   "publicVerificationSummary": "Publishedfield counts require exact commit Pages success, public data match, and representative browser checks. No all-facility/all-field certification.",
   "historicalNumericTimePoolSnapshots": [
@@ -13129,5 +13417,5 @@
       "notCurrentRemainingCounts": true
     }
   ],
-  "snapshotStatusScope": "Snapshot reflects verified published data commit; this documentation artifact is not itself claimed deployed before publication."
+  "snapshotStatusScope": "Reflects verified public data snapshot; documentation deployment not presumed before commit."
 }
