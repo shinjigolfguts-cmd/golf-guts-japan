@@ -1,0 +1,323 @@
+{
+  "status": "reviewed_proposal_not_published",
+  "baseCommit": "87fb0d507128e988a2cd9ceeaa7bdf43361cc5c9",
+  "inputSha256": "edebb3179cee795fc5cbdb3bfb4e3c08fb0271b39de5f99c9f2ae1736aeafddc",
+  "outputSha256": "85271412527e6a7f9cee1aeb4e0750aa470afc83b8610e9bb86808e1c62fa025",
+  "scope": "Eight fields/four facilities. All prior paragraphs/dates preserved. Course vending conditions do not validate old restaurant prices/hours. Hotel notice does not establish golf availability.",
+  "patches": [
+    {
+      "id": 1376,
+      "name": "小浜島カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール、パー72。セルフのスループレーを案内。",
+        "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+        "checked": "2026-10-25",
+        "basis": "公式ページのコース・景観・施設記述を確認し要約"
+      },
+      "after": {
+        "text": "18ホール、パー72。セルフのスループレーを案内。 公式利用案内では、カートは運転免許証所持者が運転し、16歳以下のお子様には保護者の同伴が必要です。",
+        "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧文の確認日は保持。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール、パー72。セルフのスループレーを案内。",
+            "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+            "checked": "2026-10-25",
+            "basis": "公式ページのコース・景観・施設記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式利用案内では、カートは運転免許証所持者が運転し、16歳以下のお子様には保護者の同伴が必要です。",
+            "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "ゴルフ場の注意事項にあるカート運転者と子どもの同伴条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式利用案内では、カートは運転免許証所持者が運転し、16歳以下のお子様には保護者の同伴が必要です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+        "sha256": "696732fc8530faabfba60da804fa14fddaf97a993ab40bc70d867ffe51c08b1a",
+        "capturedAtUtc": "2026-10-30T21:55:29.962807+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "今回の新条件はカート運転者・16歳以下の保護者同伴のみ。ゴルフ参加者全員に免許を要求する案内ではない。",
+        "旧playの18H/PAR72/セルフスルーだけは分類補足のため保存本文で支持した。他欄・旧取得日の刷新はなし。",
+        "台風30号見出しの制限対象・期間未確認。営業実施や予約成立を保証しない。"
+      ],
+      "legacyClassificationEvidence": {
+        "scope": "Prior full 18 holes/par72/self through paragraph supported by the same saved dedicated official body; original date/url/basis retained.",
+        "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/golf/",
+        "sha256": "696732fc8530faabfba60da804fa14fddaf97a993ab40bc70d867ffe51c08b1a",
+        "capturedAtUtc": "2026-10-30T21:55:29.962807+00:00"
+      }
+    },
+    {
+      "id": 531,
+      "name": "岸和田カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=91",
+        "checked": "2026-10-31",
+        "basis": "当施設のクラブバス欄の明示を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=91",
+        "sha256": "ba5af7b5250e0abde9660b459df94ac0365b107c27ed9ef223b67fa0a1d43788",
+        "capturedAtUtc": "2026-10-30T22:01:50.327010+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": [
+        "駅からの手段/時間、一般路線バス・タクシー等は未確認。クラブバスなしを公共交通全不存在へ広げない。",
+        "同本文のプレー/レストラン/有料条件等は今回のrail候補へ混ぜない。旧他欄の誤り認定や日付更新なし。"
+      ]
+    },
+    {
+      "id": 639,
+      "name": "松山ロイヤルゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+        "checked": "2026-10-31",
+        "basis": "当施設のクラブバス欄の明示を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+        "sha256": "015f99dcceca104fb5c10e64c67d96a34c855247fb9b4809fd1da8bcd97477bd",
+        "capturedAtUtc": "2026-10-30T22:03:30.672688+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": []
+    },
+    {
+      "id": 668,
+      "name": "北九州カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+        "checked": "2026-10-31",
+        "basis": "当施設のクラブバス欄の明示を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+        "sha256": "7c3b2f5087746bd09233b0f283d7e27d9a09e4dfe44f443660810d6f8a7c5000",
+        "capturedAtUtc": "2026-10-30T22:03:36.281343+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": []
+    },
+    {
+      "id": 639,
+      "name": "松山ロイヤルゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "basis": "キャディ欄の予約条件と人数制限を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+        "sha256": "015f99dcceca104fb5c10e64c67d96a34c855247fb9b4809fd1da8bcd97477bd",
+        "capturedAtUtc": "2026-10-30T22:03:30.672688+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": []
+    },
+    {
+      "id": 639,
+      "name": "松山ロイヤルゴルフ倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストラン：あり 営業時間：8:00～13:00 朝食：8:00～9:00（料金：￥702～） 朝食あり バイキングなし 喫煙席あり。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/836106/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設案内の該当項目。名称・都道府県を再照合",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "レストラン：あり 営業時間：8:00～13:00 朝食：8:00～9:00（料金：￥702～） 朝食あり バイキングなし 喫煙席あり。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみで、現金の準備を案内しています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/836106/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストラン：あり 営業時間：8:00～13:00 朝食：8:00～9:00（料金：￥702～） 朝食あり バイキングなし 喫煙席あり。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/836106/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設案内の該当項目。名称・都道府県を再照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみで、現金の準備を案内しています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の商品範囲と支払準備を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみで、現金の準備を案内しています。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+        "sha256": "015f99dcceca104fb5c10e64c67d96a34c855247fb9b4809fd1da8bcd97477bd",
+        "capturedAtUtc": "2026-10-30T22:03:30.672688+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": []
+    },
+    {
+      "id": 668,
+      "name": "北九州カントリー倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+            "checked": "2026-10-31",
+            "basis": "フェアウェイ乗り入れ欄の有料性・無料対象・組単位と利用不可条件を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+        "sha256": "7c3b2f5087746bd09233b0f283d7e27d9a09e4dfe44f443660810d6f8a7c5000",
+        "capturedAtUtc": "2026-10-30T22:03:36.281343+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": []
+    },
+    {
+      "id": 531,
+      "name": "岸和田カントリー倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "27ホール・パー107。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/631202/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：ホール\n    27ホール　パー107",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "27ホール・パー107。 公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。セルフデーのキャディ付き希望は受け付けていません。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/631202/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー107。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/631202/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：ホール\n    27ホール　パー107",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。セルフデーのキャディ付き希望は受け付けていません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=91",
+            "checked": "2026-10-31",
+            "basis": "キャディ欄の事前予約・人数制限・セルフデー除外を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。セルフデーのキャディ付き希望は受け付けていません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=91",
+        "sha256": "ba5af7b5250e0abde9660b459df94ac0365b107c27ed9ef223b67fa0a1d43788",
+        "capturedAtUtc": "2026-10-30T22:01:50.327010+00:00",
+        "hashMeaning": "saved official response body"
+      },
+      "limits": []
+    }
+  ]
+}
