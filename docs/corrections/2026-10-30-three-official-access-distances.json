@@ -1,0 +1,128 @@
+{
+  "patchSetId": "2026-10-30-three-official-road-distances",
+  "parentSha": "83011dcb3be921d3a25554cae0c9f171f3e11e87",
+  "inputSha256": "aa5c4623dbdd11bcda6b824dddcb0b532671b8366d2dfb2cf4ff684ea89dcf28",
+  "outputSha256": "efa5215015cffca8d14243cc8972f1d8fa527feb52a7133906b2b1b5c82a9aa6",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1230,
+      "name": "竹原カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "山陽自動車道・本郷ICから15km以内／山陽自動車道・河内ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/340020/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "山陽自動車道・本郷ICから15km以内／山陽自動車道・河内ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、山陽自動車道の河内ICから13kmです。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/340020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "山陽自動車道・本郷ICから15km以内／山陽自動車道・河内ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/340020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、山陽自動車道の河内ICから13kmです。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/hiroshima/takehara/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用アクセス表示の道路・IC起点と距離を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "山陽自動車道/河内ICより13km; only named-road/IC→targetfacility road-distance scope. Same named河内IC precise13km within old15kmcategory; preserve other本郷IC15kmcategory unchanged. Old text/date/url/basis retained when present. No time or route inference.",
+      "sourceEvidence": {
+        "requestedUrl": "http://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=045",
+        "startedAtUtc": "2026-10-29T16:05:27.231233+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/hiroshima/takehara/",
+        "sha256": "55317f3d1be2186eaad1862d9e04abc6bb8d2a98c87f54a278048a980f817e0f",
+        "completedAtUtc": "2026-10-29T16:05:46.715046+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1108,
+      "name": "レイクフォレストリゾート ザ・センチュリーコース",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "名阪国道の小倉ICから17km（公式アクセス案内の道路距離）。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/kyoto/lakeforestcentury/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "施設専用アクセス表示の道路・IC起点と距離を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "名阪国道/小倉ICより17km; only named-road/IC→targetfacility road-distance scope. Current car null. Ownザ・センチュリーコース targetheader, not nearbyバードスプリング or resort-wide45H. Source header supports road distance only; no time inference. Old text/date/url/basis retained when present. No time or route inference.",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=076",
+        "startedAtUtc": "2026-10-29T16:06:11.720291+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/kyoto/lakeforestcentury/",
+        "sha256": "84591ff3ed984fa066d34ec377d0ab71871462118e7de5e6d7e3b2ab984275e0",
+        "completedAtUtc": "2026-10-29T16:06:22.778389+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1182,
+      "name": "ルート２５ゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "名阪国道・上柘植ICから5km以内／名阪国道・下柘植ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240001/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "名阪国道・上柘植ICから5km以内／名阪国道・下柘植ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、名阪国道の下柘植ICから4kmです。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240001/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "名阪国道・上柘植ICから5km以内／名阪国道・下柘植ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240001/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、名阪国道の下柘植ICから4kmです。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/mie/route25/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用アクセス表示の道路・IC起点と距離を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "名阪国道/下柘植ICより4km; only named-road/IC→targetfacility road-distance scope. Same named下柘植IC precise4km within old5kmcategory; old上柘植IC separate5kmcategory preserved. Old text/date/url/basis retained when present. No time or route inference.",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=120",
+        "startedAtUtc": "2026-10-29T16:09:53.073346+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/mie/route25/",
+        "sha256": "5640d70c108f09aded839e66ba506ea4d96b4499d26ac04d765bd71f7086127f",
+        "completedAtUtc": "2026-10-29T16:10:08.483157+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
