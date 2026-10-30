@@ -1,0 +1,106 @@
+{
+  "patchSetId": "prospective-two-equipment-access-scopes",
+  "parentSha": "2054e98b143980c88487adfe634dcc529bd83a23",
+  "inputSha256": "75ec91c1a9affb2493d76d03f9020efcabdeff6740d649e6459d93061e93236a",
+  "outputSha256": "3e5983f611380c999092df98b8cb1ccff78b738616cd04cbe4a5cb0f8486cd7a",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 53,
+      "name": "木更津東カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "高低差を抑えたフラットな18ホール。",
+        "url": "https://www.resol-golf.jp/course/",
+        "checked": "2026-10-24",
+        "basis": "公式情報を再確認"
+      },
+      "after": {
+        "text": "高低差を抑えたフラットな18ホール。 公式施設案内では、7打席・約30ヤードのドライビングレンジと、アプローチ練習場を備えています。",
+        "url": "https://www.resol-golf.jp/course/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "高低差を抑えたフラットな18ホール。",
+            "url": "https://www.resol-golf.jp/course/",
+            "checked": "2026-10-24",
+            "basis": "公式情報を再確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、7打席・約30ヤードのドライビングレンジと、アプローチ練習場を備えています。",
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当施設の練習設備紹介で打席数・距離とアプローチ練習場を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "練習設備の7打席・約30yardとアプローチ練習場のみ。旧18Hの再確認はせず旧本文・日付・generic公式URL/basis保持。旧segment official分類補足は同運営domainと既存basisによる種別整理。道路告知・現利用可否・時間料金は未確認。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.resol-golf.jp/kisarazuhigashi/",
+        "startedAtUtc": "2026-10-30T05:37:18.237056+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.resol-golf.jp/kisarazuhigashi/",
+        "bytes": 50248,
+        "sha256": "f5c6f0fdc7688eb791d9de8e893f27d86023227439a623eef07ac80d319bd456",
+        "completedAtUtc": "2026-10-30T05:37:27.342541+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 540,
+      "name": "シプレカントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "京奈和自動車道/五條ICから約3km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/652201/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC  | 京奈和自動車道/五條IC 3 km",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "京奈和自動車道/五條ICから約3km。 公式アクセス案内では、車の場合、大阪・奈良方面からは五條西ICより約3分、和歌山方面からは橋本東ICより約8分です。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/652201/access/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "京奈和自動車道/五條ICから約3km。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/652201/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：最寄りIC  | 京奈和自動車道/五條IC 3 km",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、車の場合、大阪・奈良方面からは五條西ICより約3分、和歌山方面からは橋本東ICより約8分です。",
+            "url": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "自施設の車アクセス欄で、方面別のIC起点と所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "方面別の別IC起点の車所要時間のみ。旧五條IC約3kmの本文/出典/日付を保持し、五條西IC車約3分や橋本東IC約8分と同一視・換算しない。現在の通行可否保証なし。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+        "startedAtUtc": "2026-10-30T05:37:41.919985+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+        "bytes": 35522,
+        "sha256": "87e7beb89dd7f484a0247f15c94a4a3c50593aa6906ffb745d3284fed863f655",
+        "completedAtUtc": "2026-10-30T05:37:47.858542+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
