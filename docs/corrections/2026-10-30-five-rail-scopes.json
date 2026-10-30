@@ -1,0 +1,124 @@
+{
+  "baseline": "8c65365867e68d775f65d1b0b7f320af702d466c",
+  "status": "proposed_not_published",
+  "inputSha256": "ab3d208ea36094146644c4536d43b88b3e463040785636fe89699610fd587747",
+  "outputSha256": "fab6ac3aedf7ade0d87c44185b3b8c059b2c03281153282effbc6994e9474de4",
+  "scope": "Five null rail fields only, exact stated car/taxi modes and limited club-bus absence. No hotel transfer, fares, other itinerary or current service frequency inferred.",
+  "changes": [
+    {
+      "id": 954,
+      "name": "三井の森蓼科ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、茅野駅から車で20分です。",
+        "url": "https://www.mitsuinomori.co.jp/golf-t/access.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設のアクセス本文で、駅から施設までの車による所要時間を確認。"
+      },
+      "scope": "Limited independently reviewed station-access or club-bus statement; no full transport verification.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.mitsuinomori.co.jp/golf-t/access.html",
+        "finalUrl": "https://www.mitsuinomori.co.jp/golf-t/access.html",
+        "sha256": "77a1f68c4eb2339f92e0e0140ee2d8ecdc2c148482066a217e5edc1e4aa61128",
+        "completedAtUtc": "2026-10-30T11:14:02.406635+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 1047,
+      "name": "ゴルフ倶楽部 金沢リンクス",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、金沢駅から車で約20分です。",
+        "url": "https://kanazawalinks.jp/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設のアクセス本文で、駅から施設までの車による所要時間を確認。"
+      },
+      "scope": "Limited independently reviewed station-access or club-bus statement; no full transport verification.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://kanazawalinks.jp/",
+        "finalUrl": "https://kanazawalinks.jp/",
+        "sha256": "60cce5d0d67bb9af81d44c1c93b0ae74dab1f29340ac462cd21cb1d01182c632",
+        "completedAtUtc": "2026-10-30T11:14:14.113035+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 1063,
+      "name": "小野東洋ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、神戸電鉄・小野駅からタクシーで約10分、JR加古川線・小野町駅からタクシーで約13分です。",
+        "url": "https://onotoyo-golf.com/access.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の専用アクセス案内で駅からのタクシー利用と所要時間を確認。"
+      },
+      "scope": "Limited independently reviewed station-access or club-bus statement; no full transport verification.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://onotoyo-golf.com/access.html",
+        "finalUrl": "https://onotoyo-golf.com/access.html",
+        "sha256": "8da87f1a13327f4cf5eebd1bd90bb5211f77286b31013dbe3979b8421f8c8971",
+        "completedAtUtc": "2026-10-30T11:21:11.810760+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 1169,
+      "name": "一志ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "scope": "Limited independently reviewed station-access or club-bus statement; no full transport verification.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+        "sha256": "567d8dc2aa0f15348f5082982276ddc2181c00c4cd8ccf8b5786742fe9383a2e",
+        "completedAtUtc": "2026-10-30T11:21:18.024860+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 1218,
+      "name": "作州武蔵カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、姫新線・林野駅からタクシーで約15分です。",
+        "url": "https://www.sakushu-musashi.co.jp/access/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の専用アクセス案内で駅からのタクシー利用と所要時間を確認。"
+      },
+      "scope": "Limited independently reviewed station-access or club-bus statement; no full transport verification.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.sakushu-musashi.co.jp/access/",
+        "finalUrl": "https://www.sakushu-musashi.co.jp/access/",
+        "sha256": "41df875ff0573498dfb0ae2f069078cd374eab0261f6a2a01d47fc23f5ab413e",
+        "completedAtUtc": "2026-10-30T11:21:23.542705+00:00",
+        "httpStatus": 200
+      }
+    }
+  ]
+}
