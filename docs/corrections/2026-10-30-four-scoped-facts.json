@@ -1,0 +1,149 @@
+{
+  "patchSetId": "2026-10-30-four-scoped-facts",
+  "parentSha": "00bcc1c52f1f307a3124381613d4e5dceec43508",
+  "scope": "3施設4項目。公式交通・18ホール補足3項目はsafeapply。住所は公開area1文字のみの隔離検査。旧出典日保持。全施設検証ではない。",
+  "changes": [
+    {
+      "id": 576,
+      "name": "浜田ゴルフリンクス",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "山陰自動車道・浜田東ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/320009/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "山陰自動車道・浜田東ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では浜田東ICから2km。車高2.8メートル以上の車両はクラブハウス前の車寄せに入れないため、駐車場からバッグを運ぶ必要があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/320009/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "山陰自動車道・浜田東ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/320009/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では浜田東ICから2km。車高2.8メートル以上の車両はクラブハウス前の車寄せに入れないため、駐車場からバッグを運ぶ必要があります。",
+            "url": "https://hamadagolflinks.com/",
+            "checked": "2026-10-30",
+            "basis": "対象施設のAccess欄：山陰自動車道/浜田東ICより2km。車高2.8m以上の車両はハウス前車寄せ不可、駐車場からバッグを運ぶ注意。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://hamadagolflinks.com/",
+          "sha256": "bc8c6f6e6fefde93be063bbf890b4f7175ede46e6ec33361b796f888c38fbc0c",
+          "acquiredAtUtc": "2026-10-29T18:03:42.965600+00:00"
+        }
+      ],
+      "scope": "Official source new segment only; preserve all old provenance; no full-facility completion.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 576,
+      "name": "浜田ゴルフリンクス",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "JR浜田駅からタクシーで15分、料金の目安は約2,500円と案内されています。",
+        "url": "https://hamadagolflinks.com/",
+        "checked": "2026-10-30",
+        "basis": "Access欄「タクシーでお越しの方」「JR浜田駅から15分 約2,500円」。料金は公式記載目安で実運賃保証なし。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://hamadagolflinks.com/",
+          "sha256": "bc8c6f6e6fefde93be063bbf890b4f7175ede46e6ec33361b796f888c38fbc0c",
+          "acquiredAtUtc": "2026-10-29T18:03:42.965600+00:00"
+        }
+      ],
+      "scope": "Official source new segment only; preserve all old provenance; no full-facility completion.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 287,
+      "name": "大分中央ゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "谷川がアウトとインを分ける丘陵コース。各ホールは比較的平坦。",
+        "url": "https://oitachuo.com/course/",
+        "checked": "2026-10-25",
+        "basis": "公式ページのコース・景観・施設記述を確認し要約"
+      },
+      "after": {
+        "text": "谷川がアウトとインを分ける丘陵コース。各ホールは比較的平坦。 公式サイトでは全18ホールと案内されています。",
+        "url": "https://oitachuo.com/course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "谷川がアウトとインを分ける丘陵コース。各ホールは比較的平坦。",
+            "url": "https://oitachuo.com/course/",
+            "checked": "2026-10-25",
+            "basis": "公式ページのコース・景観・施設記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式サイトでは全18ホールと案内されています。",
+            "url": "https://oitachuo.com/",
+            "checked": "2026-10-30",
+            "basis": "公式対象コースの主文「由布連山を遠望するフラットな18ホールズ」および「全１８ホールのコースガイド」。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://oitachuo.com/",
+          "sha256": "4480b1751e8e82e5460d034f1c75a54cd2543916e0e8609a752e2808302f7e93",
+          "acquiredAtUtc": "2026-10-29T18:03:24.216415+00:00"
+        }
+      ],
+      "scope": "既存featureには18ホール記載済み。比較欄へ全18ホールの公式根拠を補完。旧文の出典分類のみ公式へ明示し、旧本文・URL・2026-10-25確認日は保持。旧記述の今回再確認ではありません。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 1175,
+      "field": "area",
+      "beforeExists": true,
+      "before": "三重県・松阪市嬉野島田町１２４１－１",
+      "after": "三重県・松阪市嬉野島田町１２４２－１",
+      "checked": "2026-10-29",
+      "sourceEvidence": [
+        {
+          "url": "http://www.seven-three.co.jp/",
+          "sha256": "11755e7fb5d5c971db860d000bce791bd7fd2f05314ebb76eaa40c761b21cb23",
+          "checkedDateJst": "2026-10-29"
+        }
+      ],
+      "scope": "保存済み公式ACCESS/CONTACTの所在地1242-1へ一文字を整合。移転や登記上の住所変更を推測せず、公式URL・他項目は不変。"
+    }
+  ],
+  "inputSha256": "843a9faca78e6e6e97e2bc4b8d31f90fed35585b4fc392ffb059aeedf3979eb5",
+  "outputSha256": "f5f537d1abe3054b782b091287f61dad39844251d2991c887974fc764e3261a2",
+  "areaValidation": {
+    "exactBefore": true,
+    "singleFullWidthDigitOnly": true,
+    "allOtherDataUnchanged": true,
+    "regionPrefixUnchanged": true,
+    "sourceHashMatches": true,
+    "safeApplyAllowlistUnchanged": true,
+    "manualCandidateNotClaimedApplyReviewedPass": true
+  }
+}
