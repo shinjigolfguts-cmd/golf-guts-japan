@@ -1,0 +1,58 @@
+{
+  "patchSetId": "2026-10-30-sanuki624-solo-booking",
+  "parentSha": "e52108bcdc58ed83d7331e49a223f283f6143f9d",
+  "inputSha256": "e09ddf9653a6e06a36ddcbc74c3c4c75d1e41ed39084e5a87b815e5496de15b3",
+  "outputSha256": "824d00a7cef9570d02a17d3c7c9488a5a08a0f0044a7a5af1b6a9f56f3e7193c",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 624,
+      "name": "チェリーゴルフ讃岐コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・6,835ヤードの丘陵コース。乗用カートでのセルフプレー。",
+        "url": "https://cherry-group.jp/course_sanuki/round.html",
+        "checked": "2026-10-25",
+        "basis": "公式施設・観光案内のコース記載を確認",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "18ホール・パー72・6,835ヤードの丘陵コース。乗用カートでのセルフプレー。 公式サイトでは、1人予約ランドを通じて1名からプレー予約ができると案内しています。",
+        "url": "https://cherry-group.jp/course_sanuki/round.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・6,835ヤードの丘陵コース。乗用カートでのセルフプレー。",
+            "url": "https://cherry-group.jp/course_sanuki/round.html",
+            "checked": "2026-10-25",
+            "basis": "公式施設・観光案内のコース記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式サイトでは、1人予約ランドを通じて1名からプレー予約ができると案内しています。",
+            "url": "https://cherry-group.jp/course_sanuki/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用トップ本文の1名からの予約案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "1名からの予約窓口案内のみ。 Singlepersonsoloround/otherplayersabsence/minimum成立人数/currentavailableplans not established. Nofee/currentavailabilityguarantee. Bookingplatformlink notfollowed. Existing18H/P72/yard/selfstyle textdateURLbasis preserved, not reverified.",
+      "sourceEvidence": {
+        "requestedUrl": "https://cherry-group.jp/course_sanuki/",
+        "startedAtUtc": "2026-10-30T02:58:32.447505+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cherry-group.jp/course_sanuki/",
+        "bytes": 16402,
+        "sha256": "645a4d4958061ff9c5f9b5f50dfa6d0b8dcd344305fdd4382ae8987fd28b5edb",
+        "completedAtUtc": "2026-10-30T02:58:37.241246+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
