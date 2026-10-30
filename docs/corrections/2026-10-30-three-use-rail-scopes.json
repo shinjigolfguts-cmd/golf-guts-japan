@@ -1,0 +1,138 @@
+{
+  "status": "reviewed_proposal_not_published",
+  "baseCommit": "73f2f7948e9622c8019d83dcb670f69672fb7332",
+  "inputSha256": "fab6ac3aedf7ade0d87c44185b3b8c059b2c03281153282effbc6994e9474de4",
+  "outputSha256": "ef0919fc6e5fa085f210c67ae9b9eae757db154b6909b918665534f43f60bbf3",
+  "scope": "3 fields in 2 facilities. Five condition groups in 1169 are TWO field keys, not five. Prior paragraphs/dates remain unverified historically. No full facility verification.",
+  "patches": [
+    {
+      "id": 1169,
+      "name": "一志ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホールのコース。",
+        "url": "https://booking.pacificgolf.co.jp/guide/175.html",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：津市一志町にある個性的な18ホールが魅力のゴルフ場。",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "18ホールのコース。 公式の練習場は250ヤード・12打席で有料です。利用時間は開場時間から16:30までですが、当日の予約状況により早く閉場する場合があります。レンタルクラブ・シューズも有料で、数に限りがあるため事前の問い合わせが必要です。",
+        "url": "https://booking.pacificgolf.co.jp/guide/175.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホールのコース。",
+            "url": "https://booking.pacificgolf.co.jp/guide/175.html",
+            "checked": "2026-10-25",
+            "basis": "公式ページ本文確認：津市一志町にある個性的な18ホールが魅力のゴルフ場。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の練習場は250ヤード・12打席で有料です。利用時間は開場時間から16:30までですが、当日の予約状況により早く閉場する場合があります。レンタルクラブ・シューズも有料で、数に限りがあるため事前の問い合わせが必要です。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+            "checked": "2026-10-30",
+            "basis": "練習場の利用時間・早閉条件と有料レンタルの事前確認条件を確認",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の練習場は250ヤード・12打席で有料です。利用時間は開場時間から16:30までですが、当日の予約状況により早く閉場する場合があります。レンタルクラブ・シューズも有料で、数に限りがあるため事前の問い合わせが必要です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+        "sha256": "567d8dc2aa0f15348f5082982276ddc2181c00c4cd8ccf8b5786742fe9383a2e",
+        "capturedAtUtc": "2026-10-30T11:21:18.024860+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "新条件だけの支持。旧18H/旧GDO9–13の再照合ではない。",
+        "練習場16:30はコース営業時間や受付終了に転用せず、早閉条件を保持。",
+        "自販機の現金限定例外は午後スルー/ハーフの自販機利用だけで、全決済へ拡張しない。",
+        "掲載案内の支持で当日の営業/在庫/予約成立を保証しない。"
+      ]
+    },
+    {
+      "id": 1169,
+      "name": "一志ゴルフ倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。昼食の営業時間は9:00～13:00。朝食営業なし。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/530207/",
+        "checked": "2026-10-25",
+        "basis": "施設案内の「レストラン」欄を確認。",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "レストランあり。昼食の営業時間は9:00～13:00。朝食営業なし。 公式案内では、レストランは全日ランチのみの営業で、朝食と午後の営業はありません。コンペパーティーは完全予約制で、当日申し込みはソフトドリンクバーのみの対応です。コース内売店は全日自動販売機のみです。クラブハウス・コース内の自動販売機は現金またはカードホルダーで購入できますが、午後スルー・午後ハーフでは現金のみ利用できます。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/530207/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の営業時間は9:00～13:00。朝食営業なし。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/530207/",
+            "checked": "2026-10-25",
+            "basis": "施設案内の「レストラン」欄を確認。",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、レストランは全日ランチのみの営業で、朝食と午後の営業はありません。コンペパーティーは完全予約制で、当日申し込みはソフトドリンクバーのみの対応です。コース内売店は全日自動販売機のみです。クラブハウス・コース内の自動販売機は現金またはカードホルダーで購入できますが、午後スルー・午後ハーフでは現金のみ利用できます。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+            "checked": "2026-10-30",
+            "basis": "レストランの営業帯・パーティ予約と自販機の購入方法の例外を確認",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、レストランは全日ランチのみの営業で、朝食と午後の営業はありません。コンペパーティーは完全予約制で、当日申し込みはソフトドリンクバーのみの対応です。コース内売店は全日自動販売機のみです。クラブハウス・コース内の自動販売機は現金またはカードホルダーで購入できますが、午後スルー・午後ハーフでは現金のみ利用できます。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=175",
+        "sha256": "567d8dc2aa0f15348f5082982276ddc2181c00c4cd8ccf8b5786742fe9383a2e",
+        "capturedAtUtc": "2026-10-30T11:21:18.024860+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "新条件だけの支持。旧18H/旧GDO9–13の再照合ではない。",
+        "練習場16:30はコース営業時間や受付終了に転用せず、早閉条件を保持。",
+        "自販機の現金限定例外は午後スルー/ハーフの自販機利用だけで、全決済へ拡張しない。",
+        "掲載案内の支持で当日の営業/在庫/予約成立を保証しない。"
+      ]
+    },
+    {
+      "id": 1234,
+      "name": "東広島カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=124",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=124",
+        "sha256": "530b49fdbd62891e631987743a7b944ebf1b4943c23ec0ce06197dec24d31e84",
+        "capturedAtUtc": "2026-10-30T11:44:18.019174+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "駅からの手段/時間・一般路線バスやその他送迎の有無は未確認。",
+        "他利用条件/旧欄は今回未照合。掲載案内で当日の全交通を保証しない。"
+      ]
+    }
+  ]
+}
