@@ -1,0 +1,586 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next14",
+  "parentSha": "774c9354dbe696831dd6b098a333a09a84df0a08",
+  "inputSha256": "f5f537d1abe3054b782b091287f61dad39844251d2991c887974fc764e3261a2",
+  "outputSha256": "84d0bffc0a959bb1d36c24cf91a116ad65ea206dddde9fc86928ac05f5f5ea64",
+  "scope": "保存済み成功取得公式情報から当該項目を補完。旧情報・確認日は文ごとに保持。13新規限定事実範囲と既存駅起点情報の欄補完1件。全施設確認ではありません。",
+  "changes": [
+    {
+      "id": 334,
+      "name": "安達太良カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東北自動車道・二本松ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70004/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東北自動車道・二本松ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、東北自動車道・二本松ICから車で約20分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70004/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧掲載情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東北自動車道・二本松ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70004/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、東北自動車道・二本松ICから車で約20分。",
+            "url": "https://adataracc.co.jp/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文: 東北自動車道二本松I.C.から車で約20分",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://adataracc.co.jp/",
+          "sha256": "bf5a3b5f71b95c03a2c644ba5fe697652e96af7166bb6e3c48e5a93cfc9b46a3",
+          "acquiredAtUtc": "2026-10-29T15:00:44.750997+00:00"
+        }
+      ],
+      "scope": "当該公式記述のみ。全施設事実確認ではありません。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 360,
+      "name": "秋田森岳温泉36ゴルフ場",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "秋田自動車道・琴丘森岳ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50005/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "秋田自動車道・琴丘森岳ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、森岳温泉郷の温泉街から車で約3分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50005/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧掲載情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "秋田自動車道・琴丘森岳ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50005/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、森岳温泉郷の温泉街から車で約3分。",
+            "url": "http://www.moritake36.com/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文: 森岳温泉郷の温泉街から車で約3分とほど近く、宿泊してラウンドされるお客様も数多くいらっしゃいます。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "http://www.moritake36.com/",
+          "sha256": "e88cba7a25aadaa8e9884150be2103d3e296c0d70043e6f93a299452390e5e3c",
+          "acquiredAtUtc": "2026-10-29T15:01:04.633193+00:00"
+        }
+      ],
+      "scope": "Origin is hot-spring town, not station or IC; does not establish onsite lodging.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 469,
+      "name": "越前武生カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "北陸自動車道・武生ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180005/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "北陸自動車道・武生ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、北陸道・武生ICから約20分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180005/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧掲載情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "北陸自動車道・武生ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180005/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、北陸道・武生ICから約20分。",
+            "url": "https://banryugolf.com/echizentakefu/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文: 北陸道/武生ICより約20分",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://banryugolf.com/echizentakefu/",
+          "sha256": "49c2f8a23e0cda2857f0281e0f03cdd0f1877e0c5e5762ba52c2b341982b1641",
+          "acquiredAtUtc": "2026-10-29T15:01:38.625694+00:00"
+        }
+      ],
+      "scope": "Source does not explicitly say 車 in this line; do not add taxi mode.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 649,
+      "name": "土佐ユートピアカントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "16番は池越えのショートホール。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/843502/",
+        "checked": "2026-10-25",
+        "basis": "GDOコース紹介本文。名称・都道府県再照合",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "16番は池越えのショートホール。 公式案内では、全コースが太平洋に面してレイアウトされています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/843502/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧掲載情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "16番は池越えのショートホール。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/843502/",
+            "checked": "2026-10-25",
+            "basis": "GDOコース紹介本文。名称・都道府県再照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、全コースが太平洋に面してレイアウトされています。",
+            "url": "https://tosa-yutopia.com/index.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文: ユートピアカントリークラブのコースは、全て太平洋に面してレイアウト。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://tosa-yutopia.com/index.html",
+          "sha256": "f8f58291c6a3ef5fad533e0db2dc67180c87e2a99f478ba8f4b6517c3d8e42bc",
+          "acquiredAtUtc": "2026-10-29T15:01:36.679382+00:00"
+        }
+      ],
+      "scope": "CP932 HTML decoded correctly; not distance or access evidence.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 1377,
+      "name": "大西テェラスゴルフクラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、太平洋を一望できるゴルフ場です。",
+        "url": "https://www.otgc.co.jp/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式HTMLのtitle・description：太平洋を一望できるゴルフ場。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.otgc.co.jp/",
+          "sha256": "66a6cf0aa07eda05c7837dc86f3faf81683775913f5e7458d2702a99222dc8f6",
+          "acquiredAtUtc": "2026-10-29T15:01:36.390503+00:00"
+        }
+      ],
+      "scope": "公式title・descriptionの眺望紹介のみ。全地点・全天候での可視性を保証しません。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 1377,
+      "name": "大西テェラスゴルフクラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、レストランはゴルフをしない方も利用できます。",
+        "url": "https://www.otgc.co.jp/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式本文: 大西テラスゴルフクラブは、レストランをリニューアルいたしました。ゴルファーはもちろん、ゴルファー以外の方もご来店ください。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.otgc.co.jp/",
+          "sha256": "66a6cf0aa07eda05c7837dc86f3faf81683775913f5e7458d2702a99222dc8f6",
+          "acquiredAtUtc": "2026-10-29T15:01:36.390503+00:00"
+        }
+      ],
+      "scope": "No opening hours, dishes, prices, renewal date or reservation requirement verified.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 1546,
+      "name": "PGM富岡カントリークラブ サウスコース",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "広大な敷地に広がるアメリカンスタイルの林間コース。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/100046/",
+        "checked": "2026-10-25",
+        "basis": "公開予約サイトの施設紹介・営業案内本文を確認し、当施設の記述を要約。",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "広大な敷地に広がるアメリカンスタイルの林間コース。 公式案内では、上毛三山を望む眺望が特徴です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/100046/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧掲載情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "広大な敷地に広がるアメリカンスタイルの林間コース。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/100046/",
+            "checked": "2026-10-25",
+            "basis": "公開予約サイトの施設紹介・営業案内本文を確認し、当施設の記述を要約。",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、上毛三山を望む眺望が特徴です。",
+            "url": "https://booking.pacificgolf.co.jp/guide/74.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文: 上毛三山を望む眺望は、プレーで熱くなった心の清涼剤となる。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/74.html",
+          "sha256": "df236110851f40c028b1167020ffd6876e700bd6b5f078cb751c988464222d47",
+          "acquiredAtUtc": "2026-10-29T15:01:36.899978+00:00"
+        }
+      ],
+      "scope": "Only target course PLEASURES section; exclude all group-site navigation facility data.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 770,
+      "name": "桂ゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "道央自動車道・千歳ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10029/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "道央自動車道・千歳ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、札幌・JR札幌駅から札幌南IC・道央道・新千歳空港IC経由で約50km・約60分。新千歳空港から道道1091経由で約15km・約20分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10029/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "道央自動車道・千歳ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10029/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、札幌・JR札幌駅から札幌南IC・道央道・新千歳空港IC経由で約50km・約60分。新千歳空港から道道1091経由で約15km・約20分。",
+            "url": "https://www.pacificgolf.co.jp/katsura/information.asp",
+            "checked": "2026-10-30",
+            "basis": "保存済み対象公式本文：【ルート1（約50Km・約60分）】 札幌・JR札幌駅 ― (R12利用) ― 札幌南IC ― (道央自動車道) ― 新千歳空港IC ― コース 【ルート2（約15Km・約20分）】 新千歳空港 ― (道道1091) ― コース",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.pacificgolf.co.jp/katsura/information.asp",
+          "sha256": "b894876006db35548fb780f06d14533a9efe0a3da3092a7038d7b14f266c69df",
+          "acquiredAtUtc": "2026-10-29T15:06:51.545504+00:00"
+        }
+      ],
+      "scope": "Append official segment to unchanged booking distance segment; do not relabel booking claim official.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 411,
+      "name": "北の杜カントリー倶楽部",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190013/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。 公式トップでは、倶楽部敷地内の宿泊施設「ホテル北の杜」を案内しています。温泉設備の故障に関するお知らせも掲載されているため、現在の入浴条件は予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190013/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190013/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式トップでは、倶楽部敷地内の宿泊施設「ホテル北の杜」を案内しています。温泉設備の故障に関するお知らせも掲載されているため、現在の入浴条件は予約時に確認してください。",
+            "url": "https://kitanomori-cc.jp/",
+            "checked": "2026-10-30",
+            "basis": "保存済み対象公式本文：ご宿泊の際は北の杜カントリー倶楽部敷地内の宿泊施設・ホテル北の杜をぜひご利用ください。 同じトップに「ホテル施設温泉の故障のお知らせ（2026/4/20更新）」を掲載。復旧・営業状況は未確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://kitanomori-cc.jp/",
+          "sha256": "141d4e027c2a66009524f197f66d56932489b4d0cab15558561f695fa77bf617",
+          "acquiredAtUtc": "2026-10-29T15:06:51.545103+00:00"
+        }
+      ],
+      "scope": "Same homepage lists ホテル施設温泉の故障のお知らせ 2026/4/20更新. Do not infer working hot spring or repair status; preserve existing caution.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 1554,
+      "name": "前橋ゴルフ場",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "駒寄スマートICから2km・約5分（ETC車のみ）。渋川伊香保ICから8km・約15分。",
+        "url": "https://www.maebashi-golf.jp/access/index.html",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "駒寄スマートICから2km・約5分（ETC車のみ）。渋川伊香保ICから8km・約15分。 公式案内では、伊勢崎ICから20km・約35分、前橋ICから9km・約20分。",
+        "url": "https://www.maebashi-golf.jp/access/index.html",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "駒寄スマートICから2km・約5分（ETC車のみ）。渋川伊香保ICから8km・約15分。",
+            "url": "https://www.maebashi-golf.jp/access/index.html",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、伊勢崎ICから20km・約35分、前橋ICから9km・約20分。",
+            "url": "https://www.maebashi-golf.jp/access/index.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み対象公式本文：伊勢崎インターより20km （所要時間：35分） / 前橋インターより9km （所要時間：20分）",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.maebashi-golf.jp/access/index.html",
+          "sha256": "5d3b2fb2b4a364d9265946d7a85219bd6298e2ef4448b0a8572eccc3a716e2a9",
+          "acquiredAtUtc": "2026-10-29T15:07:01.972816+00:00"
+        }
+      ],
+      "scope": "Retains original two routes and ETC-only condition. New segment checked2026-10-30; original two-route checked2026-10-24 must remain as original evidence date, not silently overwritten. Existing officialsource分類のみ旧segmentへ補足、旧10/24本文/URL不変。",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 313,
+      "name": "グレート仙台カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40006/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。 公式では仙台駅から車で約30分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40006/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40006/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式では仙台駅から車で約30分。",
+            "url": "https://booking.pacificgolf.co.jp/guide/19.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み対象公式本文：仙台駅より車で約30分と良好なアクセス。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/19.html",
+          "sha256": "b2bc4b9ccb2ff71cb1bc6ba09df2cf81c7d382597a19db0d36bbe482b22d22c8",
+          "acquiredAtUtc": "2026-10-29T15:06:30.803511+00:00"
+        }
+      ],
+      "scope": "Append to unchanged booking-source no-club-bus text. Car is stated, taxi not explicitly stated. Existing comparison.car already contains this fact, so this fills rail last-mile presentation rather than newly discovered time.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 313,
+      "name": "グレート仙台カントリー倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "蔵王連峰を遠くに望む眺望。",
+        "url": "https://booking.pacificgolf.co.jp/guide/19.html",
+        "checked": "2026-10-30",
+        "basis": "保存済み対象公式本文：蔵王連峰を遠くに望むは眺望は格別。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://booking.pacificgolf.co.jp/guide/19.html",
+          "sha256": "b2bc4b9ccb2ff71cb1bc6ba09df2cf81c7d382597a19db0d36bbe482b22d22c8",
+          "acquiredAtUtc": "2026-10-29T15:06:30.803511+00:00"
+        }
+      ],
+      "scope": "",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 336,
+      "name": "猪苗代ゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。 公式アクセス欄では磐越西線・猪苗代駅からバス30分で猪苗代ゴルフクラブ。バスの種別・運行日・予約条件は施設に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄では磐越西線・猪苗代駅からバス30分で猪苗代ゴルフクラブ。バスの種別・運行日・予約条件は施設に確認してください。",
+            "url": "https://www.inawashiro-gc.com/",
+            "checked": "2026-10-30",
+            "basis": "保存済み対象公式本文：郡山：磐越西線猪苗代駅-バス(30分)-猪苗代ゴルフクラブ 会津若松：磐越西線猪苗代駅-バス(30分)-猪苗代ゴルフクラブ",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.inawashiro-gc.com/",
+          "sha256": "ec1c98a4987d31a3b0a7d36a86c576f5021f20cf87a81df1d9ad1195e8711807",
+          "acquiredAtUtc": "2026-10-29T15:06:31.038161+00:00"
+        }
+      ],
+      "scope": "Append separate official segment. Preserve booking no-club-bus statement/date/source; public vs club bus unresolved.30min is station→club, not 郡山/会津若松→club.",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    },
+    {
+      "id": 336,
+      "name": "猪苗代ゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "磐越自動車道・猪苗代磐梯高原ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "磐越自動車道・猪苗代磐梯高原ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス欄：東京・水戸・新潟方面は猪苗代磐梯高原ICから約20分、仙台方面は福島西ICから約40分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別の根拠欄に表示。旧掲載情報は今回再確認したものではありません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "磐越自動車道・猪苗代磐梯高原ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70007/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄：東京・水戸・新潟方面は猪苗代磐梯高原ICから約20分、仙台方面は福島西ICから約40分。",
+            "url": "https://www.inawashiro-gc.com/",
+            "checked": "2026-10-30",
+            "basis": "保存済み対象公式本文：東京、水戸、新潟方面：猪苗代磐梯高原ICより約20分 仙台方面：福島西ICより約40分",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "sourceEvidence": [
+        {
+          "url": "https://www.inawashiro-gc.com/",
+          "sha256": "ec1c98a4987d31a3b0a7d36a86c576f5021f20cf87a81df1d9ad1195e8711807",
+          "acquiredAtUtc": "2026-10-29T15:06:31.038161+00:00"
+        }
+      ],
+      "scope": "",
+      "reviewStatus": "supported_with_required_conditions_applied"
+    }
+  ]
+}
