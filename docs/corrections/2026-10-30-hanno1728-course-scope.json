@@ -1,0 +1,58 @@
+{
+  "patchSetId": "2026-10-30-hanno1728-course-specification",
+  "parentSha": "529510698367fba93328f0608645872899e959d9",
+  "inputSha256": "f1af221cedcbb3a2c9161533c24dc0c9a8562201272e47c05a9e13cbf3ddff06",
+  "outputSha256": "e1dd97cd13e45f92e670d392329e14b1ebf929e9f9b55a4dc96853dd7e7e0f95",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1728,
+      "name": "東都飯能カントリー倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "練習場はゴンドラリフト故障により当面閉鎖と案内。パッティング練習場・アプローチ練習場は利用できます。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/110053/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載の当施設のお知らせを確認。施設設備の構造化情報より営業制限の告知を優先。",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "練習場はゴンドラリフト故障により当面閉鎖と案内。パッティング練習場・アプローチ練習場は利用できます。 公式コース案内では、18ホール・パー72です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/110053/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "練習場はゴンドラリフト故障により当面閉鎖と案内。パッティング練習場・アプローチ練習場は利用できます。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/110053/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORA掲載の当施設のお知らせを確認。施設設備の構造化情報より営業制限の告知を優先。",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式コース案内では、18ホール・パー72です。",
+            "url": "https://www.toto-motors.co.jp/golf/hanno/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "飯能コース専用本文のホール総数とパーを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式コース案内では、18ホール・パー72です。 旧本文・出典・日付・basisを保持し、旧事実は再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.toto-motors.co.jp/golf/hanno/",
+        "startedAtUtc": "2026-10-30T04:46:28.469191+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.toto-motors.co.jp/golf/hanno/",
+        "bytes": 12879,
+        "sha256": "9ef285de180e57c5f55c4a93480a9805d4a5bc598fe7be63a17d35301e4043e2",
+        "completedAtUtc": "2026-10-30T04:46:33.194748+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
