@@ -1,0 +1,148 @@
+{
+  "patchSetId": "2026-10-30-three-scoped-transport-play-supplements",
+  "parentSha": "0526f8600b66f2d9950c7deca8ee9a1775d22b2b",
+  "inputSha256": "55265d2c53ba3bb9b87aa81f85a96b48216b0b7dec1f61a2334c242df25d89c6",
+  "outputSha256": "aa5c4623dbdd11bcda6b824dddcb0b532671b8366d2dfb2cf4ff684ea89dcf28",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 348,
+      "name": "糸魚川カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホールのコース。",
+        "url": "https://itoigawa-cc.com/course/",
+        "checked": "2026-10-25",
+        "basis": "公式本文のホール数表記: 18ホール。コース内の個別ホールを施設として分割せず掲載。"
+      },
+      "after": {
+        "text": "18ホールのコース。 公式案内では、スタートの30分前までのチェックインをお願いしています。プレースタイルはキャディ付き・セルフの選択制で、キャディは予約先着順です。",
+        "url": "https://itoigawa-cc.com/course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホールのコース。",
+            "url": "https://itoigawa-cc.com/course/",
+            "checked": "2026-10-25",
+            "basis": "公式本文のホール数表記: 18ホール。コース内の個別ホールを施設として分割せず掲載。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、スタートの30分前までのチェックインをお願いしています。プレースタイルはキャディ付き・セルフの選択制で、キャディは予約先着順です。",
+            "url": "https://itoigawa-cc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "チェックイン時刻とキャディ手配の条件を施設案内本文で確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Checkin30minutes before start; choice caddie/self; caddies first-reserved. Own CLUB INFORMATION table only. Adjacent openinghours seasonal exception relates to hours, which are not proposed. Historical covid/seasonal fee/cashback/calendar notices are not adopted; availability of requested caddie not guaranteed. Old text/date/url/basis retained. Only missing old sourceType official classification supplemented where supported by prior operator-specific URL/basis. No old condition revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "http://itoigawa-cc.com",
+        "startedAtUtc": "2026-10-29T16:21:10.144582+00:00",
+        "status": 200,
+        "finalUrl": "https://itoigawa-cc.com/",
+        "sha256": "c18f52ff8e34205bbf5aa6d900240bb3f4bca220781f5c491e4035f39cef4400",
+        "completedAtUtc": "2026-10-29T16:21:29.228812+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 493,
+      "name": "愛宕原ゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "新名神高速道路・川西ICから10km以内／阪神高速道路・川西小花ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280015/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "新名神高速道路・川西ICから10km以内／阪神高速道路・川西小花ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、阪神高速道路池田線の川西小花出口から3kmです。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280015/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "新名神高速道路・川西ICから10km以内／阪神高速道路・川西小花ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280015/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、阪神高速道路池田線の川西小花出口から3kmです。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/hyogo/atagohara/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用ヘッダーの出口名と道路距離を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Own header川西小花出口 precise3km. Old新名神川西IC10kmcategory and阪神川西小花IC5kmcategory retained. Source出口 vs oldIC nomenclature kept, no renaming assertion or time inference. Desktop/mobile duplicates are one source, not two routes. Old text/date/url/basis retained. Only missing old sourceType official classification supplemented where supported by prior operator-specific URL/basis. No old condition revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=083",
+        "startedAtUtc": "2026-10-29T16:05:46.715247+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/hyogo/atagohara/",
+        "sha256": "184457f46278665fa5288c3796d26b35a695e2ea1277536907417de350bcca52",
+        "completedAtUtc": "2026-10-29T16:06:00.052889+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 731,
+      "name": "青島ゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "宮崎自動車道/宮崎ICより10km",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=030",
+        "checked": "2026-10-25",
+        "basis": "公式アクセス文の起点と所要時間・距離"
+      },
+      "after": {
+        "text": "宮崎自動車道/宮崎ICより10km 公式案内では、宮崎空港から車で15分が目安です。",
+        "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=030",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "宮崎自動車道/宮崎ICより10km",
+            "url": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=030",
+            "checked": "2026-10-25",
+            "basis": "公式アクセス文の起点と所要時間・距離",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、宮崎空港から車で15分が目安です。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/miyazaki/aoshima/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設紹介本文の空港起点と車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Own targetbody airport→club car15minutes. Different origin from old宮崎IC10km; old distance retained. Time is official stated guide, not guaranteed actual traffic. No taxi fare/bus mode inference. Old text/date/url/basis retained. Only missing old sourceType official classification supplemented where supported by prior operator-specific URL/basis. No old condition revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=030",
+        "startedAtUtc": "2026-10-29T16:06:00.212256+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/miyazaki/aoshima/",
+        "sha256": "773c1bbc8af00c51ea5fda7d114e044c591f34931dab343eced58d3d3c71cea0",
+        "completedAtUtc": "2026-10-29T16:06:11.720042+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
