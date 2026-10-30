@@ -1,0 +1,83 @@
+{
+  "patchSetId": "tourism1794-two-scoped-access",
+  "parentSha": "79e6ee2be6dcec4ca176eb1c86407bd53d08f165",
+  "inputSha256": "201ff4a77d0aa808629ebf8e5e29067cbb2bc9c11d72897f03f22c12867a2b12",
+  "outputSha256": "75ec91c1a9affb2493d76d03f9020efcabdeff6740d649e6459d93061e93236a",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1794,
+      "name": "宮崎サンシャインカントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "宮崎県公式観光サイトの案内では、JR佐土原駅から車で約10分、JR宮崎駅から車で約25分です。施設情報は変更される場合があるため、最新情報は施設公式サイト等でご確認ください。",
+        "url": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "checked": "2026-10-30",
+        "sourceType": "tourism",
+        "basis": "県公式観光サイトの当施設アクセス欄で、起点別の車の所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "宮崎県公式観光サイトの当施設案内にある起点別の車所要時間のみ。駅からの車をタクシー・送迎へ置換しない。旧IC距離情報の本文・出典・日付は保持し再確認していない。元資料取得日時を保持し現在の営業・交通状況の保証はしない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "retrievedAtUtc": "2026-10-29T15:12:57.476630+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "sha256": "7fecba4406d0a8c6947558a0db806e48c09e9070a357d1d47178aff5118a4fe2",
+        "bytes": 244438,
+        "sourceType": "tourism"
+      }
+    },
+    {
+      "id": 1794,
+      "name": "宮崎サンシャインカントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東九州自動車道・西都ICから10km以内／一ツ葉有料道路・住吉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/450020/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東九州自動車道・西都ICから10km以内／一ツ葉有料道路・住吉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 宮崎県公式観光サイトの案内では、宮崎空港から車で約30分です。施設情報は変更される場合があるため、最新情報は施設公式サイト等でご確認ください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/450020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東九州自動車道・西都ICから10km以内／一ツ葉有料道路・住吉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/450020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "宮崎県公式観光サイトの案内では、宮崎空港から車で約30分です。施設情報は変更される場合があるため、最新情報は施設公式サイト等でご確認ください。",
+            "url": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+            "checked": "2026-10-30",
+            "sourceType": "tourism",
+            "basis": "県公式観光サイトの当施設アクセス欄で、起点別の車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "宮崎県公式観光サイトの当施設案内にある起点別の車所要時間のみ。駅からの車をタクシー・送迎へ置換しない。旧IC距離情報の本文・出典・日付は保持し再確認していない。元資料取得日時を保持し現在の営業・交通状況の保証はしない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "retrievedAtUtc": "2026-10-29T15:12:57.476630+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "sha256": "7fecba4406d0a8c6947558a0db806e48c09e9070a357d1d47178aff5118a4fe2",
+        "bytes": 244438,
+        "sourceType": "tourism"
+      }
+    }
+  ]
+}
