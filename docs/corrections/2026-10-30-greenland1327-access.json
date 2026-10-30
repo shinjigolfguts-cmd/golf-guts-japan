@@ -1,0 +1,36 @@
+{
+  "patchSetId": "2026-10-30-greenland1327-access",
+  "parentSha": "e317b3410fa8cb459a24c1cb6a4a11972ac08fd5",
+  "inputSha256": "bea082a55b7500302dd7651f5f6616c85961dc72fb9397f09ba8f0255008aadf",
+  "outputSha256": "4a8d910ea2006d2dd42e08c16e780baffdc87dec1098781b7b8e3001eab50026",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1327,
+      "name": "グリーンランドリゾートゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
+        "url": "https://www.greenland.co.jp/golf/grgc/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "南関IC→当施設の約20分というACCESS掲載目安。 No addedexplicitcarword toICsentence; 車 wording appliesseparate熊本/福岡cityorigin andnottransferred. Carfieldselection basedACCESSICroadcontext only. City1hour excluded, no distance/fare/roadname ortrafficguarantee. Independentreview mayholdif explicitmode required. Identity supported with visible コース/current クラブ name variant, metadata-locality and operator routing; no name change.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.greenland.co.jp/golf/grgc/",
+        "startedAtUtc": "2026-10-30T03:13:54.103729+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.greenland.co.jp/golf/grgc/",
+        "bytes": 47255,
+        "sha256": "9b8f44a38c53c6e57f69ef58521e1b2ebeb059d5376c8d0ff0f46485a4c5c4bb",
+        "completedAtUtc": "2026-10-30T03:13:57.936586+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
