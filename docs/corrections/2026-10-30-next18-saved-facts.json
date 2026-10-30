@@ -1,0 +1,705 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next18",
+  "parentSha": "0d522a8240d3cdef25f22d77b56c81b9568b8923",
+  "inputSha256": "ce6adf30835c2ec8e06b67d6c2231e2683ea5f719238884e6de037442ec139f4",
+  "outputSha256": "0fe7b4aebae80e0bf6f22f4a48b154d0c66fca344354f9c06061d586953a9d66",
+  "scope": "保存済み成功取得公式資料から16施設18項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 797,
+      "name": "士別同友会カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10073/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。 公式アクセスでは、JR宗谷本線・士別駅からタクシーで約5分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10073/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10073/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、JR宗谷本線・士別駅からタクシーで約5分。",
+            "url": "https://www.shibetsu-cc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "既存クラブバスなしのbooking文と出典日付を保持。",
+      "sourceEvidence": {
+        "key": "797",
+        "requestedUrl": "https://www.shibetsu-cc.com/",
+        "retrievedAtUtc": "2026-10-29T15:28:23.022208+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.shibetsu-cc.com/",
+        "sha256": "a787144d4a6e99dbcd4255b2d3e48ba5531b02fe6bcacb08f49959f0dcb36bda",
+        "bytes": 864689,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 797,
+      "name": "士別同友会カントリークラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式トップにレストラン営業休止の案内が掲載されています。コンペなどのフリースペースとして利用可能との記載があります。来場前に営業状況をご確認ください。",
+        "url": "https://www.shibetsu-cc.com/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "休止告知の掲載日・開始日・再開予定は保存本文にない。checked2026-10-30は保存資料確認日で、当日の営業現況保証ではない。baseline diningはnullで旧レストラン有の文は存在しない。食事提供ありとは推定しない。 Closure notice publication date is unknown. Captured homepage listing only, not certified current operational status. Check before visit.",
+      "sourceEvidence": {
+        "key": "797",
+        "requestedUrl": "https://www.shibetsu-cc.com/",
+        "retrievedAtUtc": "2026-10-29T15:28:23.022208+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.shibetsu-cc.com/",
+        "sha256": "a787144d4a6e99dbcd4255b2d3e48ba5531b02fe6bcacb08f49959f0dcb36bda",
+        "bytes": 864689,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 846,
+      "name": "バイロンネルソンカントリークラブ",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70044/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。 公式ではゴルフ場の敷地内にコテージを併設し、中央のリビングルームと個室の寝室を案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70044/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70044/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式ではゴルフ場の敷地内にコテージを併設し、中央のリビングルームと個室の寝室を案内しています。",
+            "url": "https://bncc.tatemono-golf.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "宿泊プラン/料金/食事込みを推定しない。元の営業日・宿泊プラン・入浴条件確認注意保持。",
+      "sourceEvidence": {
+        "key": "846",
+        "requestedUrl": "https://bncc.tatemono-golf.com/",
+        "retrievedAtUtc": "2026-10-29T15:28:23.024639+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://bncc.tatemono-golf.com/",
+        "sha256": "282e544ba5c81f92bc600d29548b1efeba89c69c18971835e8f361e7d69a631c",
+        "bytes": 42628,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1511,
+      "name": "箱根カントリー倶楽部",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "倶楽部ロッジは和室・個室・ツインを備え、定員計25名。申し込みはコースフロント、門限22時。",
+        "url": "https://www.hakonecc.com/stay/",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "倶楽部ロッジは和室・個室・ツインを備え、定員計25名。申し込みはコースフロント、門限22時。 公式トップでは、ロッジは毎週火曜日が定休日と案内しています。",
+        "url": "https://www.hakonecc.com/stay/",
+        "checked": "2026-10-24",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "倶楽部ロッジは和室・個室・ツインを備え、定員計25名。申し込みはコースフロント、門限22時。",
+            "url": "https://www.hakonecc.com/stay/",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式トップでは、ロッジは毎週火曜日が定休日と案内しています。",
+            "url": "https://www.hakonecc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "定休対象はロッジ、ゴルフ場全体ではない。既存定員/客室/門限を元10-24segmentで保持。 Missing sourceType in retained old official segment is classification supplementation only from old basis/source URL. Before unchanged; old text/date/URL/basis preserved, not newly reverified.",
+      "sourceEvidence": {
+        "key": "1511",
+        "requestedUrl": "https://www.hakonecc.com/",
+        "retrievedAtUtc": "2026-10-29T15:28:23.027415+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.hakonecc.com/",
+        "sha256": "a562702681a52baa642a8daa6b989470be59bd9a7e43ac9c2e24e1ccdc0ad8ed",
+        "bytes": 63071,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1559,
+      "name": "下秋間カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、安中榛名駅前からタクシーで6km・10分。",
+        "url": "http://www.shimoakima.co.jp/access/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "東京→駅約60分を最終区間に混ぜない。13名以上予約の首都圏クラブバスは別サービスなのでこの駅タクシー文には混在させない。",
+      "sourceEvidence": {
+        "key": "1559access",
+        "requestedUrl": "http://www.shimoakima.co.jp/access/",
+        "retrievedAtUtc": "2026-10-29T15:29:15.994833+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "http://www.shimoakima.co.jp/access/",
+        "sha256": "0ad1b5ee8c9e0f745a4473589f500f8a09e88501143d1e05974089c52b3d37f0",
+        "bytes": 4319,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 965,
+      "name": "御殿場東名ゴルフクラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式では、18ホール中16ホールから富士山が見えると案内しています。",
+        "url": "https://booking.pacificgolf.co.jp/guide/166.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "全18Hから見えるとはしない。天候による視認保証なし。PGM他施設カード不使用。",
+      "sourceEvidence": {
+        "key": "965",
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/166.html",
+        "retrievedAtUtc": "2026-10-29T15:28:58.523696+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/166.html",
+        "sha256": "fcbb4d939d2787b84aff05a90ea9420d92e93145d0f0eb75b2ad2a18bdd7dffe",
+        "bytes": 151456,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 799,
+      "name": "シャトレーゼカントリークラブマサリカップ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：宮澤長平。練習場は250ヤード・9打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10140/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：宮澤長平。練習場は250ヤード・9打席の掲載。 公式トップではコース全長を7,151ヤードと掲載しています（使用ティーの指定はこの欄にありません）。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10140/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：宮澤長平。練習場は250ヤード・9打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10140/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式トップではコース全長を7,151ヤードと掲載しています（使用ティーの指定はこの欄にありません）。",
+            "url": "https://masari.chateraisegolf.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "全長表示のみ。標準ティー/当日プレー距離と断定しない。既存練習場250ydとは別。",
+      "sourceEvidence": {
+        "id": 799,
+        "requestedUrl": "https://masari.chateraisegolf.jp/",
+        "startedAtUtc": "2026-10-29T15:25:13.045451+00:00",
+        "status": 200,
+        "finalUrl": "https://masari.chateraisegolf.jp/",
+        "sha256": "91a139c71bd1180772471ba1b28d2c770c2e4604988d432fa21f1208b9293160",
+        "completedAtUtc": "2026-10-29T15:25:19.455279+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 319,
+      "name": "仙台ヒルズゴルフ倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、四季折々の泉ヶ岳を眺望できるレイアウトと案内しています。",
+        "url": "https://booking.pacificgolf.co.jp/guide/21.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "ホテルからの蔵王/市街地眺望と区別。全ホール保証なし。",
+      "sourceEvidence": {
+        "id": 319,
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/21.html",
+        "startedAtUtc": "2026-10-29T15:25:21.675779+00:00",
+        "status": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/21.html",
+        "sha256": "0acdabe27239950bcd6fcd6b287ff75a5cf4048454d84ecb96849281d6949aff",
+        "completedAtUtc": "2026-10-29T15:25:26.597636+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 440,
+      "name": "ギャツビイゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東名高速道路・御殿場ICから5km以内／東名高速道路・足柄ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220027/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東名高速道路・御殿場ICから5km以内／東名高速道路・足柄ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式トップでは御殿場ICから5分、足柄スマートICから5分と案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220027/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "東名高速道路・御殿場ICから5km以内／東名高速道路・足柄ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220027/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式トップでは御殿場ICから5分、足柄スマートICから5分と案内しています。",
+            "url": "https://www.gatsby-gc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "アウトレット迄3分は別目的地で除外。ETC条件は保存原文にないため追加しない。元の距離区分2IC保持。",
+      "sourceEvidence": {
+        "id": 440,
+        "requestedUrl": "https://www.gatsby-gc.com/",
+        "startedAtUtc": "2026-10-29T15:25:13.046773+00:00",
+        "status": 200,
+        "finalUrl": "https://www.gatsby-gc.com/",
+        "sha256": "82af64182bc7e1212cc0d5ebf33aec70415b14aa81aa9fc6d95e72ab329505e2",
+        "completedAtUtc": "2026-10-29T15:25:21.387385+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 847,
+      "name": "小名浜カントリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "2026年4月にランチバイキング再開。公式掲載プランの対象期間は11月30日まで。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/fukushima/onahamacc/detail",
+        "checked": "2026-10-25",
+        "basis": "公式施設案内・公式観光情報の掲載内容を確認。"
+      },
+      "after": {
+        "text": "2026年4月にランチバイキング再開。公式掲載プランの対象期間は11月30日まで。 公式施設案内では昼食時のソフトドリンクバーは無料、アルコール類（ノンアルコールビール含む）は別料金。レストラン案内では全日6:00～9:00はセルフのドリンクバーのみ、9:00～14:00はランチバイキングで、表彰式・パーティーは完全予約制です。 入場可能時刻は開場案内も確認してください。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/fukushima/onahamacc/detail",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "2026年4月にランチバイキング再開。公式掲載プランの対象期間は11月30日まで。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/fukushima/onahamacc/detail",
+            "checked": "2026-10-25",
+            "basis": "公式施設案内・公式観光情報の掲載内容を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では昼食時のソフトドリンクバーは無料、アルコール類（ノンアルコールビール含む）は別料金。レストラン案内では全日6:00～9:00はセルフのドリンクバーのみ、9:00～14:00はランチバイキングで、表彰式・パーティーは完全予約制です。 入場可能時刻は開場案内も確認してください。",
+            "url": "https://reserve.accordiagolf.com/global/golfCourse/fukushima/onahamacc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式HTMLの対象施設・該当セクションを確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "元の2026年4月再開/掲載プラン11月30日までという期間を保持。昼食無料とは言わず、ノンアルコールビールも別料金。時刻は食事提供とドリンクのみを区別。 Missing sourceType in retained old official segment is classification supplementation only from old basis/source URL. Before unchanged; old text/date/URL/basis preserved, not newly reverified. Separate opening-hours listing says weekdays06:30. Restaurant06:00 text is not guarantee of entrance time; do not silently reconcile the discrepancy.",
+      "sourceEvidence": {
+        "id": 847,
+        "requestedUrl": "https://reserve.accordiagolf.com/global/golfCourse/fukushima/onahamacc/",
+        "startedAtUtc": "2026-10-29T15:25:13.047317+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/global/golfCourse/fukushima/onahamacc/",
+        "sha256": "3b6cc91f12bf291f2e484f7414c6c9506b9fa3d0a337939de46cd31634a197f3",
+        "completedAtUtc": "2026-10-29T15:25:20.475311+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1513,
+      "name": "平塚富士見カントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "平塚コースのスタートホールでは、正面に富士山を望むティーショットが楽しめます。",
+        "url": "https://www.lake-wood.co.jp/hcc/course/hiratsuka/",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "平塚コースのスタートホールでは、正面に富士山を望むティーショットが楽しめます。 公式案内では、多くのホールから富士山、箱根・丹沢、太平洋の眺望を楽しめます。",
+        "url": "https://www.lake-wood.co.jp/hcc/course/hiratsuka/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "平塚コースのスタートホールでは、正面に富士山を望むティーショットが楽しめます。",
+            "url": "https://www.lake-wood.co.jp/hcc/course/hiratsuka/",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、多くのホールから富士山、箱根・丹沢、太平洋の眺望を楽しめます。",
+            "url": "https://www.lake-wood.co.jp/hcc/index.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。多くのホールより富士山や箱根・丹沢、 / 太平洋の大パノラマが望めます。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Not every hole; earlier specific first-hole view retained. Other Lakewood group facilities excluded. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified.",
+      "sourceEvidence": {
+        "id": 1513,
+        "requestedUrl": "https://www.lake-wood.co.jp/hcc/index.html",
+        "startedAtUtc": "2026-10-29T15:25:13.048761+00:00",
+        "status": 200,
+        "finalUrl": "https://www.lake-wood.co.jp/hcc/index.html",
+        "sha256": "ff576dda678af457764c953dbed8cbc3aeb26b9633542295078070385920f894",
+        "completedAtUtc": "2026-10-29T15:25:18.454311+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1035,
+      "name": "塩山カントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、春は桃の花景色、秋は紅葉が楽しめます。",
+        "url": "https://enzan-cc.co.jp/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式本文。春は桃の花景色、秋なら艶やかな紅葉と、『塩山カントリー倶楽部』は、四季を通じて色鮮やかな大自然が皆様をお迎え致します。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Seasonal landscape, not current bloom or foliage forecast.",
+      "sourceEvidence": {
+        "id": 1035,
+        "requestedUrl": "https://enzan-cc.co.jp/",
+        "startedAtUtc": "2026-10-29T15:25:21.676715+00:00",
+        "status": 200,
+        "finalUrl": "https://enzan-cc.co.jp/",
+        "sha256": "618441ac0b4c4c0f62e96858b906024167da6ef4271eeb68fc43ae236335cd1c",
+        "completedAtUtc": "2026-10-29T15:25:27.938948+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 967,
+      "name": "修善寺カントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、富士山を望む自然豊かな景色が楽しめます。",
+        "url": "https://www.shuzenji-cc.com/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式本文。富士の雄姿を望む自然豊かな景色を存分に楽しむことができます。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "No all-hole view guarantee. 1B plan conditions and nearby hot spring not generalized.",
+      "sourceEvidence": {
+        "id": 967,
+        "requestedUrl": "https://www.shuzenji-cc.com/",
+        "startedAtUtc": "2026-10-29T15:25:18.454504+00:00",
+        "status": 200,
+        "finalUrl": "https://www.shuzenji-cc.com/",
+        "sha256": "c022f72e462a24025bf5f7ddd4d5f2b01f08a8fedf0d4e387c50b1cd48cfca42",
+        "completedAtUtc": "2026-10-29T15:25:24.269762+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 802,
+      "name": "新千歳カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "道東自動車道・千歳東ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10080/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "道東自動車道・千歳東ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、新千歳空港から車で約30分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10080/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "道東自動車道・千歳東ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10080/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、新千歳空港から車で約30分。",
+            "url": "https://booking.pacificgolf.co.jp/guide/14.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。「北海道の空の玄関」、新千歳空港から車で約30分。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Airport origin only, not IC. Booking 千歳東IC category retained. Source target PLEASURES section, not PGM navigation.",
+      "sourceEvidence": {
+        "key": "802",
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/14.html",
+        "retrievedAtUtc": "2026-10-29T15:31:34.593414+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/14.html",
+        "sha256": "cc05d3bbe7e0f37f82a072a51db2b2ba8222635e46582ac5988270e79311f86b",
+        "bytes": 150315,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 356,
+      "name": "下田城カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、上越新幹線・燕三条駅から約20km、車で45分。",
+        "url": "https://www.shitadajo-cc.com/access.html",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式本文。◆上越新幹線『燕三条駅』より約20km / 燕三条駅から ゴルフ場…車で45分で現地へ",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Original HTML whitespace normalized; explicit 車, not taxi/bus. No shuttle inference.",
+      "sourceEvidence": {
+        "key": "356access",
+        "requestedUrl": "https://www.shitadajo-cc.com/access.html",
+        "retrievedAtUtc": "2026-10-29T15:34:05.929428+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.shitadajo-cc.com/access.html",
+        "sha256": "e4e6645ad9c297662a924c6ed4cd834dfab02cd8fa4cb7bc6c304ccb178175ef",
+        "bytes": 14606,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 356,
+      "name": "下田城カントリー倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "北陸自動車道・三条燕ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150016/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "北陸自動車道・三条燕ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、長岡東バイパス国道8号線・川崎ICから平常時約50分、加茂市内から平常時約35分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150016/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "北陸自動車道・三条燕ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150016/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、長岡東バイパス国道8号線・川崎ICから平常時約50分、加茂市内から平常時約35分。",
+            "url": "https://www.shitadajo-cc.com/access.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。長岡・栃尾方面から【長岡東バイパス国道8号線・川崎ICより平常時約50分】 / 田上・加茂方面から【加茂市内より平常時約35分】",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Preserve 平常時 and exact origin. Do not confuse with expressway Kawasaki interchange or 三条燕IC timing.",
+      "sourceEvidence": {
+        "key": "356access",
+        "requestedUrl": "https://www.shitadajo-cc.com/access.html",
+        "retrievedAtUtc": "2026-10-29T15:34:05.929428+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.shitadajo-cc.com/access.html",
+        "sha256": "e4e6645ad9c297662a924c6ed4cd834dfab02cd8fa4cb7bc6c304ccb178175ef",
+        "bytes": 14606,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 968,
+      "name": "十里木カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東名高速道路・裾野ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220039/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東名高速道路・裾野ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、東名高速道路・裾野ICから16km。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220039/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東名高速道路・裾野ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220039/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、東名高速道路・裾野ICから16km。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/jurigi/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。東名高速道路/裾野ICより16km",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "No travel minutes supported. Specific competition plans and locker fees not generalized.",
+      "sourceEvidence": {
+        "key": "968",
+        "requestedUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/jurigi/",
+        "retrievedAtUtc": "2026-10-29T15:31:34.594877+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/jurigi/",
+        "sha256": "79ab36568de174cedbf9063e187583edc846766f0a4cc4662f9d8e8a10f53e92",
+        "bytes": 1742342,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 819,
+      "name": "宮城カントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、高台のコースで、要所のホールから周囲を一望できます。",
+        "url": "https://miyagicc.com/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式本文。コースは高台にそびえ、辺りの景色が一望できる絶景のホールが要所にあり、景色を含めてラウンドを楽しめる。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "No specific mountain invented; not every hole. Fairway riding statement not generalized across weather/operations.",
+      "sourceEvidence": {
+        "key": "819",
+        "requestedUrl": "https://miyagicc.com/",
+        "retrievedAtUtc": "2026-10-29T15:33:51.689765+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://miyagicc.com/",
+        "sha256": "676ac2ef6406c24c5563e3917a885ade7259962229a364bf7ba25488587b1e62",
+        "bytes": 9112,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
