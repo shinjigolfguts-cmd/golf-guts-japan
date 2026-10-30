@@ -1,0 +1,76 @@
+{
+  "patchSetId": "dated-road53-regulation-notice",
+  "parentSha": "637e9bd1912be26eff47d1751d1e1dff7862511b",
+  "inputSha256": "3e5983f611380c999092df98b8cb1ccff78b738616cd04cbe4a5cb0f8486cd7a",
+  "outputSha256": "d7d3dfbe6c179766fc89275db8e1770b1a1b8a2224996b0c184683a51122d784",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 53,
+      "name": "木更津東カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "木更津東ICから車で約25分（20km）。",
+        "url": "https://www.resol-golf.jp/kisarazuhigashi/faq/",
+        "checked": "2026-10-24",
+        "basis": "ゴルフ場・運営会社の公式アクセス案内を確認"
+      },
+      "after": {
+        "text": "木更津東ICから車で約25分（20km）。 公式の2026年10月23日掲載（10月21日時点）の案内では、房総スカイラインの通行規制により君津IC経由の来場に注意が必要とされ、経由IC別の迂回資料を案内しています。現在の規制状況や経路は来場前に公式案内でご確認ください。",
+        "url": "https://www.resol-golf.jp/kisarazuhigashi/faq/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "木更津東ICから車で約25分（20km）。",
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/faq/",
+            "checked": "2026-10-24",
+            "basis": "ゴルフ場・運営会社の公式アクセス案内を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の2026年10月23日掲載（10月21日時点）の案内では、房総スカイラインの通行規制により君津IC経由の来場に注意が必要とされ、経由IC別の迂回資料を案内しています。現在の規制状況や経路は来場前に公式案内でご確認ください。",
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/news/20261023",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "日付付き交通規制告知の対象道路・君津IC経由への注意を確認。現況継続や解除は未確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "2026年10月23日掲載・10月21日時点の房総スカイライン交通規制の告知に関する注意のみ。君津IC経由と旧木更津東IC経由の所要時間を区別し、旧全文/日付/URL/basisを保持。旧segment official補足は既公式FAQ/basisの種別分類のみ。現規制継続/解除/迂回道順・時間は未確認、PDF未読。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.resol-golf.jp/kisarazuhigashi/news/20261023",
+        "startedAtUtc": "2026-10-30T05:42:54.479942+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.resol-golf.jp/kisarazuhigashi/news/20261023",
+        "sha256": "5b28b7206ea952c6a99da2fc3b52f30f841cc7924471ed11ed14d281cff5dfc8",
+        "bytes": 18902,
+        "completedAtUtc": "2026-10-30T05:43:07.158933+00:00",
+        "sourceType": "official"
+      },
+      "separateDatedNoticeReview": {
+        "scope": "Chronology review only:10/21 notice describes10/20around22:00 road damage and advisesdetour/木更津東IC;10/23 posting warns君津ICroute asof10/21. No currentclosure/reopening or detourtime verification.",
+        "sources": [
+          {
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/news/20261021",
+            "sha256": "acda99fef2624236ac76c530d1c094ba8398bfb7456618f30e4b27d7ca5af71f",
+            "acquiredAtUtc": "2026-10-30T05:43:20.129779+00:00",
+            "checkedJst": "2026-10-30"
+          },
+          {
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/news/20261023",
+            "sha256": "5b28b7206ea952c6a99da2fc3b52f30f841cc7924471ed11ed14d281cff5dfc8",
+            "acquiredAtUtc": "2026-10-30T05:43:07.158933+00:00",
+            "checkedJst": "2026-10-30"
+          }
+        ],
+        "pdfRead": false,
+        "newUniqueFieldScopes": 1
+      }
+    }
+  ]
+}
