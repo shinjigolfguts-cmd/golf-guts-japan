@@ -1,0 +1,230 @@
+{
+  "patchSetId": "2026-10-30-five-scoped-use-conditions",
+  "parentSha": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+  "inputSha256": "d6d0cd1c2592f5e8c6770fa1690c26b6f447bdd1e6c60ca68ef0eed68e1d8186",
+  "outputSha256": "1c63903a8a0c4cddbbd807575ba1592ce6ebc2fbe5df02a137893f06e0d0932e",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 661,
+      "name": "西高知ゴルフ ショートコース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、土佐電伊野・後免線の咥内駅から徒歩6分です。",
+        "url": "https://nishikochi-golf.com/short-course/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "同施設のアクセス欄にある駅名・徒歩の所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、土佐電伊野・後免線の咥内駅から徒歩6分です。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。",
+      "sourceEvidence": {
+        "requestedUrl": "https://nishikochi-golf.com/short-course/",
+        "startedAtUtc": "2026-10-30T03:51:16.160520+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://nishikochi-golf.com/short-course/",
+        "bytes": 390865,
+        "sha256": "b6510ab53a6811a112a425fdb12a12e7ce8b636ba8562a502199f7f7e87c9f4b",
+        "completedAtUtc": "2026-10-30T03:51:22.391116+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1283,
+      "name": "KSゴルフ後閑",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "ガーデンテラスを備える「ラ・ルーナ」で週替わり定食、ヒレカツ丼、モーニングなどを提供。食事・喫茶だけの利用も可能。",
+        "url": "https://ks-golf.net/restaurant/",
+        "checked": "2026-10-25",
+        "basis": "公式施設・提携ホテル・公的観光案内の該当本文を確認",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "ガーデンテラスを備える「ラ・ルーナ」で週替わり定食、ヒレカツ丼、モーニングなどを提供。食事・喫茶だけの利用も可能。 公式施設案内では、レストランの定休日は毎週月曜日で、年末年始は営業すると案内しています。",
+        "url": "https://ks-golf.net/restaurant/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "ガーデンテラスを備える「ラ・ルーナ」で週替わり定食、ヒレカツ丼、モーニングなどを提供。食事・喫茶だけの利用も可能。",
+            "url": "https://ks-golf.net/restaurant/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・提携ホテル・公的観光案内の該当本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、レストランの定休日は毎週月曜日で、年末年始は営業すると案内しています。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "レストラン欄の定休日と年末年始の例外を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、レストランの定休日は毎週月曜日で、年末年始は営業すると案内しています。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。",
+      "sourceEvidence": {
+        "requestedUrl": "https://ks-golf.net/facility/",
+        "startedAtUtc": "2026-10-30T03:51:38.347597+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://ks-golf.net/facility/",
+        "bytes": 30092,
+        "sha256": "fb0d85d25500fbeaec0de4f18c76f6946811dbe52f8453e0b61eac1fff8378d6",
+        "completedAtUtc": "2026-10-30T03:51:42.074329+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 275,
+      "name": "ザ・クラシックゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "キング・クィーン・プリンスの3コース、計27ホール。",
+        "url": "https://cm-g.co.jp/the-classic/course/",
+        "checked": "2026-10-25",
+        "basis": "公式ページのコース・景観・施設記述を確認し要約"
+      },
+      "after": {
+        "text": "キング・クィーン・プリンスの3コース、計27ホール。 公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。",
+        "url": "https://cm-g.co.jp/the-classic/course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "キング・クィーン・プリンスの3コース、計27ホール。",
+            "url": "https://cm-g.co.jp/the-classic/course/",
+            "checked": "2026-10-25",
+            "basis": "公式ページのコース・景観・施設記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。",
+            "url": "https://cm-g.co.jp/the-classic/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "来退場・プレー・ダイニング別の服装条件と夏季例外を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。 旧segmentのsourceType official補足は既存施設公式URL・basisに基づく分類整理で、旧事実の再確認ではない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://cm-g.co.jp/the-classic/",
+        "startedAtUtc": "2026-10-30T03:51:56.926222+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cm-g.co.jp/the-classic/",
+        "bytes": 80028,
+        "sha256": "e43d60f30a8a894472fec9a92a24adb87c0ed99516afba09df4f6dcbe3ac5c16",
+        "completedAtUtc": "2026-10-30T03:52:01.836852+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1258,
+      "name": "毛利庭園ゴルフ倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "月曜セルフデーは食事なしでレストラン休業。通常平日には食事付き料金を案内。",
+        "url": "https://mohrigardengolf.com/",
+        "checked": "2026-10-25",
+        "basis": "公式施設・提携ホテル・公的観光案内の該当本文を確認",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "月曜セルフデーは食事なしでレストラン休業。通常平日には食事付き料金を案内。 公式の施設案内では、軽食・飲料の持込みは不可としています。",
+        "url": "https://mohrigardengolf.com/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "月曜セルフデーは食事なしでレストラン休業。通常平日には食事付き料金を案内。",
+            "url": "https://mohrigardengolf.com/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・提携ホテル・公的観光案内の該当本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の施設案内では、軽食・飲料の持込みは不可としています。",
+            "url": "https://mohrigardengolf.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設詳細表の軽食・飲料の持込み条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の施設案内では、軽食・飲料の持込みは不可としています。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。",
+      "sourceEvidence": {
+        "requestedUrl": "https://mohrigardengolf.com/",
+        "startedAtUtc": "2026-10-30T03:52:03.943897+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://mohrigardengolf.com/",
+        "bytes": 278291,
+        "sha256": "37635a7884fd33fb345f18e4a2a728cf17f998347b41dbaafb2635587dbb8184",
+        "completedAtUtc": "2026-10-30T03:52:09.278873+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1608,
+      "name": "千葉カントリークラブ 野田コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール。2015年にワングリーン化した、変化に富む戦略的な林間コース。",
+        "url": "https://www.chibacc.co.jp/noda",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "18ホール。2015年にワングリーン化した、変化に富む戦略的な林間コース。 公式案内では、全組が乗用カート・キャディ付きです。休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。",
+        "url": "https://www.chibacc.co.jp/noda",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール。2015年にワングリーン化した、変化に富む戦略的な林間コース。",
+            "url": "https://www.chibacc.co.jp/noda",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、全組が乗用カート・キャディ付きです。休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。",
+            "url": "https://www.chibacc.co.jp/noda",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "野田コースのプレースタイルと休場日・祝日例外を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、全組が乗用カート・キャディ付きです。休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。 旧本文・出典・確認日・basisを保持。旧segment official分類補足は既存施設公式URLとbasisに基づき、旧18H等の一括再確認ではない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.chibacc.co.jp/noda",
+        "startedAtUtc": "2026-10-30T04:08:55.467712+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.chibacc.co.jp/noda",
+        "bytes": 79399,
+        "sha256": "de7b9325fff3200076f2a7ca2a1f6fdcb1d03fd67b715ceb0b28b030f2452aba",
+        "completedAtUtc": "2026-10-30T04:08:59.265484+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
