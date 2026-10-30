@@ -1,0 +1,301 @@
+{
+  "status": "reviewed_proposal_not_published",
+  "baseCommit": "c555e83afcd1bdefaf480e149609e27b4d9c9dc1",
+  "inputSha256": "856a6843dbfc3492908f59d6e7c62fb9cbd7856430518e021a34dc592a43d7f9",
+  "outputSha256": "81b83f19e970d6d9d45f51da0c0e44655143298f00765460d1ab2ecdf89479ae",
+  "scope": "9 fields in 7 facilities. Prior paragraphs and dates preserved. 1616 old full description supported by separately saved official root, classification only supplied prospectively. 1631 effective date unknown visibly stated. No full facility/current operations guarantee.",
+  "patches": [
+    {
+      "id": 1598,
+      "name": "南総ヒルズカントリークラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、レストランは朝食営業を行わず、9:00からランチ終了まで営業します。コンペでの利用は予約のみで、当日の受付はありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=161",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "レストランの営業帯とコンペ利用の事前予約条件を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、レストランは朝食営業を行わず、9:00からランチ終了まで営業します。コンペでの利用は予約のみで、当日の受付はありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=161",
+        "sha256": "42dfc09d5baca4afd9b8982e46eb38f9a7ce6c9c2934b4b25388a8a1f157dab1",
+        "capturedAtUtc": "2026-10-30T12:07:34.915241+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "Saved published operating guidance is not a guarantee of day-of availability. No new price amount or wholefield verification."
+      ]
+    },
+    {
+      "id": 1631,
+      "name": "PGM南市原ゴルフクラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内には、レストランの営業時間を全日8:30からランチ終了までに変更する案内が掲載されています。適用開始日の記載は確認できないため、利用日の営業時間は施設へご確認ください。コンペパーティーは事前予約で受け付ける案内です。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=168",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "営業時間変更の掲載案内とパーティー事前予約条件を確認。適用開始日を確定していません。"
+      },
+      "checked": "2026-10-30",
+      "scope": "日付未記載の営業時間変更案内を掲載情報として紹介。現行営業時間の確定ではなく利用日確認を可視明記。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=168",
+        "sha256": "cfd2e26b0030973342f7075568130ff3ff8f8a40f7e24d83d48cbb856f3b658c",
+        "capturedAtUtc": "2026-10-30T12:07:46.975135+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "Saved published operating guidance is not a guarantee of day-of availability. No new price amount or wholefield verification.",
+        "公式表には営業時間が変更となりますとあるが発効日の記載なし。掲載案内としてのみ支持し、現地営業実施や変更適用日を独立確認したものではない。"
+      ]
+    },
+    {
+      "id": 1704,
+      "name": "ピートダイゴルフクラブ ロイヤルコース",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランは営業していません。食事の手配は予約プランの案内を確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/90102/",
+        "checked": "2026-10-25",
+        "basis": "公開予約サイトの施設紹介・営業案内本文を確認し、当施設の記述を要約。",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "レストランは営業していません。食事の手配は予約プランの案内を確認してください。 公式案内では、コース内売店はソフトドリンク類の自動販売機のみで、スコアカードホルダーをかざして購入します。11時以降のスタートではコース売店を利用できないため、スタート前に館内の自動販売機を利用する案内があります。館内の自動販売機は現金も利用できます。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/90102/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランは営業していません。食事の手配は予約プランの案内を確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/90102/",
+            "checked": "2026-10-25",
+            "basis": "公開予約サイトの施設紹介・営業案内本文を確認し、当施設の記述を要約。",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、コース内売店はソフトドリンク類の自動販売機のみで、スコアカードホルダーをかざして購入します。11時以降のスタートではコース売店を利用できないため、スタート前に館内の自動販売機を利用する案内があります。館内の自動販売機は現金も利用できます。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=32",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "コース売店の購入方法と11時以降スタート時の利用制限・館内代替を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "レストランは営業していません。食事の手配は予約プランの案内を確認してください。 公式案内では、コース内売店はソフトドリンク類の自動販売機のみで、スコアカードホルダーをかざして購入します。11時以降のスタートではコース売店を利用できないため、スタート前に館内の自動販売機を利用する案内があります。館内の自動販売機は現金も利用できます。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=32",
+        "sha256": "23e8254cd98eb3dc56f2e6e71dbcada10665e7fb24cbacd18a71001bffbded94",
+        "capturedAtUtc": "2026-10-30T12:07:58.847070+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "Saved published operating guidance is not a guarantee of day-of availability. No new price amount or wholefield verification.",
+        "旧bookingのレストランなし/プラン確認文・出典日付を保持。新scopeは売店だけ、全売場の現金条件には拡張しない。"
+      ]
+    },
+    {
+      "id": 1616,
+      "name": "京カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "ジュリ・インクスター監修。起伏のあるフェアウェイ、8つの池、大きくうねる1グリーンが特徴。",
+        "url": "https://booking.pacificgolf.co.jp/guide/55.html",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "ジュリ・インクスター監修。起伏のあるフェアウェイ、8つの池、大きくうねる1グリーンが特徴。 公式案内では、乗用カートのフェアウェイ乗入れはセルフ・キャディ付きとも有料で、組単位での利用です。天候やコースコンディション等により利用できない場合があります。",
+        "url": "https://booking.pacificgolf.co.jp/guide/55.html",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "ジュリ・インクスター監修。起伏のあるフェアウェイ、8つの池、大きくうねる1グリーンが特徴。",
+            "url": "https://booking.pacificgolf.co.jp/guide/55.html",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、乗用カートのフェアウェイ乗入れはセルフ・キャディ付きとも有料で、組単位での利用です。天候やコースコンディション等により利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=55",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "フェアウェイ乗入れの有料性・組単位と利用できない場合の条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "ジュリ・インクスター監修。起伏のあるフェアウェイ、8つの池、大きくうねる1グリーンが特徴。 公式案内では、乗用カートのフェアウェイ乗入れはセルフ・キャディ付きとも有料で、組単位での利用です。天候やコースコンディション等により利用できない場合があります。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=55",
+        "sha256": "03d49e24dceecf86e7746e23232a0a6d778b0dd491df600934171a181c19358c",
+        "capturedAtUtc": "2026-10-30T12:07:41.008254+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "legacyClassificationEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/guide/55.html",
+        "sha256": "3bd549e74648eb5918eb7c1a2f22bada8fd452a2f9e36bd3270e4315e239742d",
+        "capturedAtUtc": "2026-10-30T12:02:58.430958+00:00",
+        "scope": "監修=ジュリ・インクスター;起伏のFW=随所のマウンド;8つの池;大きくうねるワングリーン。旧全文を同施設保存rootで再支持。追加sourceType officialのみ、旧text/url/checked/basis不変。"
+      },
+      "limits": [
+        "Saved published operating guidance is not a guarantee of day-of availability. No new price amount or wholefield verification."
+      ]
+    },
+    {
+      "id": 1705,
+      "name": "エヴァンタイユゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=26",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=26",
+        "sha256": "3beee139daaf6f04bb8775bdda051c56af4fbc316c353ec781dab8459cce5f82",
+        "capturedAtUtc": "2026-10-30T12:25:12.452842+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "駅からの手段/所要時間や一般交通・別送迎の有無までは確認していない。",
+        "専用欄の掲載案内のみで当日の全交通を保証しない。"
+      ]
+    },
+    {
+      "id": 1706,
+      "name": "ハーモニーヒルズゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=37",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=37",
+        "sha256": "4961af8f738f3061fe39fb1771f12f36532ff574a72c1bffca5b33999f933e8a",
+        "capturedAtUtc": "2026-10-30T12:25:17.697005+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "駅からの手段/所要時間や一般交通・別送迎の有無までは確認していない。",
+        "専用欄の掲載案内のみで当日の全交通を保証しない。"
+      ]
+    },
+    {
+      "id": 1747,
+      "name": "宮崎パブリックゴルフ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、宮崎駅から車で25分です。",
+        "url": "https://miyazaki-pg.com/guide/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設のアクセスマップ本文で、宮崎駅からの車による所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、宮崎駅から車で25分です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://miyazaki-pg.com/guide/",
+        "sha256": "976cf9727718a5241cf2616b0fc7bceb0eaa1e509d4248309257b90e59da7b84",
+        "capturedAtUtc": "2026-10-30T12:27:23.475224+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "車の明示のみ。タクシー・送迎の有無や予約条件は未確認。",
+        "原文は25分で約なし。掲載案内であり当日の交通状況や所要時間保証ではない。",
+        "空港10分/IC15分/車道順/道路規制解除告知は別起点・別scopeとして不採用。",
+        "旧全項目・コース情報は再確認しない。"
+      ]
+    },
+    {
+      "id": 1705,
+      "name": "エヴァンタイユゴルフクラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、レストランは昼食のみで朝食の提供はありません。コンペパーティーを希望する場合は、プレー日の5日前までの申し出が必要です。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=26",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "レストランの提供時間帯とコンペ申込期限を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、レストランは昼食のみで朝食の提供はありません。コンペパーティーを希望する場合は、プレー日の5日前までの申し出が必要です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=26",
+        "sha256": "3beee139daaf6f04bb8775bdda051c56af4fbc316c353ec781dab8459cce5f82",
+        "capturedAtUtc": "2026-10-30T12:25:12.452842+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "No food menu, priceamount, reservation acceptance or day-of availability guarantee. No transfer of vending restrictions to all facility payments.",
+        "パーティ5日前は申出期限であり、受入保証や料金条件ではない。"
+      ]
+    },
+    {
+      "id": 1706,
+      "name": "ハーモニーヒルズゴルフクラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、コース内売店はソフトドリンクの自動販売機のみです。クラブハウス内・マスター室前の自動販売機は現金で購入できますが、OUT5番・IN15番ホールの自動販売機では現金を利用できず、スコアカードホルダーをかざして購入します。アーリーバードプレーのホルダーは購入に対応していません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=37",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "自販機の場所別支払方法とアーリーバードの利用制限を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、コース内売店はソフトドリンクの自動販売機のみです。クラブハウス内・マスター室前の自動販売機は現金で購入できますが、OUT5番・IN15番ホールの自動販売機では現金を利用できず、スコアカードホルダーをかざして購入します。アーリーバードプレーのホルダーは購入に対応していません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=37",
+        "sha256": "4961af8f738f3061fe39fb1771f12f36532ff574a72c1bffca5b33999f933e8a",
+        "capturedAtUtc": "2026-10-30T12:25:17.697005+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "No food menu, priceamount, reservation acceptance or day-of availability guarantee. No transfer of vending restrictions to all facility payments.",
+        "1706の非対応はアーリーバード用ホルダーでの自販機購入。アーリーバード施設利用全般を不可としない。"
+      ]
+    }
+  ]
+}
