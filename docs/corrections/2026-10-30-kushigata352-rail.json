@@ -1,0 +1,34 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-352-rail",
+  "parentSha": "52dad85aef380172cce859f0b2049082d8bedd00",
+  "inputSha256": "84d0bffc0a959bb1d36c24cf91a116ad65ea206dddde9fc86928ac05f5f5ea64",
+  "outputSha256": "a9a88875d3d904dbd1dbba3c84c974dd9114f2b49804547238242497651f737a",
+  "scope": "保存済み公式交通案内に基づく櫛形ゴルフ倶楽部の鉄道後の移動欄1件の補完。運賃は掲載上の目安であり最新条件は利用前に確認。全施設・全項目検証ではありません。",
+  "changes": [
+    {
+      "id": 352,
+      "name": "櫛形ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、羽越本線・中条駅からタクシーで約5分、運賃の目安は約870円。クラブバスはありません。最新の運賃・運行条件は利用前にご確認ください。",
+        "url": "https://www.kushigata.com/access.html",
+        "checked": "2026-10-30",
+        "basis": "公式電車節：羽越本線中条駅タクシー約5分・約870円、クラブバスなし。新潟駅特急35分は上流電車区間であり混同しない。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "対象駅からの最後の移動区間のみ。公式記載の目安であり将来運賃や全環境の所要時間保証ではありません。",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:18:13.398645+00:00",
+        "key": "352access",
+        "url": "https://www.kushigata.com/access.html",
+        "finalUrl": "https://www.kushigata.com/access.html",
+        "httpStatus": 200,
+        "bytes": 7173,
+        "sha256": "ac78d2929874fd8f62f85bb650ebb73f3aaa9d4a810142a1542e93ef6855a2ae"
+      }
+    }
+  ]
+}
