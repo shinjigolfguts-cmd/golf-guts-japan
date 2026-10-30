@@ -1,0 +1,67 @@
+{
+  "patchSetId": "2026-10-30-ohgami52-conditional-cart-use",
+  "parentSha": "b365672616bd0fce9fd409e7c591884f979ed16a",
+  "inputSha256": "e1dd97cd13e45f92e670d392329e14b1ebf929e9f9b55a4dc96853dd7e7e0f95",
+  "outputSha256": "05aae3caf784f9917defea5448ebd3f9918444fd3d781d786dc9085f6b5032fd",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 52,
+      "name": "房総カントリークラブ 大上ゴルフ場",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72。ゆったりとした広さの中で、狙いどころを考える攻略を楽しめます。",
+        "url": "https://boso-cc.com/courseohgami/",
+        "checked": "2026-10-24",
+        "basis": "公式コース紹介・ホール解説を確認。"
+      },
+      "after": {
+        "text": "18ホール・パー72。ゆったりとした広さの中で、狙いどころを考える攻略を楽しめます。 公式コース案内では、フェアウェイへの乗り入れは会員同伴に限り可能で、予約制・別途乗り入れ料ありとしています。",
+        "url": "https://boso-cc.com/courseohgami/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72。ゆったりとした広さの中で、狙いどころを考える攻略を楽しめます。",
+            "url": "https://boso-cc.com/courseohgami/",
+            "checked": "2026-10-24",
+            "basis": "公式コース紹介・ホール解説を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式コース案内では、フェアウェイへの乗り入れは会員同伴に限り可能で、予約制・別途乗り入れ料ありとしています。",
+            "url": "https://boso-cc.com/courseohgami/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "大上コース専用本文の乗り入れ利用条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式コース案内では、フェアウェイへの乗り入れは会員同伴に限り可能で、予約制・別途乗り入れ料ありとしています。 旧本文・出典・日付・basisを保持し、旧事実は再確認していない。 旧段落sourceType補足は既存URLとbasisの分類整理のみ。 別の公式2026-10-25掲載告知は2026-10-26の荒天予報休場に日付限定。現在の休場継続/営業再開を確認したものではなく、今回掲載するのはFW乗入れの一般利用条件のみ。",
+      "sourceEvidence": {
+        "requestedUrl": "https://boso-cc.com/courseohgami/",
+        "startedAtUtc": "2026-10-30T04:45:50.378672+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://boso-cc.com/courseohgami/",
+        "bytes": 30074,
+        "sha256": "19cba82eba5ca84d3ebdfa3796700abca11ac77c012c899f533c5e950ccff340",
+        "completedAtUtc": "2026-10-30T04:46:03.093010+00:00",
+        "sourceType": "official"
+      },
+      "separateDatedNoticeReview": {
+        "url": "https://boso-cc.com/information/news/2288/",
+        "sha256": "b47c3213c91f3c7e8e0669c48cb1aec480b8ade47caeffc7e1fef843dff79c96",
+        "retrievedAtUtc": "2026-10-30T04:55:54.637276+00:00",
+        "checkedDateJst": "2026-10-30",
+        "noticePublishedDate": "2026-10-25",
+        "noticeApplicableDate": "2026-10-26",
+        "scope": "荒天予報による大上ゴルフ場・同練習施設の指定日休場。現在の休場継続・再開の証明ではない。新本文はFW乗入れの一般条件のみ。",
+        "usedToAssertCurrentOperation": false
+      }
+    }
+  ]
+}
