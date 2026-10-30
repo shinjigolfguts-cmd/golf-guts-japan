@@ -1,0 +1,103 @@
+{
+  "baseline": "5d082555fe8e4352c03f0ae6285567878fc7e3ef",
+  "status": "proposed_not_published",
+  "inputSha256": "fc9c3dc7cd06abad8f3026a9d287db21896be1a86713f253cfc2f0987ed560f6",
+  "outputSha256": "c51fb42f152945fa0b1f0ec069d8f32c06f59fd34c51bb7c5acdc908c3f83e28",
+  "scope": "Three access fields only. Club bus absence does not mean no public transport. 718 final IC-to-club segments only, old booking text/date retained.",
+  "changes": [
+    {
+      "id": 608,
+      "name": "プレジデントカントリー倶楽部山陽",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、厚狭駅からタクシーで約5分です。",
+        "url": "https://www.pcc-sanyo.jp/html/access.php",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "最寄駅とタクシーの案内欄で、厚狭駅からの概算所要時間を確認。"
+      },
+      "scope": "Limited independently reviewed access statement; retained prior facts not reverified.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.pcc-sanyo.jp/html/access.php",
+        "finalUrl": "https://www.pcc-sanyo.jp/html/access.php",
+        "sha256": "7b705fbfc511174c85fde86778195544bc58f62a984b815d5204a793ac787049",
+        "startedAtUtc": "2026-10-30T10:08:52.861341+00:00",
+        "completedAtUtc": "2026-10-30T10:08:56.506779+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 700,
+      "name": "別府ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式のゴルフ場情報では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=133",
+        "checked": "2026-10-30",
+        "basis": "当施設のクラブバス有無を確認",
+        "sourceType": "official"
+      },
+      "scope": "Limited independently reviewed access statement; retained prior facts not reverified.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=133",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=133",
+        "sha256": "3deab90eb7c35e9c258d6014c82ed25a0f713175513ec16c2907bc926b95b8d3",
+        "startedAtUtc": "2026-10-30T10:09:12.956200+00:00",
+        "completedAtUtc": "2026-10-30T10:09:16.913666+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 718,
+      "name": "球磨カントリー倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・人吉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430017/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・人吉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス図では、人吉ICからも人吉球磨スマートICからも、球磨カントリー倶楽部まで車で約15分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430017/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・人吉ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430017/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス図では、人吉ICからも人吉球磨スマートICからも、球磨カントリー倶楽部まで車で約15分です。",
+            "url": "https://kuma-cc.com/wp/wp-content/uploads/2020/09/access-img-map.png",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式図の各ICから球磨CCまでの最終区間にある車アイコンと概算時間を目視確認。"
+          }
+        ]
+      },
+      "scope": "Limited independently reviewed access statement; retained prior facts not reverified.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://kuma-cc.com/wp/wp-content/uploads/2020/09/access-img-map.png",
+        "finalUrl": "https://kuma-cc.com/wp/wp-content/uploads/2020/09/access-img-map.png",
+        "sha256": "98748ac9bb632dde6263791c2ad56440679eb82a44824537a62370f54ebed83c",
+        "startedAtUtc": "2026-10-30T10:14:37.586038+00:00",
+        "completedAtUtc": "2026-10-30T10:14:40.933054+00:00",
+        "httpStatus": 200
+      }
+    }
+  ]
+}
