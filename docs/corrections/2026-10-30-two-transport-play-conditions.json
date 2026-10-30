@@ -1,0 +1,101 @@
+{
+  "patchSetId": "2026-10-30-taxi-and-play-conditions",
+  "parentSha": "4f0e0c10275129b1d7a17223e4735b6fb5bb01e5",
+  "inputSha256": "efa5215015cffca8d14243cc8972f1d8fa527feb52a7133906b2b1b5c82a9aa6",
+  "outputSha256": "8848353897a47c9efd8f0d49f424b288b76690d8db9313033dd3c3739c409168",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1440,
+      "name": "唐沢ゴルフ倶楽部 三好コース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "田沼駅からタクシーで約7分。",
+        "url": "https://www.karasawa-golf.or.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。田沼駅からタクシーで約7分。"
+      },
+      "after": {
+        "text": "田沼駅からタクシーで約7分。 公式アクセス案内では、JR両毛線の佐野駅から三好コースまでタクシーで約20分です。",
+        "url": "https://www.karasawa-golf.or.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "田沼駅からタクシーで約7分。",
+            "url": "https://www.karasawa-golf.or.jp/access/",
+            "checked": "2026-10-24",
+            "basis": "公式ページの本文・メニュー・料金表を確認。田沼駅からタクシーで約7分。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセス案内では、JR両毛線の佐野駅から三好コースまでタクシーで約20分です。",
+            "url": "https://www.karasawa-golf.or.jp/access/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "三好コースの駅起点とタクシー所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "三好 ownsection alternate佐野駅 taxi about20minutes. Old田沼駅 taxi7minutes kept. 唐沢course10min not confused. UpstreamTokyo90minutes excluded. Old text/date/url/basis retained; no old condition revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.karasawa-golf.or.jp/access/",
+        "startedAtUtc": "2026-10-29T15:50:05.842490+00:00",
+        "status": 200,
+        "finalUrl": "https://www.karasawa-golf.or.jp/access/",
+        "sha256": "8455fa1f308a340057c2c6d7e47f49452f5192c154c76106e68f543612061d32",
+        "completedAtUtc": "2026-10-29T15:50:12.952697+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1637,
+      "name": "房総カントリークラブ 房総ゴルフ場",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "東・西の36ホール。東は本格的なチャンピオンコース、西は地形を生かしたレイアウト。",
+        "url": "https://boso-cc.com/",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "東・西の36ホール。東は本格的なチャンピオンコース、西は地形を生かしたレイアウト。 公式の施設利用案内では、チェックインはスタートの15分前まで、ハーフのプレーは2時間15分を目安としています。チャンピオンTEEの利用は会員同伴が条件で、希望する場合は当日マスター室への連絡が必要です。",
+        "url": "https://boso-cc.com/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東・西の36ホール。東は本格的なチャンピオンコース、西は地形を生かしたレイアウト。",
+            "url": "https://boso-cc.com/",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の施設利用案内では、チェックインはスタートの15分前まで、ハーフのプレーは2時間15分を目安としています。チャンピオンTEEの利用は会員同伴が条件で、希望する場合は当日マスター室への連絡が必要です。",
+            "url": "https://boso-cc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "クラブ共通の到着・プレー時間目安とティー利用条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Clubgeneral useconditions apply target房総: checkin15minutes before, halfround target2h15, championshipTEE member accompaniment plus same-daymasterroomrequest. Commonoperator useconditions clearly apply clubfacilities including target; not大上-onlynotice. 大上Oct25closureheadline not房総closure. No assumption memberaccompaniment alone guaranteesTEE availability; no tax/otherpolicy claims. Old text/date/url/basis retained; no old condition revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "https://boso-cc.com/",
+        "startedAtUtc": "2026-10-29T15:49:18.545339+00:00",
+        "status": 200,
+        "finalUrl": "https://boso-cc.com/",
+        "sha256": "021579821bcf7bea8880adc2cc33add415849db9186740dbacc895f5a664ad81",
+        "completedAtUtc": "2026-10-29T15:49:24.140642+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
