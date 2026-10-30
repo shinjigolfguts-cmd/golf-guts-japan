@@ -1,0 +1,56 @@
+{
+  "patchSetId": "2026-10-30-bus-waiting-condition",
+  "parentSha": "441b6f42b1e8beb21fa47b3a4440f25e35df195a",
+  "inputSha256": "5477eb3b538f6ae443770b92888692b5b1de183fbbddd9f59e8a6a2283460728",
+  "outputSha256": "10625d85cbdeffc118768f75b2673946e19c4086462c14138cd4d01a2fcb0b0e",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 134,
+      "name": "チェックメイトカントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "新松田駅から送迎バスで約15〜20分。車・タクシーの所要時間は確認した公式案内に記載がありません。",
+        "url": "https://checkmate-cc.com/access.html",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス：新松田駅送迎バス15〜20分。"
+      },
+      "after": {
+        "text": "新松田駅から送迎バスで約15〜20分。車・タクシーの所要時間は確認した公式案内に記載がありません。 公式トップでは、クラブバスを待つ際にセブンイレブン前を避け、周辺店舗や一般利用者の迷惑にならないよう案内しています。",
+        "url": "https://checkmate-cc.com/access.html",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "新松田駅から送迎バスで約15〜20分。車・タクシーの所要時間は確認した公式案内に記載がありません。",
+            "url": "https://checkmate-cc.com/access.html",
+            "checked": "2026-10-24",
+            "basis": "公式アクセス：新松田駅送迎バス15〜20分。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式トップでは、クラブバスを待つ際にセブンイレブン前を避け、周辺店舗や一般利用者の迷惑にならないよう案内しています。",
+            "url": "https://checkmate-cc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設公式のクラブバス待機時の注意事項を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "クラブバス待機時の近隣配慮のみ補完。支店名・正しい待機場所は推測しない。旧所要時間・本文・URL・日付・basis保持、旧segmentのsourceType officialは既存施設公式URL/basis分類補足のみ。",
+      "sourceEvidence": {
+        "requestedUrl": "http://checkmate-cc.com/",
+        "retrievedAtUtc": "2026-10-29T16:13:16.091796+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://checkmate-cc.com/",
+        "sha256": "aa756d1564625c91da725fde6e444117ac8878d7a295802e73546d4c79d9edd6",
+        "bytes": 18939,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
