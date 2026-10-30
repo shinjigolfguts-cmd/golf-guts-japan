@@ -1,0 +1,307 @@
+{
+  "status": "reviewed_proposal_not_published",
+  "baseCommit": "e73ded3b861db6c31babdbc8c06cfe2670fa35bc",
+  "inputSha256": "ef0919fc6e5fa085f210c67ae9b9eae757db154b6909b918665534f43f60bbf3",
+  "outputSha256": "856a6843dbfc3492908f59d6e7c62fb9cbd7856430518e021a34dc592a43d7f9",
+  "scope": "9 fields in 7 facilities. Prior text and dates preserved; 1370 prior design sentence fully supported by separately saved official source, with classification only supplied prospectively. No full facility or current transport guarantee.",
+  "patches": [
+    {
+      "id": 1331,
+      "name": "熊本南カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、熊本駅から車で約40分です。",
+        "url": "https://ks-countryclub.com/access/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "JR・新幹線利用者向けの案内で、熊本駅からの車による所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、熊本駅から車で約40分です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://ks-countryclub.com/access/",
+        "sha256": "f2dc0d1acae60f05a0bcfcd82b68e7e33b1bc86a748d32106aff7ad22836a245",
+        "capturedAtUtc": "2026-10-30T11:59:23.995060+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "車の明示のみでタクシー/送迎と解釈しない。",
+        "別段落の空港40分/IC時間は転記しない。",
+        "掲載目安で当日の交通状況や配車を保証しない。"
+      ]
+    },
+    {
+      "id": 1370,
+      "name": "入来城山ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=140",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=140",
+        "sha256": "d4c33e36cda9b6555876411686d566e19c8a705f7808c6d4f76b981db80abc90",
+        "capturedAtUtc": "2026-10-30T11:59:37.560146+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "駅からの手段/時間や一般路線バス・他送迎の有無までは未確認。",
+        "レストラン/練習場/レンタル等は今回対象外。"
+      ]
+    },
+    {
+      "id": 1331,
+      "name": "熊本南カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：ワコー測量設計事務所。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430023/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：ワコー測量設計事務所。 公式案内では、5人乗りカートのコース内乗入れは禁止されています。乗入れを希望する場合は有料の2人乗りカートを用意する案内があり、予約時に申し出が必要です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430023/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：ワコー測量設計事務所。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430023/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、5人乗りカートのコース内乗入れは禁止されています。乗入れを希望する場合は有料の2人乗りカートを用意する案内があり、予約時に申し出が必要です。",
+            "url": "https://ks-countryclub.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "専用施設本文の利用対象・受付条件と利用できない条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、5人乗りカートのコース内乗入れは禁止されています。乗入れを希望する場合は有料の2人乗りカートを用意する案内があり、予約時に申し出が必要です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://ks-countryclub.com/",
+        "sha256": "99cad31b6b0c4c9c45dffec83bd06d8cae52d04b0c0654879fefa977562eea16",
+        "capturedAtUtc": "2026-10-30T11:57:23.297980+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "天候/当朝判断/組単位条件はこの原文に明記なし。他施設の条件を追加しない。500円の額は不採用、有料性は保持。コース内乗入れを無条件保証しない。"
+      ]
+    },
+    {
+      "id": 1370,
+      "name": "入来城山ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "川田太三設計のコース。",
+        "url": "https://booking.pacificgolf.co.jp/guide/140.html",
+        "checked": "2026-10-25",
+        "basis": "公式ページのコース・景観・施設記述を確認し要約"
+      },
+      "after": {
+        "text": "川田太三設計のコース。 公式施設案内では、練習場は200ヤード・10打席で有料です。利用時間は7:00～14:30ですが、11:00～12:00はメンテナンスのため利用できません。貸出機はスコアカードホルダーをかざして利用します。キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。レンタルクラブ・シューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+        "url": "https://booking.pacificgolf.co.jp/guide/140.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。既存記述と新しい利用条件を分けて記載。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "川田太三設計のコース。",
+            "url": "https://booking.pacificgolf.co.jp/guide/140.html",
+            "checked": "2026-10-25",
+            "basis": "公式ページのコース・景観・施設記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、練習場は200ヤード・10打席で有料です。利用時間は7:00～14:30ですが、11:00～12:00はメンテナンスのため利用できません。貸出機はスコアカードホルダーをかざして利用します。キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。レンタルクラブ・シューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=140",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "専用施設本文の利用対象・受付条件と利用できない条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、練習場は200ヤード・10打席で有料です。利用時間は7:00～14:30ですが、11:00～12:00はメンテナンスのため利用できません。貸出機はスコアカードホルダーをかざして利用します。キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。レンタルクラブ・シューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=140",
+        "sha256": "d4c33e36cda9b6555876411686d566e19c8a705f7808c6d4f76b981db80abc90",
+        "capturedAtUtc": "2026-10-30T11:59:37.560146+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "legacyClassificationEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/guide/140.html",
+        "sha256": "b2f97ee27d6591b213a72822080a3b638a7b7403827ed889c904d9d62e499dc6",
+        "capturedAtUtc": "2026-10-30T11:57:37.563645+00:00",
+        "scope": "旧設計者文全体を保存rootで支持。旧text/url/date/basisを変更せず、今回支持日と旧取得日を区別。"
+      },
+      "limits": [
+        "練習場時間をコース営業時間へ転用しない。レンタル/キャディの利用成立を保証しない。料金額は不採用。"
+      ]
+    },
+    {
+      "id": 1598,
+      "name": "南総ヒルズカントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、金谷のフェリーに接続するクラブバスは事前予約制で、プレー日前日12:00までに連絡が必要です。掲載の接続時刻は、久里浜発6:20・金谷着7:00・ゴルフ場着7:35、久里浜発7:20・金谷着8:00・ゴルフ場着8:35、久里浜発8:20・金谷着9:00・ゴルフ場着9:35です。3便目は火曜・木曜・金曜のみと案内されています。フェリーのダイヤ・運航状況は東京湾フェリーで確認し、利用日のクラブバス運行も施設へご確認ください。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=161",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設のクラブバス欄で予約条件・接続便案内と運航確認の注意を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、金谷のフェリーに接続するクラブバスは事前予約制で、プレー日前日12:00までに連絡が必要です。掲載の接続時刻は、久里浜発6:20・金谷着7:00・ゴルフ場着7:35、久里浜発7:20・金谷着8:00・ゴルフ場着8:35、久里浜発8:20・金谷着9:00・ゴルフ場着9:35です。3便目は火曜・木曜・金曜のみと案内されています。フェリーのダイヤ・運航状況は東京湾フェリーで確認し、利用日のクラブバス運行も施設へご確認ください。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=161",
+        "sha256": "42dfc09d5baca4afd9b8982e46eb38f9a7ce6c9c2934b4b25388a8a1f157dab1",
+        "capturedAtUtc": "2026-10-30T12:07:34.915241+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "原文はフェリー発着とゴルフ場着の掲載接続表。金谷発のバス時刻や純乗車/総所要時間は推算しない。",
+        "掲載日の明示なし。新時刻表/実運航/残席・予約成立を独立確認していない。",
+        "送迎は金谷フェリー接続で、鉄道駅送迎や久里浜から陸路バスとは解釈しない。",
+        "3便目だけ火木金限定。他2便の全日運行は断定しない。",
+        "旧他欄は再確認していない。掲載案内は当日の運行保証ではない。"
+      ]
+    },
+    {
+      "id": 1616,
+      "name": "京カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=55",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=55",
+        "sha256": "03d49e24dceecf86e7746e23232a0a6d778b0dd491df600934171a181c19358c",
+        "capturedAtUtc": "2026-10-30T12:07:41.008254+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "専用クラブバス欄のなしのみ。一般交通・タクシー・個別送迎全般の不存在は意味しない。",
+        "駅からの手段/時間は未確認。",
+        "旧他欄は再確認していない。掲載案内は当日の運行保証ではない。"
+      ]
+    },
+    {
+      "id": 1631,
+      "name": "PGM南市原ゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=168",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=168",
+        "sha256": "cfd2e26b0030973342f7075568130ff3ff8f8a40f7e24d83d48cbb856f3b658c",
+        "capturedAtUtc": "2026-10-30T12:07:46.975135+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "専用クラブバス欄のなしのみ。一般交通・タクシー・個別送迎全般の不存在は意味しない。",
+        "駅からの手段/時間は未確認。",
+        "旧他欄は再確認していない。掲載案内は当日の運行保証ではない。"
+      ]
+    },
+    {
+      "id": 1703,
+      "name": "ピートダイゴルフクラブ VIPコース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=31",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=31",
+        "sha256": "f26f1ef715548d8f5e150b229a36b01bd1b7d89cd6629611e0af4af632545320",
+        "capturedAtUtc": "2026-10-30T12:07:53.247092+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "専用クラブバス欄のなしのみ。一般交通・タクシー・個別送迎全般の不存在は意味しない。",
+        "駅からの手段/時間は未確認。",
+        "旧他欄は再確認していない。掲載案内は当日の運行保証ではない。"
+      ]
+    },
+    {
+      "id": 1704,
+      "name": "ピートダイゴルフクラブ ロイヤルコース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=32",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の施設情報にあるクラブバス欄を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、クラブバスはありません。",
+      "reviewStatus": "supported_with_required_conditions_applied",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=32",
+        "sha256": "23e8254cd98eb3dc56f2e6e71dbcada10665e7fb24cbacd18a71001bffbded94",
+        "capturedAtUtc": "2026-10-30T12:07:58.847070+00:00",
+        "hashMeaning": "saved source response body"
+      },
+      "limits": [
+        "専用クラブバス欄のなしのみ。一般交通・タクシー・個別送迎全般の不存在は意味しない。",
+        "駅からの手段/時間は未確認。",
+        "旧他欄は再確認していない。掲載案内は当日の運行保証ではない。"
+      ]
+    }
+  ]
+}
