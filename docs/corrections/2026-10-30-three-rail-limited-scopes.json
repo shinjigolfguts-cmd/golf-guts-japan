@@ -1,0 +1,81 @@
+{
+  "baseline": "ccd82370d5c26fe9b22eaf958faebce6a62e41ec",
+  "status": "proposed_not_published",
+  "inputSha256": "c51fb42f152945fa0b1f0ec069d8f32c06f59fd34c51bb7c5acdc908c3f83e28",
+  "outputSha256": "3398555125518ffceb4c69c5e51b41ffdb5a3170e14ac7df96933f66d364353c",
+  "scope": "Three null rail fields, limited station route/distance/club-bus scopes; no complete transport validation. 875 distance only, no travel mode/time assertion.",
+  "changes": [
+    {
+      "id": 737,
+      "name": "南国カンツリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、鹿児島中央駅から南国交通「吉野ゴルフ場」行きのバスに乗り、終点「吉野ゴルフ場」下車後、徒歩1分です。",
+        "url": "https://nangoku-cc.com/access.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "駅からのバス行先・下車停留所と徒歩区間を確認。"
+      },
+      "scope": "Limited independently reviewed statement; remaining transport conditions unknown.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://nangoku-cc.com/access.html",
+        "finalUrl": "https://nangoku-cc.com/access.html",
+        "sha256": "7f7ebe31da25d3b270de91178ae33e7ea539934a475c7f52c6e15d269510967c",
+        "startedAtUtc": "2026-10-30T10:28:05.736034+00:00",
+        "completedAtUtc": "2026-10-30T10:28:10.214891+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 875,
+      "name": "グリーンメッセ能生",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、えちごトキめき鉄道・能生駅から9kmです。",
+        "url": "https://greenmessenou.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "最寄駅の案内欄に明示された能生駅からの距離を確認。"
+      },
+      "scope": "Limited independently reviewed statement; remaining transport conditions unknown.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://greenmessenou.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
+        "finalUrl": "https://greenmessenou.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
+        "sha256": "f33ee6dc847a37fa1fb5ac252511073d4e585b1d9799db81c501fe6bb699d1e1",
+        "startedAtUtc": "2026-10-30T10:28:12.215527+00:00",
+        "completedAtUtc": "2026-10-30T10:28:16.850757+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 896,
+      "name": "笹平カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、クラブバスはありません。",
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "当施設の基本情報表でクラブバスの有無を確認。"
+      },
+      "scope": "Limited independently reviewed statement; remaining transport conditions unknown.",
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=149",
+        "sha256": "25aedca5417effe8306650e6dbe240b9b05d722ea7ae4b052d41e2ef4d3a7a5d",
+        "startedAtUtc": "2026-10-30T10:28:18.851423+00:00",
+        "completedAtUtc": "2026-10-30T10:28:23.799806+00:00",
+        "httpStatus": 200
+      }
+    }
+  ]
+}
