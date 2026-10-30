@@ -1,0 +1,450 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next11",
+  "parentSha": "69cac82c48d05a8feb857156f20d1b328a5045ed",
+  "inputSha256": "26b818dd0a818a0474d88d42dac9c3e776726c37b61736d794ed07bf25088d0e",
+  "outputSha256": "ce6adf30835c2ec8e06b67d6c2231e2683ea5f719238884e6de037442ec139f4",
+  "scope": "保存済み成功取得公式資料から10施設11項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 471,
+      "name": "フォーレスト福井ゴルフクラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "標高約200mの丘陵に広がり、日本海と白山連峰を望めます。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180008/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載施設案内",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "標高約200mの丘陵に広がり、日本海と白山連峰を望めます。 公式トップでは福井平野を一望できるコースと紹介しています。",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "標高約200mの丘陵に広がり、日本海と白山連峰を望めます。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180008/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORA掲載施設案内",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式トップでは福井平野を一望できるコースと紹介しています。",
+            "url": "https://forest-gc.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式施設ページの対象セクション本文を確認"
+          }
+        ],
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/180008/",
+        "checked": "2026-10-25"
+      },
+      "checked": "2026-10-30",
+      "scope": "福井平野の眺望のみ追加。既存の標高・日本海・白山連峰は旧booking segmentに保持。",
+      "sourceEvidence": {
+        "id": 471,
+        "requestedUrl": "https://forest-gc.jp/",
+        "startedAtUtc": "2026-10-29T15:12:52.865512+00:00",
+        "status": 200,
+        "finalUrl": "https://forest-gc.jp/",
+        "sha256": "7e157efb5968f60bb5717e096ed841448263fa591e9f8fab41ba03de325a5524",
+        "completedAtUtc": "2026-10-29T15:12:59.860195+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1036,
+      "name": "鳴沢ゴルフ倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。メニュー・営業時間は来場日に変更される場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/434101/",
+        "checked": "2026-10-25",
+        "sourceType": "booking",
+        "basis": "あり 朝食あり バイキングなし 喫煙席なし"
+      },
+      "after": {
+        "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。メニュー・営業時間は来場日に変更される場合があります。 公式トップのレストラン欄に「辛味噌つけ麺」「しょうが焼き定食」「鶏の唐揚げ定食」を掲載。",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。メニュー・営業時間は来場日に変更される場合があります。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/434101/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "あり 朝食あり バイキングなし 喫煙席なし"
+          },
+          {
+            "text": "公式トップのレストラン欄に「辛味噌つけ麺」「しょうが焼き定食」「鶏の唐揚げ定食」を掲載。",
+            "url": "https://zuien.net/narusawa/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式施設ページの対象セクション本文を確認"
+          }
+        ],
+        "url": "https://reserve.golfdigest.co.jp/golf-course/434101/",
+        "checked": "2026-10-25"
+      },
+      "checked": "2026-10-30",
+      "scope": "掲載メニュー例。現提供・営業時間・価格を保証せず、元の変更注意と朝食情報を保持。 Menu examples as listed at saved acquisition, not specialty/current availability guarantee.",
+      "sourceEvidence": {
+        "id": 1036,
+        "requestedUrl": "https://zuien.net/narusawa/",
+        "startedAtUtc": "2026-10-29T15:12:58.803375+00:00",
+        "status": 200,
+        "finalUrl": "https://zuien.net/narusawa/",
+        "sha256": "18ea888dff4325a1e28f421859dc728e2395de4bd7fec05bc7209dbce1eefa8d",
+        "completedAtUtc": "2026-10-29T15:13:02.988950+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1736,
+      "name": "GDO茅ヶ崎ゴルフリンクス",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "上田治設計の9ホール・パー36。歩きのセルフで、手引きカートを利用。深いバンカーや起伏がショットの精度を試します。",
+        "url": "https://chigasaki.golfdigest.co.jp/course",
+        "checked": "2026-10-24",
+        "basis": "公式サイトの本文を確認"
+      },
+      "after": {
+        "text": "上田治設計の9ホール・パー36。歩きのセルフで、手引きカートを利用。深いバンカーや起伏がショットの精度を試します。 公式トップではドレスコードフリー・当日予約可と案内し、9ホールプレーのほか9ホール×2のスループレーを用意。",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧公式情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "上田治設計の9ホール・パー36。歩きのセルフで、手引きカートを利用。深いバンカーや起伏がショットの精度を試します。",
+            "url": "https://chigasaki.golfdigest.co.jp/course",
+            "checked": "2026-10-24",
+            "basis": "公式サイトの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式トップではドレスコードフリー・当日予約可と案内し、9ホールプレーのほか9ホール×2のスループレーを用意。",
+            "url": "https://chigasaki.golfdigest.co.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存済み公式施設ページの対象セクション本文を確認"
+          }
+        ],
+        "url": "https://chigasaki.golfdigest.co.jp/course",
+        "checked": "2026-10-24"
+      },
+      "checked": "2026-10-30",
+      "scope": "9H×2は施設総ホール数18への変更ではない。空き枠保証なし。既存9H/par36/徒歩/手引きカート等は元segmentを保持。 Retained old sourceType classified official from existing basis and facility URL, old text/date unchanged. Two official segments retain separate sources/dates.",
+      "sourceEvidence": {
+        "id": 1736,
+        "requestedUrl": "https://chigasaki.golfdigest.co.jp/",
+        "startedAtUtc": "2026-10-29T15:12:59.447060+00:00",
+        "status": 200,
+        "finalUrl": "https://chigasaki.golfdigest.co.jp/",
+        "sha256": "9781523c3660108e0ca44973729375734cb0c713bfcd1c3bee6c373989234289",
+        "completedAtUtc": "2026-10-29T15:13:03.703800+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1794,
+      "name": "宮崎サンシャインカントリークラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式ではレストランのみの利用も歓迎と案内しています。",
+        "url": "https://sunshine-cc.jp/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式施設ページの対象セクション本文を確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "具体メニュー/営業時間/当日空席はこの保存ページから確定しない。",
+      "sourceEvidence": {
+        "key": "1794",
+        "requestedUrl": "https://sunshine-cc.jp/",
+        "retrievedAtUtc": "2026-10-29T15:13:24.705492+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://sunshine-cc.jp/",
+        "sha256": "e4933f9ac75bdd8885273467593f28175e1914bb4fa5ef377205e0b2c315072c",
+        "bytes": 145629,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1794,
+      "name": "宮崎サンシャインカントリークラブ",
+      "field": "stay",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内に浴場を掲載。ただし薄暮9Hプレーではロッカーと浴場を利用できません。",
+        "url": "https://sunshine-cc.jp/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式施設ページの対象セクション本文を確認。浴場のみの確認であり宿泊施設の有無は確認していません。"
+      },
+      "checked": "2026-10-30",
+      "scope": "浴場設備とプラン別制限を同時記載。宿泊有無・温泉・サウナは推定しない。 Bathing only, no lodging availability claim.",
+      "sourceEvidence": {
+        "key": "1794",
+        "requestedUrl": "https://sunshine-cc.jp/",
+        "retrievedAtUtc": "2026-10-29T15:13:24.705492+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://sunshine-cc.jp/",
+        "sha256": "e4933f9ac75bdd8885273467593f28175e1914bb4fa5ef377205e0b2c315072c",
+        "bytes": 145629,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 435,
+      "name": "伊東カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "小田原厚木道路・小田原西ICから54km。",
+        "url": "https://banryugolf.com/itocc/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "保存済み公式施設ページの対象セクション本文を確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "距離のみ、所要時間は推定しない。施設固有ヘッダーに明記。",
+      "sourceEvidence": {
+        "key": "435",
+        "requestedUrl": "https://banryugolf.com/itocc/",
+        "retrievedAtUtc": "2026-10-29T15:12:57.472055+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://banryugolf.com/itocc/",
+        "sha256": "40c94546750d6301819a41bc68aceeb70452789a21f856cbedcb8ae4b8daf7b6",
+        "bytes": 17960,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 784,
+      "name": "札幌エルムカントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "道央自動車道・輪厚ICから10km以内／道央自動車道・北広島ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10053/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "道央自動車道・輪厚ICから10km以内／道央自動車道・北広島ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス表では、北広島ICから約10km・約15分。通勤時間帯はさらに時間がかかるため、余裕を持った移動が必要です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10053/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "道央自動車道・輪厚ICから10km以内／道央自動車道・北広島ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10053/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス表では、北広島ICから約10km・約15分。通勤時間帯はさらに時間がかかるため、余裕を持った移動が必要です。",
+            "url": "http://www.elmcc.com/access/access.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。北広島ＩＣから / 約１０Ｋｍ / 約１５分 / ※通勤時間帯は所要時間がもっとかかります。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Same HTML table row verified; no shortcut promise; existing booking both IC categories preserved. No rail/taxi inference.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:20:46.130500+00:00",
+        "key": "784access",
+        "url": "http://www.elmcc.com/access/access.html",
+        "finalUrl": "http://www.elmcc.com/access/access.html",
+        "httpStatus": 200,
+        "bytes": 7575,
+        "sha256": "29c9e0fcbb5bb630d4da7d2cb74ae4f95a63a8a9c778c8c26167e191d11e7917"
+      }
+    },
+    {
+      "id": 317,
+      "name": "仙台空港カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・適度なアップダウン。設計：発知朗。練習場は180ヤード・15打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40009/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・適度なアップダウン。設計：発知朗。練習場は180ヤード・15打席の掲載。 公式案内では、2026年10月1日から設置するグリーンティーマークを年齢・性別に関係なく利用できます。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40009/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・適度なアップダウン。設計：発知朗。練習場は180ヤード・15打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/40009/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、2026年10月1日から設置するグリーンティーマークを年齢・性別に関係なく利用できます。",
+            "url": "http://www.sendai-airport-cc.jp/index.html",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。2026年10月１日より「グリーンティーマーク」を設置します。 / 年齢・性別に関係なく使用して頂けますので、ぜひご利用ください。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Source announcement retained as dated claim; no total holes from news, no tee yardage or pink-tee effective removal date inference.",
+      "sourceEvidence": {
+        "id": 317,
+        "requestedUrl": "http://www.sendai-airport-cc.jp/index.html",
+        "startedAtUtc": "2026-10-29T15:16:37.164438+00:00",
+        "status": 200,
+        "finalUrl": "http://www.sendai-airport-cc.jp/index.html",
+        "sha256": "2892b4f0fdae1cc58ef95e557a9ad5830c218ef5d80b422f6da188f68a5d0718",
+        "completedAtUtc": "2026-10-29T15:16:44.345501+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1558,
+      "name": "ローランドゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "前橋ICから17km・約30分、渋川伊香保ICから16km・約25分。",
+        "url": "http://www.lordland-golf.com/",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "前橋ICから17km・約30分、渋川伊香保ICから16km・約25分。 公式案内では、高崎ICから20km・約30分、駒寄スマートICから14km・約25分。",
+        "url": "http://www.lordland-golf.com/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "前橋ICから17km・約30分、渋川伊香保ICから16km・約25分。",
+            "url": "http://www.lordland-golf.com/",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、高崎ICから20km・約30分、駒寄スマートICから14km・約25分。",
+            "url": "http://www.lordland-golf.com/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。自動車をご利用の場合 / ★関越道 高崎ICより20km（約30分） / ★関越道 駒寄スマートICより14km(約25分)",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "New origins only; preserve existing 前橋/渋川伊香保 times and original date/source. Already existing 高崎駅taxi timing not repeated. Missing sourceType in retained old segment classified official from existing official basis and source URL; old text/date unchanged and not freshly reverified.",
+      "sourceEvidence": {
+        "id": 1558,
+        "requestedUrl": "http://www.lordland-golf.com/",
+        "startedAtUtc": "2026-10-29T15:16:37.169287+00:00",
+        "status": 200,
+        "finalUrl": "http://www.lordland-golf.com/",
+        "sha256": "d83944a6241c8b95625cae8df8396b2c855cada29a4f51ef56112819370b7d6d",
+        "completedAtUtc": "2026-10-29T15:16:46.550345+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 964,
+      "name": "御殿場ゴルフ倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、8番は富士山に向かって打つ谷越えのホールです。",
+        "url": "https://www.gotembagolf.com/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式本文。富士山に向かってショット！　谷越えNo.8",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Only No.8 scope, not every-hole mountain view. Sister course Belle View Nagao address and facilities excluded.",
+      "sourceEvidence": {
+        "id": 964,
+        "requestedUrl": "https://www.gotembagolf.com/",
+        "startedAtUtc": "2026-10-29T15:16:37.169733+00:00",
+        "status": 200,
+        "finalUrl": "https://www.gotembagolf.com/",
+        "sha256": "ba7dcecf91aa9f011f2bf27af240050bc7eee7d6bd5488272909b2892d21ef7d",
+        "completedAtUtc": "2026-10-29T15:16:42.168449+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 354,
+      "name": "ゴールド越後湯沢カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・林間コース・適度なアップダウン。設計：佐々木　真太郎。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150039/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・林間コース・適度なアップダウン。設計：佐々木　真太郎。 公式案内ではグリーンにベントグラスを使用し、プレーの受付は湯沢パークホテルで行います。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150039/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・林間コース・適度なアップダウン。設計：佐々木　真太郎。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150039/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内ではグリーンにベントグラスを使用し、プレーの受付は湯沢パークホテルで行います。",
+            "url": "https://www.park-resort.com/golf/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式本文。打ち上げ・打ち下ろしのホールがバランスよく配置され、18ホールそれぞれが異なる個性を楽しめるレイアウトになっています。グリーンには手入れの行き届いたベントグラスを使用。 / プレイの受付は湯沢パークホテルにて承っております。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "No lodging/included meal inference. Existing holes/par/design/terrain remain exact; course page warns images may differ after improvements.",
+      "sourceEvidence": {
+        "key": "354",
+        "requestedUrl": "https://www.park-resort.com/golf/",
+        "retrievedAtUtc": "2026-10-29T15:28:23.023673+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.park-resort.com/golf/",
+        "sha256": "906af3169a85e3071cb4df6f885b14e53e33f765a32f81b09a51d3cbf21d9db6",
+        "bytes": 66825,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
