@@ -1,0 +1,278 @@
+{
+  "patchSetId": "2026-10-30-six-source-revisit-facts",
+  "parentSha": "6be62182905d082b2daaa17958ad0fbe19f30a8f",
+  "inputSha256": "31ae319f9b8a0e0ad1ba69afb9143938d25becff13114b3d7218210380a3fd88",
+  "outputSha256": "d6d0cd1c2592f5e8c6770fa1690c26b6f447bdd1e6c60ca68ef0eed68e1d8186",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 661,
+      "name": "西高知ゴルフ ショートコース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "練習場併設のショートコース。1人でのプレーとレンタル用品の利用に対応。",
+        "url": "https://nishikochi-golf.com/short-course/",
+        "checked": "2026-10-25",
+        "basis": "公式施設・観光案内のコース記載を確認",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "練習場併設のショートコース。1人でのプレーとレンタル用品の利用に対応。 公式のショートコース案内では、9ホールを2周して18ホールをプレーする構成で、利用時間は8時30分～22時です。",
+        "url": "https://nishikochi-golf.com/short-course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "練習場併設のショートコース。1人でのプレーとレンタル用品の利用に対応。",
+            "url": "https://nishikochi-golf.com/short-course/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・観光案内のコース記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式のショートコース案内では、9ホールを2周して18ホールをプレーする構成で、利用時間は8時30分～22時です。",
+            "url": "https://nishikochi-golf.com/short-course/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "専用ショートコースの周回構成と利用時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式のショートコース案内では、9ホールを2周して18ホールをプレーする構成で、利用時間は8時30分～22時です。 Physical9 not18; yard509/perlap ambiguity andfees excluded. Oneplayer/rental oldfacts not silently refreshed.",
+      "sourceEvidence": {
+        "requestedUrl": "https://nishikochi-golf.com/short-course/",
+        "startedAtUtc": "2026-10-30T03:51:16.160520+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://nishikochi-golf.com/short-course/",
+        "bytes": 390865,
+        "sha256": "b6510ab53a6811a112a425fdb12a12e7ce8b636ba8562a502199f7f7e87c9f4b",
+        "completedAtUtc": "2026-10-30T03:51:22.391116+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1284,
+      "name": "みのるゴルフ山陽",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "併設ショートコースは2名以上でプレー。クラブは各自で用意し、ゴルフシューズと帽子を着用します。",
+        "url": "https://minorugolf.com/sanyo/short_course",
+        "checked": "2026-10-25",
+        "basis": "公式案内本文の該当記載を確認"
+      },
+      "after": {
+        "text": "併設ショートコースは2名以上でプレー。クラブは各自で用意し、ゴルフシューズと帽子を着用します。 公式案内では、1人で来場してからペアを探すことも可能で、詳細はスタッフへの確認を案内しています。また、ラウンド中のクラブの貸し借りはしないよう求めています。",
+        "url": "https://minorugolf.com/sanyo/short_course",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "併設ショートコースは2名以上でプレー。クラブは各自で用意し、ゴルフシューズと帽子を着用します。",
+            "url": "https://minorugolf.com/sanyo/short_course",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文の該当記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、1人で来場してからペアを探すことも可能で、詳細はスタッフへの確認を案内しています。また、ラウンド中のクラブの貸し借りはしないよう求めています。",
+            "url": "https://minorugolf.com/sanyo/short_course",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "ショートコースのペア探しとラウンド中のクラブ貸借の条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、1人で来場してからペアを探すことも可能で、詳細はスタッフへの確認を案内しています。また、ラウンド中のクラブの貸し借りはしないよう求めています。 Existing minimum2 strictly retained; not solo play nor pairing guarantee. Existing shoes/hat remain, feeimage/yardchanges not adopted.",
+      "sourceEvidence": {
+        "requestedUrl": "https://minorugolf.com/sanyo/short_course",
+        "startedAtUtc": "2026-10-30T03:51:24.499422+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://minorugolf.com/sanyo/short_course",
+        "bytes": 38710,
+        "sha256": "c7208e72cd1086bba54f85c057fb09d9f38186320e9a0e815fe48e61cb7f0b45",
+        "completedAtUtc": "2026-10-30T03:51:29.877120+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1269,
+      "name": "アクティはしはま",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。",
+        "url": "https://hashihama-kk.com/acty/",
+        "checked": "2026-10-25",
+        "basis": "公式施設・観光案内のコース記載を確認",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。 公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。",
+        "url": "https://hashihama-kk.com/acty/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・観光案内のコース記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "ショートコース欄の営業時間と特定日曜日のスタート制限を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。 Ownshortcourse section only, not2025drivingrangehours. Effective date preserved; no exceptionalholiday/weatheroperation guarantee. Prior9×2/wood/downhill unchanged.",
+      "sourceEvidence": {
+        "requestedUrl": "https://hashihama-kk.com/acty/",
+        "startedAtUtc": "2026-10-30T03:51:31.985031+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://hashihama-kk.com/acty/",
+        "bytes": 136452,
+        "sha256": "5e147911979c39639fc1b4e973392bfe2863ed6f61f75f8a227b74514860e504",
+        "completedAtUtc": "2026-10-30T03:51:36.240228+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1283,
+      "name": "KSゴルフ後閑",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。",
+        "url": "https://ks-golf.net/facility/",
+        "checked": "2026-10-25",
+        "basis": "公式案内本文の該当記載を確認"
+      },
+      "after": {
+        "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。 公式の施設案内では、ショートコースの最終受付は19時です。",
+        "url": "https://ks-golf.net/facility/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文の該当記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の施設案内では、ショートコースの最終受付は19時です。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設案内の受付欄でショートコースの締切時刻を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の施設案内では、ショートコースの最終受付は19時です。 SC19受付 only, not playfinishingtime; drivingrange20:15 and general9–21 not generalized toshortcourse. RestaurantMonday/shopMonday3rdTuesday separate.",
+      "sourceEvidence": {
+        "requestedUrl": "https://ks-golf.net/facility/",
+        "startedAtUtc": "2026-10-30T03:51:38.347597+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://ks-golf.net/facility/",
+        "bytes": 30092,
+        "sha256": "fb0d85d25500fbeaec0de4f18c76f6946811dbe52f8453e0b61eac1fff8378d6",
+        "completedAtUtc": "2026-10-30T03:51:42.074329+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1258,
+      "name": "毛利庭園ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR山陽本線・防府駅から3kmです。",
+        "url": "https://mohrigardengolf.com/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "電車利用のアクセス欄にある駅からの距離を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、JR山陽本線・防府駅から3kmです。 Distance only; mode/time unspecified, do not infer taxi/car/walk/clubbus. No wholepublictransportavailability claim.",
+      "sourceEvidence": {
+        "requestedUrl": "https://mohrigardengolf.com/",
+        "startedAtUtc": "2026-10-30T03:52:03.943897+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://mohrigardengolf.com/",
+        "bytes": 278291,
+        "sha256": "37635a7884fd33fb345f18e4a2a728cf17f998347b41dbaafb2635587dbb8184",
+        "completedAtUtc": "2026-10-30T03:52:09.278873+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1592,
+      "name": "千葉カントリークラブ 梅郷コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "全組乗用カート・キャディ付き。日本オープンなどの大会を開催したコースです。",
+        "url": "https://www.chibacc.co.jp/umesato",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "全組乗用カート・キャディ付き。日本オープンなどの大会を開催したコースです。 公式案内では、休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。",
+        "url": "https://www.chibacc.co.jp/umesato",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "全組乗用カート・キャディ付き。日本オープンなどの大会を開催したコースです。",
+            "url": "https://www.chibacc.co.jp/umesato",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。",
+            "url": "https://www.chibacc.co.jp/umesato",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "梅郷コースの概要欄にある休場日と祝日の例外を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。 Dedicated梅郷 only, not川間/野田. Priorallcart/caddie unchanged; family/65+fees not generalprice. No exceptionalweatheroperation guarantee.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.chibacc.co.jp/umesato",
+        "startedAtUtc": "2026-10-30T03:52:11.387472+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.chibacc.co.jp/umesato",
+        "bytes": 78184,
+        "sha256": "89c946896afdb0d3705cf12a7ffd06b7589dbc89db7267f43948129033e5258c",
+        "completedAtUtc": "2026-10-30T03:52:15.319050+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
