@@ -1,0 +1,56 @@
+{
+  "scope": "Existing two pages only: minimal static site/page identity JSON-LD",
+  "baselineCommit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+  "statusAtPreparation": "draft proposal, not deployed",
+  "specificationChecked": "2026-10-30",
+  "officialSources": [
+    {
+      "url": "https://schema.org/WebSite",
+      "supports": "Website type and inherited identity properties; JSON-LD embedding example"
+    },
+    {
+      "url": "https://schema.org/WebPage",
+      "supports": "Page identity type, not dynamic search results"
+    },
+    {
+      "url": "https://schema.org/inLanguage",
+      "supports": "Text language code on CreativeWork; BCP47 recommended"
+    }
+  ],
+  "specificationNotice": "Read pages identify themselves as development version; footer V30.1 / 2026-09-16. Evidence was extracted web text, not original HTML/status.",
+  "implementation": [
+    {
+      "file": "index.html",
+      "type": "WebSite",
+      "addedUtf8Bytes": 406,
+      "baselineSha256": "2c99451f28c147049b77cb53235cfc3edaf45906ac23201199c976b4631f425a",
+      "candidateSha256": "186fcd9c320e88289c0375eb88a2e87e490044713407f5595f9813cd3805ffe2"
+    },
+    {
+      "file": "find.html",
+      "type": "WebPage",
+      "addedUtf8Bytes": 328,
+      "baselineSha256": "caee27bb856327d036de4833883ef796e50f54430a4f58156cf5617670f66473",
+      "candidateSha256": "0309be22761e021410183ff9fda2d1daafc2ca56ec995cc439d9573c6ab3c54a"
+    }
+  ],
+  "values": "Existing title, description and canonical URL copied exactly for each page; Japanese language ja.",
+  "properties": [
+    "@context",
+    "@type",
+    "name",
+    "description",
+    "url",
+    "inLanguage"
+  ],
+  "invariants": [
+    "No data, executable script, visible markup, CSS, ranking, analytics, canonical or existing OG changes",
+    "No Organization, ratings, prices, SearchAction, SearchResultsPage or dates claiming revalidation",
+    "No robots, headings, images, new course pages or inventory snapshot changes"
+  ],
+  "limitations": [
+    "Structured data is not a promise of search indexing, rich results or ranking improvement",
+    "No mobile or live browser check at preparation; post-approval deployment verification required",
+    "Historical partial verification records are unchanged"
+  ]
+}
