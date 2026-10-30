@@ -1,0 +1,210 @@
+{
+  "patchSetId": "2026-10-30-four-restaurant-access-conditions",
+  "parentSha": "3b89976dfff14cf3d5d0b05368bf7f14389ef094",
+  "inputSha256": "1c63903a8a0c4cddbbd807575ba1592ce6ebc2fbe5df02a137893f06e0d0932e",
+  "outputSha256": "fb45295f05ba257e02ac791be59e3e8dfd195528d525cd39c42b47bd4ba18da9",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 84,
+      "name": "ダイナミックゴルフ千葉",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストラン「かぼちゃハウス」では焼き立てパンを提供しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520230/",
+        "checked": "2026-10-25",
+        "basis": "公開予約サイトの施設紹介・営業案内本文を確認し、当施設の記述を要約。",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "レストラン「かぼちゃハウス」では焼き立てパンを提供しています。 公式の千葉店レストラン案内では、営業時間は平日10～16時、土日祝10～18時で、ラストオーダーは閉店30分前です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520230/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストラン「かぼちゃハウス」では焼き立てパンを提供しています。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520230/",
+            "checked": "2026-10-25",
+            "basis": "公開予約サイトの施設紹介・営業案内本文を確認し、当施設の記述を要約。",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の千葉店レストラン案内では、営業時間は平日10～16時、土日祝10～18時で、ラストオーダーは閉店30分前です。",
+            "url": "https://dynamic-golf.jp/chiba/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "千葉店レストランの曜日別営業時間と注文締切を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の千葉店レストラン案内では、営業時間は平日10～16時、土日祝10～18時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/chiba/",
+        "startedAtUtc": "2026-10-30T04:08:38.111781+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/chiba/",
+        "bytes": 30339,
+        "sha256": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40",
+        "completedAtUtc": "2026-10-30T04:08:43.678153+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 85,
+      "name": "ダイナミックゴルフ成田",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "かぼちゃハウス成田店では「元気豚ヒレカツとサクサク海老フライ御膳」を用意。ライス・小鉢・漬物付き。焼き立てパンやデミグラスハンバーグも選べます。",
+        "url": "https://dynamic-golf.jp/narita/restrant/",
+        "checked": "2026-10-25",
+        "basis": "公式案内本文を確認",
+        "dish": "元気豚ヒレカツとサクサク海老フライ御膳",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "かぼちゃハウス成田店では「元気豚ヒレカツとサクサク海老フライ御膳」を用意。ライス・小鉢・漬物付き。焼き立てパンやデミグラスハンバーグも選べます。 公式の成田店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。",
+        "url": "https://dynamic-golf.jp/narita/restrant/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "dish": "元気豚ヒレカツとサクサク海老フライ御膳",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "かぼちゃハウス成田店では「元気豚ヒレカツとサクサク海老フライ御膳」を用意。ライス・小鉢・漬物付き。焼き立てパンやデミグラスハンバーグも選べます。",
+            "url": "https://dynamic-golf.jp/narita/restrant/",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文を確認",
+            "dish": "元気豚ヒレカツとサクサク海老フライ御膳",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の成田店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。",
+            "url": "https://dynamic-golf.jp/narita/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "成田店レストランの曜日別営業時間と注文締切を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の成田店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/narita/",
+        "startedAtUtc": "2026-10-30T04:08:45.776319+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/narita/",
+        "bytes": 31734,
+        "sha256": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8",
+        "completedAtUtc": "2026-10-30T04:08:48.628410+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 86,
+      "name": "ダイナミックゴルフ茂原",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "併設のかぼちゃハウスでは、和風・デミグラスなどの特製ハンバーグを用意。自家製パンや濃厚なめらかかぼちゃプリンも楽しめます。",
+        "url": "https://dynamic-golf.jp/mobara/m-restrant/",
+        "checked": "2026-10-25",
+        "basis": "公式案内本文を確認",
+        "dish": "特製ハンバーグ",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "併設のかぼちゃハウスでは、和風・デミグラスなどの特製ハンバーグを用意。自家製パンや濃厚なめらかかぼちゃプリンも楽しめます。 公式の茂原店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。",
+        "url": "https://dynamic-golf.jp/mobara/m-restrant/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "dish": "特製ハンバーグ",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "併設のかぼちゃハウスでは、和風・デミグラスなどの特製ハンバーグを用意。自家製パンや濃厚なめらかかぼちゃプリンも楽しめます。",
+            "url": "https://dynamic-golf.jp/mobara/m-restrant/",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文を確認",
+            "dish": "特製ハンバーグ",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の茂原店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。",
+            "url": "https://dynamic-golf.jp/mobara/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "茂原店レストランの曜日別営業時間と注文締切を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の茂原店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/mobara/",
+        "startedAtUtc": "2026-10-30T04:08:50.728382+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/mobara/",
+        "bytes": 32394,
+        "sha256": "a5c829805db0498ebdf802f62afdd69e6321ad9ef4eb317ec9083373a1ca54db",
+        "completedAtUtc": "2026-10-30T04:08:53.370998+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 85,
+      "name": "ダイナミックゴルフ成田",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "成田ICから車で約15分。",
+        "url": "https://dynamic-golf.jp/narita/",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス案内の記載内容：成田ICから車で約15分。"
+      },
+      "after": {
+        "text": "成田ICから車で約15分。 公式アクセス案内では、成田国際空港から車で7分です。",
+        "url": "https://dynamic-golf.jp/narita/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "成田ICから車で約15分。",
+            "url": "https://dynamic-golf.jp/narita/",
+            "checked": "2026-10-24",
+            "basis": "公式アクセス案内の記載内容：成田ICから車で約15分。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセス案内では、成田国際空港から車で7分です。",
+            "url": "https://dynamic-golf.jp/narita/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設アクセス欄の空港起点・車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、成田国際空港から車で7分です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。 旧段落official分類補足は既存施設公式URL/basis根拠、旧IC起点と新空港起点を区別。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/narita/",
+        "startedAtUtc": "2026-10-30T04:08:45.776319+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/narita/",
+        "bytes": 31734,
+        "sha256": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8",
+        "completedAtUtc": "2026-10-30T04:08:48.628410+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
