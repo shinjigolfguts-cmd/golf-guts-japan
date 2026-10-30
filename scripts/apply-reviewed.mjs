@@ -11,18 +11,28 @@ export const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 function date(s){if(typeof s!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(s)||new Date(s+'T00:00:00Z').toISOString().slice(0,10)!==s)fail('invalid date');return s}
 function url(s){let u;try{u=new URL(s)}catch{fail('invalid URL')}if(!['https:','http:'].includes(u.protocol)||u.username||u.password)fail('unsafe URL');}
 export function parseData(raw){const m=raw.match(/^\s*const DATA\s*=\s*([\s\S]*?)\s*;?\s*$/);if(!m)fail('unsupported data wrapper');return JSON.parse(m[1]);}
+
+const legacy48={text:'遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。',url:'https://www.mannacc.com/restaurant/gp-grill',checked:'2026-10-22〜23',basis:'既存掲載情報を項目別に確認'};
+const sameLegacy=e=>e&&Object.keys(legacy48).every(k=>e[k]===legacy48[k])&&e.sourceType==='legacy_unclassified';
+const nexco=e=>{try{const u=new URL(e.url);return u.protocol==='https:'&&u.hostname==='corp.w-nexco.co.jp'&&!u.port&&!u.username&&!u.password&&/NEXCO西日本/.test(e.text)}catch{return false}};
+
+function validateLegacy(p,today){
+ const a=p.after,e=a?.evidenceSegments?.[0];
+ if(a?.sourceType!=='mixed'||p.id!==48||p.field!=='play'||!eq(p.before,legacy48)||!sameLegacy(e)||Object.keys(e).length!==5||a.checked!==legacy48.checked||a.url!==legacy48.url||today<'2026-10-23')fail('unapproved legacy range');
+ if(a.evidenceSegments.slice(1).some(s=>s?.text?.trim()===legacy48.text.trim()))fail('legacy checked-only duplicate');
+}
 function validateAfter(p,today){
  if(p.validFrom||p.validThrough){date(p.validFrom);date(p.validThrough);if(p.validFrom>p.validThrough||today<p.validFrom||today>p.validThrough)fail('patch outside validity');}
  if(p.field==='officialUrl'){url(p.after);return;}
  if(p.field==='note'){if(typeof p.after!=='string'||!p.after.trim())fail('invalid note');return;}
  const a=p.after;if(!a||typeof a!=='object'||Array.isArray(a)||typeof a.text!=='string'||!a.text.trim())fail('invalid fact');
- url(a.url);date(a.checked);if(a.checked>today)fail('future checked');
+ url(a.url);if(a.checked===legacy48.checked)validateLegacy(p,today);else date(a.checked);if(a.checked>today)fail('future checked');
  if(!['official','tourism','booking','review','mixed'].includes(a.sourceType))fail('invalid source type');
  if(a.sourceType==='tourism'&&!/(観光|協会|自治体|市の|県の)/.test(a.text))fail('visible attribution missing');
  if(a.sourceType==='mixed'){
  const es=a.evidenceSegments;if(!Array.isArray(es)||es.length<2)fail('mixed segments missing');
  if(a.priceVerified===true||a.conditions)fail('mixed price or unscoped conditions unsupported');
- for(const e of es){if(!e||typeof e.text!=='string'||!e.text.trim()||typeof e.basis!=='string'||!e.basis.trim())fail('mixed statement evidence missing');url(e.url);date(e.checked);if(e.checked>today)fail('mixed future checked');if(!['official','tourism','booking','review'].includes(e.sourceType))fail('mixed source type');if(e.sourceType==='tourism'&&!/(観光|協会|自治体|市の|県の)/.test(e.text))fail('mixed tourism attribution missing');}
+ for(const [i,e] of es.entries()){if(!e||typeof e.text!=='string'||!e.text.trim()||typeof e.basis!=='string'||!e.basis.trim())fail('mixed statement evidence missing');url(e.url);if(e.checked===legacy48.checked){validateLegacy(p,today);if(i!==0)fail('legacy position');}else date(e.checked);if(e.checked>today)fail('mixed future checked');if(!['official','tourism','booking','review','legacy_unclassified','nexco_west'].includes(e.sourceType))fail('mixed source type');if(e.sourceType==='legacy_unclassified'){validateLegacy(p,today);if(i!==0)fail('legacy position');}if(e.sourceType==='nexco_west'&&!nexco(e))fail('NEXCO provenance');if(e.sourceType==='official'&&new URL(e.url).hostname==='corp.w-nexco.co.jp')fail('road source mislabeled facility');if(e.sourceType==='tourism'&&!/(観光|協会|自治体|市の|県の)/.test(e.text))fail('mixed tourism attribution missing');}
  if(es.map(e=>e.text).join(' ')!==a.text)fail('mixed text scope mismatch');
  if(a.url!==es[0].url||a.checked!==es[0].checked)fail('mixed fallback source mismatch');
  }
