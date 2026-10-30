@@ -1,0 +1,142 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-outside115-next5",
+  "parentSha": "544a4a238aee5fa251f2ebfefc4dec838421a068",
+  "inputSha256": "7023daffe1852cce270f916f4fb2cc59b84dc9648dff56f0644f7b6ddd116d57",
+  "outputSha256": "a67bed5c69e5cf879b7a7c4b188d203bea8ffbeb9edf6382c34bd49ff14a1abc",
+  "scope": "保存済み成功取得公式資料から4施設5項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 263,
+      "name": "四国カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、徳島自動車道・脇町ICから車で10分。",
+        "url": "http://www.shikoku-cc.co.jp/",
+        "checked": "2026-10-30",
+        "basis": "対象施設の公式アクセス欄でICからの車所要時間を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "徳島市内/高松市内の別起点を混在させない。",
+      "sourceEvidence": {
+        "key": "263",
+        "requestedUrl": "http://www.shikoku-cc.co.jp/",
+        "retrievedAtUtc": "2026-10-29T16:15:45.384222+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "http://shikoku-cc.co.jp/",
+        "sha256": "ae9a8a02bbcb56d5a92e8681b01b86ef206c2dedee5012b635df91ad35209374",
+        "bytes": 35243,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 263,
+      "name": "四国カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、JR徳島本線・穴吹駅から車で8分。タクシー料金は約900円との掲載ですが、利用時の料金は別途確認してください。",
+        "url": "http://www.shikoku-cc.co.jp/",
+        "checked": "2026-10-30",
+        "basis": "駅からの車所要時間と掲載タクシー料金の目安を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "車をtaxiに無断変更しない。古い料金目安は現運賃保証不可。",
+      "sourceEvidence": {
+        "key": "263",
+        "requestedUrl": "http://www.shikoku-cc.co.jp/",
+        "retrievedAtUtc": "2026-10-29T16:15:45.384222+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "http://shikoku-cc.co.jp/",
+        "sha256": "ae9a8a02bbcb56d5a92e8681b01b86ef206c2dedee5012b635df91ad35209374",
+        "bytes": 35243,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 456,
+      "name": "明智ゴルフ倶楽部 賑済寺ゴルフ場",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、JR高山本線・美濃太田駅から約8km、車で約15分。",
+        "url": "https://akechi-club.com/shinsaiji/access",
+        "checked": "2026-10-30",
+        "basis": "賑済寺ゴルフ場専用のアクセス欄で駅からの距離と車所要時間を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "車をtaxiに補完しない。他の明智系列コースと分離。",
+      "sourceEvidence": {
+        "key": "456access",
+        "requestedUrl": "https://akechi-club.com/shinsaiji/access",
+        "retrievedAtUtc": "2026-10-29T16:26:02.058081+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://akechi-club.com/shinsaiji/access",
+        "sha256": "fd49fa4859d99af11e8df68f320dc78f75ee6cece77da80305e19f955854c338",
+        "bytes": 24232,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 420,
+      "name": "塩嶺カントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式紹介では、穂高連峰を望む塩嶺高原の景観が特徴です。",
+        "url": "http://www.enrei.co.jp/",
+        "checked": "2026-10-30",
+        "basis": "対象コースの紹介本文で穂高連峰への眺望を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "全ホール・常時視認の保証にしない。",
+      "sourceEvidence": {
+        "id": 420,
+        "requestedUrl": "http://www.enrei.co.jp/",
+        "startedAtUtc": "2026-10-29T16:21:29.228914+00:00",
+        "status": 200,
+        "finalUrl": "http://www.enrei.co.jp/",
+        "sha256": "ea61f760a79607efcf22af6596a27e79c302046b467293b8f456ea84df9760a7",
+        "completedAtUtc": "2026-10-29T16:21:36.025049+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 161,
+      "name": "大日向カントリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、ザ・ロッジ大日向にレストランを併設しています。",
+        "url": "https://booking.pacificgolf.co.jp/guide/27.html",
+        "checked": "2026-10-30",
+        "basis": "対象施設のロッジ紹介節で併設レストランを確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "ロッジ側施設である範囲を明記。ゴルフ場クラブハウスの食事や食事込みプランに転用しない。",
+      "sourceEvidence": {
+        "id": "161destination",
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/27.html",
+        "startedAtUtc": "2026-10-29T16:15:49.489453+00:00",
+        "status": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/27.html",
+        "sha256": "dbec67fb3fb549d3c96acba58bee4f6464357589dbe190512c5bda88f8c88578",
+        "completedAtUtc": "2026-10-29T16:15:55.130388+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
