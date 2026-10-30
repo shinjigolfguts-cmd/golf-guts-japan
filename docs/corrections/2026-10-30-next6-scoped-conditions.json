@@ -1,0 +1,256 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next6",
+  "parentSha": "f39301b8ef4687c0cc1c5749884a8ccc16d939f2",
+  "inputSha256": "fa7823ad0725b67edee0c345ed7f667861a2f3e2a7440e82537053e1acd6931c",
+  "outputSha256": "7023daffe1852cce270f916f4fb2cc59b84dc9648dff56f0644f7b6ddd116d57",
+  "scope": "保存済み成功取得公式資料から6施設6項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 346,
+      "name": "イーストヒルゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：小室嘉彦。練習場は200ヤード・14打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150006/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：小室嘉彦。練習場は200ヤード・14打席の掲載。 公式のラウンド案内では、電磁誘導式の5人乗りカート付きセルフプレーで、キャディ付きは先着2～3組。原則1組4人ですが状況により2サムも可能です。平日は2B割増なしと案内されていますが、除外期間があります。 具体的な除外日はこの案内欄に記載がないため、予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150006/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：小室嘉彦。練習場は200ヤード・14打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150006/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式のラウンド案内では、電磁誘導式の5人乗りカート付きセルフプレーで、キャディ付きは先着2～3組。原則1組4人ですが状況により2サムも可能です。平日は2B割増なしと案内されていますが、除外期間があります。 具体的な除外日はこの案内欄に記載がないため、予約時に確認してください。",
+            "url": "https://www.ehgc.jp/about.html",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式のプレースタイル欄でカートと組人数の条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "キャディ先着枠、原則4人/状況による2サム、平日2B除外期間を全て保持。全期間2B保証やキャディ確約にしない。 Source clause specifies exclusion periods but no concrete dates; booking confirmation explicitly required.",
+      "sourceEvidence": {
+        "id": 346,
+        "requestedUrl": "https://www.ehgc.jp/about.html",
+        "startedAtUtc": "2026-10-29T15:01:29.969441+00:00",
+        "status": 200,
+        "finalUrl": "https://www.ehgc.jp/about.html",
+        "sha256": "345c2904067475069225c2346c721e3d3a6f44f0e67c38190c935378b49f0e5d",
+        "completedAtUtc": "2026-10-29T15:01:37.919031+00:00",
+        "checkedDateJst": "2026-10-30",
+        "hashVerified": true
+      }
+    },
+    {
+      "id": 403,
+      "name": "小杉カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "北陸自動車道・小杉ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160005/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "北陸自動車道・小杉ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、北陸自動車道・小杉ICから車で約3分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160005/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "北陸自動車道・小杉ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160005/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、北陸自動車道・小杉ICから車で約3分です。",
+            "url": "https://www.kosugi.cc/access/index.html",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式アクセス本文でICからの車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "車約3分明記。公共交通の距離を時間やタクシーへ変換しない。",
+      "sourceEvidence": {
+        "id": "403access",
+        "requestedUrl": "https://www.kosugi.cc/access/index.html",
+        "startedAtUtc": "2026-10-29T15:07:11.162731+00:00",
+        "status": 200,
+        "finalUrl": "https://www.kosugi.cc/access/index.html",
+        "sha256": "9a3e5590a6a0a85f7ade7e024ed1a69bcdc286dfedda19584b67934ca79d11ec",
+        "completedAtUtc": "2026-10-29T15:07:18.231255+00:00",
+        "checkedDateJst": "2026-10-30",
+        "hashVerified": true
+      }
+    },
+    {
+      "id": 430,
+      "name": "愛鷹シックスハンドレッドクラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、駿河湾と伊豆半島の眺望を案内しています。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/ashitaka/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "対象コースの公式紹介本文で眺望対象を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "専用コース本文のみ。全ホール/常時視界/宿泊等を推定しない。",
+      "sourceEvidence": {
+        "id": 430,
+        "requestedUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/ashitaka/",
+        "startedAtUtc": "2026-10-29T15:06:25.363633+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/ashitaka/",
+        "sha256": "c6c225c5f92364977b448bdc1801c81906d128cec11c23f4fa1d24d82eeb5ce5",
+        "completedAtUtc": "2026-10-29T15:06:33.755449+00:00",
+        "checkedDateJst": "2026-10-30",
+        "hashVerified": true
+      }
+    },
+    {
+      "id": 431,
+      "name": "芦の湖カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・山岳地形。設計：佐藤儀一。練習場は180ヤード・7打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220005/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・山岳地形。設計：佐藤儀一。練習場は180ヤード・7打席の掲載。 公式英語版の施設概要では、バックティー6,308ヤード、レギュラーティー5,827ヤード、フロントティー4,757ヤードを掲載しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220005/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・山岳地形。設計：佐藤儀一。練習場は180ヤード・7打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220005/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式英語版の施設概要では、バックティー6,308ヤード、レギュラーティー5,827ヤード、フロントティー4,757ヤードを掲載しています。",
+            "url": "https://ashinokocc.com/english/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式の施設概要表でティー別の距離を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Course欄で各ティーラベルと距離を明記。料金表とは別の施設仕様欄。男女資格・総距離への加算・現営業保証はしない。",
+      "sourceEvidence": {
+        "id": 431,
+        "requestedUrl": "https://ashinokocc.com/english/",
+        "startedAtUtc": "2026-10-29T15:01:29.970861+00:00",
+        "status": 200,
+        "finalUrl": "https://ashinokocc.com/english/",
+        "sha256": "34c4bd663c0e4725484b0320d21a8d9ad2ace89b48a9e440dfb374156a3c9399",
+        "completedAtUtc": "2026-10-29T15:01:37.140889+00:00",
+        "checkedDateJst": "2026-10-30",
+        "hashVerified": true
+      }
+    },
+    {
+      "id": 1502,
+      "name": "相模カンツリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式レストラン案内には、朝の和・洋食セット、昼の肉料理や和洋中の料理、プレー後のデザートやフルーツの提供が掲載されています。当日のメニュー・提供状況は利用前にご確認ください。",
+        "url": "https://sagamicc.org/",
+        "checked": "2026-10-30",
+        "basis": "対象施設の公式本文で料理の提供区分を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "No prices/hours/included meal inference. Not promotional comparison or plan-specific quote. Published menu categories only, no current serving or specialty guarantee.",
+      "sourceEvidence": {
+        "id": 1502,
+        "requestedUrl": "https://sagamicc.org/",
+        "startedAtUtc": "2026-10-29T15:06:25.366924+00:00",
+        "status": 200,
+        "finalUrl": "https://sagamicc.org/",
+        "sha256": "c3ada9056aedfcd024ea08f7643505e44ae4755a267ca39bdab06c465ed4ecb2",
+        "completedAtUtc": "2026-10-29T15:06:31.696323+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 1568,
+      "name": "東京相武カントリークラブ ショートコース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "12ホール・パー36・全長1,054ヤード。池越えや打ち上げ・打ち下ろしを備え、ベント・高麗の2グリーンで回ります。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "12ホール・パー36・全長1,054ヤード。池越えや打ち上げ・打ち下ろしを備え、ベント・高麗の2グリーンで回ります。 公式案内では、乗用カートでのプレーも可能です。カート代は1人1,100円からで、WEBサイトのプレープランで選択します。 このショートコースは「ジカドリ」プランの対象外です。税込表示かはこの掲載欄では不明のため、予約時の料金・利用条件をご確認ください。",
+        "url": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "12ホール・パー36・全長1,054ヤード。池越えや打ち上げ・打ち下ろしを備え、ベント・高麗の2グリーンで回ります。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、乗用カートでのプレーも可能です。カート代は1人1,100円からで、WEBサイトのプレープランで選択します。 このショートコースは「ジカドリ」プランの対象外です。税込表示かはこの掲載欄では不明のため、予約時の料金・利用条件をご確認ください。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+            "checked": "2026-10-30",
+            "basis": "ショートコースの公式紹介で有料カートとプラン選択条件を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Retain minimum price and per-person unit plus plan selection; tax status not specified, do not claim税込/総額. Not guaranteed available for all slots, not standalone budget or verified-price ranking. Short course not neighboring main course. Price is source-reported at saved acquisition, not guaranteed current price; confirm booking-plan amount. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified. Course excluded from Jikadori plan; tax inclusion not stated in this listing. Saved startingprice only, verify booking price/availability.",
+      "sourceEvidence": {
+        "id": 1568,
+        "requestedUrl": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+        "startedAtUtc": "2026-10-29T15:06:25.368007+00:00",
+        "status": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/tokyo/sobufamilygolf/",
+        "sha256": "5025dd6a1fd1b8215acc44baba5f34597443d0b66b9c51006e97d278d015c873",
+        "completedAtUtc": "2026-10-29T15:06:33.588867+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
