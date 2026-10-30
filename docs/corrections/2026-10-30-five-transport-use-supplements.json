@@ -1,0 +1,248 @@
+{
+  "patchSetId": "2026-10-30-important-transport-use5",
+  "parentSha": "c1a347acfbec54f53abb06616f8881c6493074b6",
+  "inputSha256": "3d797ccd1f49d9319949b9ab45cb3dc1236bbb6989a83aec437d2977ea82fc9f",
+  "outputSha256": "5477eb3b538f6ae443770b92888692b5b1de183fbbddd9f59e8a6a2283460728",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 490,
+      "name": "赤穂国際カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "相生駅から車で約30分（公式アクセス案内の目安）。",
+        "url": "http://www.akcgolf.com/access.html",
+        "checked": "2026-10-25",
+        "basis": "施設公式アクセスを個別照合。公式相生駅から車30分 versus booking taxi20分。",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "相生駅から車で約30分（公式アクセス案内の目安）。 公式アクセスでは、有年駅からゴルフ場まで車で約15分、上郡駅から車で約10分と案内しています。",
+        "url": "http://www.akcgolf.com/access.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "相生駅から車で約30分（公式アクセス案内の目安）。",
+            "url": "http://www.akcgolf.com/access.html",
+            "checked": "2026-10-25",
+            "basis": "施設公式アクセスを個別照合。公式相生駅から車30分 versus booking taxi20分。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセスでは、有年駅からゴルフ場まで車で約15分、上郡駅から車で約10分と案内しています。",
+            "url": "http://www.akcgolf.com/access.html",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "駅ごとの車所要時間を施設専用アクセス本文で確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "新補完は有年/上郡の別駅からの車のみ。taxi/busへの変更なし。旧相生30分保持、旧checked更新なし。車アクセスの龍野西ICに付く原文中国道という路線表記は使用しない。",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.akcgolf.com/access.html",
+        "retrievedAtUtc": "2026-10-29T16:26:16.791031+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "http://www.akcgolf.com/access.html",
+        "sha256": "4c0bb3ff5eb087ca8f312defe164a0b99436604d591ab216babc19f8b46ff6d4",
+        "bytes": 7249,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 563,
+      "name": "東建多度カントリークラブ・名古屋",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東名阪自動車道/桑名東ICから約11km。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/533101/access/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：最寄りIC  | 東名阪自動車道/桑名東ＩＣ 11 km",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東名阪自動車道/桑名東ICから約11km。 公式アクセスでは、伊勢湾岸自動車道・湾岸桑名ICから車で約30分と案内しています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/533101/access/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東名阪自動車道/桑名東ICから約11km。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/533101/access/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：最寄りIC  | 東名阪自動車道/桑名東ＩＣ 11 km",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、伊勢湾岸自動車道・湾岸桑名ICから車で約30分と案内しています。",
+            "url": "https://www.token-tado.co.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設のアクセス本文で別IC起点の車所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧桑名東IC11kmは別起点で保持。湾岸桑名IC車30分のみ新公式scope。名古屋30〜40分/大阪2時間など上流市内起点や宿泊施設への経路と混合しない。",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.token-tado.co.jp/",
+        "retrievedAtUtc": "2026-10-29T16:25:33.637037+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.token-tado.co.jp/",
+        "sha256": "6a3595f0c9b76320f61beb533c4f2bb7901608e168f6f1a92f638868399aded2",
+        "bytes": 32191,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1109,
+      "name": "レイクフォレストリゾート バード・スプリングコース",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "名阪国道・小倉ICから20km以内／阪奈道路・宝来ランプICから30km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/260029/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "名阪国道・小倉ICから20km以内／阪奈道路・宝来ランプICから30km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス欄では、名阪国道・小倉ICから17kmと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/260029/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "名阪国道・小倉ICから20km以内／阪奈道路・宝来ランプICから30km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/260029/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄では、名阪国道・小倉ICから17kmと案内しています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/kyoto/lakeforestbirdspring/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用アクセス欄でICからの距離を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "対象バード・スプリング専用h1直下住所に隣接する小倉IC17km。全リゾート45Hをこのコースへ誤帰属させず、旧宝来ランプ区分や小倉20km以内を保持。時間に換算しない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=031",
+        "retrievedAtUtc": "2026-10-29T16:06:06.223112+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/kyoto/lakeforestbirdspring/",
+        "sha256": "03a2f91b84fe62da849ea8507cba9c50af311ac05be2daf387403ba165931e32",
+        "bytes": 3793331,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1138,
+      "name": "みさきカントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "阪和自動車道・泉南ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270035/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "阪和自動車道・泉南ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス欄では、阪和自動車道・泉南ICから19kmと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270035/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "阪和自動車道・泉南ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270035/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄では、阪和自動車道・泉南ICから19kmと案内しています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/osaka/misaki/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用アクセス欄でICからの距離を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "施設専用h1直下アクセスspan19km。近隣カード除外。旧20km以内の区分/日付を保持し、距離を所要時間に変換しない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=048",
+        "retrievedAtUtc": "2026-10-29T16:06:06.771472+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/osaka/misaki/",
+        "sha256": "29046725b3f0c95ddbebe7604d682e50c5cf47cdab8b0949ee7225bf8269b576",
+        "bytes": 3757616,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 607,
+      "name": "中須ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "広い用地にゆとりを持たせた丘陵18ホール。各ホールの長さが特徴です。",
+        "url": "https://www.orvis.co.jp/nakasu/course/",
+        "checked": "2026-10-25",
+        "basis": "公式施設案内・公式観光情報の該当本文を確認"
+      },
+      "after": {
+        "text": "広い用地にゆとりを持たせた丘陵18ホール。各ホールの長さが特徴です。 公式予約案内では「1人予約ランド」を案内し、利用にはWEB会員登録が必要としています。",
+        "url": "https://www.orvis.co.jp/nakasu/course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "広い用地にゆとりを持たせた丘陵18ホール。各ホールの長さが特徴です。",
+            "url": "https://www.orvis.co.jp/nakasu/course/",
+            "checked": "2026-10-25",
+            "basis": "公式施設案内・公式観光情報の該当本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式予約案内では「1人予約ランド」を案内し、利用にはWEB会員登録が必要としています。",
+            "url": "http://www.orvis.co.jp/nakasu/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設の予約案内本文で1人予約と登録条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "1人予約サービスであり1人での単独ラウンド保証や当日空き確約ではない。WEB会員登録必要条件を保持。24時間受付を現場営業時間に変換しない。旧公式orvis専用courseURL＋旧basisからafter旧segmentのみofficial分類補完、before missingtype/旧文日付URLbasis不変、旧18H/レイアウト再検証なし。 Old official sourceType classification only, old text/date/url/basis unchanged and not newly reverified.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.orvis.co.jp/nakasu/",
+        "retrievedAtUtc": "2026-10-29T16:29:18.483509+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "http://www.orvis.co.jp/nakasu/",
+        "sha256": "dcfdd8c97bed490250f0a82890c4abd7cba86a6788c518989d914efdfee69f51",
+        "bytes": 13581,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
