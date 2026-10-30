@@ -1,0 +1,139 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next4",
+  "parentSha": "d7bc28f126b80be364f3865e99bcf16b35a47206",
+  "inputSha256": "a9a88875d3d904dbd1dbba3c84c974dd9114f2b49804547238242497651f737a",
+  "outputSha256": "26b818dd0a818a0474d88d42dac9c3e776726c37b61736d794ed07bf25088d0e",
+  "scope": "保存済み成功取得公式資料から4施設4項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 828,
+      "name": "福島ゴルフ倶楽部・民報コース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70051/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。 福島駅東口からタクシーで約20分。朝のラッシュ時は時間に余裕を持って来場してください。",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧予約掲載情報は今回再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70051/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "福島駅東口からタクシーで約20分。朝のラッシュ時は時間に余裕を持って来場してください。",
+            "url": "https://minpo-course.com/access/",
+            "checked": "2026-10-30",
+            "basis": "保存済み公式HTMLの対象施設本文を確認",
+            "sourceType": "official"
+          }
+        ],
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/70051/",
+        "checked": "2026-10-25"
+      },
+      "checked": "2026-10-30",
+      "scope": "Preserve entire existing no-club-bus booking segment including date2026-10-25; official taxi segment checked2026-10-30. No summing partial car-route distances.",
+      "sourceEvidence": {
+        "key": "828access",
+        "requestedUrl": "https://minpo-course.com/access/",
+        "retrievedAtUtc": "2026-10-29T15:13:52.979079+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://minpo-course.com/access/",
+        "sha256": "576c4f33c57c57cc6e2ec119e59fdfeb30e9636c55278fbbb62154fdf503b60e",
+        "bytes": 35082,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1569,
+      "name": "東急ゴルフパークたまがわ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "溝の口駅・高津駅から小杉駅前行きまたは川崎駅行きバス、武蔵小杉駅から溝の口駅行きバスを利用し、「下野毛」下車、スタートハウスまで徒歩約3分。バス時刻・運行状況は各バス会社で確認してください。",
+        "url": "https://www.tokyu-sports.com/golf/tamagawa/info/150617-01_copy.html",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式HTMLの対象施設本文を確認",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "3min applies only bus-stop→start house. Bus-ride duration absent. Do not present station→club as3min, and do not infer bus frequency.",
+      "sourceEvidence": {
+        "key": "1569access",
+        "requestedUrl": "https://www.tokyu-sports.com/golf/tamagawa/info/150617-01_copy.html",
+        "retrievedAtUtc": "2026-10-29T15:14:25.939769+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.tokyu-sports.com/golf/tamagawa/info/150617-01_copy.html",
+        "sha256": "35fb226dff0f648180d79dadd6438cf7720d1154b4b81e057d9f3f2d4780c55e",
+        "bytes": 63195,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1380,
+      "name": "許田ゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "沖縄自動車道・許田ICから3km。",
+        "url": "https://kyoda-gc.com/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式HTMLの対象施設名・住所を伴うtitle、ロゴ代替文およびfooterで許田IC3kmを確認。所要時間ではありません。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Exact facility-specific title/footer supplies3km, not travel time. Nearby recommended美らオーチャードPar72 excluded.",
+      "sourceEvidence": {
+        "key": "1380",
+        "requestedUrl": "https://kyoda-gc.com/",
+        "retrievedAtUtc": "2026-10-29T15:12:57.470617+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kyoda-gc.com/",
+        "sha256": "87452d5adb669ca7d176f71a5fbfe5c4b9f2b333fa01d971d1ba422341fe59bb",
+        "bytes": 55093,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 955,
+      "name": "中央都留カントリー倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、富士山の眺望を楽しめるコースと紹介されています。",
+        "url": "https://booking.pacificgolf.co.jp/guide/69.html",
+        "checked": "2026-10-30",
+        "basis": "公式PGMの当該施設PLEASURES・COURSE GUIDEの富士山眺望紹介。全ホールや全天候での眺望保証ではありません。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Course-specific COURSE GUIDE/PLEASURES text supports Mount Fuji view from course only. Does not promise every-hole views, guaranteed visibility, seasonal/weather conditions, or uninterrupted panorama.",
+      "sourceEvidence": {
+        "key": "955",
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/69.html",
+        "retrievedAtUtc": "2026-10-29T15:13:52.980706+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/69.html",
+        "sha256": "d54b9fa3951b54190148ace37ed01f246d33e659e80d49f49780cbe8c3cb1dad",
+        "bytes": 150828,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
