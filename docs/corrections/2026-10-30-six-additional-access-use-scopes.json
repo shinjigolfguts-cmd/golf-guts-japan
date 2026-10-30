@@ -1,0 +1,297 @@
+{
+  "patchSetId": "2026-10-30-six-specific-use-access-scopes",
+  "parentSha": "00a6a64d6f8f6074b79d7cf362a920884cebe301",
+  "inputSha256": "de95622772e74b43ca76a4560352c826efea8e4c3e2c02a8d48a3ddda78f90fe",
+  "outputSha256": "f1af221cedcbb3a2c9161533c24dc0c9a8562201272e47c05a9e13cbf3ddff06",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 674,
+      "name": "西日本カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "ゲーリー・プレーヤー設計のコース。",
+        "url": "https://cm-g.co.jp/nishinihon/course/",
+        "checked": "2026-10-25",
+        "basis": "公式ページのコース・景観・施設記述を確認し要約"
+      },
+      "after": {
+        "text": "ゲーリー・プレーヤー設計のコース。 公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。",
+        "url": "https://cm-g.co.jp/nishinihon/course/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "ゲーリー・プレーヤー設計のコース。",
+            "url": "https://cm-g.co.jp/nishinihon/course/",
+            "checked": "2026-10-25",
+            "basis": "公式ページのコース・景観・施設記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。",
+            "url": "https://cm-g.co.jp/nishinihon/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "西日本CCの場面別服装規定と夏季例外・違反時の取扱いを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://cm-g.co.jp/nishinihon/",
+        "startedAtUtc": "2026-10-30T04:32:59.448887+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cm-g.co.jp/nishinihon/",
+        "bytes": 74494,
+        "sha256": "f0292eccfb139fa5dbe999c297d64ec41a0b6797e6b35679eb032b4679fd1464",
+        "completedAtUtc": "2026-10-30T04:33:16.305442+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 674,
+      "name": "西日本カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "八幡ICからクラブハウスまで車で約11分。",
+        "url": "https://cm-g.co.jp/nishinihon/",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約"
+      },
+      "after": {
+        "text": "八幡ICからクラブハウスまで車で約11分。 公式アクセス案内では、北九州都市高速・金剛ICからクラブハウスまで車で11分です。",
+        "url": "https://cm-g.co.jp/nishinihon/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "八幡ICからクラブハウスまで車で約11分。",
+            "url": "https://cm-g.co.jp/nishinihon/",
+            "checked": "2026-10-25",
+            "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセス案内では、北九州都市高速・金剛ICからクラブハウスまで車で11分です。",
+            "url": "https://cm-g.co.jp/nishinihon/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "金剛ICを起点としたクラブハウスまでの車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、北九州都市高速・金剛ICからクラブハウスまで車で11分です。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://cm-g.co.jp/nishinihon/",
+        "startedAtUtc": "2026-10-30T04:32:59.448887+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cm-g.co.jp/nishinihon/",
+        "bytes": 74494,
+        "sha256": "f0292eccfb139fa5dbe999c297d64ec41a0b6797e6b35679eb032b4679fd1464",
+        "completedAtUtc": "2026-10-30T04:33:16.305442+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 686,
+      "name": "佐賀クラシックゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "多久ICからクラブハウスまで車で約10分。",
+        "url": "https://cm-g.co.jp/saga/",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約"
+      },
+      "after": {
+        "text": "多久ICからクラブハウスまで車で約10分。 公式アクセス案内では、武雄北方ICからクラブハウスまで車で11分です。",
+        "url": "https://cm-g.co.jp/saga/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "多久ICからクラブハウスまで車で約10分。",
+            "url": "https://cm-g.co.jp/saga/",
+            "checked": "2026-10-25",
+            "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセス案内では、武雄北方ICからクラブハウスまで車で11分です。",
+            "url": "https://cm-g.co.jp/saga/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "武雄北方ICを起点としたクラブハウスまでの車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、武雄北方ICからクラブハウスまで車で11分です。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://cm-g.co.jp/saga/",
+        "startedAtUtc": "2026-10-30T04:33:18.407266+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cm-g.co.jp/saga/",
+        "bytes": 74371,
+        "sha256": "80c25b9ca9d8c943bbed3df23f991b740f47381c61be29a3a47d1d20227e9196",
+        "completedAtUtc": "2026-10-30T04:33:26.166365+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1529,
+      "name": "関越ゴルフ倶楽部 中山コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "広葉樹林に囲まれた18ホール。フラットな丘陵コースです。",
+        "url": "https://kan-etsu-gc.com/",
+        "checked": "2026-10-24",
+        "basis": "公式掲載内容を確認。広葉樹林に囲まれた18ホール。フラットな丘陵コースです。"
+      },
+      "after": {
+        "text": "広葉樹林に囲まれた18ホール。フラットな丘陵コースです。 公式サイトでは、1名からの組合せ予約を案内しています。",
+        "url": "https://kan-etsu-gc.com/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "広葉樹林に囲まれた18ホール。フラットな丘陵コースです。",
+            "url": "https://kan-etsu-gc.com/",
+            "checked": "2026-10-24",
+            "basis": "公式掲載内容を確認。広葉樹林に囲まれた18ホール。フラットな丘陵コースです。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式サイトでは、1名からの組合せ予約を案内しています。",
+            "url": "https://kan-etsu-gc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式予約欄の1名からの組合せ予約案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式サイトでは、1名からの組合せ予約を案内しています。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kan-etsu-gc.com/",
+        "startedAtUtc": "2026-10-30T04:33:28.271354+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kan-etsu-gc.com/",
+        "bytes": 11018,
+        "sha256": "ef4d2993e663bf343f3430d6de23812e77da4c07e0dcb88212cd693f2068d3ee",
+        "completedAtUtc": "2026-10-30T04:33:33.258906+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1681,
+      "name": "鬼怒川カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "中村寅吉設計の18ホール。鬼怒川の流域に広がるコース。",
+        "url": "https://kinugawacc.jp/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。中村寅吉設計の18ホール。鬼怒川の流域に広がるコース。"
+      },
+      "after": {
+        "text": "中村寅吉設計の18ホール。鬼怒川の流域に広がるコース。 公式サイトのオンライン予約・空き状況確認の案内では、メンバー（正会員）・ビジターともに事前の利用者登録が必要です。",
+        "url": "https://kinugawacc.jp/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "中村寅吉設計の18ホール。鬼怒川の流域に広がるコース。",
+            "url": "https://kinugawacc.jp/",
+            "checked": "2026-10-24",
+            "basis": "公式ページの本文・メニュー・料金表を確認。中村寅吉設計の18ホール。鬼怒川の流域に広がるコース。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式サイトのオンライン予約・空き状況確認の案内では、メンバー（正会員）・ビジターともに事前の利用者登録が必要です。",
+            "url": "https://kinugawacc.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "オンライン予約欄の対象者と事前利用者登録の条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式サイトのオンライン予約・空き状況確認の案内では、メンバー（正会員）・ビジターともに事前の利用者登録が必要です。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kinugawacc.jp/",
+        "startedAtUtc": "2026-10-30T04:34:00.047680+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kinugawacc.jp/",
+        "bytes": 48683,
+        "sha256": "249b0951fee8facb7fc411f8a4b4b2c8c567799c9ae2fcbf64f16413da20de93",
+        "completedAtUtc": "2026-10-30T04:34:06.151349+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1715,
+      "name": "25那須ゴルフガーデン",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "1ホール2ウェイ方式で9ホールを2周。平坦な地形に池・クリーク・バンカーを配置。",
+        "url": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。1ホール2ウェイ方式で9ホールを2周。平坦な地形に池・クリーク・バンカーを配置。"
+      },
+      "after": {
+        "text": "1ホール2ウェイ方式で9ホールを2周。平坦な地形に池・クリーク・バンカーを配置。 公式のゴルフ案内では、有料のレンタルクラブに左利き用も用意すると案内しています。",
+        "url": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "1ホール2ウェイ方式で9ホールを2周。平坦な地形に池・クリーク・バンカーを配置。",
+            "url": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+            "checked": "2026-10-24",
+            "basis": "公式ページの本文・メニュー・料金表を確認。1ホール2ウェイ方式で9ホールを2周。平坦な地形に池・クリーク・バンカーを配置。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式のゴルフ案内では、有料のレンタルクラブに左利き用も用意すると案内しています。",
+            "url": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "25那須のレンタル用品欄で左利き用クラブの取扱いを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式のゴルフ案内では、有料のレンタルクラブに左利き用も用意すると案内しています。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+        "startedAtUtc": "2026-10-30T04:34:08.255147+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+        "bytes": 75792,
+        "sha256": "512343b7a6c4b2712305d83a47f8181f57116ae178b574ccdea7d00e6b49bb47",
+        "completedAtUtc": "2026-10-30T04:34:16.361134+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
