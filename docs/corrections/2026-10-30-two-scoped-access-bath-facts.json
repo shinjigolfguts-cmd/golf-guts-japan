@@ -1,0 +1,110 @@
+{
+  "patchSetId": "2026-10-30-route-and-bath-supplements",
+  "parentSha": "2bac4fa33fa4cec3d76f2625c44ab9e805f5a33c",
+  "inputSha256": "10625d85cbdeffc118768f75b2673946e19c4086462c14138cd4d01a2fcb0b0e",
+  "outputSha256": "55265d2c53ba3bb9b87aa81f85a96b48216b0b7dec1f61a2334c242df25d89c6",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 155,
+      "name": "大洗ゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "水戸大洗ICから約6km。国道51号を大洗方面へ進み、塩崎交差点の先を左折する経路を公式に案内。",
+        "url": "https://www.oarai-golf-club.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式ホームの6kmとアクセス本文経路を照合。IC分数未掲載",
+        "supportingUrls": [
+          "https://www.oarai-golf-club.co.jp/"
+        ]
+      },
+      "after": {
+        "text": "水戸大洗ICから約6km。国道51号を大洗方面へ進み、塩崎交差点の先を左折する経路を公式に案内。 公式トップでは、別の起点として常磐自動車道・水戸ICからおよそ24kmと案内しています。",
+        "url": "https://www.oarai-golf-club.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "supportingUrls": [
+          "https://www.oarai-golf-club.co.jp/"
+        ],
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "水戸大洗ICから約6km。国道51号を大洗方面へ進み、塩崎交差点の先を左折する経路を公式に案内。",
+            "url": "https://www.oarai-golf-club.co.jp/access/",
+            "checked": "2026-10-24",
+            "basis": "公式ホームの6kmとアクセス本文経路を照合。IC分数未掲載",
+            "supportingUrls": [
+              "https://www.oarai-golf-club.co.jp/"
+            ],
+            "sourceType": "official"
+          },
+          {
+            "text": "公式トップでは、別の起点として常磐自動車道・水戸ICからおよそ24kmと案内しています。",
+            "url": "https://www.oarai-golf-club.co.jp/",
+            "checked": "2026-10-30",
+            "basis": "別ICからの距離のみ確認。既存経路と所要時間は今回未照合。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "New distinct route:常磐自動車道水戸IC approximately24km; old水戸大洗IC6km/route retains separate origin. Only road/IC/distance; no time inference. Old national-route51 directions not reverified. Rail source labelsJR常磐線大洗駅: do not adopt questionable railway label or alter old rail. Website maintenanceOct23–Nov4planned is website functionality, NOT golf-course closure. Old official classification supplement only; old text/date/url/basis retained.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.oarai-golf-club.co.jp/",
+        "startedAtUtc": "2026-10-29T16:13:23.613779+00:00",
+        "status": 200,
+        "finalUrl": "https://www.oarai-golf-club.co.jp/",
+        "sha256": "0070a19b84558e373f01d8362cdab32dc963254dba528a23a7ec361745e8bb80",
+        "completedAtUtc": "2026-10-29T16:13:32.643792+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 169,
+      "name": "赤城カントリー倶楽部",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "ロッジ欅は全16室のツインルーム。天然温泉のテラス風呂を備え、通常は2名1室利用で1人8,000円、1名1室は9,000円です。",
+        "url": "https://akagi-cc.com/pages/35/",
+        "checked": "2026-10-25",
+        "basis": "公式掲載情報を直接確認。"
+      },
+      "after": {
+        "text": "ロッジ欅は全16室のツインルーム。天然温泉のテラス風呂を備え、通常は2名1室利用で1人8,000円、1名1室は9,000円です。 公式トップでは、ロッジのテラス風呂に加え、クラブハウス内の浴場も天然温泉と案内しています。",
+        "url": "https://akagi-cc.com/pages/35/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "ロッジ欅は全16室のツインルーム。天然温泉のテラス風呂を備え、通常は2名1室利用で1人8,000円、1名1室は9,000円です。",
+            "url": "https://akagi-cc.com/pages/35/",
+            "checked": "2026-10-25",
+            "basis": "公式掲載情報を直接確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式トップでは、ロッジのテラス風呂に加え、クラブハウス内の浴場も天然温泉と案内しています。",
+            "url": "https://akagi-cc.com/",
+            "checked": "2026-10-30",
+            "basis": "施設公式本文でクラブハウス浴場の天然温泉を確認。宿泊料金や入浴利用条件は今回未照合。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "New distinct bath scope: clubhouse bath as well as lodge terrace bath uses natural hot-spring water. Existing stay mentions lodge terrace spring only. Keep lodge16twins and prices as old evidence, no new price/current availability check. Distinguish clubhouse bath from lodge in adjacent赤城ロマンドvilla area; no public day-use access promise or therapeutic claim. Old official classification supplement only; old text/date/url/basis retained.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.akagi-cc.com",
+        "startedAtUtc": "2026-10-29T16:15:16.603038+00:00",
+        "status": 200,
+        "finalUrl": "https://akagi-cc.com/",
+        "sha256": "10952981a235caba5b77c276dc62a8d5cbec3eb39c56bbbe2203ecce8700a9bd",
+        "completedAtUtc": "2026-10-29T16:15:36.539728+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
