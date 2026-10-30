@@ -1,0 +1,341 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-scopes7",
+  "parentSha": "394235966509e66f39cf1e9839acf6c918b5c140",
+  "inputSha256": "a67bed5c69e5cf879b7a7c4b188d203bea8ffbeb9edf6382c34bd49ff14a1abc",
+  "outputSha256": "4fa252eeadf11d3e52ea2283c47a70ce2047bebbca516c7bacf0a52564a62b56",
+  "scope": "保存済み成功取得資料による7施設7項目の限定補完。旧観光文は帰属を明示し、旧内容・日付を保持。変更不要の部分照合9件は別台帳で変更数に含めません。",
+  "changes": [
+    {
+      "id": 454,
+      "name": "明智ゴルフ倶楽部 かしおゴルフ場",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東海環状自動車道・美濃加茂ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210058/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東海環状自動車道・美濃加茂ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセスでは、名神高速道路・小牧ICから約30km・約45分、中央自動車道・多治見ICから約27km・約40分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210058/",
+        "checked": "2026-10-25",
+        "basis": "各文の根拠は個別欄。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "東海環状自動車道・美濃加茂ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210058/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、名神高速道路・小牧ICから約30km・約45分、中央自動車道・多治見ICから約27km・約40分。",
+            "url": "https://akechi-club.com/kashio/access",
+            "checked": "2026-10-30",
+            "basis": "かしおゴルフ場専用アクセス欄で各IC起点の距離と所要時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "既存美濃加茂IC5km以内を維持し、別起点の公式経路情報だけ補完。",
+      "sourceEvidence": {
+        "requestedUrl": "https://akechi-club.com/kashio/access",
+        "retrievedAtUtc": "2026-10-29T16:26:02.057392+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://akechi-club.com/kashio/access",
+        "sha256": "5429a3099cbb2bccbc07f10181346e3279cb8673d325a2d3c64ea5f5abeaf4a1",
+        "bytes": 26289,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 457,
+      "name": "明智ゴルフ倶楽部 ひるかわゴルフ場",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210061/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。 公式アクセスでは、JR中央本線・恵那駅から約9km、車で約10分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210061/",
+        "checked": "2026-10-25",
+        "basis": "各文の根拠は個別欄。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "クラブバスはなしと掲載されています。駅からのタクシー等の移動手段は予約前に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210061/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、JR中央本線・恵那駅から約9km、車で約10分。",
+            "url": "https://akechi-club.com/hirukawa/access",
+            "checked": "2026-10-30",
+            "basis": "ひるかわゴルフ場専用アクセス欄で駅起点の距離と車所要時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "車をタクシーとしない。既存bookingクラブバスなしは今回未再確認の旧segmentに保持。",
+      "sourceEvidence": {
+        "requestedUrl": "https://akechi-club.com/hirukawa/access",
+        "startedAtUtc": "2026-10-29T16:25:46.307560+00:00",
+        "status": 200,
+        "finalUrl": "https://akechi-club.com/hirukawa/access",
+        "sha256": "038ce451eb127f442e79c36cf288aa0d851ceeae468780c462dfec432dd0ee42",
+        "completedAtUtc": "2026-10-29T16:25:51.859296+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 460,
+      "name": "いわむらカントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "29人乗りマイクロバスの案内あり。利用はプレー日の2週間前までに電話予約が必要です。発着場所は予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210004/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORA掲載施設案内",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "29人乗りマイクロバスの案内あり。利用はプレー日の2週間前までに電話予約が必要です。発着場所は予約時に確認してください。 公式アクセスでは、JR中央線・恵那駅からタクシーで約10分。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210004/",
+        "checked": "2026-10-25",
+        "basis": "各文の根拠は個別欄。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "29人乗りマイクロバスの案内あり。利用はプレー日の2週間前までに電話予約が必要です。発着場所は予約時に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210004/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORA掲載施設案内",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセスでは、JR中央線・恵那駅からタクシーで約10分。",
+            "url": "https://iwamura-golf.co.jp/access/",
+            "checked": "2026-10-30",
+            "basis": "対象施設のアクセス欄で駅からのタクシー所要時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "明文taxi約10分。既存29人乗りバス/2週間前電話予約/発着場所確認を完全保持。",
+      "sourceEvidence": {
+        "requestedUrl": "https://iwamura-golf.co.jp/access/",
+        "startedAtUtc": "2026-10-29T16:25:51.859347+00:00",
+        "status": 200,
+        "finalUrl": "https://iwamura-golf.co.jp/access/",
+        "sha256": "be96293cf5ccd9fddff34eda5c0942621d00587f0ba2f3a9321e73a8f72ca292",
+        "completedAtUtc": "2026-10-29T16:25:56.632191+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 524,
+      "name": "泉佐野カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：町田義男。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270006/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：町田義男。 公式のコース紹介では、犬鳴は距離が長くフェアウェイが広め、稲倉は距離が短めでショートアイアンが攻略のポイント、大阪湾は打ち上げ・打ち下ろしによる変化を備えています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270006/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：町田義男。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270006/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式のコース紹介では、犬鳴は距離が長くフェアウェイが広め、稲倉は距離が短めでショートアイアンが攻略のポイント、大阪湾は打ち上げ・打ち下ろしによる変化を備えています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/osaka/izumisano/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設の公式本文で3コースの距離感と地形の違いを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "専用3コース紹介の比較であり予約フィルター/近隣カード不使用。旧27Hその他は新公式で一括再検証しない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=047",
+        "retrievedAtUtc": "2026-10-29T16:05:40.761188+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/osaka/izumisano/",
+        "sha256": "2c121705e2e6dffb66f1ab6241da82fa0b2729e50a1d99aea4b46ab149ce3fed",
+        "bytes": 2258178,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 351,
+      "name": "柏崎カントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "日本海を望む景観が公式案内で紹介されています。",
+        "url": "https://www.kashiwazaki-cc.co.jp/facility/restaurant/",
+        "checked": "2026-10-25",
+        "basis": "レストラン | 施設案内 | 柏崎カントリークラブ – 日本海を一望!海が見える新潟県のゴルフ場 (https://www.kashiwazaki-cc.co.jp/facility/restaurant/)"
+      },
+      "after": {
+        "text": "日本海を望む景観が公式案内で紹介されています。 公式紹介では、佐渡コースは全ホールから佐渡を背景とした日本海を望めると案内しています。",
+        "url": "https://www.kashiwazaki-cc.co.jp/facility/restaurant/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "日本海を望む景観が公式案内で紹介されています。",
+            "url": "https://www.kashiwazaki-cc.co.jp/facility/restaurant/",
+            "checked": "2026-10-25",
+            "basis": "レストラン | 施設案内 | 柏崎カントリークラブ – 日本海を一望!海が見える新潟県のゴルフ場 (https://www.kashiwazaki-cc.co.jp/facility/restaurant/)",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式紹介では、佐渡コースは全ホールから佐渡を背景とした日本海を望めると案内しています。",
+            "url": "https://www.kashiwazaki-cc.co.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式の佐渡コース欄で眺望対象とホール範囲を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "佐渡コース全ホールのみで、全27H/常時見えるとの保証にしない。旧レストラン景観出典は再検証しない。 Old sourceType classified official from prior basis and dedicated facility URL only, old text/date unchanged and not newly verified.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.kashiwazaki-cc.co.jp",
+        "retrievedAtUtc": "2026-10-29T16:18:00.451167+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.kashiwazaki-cc.co.jp/",
+        "sha256": "cd3f41be880314064e50f3f63610c555080d712ce81f6dcf47eb1c33ed22b73a",
+        "bytes": 42245,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 450,
+      "name": "三甲ゴルフ倶楽部 京和コース",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。メニュー・営業時間は来場日に変更される場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/511202/",
+        "checked": "2026-10-25",
+        "sourceType": "booking",
+        "basis": "あり 朝食：6:30～（料金：￥270～￥1,360） 朝食あり バイキングなし 喫煙席なし"
+      },
+      "after": {
+        "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。メニュー・営業時間は来場日に変更される場合があります。 公式レストラン紹介には、フレンチを中心とした和洋の料理と月替わりのランチメニューが掲載されています。当日の提供内容は利用前にご確認ください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/511202/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。メニュー・営業時間は来場日に変更される場合があります。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/511202/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "あり 朝食：6:30～（料金：￥270～￥1,360） 朝食あり バイキングなし 喫煙席なし"
+          },
+          {
+            "text": "公式レストラン紹介には、フレンチを中心とした和洋の料理と月替わりのランチメニューが掲載されています。当日の提供内容は利用前にご確認ください。",
+            "url": "https://kyowa-country.co.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設のレストラン本文で料理の種類と月替わり案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "月替料理の掲載区分のみ。旧予約朝食/当日営業を再検証せず価格/名物/当日提供保証なし。",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.kyowa-country.co.jp/",
+        "retrievedAtUtc": "2026-10-29T16:18:14.664503+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kyowa-country.co.jp/",
+        "sha256": "0709a2847d883d4ee8c02b1d593dbcbc9cd6783119169a860387cb21d25fb13d",
+        "bytes": 166912,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 596,
+      "name": "芸南カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "緩やかな斜面にフェアウェイの傾斜と細かな起伏を取り入れた、戦略的なレイアウトです。",
+        "url": "https://dive-hiroshima.com/explore/131/",
+        "checked": "2026-10-25",
+        "basis": "公式施設案内・公式観光情報の該当本文を確認"
+      },
+      "after": {
+        "text": "広島県公式観光サイトの案内：緩やかな斜面にフェアウェイの傾斜と細かな起伏を取り入れた、戦略的なレイアウトです。 公式コース紹介では、ベントの1グリーンを採用しています。",
+        "url": "https://dive-hiroshima.com/explore/131/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "広島県公式観光サイトの案内：緩やかな斜面にフェアウェイの傾斜と細かな起伏を取り入れた、戦略的なレイアウトです。",
+            "url": "https://dive-hiroshima.com/explore/131/",
+            "checked": "2026-10-25",
+            "basis": "公式施設案内・公式観光情報の該当本文を確認",
+            "sourceType": "tourism"
+          },
+          {
+            "text": "公式コース紹介では、ベントの1グリーンを採用しています。",
+            "url": "https://www.geinan.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設の公式コース紹介本文でグリーンの種類を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "ベント1グリーンのみ。道路通行止め/熊対策の告知は年の不明確さがあり現況へ拡張しない。 Retained old tourism statement prefixed with explicit prefectural-tourism attribution and classified tourism; old text fully preserved, old date/URL/basis unchanged. Old terrain not newly reverified, no elevation to facility official.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.geinan.com/",
+        "retrievedAtUtc": "2026-10-29T16:29:10.515034+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.geinan.com/",
+        "sha256": "a431739129900f3fa808e5cfd669eeb02fb30c85e1f5a79e31a04d3b4cb710ea",
+        "bytes": 43814,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
