@@ -1,0 +1,58 @@
+{
+  "patchSetId": "2026-10-30-ariake1304-access-conditions",
+  "parentSha": "2f064a95ebea2b13820a6ad3e6d4c2f86c9314a5",
+  "inputSha256": "0eecb040c4a01225a7afc8cab55fd4ed50a166337263b55360d0344c82428782",
+  "outputSha256": "4f0c7beb888658cb1b25f0048a46e4763a4ce5be8687752c83116fa90311bb96",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1304,
+      "name": "有明カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・南関ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400003/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・南関ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、九州自動車道・南関ICから10km、約20分です。公式サイトは、2025年3月17日から南関ICがETC専用料金所となり、現金払いの場合はみやま柳川ICまたは菊水ICを利用するよう案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400003/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・南関ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400003/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、九州自動車道・南関ICから10km、約20分です。公式サイトは、2025年3月17日から南関ICがETC専用料金所となり、現金払いの場合はみやま柳川ICまたは菊水ICを利用するよう案内しています。",
+            "url": "https://www.greenland.co.jp/golf/acc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設専用本文のIC起点の距離・所要時間と、ETC専用化に伴う現金利用時の案内を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Same南関IC origin, new explicit10km/about20min and datedETC-only/cash-alternative condition. Road/IC access context, no unsupported車 word added. No route measurement/traffic guarantee, alternateIC distances/times not given; oldbooking10km以内 retained as category, not corrected as false. Original booking text/dateURLbasis untouched. Facilitynotice only, no roadoperator PDF fetched or roadstatus verification.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.greenland.co.jp/golf/acc/",
+        "startedAtUtc": "2026-10-30T03:32:54.529643+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.greenland.co.jp/golf/acc/",
+        "bytes": 44387,
+        "sha256": "a8e78790bd65e5b4848a9e1aac1ed5f30d0491a8d42b029e4d75b3dc6241e8cc",
+        "completedAtUtc": "2026-10-30T03:33:00.353712+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
