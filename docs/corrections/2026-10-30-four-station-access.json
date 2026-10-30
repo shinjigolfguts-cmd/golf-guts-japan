@@ -1,0 +1,97 @@
+{
+  "baseline": "6c6a07e625dfd2fdd68dc95f6df88f3c839cfdb6",
+  "status": "proposed_not_published",
+  "inputSha256": "d5ebb8537d8c8643bd939c0795aa4ada02e1f83cbb3e227523aae03ad76c527d",
+  "outputSha256": "fc9c3dc7cd06abad8f3026a9d287db21896be1a86713f253cfc2f0987ed560f6",
+  "scope": "Four null rail fields only. Modes and origins kept distinct; no current travel guarantee.",
+  "changes": [
+    {
+      "id": 281,
+      "name": "オーシャンパレスゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR長崎駅から国道206号経由で車で約30分と案内しています。",
+        "url": "https://oceanpalace.co.jp/access-map/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "車でのアクセス欄で、JR長崎駅起点・国道206号経由の概算所要時間を確認。"
+      },
+      "sourceEvidence": {
+        "requestedUrl": "https://oceanpalace.co.jp/access-map/",
+        "finalUrl": "https://oceanpalace.co.jp/access-map/",
+        "sha256": "95d034c937a80221f703f4e008e9c2b3dbf984225845b89e9a49a3e5486ed593",
+        "startedAtUtc": "2026-10-30T09:36:56.562168+00:00",
+        "completedAtUtc": "2026-10-30T09:37:03.790963+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 464,
+      "name": "上石津ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR東海道本線・関ヶ原駅から車で約20分です。",
+        "url": "https://banryugolf.com/kamiishizu/access/index.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "電車利用時のアクセス欄で、関ヶ原駅からの移動手段と概算所要時間を確認。"
+      },
+      "sourceEvidence": {
+        "requestedUrl": "https://banryugolf.com/kamiishizu/access/index.html",
+        "finalUrl": "https://banryugolf.com/kamiishizu/access/index.html",
+        "sha256": "8c807bcf685b8f7269eb0290e92d8ad8dca4c8c4fda088cfdd5157a72ffebe75",
+        "startedAtUtc": "2026-10-30T09:44:49.181358+00:00",
+        "completedAtUtc": "2026-10-30T09:44:55.774566+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 585,
+      "name": "岡山ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR山陽本線の中庄駅からタクシーで約10分、倉敷駅からタクシーで約15分です。",
+        "url": "https://okayama-gc.com/access.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "電車利用のアクセス欄に明示された駅別のタクシー所要時間を確認。"
+      },
+      "sourceEvidence": {
+        "requestedUrl": "https://okayama-gc.com/access.html",
+        "finalUrl": "https://okayama-gc.com/access.html",
+        "sha256": "5114b896bf914c1039551a913c76d3a40a97e46ed678799479a2e9cfb346f5e6",
+        "startedAtUtc": "2026-10-30T09:50:50.204089+00:00",
+        "completedAtUtc": "2026-10-30T09:51:02.310718+00:00",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": 594,
+      "name": "京覧カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR三原駅から車で約10分が目安です。",
+        "url": "https://kyoran-cc.com/access",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "車でのアクセス目安欄で、JR三原駅起点の概算所要時間を確認。"
+      },
+      "sourceEvidence": {
+        "requestedUrl": "https://kyoran-cc.com/access",
+        "finalUrl": "https://kyoran-cc.com/access",
+        "sha256": "dd5f5738716d827b962ccfddb8f08116ac7097de7ad7775c7347a0ca578aef6e",
+        "startedAtUtc": "2026-10-30T09:51:04.311448+00:00",
+        "completedAtUtc": "2026-10-30T09:51:09.402171+00:00",
+        "httpStatus": 200
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-30T06:36:00.728788+00:00",
+  "snapshotAt": "2026-10-30T08:11:45.390410+00:00",
   "artifactStatus": "validated_snapshot",
   "repository": "shinjigolfguts-cmd/golf-guts-japan",
   "linkBase": "repository_root",
@@ -225,6 +225,29 @@
       ]
     },
     {
+      "id": 84,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-legacy84-86-scoped-facts.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/chiba/",
+        "evidenceType": "mixed",
+        "sourceHash": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40"
+      },
+      "date": "2026-10-30",
+      "commit": "de26d90a15d52c44fa718cdc93b89963d99b7ca7",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "segmentDates": [
+        "2026-10-22〜23",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 85,
       "field": "car",
       "source": {
@@ -271,6 +294,29 @@
       ]
     },
     {
+      "id": 85,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-legacy84-86-scoped-facts.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/narita/",
+        "evidenceType": "mixed",
+        "sourceHash": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8"
+      },
+      "date": "2026-10-30",
+      "commit": "de26d90a15d52c44fa718cdc93b89963d99b7ca7",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "segmentDates": [
+        "2026-10-22〜23",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 86,
       "field": "dining",
       "source": {
@@ -290,6 +336,29 @@
       "verificationScope": "公式の茂原店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
       "segmentDates": [
         "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 86,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-legacy84-86-scoped-facts.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/mobara/",
+        "evidenceType": "mixed",
+        "sourceHash": "a5c829805db0498ebdf802f62afdd69e6321ad9ef4eb317ec9083373a1ca54db"
+      },
+      "date": "2026-10-30",
+      "commit": "de26d90a15d52c44fa718cdc93b89963d99b7ca7",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "segmentDates": [
+        "2026-10-22〜23",
         "2026-10-30"
       ]
     },
@@ -12836,6 +12905,29 @@
     },
     {
       "id": 1258,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-conditions-after-pr4.json",
+        "fieldEvidenceUrl": "https://mohrigardengolf.com/",
+        "evidenceType": "mixed",
+        "sourceHash": "37635a7884fd33fb345f18e4a2a728cf17f998347b41dbaafb2635587dbb8184"
+      },
+      "date": "2026-10-30",
+      "commit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "薄暮プレーの具体利用条件のみ。通常dayplanのロッカー有料条件とは別。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1258,
       "field": "rail",
       "source": {
         "origin": "scoped_primary_supplement",
@@ -12890,6 +12982,32 @@
       "segmentDates": [
         "2026-10-25",
         "2026-10-30"
+      ],
+      "supplementalReviews": [
+        {
+          "id": 1269,
+          "field": "play",
+          "source": {
+            "origin": "scoped_primary_supplement",
+            "auditDocument": "docs/corrections/2026-10-30-five-scoped-conditions-after-pr4.json",
+            "fieldEvidenceUrl": "https://hashihama-kk.com/acty/",
+            "evidenceType": "mixed",
+            "sourceHash": "5e147911979c39639fc1b4e973392bfe2863ed6f61f75f8a227b74514860e504"
+          },
+          "date": "2026-10-30",
+          "commit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+          "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+          "fieldScope": "new_added_segment_only",
+          "allChangedFieldsBrowserVerified": true,
+          "fullFieldVerified": false,
+          "fullFacilityVerified": false,
+          "verificationScope": "既刊shortcourse時間とは別のドライビングレンジおよびフロント時間。",
+          "segmentDates": [
+            "2026-10-25",
+            "2026-10-30",
+            "2026-10-30"
+          ]
+        }
       ]
     },
     {
@@ -12952,6 +13070,32 @@
       "segmentDates": [
         "2026-10-25",
         "2026-10-30"
+      ],
+      "supplementalReviews": [
+        {
+          "id": 1283,
+          "field": "play",
+          "source": {
+            "origin": "scoped_primary_supplement",
+            "auditDocument": "docs/corrections/2026-10-30-five-scoped-conditions-after-pr4.json",
+            "fieldEvidenceUrl": "https://ks-golf.net/facility/",
+            "evidenceType": "mixed",
+            "sourceHash": "fb0d85d25500fbeaec0de4f18c76f6946811dbe52f8453e0b61eac1fff8378d6"
+          },
+          "date": "2026-10-30",
+          "commit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+          "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+          "fieldScope": "new_added_segment_only",
+          "allChangedFieldsBrowserVerified": true,
+          "fullFieldVerified": false,
+          "fullFacilityVerified": false,
+          "verificationScope": "公式施設案内では、ドライビングレンジは100打席・250ヤード（1階56打席、2階44打席）で、打席の最終受付は20時15分です。",
+          "segmentDates": [
+            "2026-10-25",
+            "2026-10-30",
+            "2026-10-30"
+          ]
+        }
       ]
     },
     {
@@ -14189,6 +14333,29 @@
       ]
     },
     {
+      "id": 1681,
+      "field": "stay",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-conditions-after-pr4.json",
+        "fieldEvidenceUrl": "https://kinugawacc.jp/",
+        "evidenceType": "mixed",
+        "sourceHash": "249b0951fee8facb7fc411f8a4b4b2c8c567799c9ae2fcbf64f16413da20de93"
+      },
+      "date": "2026-10-30",
+      "commit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "旧温泉存在に対する自家源泉かけ流しという公式の具体方式。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1715,
       "field": "play",
       "source": {
@@ -14343,6 +14510,34 @@
         "2026-10-30",
         "2026-10-30",
         "2026-10-30"
+      ],
+      "supplementalReviews": [
+        {
+          "id": 1734,
+          "field": "play",
+          "source": {
+            "origin": "scoped_primary_supplement",
+            "auditDocument": "docs/corrections/2026-10-30-five-scoped-conditions-after-pr4.json",
+            "fieldEvidenceUrl": "https://kamakura-pg.com/club-rule/",
+            "evidenceType": "mixed",
+            "sourceHash": "5519d5892b01ba065572c9163a9d81cb5421f35cfc67c1593d7f6ba6e29b4595"
+          },
+          "date": "2026-10-30",
+          "commit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+          "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+          "fieldScope": "new_added_segment_only",
+          "allChangedFieldsBrowserVerified": true,
+          "fullFieldVerified": false,
+          "fullFacilityVerified": false,
+          "verificationScope": "公式クラブルールでは、クラブハウス館内とカート内は禁煙です。館外の喫煙場所は駐車場の喫煙ブースと2階レストランの屋外デッキの2か所で、コース内はティイングエリアのみ喫煙可能としています。",
+          "segmentDates": [
+            "2026-10-24",
+            "2026-10-30",
+            "2026-10-30",
+            "2026-10-30",
+            "2026-10-30"
+          ]
+        }
       ]
     },
     {
@@ -14856,7 +15051,7 @@
   ],
   "gitPending": [],
   "counts": {
-    "publishedFields": 769,
+    "publishedFields": 774,
     "publishedFacilities": 480,
     "gitPendingFields": 0,
     "gitPendingFacilities": 0,
@@ -14864,7 +15059,7 @@
     "allFacilitiesAllFieldsComplete": 0,
     "originalAuditLedgerDecrement": 0,
     "areaFields": 1,
-    "sevenComparisonFieldChanges": 503
+    "sevenComparisonFieldChanges": 508
   },
   "limitations": [
     "Field-level selected changes only; no facility is certified fully complete.",
@@ -18401,28 +18596,16 @@
     "unionFields": 49,
     "queueSnapshotCaveat": "The historical queue hash differed from later queue bytes; exact26targetvalues and archivedsource hashes were checked. Original snapshot preserved, no currentqueue completeness claim."
   },
-  "snapshotDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+  "snapshotDataCommit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
   "latestPublicationScope": {
-    "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
-    "fields": 6,
-    "facilities": 3,
-    "newUniqueFields": 6,
-    "newUniqueFacilities": 2,
+    "commit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
+    "fields": 5,
+    "facilities": 5,
+    "newUniqueFields": 2,
+    "newUniqueFacilities": 0,
     "checkedDatesPreserved": true,
     "allChangedFieldsBrowserViewed": true,
-    "fullFacilityVerification": false,
-    "targetedVerificationOnly": true,
-    "fullFiveAssetsBytePass": false,
-    "unverified": [
-      "full index.html bytes after two timeouts",
-      "find.html bytes and current public UI",
-      "guts-analytics.js bytes for this deployment",
-      "access.js bytes for this deployment",
-      "OG current public observation",
-      "mobile",
-      "normal interpage navigation",
-      "external links/PDF"
-    ]
+    "fullFacilityVerification": false
   },
   "preservedTimeScopeOverlayBaseDataCommit": "ccdeb02f0d90b1187619620ff21a1f6fadc8c221",
   "latestSeparateUnpublishedCandidates": {
@@ -18433,7 +18616,7 @@
     "optionalUrlImprovementsSeparate": 4
   },
   "latestMechanicalCoverageSnapshot": {
-    "dataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+    "dataCommit": "941283420e6085ed4e2590c9e24a85ff3e1ce718",
     "comparisonCells": 12600,
     "nonempty": 9000,
     "empty": 3600,
@@ -18493,13 +18676,13 @@
   "snapshotStatusScope": "Reflects verified public data snapshot; documentation deployment not presumed before commit.",
   "unchangedFieldReviewCountScope": "Scoped field reviews only, includes partial checks. Separate from changed-field counters and separate numeric-time review list; not wholefacility count.",
   "lastVerifiedInventoryDeployment": {
-    "commit": "6be62182905d082b2daaa17958ad0fbe19f30a8f",
+    "commit": "de26d90a15d52c44fa718cdc93b89963d99b7ca7",
     "path": "docs/factual-audit-inventory.json",
-    "pagesRun": 41001589053,
-    "publishedUniqueFieldsInSnapshot": 725,
-    "publishedUniqueFacilitiesInSnapshot": 451,
-    "proposalsListedSeparately": 2,
-    "scope": "PR1 merged snapshot preserves725 published fields and2 separately marked proposals. PR1 facts now verified separately in receipt; inventory file itself not726 snapshot."
+    "pagesRun": 41023381932,
+    "publishedUniqueFieldsInSnapshot": 769,
+    "publishedUniqueFacilitiesInSnapshot": 480,
+    "proposalsListedSeparately": 3,
+    "scope": "PR4 approved merged snapshot retains769 published keys plus3 proposed separately; those3 facts now formally verified but deployed snapshot itself not772."
   },
   "acquisitionEligibilityIncident": {
     "status": "bounded_review_closed_with_scope_limits_and_explicit_prospective_research_decisions",
@@ -18539,146 +18722,113 @@
   },
   "draftProposedFieldChanges": [
     {
-      "id": 84,
-      "name": "ダイナミックゴルフ千葉",
-      "field": "play",
-      "before": {
-        "text": "9ホール・パー27のショートコース。6ホールに照明を完備。",
-        "url": "https://dynamic-golf.jp/",
-        "checked": "2026-10-22〜23",
-        "basis": "既存掲載情報を項目別に確認"
-      },
+      "id": 281,
+      "name": "オーシャンパレスゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
       "after": {
-        "text": "9ホール・パー27のショートコース。6ホールに照明を完備。 公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。",
-        "url": "https://dynamic-golf.jp/",
-        "checked": "2026-10-22〜23",
-        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
-        "sourceType": "mixed",
-        "evidenceSegments": [
-          {
-            "text": "9ホール・パー27のショートコース。6ホールに照明を完備。",
-            "url": "https://dynamic-golf.jp/",
-            "checked": "2026-10-22〜23",
-            "basis": "既存掲載情報を項目別に確認",
-            "sourceType": "legacy_unclassified"
-          },
-          {
-            "text": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。",
-            "url": "https://dynamic-golf.jp/chiba/",
-            "checked": "2026-10-30",
-            "sourceType": "official",
-            "basis": "千葉店の休業日と季節別コース最終受付を確認。"
-          }
-        ]
+        "text": "公式アクセス案内では、JR長崎駅から国道206号経由で車で約30分と案内しています。",
+        "url": "https://oceanpalace.co.jp/access-map/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "車でのアクセス欄で、JR長崎駅起点・国道206号経由の概算所要時間を確認。"
       },
-      "scope": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "checked": "2026-10-30",
+      "scope": "JR長崎駅から国道206号経由の車約30分。rail比較欄は駅から施設へのアクセスであって鉄道乗車時間ではない。",
       "status": "draft_proposed_not_published",
       "includedInPublishedCounts": false,
       "sourceEvidence": {
-        "requestedUrl": "https://dynamic-golf.jp/chiba/",
-        "startedAtUtc": "2026-10-30T04:08:38.111781+00:00",
+        "requestedUrl": "https://oceanpalace.co.jp/access-map/",
+        "startedAtUtc": "2026-10-30T09:36:56.562168+00:00",
         "checkedJst": "2026-10-30",
         "httpStatus": 200,
-        "finalUrl": "https://dynamic-golf.jp/chiba/",
-        "sha256": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40",
-        "completedAtUtc": "2026-10-30T04:08:43.678153+00:00",
-        "sourceType": "official"
+        "finalUrl": "https://oceanpalace.co.jp/access-map/",
+        "sha256": "95d034c937a80221f703f4e008e9c2b3dbf984225845b89e9a49a3e5486ed593",
+        "completedAtUtc": "2026-10-30T09:37:03.790963+00:00"
       }
     },
     {
-      "id": 85,
-      "name": "ダイナミックゴルフ成田",
-      "field": "play",
-      "before": {
-        "text": "パー4を2ホール含む全12ホールのミッドコース。",
-        "url": "https://dynamic-golf.jp/",
-        "checked": "2026-10-22〜23",
-        "basis": "既存掲載情報を項目別に確認"
-      },
+      "id": 464,
+      "name": "上石津ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
       "after": {
-        "text": "パー4を2ホール含む全12ホールのミッドコース。 公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。",
-        "url": "https://dynamic-golf.jp/",
-        "checked": "2026-10-22〜23",
-        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
-        "sourceType": "mixed",
-        "evidenceSegments": [
-          {
-            "text": "パー4を2ホール含む全12ホールのミッドコース。",
-            "url": "https://dynamic-golf.jp/",
-            "checked": "2026-10-22〜23",
-            "basis": "既存掲載情報を項目別に確認",
-            "sourceType": "legacy_unclassified"
-          },
-          {
-            "text": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。",
-            "url": "https://dynamic-golf.jp/narita/",
-            "checked": "2026-10-30",
-            "sourceType": "official",
-            "basis": "成田店の休業日とコース最終スタートの変動条件を確認。"
-          }
-        ]
+        "text": "公式アクセス案内では、JR東海道本線・関ヶ原駅から車で約20分です。",
+        "url": "https://banryugolf.com/kamiishizu/access/index.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "電車利用時のアクセス欄で、関ヶ原駅からの移動手段と概算所要時間を確認。"
       },
-      "scope": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "checked": "2026-10-30",
+      "scope": "JR東海道本線・関ヶ原駅から車で約20分のみ。IC起点の別20分ではない。",
       "status": "draft_proposed_not_published",
       "includedInPublishedCounts": false,
       "sourceEvidence": {
-        "requestedUrl": "https://dynamic-golf.jp/narita/",
-        "startedAtUtc": "2026-10-30T04:08:45.776319+00:00",
+        "requestedUrl": "https://banryugolf.com/kamiishizu/access/index.html",
+        "startedAtUtc": "2026-10-30T09:44:49.181358+00:00",
         "checkedJst": "2026-10-30",
         "httpStatus": 200,
-        "finalUrl": "https://dynamic-golf.jp/narita/",
-        "sha256": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8",
-        "completedAtUtc": "2026-10-30T04:08:48.628410+00:00",
-        "sourceType": "official"
+        "finalUrl": "https://banryugolf.com/kamiishizu/access/index.html",
+        "sha256": "8c807bcf685b8f7269eb0290e92d8ad8dca4c8c4fda088cfdd5157a72ffebe75",
+        "completedAtUtc": "2026-10-30T09:44:55.774566+00:00"
       }
     },
     {
-      "id": 86,
-      "name": "ダイナミックゴルフ茂原",
-      "field": "play",
-      "before": {
-        "text": "9ホール・パー27のショートコース。全ホールに照明を完備。",
-        "url": "https://dynamic-golf.jp/",
-        "checked": "2026-10-22〜23",
-        "basis": "既存掲載情報を項目別に確認"
-      },
+      "id": 585,
+      "name": "岡山ゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
       "after": {
-        "text": "9ホール・パー27のショートコース。全ホールに照明を完備。 公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。",
-        "url": "https://dynamic-golf.jp/",
-        "checked": "2026-10-22〜23",
-        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
-        "sourceType": "mixed",
-        "evidenceSegments": [
-          {
-            "text": "9ホール・パー27のショートコース。全ホールに照明を完備。",
-            "url": "https://dynamic-golf.jp/",
-            "checked": "2026-10-22〜23",
-            "basis": "既存掲載情報を項目別に確認",
-            "sourceType": "legacy_unclassified"
-          },
-          {
-            "text": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。",
-            "url": "https://dynamic-golf.jp/mobara/",
-            "checked": "2026-10-30",
-            "sourceType": "official",
-            "basis": "茂原店の休業日と食事付きプランの最終受付条件を確認。"
-          }
-        ]
+        "text": "公式アクセス案内では、JR山陽本線の中庄駅からタクシーで約10分、倉敷駅からタクシーで約15分です。",
+        "url": "https://okayama-gc.com/access.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "電車利用のアクセス欄に明示された駅別のタクシー所要時間を確認。"
       },
-      "scope": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "checked": "2026-10-30",
+      "scope": "掲載された駅から施設までのモードと概算時間のみ。",
       "status": "draft_proposed_not_published",
       "includedInPublishedCounts": false,
       "sourceEvidence": {
-        "requestedUrl": "https://dynamic-golf.jp/mobara/",
-        "startedAtUtc": "2026-10-30T04:08:50.728382+00:00",
+        "requestedUrl": "https://okayama-gc.com/access.html",
+        "startedAtUtc": "2026-10-30T09:50:50.204089+00:00",
         "checkedJst": "2026-10-30",
         "httpStatus": 200,
-        "finalUrl": "https://dynamic-golf.jp/mobara/",
-        "sha256": "a5c829805db0498ebdf802f62afdd69e6321ad9ef4eb317ec9083373a1ca54db",
-        "completedAtUtc": "2026-10-30T04:08:53.370998+00:00",
-        "sourceType": "official"
+        "finalUrl": "https://okayama-gc.com/access.html",
+        "sha256": "5114b896bf914c1039551a913c76d3a40a97e46ed678799479a2e9cfb346f5e6",
+        "completedAtUtc": "2026-10-30T09:51:02.310718+00:00"
+      }
+    },
+    {
+      "id": 594,
+      "name": "京覧カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR三原駅から車で約10分が目安です。",
+        "url": "https://kyoran-cc.com/access",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "車でのアクセス目安欄で、JR三原駅起点の概算所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "掲載された駅から施設までのモードと概算時間のみ。",
+      "status": "draft_proposed_not_published",
+      "includedInPublishedCounts": false,
+      "sourceEvidence": {
+        "requestedUrl": "https://kyoran-cc.com/access",
+        "startedAtUtc": "2026-10-30T09:51:04.311448+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kyoran-cc.com/access",
+        "sha256": "dd5f5738716d827b962ccfddb8f08116ac7097de7ad7775c7347a0ca578aef6e",
+        "completedAtUtc": "2026-10-30T09:51:09.402171+00:00"
       }
     }
   ],
-  "draftProposalScope": "3限定play補完とexact legacy tuple互換。公開480施設769項目は変更せず、3候補は未公開として別枠。PR3の限定公開検証・fullFiveAssetsBytePass=falseを保持。"
+  "draftProposalScope": "公開480施設774項目と既補足レビューを保持。4施設railNULL補完は未公開提案の別枠で公開数へ加算しない。PR3の限定検証/全asset未確認履歴を保持。"
 }
