@@ -1,0 +1,181 @@
+{
+  "patchSetId": "2026-10-30-three-official-childpage-scopes-v2",
+  "parentSha": "956ba5544009640929df0e1a1fc47798e7694720",
+  "inputSha256": "05aae3caf784f9917defea5448ebd3f9918444fd3d781d786dc9085f6b5032fd",
+  "outputSha256": "e2a33da43bf9e5aa036c16aae10e1b38e761d9d733c3ed1957cbfb50aec31624",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 736,
+      "name": "霧島ゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR日豊本線・霧島神宮駅から車で約15分です。",
+        "url": "https://kirishima-gc.or.jp/access",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "対象駅から当施設までの交通手段と所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "[\"公式アクセス案内では、JR日豊本線・霧島神宮駅から車で約15分です。\"] 新確認scopeのみ。既存本文・出典・確認日は保持、旧事実は再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kirishima-gc.or.jp/access",
+        "startedAtUtc": "2026-10-30T04:52:18.146099+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kirishima-gc.or.jp/access",
+        "bytes": 5223,
+        "sha256": "adf070663a5dcb7adaff80a9f2bb9a716f41139ed70cd2a178aba2c488a68c87",
+        "completedAtUtc": "2026-10-30T04:52:21.997517+00:00",
+        "sourceType": "official"
+      },
+      "supportingSources": [
+        {
+          "url": "https://kirishima-gc.or.jp/access",
+          "sha256": "adf070663a5dcb7adaff80a9f2bb9a716f41139ed70cd2a178aba2c488a68c87",
+          "retrievedAtUtc": "2026-10-30T04:52:21.997517+00:00",
+          "checkedDateJst": "2026-10-30",
+          "supportsNewSegments": [
+            "公式アクセス案内では、JR日豊本線・霧島神宮駅から車で約15分です。"
+          ],
+          "originRepresentation": "saved_response_HTML"
+        }
+      ]
+    },
+    {
+      "id": 1727,
+      "name": "東都秩父カントリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式施設案内では、休憩室に食事を持ち込んで食べることができ、氷・トースター・ポットのお湯・電子レンジを利用できます。",
+        "url": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "休憩室に限定した食事持込と備品利用の案内を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "[\"公式施設案内では、休憩室に食事を持ち込んで食べることができ、氷・トースター・ポットのお湯・電子レンジを利用できます。\"] 新確認scopeのみ。既存本文・出典・確認日は保持、旧事実は再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+        "startedAtUtc": "2026-10-30T04:52:35.027060+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+        "bytes": 10203,
+        "sha256": "d2302096248e672230376f8c292872afc3c5910a43098885f5eab091882ce130",
+        "completedAtUtc": "2026-10-30T04:52:42.590761+00:00",
+        "sourceType": "official"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+          "sha256": "d2302096248e672230376f8c292872afc3c5910a43098885f5eab091882ce130",
+          "retrievedAtUtc": "2026-10-30T04:52:42.590761+00:00",
+          "checkedDateJst": "2026-10-30",
+          "supportsNewSegments": [
+            "公式施設案内では、休憩室に食事を持ち込んで食べることができ、氷・トースター・ポットのお湯・電子レンジを利用できます。"
+          ],
+          "originRepresentation": "saved_response_HTML"
+        }
+      ]
+    },
+    {
+      "id": 1734,
+      "name": "鎌倉パブリックゴルフ場",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。",
+        "url": "https://kamakura-pg.com/",
+        "checked": "2026-10-24",
+        "basis": "公式サイトの本文を確認"
+      },
+      "after": {
+        "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。 公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。 公式コース案内では、6番ホールはドライバー禁止です。 公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。",
+        "url": "https://kamakura-pg.com/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。",
+            "url": "https://kamakura-pg.com/",
+            "checked": "2026-10-24",
+            "basis": "公式サイトの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。",
+            "url": "https://kamakura-pg.com/about/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "専用概要の総ホール数・プレースタイルを確認。"
+          },
+          {
+            "text": "公式コース案内では、6番ホールはドライバー禁止です。",
+            "url": "https://kamakura-pg.com/course/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "6番ホールに限ったクラブ利用制限を確認。"
+          },
+          {
+            "text": "公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。",
+            "url": "https://kamakura-pg.com/club-rule/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "集合場所・期限と遅れた場合の扱いを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式概要の18H/P70・セルフ乗用カート、6番ホールのドライバー禁止、スタート15分前のカート乗車口集合と遅刻時の開始時刻変更を各専用URLで確認。既存budget.conditionsにキャッシュレス条件があるためplayへの同義追加は除外し、既存料金・条件・日付は未変更/未再照合。旧play本文・出典・日付を保持。3資料は1play欄の更新。旧段落official分類補足は既存施設公式URL/basisによる。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kamakura-pg.com/about/",
+        "startedAtUtc": "2026-10-30T04:52:44.692832+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kamakura-pg.com/about/",
+        "bytes": 50597,
+        "sha256": "8f5cee4e760ab34d4a38c4f490ac36cf2b974d76437d2ee98c3c9cd10a78ebc7",
+        "completedAtUtc": "2026-10-30T04:52:53.185942+00:00",
+        "sourceType": "official"
+      },
+      "supportingSources": [
+        {
+          "url": "https://kamakura-pg.com/about/",
+          "sha256": "8f5cee4e760ab34d4a38c4f490ac36cf2b974d76437d2ee98c3c9cd10a78ebc7",
+          "retrievedAtUtc": "2026-10-30T04:52:53.185942+00:00",
+          "checkedDateJst": "2026-10-30",
+          "supportsNewSegments": [
+            "公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。"
+          ],
+          "originRepresentation": "saved_response_HTML"
+        },
+        {
+          "url": "https://kamakura-pg.com/course/",
+          "sha256": "8d0c2ddc20099ba67292795c5e50c49f95f0e6aba7db9585ff13b0eea65a3b3a",
+          "retrievedAtUtc": "2026-10-30T04:53:01.311678+00:00",
+          "checkedDateJst": "2026-10-30",
+          "supportsNewSegments": [
+            "公式コース案内では、6番ホールはドライバー禁止です。"
+          ],
+          "originRepresentation": "saved_response_HTML"
+        },
+        {
+          "url": "https://kamakura-pg.com/club-rule/",
+          "sha256": "5519d5892b01ba065572c9163a9d81cb5421f35cfc67c1593d7f6ba6e29b4595",
+          "retrievedAtUtc": "2026-10-30T04:53:09.720481+00:00",
+          "checkedDateJst": "2026-10-30",
+          "supportsNewSegments": [
+            "公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。"
+          ],
+          "originRepresentation": "saved_response_HTML"
+        }
+      ]
+    }
+  ]
+}
