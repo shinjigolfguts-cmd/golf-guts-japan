@@ -1,0 +1,153 @@
+{
+  "patchSetId": "legacy84-86-scoped-play-draft",
+  "parentSha": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+  "inputSha256": "a87531082e2e62536df0a5beaef4d329164fd5ae6583bc984846245536864fd7",
+  "outputSha256": "0a859e4fb27dc7dd5164c1761f6b27dc225c102829a152e582af631e742b4c23",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 84,
+      "name": "ダイナミックゴルフ千葉",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホール・パー27のショートコース。6ホールに照明を完備。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "after": {
+        "text": "9ホール・パー27のショートコース。6ホールに照明を完備。 公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "9ホール・パー27のショートコース。6ホールに照明を完備。",
+            "url": "https://dynamic-golf.jp/",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
+          },
+          {
+            "text": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。",
+            "url": "https://dynamic-golf.jp/chiba/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "千葉店の休業日と季節別コース最終受付を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/chiba/",
+        "startedAtUtc": "2026-10-30T04:08:38.111781+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/chiba/",
+        "bytes": 30339,
+        "sha256": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40",
+        "completedAtUtc": "2026-10-30T04:08:43.678153+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 85,
+      "name": "ダイナミックゴルフ成田",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "パー4を2ホール含む全12ホールのミッドコース。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "after": {
+        "text": "パー4を2ホール含む全12ホールのミッドコース。 公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "パー4を2ホール含む全12ホールのミッドコース。",
+            "url": "https://dynamic-golf.jp/",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
+          },
+          {
+            "text": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。",
+            "url": "https://dynamic-golf.jp/narita/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "成田店の休業日とコース最終スタートの変動条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/narita/",
+        "startedAtUtc": "2026-10-30T04:08:45.776319+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/narita/",
+        "bytes": 31734,
+        "sha256": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8",
+        "completedAtUtc": "2026-10-30T04:08:48.628410+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 86,
+      "name": "ダイナミックゴルフ茂原",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホール・パー27のショートコース。全ホールに照明を完備。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "after": {
+        "text": "9ホール・パー27のショートコース。全ホールに照明を完備。 公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "9ホール・パー27のショートコース。全ホールに照明を完備。",
+            "url": "https://dynamic-golf.jp/",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
+          },
+          {
+            "text": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。",
+            "url": "https://dynamic-golf.jp/mobara/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "茂原店の休業日と食事付きプランの最終受付条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/mobara/",
+        "startedAtUtc": "2026-10-30T04:08:50.728382+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/mobara/",
+        "bytes": 32394,
+        "sha256": "a5c829805db0498ebdf802f62afdd69e6321ad9ef4eb317ec9083373a1ca54db",
+        "completedAtUtc": "2026-10-30T04:08:53.370998+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
