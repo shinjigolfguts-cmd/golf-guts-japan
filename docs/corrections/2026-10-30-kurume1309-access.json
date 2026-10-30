@@ -1,0 +1,58 @@
+{
+  "patchSetId": "2026-10-30-kurume1309-access",
+  "parentSha": "b3a13aaf301347942a84ccdef519f85afbed97ee",
+  "inputSha256": "824d00a7cef9570d02a17d3c7c9488a5a08a0f0044a7a5af1b6a9f56f3e7193c",
+  "outputSha256": "bea082a55b7500302dd7651f5f6616c85961dc72fb9397f09ba8f0255008aadf",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1309,
+      "name": "久留米カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・広川ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400014/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・広川ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、広川ICから約5分と案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400014/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・広川ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400014/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、広川ICから約5分と案内しています。",
+            "url": "https://www.greenland.co.jp/golf/kcc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設所在地に続く道路案内のIC起点と所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "広川IC→当施設、道路道順に続く約5分。 Do notderive5min fromold5kmcategory. Sourceexplicit車 word isonseparate福岡市内origin; proposedwording doesnotaddcarword toICstatement, roadaccesscontext isactualICexit/国道3directions. City30minexcluded. Oldbookingdistance/text/dateURLbasis/sourceType unchanged, noexistingroute revalidation. Actualtraffictime notguaranteed.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.greenland.co.jp/golf/kcc/",
+        "startedAtUtc": "2026-10-30T03:05:27.868944+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.greenland.co.jp/golf/kcc/",
+        "bytes": 144293,
+        "sha256": "2304636b3b462738ce56264d3eef02ab310cdbab4796e9534a4ec4d1b33b5953",
+        "completedAtUtc": "2026-10-30T03:05:33.939729+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
