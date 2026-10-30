@@ -1,0 +1,153 @@
+{
+  "patchSetId": "2026-10-30-three-club-practice-conditions",
+  "parentSha": "5bc144cc4ca48bce3378283f634a03a340b5af53",
+  "inputSha256": "fb45295f05ba257e02ac791be59e3e8dfd195528d525cd39c42b47bd4ba18da9",
+  "outputSha256": "de95622772e74b43ca76a4560352c826efea8e4c3e2c02a8d48a3ddda78f90fe",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 686,
+      "name": "佐賀クラシックゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "アウト・インの18ホール構成。",
+        "url": "https://cm-g.co.jp/saga/",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約"
+      },
+      "after": {
+        "text": "アウト・インの18ホール構成。 公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。",
+        "url": "https://cm-g.co.jp/saga/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "アウト・インの18ホール構成。",
+            "url": "https://cm-g.co.jp/saga/",
+            "checked": "2026-10-25",
+            "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。",
+            "url": "https://cm-g.co.jp/saga/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当施設の場面別服装規定と夏季例外・違反時の取扱いを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。 旧本文・出典・確認日・basis保持。旧official分類補足は既存施設公式URL/basisによるもので旧事実を再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://cm-g.co.jp/saga/",
+        "startedAtUtc": "2026-10-30T04:33:18.407266+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://cm-g.co.jp/saga/",
+        "bytes": 74371,
+        "sha256": "80c25b9ca9d8c943bbed3df23f991b740f47381c61be29a3a47d1d20227e9196",
+        "completedAtUtc": "2026-10-30T04:33:26.166365+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1589,
+      "name": "袖ヶ浦カンツリークラブ 新袖コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "ドッグレッグや池越えを組み合わせた18ホール。17番は池越えのショートホール。",
+        "url": "https://www.sodegaura.co.jp/shinsode-course/",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "ドッグレッグや池越えを組み合わせた18ホール。17番は池越えのショートホール。 公式案内では、当コースのドライビングレンジは20打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。",
+        "url": "https://www.sodegaura.co.jp/shinsode-course/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "ドッグレッグや池越えを組み合わせた18ホール。17番は池越えのショートホール。",
+            "url": "https://www.sodegaura.co.jp/shinsode-course/",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、当コースのドライビングレンジは20打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。",
+            "url": "https://www.sodegaura.co.jp/shinsode-course/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当コースの練習場表で設備と月・曜日別の利用時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、当コースのドライビングレンジは20打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。 旧本文・出典・確認日・basis保持。旧official分類補足は既存施設公式URL/basisによるもので旧事実を再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.sodegaura.co.jp/shinsode-course/",
+        "startedAtUtc": "2026-10-30T04:33:35.368292+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.sodegaura.co.jp/shinsode-course/",
+        "bytes": 77819,
+        "sha256": "08edc1e9e9fdc7b51b8f814b24711130e9a34ceb66dcab0218ac5f0293eafc0b",
+        "completedAtUtc": "2026-10-30T04:33:42.079795+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1590,
+      "name": "袖ヶ浦カンツリークラブ 袖ヶ浦コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホールのコース。",
+        "url": "https://www.sodegaura.co.jp/sodegaura-course/",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "after": {
+        "text": "18ホールのコース。 公式案内では、当コースのドライビングレンジは23打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。",
+        "url": "https://www.sodegaura.co.jp/sodegaura-course/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホールのコース。",
+            "url": "https://www.sodegaura.co.jp/sodegaura-course/",
+            "checked": "2026-10-24",
+            "basis": "公式ページ本文を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式案内では、当コースのドライビングレンジは23打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。",
+            "url": "https://www.sodegaura.co.jp/sodegaura-course/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当コースの練習場表で設備と月・曜日別の利用時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式案内では、当コースのドライビングレンジは23打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。 旧本文・出典・確認日・basis保持。旧official分類補足は既存施設公式URL/basisによるもので旧事実を再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.sodegaura.co.jp/sodegaura-course/",
+        "startedAtUtc": "2026-10-30T04:33:44.182645+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.sodegaura.co.jp/sodegaura-course/",
+        "bytes": 78270,
+        "sha256": "10c18d4d68e6ca302e081ca37e84cffdae3010c48c06722c96a5026dbbd2ec79",
+        "completedAtUtc": "2026-10-30T04:33:50.618485+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
