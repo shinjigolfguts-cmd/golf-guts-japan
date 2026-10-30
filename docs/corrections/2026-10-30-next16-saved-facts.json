@@ -1,0 +1,656 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-next16",
+  "parentSha": "9006912645381265ee7217a2ac1674982c0bf486",
+  "inputSha256": "bd131e6cf6e1a9ced2bef91914311382458fc50281d422b2a306011f765f91e0",
+  "outputSha256": "fa7823ad0725b67edee0c345ed7f667861a2f3e2a7440e82537053e1acd6931c",
+  "scope": "保存済み成功取得公式資料から14施設16項目を限定補完。旧情報・日付・条件は保持。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 860,
+      "name": "妙高カントリークラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。昼食 10:00～15:30。ラストオーダー 14:30。メニュー・営業時間は来場日に変更される場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/416201/",
+        "checked": "2026-10-25",
+        "sourceType": "booking",
+        "basis": "あり 朝食：8:00～10:00（料金：￥550～￥550） 昼食：10:00～15:30（料金：￥1,100～￥1,870） ラストオーダー：14:30 朝食あり バイキングなし 喫煙席なし"
+      },
+      "after": {
+        "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。昼食 10:00～15:30。ラストオーダー 14:30。メニュー・営業時間は来場日に変更される場合があります。 公式の給水案内では、コース内の売店に自動販売機がないため、必要な飲料はスタート前にクラブハウス内の自動販売機またはレストランで購入するよう案内しています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/416201/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "GDO施設案内の掲載内容：レストランあり。朝食の提供あり。昼食 10:00～15:30。ラストオーダー 14:30。メニュー・営業時間は来場日に変更される場合があります。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/416201/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "あり 朝食：8:00～10:00（料金：￥550～￥550） 昼食：10:00～15:30（料金：￥1,100～￥1,870） ラストオーダー：14:30 朝食あり バイキングなし 喫煙席なし"
+          },
+          {
+            "text": "公式の給水案内では、コース内の売店に自動販売機がないため、必要な飲料はスタート前にクラブハウス内の自動販売機またはレストランで購入するよう案内しています。",
+            "url": "https://www.myoko-cc.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式給水案内の購入場所を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "コース内売店に限る自販機不在。レストラン不在/休業/水無料とはしない。告知日不明、掲載案内として記述。",
+      "sourceEvidence": {
+        "id": 860,
+        "requestedUrl": "https://www.myoko-cc.jp/",
+        "startedAtUtc": "2026-10-29T15:33:05.512648+00:00",
+        "status": 200,
+        "finalUrl": "https://www.myoko-cc.jp/",
+        "sha256": "228f37e61e03b1b0d26cc7c00d6b710773d1544a1b977a19bf8cce8b7e1ea9a7",
+        "completedAtUtc": "2026-10-29T15:33:10.496660+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 982,
+      "name": "富士宮ゴルフクラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：中村　寅吉。練習場は60ヤード・7打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220072/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：中村　寅吉。練習場は60ヤード・7打席の掲載。 公式トップには、2021年4月1日からセルフスタンドバッグの持ち込み・使用を禁止する案内が掲載されています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220072/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：中村　寅吉。練習場は60ヤード・7打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220072/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式トップには、2021年4月1日からセルフスタンドバッグの持ち込み・使用を禁止する案内が掲載されています。",
+            "url": "https://www.fujinomiya-gc.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式掲載の利用方式・持込規則を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "日付を現在取得日へ置換せず明示。対象はセルフスタンドバッグで、全ゴルフバッグ禁止ではない。",
+      "sourceEvidence": {
+        "id": 982,
+        "requestedUrl": "https://www.fujinomiya-gc.com/",
+        "startedAtUtc": "2026-10-29T15:33:30.400193+00:00",
+        "status": 200,
+        "finalUrl": "https://www.fujinomiya-gc.com/",
+        "sha256": "ed5d14102378f746ae93d3591b130aab11307e99465ec87a675c4c74543668e7",
+        "completedAtUtc": "2026-10-29T15:33:35.106963+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 862,
+      "name": "妙高サンシャインゴルフ倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コースガイドでは、7番は妙高山を正面に望み、10番は頚城平野から遠く日本海を望むホールと紹介しています。",
+        "url": "https://www.myokosunshine.co.jp/contents/golf/course.php",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "公式ホール別ガイドの眺望を確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "ホール番号と対象を限定。別施設くるみヶ丘ショート/ホテル景観は使わない。",
+      "sourceEvidence": {
+        "id": 862,
+        "requestedUrl": "https://www.myokosunshine.co.jp/contents/golf/course.php",
+        "startedAtUtc": "2026-10-29T15:33:05.513396+00:00",
+        "status": 200,
+        "finalUrl": "https://www.myokosunshine.co.jp/contents/golf/course.php",
+        "sha256": "c31f893575f9ef300d19c922fc88b6f2cb0fa07d357d492821df9b65b2675728",
+        "completedAtUtc": "2026-10-29T15:33:11.218380+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 865,
+      "name": "米山水源カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・フラット。設計：ベンツ＆ポーレット社。練習場は50ヤード・10打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150043/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・フラット。設計：ベンツ＆ポーレット社。練習場は50ヤード・10打席の掲載。 公式概要では、乗用カートによるセルフプレーと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150043/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・フラット。設計：ベンツ＆ポーレット社。練習場は50ヤード・10打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150043/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式概要では、乗用カートによるセルフプレーと案内しています。",
+            "url": "https://yoneyama-suigen.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式掲載の利用方式・持込規則を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "冬季スルー予定headlineは別日程条件で不採用。カート乗入れ可とはしない。",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:33:34.344592+00:00",
+        "key": "865",
+        "url": "https://yoneyama-suigen.com/",
+        "finalUrl": "https://yoneyama-suigen.com/",
+        "httpStatus": 200,
+        "bytes": 17936,
+        "sha256": "19046984e414e209e4c8da8a510c671bfa14747ff12f17f187b59cb0ee46dc3e"
+      }
+    },
+    {
+      "id": 987,
+      "name": "三島カントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "新東名高速道路・長泉沼津ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220082/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "新東名高速道路・長泉沼津ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式の対象施設アクセス表示では、新東名高速道路・長泉沼津ICから8km。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220082/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "新東名高速道路・長泉沼津ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220082/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の対象施設アクセス表示では、新東名高速道路・長泉沼津ICから8km。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/mishima",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式施設アクセス表示を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "対象三島のヘッダーリンクのみ。近隣コースの駅/時間や予約filter不採用。",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:33:34.346185+00:00",
+        "key": "987",
+        "url": "https://reserve.accordiagolf.com/golfCourse/shizuoka/mishima",
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/shizuoka/mishima",
+        "httpStatus": 200,
+        "bytes": 2529959,
+        "sha256": "e9c29141a155a327945962aa417fad2098554e4a3ec5baaf17ebd7e7ea6ede6a"
+      }
+    },
+    {
+      "id": 989,
+      "name": "レンブラントゴルフ倶楽部御殿場",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "東名高速道路・裾野ICから10km以内／東名高速道路・御殿場ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520355/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "東名高速道路・裾野ICから10km以内／東名高速道路・御殿場ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。 公式トップでは、裾野IC・駒門スマートICから約10分、御殿場ICから約20分と案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520355/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "東名高速道路・裾野ICから10km以内／東名高速道路・御殿場ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520355/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式トップでは、裾野IC・駒門スマートICから約10分、御殿場ICから約20分と案内しています。",
+            "url": "https://www.rembrandt-golf.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式施設アクセス表示を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧2IC距離区分はそのまま。ETC条件は保存top本文にないので推測しない。",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:33:34.662782+00:00",
+        "key": "989",
+        "url": "https://www.rembrandt-golf.jp/",
+        "finalUrl": "https://www.rembrandt-golf.jp/",
+        "httpStatus": 200,
+        "bytes": 93906,
+        "sha256": "0b5562930e2ab453284def436ae61ad0850e5b00b2041b79d1c63399923170ba"
+      }
+    },
+    {
+      "id": 989,
+      "name": "レンブラントゴルフ倶楽部御殿場",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "GDOの施設案内では、クラブハウスに浴場あり、場内宿泊施設なし。当日の営業・利用できるプランは予約先で確認してください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/443502/",
+        "checked": "2026-10-25",
+        "sourceType": "booking",
+        "basis": "GDO施設欄：浴場=あり 温泉なし 露天風呂なし サウナなし パウダールームあり／宿泊=なし"
+      },
+      "after": {
+        "text": "GDOの施設案内では、クラブハウスに浴場あり、場内宿泊施設なし。当日の営業・利用できるプランは予約先で確認してください。 公式には、場外のグループホテルでの食事・宿泊とゴルフを組み合わせるプランの案内が掲載されています。場内宿泊施設の案内とは異なります。対象ホテル・利用日・料金条件は予約時に確認してください。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/443502/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "GDOの施設案内では、クラブハウスに浴場あり、場内宿泊施設なし。当日の営業・利用できるプランは予約先で確認してください。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/443502/",
+            "checked": "2026-10-25",
+            "sourceType": "booking",
+            "basis": "GDO施設欄：浴場=あり 温泉なし 露天風呂なし サウナなし パウダールームあり／宿泊=なし"
+          },
+          {
+            "text": "公式には、場外のグループホテルでの食事・宿泊とゴルフを組み合わせるプランの案内が掲載されています。場内宿泊施設の案内とは異なります。対象ホテル・利用日・料金条件は予約時に確認してください。",
+            "url": "https://www.rembrandt-golf.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式の場外ホテル連携案内を確認"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧場内宿泊なしと明示的に区別。トップ列挙5ホテルのみ確認、料金/対象日/現在空室・販売は未確認。個別ホテル紹介の2020年開業文から現在販売を推定しない。",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:33:34.662782+00:00",
+        "key": "989",
+        "url": "https://www.rembrandt-golf.jp/",
+        "finalUrl": "https://www.rembrandt-golf.jp/",
+        "httpStatus": 200,
+        "bytes": 93906,
+        "sha256": "0b5562930e2ab453284def436ae61ad0850e5b00b2041b79d1c63399923170ba"
+      }
+    },
+    {
+      "id": 1053,
+      "name": "太平洋クラブ御殿場ウエストコース",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、御殿場駅からタクシーで20分、三島駅からタクシーで45分。御殿場駅では到着後に改札が混み合う場合があると案内しています。",
+        "url": "https://www.taiheiyoclub.co.jp/course/west/index.html",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "公式アクセスの駅別タクシー案内を確認"
+      },
+      "checked": "2026-10-30",
+      "scope": "新宿/東京から駅までの列車時間は除外。クラブバス時刻は別サービスで今回は追記しないが運行なしとは言わない。御殿場本コースではなくWEST専用page。",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:33:33.751373+00:00",
+        "key": "1053",
+        "url": "https://www.taiheiyoclub.co.jp/course/west/index.html",
+        "finalUrl": "https://www.taiheiyoclub.co.jp/course/west/index.html",
+        "httpStatus": 200,
+        "bytes": 31906,
+        "sha256": "e8f7d915a9ac4e0637e3084c30513f090168c5e32965e171d1f612d604715286"
+      }
+    },
+    {
+      "id": 850,
+      "name": "大新潟カントリークラブ 出雲崎コース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・シーサイドコース・適度なアップダウン。設計：吉崎満雄。練習場は150ヤード・8打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150027/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・シーサイドコース・適度なアップダウン。設計：吉崎満雄。練習場は150ヤード・8打席の掲載。 公式コース紹介では、ベントのワングリーンを採用しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150027/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・シーサイドコース・適度なアップダウン。設計：吉崎満雄。練習場は150ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/150027/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式コース紹介では、ベントのワングリーンを採用しています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/niigata/izumozaki",
+            "checked": "2026-10-30",
+            "basis": "対象コースの公式紹介本文で設備の種類を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "General course paragraph, not plan-specific conditions. Car16km conflicts with old15km以内 and is held separately.",
+      "sourceEvidence": {
+        "key": "850",
+        "requestedUrl": "https://reserve.accordiagolf.com/golfCourse/niigata/izumozaki",
+        "retrievedAtUtc": "2026-10-29T15:33:51.690737+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/niigata/izumozaki",
+        "sha256": "78c1b5ea25d501bc2a3b945925beab678f5bc396ffc155f3bd4018330a6aacd2",
+        "bytes": 1539022,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 970,
+      "name": "大熱海国際ゴルフクラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式案内では、熱海INコースのスタートホールにレストハウス「蜂の巣」があり、スタート前の食事にも利用できます。",
+        "url": "https://www.resol-golf.jp/daiatami/",
+        "checked": "2026-10-30",
+        "basis": "対象施設の公式飲食案内で名称と場所を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "No opening times/prices/included meals inferred; Atami IN specifically.",
+      "sourceEvidence": {
+        "key": "970",
+        "requestedUrl": "https://www.resol-golf.jp/daiatami/",
+        "retrievedAtUtc": "2026-10-29T15:31:24.057524+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.resol-golf.jp/daiatami/",
+        "sha256": "fc38b89571ac1e1d2e2389907c2a93c2f5dde41d5dad5876d7252537321edc3d",
+        "bytes": 60072,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1509,
+      "name": "戸塚カントリー倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": {
+        "text": "西コースは緩やかな斜面に広がり、松や桜など約2万本の樹木が囲みます。",
+        "url": "https://totsuka-cc.com/course/",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "西コースは緩やかな斜面に広がり、松や桜など約2万本の樹木が囲みます。 公式の西コース紹介では、OUT・INのスタートホールから富士山を遠望できます。",
+        "url": "https://totsuka-cc.com/course/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "西コースは緩やかな斜面に広がり、松や桜など約2万本の樹木が囲みます。",
+            "url": "https://totsuka-cc.com/course/",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の西コース紹介では、OUT・INのスタートホールから富士山を遠望できます。",
+            "url": "https://totsuka-cc.com/course/",
+            "checked": "2026-10-30",
+            "basis": "対象コースの紹介本文で眺望の場所と範囲を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "West course only; no every-hole/weather guarantee; old trees/terrain retained. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:16:33.970892+00:00",
+        "key": "1509",
+        "url": "https://totsuka-cc.com/course/",
+        "finalUrl": "https://totsuka-cc.com/course/",
+        "httpStatus": 200,
+        "bytes": 57091,
+        "sha256": "bfc000ca97a61f9ead57425aebb7286ef9bfa70a548c39dcfd5982c54e7e99dd"
+      }
+    },
+    {
+      "id": 818,
+      "name": "松島チサンカントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式の松島・仙台コース紹介では、松と杉に囲まれ、日本三景松島を背景とする景観が特徴です。",
+        "url": "https://booking.pacificgolf.co.jp/guide/16.html",
+        "checked": "2026-10-30",
+        "basis": "対象コースの紹介本文で眺望の場所と範囲を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Target COURSE GUIDE36-hole section; generic resort54-hole advertising excluded. Not ocean visible every hole.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:16:35.601465+00:00",
+        "key": "818",
+        "url": "https://booking.pacificgolf.co.jp/guide/16.html",
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/16.html",
+        "httpStatus": 200,
+        "bytes": 151198,
+        "sha256": "5228cae31e591fc6046d53ade5a067789cc997bff3d93f7b1c61c1dbb887451d"
+      }
+    },
+    {
+      "id": 569,
+      "name": "小金井カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "武蔵小金井駅・花小金井駅を利用。公式アクセス図ではクラブバスは運行していないと案内しています。",
+        "url": "https://koganeicc.jp/assets/img/access/accessmap.pdf",
+        "checked": "2026-10-24",
+        "basis": "公式公開ページの本文を確認"
+      },
+      "after": {
+        "text": "武蔵小金井駅・花小金井駅を利用。公式アクセス図ではクラブバスは運行していないと案内しています。 公式トップのアクセス案内では、武蔵小金井駅からバスで約6分、花小金井駅からバスで約15分。この掲載欄ではバスの種類・運行条件は明示されていないため、路線・停留所・下車後の経路と併せて確認してください。",
+        "url": "https://koganeicc.jp/assets/img/access/accessmap.pdf",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "武蔵小金井駅・花小金井駅を利用。公式アクセス図ではクラブバスは運行していないと案内しています。",
+            "url": "https://koganeicc.jp/assets/img/access/accessmap.pdf",
+            "checked": "2026-10-24",
+            "basis": "公式公開ページの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式トップのアクセス案内では、武蔵小金井駅からバスで約6分、花小金井駅からバスで約15分。この掲載欄ではバスの種類・運行条件は明示されていないため、路線・停留所・下車後の経路と併せて確認してください。",
+            "url": "https://koganeicc.jp/",
+            "checked": "2026-10-30",
+            "basis": "公式アクセス欄で移動手段、所要時間と適用範囲を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Source does not establish route/bus stop/walking distance or club shuttle. Existing officialクラブバスなし remains exact, bus here not relabeled free shuttle. Missing old segment sourceType classified official from existing official basis/source URL only. Old text/date remain and are not reverified.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:01:40.101973+00:00",
+        "key": "569root",
+        "url": "https://koganeicc.jp/",
+        "finalUrl": "https://koganeicc.jp/",
+        "httpStatus": 200,
+        "bytes": 15217,
+        "sha256": "c893ee561178ad07c1b593b1612574ebc5a3705a3c29f62b8ff453cddf080420"
+      }
+    },
+    {
+      "id": 1366,
+      "name": "トム・ワトソンゴルフコース",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・シーサイドコース・フラット。設計：トム・ワトソン。練習場は350ヤード・25打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/450008/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・シーサイドコース・フラット。設計：トム・ワトソン。練習場は350ヤード・25打席の掲載。 公式案内では、飛距離を補うエンジョイティーを設置しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/450008/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・シーサイドコース・フラット。設計：トム・ワトソン。練習場は350ヤード・25打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/450008/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、飛距離を補うエンジョイティーを設置しています。",
+            "url": "https://seagaia.co.jp/twgc/",
+            "checked": "2026-10-30",
+            "basis": "対象コースの公式紹介本文で設備の種類を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Tom Watson body only, not Phoenix CC or academy. No tee yardage/eligibility restriction inferred.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:00:42.731210+00:00",
+        "key": "1366",
+        "url": "https://seagaia.co.jp/twgc/",
+        "finalUrl": "https://seagaia.co.jp/twgc/",
+        "httpStatus": 200,
+        "bytes": 63980,
+        "sha256": "8761c1dbef761813022d1264e02c1a56a5d5ea94433a82654b1519d35eef5ee8"
+      }
+    },
+    {
+      "id": 1366,
+      "name": "トム・ワトソンゴルフコース",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。昼食の案内時間は10:00～15:00。朝食も提供。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/963501/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。昼食の案内時間は10:00～15:00。朝食も提供。 公式案内では、クラブハウス2階にレストラン「PARK AVENUE KITCHEN」があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/963501/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は10:00～15:00。朝食も提供。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/963501/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、クラブハウス2階にレストラン「PARK AVENUE KITCHEN」があります。",
+            "url": "https://seagaia.co.jp/twgc/",
+            "checked": "2026-10-30",
+            "basis": "対象施設の公式飲食案内で名称と場所を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Existing booking hours/breakfast retained without new verification. Resort-wide restaurant navigation excluded. Old sourceType 公開予約情報 normalized to equivalent booking enum only in retained after segment. No official upgrade; before and old text/date/URL/basis unchanged, old hours/breakfast not newly reverified.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:00:42.731210+00:00",
+        "key": "1366",
+        "url": "https://seagaia.co.jp/twgc/",
+        "finalUrl": "https://seagaia.co.jp/twgc/",
+        "httpStatus": 200,
+        "bytes": 63980,
+        "sha256": "8761c1dbef761813022d1264e02c1a56a5d5ea94433a82654b1519d35eef5ee8"
+      }
+    },
+    {
+      "id": 1499,
+      "name": "磯子カンツリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセスでは、JR洋光台駅からタクシーで約5分。洋光台駅とのクラブバスも案内されていますが、セルフデーは運休します。乗り場・時刻表は公式案内をご確認ください。",
+        "url": "https://isogocc.jp/access/",
+        "checked": "2026-10-30",
+        "basis": "公式アクセス欄で移動手段、所要時間と適用範囲を確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "Taxi mode follows heading. Bus5min-before arrival not travel duration; no fare/free/reservation claim. Source停留所はございません therefore refer official boarding directions rather than standard bus stop.",
+      "sourceEvidence": {
+        "acquiredAtUtc": "2026-10-29T15:00:45.028535+00:00",
+        "key": "1499",
+        "url": "https://isogocc.jp/access/",
+        "finalUrl": "https://isogocc.jp/access/",
+        "httpStatus": 200,
+        "bytes": 19137,
+        "sha256": "a5656dc7c28b5793ce0a891092432c58235f0165031ed9e0630d43af5df54164"
+      }
+    }
+  ]
+}
