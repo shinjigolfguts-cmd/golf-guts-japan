@@ -1,0 +1,247 @@
+{
+  "patchSetId": "2026-10-30-saved-primary-scopes5",
+  "parentSha": "183033389948cba2254e3d02a2773571593a1383",
+  "inputSha256": "4fa252eeadf11d3e52ea2283c47a70ce2047bebbca516c7bacf0a52564a62b56",
+  "outputSha256": "3d797ccd1f49d9319949b9ab45cb3dc1236bbb6989a83aec437d2977ea82fc9f",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 147,
+      "name": "越生ゴルフクラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "明覚駅から車で約7分。坂戸駅北口からクラブバスも運行（セルフデーは運休）。バス利用時はキャディバッグを事前配送する案内です。",
+        "url": "https://ogosegc.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス:明覚駅車7分、坂戸北口バス、セルフデー運休、バッグ持込不可"
+      },
+      "after": {
+        "text": "明覚駅から車で約7分。坂戸駅北口からクラブバスも運行（セルフデーは運休）。バス利用時はキャディバッグを事前配送する案内です。 公式の施設案内では、東武東上線・坂戸駅から車で約26分です。",
+        "url": "https://ogosegc.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "明覚駅から車で約7分。坂戸駅北口からクラブバスも運行（セルフデーは運休）。バス利用時はキャディバッグを事前配送する案内です。",
+            "url": "https://ogosegc.co.jp/access/",
+            "checked": "2026-10-24",
+            "basis": "公式アクセス:明覚駅車7分、坂戸北口バス、セルフデー運休、バッグ持込不可",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の施設案内では、東武東上線・坂戸駅から車で約26分です。",
+            "url": "https://ogosegc.co.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設固有のアクセス説明で坂戸駅起点の車所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "別駅起点の車26分のみ補完。taxiやバス時間とはしない。旧セルフデー運休/バッグ事前配送を保持。 Old sourceType classified official from prior basis and dedicated facility URL only, old text/date unchanged and not newly verified.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.ogosegc.co.jp",
+        "retrievedAtUtc": "2026-10-29T16:13:30.649614+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://ogosegc.co.jp/",
+        "sha256": "9102e0838d56502f60302585792af710d77c841b2289941557eef1471adcab4b",
+        "bytes": 43648,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 156,
+      "name": "大利根カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "守谷駅中央西口から予約制クラブバス。公式時刻表では便により約25〜35分。プレー前日の15時までに予約（前日休場なら前々日まで）。",
+        "url": "https://www.ohtone.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式時刻表平日7:10→7:45/8:10→8:40/8:40→9:10、土日7:10→7:35他30分。タクシー時間は未掲載"
+      },
+      "after": {
+        "text": "守谷駅中央西口から予約制クラブバス。公式時刻表では便により約25〜35分。プレー前日の15時までに予約（前日休場なら前々日まで）。 公式アクセスでは、クラブバス車内にゴルフクラブを持ち込む際は必ずケースに入れるよう案内しています。平日のコンペで10名以上が利用する場合、守谷駅7:40発の臨時便についてクラブへの相談が必要です。1月・2月はクラブ発14:00便を減便する案内があり、道路事情による遅れにも注意が必要です。",
+        "url": "https://www.ohtone.co.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "守谷駅中央西口から予約制クラブバス。公式時刻表では便により約25〜35分。プレー前日の15時までに予約（前日休場なら前々日まで）。",
+            "url": "https://www.ohtone.co.jp/access/",
+            "checked": "2026-10-24",
+            "basis": "公式時刻表平日7:10→7:45/8:10→8:40/8:40→9:10、土日7:10→7:35他30分。タクシー時間は未掲載",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセスでは、クラブバス車内にゴルフクラブを持ち込む際は必ずケースに入れるよう案内しています。平日のコンペで10名以上が利用する場合、守谷駅7:40発の臨時便についてクラブへの相談が必要です。1月・2月はクラブ発14:00便を減便する案内があり、道路事情による遅れにも注意が必要です。",
+            "url": "https://www.ohtone.co.jp/access/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "公式アクセスの車内持込条件と平日コンペ向け臨時便の利用条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "車内クラブ持込ケース必須の安全条件。平日コンペ10名以上の守谷7:40臨時便は相談条件、常時運行としない。旧予約期限・25〜35分等を保持。 1月・2月クラブ発14:00便減便・道路事情の遅延も新segmentに保持。通常便の常時増便ではない。 Old sourceType classified official from prior basis and dedicated facility URL only, old text/date unchanged and not newly verified.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.ohtone.co.jp/access",
+        "retrievedAtUtc": "2026-10-29T16:13:57.704125+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ohtone.co.jp/access/",
+        "sha256": "c19ba5139982ebe84800a05a34803564b027e3676bf556b6d3d7a9cd25257039",
+        "bytes": 19733,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1149,
+      "name": "万壽ゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "名阪国道・神野口ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/290028/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "名阪国道・神野口ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス欄では、名阪国道・神野口ICから2kmと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/290028/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "名阪国道・神野口ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/290028/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄では、名阪国道・神野口ICから2kmと案内しています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/nara/manju/",
+            "checked": "2026-10-30",
+            "basis": "施設専用アクセス欄でIC起点と道路距離を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧楽天の5km以内という距離区分は保持、公式の具体距離を別segmentで補完。所要時間・最短経路・交通状況を推定しない。旧文/date/URL/basis/sourceType不変。",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=026",
+        "retrievedAtUtc": "2026-10-29T16:10:02.467402+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/nara/manju/",
+        "sha256": "0cda601f7b2095c2ce3d633edaeb6a0c360abaa8351e262822b8f18cb687d485",
+        "bytes": 1306694,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1164,
+      "name": "霞ゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "伊勢自動車道・芸濃ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240014/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "伊勢自動車道・芸濃ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス欄では、伊勢自動車道・芸濃ICから4kmと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240014/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "伊勢自動車道・芸濃ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240014/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄では、伊勢自動車道・芸濃ICから4kmと案内しています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/mie/kasumi/",
+            "checked": "2026-10-30",
+            "basis": "施設専用アクセス欄でIC起点と道路距離を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧楽天の5km以内という距離区分は保持、公式の具体距離を別segmentで補完。所要時間・最短経路・交通状況を推定しない。旧文/date/URL/basis/sourceType不変。",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?gid=140",
+        "retrievedAtUtc": "2026-10-29T16:10:02.467917+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/mie/kasumi/",
+        "sha256": "5998bab56d26fb682e7021abc553dbd3ec28de4ef85dff804530813e8690b239",
+        "bytes": 4606907,
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 915,
+      "name": "フォレストみずなみカントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "中央自動車道・瑞浪ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210073/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "中央自動車道・瑞浪ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス欄では、中央自動車道・恵那ICから13kmと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210073/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "中央自動車道・瑞浪ICから15km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210073/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス欄では、中央自動車道・恵那ICから13kmと案内しています。",
+            "url": "https://reserve.accordiagolf.com/golfCourse/gifu/mizunami/",
+            "checked": "2026-10-30",
+            "basis": "施設専用アクセス欄でIC起点と道路距離を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧楽天の瑞浪IC15km以内とは別起点の恵那IC13kmを追加。瑞浪と恵那を同一ICにせず旧値を削除/訂正しない。所要時間・最短経路・交通状況を推定しない。旧文/date/URL/basis/sourceType不変。",
+      "sourceEvidence": {
+        "requestedUrl": "https://reserve.accordiagolf.com/golfLinkCourseDetail/?tab=1&gid=124&glnv=001",
+        "retrievedAtUtc": "2026-10-29T16:05:56.642841+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://reserve.accordiagolf.com/golfCourse/gifu/mizunami/",
+        "sha256": "26c3e2d25e2c311ce8b1f84362abf0f2805e245c7b189840a3e900839f129341",
+        "bytes": 2487074,
+        "sourceType": "official"
+      }
+    }
+  ]
+}
