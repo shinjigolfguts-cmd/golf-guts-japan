@@ -1,0 +1,349 @@
+{
+  "patchSetId": "five-scoped-conditions-after-pr4",
+  "parentSha": "de26d90a15d52c44fa718cdc93b89963d99b7ca7",
+  "inputSha256": "0a859e4fb27dc7dd5164c1761f6b27dc225c102829a152e582af631e742b4c23",
+  "outputSha256": "d5ebb8537d8c8643bd939c0795aa4ada02e1f83cbb3e227523aae03ad76c527d",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 1734,
+      "name": "鎌倉パブリックゴルフ場",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。 公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。 公式コース案内では、6番ホールはドライバー禁止です。 公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。",
+        "url": "https://kamakura-pg.com/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。",
+            "url": "https://kamakura-pg.com/",
+            "checked": "2026-10-24",
+            "basis": "公式サイトの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。",
+            "url": "https://kamakura-pg.com/about/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "専用概要の総ホール数・プレースタイルを確認。"
+          },
+          {
+            "text": "公式コース案内では、6番ホールはドライバー禁止です。",
+            "url": "https://kamakura-pg.com/course/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "6番ホールに限ったクラブ利用制限を確認。"
+          },
+          {
+            "text": "公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。",
+            "url": "https://kamakura-pg.com/club-rule/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "集合場所・期限と遅れた場合の扱いを確認。"
+          }
+        ]
+      },
+      "after": {
+        "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。 公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。 公式コース案内では、6番ホールはドライバー禁止です。 公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。 公式クラブルールでは、クラブハウス館内とカート内は禁煙です。館外の喫煙場所は駐車場の喫煙ブースと2階レストランの屋外デッキの2か所で、コース内はティイングエリアのみ喫煙可能としています。",
+        "url": "https://kamakura-pg.com/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "鎌倉の高台にあるパブリックコース。初心者やジュニア向けのプログラムも案内しています。",
+            "url": "https://kamakura-pg.com/",
+            "checked": "2026-10-24",
+            "basis": "公式サイトの本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。",
+            "url": "https://kamakura-pg.com/about/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "専用概要の総ホール数・プレースタイルを確認。"
+          },
+          {
+            "text": "公式コース案内では、6番ホールはドライバー禁止です。",
+            "url": "https://kamakura-pg.com/course/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "6番ホールに限ったクラブ利用制限を確認。"
+          },
+          {
+            "text": "公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。",
+            "url": "https://kamakura-pg.com/club-rule/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "集合場所・期限と遅れた場合の扱いを確認。"
+          },
+          {
+            "text": "公式クラブルールでは、クラブハウス館内とカート内は禁煙です。館外の喫煙場所は駐車場の喫煙ブースと2階レストランの屋外デッキの2か所で、コース内はティイングエリアのみ喫煙可能としています。",
+            "url": "https://kamakura-pg.com/club-rule/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当施設の喫煙可能場所と館内・カート内の禁止範囲を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式クラブルールでは、クラブハウス館内とカート内は禁煙です。館外の喫煙場所は駐車場の喫煙ブースと2階レストランの屋外デッキの2か所で、コース内はティイングエリアのみ喫煙可能としています。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kamakura-pg.com/club-rule/",
+        "startedAtUtc": "2026-10-30T04:53:03.413731+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kamakura-pg.com/club-rule/",
+        "bytes": 63705,
+        "sha256": "5519d5892b01ba065572c9163a9d81cb5421f35cfc67c1593d7f6ba6e29b4595",
+        "completedAtUtc": "2026-10-30T04:53:09.720481+00:00"
+      }
+    },
+    {
+      "id": 1283,
+      "name": "KSゴルフ後閑",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。 公式の施設案内では、ショートコースの最終受付は19時です。",
+        "url": "https://ks-golf.net/facility/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文の該当記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の施設案内では、ショートコースの最終受付は19時です。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設案内の受付欄でショートコースの締切時刻を確認。"
+          }
+        ]
+      },
+      "after": {
+        "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。 公式の施設案内では、ショートコースの最終受付は19時です。 公式施設案内では、ドライビングレンジは100打席・250ヤード（1階56打席、2階44打席）で、打席の最終受付は20時15分です。",
+        "url": "https://ks-golf.net/facility/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "天然芝の6ホールショートコース。ドライビングレンジに隣接しています。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-25",
+            "basis": "公式案内本文の該当記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式の施設案内では、ショートコースの最終受付は19時です。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設案内の受付欄でショートコースの締切時刻を確認。"
+          },
+          {
+            "text": "公式施設案内では、ドライビングレンジは100打席・250ヤード（1階56打席、2階44打席）で、打席の最終受付は20時15分です。",
+            "url": "https://ks-golf.net/facility/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "ドライビングレンジの規模・階別打席数と打席受付の締切を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式施設案内では、ドライビングレンジは100打席・250ヤード（1階56打席、2階44打席）で、打席の最終受付は20時15分です。",
+      "sourceEvidence": {
+        "requestedUrl": "https://ks-golf.net/facility/",
+        "startedAtUtc": "2026-10-30T03:51:38.347597+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://ks-golf.net/facility/",
+        "bytes": 30092,
+        "sha256": "fb0d85d25500fbeaec0de4f18c76f6946811dbe52f8453e0b61eac1fff8378d6",
+        "completedAtUtc": "2026-10-30T03:51:42.074329+00:00"
+      }
+    },
+    {
+      "id": 1258,
+      "name": "毛利庭園ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・山岳コース・山岳地形。設計：井上誠一。練習場は80ヤード・7打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/350028/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・山岳コース・山岳地形。設計：井上誠一。練習場は80ヤード・7打席の掲載。 公式の薄暮プレー案内では、2バッグは割増となり、ロッカー・シャワーは利用できず、ポーター不在・前払いです。土日祝は利用できない場合があり、18ホールの利用も当日の予約状況によるため、いずれもゴルフ場への問い合わせを案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/350028/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・山岳コース・山岳地形。設計：井上誠一。練習場は80ヤード・7打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/350028/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の薄暮プレー案内では、2バッグは割増となり、ロッカー・シャワーは利用できず、ポーター不在・前払いです。土日祝は利用できない場合があり、18ホールの利用も当日の予約状況によるため、いずれもゴルフ場への問い合わせを案内しています。",
+            "url": "https://mohrigardengolf.com/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "薄暮専用の注意事項で設備利用・支払い・人数割増と予約状況の制約を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "薄暮プレーの具体利用条件のみ。通常dayplanのロッカー有料条件とは別。",
+      "sourceEvidence": {
+        "requestedUrl": "https://mohrigardengolf.com/",
+        "startedAtUtc": "2026-10-30T03:52:03.943897+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://mohrigardengolf.com/",
+        "bytes": 278291,
+        "sha256": "37635a7884fd33fb345f18e4a2a728cf17f998347b41dbaafb2635587dbb8184",
+        "completedAtUtc": "2026-10-30T03:52:09.278873+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1269,
+      "name": "アクティはしはま",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。 公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。",
+        "url": "https://hashihama-kk.com/acty/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・観光案内のコース記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "ショートコース欄の営業時間と特定日曜日のスタート制限を確認。"
+          }
+        ]
+      },
+      "after": {
+        "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。 公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。 公式の打ち放し場案内（2025年4月1日からの営業時間）では、平日は7:00～22:00でフロントは8:00から、土日祝は6:00～21:00でフロントは7:00からです。",
+        "url": "https://hashihama-kk.com/acty/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "9ホールを2周して18ホールを楽しむショートコース。ウッド使用可能なホールや打ち下ろしを備える。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-25",
+            "basis": "公式施設・観光案内のコース記載を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "ショートコース欄の営業時間と特定日曜日のスタート制限を確認。"
+          },
+          {
+            "text": "公式の打ち放し場案内（2025年4月1日からの営業時間）では、平日は7:00～22:00でフロントは8:00から、土日祝は6:00～21:00でフロントは7:00からです。",
+            "url": "https://hashihama-kk.com/acty/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "打ち放し場の営業案内にある変更日・曜日別時間とフロント開始時刻を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "既刊shortcourse時間とは別のドライビングレンジおよびフロント時間。",
+      "sourceEvidence": {
+        "requestedUrl": "https://hashihama-kk.com/acty/",
+        "startedAtUtc": "2026-10-30T03:51:31.985031+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://hashihama-kk.com/acty/",
+        "bytes": 136452,
+        "sha256": "5e147911979c39639fc1b4e973392bfe2863ed6f61f75f8a227b74514860e504",
+        "completedAtUtc": "2026-10-30T03:51:36.240228+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1681,
+      "name": "鬼怒川カントリークラブ",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "楽天GORAの設備欄に温泉ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/90028/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "楽天GORAの設備欄に温泉ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。 公式サイトでは、自家源泉かけ流しの風呂を案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/90028/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "楽天GORAの設備欄に温泉ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/90028/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式サイトでは、自家源泉かけ流しの風呂を案内しています。",
+            "url": "https://kinugawacc.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "当施設の紹介本文にある風呂の源泉・供給方式の明示を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "旧温泉存在に対する自家源泉かけ流しという公式の具体方式。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kinugawacc.jp/",
+        "startedAtUtc": "2026-10-30T04:34:00.047680+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kinugawacc.jp/",
+        "bytes": 48683,
+        "sha256": "249b0951fee8facb7fc411f8a4b4b2c8c567799c9ae2fcbf64f16413da20de93",
+        "completedAtUtc": "2026-10-30T04:34:06.151349+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
