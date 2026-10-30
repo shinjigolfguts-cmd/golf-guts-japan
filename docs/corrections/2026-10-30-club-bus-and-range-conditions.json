@@ -1,0 +1,102 @@
+{
+  "patchSetId": "2026-10-30-range-and-bus-conditions",
+  "parentSha": "a34a6b41d6bdbe5097e75d24c5d5fb6e95f24ca8",
+  "inputSha256": "8848353897a47c9efd8f0d49f424b288b76690d8db9313033dd3c3739c409168",
+  "outputSha256": "e09ddf9653a6e06a36ddcbc74c3c4c75d1e41ed39084e5a87b815e5496de15b3",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 564,
+      "name": "桑名カントリー倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": {
+        "text": "桑名駅からタクシーで約15分。",
+        "url": "https://www.kuwanacc.com/access/",
+        "checked": "2026-10-25",
+        "basis": "公式ページ本文確認：最寄駅 桑名駅よりタクシーにて15分ほど。",
+        "sourceType": "official"
+      },
+      "after": {
+        "text": "桑名駅からタクシーで約15分。 公式アクセス案内では、クラブバスの運行はありません。",
+        "url": "https://www.kuwanacc.com/access/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "桑名駅からタクシーで約15分。",
+            "url": "https://www.kuwanacc.com/access/",
+            "checked": "2026-10-25",
+            "basis": "公式ページ本文確認：最寄駅 桑名駅よりタクシーにて15分ほど。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセス案内では、クラブバスの運行はありません。",
+            "url": "https://www.kuwanacc.com/access/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "アクセス本文のクラブバス不運行の明記を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Explicit clubbus unavailable; stationtaxi oldtime unchanged. No bus-in-general claim: onlyclubbus. Publicbus options not established. Existing桑名taxi15min retained without rewriting. Old text/date/url/basis retained; no old fact revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "https://www.kuwanacc.com/access/",
+        "startedAtUtc": "2026-10-29T16:25:56.632271+00:00",
+        "status": 200,
+        "finalUrl": "https://www.kuwanacc.com/access/",
+        "sha256": "82824e4e4720383fb3b90abded36eca3aaadd68faf878db3b2bd20051206e7aa",
+        "completedAtUtc": "2026-10-29T16:26:01.274980+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    },
+    {
+      "id": 595,
+      "name": "久井カントリークラブ",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "OUTとINで異なる表情を見せる18ホール。飛距離を生かす場面と正確なコントロールを要する場面を配しています。",
+        "url": "https://www.kui-cc.jp/course",
+        "checked": "2026-10-25",
+        "basis": "公式施設案内・公式観光情報の該当本文を確認"
+      },
+      "after": {
+        "text": "OUTとINで異なる表情を見せる18ホール。飛距離を生かす場面と正確なコントロールを要する場面を配しています。 公式施設案内では、12打席のドライビングレンジとアプローチ練習場があり、一般利用も可能です。打撃練習場は日の出から日没までで、月曜日と金曜日の午後は休みです。無人のため100円硬貨の持参を案内しています。 練習球の持ち帰りはできません。",
+        "url": "https://www.kui-cc.jp/course",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "OUTとINで異なる表情を見せる18ホール。飛距離を生かす場面と正確なコントロールを要する場面を配しています。",
+            "url": "https://www.kui-cc.jp/course",
+            "checked": "2026-10-25",
+            "basis": "公式施設案内・公式観光情報の該当本文を確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、12打席のドライビングレンジとアプローチ練習場があり、一般利用も可能です。打撃練習場は日の出から日没までで、月曜日と金曜日の午後は休みです。無人のため100円硬貨の持参を案内しています。 練習球の持ち帰りはできません。",
+            "url": "https://www.kui-cc.jp/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "練習施設の一般利用と営業時間・休止時間、硬貨持参条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "Practicefacility generalpublic availability with12bayrange/approach, sunrise–sunset exceptMondayFridayafternoon; unmanned100yencoin requirement. Practiceball take-home prohibition retained. Ownpracticebody, not facilitygolfroundoperatinghours. Do not infer all7days fullhours. Fee100yen15balls visible but not selected newprice claim; no tax/currentprice guarantee. Old18H/layout not reverified. Actualpractice section has no distinct受付終了time beyond statedhours/weekdayafternoonclosure; do not invent one. Phone受付weekday8–17 is a different header and not applied to range. Old text/date/url/basis retained; no old fact revalidation.",
+      "sourceEvidence": {
+        "requestedUrl": "http://www.kui-cc.jp/",
+        "startedAtUtc": "2026-10-29T16:28:05.917667+00:00",
+        "status": 200,
+        "finalUrl": "https://www.kui-cc.jp/",
+        "sha256": "ce6bde932389ceb6cc6d62ee3298ca8a73d9b9a9fa4c7293abe8af163738a62f",
+        "completedAtUtc": "2026-10-29T16:28:15.764488+00:00",
+        "checkedDateJst": "2026-10-30"
+      }
+    }
+  ]
+}
