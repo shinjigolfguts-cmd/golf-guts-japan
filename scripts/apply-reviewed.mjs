@@ -13,13 +13,14 @@ function url(s){let u;try{u=new URL(s)}catch{fail('invalid URL')}if(!['https:','
 export function parseData(raw){const m=raw.match(/^\s*const DATA\s*=\s*([\s\S]*?)\s*;?\s*$/);if(!m)fail('unsupported data wrapper');return JSON.parse(m[1]);}
 
 const legacy48={text:'遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。',url:'https://www.mannacc.com/restaurant/gp-grill',checked:'2026-10-22〜23',basis:'既存掲載情報を項目別に確認'};
-const sameLegacy=e=>e&&Object.keys(legacy48).every(k=>e[k]===legacy48[k])&&e.sourceType==='legacy_unclassified';
+const legacyTuples=[{id:48,before:legacy48},{"id":84,"before":{"text":"9ホール・パー27のショートコース。6ホールに照明を完備。","url":"https://dynamic-golf.jp/","checked":"2026-10-22〜23","basis":"既存掲載情報を項目別に確認"}},{"id":85,"before":{"text":"パー4を2ホール含む全12ホールのミッドコース。","url":"https://dynamic-golf.jp/","checked":"2026-10-22〜23","basis":"既存掲載情報を項目別に確認"}},{"id":86,"before":{"text":"9ホール・パー27のショートコース。全ホールに照明を完備。","url":"https://dynamic-golf.jp/","checked":"2026-10-22〜23","basis":"既存掲載情報を項目別に確認"}}];
+const sameLegacy=e=>e&&Object.keys(e).length===5&&e.sourceType==='legacy_unclassified'&&legacyTuples.some(({before})=>Object.keys(before).every(k=>e[k]===before[k]));
 const nexco=e=>{try{const u=new URL(e.url);return u.protocol==='https:'&&u.hostname==='corp.w-nexco.co.jp'&&!u.port&&!u.username&&!u.password&&/NEXCO西日本/.test(e.text)}catch{return false}};
 
 function validateLegacy(p,today){
- const a=p.after,e=a?.evidenceSegments?.[0];
- if(a?.sourceType!=='mixed'||p.id!==48||p.field!=='play'||!eq(p.before,legacy48)||!sameLegacy(e)||Object.keys(e).length!==5||a.checked!==legacy48.checked||a.url!==legacy48.url||today<'2026-10-23')fail('unapproved legacy range');
- if(a.evidenceSegments.slice(1).some(s=>s?.text?.trim()===legacy48.text.trim()))fail('legacy checked-only duplicate');
+ const a=p.after,e=a?.evidenceSegments?.[0],pinned=legacyTuples.find(x=>x.id===p.id)?.before;
+ if(a?.sourceType!=='mixed'||!pinned||p.field!=='play'||!eq(p.before,pinned)||!sameLegacy(e)||!eq(e,{...pinned,sourceType:'legacy_unclassified'})||Object.keys(e).length!==5||a.checked!==pinned.checked||a.url!==pinned.url||today<'2026-10-23')fail('unapproved legacy range');
+ if(a.evidenceSegments.slice(1).some(s=>s?.text?.trim()===pinned.text.trim()))fail('legacy checked-only duplicate');
 }
 function validateAfter(p,today){
  if(p.validFrom||p.validThrough){date(p.validFrom);date(p.validThrough);if(p.validFrom>p.validThrough||today<p.validFrom||today>p.validThrough)fail('patch outside validity');}

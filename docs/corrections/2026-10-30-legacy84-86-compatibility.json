@@ -1,0 +1,50 @@
+{
+  "scope": "84/85/86 playの登録済み旧値だけを保持し、新しい公式案内と文別表示する狭い互換対応。一般の日付範囲許可ではありません。",
+  "baselineCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+  "status": "draft_proposal_not_deployed",
+  "registeredIds": [
+    48,
+    84,
+    85,
+    86
+  ],
+  "addedIds": [
+    84,
+    85,
+    86
+  ],
+  "preservedLegacyValues": [
+    "text",
+    "url",
+    "checked",
+    "basis"
+  ],
+  "legacyLabel": "既存掲載情報・出典分類未確認",
+  "constraints": [
+    "exact ID and play field in apply gate",
+    "exact prior object and first segment with no extra keys",
+    "fallback URL/date unchanged",
+    "no arbitrary ranges or fresh duplicate of old text",
+    "all ordinary URL/date/price guards retained"
+  ],
+  "rendererBoundary": "Shared renderer receives a field object only; exact immutable tuple validation is enforced there and ID/field authorization remains in the apply gate.",
+  "codeChanges": [
+    "access.js",
+    "scripts/apply-reviewed.mjs"
+  ],
+  "tests": {
+    "existing": 120,
+    "added": 78,
+    "totalPassed": 198,
+    "failed": 0,
+    "unchangedDataCourseDetails": 1800,
+    "unchangedDataCourseAccess": 1800,
+    "unchangedDataFinderFields": 12600
+  },
+  "limitations": [
+    "New facts have separate limited source reviews; old facts are not reverified.",
+    "No ranking, layout, permission or analytics change.",
+    "Actual publication/browser verification is not completed for this proposal.",
+    "Previous PR3 full asset-byte verification remains partial and is not upgraded by these tests."
+  ]
+}

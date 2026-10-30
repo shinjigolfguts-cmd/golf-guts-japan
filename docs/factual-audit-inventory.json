@@ -1,10 +1,298 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-30T03:42:42.798371+00:00",
-  "artifactStatus": "validated_published_snapshot_with_separate_unpublished_draft_proposals",
+  "snapshotAt": "2026-10-30T06:36:00.728788+00:00",
+  "artifactStatus": "validated_snapshot",
   "repository": "shinjigolfguts-cmd/golf-guts-japan",
   "linkBase": "repository_root",
   "fieldReviews": [
+    {
+      "id": 41,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-facility-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://matsuogolfclub.jp/facility/",
+        "evidenceType": "mixed",
+        "sourceHash": "2c4eba66f84c6045e09c027ae7b526958624283fdd8f1fbfc8bbfaecefaaa1ef"
+      },
+      "date": "2026-10-30",
+      "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "publicVerificationStage": "pages_full_public_data_and_all_changed_fields_guide_browser_pass_other_asset_bytes_partial",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "練習場の掲載距離のみ。 旧本文・出典・日付・条件を保持し全項目再確認とはしない。 打席数・利用時間・料金・使用クラブ制限は未確認。旧18H再照合なし。所在地街路住所は本文にない。 旧segmentのsourceType分類だけ既存URL/basisに基づき補足。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ],
+      "targetedPublicVerification": {
+        "fullPublicDataBytesMatch": true,
+        "allChangedGuideFieldsBrowserPass": true,
+        "fullFiveAssetsBytePass": false,
+        "unverified": [
+          "full index.html bytes after two timeouts",
+          "find.html bytes and current public UI",
+          "guts-analytics.js bytes for this deployment",
+          "access.js bytes for this deployment",
+          "OG current public observation",
+          "mobile",
+          "normal interpage navigation",
+          "external links/PDF"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "field": "stay",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-facility-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://matsuogolfclub.jp/facility/",
+        "evidenceType": "mixed",
+        "sourceHash": "2c4eba66f84c6045e09c027ae7b526958624283fdd8f1fbfc8bbfaecefaaa1ef"
+      },
+      "date": "2026-10-30",
+      "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "publicVerificationStage": "pages_full_public_data_and_all_changed_fields_guide_browser_pass_other_asset_bytes_partial",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "サウナ営業時間だけ。旧浴室・女性設備は再確認対象に加算しない。 旧本文・出典・日付・条件を保持し全項目再確認とはしない。 当日の変更・利用資格・休業日・宿泊可否は未確認。所在地街路住所は本文にない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ],
+      "targetedPublicVerification": {
+        "fullPublicDataBytesMatch": true,
+        "allChangedGuideFieldsBrowserPass": true,
+        "fullFiveAssetsBytePass": false,
+        "unverified": [
+          "full index.html bytes after two timeouts",
+          "find.html bytes and current public UI",
+          "guts-analytics.js bytes for this deployment",
+          "access.js bytes for this deployment",
+          "OG current public observation",
+          "mobile",
+          "normal interpage navigation",
+          "external links/PDF"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "field": "play",
+      "source": {
+        "origin": "scoped_provenance_compatibility_fact",
+        "auditDocument": "docs/corrections/2026-10-30-legacy48-nankan1327-scoped-facts.json",
+        "fieldEvidenceUrl": "https://www.mannacc.com/course/gp-course",
+        "evidenceType": "mixed",
+        "sourceHash": "330df1b263e86030a63e93e488995e7be850e4bea097676328248879f82b0458"
+      },
+      "date": "2026-10-30",
+      "commit": "6be62182905d082b2daaa17958ad0fbe19f30a8f",
+      "publicVerificationStage": "pages_public_assets_and_changed_fields_browser_pass",
+      "fieldScope": "selected_added_segment_only",
+      "verificationScope": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。 GP course only, not combinedoperatorholecount. No unconditional cart fairway access guarantee, no penalty/strokecount inference, no tee unspecified yard figure. Prior detailedlayout uncertainty not treated as fully resolved. Old field text/date/url/basis retained; new selected condition scope only. Legacy source label/date range preserved as legacy_unclassified in exactly this48play tuple; no claim of old fact reverification.",
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "segmentDates": [
+        "2026-10-22〜23",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 52,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-ohgami52-conditional-fairway-access.json",
+        "fieldEvidenceUrl": "https://boso-cc.com/courseohgami/",
+        "evidenceType": "mixed",
+        "sourceHash": "19cba82eba5ca84d3ebdfa3796700abca11ac77c012c899f533c5e950ccff340"
+      },
+      "date": "2026-10-30",
+      "commit": "956ba5544009640929df0e1a1fc47798e7694720",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式コース案内では、フェアウェイへの乗り入れは会員同伴に限り可能で、予約制・別途乗り入れ料ありとしています。 旧本文・出典・日付・basisを保持し、旧事実は再確認していない。 旧段落sourceType補足は既存URLとbasisの分類整理のみ。 別の公式2026-10-25掲載告知は2026-10-26の荒天予報休場に日付限定。現在の休場継続/営業再開を確認したものではなく、今回掲載するのはFW乗入れの一般利用条件のみ。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ],
+      "separateDatedNoticeReview": {
+        "url": "https://boso-cc.com/information/news/2288/",
+        "sha256": "b47c3213c91f3c7e8e0669c48cb1aec480b8ade47caeffc7e1fef843dff79c96",
+        "retrievedAtUtc": "2026-10-30T04:55:54.637276+00:00",
+        "checkedDateJst": "2026-10-30",
+        "noticePublishedDate": "2026-10-25",
+        "noticeApplicableDate": "2026-10-26",
+        "scope": "荒天予報による大上ゴルフ場・同練習施設の指定日休場。現在の休場継続・再開の証明ではない。新本文はFW乗入れの一般条件のみ。",
+        "usedToAssertCurrentOperation": false
+      }
+    },
+    {
+      "id": 53,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-kisarazu53-dated-road-notice.json",
+        "fieldEvidenceUrl": "https://www.resol-golf.jp/kisarazuhigashi/news/20261023",
+        "evidenceType": "mixed",
+        "sourceHash": "5b28b7206ea952c6a99da2fc3b52f30f841cc7924471ed11ed14d281cff5dfc8"
+      },
+      "date": "2026-10-30",
+      "commit": "17432bde9fc5e5d0bd7b938fc37f51054bd74d34",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "2026年10月23日掲載・10月21日時点の房総スカイライン交通規制の告知に関する注意のみ。君津IC経由と旧木更津東IC経由の所要時間を区別し、旧全文/日付/URL/basisを保持。旧segment official補足は既公式FAQ/basisの種別分類のみ。現規制継続/解除/迂回道順・時間は未確認、PDF未読。",
+      "separateDatedNoticeReview": {
+        "scope": "Chronology review only:10/21 notice describes10/20around22:00 road damage and advisesdetour/木更津東IC;10/23 posting warns君津ICroute asof10/21. No currentclosure/reopening or detourtime verification.",
+        "sources": [
+          {
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/news/20261021",
+            "sha256": "acda99fef2624236ac76c530d1c094ba8398bfb7456618f30e4b27d7ca5af71f",
+            "acquiredAtUtc": "2026-10-30T05:43:20.129779+00:00",
+            "checkedJst": "2026-10-30"
+          },
+          {
+            "url": "https://www.resol-golf.jp/kisarazuhigashi/news/20261023",
+            "sha256": "5b28b7206ea952c6a99da2fc3b52f30f841cc7924471ed11ed14d281cff5dfc8",
+            "acquiredAtUtc": "2026-10-30T05:43:07.158933+00:00",
+            "checkedJst": "2026-10-30"
+          }
+        ],
+        "pdfRead": false,
+        "newUniqueFieldScopes": 1
+      },
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 53,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-kisarazu53-cypres540-scopes.json",
+        "fieldEvidenceUrl": "https://www.resol-golf.jp/kisarazuhigashi/",
+        "evidenceType": "mixed",
+        "sourceHash": "f5c6f0fdc7688eb791d9de8e893f27d86023227439a623eef07ac80d319bd456"
+      },
+      "date": "2026-10-30",
+      "commit": "637e9bd1912be26eff47d1751d1e1dff7862511b",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "練習設備の7打席・約30yardとアプローチ練習場のみ。旧18Hの再確認はせず旧本文・日付・generic公式URL/basis保持。旧segment official分類補足は同運営domainと既存basisによる種別整理。道路告知・現利用可否・時間料金は未確認。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 84,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-four-restaurant-access-scopes.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/chiba/",
+        "evidenceType": "mixed",
+        "sourceHash": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40"
+      },
+      "date": "2026-10-30",
+      "commit": "5bc144cc4ca48bce3378283f634a03a340b5af53",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の千葉店レストラン案内では、営業時間は平日10～16時、土日祝10～18時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 85,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-four-restaurant-access-scopes.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/narita/",
+        "evidenceType": "mixed",
+        "sourceHash": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8"
+      },
+      "date": "2026-10-30",
+      "commit": "5bc144cc4ca48bce3378283f634a03a340b5af53",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式アクセス案内では、成田国際空港から車で7分です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。 旧段落official分類補足は既存施設公式URL/basis根拠、旧IC起点と新空港起点を区別。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 85,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-four-restaurant-access-scopes.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/narita/",
+        "evidenceType": "mixed",
+        "sourceHash": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8"
+      },
+      "date": "2026-10-30",
+      "commit": "5bc144cc4ca48bce3378283f634a03a340b5af53",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の成田店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 86,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-four-restaurant-access-scopes.json",
+        "fieldEvidenceUrl": "https://dynamic-golf.jp/mobara/",
+        "evidenceType": "mixed",
+        "sourceHash": "a5c829805db0498ebdf802f62afdd69e6321ad9ef4eb317ec9083373a1ca54db"
+      },
+      "date": "2026-10-30",
+      "commit": "5bc144cc4ca48bce3378283f634a03a340b5af53",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の茂原店レストラン案内では、営業時間は平日11～17時、土日祝10～17時で、ラストオーダーは閉店30分前です。 旧本文・出典・日付と料理条件は保持し再確認扱いにしない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
     {
       "id": 134,
       "field": "rail",
@@ -370,6 +658,25 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 203,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-yatsuo203-station-access.json",
+        "fieldEvidenceUrl": "https://rfgr.jp/yatsuo/access/",
+        "evidenceType": "official",
+        "sourceHash": "6f8eac2c37ba04c1c3d12c24cdbb6d357ea85f1985fd9b32bad7badcd074b6f9"
+      },
+      "date": "2026-10-30",
+      "commit": "b60228e8cf7da749493522a82ea3200f1751e334",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "JR富山駅とJR越中八尾駅を起点とした車の概算所要時間のみ。タクシー・送迎運行条件や料金へ変換しない。後続の2013年航空路情報とはHTML上の別項目で、古い航空便や現在営業保証を採用しない。"
+    },
+    {
       "id": 210,
       "field": "car",
       "source": {
@@ -400,6 +707,78 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 212,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-facility-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://kcc.tatemono-golf.com/access/",
+        "evidenceType": "mixed",
+        "sourceHash": "ba8f3c925094a2a12464e3976d1494c6ed3ba94fdaa6c5da425bdb14dff027bc"
+      },
+      "date": "2026-10-30",
+      "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "publicVerificationStage": "pages_full_public_data_and_all_changed_fields_guide_browser_pass_other_asset_bytes_partial",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式アクセス案内では、東京・高井戸ICから中央自動車道利用で約1時間20分、渋谷から首都高・東名高速の御殿場経由、東富士五湖道路利用で車約1時間45分です。 旧河口湖IC距離5km以内は別起点・距離区分として保持、今回再照合しない。渋谷内の詳細出発地点は不明。日別交通/渋滞時間保証なし、上流駅55分やクラブバスに混用しない。 Oldbookingtext/dateURLbasis/type unchanged; no wholefieldrefresh.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ],
+      "targetedPublicVerification": {
+        "fullPublicDataBytesMatch": true,
+        "allChangedGuideFieldsBrowserPass": true,
+        "fullFiveAssetsBytePass": false,
+        "unverified": [
+          "full index.html bytes after two timeouts",
+          "find.html bytes and current public UI",
+          "guts-analytics.js bytes for this deployment",
+          "access.js bytes for this deployment",
+          "OG current public observation",
+          "mobile",
+          "normal interpage navigation",
+          "external links/PDF"
+        ]
+      }
+    },
+    {
+      "id": 212,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-facility-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://kcc.tatemono-golf.com/access/",
+        "evidenceType": "official",
+        "sourceHash": "ba8f3c925094a2a12464e3976d1494c6ed3ba94fdaa6c5da425bdb14dff027bc"
+      },
+      "date": "2026-10-30",
+      "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "publicVerificationStage": "pages_full_public_data_and_all_changed_fields_guide_browser_pass_other_asset_bytes_partial",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "JR大月駅発無料クラブバスの2日前完全予約・往復時刻・定員2台35名と超過不可・キャディバッグ条件のみ。駅からの所要時間は未確認で新宿から大月55分を転用しない。運休日/当日の運行保証はしない。",
+      "targetedPublicVerification": {
+        "fullPublicDataBytesMatch": true,
+        "allChangedGuideFieldsBrowserPass": true,
+        "fullFiveAssetsBytePass": false,
+        "unverified": [
+          "full index.html bytes after two timeouts",
+          "find.html bytes and current public UI",
+          "guts-analytics.js bytes for this deployment",
+          "access.js bytes for this deployment",
+          "OG current public observation",
+          "mobile",
+          "normal interpage navigation",
+          "external links/PDF"
+        ]
+      }
     },
     {
       "id": 213,
@@ -1378,6 +1757,29 @@
       "facilityIncludedInBrowserSample": false,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 275,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-use-conditions.json",
+        "fieldEvidenceUrl": "https://cm-g.co.jp/the-classic/",
+        "evidenceType": "mixed",
+        "sourceHash": "e43d60f30a8a894472fec9a92a24adb87c0ed99516afba09df4f6dcbe3ac5c16"
+      },
+      "date": "2026-10-30",
+      "commit": "3b89976dfff14cf3d5d0b05368bf7f14389ef094",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。 旧segmentのsourceType official補足は既存施設公式URL・basisに基づく分類整理で、旧事実の再確認ではない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 276,
@@ -5890,6 +6292,105 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 540,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-kisarazu53-cypres540-scopes.json",
+        "fieldEvidenceUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+        "evidenceType": "mixed",
+        "sourceHash": "87e7beb89dd7f484a0247f15c94a4a3c50593aa6906ffb745d3284fed863f655"
+      },
+      "date": "2026-10-30",
+      "commit": "637e9bd1912be26eff47d1751d1e1dff7862511b",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "方面別の別IC起点の車所要時間のみ。旧五條IC約3kmの本文/出典/日付を保持し、五條西IC車約3分や橋本東IC約8分と同一視・換算しない。現在の通行可否保証なし。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 540,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-facility-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+        "evidenceType": "mixed",
+        "sourceHash": "87e7beb89dd7f484a0247f15c94a4a3c50593aa6906ffb745d3284fed863f655"
+      },
+      "date": "2026-10-30",
+      "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "publicVerificationStage": "pages_full_public_data_and_all_changed_fields_guide_browser_pass_other_asset_bytes_partial",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "来場ブレザーとバッグ管理案内のみ。旧18H/設計は再照合しない。 旧本文・出典・日付・条件を保持し全項目再確認とはしない。 季節免除・例外は保存本文に明示なし、推測不可。休場日の月日一覧は対象年明示がないため不採用。免責の法的有効性評価ではなく施設案内の帰属。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ],
+      "targetedPublicVerification": {
+        "fullPublicDataBytesMatch": true,
+        "allChangedGuideFieldsBrowserPass": true,
+        "fullFiveAssetsBytePass": false,
+        "unverified": [
+          "full index.html bytes after two timeouts",
+          "find.html bytes and current public UI",
+          "guts-analytics.js bytes for this deployment",
+          "access.js bytes for this deployment",
+          "OG current public observation",
+          "mobile",
+          "normal interpage navigation",
+          "external links/PDF"
+        ]
+      }
+    },
+    {
+      "id": 540,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-facility-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+        "evidenceType": "mixed",
+        "sourceHash": "87e7beb89dd7f484a0247f15c94a4a3c50593aa6906ffb745d3284fed863f655"
+      },
+      "date": "2026-10-30",
+      "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "publicVerificationStage": "pages_full_public_data_and_all_changed_fields_guide_browser_pass_other_asset_bytes_partial",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "既存の林間田園都市駅とは別のJR五条駅起点。modeは同じアクセス節に明示。 旧本文・出典・日付・条件を保持し全項目再確認とはしない。 道路混雑・当日配車・定額料金は未確認。旧林間田園都市駅の時間は今回の追加照合に加算しない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ],
+      "targetedPublicVerification": {
+        "fullPublicDataBytesMatch": true,
+        "allChangedGuideFieldsBrowserPass": true,
+        "fullFiveAssetsBytePass": false,
+        "unverified": [
+          "full index.html bytes after two timeouts",
+          "find.html bytes and current public UI",
+          "guts-analytics.js bytes for this deployment",
+          "access.js bytes for this deployment",
+          "OG current public observation",
+          "mobile",
+          "normal interpage navigation",
+          "external links/PDF"
+        ]
+      }
+    },
+    {
       "id": 547,
       "field": "car",
       "source": {
@@ -7012,6 +7513,48 @@
       ]
     },
     {
+      "id": 661,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-scoped-use-access-supplements.json",
+        "fieldEvidenceUrl": "https://nishikochi-golf.com/short-course/",
+        "evidenceType": "mixed",
+        "sourceHash": "b6510ab53a6811a112a425fdb12a12e7ce8b636ba8562a502199f7f7e87c9f4b"
+      },
+      "date": "2026-10-30",
+      "commit": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式のショートコース案内では、9ホールを2周して18ホールをプレーする構成で、利用時間は8時30分～22時です。 Physical9 not18; yard509/perlap ambiguity andfees excluded. Oneplayer/rental oldfacts not silently refreshed.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 661,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-use-conditions.json",
+        "fieldEvidenceUrl": "https://nishikochi-golf.com/short-course/",
+        "evidenceType": "official",
+        "sourceHash": "b6510ab53a6811a112a425fdb12a12e7ce8b636ba8562a502199f7f7e87c9f4b"
+      },
+      "date": "2026-10-30",
+      "commit": "3b89976dfff14cf3d5d0b05368bf7f14389ef094",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式アクセス案内では、土佐電伊野・後免線の咥内駅から徒歩6分です。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。"
+    },
+    {
       "id": 665,
       "field": "car",
       "source": {
@@ -7076,6 +7619,52 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 674,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-additional-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://cm-g.co.jp/nishinihon/",
+        "evidenceType": "mixed",
+        "sourceHash": "f0292eccfb139fa5dbe999c297d64ec41a0b6797e6b35679eb032b4679fd1464"
+      },
+      "date": "2026-10-30",
+      "commit": "529510698367fba93328f0608645872899e959d9",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式アクセス案内では、北九州都市高速・金剛ICからクラブハウスまで車で11分です。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 674,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-additional-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://cm-g.co.jp/nishinihon/",
+        "evidenceType": "mixed",
+        "sourceHash": "f0292eccfb139fa5dbe999c297d64ec41a0b6797e6b35679eb032b4679fd1464"
+      },
+      "date": "2026-10-30",
+      "commit": "529510698367fba93328f0608645872899e959d9",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 678,
       "field": "note",
       "source": {
@@ -7102,6 +7691,52 @@
       "facilityIncludedInBrowserSample": true,
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only"
+    },
+    {
+      "id": 686,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-additional-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://cm-g.co.jp/saga/",
+        "evidenceType": "mixed",
+        "sourceHash": "80c25b9ca9d8c943bbed3df23f991b740f47381c61be29a3a47d1d20227e9196"
+      },
+      "date": "2026-10-30",
+      "commit": "529510698367fba93328f0608645872899e959d9",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式アクセス案内では、武雄北方ICからクラブハウスまで車で11分です。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 686,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-three-dress-range-scopes.json",
+        "fieldEvidenceUrl": "https://cm-g.co.jp/saga/",
+        "evidenceType": "mixed",
+        "sourceHash": "80c25b9ca9d8c943bbed3df23f991b740f47381c61be29a3a47d1d20227e9196"
+      },
+      "date": "2026-10-30",
+      "commit": "00a6a64d6f8f6074b79d7cf362a920884cebe301",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の服装規定では、来場・退場時はスーツジャケットまたはブレザーの着用が必要です（6～9月を除く）。プレー時は襟・袖付きのスポーツシャツと、帽子またはサンバイザーを着用します。ダイニングではジャンパー・レインウェア・ウインドブレーカー・帽子・サングラスを外し、靴のかかとを踏む、靴を脱ぐ、タオルを首にかけることなどは不可としています。規定に従わない場合は、入場またはプレーを断る場合があると案内しています。 旧本文・出典・確認日・basis保持。旧official分類補足は既存施設公式URL/basisによるもので旧事実を再確認していない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 688,
@@ -7200,6 +7835,60 @@
         "2026-10-25",
         "2026-10-30"
       ]
+    },
+    {
+      "id": 736,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-two-directional-access-restaurant-scopes.json",
+        "fieldEvidenceUrl": "https://kirishima-gc.or.jp/access",
+        "evidenceType": "mixed",
+        "sourceHash": "adf070663a5dcb7adaff80a9f2bb9a716f41139ed70cd2a178aba2c488a68c87"
+      },
+      "date": "2026-10-30",
+      "commit": "79e6ee2be6dcec4ca176eb1c86407bd53d08f165",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の高速道路利用案内では、福岡・熊本方面からは九州自動車道・横川ICから約20分、宮崎方面からは宮崎自動車道・高原ICから約45分、鹿児島市内からは溝辺鹿児島空港ICから約25分です。 旧本文・出典・日付は保持し再確認していない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 736,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-three-access-facility-use-scopes.json",
+        "fieldEvidenceUrl": "https://kirishima-gc.or.jp/access",
+        "evidenceType": "official",
+        "sourceHash": "adf070663a5dcb7adaff80a9f2bb9a716f41139ed70cd2a178aba2c488a68c87",
+        "supportingSources": [
+          {
+            "url": "https://kirishima-gc.or.jp/access",
+            "sha256": "adf070663a5dcb7adaff80a9f2bb9a716f41139ed70cd2a178aba2c488a68c87",
+            "retrievedAtUtc": "2026-10-30T04:52:21.997517+00:00",
+            "checkedDateJst": "2026-10-30",
+            "supportsNewSegments": [
+              "公式アクセス案内では、JR日豊本線・霧島神宮駅から車で約15分です。"
+            ],
+            "originRepresentation": "saved_response_HTML"
+          }
+        ]
+      },
+      "date": "2026-10-30",
+      "commit": "5d9b08ace3f51d4b97810aa02663923642fd6f72",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "[\"公式アクセス案内では、JR日豊本線・霧島神宮駅から車で約15分です。\"] 新確認scopeのみ。既存本文・出典・確認日は保持、旧事実は再確認していない。"
     },
     {
       "id": 760,
@@ -12123,6 +12812,48 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1258,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-use-conditions.json",
+        "fieldEvidenceUrl": "https://mohrigardengolf.com/",
+        "evidenceType": "mixed",
+        "sourceHash": "37635a7884fd33fb345f18e4a2a728cf17f998347b41dbaafb2635587dbb8184"
+      },
+      "date": "2026-10-30",
+      "commit": "3b89976dfff14cf3d5d0b05368bf7f14389ef094",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の施設案内では、軽食・飲料の持込みは不可としています。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1258,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-scoped-use-access-supplements.json",
+        "fieldEvidenceUrl": "https://mohrigardengolf.com/",
+        "evidenceType": "official",
+        "sourceHash": "37635a7884fd33fb345f18e4a2a728cf17f998347b41dbaafb2635587dbb8184"
+      },
+      "date": "2026-10-30",
+      "commit": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式アクセス案内では、JR山陽本線・防府駅から3kmです。 Distance only; mode/time unspecified, do not infer taxi/car/walk/clubbus. No wholepublictransportavailability claim."
+    },
+    {
       "id": 1265,
       "field": "officialUrl",
       "source": {
@@ -12139,6 +12870,29 @@
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
     },
     {
+      "id": 1269,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-scoped-use-access-supplements.json",
+        "fieldEvidenceUrl": "https://hashihama-kk.com/acty/",
+        "evidenceType": "mixed",
+        "sourceHash": "5e147911979c39639fc1b4e973392bfe2863ed6f61f75f8a227b74514860e504"
+      },
+      "date": "2026-10-30",
+      "commit": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式のショートコース案内（2020年4月1日からの営業時間）では、平日は8時、土日祝は7時から日没までです。第1・第4日曜日は、競技参加者以外のスタートが10時以降となります。 Ownshortcourse section only, not2025drivingrangehours. Effective date preserved; no exceptionalholiday/weatheroperation guarantee. Prior9×2/wood/downhill unchanged.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1281,
       "field": "officialUrl",
       "source": {
@@ -12153,6 +12907,75 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1283,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-use-conditions.json",
+        "fieldEvidenceUrl": "https://ks-golf.net/facility/",
+        "evidenceType": "mixed",
+        "sourceHash": "fb0d85d25500fbeaec0de4f18c76f6946811dbe52f8453e0b61eac1fff8378d6"
+      },
+      "date": "2026-10-30",
+      "commit": "3b89976dfff14cf3d5d0b05368bf7f14389ef094",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式施設案内では、レストランの定休日は毎週月曜日で、年末年始は営業すると案内しています。 旧本文・出典・確認日を保持し、新規確認は追加条件だけ。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1283,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-scoped-use-access-supplements.json",
+        "fieldEvidenceUrl": "https://ks-golf.net/facility/",
+        "evidenceType": "mixed",
+        "sourceHash": "fb0d85d25500fbeaec0de4f18c76f6946811dbe52f8453e0b61eac1fff8378d6"
+      },
+      "date": "2026-10-30",
+      "commit": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式の施設案内では、ショートコースの最終受付は19時です。 SC19受付 only, not playfinishingtime; drivingrange20:15 and general9–21 not generalized toshortcourse. RestaurantMonday/shopMonday3rdTuesday separate.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1284,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-scoped-use-access-supplements.json",
+        "fieldEvidenceUrl": "https://minorugolf.com/sanyo/short_course",
+        "evidenceType": "mixed",
+        "sourceHash": "c7208e72cd1086bba54f85c057fb09d9f38186320e9a0e815fe48e61cb7f0b45"
+      },
+      "date": "2026-10-30",
+      "commit": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、1人で来場してからペアを探すことも可能で、詳細はスタッフへの確認を案内しています。また、ラウンド中のクラブの貸し借りはしないよう求めています。 Existing minimum2 strictly retained; not solo play nor pairing guarantee. Existing shoes/hat remain, feeimage/yardchanges not adopted.",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
     },
     {
       "id": 1295,
@@ -12224,7 +13047,34 @@
       "publicVerificationStage": "pages_live_data_and_representative_browser_pass",
       "fieldScope": "selected_field_only",
       "allFieldsBrowserVerified": false,
-      "verificationScope": "南関IC→当施設の約20分というACCESS掲載目安。 No addedexplicitcarword toICsentence; 車 wording appliesseparate熊本/福岡cityorigin andnottransferred. Carfieldselection basedACCESSICroadcontext only. City1hour excluded, no distance/fare/roadname ortrafficguarantee. Independentreview mayholdif explicitmode required. Identity supported with visible コース/current クラブ name variant, metadata-locality and operator routing; no name change."
+      "verificationScope": "南関IC→当施設の約20分というACCESS掲載目安。 No addedexplicitcarword toICsentence; 車 wording appliesseparate熊本/福岡cityorigin andnottransferred. Carfieldselection basedACCESSICroadcontext only. City1hour excluded, no distance/fare/roadname ortrafficguarantee. Independentreview mayholdif explicitmode required. Identity supported with visible コース/current クラブ name variant, metadata-locality and operator routing; no name change.",
+      "supplementalPublicationReviews": [
+        {
+          "id": 1327,
+          "field": "car",
+          "source": {
+            "origin": "scoped_provenance_compatibility_fact",
+            "auditDocument": "docs/corrections/2026-10-30-legacy48-nankan1327-scoped-facts.json",
+            "fieldEvidenceUrl": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+            "evidenceType": "mixed",
+            "sourceHash": "ee8c289f58c07eee080fc952074547670daa23970e47e6cf0cf08aae4cb04425",
+            "hashMeaning": "Hash of saved web-tool extracted observation JSON; not raw origin HTML or HTTP response.",
+            "originHttpStatusVerified": false,
+            "rawHtmlRetained": false
+          },
+          "date": "2026-10-30",
+          "commit": "6be62182905d082b2daaa17958ad0fbe19f30a8f",
+          "publicVerificationStage": "pages_public_assets_and_changed_fields_browser_pass",
+          "fieldScope": "selected_added_segment_only",
+          "verificationScope": "Retain facility20minute statement exact/source/date. Separate roadoperator announcement: Nankan ETC-only from2025-03-17 00:00 and noETC-device vehicle exclusion only. Not course-time/alternativeIC/currentincident/PDF verification. Captured web-extraction artifact hash is not originHTML hash; originHTTPstatus not verified.",
+          "fullFieldVerified": false,
+          "fullFacilityVerified": false,
+          "segmentDates": [
+            "2026-10-30",
+            "2026-10-30"
+          ]
+        }
+      ]
     },
     {
       "id": 1366,
@@ -12773,6 +13623,29 @@
       ]
     },
     {
+      "id": 1529,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-additional-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://kan-etsu-gc.com/",
+        "evidenceType": "mixed",
+        "sourceHash": "ef4d2993e663bf343f3430d6de23812e77da4c07e0dcb88212cd693f2068d3ee"
+      },
+      "date": "2026-10-30",
+      "commit": "529510698367fba93328f0608645872899e959d9",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式サイトでは、1名からの組合せ予約を案内しています。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1542,
       "field": "note",
       "source": {
@@ -13141,6 +14014,75 @@
       "fieldScope": "selected_field_only"
     },
     {
+      "id": 1589,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-three-dress-range-scopes.json",
+        "fieldEvidenceUrl": "https://www.sodegaura.co.jp/shinsode-course/",
+        "evidenceType": "mixed",
+        "sourceHash": "08edc1e9e9fdc7b51b8f814b24711130e9a34ceb66dcab0218ac5f0293eafc0b"
+      },
+      "date": "2026-10-30",
+      "commit": "00a6a64d6f8f6074b79d7cf362a920884cebe301",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、当コースのドライビングレンジは20打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。 旧本文・出典・確認日・basis保持。旧official分類補足は既存施設公式URL/basisによるもので旧事実を再確認していない。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1590,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-three-dress-range-scopes.json",
+        "fieldEvidenceUrl": "https://www.sodegaura.co.jp/sodegaura-course/",
+        "evidenceType": "mixed",
+        "sourceHash": "10c18d4d68e6ca302e081ca37e84cffdae3010c48c06722c96a5026dbbd2ec79"
+      },
+      "date": "2026-10-30",
+      "commit": "00a6a64d6f8f6074b79d7cf362a920884cebe301",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、当コースのドライビングレンジは23打席・240ヤードです。開始時刻は3～12月の土日祝と11月の平日が6時30分、それ以外は7時です。ボール貸出停止は11～12月が15時、1～2月と10月が15時30分、それ以外は16時で、練習場は貸出停止の30分後に終了します。 旧本文・出典・確認日・basis保持。旧official分類補足は既存施設公式URL/basisによるもので旧事実を再確認していない。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1592,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-scoped-use-access-supplements.json",
+        "fieldEvidenceUrl": "https://www.chibacc.co.jp/umesato",
+        "evidenceType": "mixed",
+        "sourceHash": "89c946896afdb0d3705cf12a7ffd06b7589dbc89db7267f43948129033e5258c"
+      },
+      "date": "2026-10-30",
+      "commit": "c2b87dab6ca30e454739fcccbba304df9e450cca",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。 Dedicated梅郷 only, not川間/野田. Priorallcart/caddie unchanged; family/65+fees not generalprice. No exceptionalweatheroperation guarantee.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
       "id": 1607,
       "field": "play",
       "source": {
@@ -13155,6 +14097,29 @@
       "fieldScope": "selected_field_only",
       "allFieldsBrowserVerified": false,
       "verificationScope": "公式FAQでは、クラブハウス・練習場の開場は1～2月が6時30分、3～12月が6時で、変更される場合があります。来場時のデニム・サンダル・Tシャツの着用は控えるよう案内しています。 Clubhouse/practice opening and arrival dress restriction only; separate restaurant times not generalized. Cancellation fee not shortened or published, bus/18Hreopening headlines no operational verification. Prior course facts not reverified. Old field text/date/url/basis retained; new selected condition scope only. Only added official segment newly reviewed; retained prior-source facts not reverified.",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1608,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-five-scoped-use-conditions.json",
+        "fieldEvidenceUrl": "https://www.chibacc.co.jp/noda",
+        "evidenceType": "mixed",
+        "sourceHash": "de7b9325fff3200076f2a7ca2a1f6fdcb1d03fd67b715ceb0b28b030f2452aba"
+      },
+      "date": "2026-10-30",
+      "commit": "3b89976dfff14cf3d5d0b05368bf7f14389ef094",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式案内では、全組が乗用カート・キャディ付きです。休場日は毎週月曜日（祝日の場合は営業）と、1月1日・2月1日・8月15日・12月31日です。 旧本文・出典・確認日・basisを保持。旧segment official分類補足は既存施設公式URLとbasisに基づき、旧18H等の一括再確認ではない。",
       "segmentDates": [
         "2026-10-24",
         "2026-10-30"
@@ -13197,6 +14162,186 @@
       "verificationScope": "Clubgeneral useconditions apply target房総: checkin15minutes before, halfround target2h15, championshipTEE member accompaniment plus same-daymasterroomrequest. Commonoperator useconditions clearly apply clubfacilities including target; not大上-onlynotice. 大上Oct25closureheadline not房総closure. No assumption memberaccompaniment alone guaranteesTEE availability; no tax/otherpolicy claims. Old text/date/url/basis retained; no old condition revalidation. Only added official segment newly reviewed; retained prior-source facts not reverified.",
       "segmentDates": [
         "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1681,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-additional-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://kinugawacc.jp/",
+        "evidenceType": "mixed",
+        "sourceHash": "249b0951fee8facb7fc411f8a4b4b2c8c567799c9ae2fcbf64f16413da20de93"
+      },
+      "date": "2026-10-30",
+      "commit": "529510698367fba93328f0608645872899e959d9",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式サイトのオンライン予約・空き状況確認の案内では、メンバー（正会員）・ビジターともに事前の利用者登録が必要です。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1715,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-six-additional-access-use-scopes.json",
+        "fieldEvidenceUrl": "https://dormy-hotels.com/resort/hotels/nasu/golf/",
+        "evidenceType": "mixed",
+        "sourceHash": "512343b7a6c4b2712305d83a47f8181f57116ae178b574ccdea7d00e6b49bb47"
+      },
+      "date": "2026-10-30",
+      "commit": "529510698367fba93328f0608645872899e959d9",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式のゴルフ案内では、有料のレンタルクラブに左利き用も用意すると案内しています。 旧本文・URL・確認日・basisを保持し、旧事実は今回再確認していない。 旧segmentのofficial分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1727,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-three-access-facility-use-scopes.json",
+        "fieldEvidenceUrl": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+        "evidenceType": "official",
+        "sourceHash": "d2302096248e672230376f8c292872afc3c5910a43098885f5eab091882ce130",
+        "supportingSources": [
+          {
+            "url": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+            "sha256": "d2302096248e672230376f8c292872afc3c5910a43098885f5eab091882ce130",
+            "retrievedAtUtc": "2026-10-30T04:52:42.590761+00:00",
+            "checkedDateJst": "2026-10-30",
+            "supportsNewSegments": [
+              "公式施設案内では、休憩室に食事を持ち込んで食べることができ、氷・トースター・ポットのお湯・電子レンジを利用できます。"
+            ],
+            "originRepresentation": "saved_response_HTML"
+          }
+        ]
+      },
+      "date": "2026-10-30",
+      "commit": "5d9b08ace3f51d4b97810aa02663923642fd6f72",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "[\"公式施設案内では、休憩室に食事を持ち込んで食べることができ、氷・トースター・ポットのお湯・電子レンジを利用できます。\"] 新確認scopeのみ。既存本文・出典・確認日は保持、旧事実は再確認していない。"
+    },
+    {
+      "id": 1728,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-hanno1728-course-scope.json",
+        "fieldEvidenceUrl": "https://www.toto-motors.co.jp/golf/hanno/",
+        "evidenceType": "mixed",
+        "sourceHash": "9ef285de180e57c5f55c4a93480a9805d4a5bc598fe7be63a17d35301e4043e2"
+      },
+      "date": "2026-10-30",
+      "commit": "b365672616bd0fce9fd409e7c591884f979ed16a",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式コース案内では、18ホール・パー72です。 旧本文・出典・日付・basisを保持し、旧事実は再確認していない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1734,
+      "field": "dining",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-two-directional-access-restaurant-scopes.json",
+        "fieldEvidenceUrl": "https://kamakura-pg.com/about/",
+        "evidenceType": "mixed",
+        "sourceHash": "8f5cee4e760ab34d4a38c4f490ac36cf2b974d76437d2ee98c3c9cd10a78ebc7"
+      },
+      "date": "2026-10-30",
+      "commit": "79e6ee2be6dcec4ca176eb1c86407bd53d08f165",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式クラブ概要では、レストランは6時30分開場と案内しています。 旧本文・出典・日付は保持し再確認していない。 新しい料理名・提供開始時刻・全日営業保証ではなく、掲載レストラン開場時刻のみ。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1734,
+      "field": "play",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-three-access-facility-use-scopes.json",
+        "fieldEvidenceUrl": "https://kamakura-pg.com/about/",
+        "evidenceType": "mixed",
+        "sourceHash": "8f5cee4e760ab34d4a38c4f490ac36cf2b974d76437d2ee98c3c9cd10a78ebc7",
+        "supportingSources": [
+          {
+            "url": "https://kamakura-pg.com/about/",
+            "sha256": "8f5cee4e760ab34d4a38c4f490ac36cf2b974d76437d2ee98c3c9cd10a78ebc7",
+            "retrievedAtUtc": "2026-10-30T04:52:53.185942+00:00",
+            "checkedDateJst": "2026-10-30",
+            "supportsNewSegments": [
+              "公式クラブ概要では、18ホール・パー70、セルフプレー・乗用カートです。"
+            ],
+            "originRepresentation": "saved_response_HTML"
+          },
+          {
+            "url": "https://kamakura-pg.com/course/",
+            "sha256": "8d0c2ddc20099ba67292795c5e50c49f95f0e6aba7db9585ff13b0eea65a3b3a",
+            "retrievedAtUtc": "2026-10-30T04:53:01.311678+00:00",
+            "checkedDateJst": "2026-10-30",
+            "supportsNewSegments": [
+              "公式コース案内では、6番ホールはドライバー禁止です。"
+            ],
+            "originRepresentation": "saved_response_HTML"
+          },
+          {
+            "url": "https://kamakura-pg.com/club-rule/",
+            "sha256": "5519d5892b01ba065572c9163a9d81cb5421f35cfc67c1593d7f6ba6e29b4595",
+            "retrievedAtUtc": "2026-10-30T04:53:09.720481+00:00",
+            "checkedDateJst": "2026-10-30",
+            "supportsNewSegments": [
+              "公式予約規定では、スタート15分前までにカート乗車口へ集合し、遅れた場合はスタート時間が変更になることがあります。"
+            ],
+            "originRepresentation": "saved_response_HTML"
+          }
+        ]
+      },
+      "date": "2026-10-30",
+      "commit": "5d9b08ace3f51d4b97810aa02663923642fd6f72",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "公式概要の18H/P70・セルフ乗用カート、6番ホールのドライバー禁止、スタート15分前のカート乗車口集合と遅刻時の開始時刻変更を各専用URLで確認。既存budget.conditionsにキャッシュレス条件があるためplayへの同義追加は除外し、既存料金・条件・日付は未変更/未再照合。旧play本文・出典・日付を保持。3資料は1play欄の更新。旧段落official分類補足は既存施設公式URL/basisによる。",
+      "segmentDates": [
+        "2026-10-24",
+        "2026-10-30",
+        "2026-10-30",
         "2026-10-30"
       ]
     },
@@ -13588,6 +14733,29 @@
     },
     {
       "id": 1794,
+      "field": "car",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-miyazaki1794-tourism-access.json",
+        "fieldEvidenceUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "evidenceType": "mixed",
+        "sourceHash": "7fecba4406d0a8c6947558a0db806e48c09e9070a357d1d47178aff5118a4fe2"
+      },
+      "date": "2026-10-30",
+      "commit": "2054e98b143980c88487adfe634dcc529bd83a23",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "宮崎県公式観光サイトの当施設案内にある起点別の車所要時間のみ。駅からの車をタクシー・送迎へ置換しない。旧IC距離情報の本文・出典・日付は保持し再確認していない。元資料取得日時を保持し現在の営業・交通状況の保証はしない。",
+      "segmentDates": [
+        "2026-10-25",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": 1794,
       "field": "dining",
       "source": {
         "origin": "saved_primary_next11",
@@ -13617,6 +14785,25 @@
       "allFieldsBrowserVerified": false,
       "fieldScope": "selected_field_only",
       "browserVerificationScope": "Six representative browser checks for batch; not every field/facility/mobile."
+    },
+    {
+      "id": 1794,
+      "field": "rail",
+      "source": {
+        "origin": "scoped_primary_supplement",
+        "auditDocument": "docs/corrections/2026-10-30-miyazaki1794-tourism-access.json",
+        "fieldEvidenceUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "evidenceType": "tourism",
+        "sourceHash": "7fecba4406d0a8c6947558a0db806e48c09e9070a357d1d47178aff5118a4fe2"
+      },
+      "date": "2026-10-30",
+      "commit": "2054e98b143980c88487adfe634dcc529bd83a23",
+      "publicVerificationStage": "pages_public_assets_and_all_changed_fields_browser_pass",
+      "fieldScope": "new_added_segment_only",
+      "allChangedFieldsBrowserVerified": true,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "verificationScope": "宮崎県公式観光サイトの当施設案内にある起点別の車所要時間のみ。駅からの車をタクシー・送迎へ置換しない。旧IC距離情報の本文・出典・日付は保持し再確認していない。元資料取得日時を保持し現在の営業・交通状況の保証はしない。"
     },
     {
       "id": 1794,
@@ -13669,15 +14856,15 @@
   ],
   "gitPending": [],
   "counts": {
-    "publishedFields": 725,
-    "publishedFacilities": 451,
+    "publishedFields": 769,
+    "publishedFacilities": 480,
     "gitPendingFields": 0,
     "gitPendingFacilities": 0,
     "featureFields": 4,
     "allFacilitiesAllFieldsComplete": 0,
     "originalAuditLedgerDecrement": 0,
     "areaFields": 1,
-    "sevenComparisonFieldChanges": 459
+    "sevenComparisonFieldChanges": 503
   },
   "limitations": [
     "Field-level selected changes only; no facility is certified fully complete.",
@@ -13688,9 +14875,7 @@
     "383car restoration supersedes its earlier published version without adding a unique field; mixed retained booking/official statements dated10/25 are not newly verified10/29.",
     "unchangedFieldReviews are non-edit confirmations and excluded from published correction counts.",
     "14 numeric-time non-edit confirmations, including340time-only with mode unverified, are separate; their public booking source metadata remains unchanged and they are not deducted from the machine booking-time pool.",
-    "Historical ccdeb02 numeric-time scopes remain archived; their counts are not current00bcc1c remaining totals.151 formerly unpublished fields are now published; separate4 candidates now published after formal verification.",
-    "Historical ccdeb02 numeric-time scopes remain archived; their counts are not current00bcc1c remaining totals.151 formerly unpublished fields are now published; separate4 candidates are now published after formal verification.",
-    "Historical ccdeb02 numeric-time scopes remain archived; their counts are not current00bcc1c remaining totals.151 formerly unpublished fields are now published; separate4 candidates are now published after formal verification."
+    "Historical ccdeb02 numeric-time scopes remain archived and are not current remaining counts.151 formerly unpublished fields and separate4 candidates were subsequently published after scoped verification; historical holds were not automatically resolved."
   ],
   "preservationRepairStatus": {
     "facilities": 3,
@@ -15013,9 +16198,612 @@
       "fullFieldVerified": false,
       "fullFacilityVerified": false,
       "publicationMetadataChanged": false
+    },
+    {
+      "id": 78,
+      "field": "play",
+      "name": "真名カントリークラブ 真名コース",
+      "comparedExistingValue": {
+        "text": "こぶし・つつじ・くすの木の27ホール。フラットな庭園風のレイアウト。",
+        "url": "https://www.mannacc.com/course/manna-course",
+        "checked": "2026-10-24",
+        "basis": "公式真名コース紹介:27H、雄大でフラットな庭園コース。GP18Hと別予約。"
+      },
+      "confirmedScope": "こぶし・つつじ・くすの木の27ホール、フラットな庭園風レイアウトという既存play本文の限定照合。",
+      "remainingUnverifiedScope": "No new local-use restrictions stated. Do not importGPfirstOBtee rule; holeyard/greencondition/othercomparisonfields not wholeverified.",
+      "sourceUrl": "https://www.mannacc.com/course/manna-course",
+      "sourceBodySha256": "623c00e04aa20bed6d02707cac4dba53edf87a9df84c240a123d466d5c47713d",
+      "sourceAcquiredAtUtc": "2026-10-30T03:52:21.351106+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T03:54:15.155442+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 275,
+      "field": "car",
+      "name": "ザ・クラシックゴルフ倶楽部",
+      "comparedExistingValue": {
+        "text": "若宮ICからクラブハウスまで車で約10分。宮田スマートICからは約5分。",
+        "url": "https://cm-g.co.jp/the-classic/",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページのコース・施設・アクセス記述を確認し要約"
+      },
+      "confirmedScope": "若宮ICからクラブハウス車10分、宮田スマートICからクラブハウス車5分の既存限定事実。",
+      "remainingUnverifiedScope": "No claim that allroutes/trafficconditions/ETC restrictions reverified. Existingapprox wording remains; upstream福岡/小倉都市times not newlyadded.",
+      "sourceUrl": "https://cm-g.co.jp/the-classic/",
+      "sourceBodySha256": "e43d60f30a8a894472fec9a92a24adb87c0ed99516afba09df4f6dcbe3ac5c16",
+      "sourceAcquiredAtUtc": "2026-10-30T03:52:01.836852+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:06:14.999774+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 84,
+      "field": "rail",
+      "name": "ダイナミックゴルフ千葉",
+      "comparedExistingValue": {
+        "text": "鎌取駅からタクシーで約10分。",
+        "url": "https://dynamic-golf.jp/chiba/",
+        "checked": "2026-10-24",
+        "basis": "公式アクセス案内の記載内容：鎌取駅からタクシーで約10分。"
+      },
+      "confirmedScope": "鎌取駅からタクシー約10分という既存railの限定一致。",
+      "remainingUnverifiedScope": "No wholetrain journey, clubbus availability, fare, traffic, accessible route verification. No newtext orcheckeddate update.",
+      "sourceUrl": "https://dynamic-golf.jp/chiba/",
+      "sourceBodySha256": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40",
+      "sourceAcquiredAtUtc": "2026-10-30T04:08:43.678153+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:13:31.282364+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1597,
+      "field": "play",
+      "name": "紫カントリークラブ あやめコース",
+      "comparedExistingValue": {
+        "text": "EAST・WESTの36ホール。GPSナビ付き電磁誘導カートのセルフプレー。",
+        "url": "https://www.murasaki-cc.co.jp/ayame/",
+        "checked": "2026-10-24",
+        "basis": "公式ページ本文を確認。"
+      },
+      "confirmedScope": "EAST/WEST合計36H、セルフ、GPSナビ付き電磁誘導式乗用カートという既存playの限定照合。",
+      "remainingUnverifiedScope": "No newadmission/checkin/equipmentrestrictionbody. No allcondition/coursequalityguarantee; no addedtext/date refresh.",
+      "sourceUrl": "https://www.murasaki-cc.co.jp/ayame/",
+      "sourceBodySha256": "7e3d9cc7dec36cd6f3048e6d82abaa3309d447260584b4fba121a9aa32f5c987",
+      "sourceAcquiredAtUtc": "2026-10-30T04:33:57.942802+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:37:06.207818+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1727,
+      "field": "rail",
+      "name": "東都秩父カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "西武秩父駅からクラブバス約20分。運行条件は事前にご確認ください。",
+        "url": "https://www.toto-motors.co.jp/golf/chichibu/",
+        "checked": "2026-10-24",
+        "basis": "公式サイト本文・公式案内図で確認"
+      },
+      "confirmedScope": "西武秩父駅からクラブバス約20分のみ。",
+      "remainingUnverifiedScope": "No wholetransportconditionscompleteclaim. Timetables/operatingdays/delays/accessibility/specialdays not reverified oradded; existingadvanceconditionscaveat retained1727. No oldcheckeddate update.",
+      "sourceUrl": "https://www.toto-motors.co.jp/golf/chichibu/",
+      "sourceBodySha256": "34f51f57d2cdec17558cb47999edfbe5808099e722c7f1094d25f2fd31e0b91e",
+      "sourceAcquiredAtUtc": "2026-10-30T04:34:25.630827+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:39:37.588355+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1734,
+      "field": "rail",
+      "name": "鎌倉パブリックゴルフ場",
+      "comparedExistingValue": {
+        "text": "大船駅からタクシーで約20分。予約不要のクラブバスも約20分です。",
+        "url": "https://kamakura-pg.com/",
+        "checked": "2026-10-24",
+        "basis": "公式サイトの本文を確認"
+      },
+      "confirmedScope": "大船駅からタクシー約20分、予約不要の送迎バス約20分のみ。",
+      "remainingUnverifiedScope": "No wholetransportconditionscompleteclaim. Timetables/operatingdays/delays/accessibility/specialdays not reverified oradded; existingadvanceconditionscaveat retained1727. No oldcheckeddate update.",
+      "sourceUrl": "https://kamakura-pg.com/",
+      "sourceBodySha256": "f04144420a19a92780c8ccec49aeb87771f0ee6af0023bb15f443d6ab3718d61",
+      "sourceAcquiredAtUtc": "2026-10-30T04:34:33.846786+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:39:37.663856+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1683,
+      "field": "play",
+      "name": "東都栃木カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "18ホールの丘陵コース。OUTはなだらか、INは起伏や谷越えを生かした構成。",
+        "url": "https://www.toto-motors.co.jp/golf/tochigi/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。18ホールの丘陵コース。OUTはなだらか、INは起伏や谷越えを生かした構成。"
+      },
+      "confirmedScope": "18ホールの丘陵コース、なだらかなOUTと起伏・谷越えを生かしたIN。",
+      "remainingUnverifiedScope": "連絡メール件名の2019年案内は今回selectedコース仕様の新利用条件へ追加しない。受付07:00–16:20は電話窓口でコース営業時間ではない。",
+      "sourceUrl": "https://www.toto-motors.co.jp/golf/tochigi/",
+      "sourceBodySha256": "f6f5a3845c4d89844f945fd4bb41ed1140cedaecfd562a024efdd4609b2fbcff",
+      "sourceAcquiredAtUtc": "2026-10-30T04:46:16.570762+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:51:02.181710+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1726,
+      "field": "play",
+      "name": "東都埼玉カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "比較的フラットでフェアウェイの広い18ホール・パー72の丘陵コース。",
+        "url": "https://www.toto-motors.co.jp/golf/saitama/",
+        "checked": "2026-10-24",
+        "basis": "公式サイト本文・公式案内図で確認"
+      },
+      "confirmedScope": "18ホール・パー72、比較的フラットでフェアウェイが広い丘陵コース。",
+      "remainingUnverifiedScope": "2026/03/06カートナビ・スコア登録は告知題名のみで利用条件不明。所在地はtitle小鹿野町と本文秩父市が不整合のため住所照合完了とはしない。電話受付07:00–16:30はコース営業時間ではない。",
+      "sourceUrl": "https://www.toto-motors.co.jp/golf/saitama/",
+      "sourceBodySha256": "f5f2c5f8ed48b5be4bc0c41276a5cda978ac0668bb324bf60e5b0c02c3a298b3",
+      "sourceAcquiredAtUtc": "2026-10-30T04:46:26.346990+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:51:02.272189+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1529,
+      "field": "rail",
+      "name": "関越ゴルフ倶楽部 中山コース",
+      "comparedExistingValue": {
+        "text": "上毛高原駅から約15分の案内です。",
+        "url": "https://kan-etsu-gc.com/access.html",
+        "checked": "2026-10-24",
+        "basis": "公式掲載内容を確認。上毛高原駅から約15分の案内です。"
+      },
+      "confirmedScope": "上越新幹線上毛高原駅から約15分という既存所要時間の限定一致。",
+      "remainingUnverifiedScope": "駅から施設へのモードは明記されず未解決。電車見出しを駅→施設の鉄道15分としない。東京→駅1時間15分は上流区間で不採用。",
+      "sourceUrl": "https://kan-etsu-gc.com/access.html",
+      "sourceBodySha256": "cf44854786c0ce37b0dc9caac35e026ecfa90308eab6e831016866a317e34d5e",
+      "sourceAcquiredAtUtc": "2026-10-30T04:52:16.044223+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:56:04.557934+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1681,
+      "field": "rail",
+      "name": "鬼怒川カントリークラブ",
+      "comparedExistingValue": {
+        "text": "新高徳駅から約1km。駅からの送迎については電話で相談できます。",
+        "url": "https://kinugawacc.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。新高徳駅から約1km。駅からの送迎については電話で相談できます。"
+      },
+      "confirmedScope": "新高徳駅から近距離で、駅送迎についてクラブに問い合わせるという既存条件の限定一致。",
+      "remainingUnverifiedScope": "原文は1km未満、旧値は約1kmなので数値の完全一致とはしない。送迎車種microbusは確認できるが旧電話相談と実質同義の追加を避け据置。時刻表PDF未取得、予約期限/運行日時/無料/確実乗車は不明。SL情報は駅送迎に転用しない。",
+      "sourceUrl": "https://kinugawacc.jp/access/",
+      "sourceBodySha256": "2a34fa20c63e265eecc31bb20d1b9eb79747006bf43046f59df543ed21ab790d",
+      "sourceAcquiredAtUtc": "2026-10-30T04:52:32.923214+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T04:56:04.702521+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1529,
+      "field": "car",
+      "name": "関越ゴルフ倶楽部 中山コース",
+      "comparedExistingValue": {
+        "text": "月夜野ICから15km以内の案内です。",
+        "url": "https://kan-etsu-gc.com/access.html",
+        "checked": "2026-10-24",
+        "basis": "公式掲載内容を確認。月夜野ICから15km以内の案内です。"
+      },
+      "confirmedScope": "月夜野ICから15km以内という既存距離の限定一致。",
+      "remainingUnverifiedScope": "時間・別IC条件・渋滞保証を追加しない。既rail15分とは別起点/別指標。",
+      "sourceUrl": "https://kan-etsu-gc.com/access.html",
+      "sourceBodySha256": "cf44854786c0ce37b0dc9caac35e026ecfa90308eab6e831016866a317e34d5e",
+      "sourceAcquiredAtUtc": "2026-10-30T04:52:16.044223+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T05:01:15.236334+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1681,
+      "field": "car",
+      "name": "鬼怒川カントリークラブ",
+      "comparedExistingValue": {
+        "text": "今市ICから約10分。",
+        "url": "https://kinugawacc.jp/access/",
+        "checked": "2026-10-24",
+        "basis": "公式ページの本文・メニュー・料金表を確認。今市ICから約10分。"
+      },
+      "confirmedScope": "今市ICから約10分という既存所要時間の限定一致。",
+      "remainingUnverifiedScope": "首都高/浦和→宇都宮等の上流時間を施設までの時間へ合算しない。既rail送迎の再記録なし。",
+      "sourceUrl": "https://kinugawacc.jp/access/",
+      "sourceBodySha256": "2a34fa20c63e265eecc31bb20d1b9eb79747006bf43046f59df543ed21ab790d",
+      "sourceAcquiredAtUtc": "2026-10-30T04:52:32.923214+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T05:01:15.304746+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 1727,
+      "field": "stay",
+      "name": "東都秩父カントリー倶楽部",
+      "comparedExistingValue": {
+        "text": "GDOの施設案内では宿泊施設なし。浴場あり。パウダールームを掲載。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/343201/",
+        "checked": "2026-10-25",
+        "basis": "GDOの施設・サービス本文にある宿泊施設と浴場の明示記載を確認。未掲載から不在を推定していません。",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "浴場があるという既存stayの一部分だけを公式本文で照合。",
+      "remainingUnverifiedScope": "宿泊なし・パウダールーム・入浴料金/利用資格/時間は今回未確認。温泉との記載ではない。旧booking文/dateは更新しない。",
+      "sourceUrl": "https://www.toto-motors.co.jp/golf/chichibu/facility.htm",
+      "sourceBodySha256": "d2302096248e672230376f8c292872afc3c5910a43098885f5eab091882ce130",
+      "sourceAcquiredAtUtc": "2026-10-30T04:52:42.590761+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T05:01:15.373659+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false
+    },
+    {
+      "id": 41,
+      "name": "千葉松尾ゴルフクラブ",
+      "field": "stay",
+      "comparedExistingValue": {
+        "text": "窓から景色を望む総石造りの浴室とサウナを備えています。女性浴室には個室パウダールームを設置。 公式施設案内では、サウナの営業時間は12:00～16:00です。",
+        "url": "https://matsuogolfclub.jp/facility/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "窓から景色を望む総石造りの浴室とサウナを備えています。女性浴室には個室パウダールームを設置。",
+            "url": "https://matsuogolfclub.jp/facility/",
+            "checked": "2026-10-25",
+            "basis": "施設公式ページの本文を直接確認",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、サウナの営業時間は12:00～16:00です。",
+            "url": "https://matsuogolfclub.jp/facility/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "施設紹介のサウナ節で営業時間を確認。"
+          }
+        ]
+      },
+      "selectedExistingSegment": {
+        "text": "窓から景色を望む総石造りの浴室とサウナを備えています。女性浴室には個室パウダールームを設置。",
+        "url": "https://matsuogolfclub.jp/facility/",
+        "checked": "2026-10-25",
+        "basis": "施設公式ページの本文を直接確認",
+        "sourceType": "official"
+      },
+      "confirmedScope": "旧segmentの窓から景色を望む総石造り浴室、サウナ存在、女性浴室の個室パウダールーム。サウナ時間は既レビューで除外。",
+      "remainingUnverifiedScope": [
+        "当日の稼働・利用資格・宿泊可否は未確認。街路住所は本文にない。"
+      ],
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://matsuogolfclub.jp/facility/",
+      "sourceBodySha256": "2c4eba66f84c6045e09c027ae7b526958624283fdd8f1fbfc8bbfaecefaaa1ef",
+      "sourceAcquiredAtUtc": "2026-10-30T05:50:47.242890+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T05:50:38.035981+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:00.884850+00:00",
+      "identityScope": "Dedicated facility title/current same published facility URL; no street address in saved body. Not a fresh locality confirmation.",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 540,
+      "name": "シプレカントリークラブ",
+      "field": "play",
+      "comparedExistingValue": {
+        "text": "18ホールのコース。設計は三浦一美。 公式来場案内では、来場時に上着（ブレザー）の着用を求めています。また、2021年8月1日からセルフスタンドバッグは手荷物扱いで、プレーヤー自身で管理する案内です。落下・破損・紛失・盗難等については責任を負いかねるとしています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/course_info/disp/c_id/290012/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホールのコース。設計は三浦一美。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/course_info/disp/c_id/290012/",
+            "checked": "2026-10-25",
+            "basis": "予約サイトの施設案内確認：18ホール／同ページのコースタイプ・設計欄",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式来場案内では、来場時に上着（ブレザー）の着用を求めています。また、2021年8月1日からセルフスタンドバッグは手荷物扱いで、プレーヤー自身で管理する案内です。落下・破損・紛失・盗難等については責任を負いかねるとしています。",
+            "url": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "自施設の来場案内で服装とセルフスタンドバッグの管理条件を確認。"
+          }
+        ]
+      },
+      "selectedExistingSegment": {
+        "text": "18ホールのコース。設計は三浦一美。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/course_info/disp/c_id/290012/",
+        "checked": "2026-10-25",
+        "basis": "予約サイトの施設案内確認：18ホール／同ページのコースタイプ・設計欄",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "旧segmentの総18ホールと設計者三浦一美だけ。",
+      "remainingUnverifiedScope": [
+        "今回play全欄完了としない。既新服装・バッグ管理は再計数なし。元booking出典/dateは維持し公式へ昇格しない。"
+      ],
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+      "sourceBodySha256": "87e7beb89dd7f484a0247f15c94a4a3c50593aa6906ffb745d3284fed863f655",
+      "sourceAcquiredAtUtc": "2026-10-30T05:37:47.858542+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T05:37:41.919985+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:00.884901+00:00",
+      "identityScope": "Dedicated name and 奈良県五條市木ノ原町963番地.",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 540,
+      "name": "シプレカントリークラブ",
+      "field": "rail",
+      "comparedExistingValue": {
+        "text": "林間田園都市駅からタクシーで約20分（公式アクセス案内の目安）。 公式アクセス案内では、奈良・和歌山方面からはJR和歌山線五条駅からタクシーで約10分です。",
+        "url": "https://www.daiwaroyalgolf.jp/cypres_cc/access.html",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "林間田園都市駅からタクシーで約20分（公式アクセス案内の目安）。",
+            "url": "https://www.daiwaroyalgolf.jp/cypres_cc/access.html",
+            "checked": "2026-10-25",
+            "basis": "施設公式アクセスを個別照合。Primary林間田園都市駅taxi約20分, corroborated official FAQ too, vs current15分.",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式アクセス案内では、奈良・和歌山方面からはJR和歌山線五条駅からタクシーで約10分です。",
+            "url": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "電車アクセス欄のタクシー指定とJR五条駅起点の時間を確認。"
+          }
+        ]
+      },
+      "selectedExistingSegment": {
+        "text": "林間田園都市駅からタクシーで約20分（公式アクセス案内の目安）。",
+        "url": "https://www.daiwaroyalgolf.jp/cypres_cc/access.html",
+        "checked": "2026-10-25",
+        "basis": "施設公式アクセスを個別照合。Primary林間田園都市駅taxi約20分, corroborated official FAQ too, vs current15分.",
+        "sourceType": "official"
+      },
+      "confirmedScope": "旧segmentの林間田園都市駅からタクシー約20分。本文は大阪方面の電車案内。JR五条駅10分は既レビューで除外。",
+      "remainingUnverifiedScope": [
+        "混雑・配車・運賃・当日の所要時間保証なし。旧access.htmlは今回取得せず、保存homepageによる別確認。"
+      ],
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://www.daiwaroyalgolf.jp/cypres_cc/",
+      "sourceBodySha256": "87e7beb89dd7f484a0247f15c94a4a3c50593aa6906ffb745d3284fed863f655",
+      "sourceAcquiredAtUtc": "2026-10-30T05:37:47.858542+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T05:37:41.919985+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:00.884934+00:00",
+      "identityScope": "Dedicated name and 奈良県五條市木ノ原町963番地.",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 53,
+      "name": "木更津東カントリークラブ",
+      "field": "scenery",
+      "comparedExistingValue": {
+        "text": "亀山湖畔の自然に囲まれたコース。入口を彩る花木や、池越えとなる17番の景色が見どころです。",
+        "url": "https://www.resol-golf.jp/kisarazuhigashi/concept/",
+        "checked": "2026-10-24",
+        "basis": "公式:亀山湖畔、花木入口、高台、17番池越え景観"
+      },
+      "selectedExistingSegment": {
+        "text": "亀山湖畔の自然に囲まれたコース。入口を彩る花木や、池越えとなる17番の景色が見どころです。",
+        "url": "https://www.resol-golf.jp/kisarazuhigashi/concept/",
+        "checked": "2026-10-24",
+        "basis": "公式:亀山湖畔、花木入口、高台、17番池越え景観"
+      },
+      "confirmedScope": "旧文第一文の亀山湖周辺の自然環境だけ。湖畔の桜/四季とその丘陵地で自然と同居する当施設という明文による限定支持。",
+      "remainingUnverifiedScope": [
+        "旧入口花木・17番池越えは保存homepageの本文で確認できない。すべてのホールで湖が見える、眺望や天候保証とはしない。旧concept URL未取得。"
+      ],
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://www.resol-golf.jp/kisarazuhigashi/",
+      "sourceBodySha256": "f5c6f0fdc7688eb791d9de8e893f27d86023227439a623eef07ac80d319bd456",
+      "sourceAcquiredAtUtc": "2026-10-30T05:37:27.342541+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T05:37:18.237056+00:00",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:00.884959+00:00",
+      "identityScope": "Dedicated name and 千葉県君津市川俣346-2.",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 212,
+      "name": "河口湖カントリークラブ",
+      "field": "play",
+      "comparedExistingValue": {
+        "text": "27ホール・パー108・林間コース・適度なアップダウン。設計：ロバート・ボーン・ヘギー。練習場は280ヤード・23打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190011/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "confirmedScope": "旧playの27ホールという総ホール数だけを施設公式の専用本文で限定照合。",
+      "remainingUnverifiedScope": "旧パー108、林間/アップダウン、設計者の実名、練習場280ヤード23打席はこの保存本文だけでは再確認できない。新rail/busとcar追加は対象外。設計表現の愛称だけから実名同定しない。",
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://kcc.tatemono-golf.com/",
+      "sourceBodySha256": "942ee531bb5007ad3a937ba6dbd398d38143768a4a1a919cf0e271ef8f0ff600",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:31.393112+00:00",
+      "identityScope": "専用河口湖CC、富士河口湖町船津6236番地/0555-73-2611。",
+      "selectedExistingSubtext": "27ホール",
+      "sourceAcquiredAtUtc": "2026-10-30T05:51:16.752923+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T05:51:07.766757+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 88,
+      "name": "多摩川ゴルフ倶楽部",
+      "field": "play",
+      "comparedExistingValue": {
+        "text": "多摩川河川敷の9ホールショートコース。",
+        "url": "https://tamagawagolfclub.com/facilities/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "confirmedScope": "旧playの多摩川河川敷・9ホール・ショートコースという構成を、専用紹介文とヤード表の1～9列で限定照合。",
+      "remainingUnverifiedScope": "旧checked2026-10-22〜23/type欠落は改変しない。新start時間はschemahold別研究で今回再検証しない。営業状況/料金/予約枠/安全を保証しない。scenery欄の同義範囲は二重計上しない。",
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://tamagawagolfclub.com/facilities/",
+      "sourceBodySha256": "8c7ac97123fa2dac3ef069011c703264a8bb0bcace9348d73408241c85375b1d",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:31.397589+00:00",
+      "identityScope": "専用多摩川ゴルフ倶楽部、ショートコース住所川崎市中原区上丸子山王町1-1525地先。",
+      "selectedExistingSubtext": "多摩川河川敷の9ホールショートコース。",
+      "sourceAcquiredAtUtc": "2026-10-30T05:51:05.766132+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T05:50:49.243490+00:00",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 1794,
+      "name": "宮崎サンシャインカントリークラブ",
+      "field": "play",
+      "comparedExistingValue": {
+        "text": "自然の起伏を取り入れた18ホールの丘陵コース。",
+        "url": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+        "checked": "2026-10-25",
+        "basis": "施設公式・県公式観光案内を確認し要約"
+      },
+      "confirmedScope": "旧playの自然地形を生かす18ホール丘陵コースという説明を県公式観光サイト専用本文で限定照合。",
+      "remainingUnverifiedScope": "施設officialへの昇格なし。旧basisの施設公式も確認という範囲を今回支持したとはしない。tourism保存10/29UTCを現在営業/地形改修なし保証にしない。駅/空港時間と新play追加は対象外。観光サイトの情報変更注意を保持。",
+      "sourceTypeForThisReviewOnly": "tourism",
+      "sourceUrl": "https://www.kanko-miyazaki.jp/golf_surfing/1160",
+      "sourceBodySha256": "7fecba4406d0a8c6947558a0db806e48c09e9070a357d1d47178aff5118a4fe2",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:31.410820+00:00",
+      "identityScope": "専用宮崎サンシャインCC、宮崎市佐土原町東上那珂11538-1/0985-74-3636。issuer県観光協会/県担当課、関連facilitycards除外。",
+      "selectedExistingSubtext": "自然の起伏を取り入れた18ホールの丘陵コース。",
+      "sourceAcquiredAtUtc": "2026-10-29T15:12:57.476630+00:00",
+      "sourceRequestStartedAtUtc": null,
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
+    },
+    {
+      "id": 1728,
+      "name": "東都飯能カントリー倶楽部",
+      "field": "car",
+      "comparedExistingValue": {
+        "text": "青梅ICから約15分。",
+        "url": "https://www.toto-motors.co.jp/golf/hanno/access.htm",
+        "checked": "2026-10-24",
+        "basis": "公式サイト本文・公式案内図で確認"
+      },
+      "confirmedScope": "旧carの青梅IC起点約15分という所要時間のみを専用homepage本文で限定照合。",
+      "remainingUnverifiedScope": "原文に車の単語は当句にないため新モードを追加しない。経路/距離/渋滞/現在通行状況は不明。oldsourceaccess.htm自体を今回取得したとの主張なし。新18H/P72、旧ゴンドラ故障/練習場閉鎖/再開を今回再確認しない。",
+      "sourceTypeForThisReviewOnly": "official",
+      "sourceUrl": "https://www.toto-motors.co.jp/golf/hanno/",
+      "sourceBodySha256": "9ef285de180e57c5f55c4a93480a9805d4a5bc598fe7be63a17d35301e4043e2",
+      "sourceCheckedDateJst": "2026-10-30",
+      "reviewedAtUtc": "2026-10-30T06:39:31.414563+00:00",
+      "identityScope": "専用東都飯能CC title飯能市/電話042-977-2200、現専用URL。同本文に番地なし、住所全体未検証。",
+      "selectedExistingSubtext": "青梅ICから約15分。",
+      "sourceAcquiredAtUtc": "2026-10-30T04:46:33.194748+00:00",
+      "sourceRequestStartedAtUtc": "2026-10-30T04:46:28.469191+00:00",
+      "acquisitionHistoryNote": "Saved body belongs to bounded historical technical-failure eligibility coverage incident; this local factual comparison does not retroactively authorize acquisition.",
+      "publicCorrectionIncrement": 0,
+      "fullFieldVerified": false,
+      "fullFacilityVerified": false,
+      "publicationMetadataChanged": false,
+      "sourceDateRefreshed": false,
+      "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+      "verificationGranularity": "specified_existing_fact_only"
     }
   ],
-  "unchangedFieldReviewCount": 50,
+  "unchangedFieldReviewCount": 71,
   "unchangedNumericTimeFieldReviews": [
     {
       "id": 386,
@@ -16613,14 +18401,28 @@
     "unionFields": 49,
     "queueSnapshotCaveat": "The historical queue hash differed from later queue bytes; exact26targetvalues and archivedsource hashes were checked. Original snapshot preserved, no currentqueue completeness claim."
   },
-  "snapshotDataCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+  "snapshotDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
   "latestPublicationScope": {
-    "commit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
-    "fields": 1,
-    "facilities": 1,
+    "commit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+    "fields": 6,
+    "facilities": 3,
+    "newUniqueFields": 6,
+    "newUniqueFacilities": 2,
     "checkedDatesPreserved": true,
     "allChangedFieldsBrowserViewed": true,
-    "fullFacilityVerification": false
+    "fullFacilityVerification": false,
+    "targetedVerificationOnly": true,
+    "fullFiveAssetsBytePass": false,
+    "unverified": [
+      "full index.html bytes after two timeouts",
+      "find.html bytes and current public UI",
+      "guts-analytics.js bytes for this deployment",
+      "access.js bytes for this deployment",
+      "OG current public observation",
+      "mobile",
+      "normal interpage navigation",
+      "external links/PDF"
+    ]
   },
   "preservedTimeScopeOverlayBaseDataCommit": "ccdeb02f0d90b1187619620ff21a1f6fadc8c221",
   "latestSeparateUnpublishedCandidates": {
@@ -16631,14 +18433,14 @@
     "optionalUrlImprovementsSeparate": 4
   },
   "latestMechanicalCoverageSnapshot": {
-    "dataCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
+    "dataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
     "comparisonCells": 12600,
-    "nonempty": 8993,
-    "empty": 3607,
+    "nonempty": 9000,
+    "empty": 3600,
     "officialUrlMissing": 78,
-    "definition": "Textpresence only, not accuracy or overallcompletion."
+    "definition": "Text presence only; not factual accuracy or overall completion."
   },
-  "publicVerificationSummary": "Publishedfield counts require exact commit Pages success, public data match, and representative browser checks. No all-facility/all-field certification.",
+  "publicVerificationSummary": "Counts reflect scoped verified public changes, not whole-facility completion. Verification limits are retained per row. Latest PR3 has exact Pages head, full public DATA bytes and all six affected guide fields verified; full index bytes timed out twice and other listed asset/UI/mobile checks remain unverified.",
   "historicalNumericTimePoolSnapshots": [
     {
       "publicDataCommit": "ccdeb02f0d90b1187619620ff21a1f6fadc8c221",
@@ -16690,119 +18492,193 @@
   ],
   "snapshotStatusScope": "Reflects verified public data snapshot; documentation deployment not presumed before commit.",
   "unchangedFieldReviewCountScope": "Scoped field reviews only, includes partial checks. Separate from changed-field counters and separate numeric-time review list; not wholefacility count.",
+  "lastVerifiedInventoryDeployment": {
+    "commit": "6be62182905d082b2daaa17958ad0fbe19f30a8f",
+    "path": "docs/factual-audit-inventory.json",
+    "pagesRun": 41001589053,
+    "publishedUniqueFieldsInSnapshot": 725,
+    "publishedUniqueFacilitiesInSnapshot": 451,
+    "proposalsListedSeparately": 2,
+    "scope": "PR1 merged snapshot preserves725 published fields and2 separately marked proposals. PR1 facts now verified separately in receipt; inventory file itself not726 snapshot."
+  },
+  "acquisitionEligibilityIncident": {
+    "status": "bounded_review_closed_with_scope_limits_and_explicit_prospective_research_decisions",
+    "newHttpAndDependentPublicationStopped": false,
+    "distinction": "Recorded historical connection/transfer failures were omitted from some acquisition eligibility checks. These are not automatically access-permission denials. Source factual support and already verified publication are reviewed separately; no automatic rollback.",
+    "countsMeaning": "Counts describe unique fields actually changed and formally displayed; they do not certify all facility facts or resolution of acquisition eligibility review.",
+    "knownInitialRequestedUrlMatches": 25,
+    "scopeMayExpandAfterExactRedirectChainReview": false,
+    "fullFacilityCompletionClaimed": false,
+    "automaticRollbackPerformed": false,
+    "initialPauseOccurred": true,
+    "boundedReview": {
+      "ordinaryRequests": 73,
+      "separateParentWebObservations": 2,
+      "historicalTechnicalFailureMatches": 25,
+      "priorExplicitDenialMatchesAmong25": 0,
+      "publishedChangedFieldsMatched": 12,
+      "localSavedContentIndependentPasses": 2,
+      "newSegmentContradictionsDetected": 0,
+      "notAllHistoryOrAllFactsVerified": true
+    },
+    "scopeLimit": "Conclusions are limited to the specified request cohort and exact event matching.13 affected requests have no matched published changed field in the model; this is not a universal no-impact claim.",
+    "futureReadPolicy": "No blanket authorization from past200 or absent history. Mandatory original registry/hash and known denial records, exact ID/URL/object binding. Explicit denials are not retried. Historical technical-failure revisits require specific prospective decisions.",
+    "retroactiveAuthorizationClaimed": false,
+    "updatedAtUtc": "2026-10-30T05:54:07.934834+00:00"
+  },
+  "latestNonEditScopeReview": {
+    "currentDataCommit": "102fa17bd756e7fc9d87e4e9ac9e1bcbea03793b",
+    "attemptedScopes": 10,
+    "supportedPartialScopes": 8,
+    "insufficientScopes": 2,
+    "publicCorrectionIncrement": 0,
+    "oldDatesRefreshed": false,
+    "newHttp": 0,
+    "fullFieldOrFacilityCompletion": false,
+    "reviewedAtUtc": "2026-10-30T06:42:24.093268+00:00"
+  },
   "draftProposedFieldChanges": [
     {
-      "id": 48,
-      "name": "真名カントリークラブ ゲーリー・プレーヤーコース",
+      "id": 84,
+      "name": "ダイナミックゴルフ千葉",
       "field": "play",
-      "status": "draft_proposal_only_not_deployed_not_browser_verified",
-      "alreadyHasPublishedFieldReview": false,
-      "countsAsNewUniqueFieldOnlyIfPublishedVerified": true,
       "before": {
-        "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。",
-        "url": "https://www.mannacc.com/restaurant/gp-grill",
+        "text": "9ホール・パー27のショートコース。6ホールに照明を完備。",
+        "url": "https://dynamic-golf.jp/",
         "checked": "2026-10-22〜23",
         "basis": "既存掲載情報を項目別に確認"
       },
-      "proposedAfter": {
-        "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。 公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。",
-        "url": "https://www.mannacc.com/restaurant/gp-grill",
+      "after": {
+        "text": "9ホール・パー27のショートコース。6ホールに照明を完備。 公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。",
+        "url": "https://dynamic-golf.jp/",
         "checked": "2026-10-22〜23",
         "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
         "sourceType": "mixed",
         "evidenceSegments": [
           {
-            "text": "遠方の九十九里を望むコース。詳しい起伏やレイアウトの比較情報は未確認。",
-            "url": "https://www.mannacc.com/restaurant/gp-grill",
+            "text": "9ホール・パー27のショートコース。6ホールに照明を完備。",
+            "url": "https://dynamic-golf.jp/",
             "checked": "2026-10-22〜23",
             "basis": "既存掲載情報を項目別に確認",
             "sourceType": "legacy_unclassified"
           },
           {
-            "text": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。",
-            "url": "https://www.mannacc.com/course/gp-course",
+            "text": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。",
+            "url": "https://dynamic-golf.jp/chiba/",
             "checked": "2026-10-30",
             "sourceType": "official",
-            "basis": "GPコース専用本文の総ホール数・グリーンと第一打OB時の案内を確認。"
+            "basis": "千葉店の休業日と季節別コース最終受付を確認。"
           }
         ]
       },
-      "scope": "公式コース案内では、18ホール・ベントグリーンです。第一打がOBの場合は、前方の特設ティーを利用するよう案内しています。 GP course only, not combinedoperatorholecount. No unconditional cart fairway access guarantee, no penalty/strokecount inference, no tee unspecified yard figure. Prior detailedlayout uncertainty not treated as fully resolved. Old field text/date/url/basis retained; new selected condition scope only. Legacy source label/date range preserved as legacy_unclassified in exactly this48play tuple; no claim of old fact reverification.",
+      "scope": "公式案内では、元旦を除いて無休です。コースの最終受付は、夏季（3月～12月中旬）・冬季（12月下旬～2月）とも20時です。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "status": "draft_proposed_not_published",
+      "includedInPublishedCounts": false,
       "sourceEvidence": {
-        "requestedUrl": "https://www.mannacc.com/course/gp-course",
+        "requestedUrl": "https://dynamic-golf.jp/chiba/",
+        "startedAtUtc": "2026-10-30T04:08:38.111781+00:00",
         "checkedJst": "2026-10-30",
         "httpStatus": 200,
-        "finalUrl": "https://www.mannacc.com/course/gp-course",
-        "bytes": 23558,
-        "sha256": "330df1b263e86030a63e93e488995e7be850e4bea097676328248879f82b0458",
-        "completedAtUtc": "2026-10-30T03:27:09.794202+00:00",
+        "finalUrl": "https://dynamic-golf.jp/chiba/",
+        "sha256": "4502395f0490e50cfea4198ceff8efeec487c6a364b7ac77722592948578ad40",
+        "completedAtUtc": "2026-10-30T04:08:43.678153+00:00",
         "sourceType": "official"
       }
     },
     {
-      "id": 1327,
-      "name": "グリーンランドリゾートゴルフクラブ",
-      "field": "car",
-      "status": "draft_proposal_only_not_deployed_not_browser_verified",
-      "alreadyHasPublishedFieldReview": true,
-      "countsAsNewUniqueFieldOnlyIfPublishedVerified": false,
+      "id": 85,
+      "name": "ダイナミックゴルフ成田",
+      "field": "play",
       "before": {
-        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
-        "url": "https://www.greenland.co.jp/golf/grgc/",
-        "checked": "2026-10-30",
-        "sourceType": "official",
-        "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+        "text": "パー4を2ホール含む全12ホールのミッドコース。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
       },
-      "proposedAfter": {
-        "text": "公式のアクセス案内では、南関インターチェンジから約20分です。 NEXCO西日本は、南関料金所を2025年3月17日0時からETC専用とし、ETC車載器を搭載していない車両は利用できないと公表しています。",
-        "url": "https://www.greenland.co.jp/golf/grgc/",
-        "checked": "2026-10-30",
+      "after": {
+        "text": "パー4を2ホール含む全12ホールのミッドコース。 公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
         "sourceType": "mixed",
-        "basis": "各文の出典・確認日は個別根拠。既存の施設所要時間を今回再照合したものではありません。",
         "evidenceSegments": [
           {
-            "text": "公式のアクセス案内では、南関インターチェンジから約20分です。",
-            "url": "https://www.greenland.co.jp/golf/grgc/",
-            "checked": "2026-10-30",
-            "sourceType": "official",
-            "basis": "施設専用ACCESS本文にあるIC起点の所要時間を確認。"
+            "text": "パー4を2ホール含む全12ホールのミッドコース。",
+            "url": "https://dynamic-golf.jp/",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
           },
           {
-            "text": "NEXCO西日本は、南関料金所を2025年3月17日0時からETC専用とし、ETC車載器を搭載していない車両は利用できないと公表しています。",
-            "url": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
+            "text": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。",
+            "url": "https://dynamic-golf.jp/narita/",
             "checked": "2026-10-30",
-            "sourceType": "nexco_west",
-            "basis": "NEXCO西日本の2024年12月13日公表文の保存された抽出記録で、南関の適用日時とETC車載器なし利用不可の条件のみ確認。"
+            "sourceType": "official",
+            "basis": "成田店の休業日とコース最終スタートの変動条件を確認。"
           }
         ]
       },
-      "scope": "Retain facility20minute statement exact/source/date. Separate roadoperator announcement: Nankan ETC-only from2025-03-17 00:00 and noETC-device vehicle exclusion only. Not course-time/alternativeIC/currentincident/PDF verification. Captured web-extraction artifact hash is not originHTML hash; originHTTPstatus not verified.",
+      "scope": "公式案内では、元旦を除いて無休です。コースの最終スタートは日没の1時間30分～2時間前で、季節・混雑状況・プレー人数などにより異なります。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "status": "draft_proposed_not_published",
+      "includedInPublishedCounts": false,
       "sourceEvidence": {
-        "url": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
-        "finalUrl": "https://corp.w-nexco.co.jp/newly/release/2024/12/corporate-release-hq-r6-1213.html",
-        "sha256": "ee8c289f58c07eee080fc952074547670daa23970e47e6cf0cf08aae4cb04425",
+        "requestedUrl": "https://dynamic-golf.jp/narita/",
+        "startedAtUtc": "2026-10-30T04:08:45.776319+00:00",
         "checkedJst": "2026-10-30",
-        "sourceType": "nexco_west",
-        "retrievedAtUtc": "2026-10-30T03:37:27Z",
-        "observationTimePrecision": "tool completion reminder, seconds approximate",
-        "representation": "saved_web_tool_text_extraction_observation_JSON",
-        "hashMeaning": "SHA256 of saved extraction-observation JSON only; not original HTML/HTTP response",
-        "originHttpStatusVerified": false,
-        "rawHtmlRetained": false,
-        "sourcePageDate": "2024-12-13"
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/narita/",
+        "sha256": "be9104d22bdbef7d4b0ae43bf68c6d18096483d313cd48d405714728b168c2b8",
+        "completedAtUtc": "2026-10-30T04:08:48.628410+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 86,
+      "name": "ダイナミックゴルフ茂原",
+      "field": "play",
+      "before": {
+        "text": "9ホール・パー27のショートコース。全ホールに照明を完備。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "既存掲載情報を項目別に確認"
+      },
+      "after": {
+        "text": "9ホール・パー27のショートコース。全ホールに照明を完備。 公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。",
+        "url": "https://dynamic-golf.jp/",
+        "checked": "2026-10-22〜23",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "9ホール・パー27のショートコース。全ホールに照明を完備。",
+            "url": "https://dynamic-golf.jp/",
+            "checked": "2026-10-22〜23",
+            "basis": "既存掲載情報を項目別に確認",
+            "sourceType": "legacy_unclassified"
+          },
+          {
+            "text": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。",
+            "url": "https://dynamic-golf.jp/mobara/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "茂原店の休業日と食事付きプランの最終受付条件を確認。"
+          }
+        ]
+      },
+      "scope": "公式案内では、元旦を除いて無休です。食事プランの最終受付は16時と案内しています。 旧本文・日付範囲・出典URLは保持し、legacy_unclassifiedは旧出典未分類を示すだけで事実再確認ではありません。",
+      "status": "draft_proposed_not_published",
+      "includedInPublishedCounts": false,
+      "sourceEvidence": {
+        "requestedUrl": "https://dynamic-golf.jp/mobara/",
+        "startedAtUtc": "2026-10-30T04:08:50.728382+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://dynamic-golf.jp/mobara/",
+        "sha256": "a5c829805db0498ebdf802f62afdd69e6321ad9ef4eb317ec9083373a1ca54db",
+        "completedAtUtc": "2026-10-30T04:08:53.370998+00:00",
+        "sourceType": "official"
       }
     }
   ],
-  "draftProposalScope": {
-    "baseDataCommit": "26b91c5f419a73a3f7afb3952258793870a2c0e4",
-    "proposedFields": 2,
-    "proposedFacilities": 2,
-    "newUniqueFieldsIfVerified": 1,
-    "newUniqueFacilitiesIfVerified": 1,
-    "proposedChangesExcludedFromPublishedCounts": true,
-    "mergeApprovalGranted": false,
-    "publicationVerificationComplete": false,
-    "excludedOrdinarySix": true,
-    "sourceHashMeaning": "NEXCO evidence hash is the saved extracted observation JSON, not raw origin HTML or HTTP response."
-  }
+  "draftProposalScope": "3限定play補完とexact legacy tuple互換。公開480施設769項目は変更せず、3候補は未公開として別枠。PR3の限定公開検証・fullFiveAssetsBytePass=falseを保持。"
 }
