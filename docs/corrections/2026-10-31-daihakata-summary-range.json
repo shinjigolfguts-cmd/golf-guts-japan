@@ -1,0 +1,37 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "69318700266281f3519ec8899047a1a3114b7590",
+  "inputSha256": "d3b3a7ddffbb0d11a14400455a76de8d3f03e86f5c34c0e7b2d9d91c30369316",
+  "outputSha256": "8a7824fded190a096e2095f6d7417aa4354ef9093af041f41421f92f7d19224f",
+  "scope": "Single top-level feature range correction for facility1301. PR18 updated detailed play but left the summary range sentence unchanged; this patch repairs only that omission. No code or other fields changed.",
+  "patches": [
+    {
+      "id": 1301,
+      "name": "大博多カントリー倶楽部",
+      "field": "feature",
+      "beforeExists": true,
+      "before": "27ホール・パー108・山岳コース・適度なアップダウン。設計：松山桂司。練習場は10ヤード・5打席の掲載。",
+      "after": "27ホール・パー108・山岳コース・適度なアップダウン。設計：松山桂司。公式施設案内では、ドライビングレンジは15ヤード・5打席で、無料です。",
+      "checked": "2026-10-31",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+        "httpStatus": 200,
+        "bytes": 141692,
+        "truncated": false,
+        "sha256": "47ca58984d4ea12c186d64c8294c3d8cc223ea869d3bbbb983fe166f689a76be",
+        "completedAtUtc": "2026-10-30T22:25:30.316248+00:00"
+      },
+      "correctionReview": {
+        "removedStatement": "練習場は10ヤード・5打席の掲載。",
+        "addedStatement": "公式施設案内では、ドライビングレンジは15ヤード・5打席で、無料です。",
+        "oldFullFeaturePreservedInBefore": true,
+        "remainingOldCourseTextUnchanged": true,
+        "comparisonPlayUntouched": true,
+        "currentOfficialFacilityRangeSupported": true,
+        "historicalErrorOrRenovationDateAsserted": false,
+        "fullFacilityVerified": false
+      }
+    }
+  ]
+}
