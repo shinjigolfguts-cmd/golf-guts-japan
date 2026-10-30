@@ -1,0 +1,36 @@
+{
+  "patchSetId": "rail203-station-car-times",
+  "parentSha": "17432bde9fc5e5d0bd7b938fc37f51054bd74d34",
+  "inputSha256": "d7d3dfbe6c179766fc89275db8e1770b1a1b8a2224996b0c184683a51122d784",
+  "outputSha256": "1be22615360c5e5e2ee1f4bc97d579cd5b9b5da6f46505d1c4f5110f878a3103",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 203,
+      "name": "八尾カントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR富山駅から車で約30分、JR越中八尾駅から車で約8分です。",
+        "url": "https://rfgr.jp/yatsuo/access/",
+        "checked": "2026-10-30",
+        "sourceType": "official",
+        "basis": "対象施設への駅別の車の所要時間を確認。"
+      },
+      "checked": "2026-10-30",
+      "scope": "JR富山駅とJR越中八尾駅を起点とした車の概算所要時間のみ。タクシー・送迎運行条件や料金へ変換しない。後続の2013年航空路情報とはHTML上の別項目で、古い航空便や現在営業保証を採用しない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://rfgr.jp/yatsuo/access/",
+        "startedAtUtc": "2026-10-30T05:49:56.357470+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://rfgr.jp/yatsuo/access/",
+        "sha256": "6f8eac2c37ba04c1c3d12c24cdbb6d357ea85f1985fd9b32bad7badcd074b6f9",
+        "bytes": 43653,
+        "completedAtUtc": "2026-10-30T05:50:09.279924+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
