@@ -1,0 +1,109 @@
+{
+  "patchSetId": "2026-10-30-two-access-restaurant-opening-scopes",
+  "parentSha": "5d9b08ace3f51d4b97810aa02663923642fd6f72",
+  "inputSha256": "e2a33da43bf9e5aa036c16aae10e1b38e761d9d733c3ed1957cbfb50aec31624",
+  "outputSha256": "201ff4a77d0aa808629ebf8e5e29067cbb2bc9c11d72897f03f22c12867a2b12",
+  "scope": "保存済み成功取得資料に基づく対象項目のみの限定補完。旧出典・日付・条件を保持。変更不要の部分照合は変更数に含めません。全施設全項目確認ではありません。",
+  "changes": [
+    {
+      "id": 736,
+      "name": "霧島ゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・溝辺鹿児島空港ICから20km以内／九州自動車道・横川ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/460018/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・溝辺鹿児島空港ICから20km以内／九州自動車道・横川ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式の高速道路利用案内では、福岡・熊本方面からは九州自動車道・横川ICから約20分、宮崎方面からは宮崎自動車道・高原ICから約45分、鹿児島市内からは溝辺鹿児島空港ICから約25分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/460018/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・溝辺鹿児島空港ICから20km以内／九州自動車道・横川ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/460018/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の高速道路利用案内では、福岡・熊本方面からは九州自動車道・横川ICから約20分、宮崎方面からは宮崎自動車道・高原ICから約45分、鹿児島市内からは溝辺鹿児島空港ICから約25分です。",
+            "url": "https://kirishima-gc.or.jp/access",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "方面別の指定ICから当施設までの所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式の高速道路利用案内では、福岡・熊本方面からは九州自動車道・横川ICから約20分、宮崎方面からは宮崎自動車道・高原ICから約45分、鹿児島市内からは溝辺鹿児島空港ICから約25分です。 旧本文・出典・日付は保持し再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kirishima-gc.or.jp/access",
+        "startedAtUtc": "2026-10-30T04:52:18.146099+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kirishima-gc.or.jp/access",
+        "bytes": 5223,
+        "sha256": "adf070663a5dcb7adaff80a9f2bb9a716f41139ed70cd2a178aba2c488a68c87",
+        "completedAtUtc": "2026-10-30T04:52:21.997517+00:00",
+        "sourceType": "official"
+      }
+    },
+    {
+      "id": 1734,
+      "name": "鎌倉パブリックゴルフ場",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "公式メニューに「大海老の鎌倉丼」を掲載。「三崎マグロ丼」などの和食も選べます。",
+        "url": "https://kamakura-pg.com/facility/restaurant/",
+        "checked": "2026-10-24",
+        "basis": "公式サイトの本文を確認",
+        "dish": "大海老の鎌倉丼"
+      },
+      "after": {
+        "text": "公式メニューに「大海老の鎌倉丼」を掲載。「三崎マグロ丼」などの和食も選べます。 公式クラブ概要では、レストランは6時30分開場と案内しています。",
+        "url": "https://kamakura-pg.com/facility/restaurant/",
+        "checked": "2026-10-24",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "dish": "大海老の鎌倉丼",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "公式メニューに「大海老の鎌倉丼」を掲載。「三崎マグロ丼」などの和食も選べます。",
+            "url": "https://kamakura-pg.com/facility/restaurant/",
+            "checked": "2026-10-24",
+            "basis": "公式サイトの本文を確認",
+            "dish": "大海老の鎌倉丼",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式クラブ概要では、レストランは6時30分開場と案内しています。",
+            "url": "https://kamakura-pg.com/about/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "クラブ概要の施設開場欄からレストランの開場時刻だけを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "公式クラブ概要では、レストランは6時30分開場と案内しています。 旧本文・出典・日付は保持し再確認していない。 新しい料理名・提供開始時刻・全日営業保証ではなく、掲載レストラン開場時刻のみ。",
+      "sourceEvidence": {
+        "requestedUrl": "https://kamakura-pg.com/about/",
+        "startedAtUtc": "2026-10-30T04:52:44.692832+00:00",
+        "checkedJst": "2026-10-30",
+        "httpStatus": 200,
+        "finalUrl": "https://kamakura-pg.com/about/",
+        "bytes": 50597,
+        "sha256": "8f5cee4e760ab34d4a38c4f490ac36cf2b974d76437d2ee98c3c9cd10a78ebc7",
+        "completedAtUtc": "2026-10-30T04:52:53.185942+00:00",
+        "sourceType": "official"
+      }
+    }
+  ]
+}
