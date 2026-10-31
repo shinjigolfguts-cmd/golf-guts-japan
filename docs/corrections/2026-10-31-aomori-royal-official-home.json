@@ -1,0 +1,54 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "6963b97327bc879e53079a88ca5102556356ece5",
+  "inputSha256": "1862fbec166db13905d5b9893dd6d776a6a3ef37b4da41f2875754363f82052f",
+  "outputSha256": "a8ab5ad44cf979b287cfcd3c0444c7829393ac043a37bd7b46c8e7ceebc04f73",
+  "scope": "Only ID378 facility official HOME URL; all prior facts/dates unchanged. Legal corporate identity and www host unverified.",
+  "patches": [
+    {
+      "id": 378,
+      "name": "青森ロイヤルゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://a-royalgolf.com/",
+      "checked": "2026-10-31",
+      "scope": "施設公式HOME URLのみ。専用名・大鰐町の掲載住所電話・現在レコード地域・実HOMEリンクとnon-www canonicalを照合。法人法的名称や他の施設事実は未確認。",
+      "limits": [
+        "施設専用HOMEの名称・掲載住所電話・現レコード地域・canonicalと実HOMEリンクを照合した限定同定。法人運営主体の法的名称・登記・ドメイン所有権は未確認。",
+        "デイリー社グループの施設一覧に自施設が掲載されるが、そのグループ紹介を当ゴルフ場運営法人の法的名称に置き換えない。",
+        "og:urlはnon-wwwとwwwの2値が併存。実取得200/finalURL・canonical・HOMEhrefはnon-www一致。www側へ取得せず、両host同一到達を保証しない。",
+        "旧アクセス時間・料理・料金・営業状態・予約条件は今回更新または再確認しない。",
+        "実ブラウザ画面や外部リンク遷移、予約・ログイン・法人資料照合は実施していない。"
+      ],
+      "identity": {
+        "dedicatedName": "青森ロイヤルゴルフクラブ",
+        "publishedAddress": "青森県南津軽郡大鰐町大字島田字滝ノ沢100番9号",
+        "publishedPhone": "0172-48-5555",
+        "regionalMatchToCurrentRecord": true,
+        "facilityOfficialSupported": true,
+        "legalOperatorIdentityConfirmed": false,
+        "groupPresentationObserved": "デイリー社グループ",
+        "canonicalUrls": [
+          "https://a-royalgolf.com/"
+        ],
+        "ogUrls": [
+          "https://a-royalgolf.com/",
+          "https://www.a-royalgolf.com/"
+        ],
+        "observedHomeHrefCount": 4
+      },
+      "sourceEvidence": {
+        "url": "https://a-royalgolf.com/",
+        "requestedUrl": "https://a-royalgolf.com/",
+        "finalUrl": "https://a-royalgolf.com/",
+        "httpStatus": 200,
+        "sha256": "c3a37815fb9aeaef31307164651bd471221542e05091d3c46a3c9d7905144463",
+        "bytes": 81049,
+        "truncated": false,
+        "capturedAtUtc": "2026-10-31T10:14:11.897153+00:00",
+        "checked": "2026-10-31"
+      }
+    }
+  ]
+}
