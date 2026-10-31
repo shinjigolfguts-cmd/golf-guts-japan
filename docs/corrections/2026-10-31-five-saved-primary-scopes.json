@@ -1,0 +1,250 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "3778ac2e69d0a2922795e97d0257f8e79e591474",
+  "inputSha256": "dc0f5c2121bebf25db7fdfd53a6f84f450bbf9dfe2f721ae6de76dd906247c69",
+  "outputSha256": "c5086316b2c8ca4c8233adf1f6b69dd689b8d9aeaf8ae12ed9875a9e94afb89b",
+  "scope": "Five saved-primary scoped supplements; capture dates preserved. No new source HTTP or code changes.",
+  "patches": [
+    {
+      "id": 704,
+      "name": "大分ななせゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "大分自動車道・大分光吉ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440015/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "大分自動車道・大分光吉ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式の車でのアクセス案内には、大分自動車道の光吉から20km・25分と掲載されています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440015/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "大分自動車道・大分光吉ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/440015/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式の車でのアクセス案内には、大分自動車道の光吉から20km・25分と掲載されています。",
+            "url": "https://oitananase-golf.com/access",
+            "checked": "2026-10-31",
+            "basis": "車のアクセス欄の光吉からの距離・時間を確認。原文にないIC名の補完や換算をしていない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "車のアクセス欄の光吉からの距離・時間を確認。原文にないIC名の補完や換算をしていない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://oitananase-golf.com/access",
+        "finalUrl": "https://oitananase-golf.com/access",
+        "httpStatus": 200,
+        "bytes": 4925,
+        "truncated": false,
+        "sha256": "2a9af91133b9b824cf1255d9c33b528ac77e0cc3b68c459816fa3bcdf7b920bc",
+        "completedAtUtc": "2026-10-30T23:39:56.646710+00:00"
+      }
+    },
+    {
+      "id": 719,
+      "name": "あつまるレークカントリークラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・松橋ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430033/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・松橋ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、松橋ICから3km・車で5分、熊本空港から30km・車で35分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430033/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・松橋ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430033/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、松橋ICから3km・車で5分、熊本空港から30km・車で35分です。",
+            "url": "https://atsumaru-golf-lake.jp/",
+            "checked": "2026-10-30",
+            "basis": "同施設アクセス欄の二つの起点と距離・車の時間を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-30",
+      "scope": "同施設アクセス欄の二つの起点と距離・車の時間を確認。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "sha256": "d63924d50b102aad8f9daa534e7edcd1e6a1fff8dbc2832c7f4b8127d91fab7d",
+        "bytes": 9811,
+        "httpStatus": 200,
+        "requestedUrl": "https://atsumaru-golf-lake.jp/",
+        "completedAtUtc": "2026-10-29T18:36:53.430611+00:00",
+        "captureCheckedJst": "2026-10-30",
+        "truncatedFlag": "not recorded in original metadata; byte count matches complete local saved HTML ending </html>; no absolute origin completeness claim"
+      }
+    },
+    {
+      "id": 719,
+      "name": "あつまるレークカントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、大小9つの池を配置しています。アウトはフラットなホールの間に起伏のあるコースを配し、インは池を効果的に配置した構成と案内されています。",
+        "url": "https://atsumaru-golf-lake.jp/",
+        "checked": "2026-10-30",
+        "basis": "公式コース紹介の池数とアウト・インの配置を要約。景観評価や各ホールからの眺望保証は含まない。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式コース紹介の池数とアウト・インの配置を要約。景観評価や各ホールからの眺望保証は含まない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "sha256": "d63924d50b102aad8f9daa534e7edcd1e6a1fff8dbc2832c7f4b8127d91fab7d",
+        "bytes": 9811,
+        "httpStatus": 200,
+        "requestedUrl": "https://atsumaru-golf-lake.jp/",
+        "completedAtUtc": "2026-10-29T18:36:53.430611+00:00",
+        "captureCheckedJst": "2026-10-30",
+        "truncatedFlag": "not recorded in original metadata; byte count matches complete local saved HTML ending </html>; no absolute origin completeness claim"
+      }
+    },
+    {
+      "id": 1340,
+      "name": "ワールドカントリー倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "当施設のフェアウェイ乗り入れ欄にある有料性と利用条件を確認。"
+          }
+        ]
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。 公式施設案内では、ドライビングレンジとキャディはありません。レンタルクラブ・レンタルシューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "当施設のフェアウェイ乗り入れ欄にある有料性と利用条件を確認。"
+          },
+          {
+            "text": "公式施設案内では、ドライビングレンジとキャディはありません。レンタルクラブ・レンタルシューズは有料で、数に限りがあるため事前の問い合わせが必要です。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+            "checked": "2026-10-31",
+            "basis": "施設設備欄のレンジ・キャディなし、レンタル有料性と数量制限・事前問合せ条件を確認。金額や在庫保証は追加しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "施設設備欄のレンジ・キャディなし、レンタル有料性と数量制限・事前問合せ条件を確認。金額や在庫保証は追加しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "httpStatus": 200,
+        "bytes": 141867,
+        "truncated": false,
+        "sha256": "39aa73722fd53dea2a7ad473b5fe7fc9f5f8c1498b06ba8675f408b46973e8d6",
+        "completedAtUtc": "2026-10-30T23:43:16.754135+00:00"
+      }
+    },
+    {
+      "id": 1340,
+      "name": "ワールドカントリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。昼食の案内時間は10:00～。朝食の提供はない。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。昼食の案内時間は10:00～。朝食の提供はない。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみで、スコアカードホルダーをかざして購入します。ただし、早朝スループレー・薄暮スループレーの利用者は現金のみです。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は10:00～。朝食の提供はない。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみで、スコアカードホルダーをかざして購入します。ただし、早朝スループレー・薄暮スループレーの利用者は現金のみです。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類・ホルダー決済と早朝/薄暮スルーの現金限定を確認。レストラン全体の営業/決済へ拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "コース内売店欄の飲料種類・ホルダー決済と早朝/薄暮スルーの現金限定を確認。レストラン全体の営業/決済へ拡張しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": "公開予約情報→booking only; same GDO booking attribution, old fulltuple retained",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "httpStatus": 200,
+        "bytes": 141867,
+        "truncated": false,
+        "sha256": "39aa73722fd53dea2a7ad473b5fe7fc9f5f8c1498b06ba8675f408b46973e8d6",
+        "completedAtUtc": "2026-10-30T23:43:16.754135+00:00"
+      }
+    }
+  ]
+}
