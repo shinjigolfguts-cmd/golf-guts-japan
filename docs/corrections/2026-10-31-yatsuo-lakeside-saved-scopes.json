@@ -1,0 +1,137 @@
+{
+  "scope": "Two saved-source comparison-field supplements only; prior full text/source/date retained; not complete facility verification.",
+  "baseCommit": "eb821a97dcbbdffca90cf3615baf97664e880f9d",
+  "inputSha256": "abd183d8447c73a9208fd6d4b32703ca6000891eec4e7ae741e906489982a953",
+  "outputSha256": "bc8afd2b34593653e87973158d322ecd91e4fb8dcb568a9cb1bd733b0ac69ff0",
+  "patches": [
+    {
+      "id": 1291,
+      "name": "福岡レイクサイドカントリークラブ",
+      "field": "play",
+      "before": {
+        "text": "18ホール・パー72・適度なアップダウン。設計：國場組。練習場は40ヤード・8打席の掲載。 公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400044/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・適度なアップダウン。設計：國場組。練習場は40ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400044/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+            "checked": "2026-10-31",
+            "basis": "当施設のキャディ欄にある利用条件を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "after": {
+        "text": "18ホール・パー72・適度なアップダウン。設計：國場組。練習場は40ヤード・8打席の掲載。 公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400044/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・適度なアップダウン。設計：國場組。練習場は40ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400044/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制で、人数に限りがあるため希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+            "checked": "2026-10-31",
+            "basis": "当施設のキャディ欄にある利用条件を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "当施設のフェアウェイ乗入れ欄にある有料性・組単位・天候等の制約だけを確認。通常プレー料金や他施設の禁止条件へ拡張しない。"
+          }
+        ]
+      },
+      "newScope": "未採用FWカート利用の有料性/組単位/天候等制約",
+      "limits": [
+        "原取得10/31JSTを保持。今11/1に再取得・営業再確認した扱いにしない。",
+        "公式掲載550円は追加しない。利用条件のみで通常料金・税条件の検証ではない。",
+        "683ショートホール乗入禁止を1291へ転用しない。",
+        "当日乗入れ可能を保証しない。"
+      ],
+      "checked": "2026-10-31",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+        "sha256": "1f68a90b99fc6689223687e6fffad2da0fc9d7bf59223a0895e27c2370220b85",
+        "manifestSha256": "f44a7d4521f51c09570d7f1f34466e18c713451efe651d2759cd827ec3cfea8e",
+        "capturedAtUtc": "2026-10-30T22:25:25.331508+00:00",
+        "checked": "2026-10-31"
+      }
+    },
+    {
+      "id": 203,
+      "name": "八尾カントリークラブ",
+      "field": "car",
+      "before": {
+        "text": "北陸自動車道・富山ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160016/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "北陸自動車道・富山ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。 公式アクセス案内では、北陸自動車道の富山ICから約15分、富山西ICから約20分、富山空港から車で約15分と案内しています。交通状況によって所要時間は変わります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160016/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "各文の出典・確認日は個別根拠。旧距離区分は今回一括再確認していません。",
+        "evidenceSegments": [
+          {
+            "text": "北陸自動車道・富山ICから10km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/160016/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式アクセス案内では、北陸自動車道の富山ICから約15分、富山西ICから約20分、富山空港から車で約15分と案内しています。交通状況によって所要時間は変わります。",
+            "url": "https://rfgr.jp/yatsuo/access/",
+            "checked": "2026-10-30",
+            "sourceType": "official",
+            "basis": "保存公式アクセス方法のIC起点2区間と空港からの車区間を個別照合。別項の2013年航空便やPDFは採用しない。"
+          }
+        ]
+      },
+      "newScope": "富山IC・富山西ICの概算所要時間と富山空港から車の時間。既公開rail駅起点時間とは別。",
+      "limits": [
+        "富山/越中八尾駅の既railは再計上しない。",
+        "2013年5月現在の航空便は別li。便数/飛行時間を一切採用しない。",
+        "PDF未読、ICまでの別都市区間/空港の飛行時間/タクシー/距離を推測しない。",
+        "旧10km区分から時間換算したものではなく別公式記載。"
+      ],
+      "checked": "2026-10-30",
+      "sourceEvidence": {
+        "url": "https://rfgr.jp/yatsuo/access/",
+        "sha256": "6f8eac2c37ba04c1c3d12c24cdbb6d357ea85f1985fd9b32bad7badcd074b6f9",
+        "manifestSha256": "970188ff08a31e22d771eac893016dfb6c57f81493c8f9606fadbfbd75fc0454",
+        "capturedAtUtc": "2026-10-30T05:50:09.279924+00:00",
+        "checked": "2026-10-30"
+      }
+    }
+  ],
+  "limits": [
+    "No new origin reads; original checked 203 2026-10-30 and 1291 2026-10-31 preserved.",
+    "1291 play is an existing reviewed key: supplemental evidence, not a new unique key.",
+    "No 550-yen price or other course restrictions adopted; no current availability guarantee.",
+    "203 2013 flight information and unread PDF excluded."
+  ]
+}
