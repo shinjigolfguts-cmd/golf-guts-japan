@@ -1,0 +1,79 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "529c673a914d643c5f1391b2fd5b053c3130d62b",
+  "inputSha256": "a17f6b7e1120eb1e1f33fdc5dfb5ac9a4168db30bbcbb2417a559d3a158a8251",
+  "outputSha256": "1862fbec166db13905d5b9893dd6d776a6a3ef37b4da41f2875754363f82052f",
+  "scope": "Only two facility-official HOME URL nulls; no other values or source dates changed. Legal corporate identity and whole-facility facts not confirmed. 378 excluded.",
+  "patches": [
+    {
+      "id": 377,
+      "name": "津軽高原ゴルフ場",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.tsugaru-gc.jp/",
+      "checked": "2026-10-31",
+      "scope": "施設公式HOME URLのみ。専用名・現在レコードの地域と掲載住所・電話・実HOMEリンク・canonicalを照合。法人名や他の施設事実は未確認。",
+      "limits": [
+        "施設専用の案内・住所・電話・ナビゲーションによる施設公式サイト分類であり、法人運営主体の法的名称・登記・ドメイン所有者までは確認していない。",
+        "旧ゴルフ場情報・料金・営業日・予約条件を再確認したものではない。",
+        "住所電話は当専用本文の掲載を確認し、電話発信や法人資料照合は行っていない。",
+        "会員専用画面・予約送信・追加URL・HTTP取得なし。"
+      ],
+      "identity": {
+        "dedicatedName": "津軽高原ゴルフ場",
+        "publishedAddress": "青森県平川市小国深沢18-42",
+        "publishedPhone": "0172-44-4111",
+        "regionalMatchToCurrentRecord": true,
+        "facilityOfficialSupported": true,
+        "legalOperatorIdentityConfirmed": false
+      },
+      "sourceEvidence": {
+        "requestedUrl": "https://www.tsugaru-gc.jp/",
+        "finalUrl": "https://www.tsugaru-gc.jp/",
+        "httpStatus": 200,
+        "sha256": "4019b124c522f356930dc83e4030b9a1047b5c139965dd6990edc1c3aff0f131",
+        "bytes": 344345,
+        "truncated": false,
+        "capturedAtUtc": "2026-10-31T03:33:38.133386+00:00",
+        "checked": "2026-10-31",
+        "manifestSha256": "c02b072c19c511877179c4e8e70fc7b083cc6d4ca18ac9ffb9c85b534d54af5c"
+      }
+    },
+    {
+      "id": 405,
+      "name": "上野原カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://uenoharacc.com/",
+      "checked": "2026-10-31",
+      "scope": "施設公式HOME URLのみ。専用名・現在レコードの地域と掲載住所・電話・実HOMEリンク・canonicalを照合。法人名や他の施設事実は未確認。",
+      "limits": [
+        "施設専用の案内・住所・電話・ナビゲーションによる施設公式サイト分類であり、法人運営主体の法的名称・登記・ドメイン所有者までは確認していない。",
+        "旧ゴルフ場情報・料金・営業日・予約条件を再確認したものではない。",
+        "住所電話は当専用本文の掲載を確認し、電話発信や法人資料照合は行っていない。",
+        "会員専用画面・予約送信・追加URL・HTTP取得なし。"
+      ],
+      "identity": {
+        "dedicatedName": "上野原カントリークラブ",
+        "publishedAddress": "山梨県上野原市上野原6887",
+        "publishedPhone": "0554-63-2525",
+        "regionalMatchToCurrentRecord": true,
+        "facilityOfficialSupported": true,
+        "legalOperatorIdentityConfirmed": false
+      },
+      "sourceEvidence": {
+        "requestedUrl": "https://uenoharacc.com/",
+        "finalUrl": "https://uenoharacc.com/",
+        "httpStatus": 200,
+        "sha256": "97d1e3d3371bbba833b911a1d53389c01a1d442378b60202d024e50217568d40",
+        "bytes": 52267,
+        "truncated": false,
+        "capturedAtUtc": "2026-10-31T03:33:52.310529+00:00",
+        "checked": "2026-10-31",
+        "manifestSha256": "7155177d6e5d29ae8e4db92c95fa6463be9cf38713d14ca422f0576cae7e2832"
+      }
+    }
+  ]
+}
