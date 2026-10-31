@@ -1,0 +1,106 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "0600bb5453279f62c1b12f3ba78ba4bea3de28a2",
+  "inputSha256": "59c3438c26af80de2b2593dc159f2e5f97b074e6d9ea6064c4b8a782b35bc8d1",
+  "outputSha256": "a17f6b7e1120eb1e1f33fdc5dfb5ac9a4168db30bbcbb2417a559d3a158a8251",
+  "scope": "Two facility-official HOME URLs and one null car field. Not full facility verification. No previous field/date changes.",
+  "patches": [
+    {
+      "id": 1280,
+      "name": "メキシコゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://www.mexico-golf.jp/",
+      "checked": "2026-10-31",
+      "scope": "施設公式HOME URLのみ。専用施設名・宇部地域・コース/練習場/併設店の施設全体案内と実HOMEリンクを照合。法人名・新住所番地・電話一致・料金・ホール数・営業現況を検証したものではない。",
+      "limits": [
+        "Operating company legal name and street address on new active text not established. No images inspected.",
+        "No canonical element asserted; supported HOME URL is actual observed navigation and final200 URL.",
+        "No new confirmation of 9 holes, course facts, prices, hours, current operational availability or contact correction.",
+        "This supports facility-official homepage classification, not a verified operating-company legal identity. If legal-company identity is mandatory, retain HOLD.",
+        "Existing play/date/source and all other fields must remain unchanged.",
+        "Only saved captures read; no network/browser/search/remote writes by reviewer."
+      ],
+      "telephoneFinding": {
+        "facilityHomeAndAccess": "0836-62-0570",
+        "savedGolfpartnerShop": "0836-62-0133",
+        "equal": false,
+        "interpretation": "No independent same-phone corroboration. Difference is not explained or overwritten; shop and whole-facility contact roles may differ but that explanation is not verified."
+      },
+      "sourceEvidence": [
+        {
+          "url": "https://www.mexico-golf.jp/information/",
+          "sha256": "eb1b14277553f47f82ca959b74738b16f03507833dc5ecdc45752e5a2bd1ef66",
+          "capturedAtUtc": "2026-10-31T02:31:57.324362+00:00",
+          "checked": "2026-10-31",
+          "metadataSha256": "f6137e3925ff414a78b0d7874e3966f48cbbf2cf05ce8393ba42f6387369ffd4"
+        },
+        {
+          "url": "https://www.mexico-golf.jp/",
+          "sha256": "17b68071982f2bf2b39a5adee6d6281056501f8cebee6210bd33d71d075166d1",
+          "capturedAtUtc": "2026-10-31T02:33:01.588090+00:00",
+          "checked": "2026-10-31",
+          "metadataSha256": "f1ddd5d559f686e11f55eae6619dc3dd5f6258794ea8bdb0e23cd7506fa20a25"
+        },
+        {
+          "url": "https://www.mexico-golf.jp/access/",
+          "sha256": "6c0501b180dfa5d8c350e92f3cd272ffc12711bac345f6f933efb4e0f94d56a2",
+          "capturedAtUtc": "2026-10-31T02:33:05.889189+00:00",
+          "checked": "2026-10-31",
+          "metadataSha256": "53f665d5b883128f4b21c8084c23e810dcfd31639727b7b43c4f32f87120c1c6"
+        }
+      ]
+    },
+    {
+      "id": 1280,
+      "name": "メキシコゴルフクラブ",
+      "field": "car",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、下関方面からは山陽自動車道・宇部ICを降り、国道490号を北上すると、国道2号との合流地点の約1km手前の右手と案内。広島方面からは山陽自動車道・山口南ICを降り、国道2号を下関方面へ進み、瓜生野交差点で国道490号へ左折し、約1km先で左折と案内。現在の道路状況・経路は利用前に確認。",
+        "url": "https://www.mexico-golf.jp/access/",
+        "checked": "2026-10-31",
+        "sourceType": "official",
+        "basis": "公式アクセス本文の方面別道順。約1kmは合流地点手前または瓜生野交差点からの区間であり、IC距離や所要時間ではない。現在の道路状況は未確認。"
+      },
+      "checked": "2026-10-31",
+      "scope": "NULLへの方面別の公式掲載道順補完。最後の左折と両方面の1km基準を保持、現道路状況/時間/IC距離を推定しない。",
+      "limits": [
+        "Saved official directions only; no independent present-road/road-name/IC verification.",
+        "No travel time or IC-to-facility distance inference.",
+        "No new claim of hours, prices or current operational availability.",
+        "No network/browser/remote writes."
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.mexico-golf.jp/access/",
+          "sha256": "6c0501b180dfa5d8c350e92f3cd272ffc12711bac345f6f933efb4e0f94d56a2",
+          "capturedAtUtc": "2026-10-31T02:33:05.889189+00:00",
+          "checked": "2026-10-31",
+          "metadataSha256": "53f665d5b883128f4b21c8084c23e810dcfd31639727b7b43c4f32f87120c1c6"
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "name": "十和田湖高原ゴルフクラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://towadako-gc.net/",
+      "checked": "2026-10-31",
+      "scope": "施設公式HOME URLのみ。施設所在地と冬期事務所を区別し、既存季節営業案内・各欄の旧日付は変更しない。",
+      "sourceEvidence": [
+        {
+          "url": "https://towadako-gc.net/",
+          "sha256": "068557356e8cad2d78a575dbf5b192b10f913036a6fd4dc894d468df91c15cc0",
+          "capturedAtUtc": "2026-10-31T02:42:05.391260+00:00",
+          "checked": "2026-10-31",
+          "metadataSha256": "13f8cfc4b61e12f73a65f9e931efb38fe51328b5745d691043739237585567b6"
+        }
+      ]
+    }
+  ]
+}
