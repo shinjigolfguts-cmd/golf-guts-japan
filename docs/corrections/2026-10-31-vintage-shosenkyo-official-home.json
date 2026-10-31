@@ -1,0 +1,109 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "c200bc462f36b8919dcf28257f5967ae8547e1dc",
+  "inputSha256": "7c31db721fcf8483e4477e7d2030fdba6a2ddf4a7442e27f423b835a18fa0f5c",
+  "outputSha256": "2a5826eb2e0ba2488e4bab827abb6298fbcfd9b094b88ca0de575a16e9982d1d",
+  "scope": "Two official HOME URLs only. No operating, pricing or legal operator verification.",
+  "patches": [
+    {
+      "id": 415,
+      "name": "シャトレーゼヴィンテージゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://vintage.chateraisegolf.jp/",
+      "checked": "2026-10-31",
+      "scope": "Facility official HOME identity only; no price, operation or legal-operator verification.",
+      "limits": [
+        "HOMEの施設名・現DATA地域・掲載住所電話・専用サイト構成による公式URL同定のみ。住所/電話をDATAへ追加変更しない。",
+        "CDNキャッシュ応答。取得日10/31はorigin当日更新/営業確認日を意味しない。料金・営業・当日告知・既存fee記述は再確認していない。",
+        "グループ表記と著作権帰属は確認。法的運営法人の正式名称・契約主体は当HOMEだけでは確定しない。",
+        "他リンク/予約/メンバー情報未取得。外部ブラウザ実画面未検証。",
+        "HOME official URL identification only; old fee references and existing facts not revalidated.",
+        "Receipt 10/31 is not proof origin updated 10/31 or current operating status.",
+        "Group and copyright attribution do not establish legal operating corporation/contracting entity.",
+        "Canonical omits trailing slash; no separate canonical GET was made.",
+        "Address/phone are observed on dedicated HOME; no independent full-address/phone corroboration or DATA additions.",
+        "No child links, booking, membership, external browser display, prices, route times or opening conditions validated."
+      ],
+      "identity": {
+        "titleExactCurrentName": "シャトレーゼヴィンテージゴルフ倶楽部",
+        "currentArea": "山梨県・北杜市",
+        "publishedAddress": "〒408-0103  山梨県北杜市須玉町江草3072",
+        "publishedPhone": "0551-42-1011",
+        "sameMunicipalityAsCurrentData": true,
+        "independentFullAddressTelephoneVerification": false,
+        "canonical": "https://vintage.chateraisegolf.jp",
+        "groupLabel": "シャトレーゼグループコース",
+        "copyright": "©CHATERAISE RESORT CO,. LTD. ALL RIGHTS RESERVED.",
+        "legalOperatorVerified": false,
+        "dedicatedFacilityNavigationPresent": true,
+        "priorObservedLinks": "Both saved 408 and 409 official HOME pages link by exact facility name."
+      },
+      "sourceEvidence": {
+        "url": "https://vintage.chateraisegolf.jp/",
+        "requestedUrl": "https://vintage.chateraisegolf.jp/",
+        "finalUrl": "https://vintage.chateraisegolf.jp/",
+        "httpStatus": 200,
+        "sha256": "613b8beeb7e190695780afca0aed7ef9c0812a8da6b2ac441cae1d7637c785f6",
+        "bytes": 30033,
+        "truncated": false,
+        "manifestSha256": "7177a6862e4c58a000130e9ace3e24895b605c812f9e8f070a6daddffe8b1b5b",
+        "capturedAtUtc": "2026-10-31T13:25:41.176856+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Sat, 31 Oct 2026 06:55:22 GMT",
+        "responseAge": "23419"
+      }
+    },
+    {
+      "id": 416,
+      "name": "昇仙峡カントリークラブ",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://shosenkyo.chateraisegolf.jp/",
+      "checked": "2026-10-31",
+      "scope": "Facility official HOME identity only; no price, operation or legal-operator verification.",
+      "limits": [
+        "HOMEの施設名・現DATA地域・掲載住所電話・専用サイト構成による公式URL同定のみ。住所/電話をDATAへ追加変更しない。",
+        "CDNキャッシュ応答。取得日10/31はorigin当日更新/営業確認日を意味しない。料金・営業・当日告知・既存fee記述は再確認していない。",
+        "グループ表記と著作権帰属は確認。法的運営法人の正式名称・契約主体は当HOMEだけでは確定しない。",
+        "他リンク/予約/メンバー情報未取得。外部ブラウザ実画面未検証。",
+        "HOME official URL identification only; old fee references and existing facts not revalidated.",
+        "Receipt 10/31 is not proof origin updated 10/31 or current operating status.",
+        "Group and copyright attribution do not establish legal operating corporation/contracting entity.",
+        "Canonical omits trailing slash; no separate canonical GET was made.",
+        "Address/phone are observed on dedicated HOME; no independent full-address/phone corroboration or DATA additions.",
+        "No child links, booking, membership, external browser display, prices, route times or opening conditions validated."
+      ],
+      "identity": {
+        "titleExactCurrentName": "昇仙峡カントリークラブ",
+        "currentArea": "山梨県・甲斐市",
+        "publishedAddress": "〒400-0121　山梨県甲斐市牛句3859",
+        "publishedPhone": "055-277-7611",
+        "sameMunicipalityAsCurrentData": true,
+        "independentFullAddressTelephoneVerification": false,
+        "canonical": "https://shosenkyo.chateraisegolf.jp",
+        "groupLabel": "シャトレーゼグループコース",
+        "copyright": "©CHATERAISE RESORT CO,. LTD. ALL RIGHTS RESERVED.",
+        "legalOperatorVerified": false,
+        "dedicatedFacilityNavigationPresent": true,
+        "priorObservedLinks": "Both saved 408 and 409 official HOME pages link by exact facility name."
+      },
+      "sourceEvidence": {
+        "url": "https://shosenkyo.chateraisegolf.jp/",
+        "requestedUrl": "https://shosenkyo.chateraisegolf.jp/",
+        "finalUrl": "https://shosenkyo.chateraisegolf.jp/",
+        "httpStatus": 200,
+        "sha256": "f24a0a9418e7476e84f7cb9c4b881ff7df2470e421e24ea40d851e8ff5aaaa47",
+        "bytes": 28028,
+        "truncated": false,
+        "manifestSha256": "e00c70785c61f8674e0a01bd49c34c700d40b5aa672f9bcaccb89c2bfff72bd8",
+        "capturedAtUtc": "2026-10-31T13:25:48.696781+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Fri, 30 Oct 2026 12:28:38 GMT",
+        "responseAge": "89830"
+      }
+    }
+  ]
+}
