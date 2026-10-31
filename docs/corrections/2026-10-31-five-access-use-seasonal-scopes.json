@@ -1,0 +1,214 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "050f8e3c2b4c60dbc692aef0efcdff36bc930f9c",
+  "inputSha256": "8a7824fded190a096e2095f6d7417aa4354ef9093af041f41421f92f7d19224f",
+  "outputSha256": "dc0f5c2121bebf25db7fdfd53a6f84f450bbf9dfe2f721ae6de76dd906247c69",
+  "scope": "Four limited supplements and one seasonal bathing-statement correction. No code or guard changes.",
+  "patches": [
+    {
+      "id": 719,
+      "name": "あつまるレークカントリークラブ",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR熊本駅から16km・車で25分、JR宇土駅から5km・車で8分です。",
+        "url": "https://atsumaru-golf-lake.jp/",
+        "checked": "2026-10-30",
+        "basis": "保存済み公式アクセス本文で、各駅からの距離と車の所要時間を同じ項目ごとに確認。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-30",
+      "scope": "公式アクセス案内では、JR熊本駅から16km・車で25分、JR宇土駅から5km・車で8分です。",
+      "sourceEvidence": {
+        "sha256": "d63924d50b102aad8f9daa534e7edcd1e6a1fff8dbc2832c7f4b8127d91fab7d",
+        "bytes": 9811,
+        "httpStatus": 200,
+        "requestedUrl": "https://atsumaru-golf-lake.jp/",
+        "completedAtUtc": "2026-10-29T18:36:53.430611+00:00",
+        "captureCheckedJst": "2026-10-30",
+        "truncatedFlag": "not recorded in original metadata; byte count matches complete local saved HTML ending </html>; no absolute origin completeness claim"
+      }
+    },
+    {
+      "id": 704,
+      "name": "大分ななせゴルフ倶楽部",
+      "field": "rail",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式アクセス案内では、JR日豊本線・大分駅からタクシーで約40分です。クラブバスは運行していません。",
+        "url": "https://oitananase-golf.com/access",
+        "checked": "2026-10-31",
+        "sourceType": "official",
+        "basis": "電車利用欄の駅からのタクシー所要時間とクラブバス非運行を確認。"
+      },
+      "checked": "2026-10-31",
+      "scope": "公式アクセス案内では、JR日豊本線・大分駅からタクシーで約40分です。クラブバスは運行していません。",
+      "sourceEvidence": {
+        "requestedUrl": "https://oitananase-golf.com/access",
+        "finalUrl": "https://oitananase-golf.com/access",
+        "httpStatus": 200,
+        "bytes": 4925,
+        "truncated": false,
+        "sha256": "2a9af91133b9b824cf1255d9c33b528ac77e0cc3b68c459816fa3bcdf7b920bc",
+        "completedAtUtc": "2026-10-30T23:39:56.646710+00:00"
+      }
+    },
+    {
+      "id": 1340,
+      "name": "ワールドカントリー倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・宇城氷川ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・宇城氷川ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式案内では、九州自動車道・宇城氷川スマートICから車で3分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・宇城氷川ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式案内では、九州自動車道・宇城氷川スマートICから車で3分です。",
+            "url": "https://booking.pacificgolf.co.jp/guide/136.html",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "当施設紹介のスマートIC名と車の所要時間を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式案内では、九州自動車道・宇城氷川スマートICから車で3分です。",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/136.html",
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/136.html",
+        "httpStatus": 200,
+        "bytes": 155601,
+        "truncated": false,
+        "sha256": "5bb3c7558cc010993fd5daf0b008d0e52c595602535463572c869cf3bfb66806",
+        "completedAtUtc": "2026-10-30T23:41:58.779650+00:00"
+      }
+    },
+    {
+      "id": 1340,
+      "name": "ワールドカントリー倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・フラット。設計：佐藤謙太郎。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430042/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "当施設のフェアウェイ乗り入れ欄にある有料性と利用条件を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "httpStatus": 200,
+        "bytes": 141867,
+        "truncated": false,
+        "sha256": "39aa73722fd53dea2a7ad473b5fe7fc9f5f8c1498b06ba8675f408b46973e8d6",
+        "completedAtUtc": "2026-10-30T23:43:16.754135+00:00"
+      }
+    },
+    {
+      "id": 1340,
+      "name": "ワールドカントリー倶楽部",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "入浴設備はシャワーのみ。宿泊施設は併設していない。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "宿泊施設は併設していない。 公式施設案内には、夏季期間（7～9月）はエネルギー使用最適化のため浴槽営業を休止し、シャワーのみの営業とする案内が掲載されています。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+        "checked": "2026-10-25",
+        "sourceType": "mixed",
+        "basis": "旧宿泊記述のGDO出典・確認日を保持。無限定の入浴記述を公式掲載の夏季条件へ訂正。",
+        "evidenceSegments": [
+          {
+            "text": "宿泊施設は併設していない。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内には、夏季期間（7～9月）はエネルギー使用最適化のため浴槽営業を休止し、シャワーのみの営業とする案内が掲載されています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "クラブハウス欄の浴室案内にある夏季期間と営業範囲を確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "旧無限定のシャワーのみ記載からは夏季限定が伝わらない。新保存公式は7〜9月浴槽休止/シャワーのみを明示。全年シャワーとの誤解を減らす季節限定原文への置換案。 適用年・7〜9月以外の営業は未確認。旧宿泊なしは再確認していない。",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=136",
+        "httpStatus": 200,
+        "bytes": 141867,
+        "truncated": false,
+        "sha256": "39aa73722fd53dea2a7ad473b5fe7fc9f5f8c1498b06ba8675f408b46973e8d6",
+        "completedAtUtc": "2026-10-30T23:43:16.754135+00:00"
+      },
+      "correction": {
+        "oldFullTuple": {
+          "text": "入浴設備はシャワーのみ。宿泊施設は併設していない。",
+          "url": "https://reserve.golfdigest.co.jp/golf-course/949101/",
+          "checked": "2026-10-25",
+          "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+          "sourceType": "公開予約情報"
+        },
+        "removedClause": "入浴設備はシャワーのみ。",
+        "sourceTypeNormalization": "旧公開予約情報を同義bookingへ整形。施設公式への昇格ではない。",
+        "oldLodgingNotReconfirmed": true,
+        "noOutsideSummerGuarantee": true,
+        "yearNotSpecified": true
+      }
+    }
+  ]
+}
