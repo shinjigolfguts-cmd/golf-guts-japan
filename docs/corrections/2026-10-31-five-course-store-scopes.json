@@ -1,0 +1,249 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "4d058b3431d3aed63ec6ffb8bdba2c3313e097b0",
+  "inputSha256": "c5086316b2c8ca4c8233adf1f6b69dd689b8d9aeaf8ae12ed9875a9e94afb89b",
+  "outputSha256": "19cb01d7be480a6f1a1bed462e5fa8fdedbe897353a9fa270917d4105b9973d5",
+  "scope": "Five saved-primary scoped supplements; capture dates preserved. No new source HTTP or code changes.",
+  "patches": [
+    {
+      "id": 683,
+      "name": "若木ゴルフ倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。昼食の案内時間は10:00～14:00。朝食も提供。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/929101/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。昼食の案内時間は10:00～14:00。朝食も提供。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/929101/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は10:00～14:00。朝食も提供。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/929101/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": "公開予約情報→booking only; same GDO booking attribution, old fulltuple retained",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+        "bytes": 141063,
+        "truncated": false,
+        "sha256": "2ba34856a99e11201769e2b507502428b8b1cb8877c46186cb166133059a2ab5",
+        "completedAtUtc": "2026-10-30T22:25:17.014927+00:00"
+      }
+    },
+    {
+      "id": 1291,
+      "name": "福岡レイクサイドカントリークラブ",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。掲載営業時間は～17:00。朝食も提供。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/915304/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。掲載営業時間は～17:00。朝食も提供。 公式施設案内では、コース内売店は無人で、自動販売機はソフトドリンクのみです。スコアカードホルダーをかざして購入します。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/915304/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。掲載営業時間は～17:00。朝食も提供。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/915304/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店は無人で、自動販売機はソフトドリンクのみです。スコアカードホルダーをかざして購入します。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": "公開予約情報→booking only; same GDO booking attribution, old fulltuple retained",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=160",
+        "bytes": 142249,
+        "truncated": false,
+        "sha256": "1f68a90b99fc6689223687e6fffad2da0fc9d7bf59223a0895e27c2370220b85",
+        "completedAtUtc": "2026-10-30T22:25:25.331508+00:00"
+      }
+    },
+    {
+      "id": 1301,
+      "name": "大博多カントリー倶楽部",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。掲載営業時間は9:00～。朝食の提供はない。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/913101/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。掲載営業時間は9:00～。朝食の提供はない。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/913101/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。掲載営業時間は9:00～。朝食の提供はない。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/913101/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": "公開予約情報→booking only; same GDO booking attribution, old fulltuple retained",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+        "bytes": 141692,
+        "truncated": false,
+        "sha256": "47ca58984d4ea12c186d64c8294c3d8cc223ea869d3bbbb983fe166f689a76be",
+        "completedAtUtc": "2026-10-30T22:25:30.316248+00:00"
+      }
+    },
+    {
+      "id": 1310,
+      "name": "皐月ゴルフ倶楽部 天拝コース",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": "公開予約情報→booking only; same GDO booking attribution, old fulltuple retained",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+        "bytes": 141335,
+        "truncated": false,
+        "sha256": "de25c7267c0695532fbd9e795df63a09913773243a22255e9ed0475318cd9fce",
+        "completedAtUtc": "2026-10-30T22:25:36.104548+00:00"
+      }
+    },
+    {
+      "id": 1330,
+      "name": "チサンカントリークラブ御船",
+      "field": "dining",
+      "beforeExists": true,
+      "before": {
+        "text": "レストランあり。昼食の案内時間は9:30～14:30。朝食も提供。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/943201/",
+        "checked": "2026-10-25",
+        "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+        "sourceType": "公開予約情報"
+      },
+      "after": {
+        "text": "レストランあり。昼食の案内時間は9:30～14:30。朝食も提供。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。現金またはスコアカードホルダーをかざして購入します。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/943201/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は9:30～14:30。朝食も提供。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/943201/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。現金またはスコアカードホルダーをかざして購入します。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=135",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": "公開予約情報→booking only; same GDO booking attribution, old fulltuple retained",
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=135",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=135",
+        "bytes": 141816,
+        "truncated": false,
+        "sha256": "74d1d6385cdc322d6fd00ae5070c4a7f9528a4cda587712e607bc24046acf31b",
+        "completedAtUtc": "2026-10-30T22:25:57.200106+00:00"
+      }
+    }
+  ]
+}
