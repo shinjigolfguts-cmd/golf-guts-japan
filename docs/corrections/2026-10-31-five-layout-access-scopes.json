@@ -1,0 +1,183 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "e1c47b5c4a852e7d6edd3430cc769e9ed4dca45e",
+  "inputSha256": "19cb01d7be480a6f1a1bed462e5fa8fdedbe897353a9fa270917d4105b9973d5",
+  "outputSha256": "59c3438c26af80de2b2593dc159f2e5f97b074e6d9ea6064c4b8a782b35bc8d1",
+  "scope": "Five saved-primary scoped supplements; capture dates preserved. No new source HTTP or code changes.",
+  "patches": [
+    {
+      "id": 683,
+      "name": "若木ゴルフ倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、アイランドグリーンやポットバンカー群を配置し、最終ホールにはダブルグリーンを設けています。",
+        "url": "https://booking.pacificgolf.co.jp/guide/125.html",
+        "checked": "2026-10-31",
+        "basis": "コース紹介の具体的な地形・設備配置だけを要約。景観への評価や各ホールからの眺望を保証しない。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-31",
+      "scope": "コース紹介の具体的な地形・設備配置だけを要約。景観への評価や各ホールからの眺望を保証しない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/125.html",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/125.html",
+        "bytes": 156564,
+        "truncated": false,
+        "sha256": "ff7a97a0c679539a5aeec90795c0b698152f06a73fcdd1fc7607e848eeed1a1c",
+        "completedAtUtc": "2026-10-30T22:23:08.384860+00:00"
+      }
+    },
+    {
+      "id": 1291,
+      "name": "福岡レイクサイドカントリークラブ",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式紹介では飯塚市内を見渡せると案内しています。コースの横には久保白ダムがあり、大小の池が12ホールに絡む配置です。",
+        "url": "https://booking.pacificgolf.co.jp/guide/160.html",
+        "checked": "2026-10-31",
+        "basis": "公式紹介の眺望・ダムの隣接・池配置を確認。全ホールからの眺望保証ではない。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-31",
+      "scope": "公式紹介の眺望・ダムの隣接・池配置を確認。全ホールからの眺望保証ではない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/160.html",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/160.html",
+        "bytes": 157418,
+        "truncated": false,
+        "sha256": "ffded251c650eaf0ff10f791c85c0fafd5fd0f7e0104523a8cd02b6de106aad6",
+        "completedAtUtc": "2026-10-30T22:23:13.431386+00:00"
+      }
+    },
+    {
+      "id": 1301,
+      "name": "大博多カントリー倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "公式コース紹介では、松コースは池が多く、杉コースは地形の変化に富む構成と案内されています。",
+        "url": "https://booking.pacificgolf.co.jp/guide/130.html",
+        "checked": "2026-10-31",
+        "basis": "各コースの具体的な池・地形配置のみ。美的評価や全コース一律の景観保証を加えない。",
+        "sourceType": "official"
+      },
+      "checked": "2026-10-31",
+      "scope": "各コースの具体的な池・地形配置のみ。美的評価や全コース一律の景観保証を加えない。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/130.html",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/130.html",
+        "bytes": 155720,
+        "truncated": false,
+        "sha256": "2c8a75fb7d01a4850a38958969e2450947bd4b22c529f7520ae13081a1bf3938",
+        "completedAtUtc": "2026-10-30T22:23:18.814741+00:00"
+      }
+    },
+    {
+      "id": 1310,
+      "name": "皐月ゴルフ倶楽部 天拝コース",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "九州自動車道・筑紫野ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400004/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "九州自動車道・筑紫野ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。 公式紹介では、九州自動車道・筑紫野ICから車で約7分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400004/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "九州自動車道・筑紫野ICから5km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400004/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式紹介では、九州自動車道・筑紫野ICから車で約7分です。",
+            "url": "https://booking.pacificgolf.co.jp/guide/129.html",
+            "checked": "2026-10-31",
+            "basis": "専用施設紹介の起点・車・約7分明文。旧予約距離区分と日付を保持。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "専用施設紹介の起点・車・約7分明文。旧予約距離区分と日付を保持。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/129.html",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/129.html",
+        "bytes": 155717,
+        "truncated": false,
+        "sha256": "d373d66b0b32489447065bc6e165684af4f59c4ea5f2f1b7372fbbb15e50d5b8",
+        "completedAtUtc": "2026-10-30T22:23:23.520258+00:00"
+      }
+    },
+    {
+      "id": 639,
+      "name": "松山ロイヤルゴルフ倶楽部",
+      "field": "car",
+      "beforeExists": true,
+      "before": {
+        "text": "松山自動車道・松山ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "松山自動車道・松山ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。 公式紹介では、松山市内から車で約40分です。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "松山自動車道・松山ICから20km以内と掲載。距離区分で、所要時間を示すものではありません。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式紹介では、松山市内から車で約40分です。",
+            "url": "https://booking.pacificgolf.co.jp/guide/123.html",
+            "checked": "2026-10-31",
+            "basis": "専用施設紹介の市内起点・車・約40分明文。旧松山IC起点とは別情報として保持。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "専用施設紹介の市内起点・車・約40分明文。旧松山IC起点とは別情報として保持。 旧本文・出典・日付は保持。保存資料再読であり新取得ではない。",
+      "oldTypeNormalization": null,
+      "sourceEvidence": {
+        "requestedUrl": "https://booking.pacificgolf.co.jp/guide/123.html",
+        "httpStatus": 200,
+        "finalUrl": "https://booking.pacificgolf.co.jp/guide/123.html",
+        "bytes": 155698,
+        "truncated": false,
+        "sha256": "181cc7245fd090c460f7e2a1e6aa0dd6a25cf1d053d1e810f3de5436b07eeb3c",
+        "completedAtUtc": "2026-10-30T22:00:37.661882+00:00"
+      }
+    }
+  ]
+}
