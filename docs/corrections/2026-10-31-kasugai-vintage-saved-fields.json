@@ -1,0 +1,141 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "65f4c848b0e084d8b32ffdee07e3a4f82b28ea08",
+  "inputSha256": "2a5826eb2e0ba2488e4bab827abb6298fbcfd9b094b88ca0de575a16e9982d1d",
+  "outputSha256": "abd183d8447c73a9208fd6d4b32703ca6000891eec4e7ae741e906489982a953",
+  "scope": "Three saved-source scoped comparison additions; old booking tuples retained. Source captured October31, not refreshed November1. CDN cache not current operating verification.",
+  "patches": [
+    {
+      "id": 409,
+      "name": "春日居ゴルフ倶楽部",
+      "field": "play",
+      "beforeExists": true,
+      "before": {
+        "text": "18ホール・パー72・山岳コース・山岳地形。設計：ゼネラルエンタープライズ。練習場は250ヤード・10打席の掲載。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190009/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "18ホール・パー72・山岳コース・山岳地形。設計：ゼネラルエンタープライズ。練習場は250ヤード・10打席の掲載。 公式コース紹介では、USGA仕様のサンドグリーンを採用していると案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190009/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・山岳コース・山岳地形。設計：ゼネラルエンタープライズ。練習場は250ヤード・10打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190009/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式コース紹介では、USGA仕様のサンドグリーンを採用していると案内しています。",
+            "url": "https://kasugai.chateraisegolf.jp/",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "保存公式HOMEのコース紹介にあるグリーン仕様だけを照合。旧ホール数・パー・設計・練習場は今回再確認していません。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "USGA仕様サンドグリーンのみ",
+      "limits": [
+        "旧18H/P72/設計者/練習場は再確認しない",
+        "USGAによる認証・検査合格と解釈しない"
+      ],
+      "sourceEvidence": {
+        "url": "https://kasugai.chateraisegolf.jp/",
+        "sha256": "d2770fbefa8da7a898758b7a7c05e9c3db9e8c77335ba871438feb4ecfdc954b",
+        "capturedAtUtc": "2026-10-31T12:12:23.621217+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Wed, 28 Oct 2026 07:14:32 GMT",
+        "responseAge": "277071",
+        "manifestSha256": "44074ce7fd724b9c035518d35bd1ce11a0ac73bfa6c0574411d4e63ed3d918b7"
+      }
+    },
+    {
+      "id": 409,
+      "name": "春日居ゴルフ倶楽部",
+      "field": "scenery",
+      "beforeExists": true,
+      "before": null,
+      "after": {
+        "text": "甲府盆地の南斜面に位置し、季節ごとの眺望を紹介しています。",
+        "url": "https://kasugai.chateraisegolf.jp/",
+        "checked": "2026-10-31",
+        "sourceType": "official",
+        "basis": "保存公式HOMEコース紹介の立地・眺望記述だけを確認。具体的な山名や全ホールからの眺望は未確認。"
+      },
+      "checked": "2026-10-31",
+      "scope": "NULL景観欄への南斜面立地と紹介眺望",
+      "limits": [
+        "山名・眺望保証を追加しない"
+      ],
+      "sourceEvidence": {
+        "url": "https://kasugai.chateraisegolf.jp/",
+        "sha256": "d2770fbefa8da7a898758b7a7c05e9c3db9e8c77335ba871438feb4ecfdc954b",
+        "capturedAtUtc": "2026-10-31T12:12:23.621217+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Wed, 28 Oct 2026 07:14:32 GMT",
+        "responseAge": "277071",
+        "manifestSha256": "44074ce7fd724b9c035518d35bd1ce11a0ac73bfa6c0574411d4e63ed3d918b7"
+      }
+    },
+    {
+      "id": 415,
+      "name": "シャトレーゼヴィンテージゴルフ倶楽部",
+      "field": "stay",
+      "beforeExists": true,
+      "before": {
+        "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190021/",
+        "checked": "2026-10-25",
+        "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+        "sourceType": "booking"
+      },
+      "after": {
+        "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。 公式HOMEでは、隣接するロッジとゴルフ宿泊パックを案内しています。営業日・空室・宿泊プランの内容は予約前に確認してください。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190021/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回一括再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "楽天GORAの設備欄に宿泊施設ありと掲載。営業日・宿泊プラン・入浴条件は予約時に確認してください。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/190021/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式HOMEでは、隣接するロッジとゴルフ宿泊パックを案内しています。営業日・空室・宿泊プランの内容は予約前に確認してください。",
+            "url": "https://vintage.chateraisegolf.jp/",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "保存公式HOME本文の隣接ロッジ・ゴルフ宿泊パック案内だけを確認。内容・営業日は未確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "施設に隣接するロッジとゴルフ宿泊パックが公式HOMEで案内されていること。",
+      "limits": [
+        "通年営業・現在空室・料金・食事/入浴/プレー付帯内容は不明。",
+        "CDN応答の取得時点までの掲載確認であり当日営業保証ではない。",
+        "LODGEやplan子ページ未読、隣接を場内/徒歩何分へ言換えない。"
+      ],
+      "sourceEvidence": {
+        "url": "https://vintage.chateraisegolf.jp/",
+        "sha256": "613b8beeb7e190695780afca0aed7ef9c0812a8da6b2ac441cae1d7637c785f6",
+        "manifestSha256": "7177a6862e4c58a000130e9ace3e24895b605c812f9e8f070a6daddffe8b1b5b",
+        "capturedAtUtc": "2026-10-31T13:25:41.176856+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Sat, 31 Oct 2026 06:55:22 GMT",
+        "responseAge": "23419",
+        "cdnCached": true
+      }
+    }
+  ]
+}
