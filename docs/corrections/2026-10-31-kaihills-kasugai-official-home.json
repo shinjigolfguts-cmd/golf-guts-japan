@@ -1,0 +1,92 @@
+{
+  "status": "reviewed_candidate_not_published",
+  "baseCommit": "d15c86bc95a0720f6c4c2e508591c3058b6f22f6",
+  "inputSha256": "a8ab5ad44cf979b287cfcd3c0444c7829393ac043a37bd7b46c8e7ceebc04f73",
+  "outputSha256": "7c31db721fcf8483e4477e7d2030fdba6a2ddf4a7442e27f423b835a18fa0f5c",
+  "scope": "Two official HOME URLs only, no operational or legal corporate verification. CDN response dates not current operating checks.",
+  "patches": [
+    {
+      "id": 408,
+      "name": "甲斐ヒルズカントリー倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://kaihills.chateraisegolf.jp/",
+      "checked": "2026-10-31",
+      "scope": "Facility official HOME identity only; no price, operation or legal-operator verification.",
+      "limits": [
+        "HOMEの施設名・現DATA地域・掲載住所電話・専用サイト構成による公式URL同定のみ。住所/電話をDATAへ追加変更しない。",
+        "CDNキャッシュ応答。取得日10/31はorigin当日更新/営業確認日を意味しない。料金・営業・当日告知・既存fee記述は再確認していない。",
+        "グループ表記と著作権帰属は確認。法的運営法人の正式名称・契約主体は当HOMEだけでは確定しない。",
+        "他リンク/予約/メンバー情報未取得。外部ブラウザ実画面未検証。"
+      ],
+      "identity": {
+        "idNameExact": true,
+        "nullBeforeExact": true,
+        "bodyManifestHashBytesMatch": true,
+        "dedicatedFacilityName": "甲斐ヒルズカントリー倶楽部",
+        "publishedAddress": "山梨県甲斐市団子新居1927-4",
+        "publishedPhone": "0551-23-0222",
+        "canonical": "https://kaihills.chateraisegolf.jp/",
+        "copyright": "©CHATERAISE RESORT CO,. LTD. ALL RIGHTS RESERVED.",
+        "groupLabel": "シャトレーゼグループコース",
+        "legalOperatorVerified": false
+      },
+      "sourceEvidence": {
+        "url": "https://kaihills.chateraisegolf.jp/",
+        "requestedUrl": "https://kaihills.chateraisegolf.jp/",
+        "finalUrl": "https://kaihills.chateraisegolf.jp/",
+        "httpStatus": 200,
+        "sha256": "7392bd0b8a6dfd749f41ad154d7d6860f457277f9c08217456cb40ccac376fb1",
+        "bytes": 29846,
+        "truncated": false,
+        "capturedAtUtc": "2026-10-31T12:12:19.477484+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Thu, 22 Oct 2026 22:52:41 GMT",
+        "responseAge": "739178"
+      }
+    },
+    {
+      "id": 409,
+      "name": "春日居ゴルフ倶楽部",
+      "field": "officialUrl",
+      "beforeExists": true,
+      "before": null,
+      "after": "https://kasugai.chateraisegolf.jp/",
+      "checked": "2026-10-31",
+      "scope": "Facility official HOME identity only; no price, operation or legal-operator verification.",
+      "limits": [
+        "HOMEの施設名・現DATA地域・掲載住所電話・専用サイト構成による公式URL同定のみ。住所/電話をDATAへ追加変更しない。",
+        "CDNキャッシュ応答。取得日10/31はorigin当日更新/営業確認日を意味しない。料金・営業・当日告知・既存fee記述は再確認していない。",
+        "グループ表記と著作権帰属は確認。法的運営法人の正式名称・契約主体は当HOMEだけでは確定しない。",
+        "他リンク/予約/メンバー情報未取得。外部ブラウザ実画面未検証。",
+        "掲載住所は国府759-2。旧連盟759との末尾差を維持し、番地完全一致とはしない。名称と笛吹市春日居町国府・電話による同定支持。canonicalは末尾slashなし、取得HOMEはslashあり。canonical先の別取得はしていない。"
+      ],
+      "identity": {
+        "idNameExact": true,
+        "nullBeforeExact": true,
+        "bodyManifestHashBytesMatch": true,
+        "dedicatedFacilityName": "春日居ゴルフ倶楽部",
+        "publishedAddress": "山梨県笛吹市春日居町国府759-2",
+        "publishedPhone": "0553-26-5200",
+        "canonical": "https://kasugai.chateraisegolf.jp",
+        "copyright": "©CHATERAISE RESORT CO,. LTD. ALL RIGHTS RESERVED.",
+        "groupLabel": "シャトレーゼグループコース",
+        "legalOperatorVerified": false
+      },
+      "sourceEvidence": {
+        "url": "https://kasugai.chateraisegolf.jp/",
+        "requestedUrl": "https://kasugai.chateraisegolf.jp/",
+        "finalUrl": "https://kasugai.chateraisegolf.jp/",
+        "httpStatus": 200,
+        "sha256": "d2770fbefa8da7a898758b7a7c05e9c3db9e8c77335ba871438feb4ecfdc954b",
+        "bytes": 28120,
+        "truncated": false,
+        "capturedAtUtc": "2026-10-31T12:12:23.621217+00:00",
+        "checked": "2026-10-31",
+        "responseDate": "Wed, 28 Oct 2026 07:14:32 GMT",
+        "responseAge": "277071"
+      }
+    }
+  ]
+}
