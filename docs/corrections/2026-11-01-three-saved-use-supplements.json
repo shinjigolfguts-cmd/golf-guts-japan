@@ -1,0 +1,215 @@
+{
+  "scope": "Three saved official use-condition supplements on already reviewed play keys; new unique keys0.",
+  "baseCommit": "b3f4cc503c47814db05dac44abf1902f98570d31",
+  "inputSha256": "bd9da10955e3790c78577b5cf49f25719675377e49fc90675b2f53c87f3b5958",
+  "outputSha256": "53c51714adc0119e86d600c6da57b7872cf1b9536057686f3ff9328002d82f94",
+  "patches": [
+    {
+      "id": 639,
+      "name": "松山ロイヤルゴルフ倶楽部",
+      "field": "play",
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "basis": "キャディ欄の予約条件と人数制限を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "basis": "キャディ欄の予約条件と人数制限を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "既playはキャディ予約条件のみ、FW乗入れ利用条件は未採用。 当施設の該当欄の制約のみ確認。旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+        "sha256": "015f99dcceca104fb5c10e64c67d96a34c855247fb9b4809fd1da8bcd97477bd",
+        "manifestSha256": "f7d0e92483490fe4fbb57e9c5cadcacaaedb1183fc5636b0e609429053ecae83",
+        "capturedAtUtc": "2026-10-30T22:03:30.672688+00:00",
+        "checked": "2026-10-31"
+      }
+    },
+    {
+      "id": 668,
+      "name": "北九州カントリー倶楽部",
+      "field": "play",
+      "before": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+            "checked": "2026-10-31",
+            "basis": "フェアウェイ乗り入れ欄の有料性・無料対象・組単位と利用不可条件を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "after": {
+        "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。 公式施設案内では、レンタルクラブとレンタルシューズは有料で、数に限りがあるため事前の問い合わせをお願いしています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・丘陵コース・適度なアップダウン。設計：大西土木興業設計部。練習場は40ヤード・8打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400010/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料ですが、メンバーおよび同伴ビジターは無料です。利用は組単位で、天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+            "checked": "2026-10-31",
+            "basis": "フェアウェイ乗り入れ欄の有料性・無料対象・組単位と利用不可条件を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、レンタルクラブとレンタルシューズは有料で、数に限りがあるため事前の問い合わせをお願いしています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "既playはFW乗入れ条件。クラブ/シューズの有料レンタルと数量限定・事前問い合わせは未採用。 当施設の該当欄の制約のみ確認。旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、レンタルクラブとレンタルシューズは有料で、数に限りがあるため事前の問い合わせをお願いしています。",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=131",
+        "sha256": "7c3b2f5087746bd09233b0f283d7e27d9a09e4dfe44f443660810d6f8a7c5000",
+        "manifestSha256": "1b3f2475f1a0e156daa2c115b23d8dd990c15429e35d03346365a38e6805166d",
+        "capturedAtUtc": "2026-10-30T22:03:36.281343+00:00",
+        "checked": "2026-10-31"
+      }
+    },
+    {
+      "id": 683,
+      "name": "若木ゴルフ倶楽部",
+      "field": "play",
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：デズモンド・ミュアヘッド。練習場は220ヤード・10打席の掲載。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/410016/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：デズモンド・ミュアヘッド。練習場は220ヤード・10打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/410016/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+            "checked": "2026-10-31",
+            "basis": "当施設のフェアウェイ乗り入れ欄にある対象・有料性・利用制約を確認。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：デズモンド・ミュアヘッド。練習場は220ヤード・10打席の掲載。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。 公式施設案内では、レンタルクラブとレンタルシューズは有料です。いずれも数に限りがあるため、事前の問い合わせをお願いしています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/410016/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：デズモンド・ミュアヘッド。練習場は220ヤード・10打席の掲載。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/410016/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があり、安全確保のためショートホールには乗り入れできません。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+            "checked": "2026-10-31",
+            "basis": "当施設のフェアウェイ乗り入れ欄にある対象・有料性・利用制約を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、レンタルクラブとレンタルシューズは有料です。いずれも数に限りがあるため、事前の問い合わせをお願いしています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "当施設のレンタルクラブ・シューズ各欄の有料性・数量限定・事前照会条件のみを確認。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、レンタルクラブとレンタルシューズは有料です。いずれも数に限りがあるため、事前の問い合わせをお願いしています。",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=125",
+        "sha256": "2ba34856a99e11201769e2b507502428b8b1cb8877c46186cb166133059a2ab5",
+        "manifestSha256": "3b0db34659e6fcffa54bedce3653c67166dd6547e07b4fc12a02e97c95428383",
+        "capturedAtUtc": "2026-10-30T22:25:17.014927+00:00",
+        "checked": "2026-10-31"
+      }
+    }
+  ],
+  "limitations": [
+    "Original captures/checked10/31 retained, not reread at origin11/1.",
+    "All old paragraphs/dates/source classifications retained.",
+    "No price amounts, availability or full facility revalidation claimed.",
+    "668 dated practice-ball pricing and prior source holds untouched."
+  ]
+}
