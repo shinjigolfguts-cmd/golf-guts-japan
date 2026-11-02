@@ -1,0 +1,243 @@
+{
+  "scope": "Three saved official use-condition supplements on already reviewed comparison keys; new unique keys0.",
+  "baseCommit": "23de42c047f3d716e26d475e4b64e232d2e18b21",
+  "inputSha256": "53c51714adc0119e86d600c6da57b7872cf1b9536057686f3ff9328002d82f94",
+  "outputSha256": "d5b55ea6b8e58a6045a039ec275da3bf8ee2e3084c2bfc32eb0f9cd8d93f2902",
+  "patches": [
+    {
+      "id": 639,
+      "name": "松山ロイヤルゴルフ倶楽部",
+      "field": "play",
+      "before": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "basis": "キャディ欄の予約条件と人数制限を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "既playはキャディ予約条件のみ、FW乗入れ利用条件は未採用。 当施設の該当欄の制約のみ確認。旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "after": {
+        "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。 公式施設案内では、ドライビングレンジはありません。レンタルクラブとレンタルシューズは有料で、数に限りがあるため事前の問い合わせをお願いしています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+        "checked": "2026-10-25",
+        "basis": "各文の出典・確認日は個別根拠。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "18ホール・パー72・丘陵コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/380020/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、キャディは事前予約制です。人数に限りがあり、希望に沿えない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "basis": "キャディ欄の予約条件と人数制限を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "既playはキャディ予約条件のみ、FW乗入れ利用条件は未採用。 当施設の該当欄の制約のみ確認。旧情報は今回一括再確認していません。"
+          },
+          {
+            "text": "公式施設案内では、ドライビングレンジはありません。レンタルクラブとレンタルシューズは有料で、数に限りがあるため事前の問い合わせをお願いしています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "ドライビングレンジなしと貸具の有料性・数量限定・事前問い合わせは旧play未記載。 旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、ドライビングレンジはありません。レンタルクラブとレンタルシューズは有料で、数に限りがあるため事前の問い合わせをお願いしています。",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=123",
+        "sha256": "015f99dcceca104fb5c10e64c67d96a34c855247fb9b4809fd1da8bcd97477bd",
+        "manifestSha256": "f7d0e92483490fe4fbb57e9c5cadcacaaedb1183fc5636b0e609429053ecae83",
+        "capturedAtUtc": "2026-10-30T22:03:30.672688+00:00",
+        "checked": "2026-10-31"
+      }
+    },
+    {
+      "id": 1301,
+      "name": "大博多カントリー倶楽部",
+      "field": "play",
+      "before": {
+        "text": "27ホール・パー108・山岳コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、ドライビングレンジは15ヤード・5打席で、無料です。 公式施設案内では、キャディ付きの予約はできず、セルフプレーのみと案内しています。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400029/",
+        "checked": "2026-10-25",
+        "basis": "既存コース紹介の出典・日付は保持。練習場の掲載値は公式施設案内に基づく別日付の訂正。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・山岳コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400029/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、ドライビングレンジは15ヤード・5打席で、無料です。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+            "checked": "2026-10-31",
+            "basis": "当施設のドライビングレンジ欄の距離・打席数・無料表記を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、キャディ付きの予約はできず、セルフプレーのみと案内しています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "セルフ限定・キャディ予約不可は旧27H/練習場とは別の予約判断条件。 旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "after": {
+        "text": "27ホール・パー108・山岳コース・適度なアップダウン。設計：松山桂司。 公式施設案内では、ドライビングレンジは15ヤード・5打席で、無料です。 公式施設案内では、キャディ付きの予約はできず、セルフプレーのみと案内しています。 公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+        "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400029/",
+        "checked": "2026-10-25",
+        "basis": "既存コース紹介の出典・日付は保持。練習場の掲載値は公式施設案内に基づく別日付の訂正。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "27ホール・パー108・山岳コース・適度なアップダウン。設計：松山桂司。",
+            "url": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400029/",
+            "checked": "2026-10-25",
+            "basis": "楽天GORAの当施設掲載情報（施設公式サイトとは別）",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、ドライビングレンジは15ヤード・5打席で、無料です。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+            "checked": "2026-10-31",
+            "basis": "当施設のドライビングレンジ欄の距離・打席数・無料表記を確認。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、キャディ付きの予約はできず、セルフプレーのみと案内しています。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "セルフ限定・キャディ予約不可は旧27H/練習場とは別の予約判断条件。 旧情報は今回一括再確認していません。"
+          },
+          {
+            "text": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "旧playはコース情報・15Y練習場・セルフ限定のみ。FW乗入れ条件は未記載。 旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、乗用カートのフェアウェイ乗り入れは有料で、利用は組単位です。天候やコースコンディションなどにより利用できない場合があります。",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=130",
+        "sha256": "47ca58984d4ea12c186d64c8294c3d8cc223ea869d3bbbb983fe166f689a76be",
+        "manifestSha256": "542a03019e17433e36b11160ca71c50a68494079c7ff0d09d3a56669e3e2e73d",
+        "capturedAtUtc": "2026-10-30T22:25:30.316248+00:00",
+        "checked": "2026-10-31"
+      }
+    },
+    {
+      "id": 1310,
+      "name": "皐月ゴルフ倶楽部 天拝コース",
+      "field": "dining",
+      "before": {
+        "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          }
+        ]
+      },
+      "after": {
+        "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。 公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。 公式施設案内では、コンペルームは2部屋（最大収容人数32名）と掲載され、事前予約制です。コンペの予約状況によっては、レストランでの開催を案内する場合があります。",
+        "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+        "checked": "2026-10-25",
+        "basis": "各記述の出典・確認日を分離。旧情報は今回再確認していません。",
+        "sourceType": "mixed",
+        "evidenceSegments": [
+          {
+            "text": "レストランあり。昼食の案内時間は10:00～14:30。朝食の提供はない。",
+            "url": "https://reserve.golfdigest.co.jp/golf-course/910104/",
+            "checked": "2026-10-25",
+            "basis": "GDO施設・サービス欄の明示情報。掲載名と全国県別リストを照合",
+            "sourceType": "booking"
+          },
+          {
+            "text": "公式施設案内では、コース内売店はソフトドリンクの自動販売機のみです。スコアカードホルダーをかざして購入します。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+            "checked": "2026-10-31",
+            "basis": "コース内売店欄の飲料種類と明記された購入方法だけを確認。レストラン全体の営業時間・決済には拡張しない。",
+            "sourceType": "official"
+          },
+          {
+            "text": "公式施設案内では、コンペルームは2部屋（最大収容人数32名）と掲載され、事前予約制です。コンペの予約状況によっては、レストランでの開催を案内する場合があります。",
+            "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+            "checked": "2026-10-31",
+            "sourceType": "official",
+            "basis": "旧diningはレストラン時間と自動販売機だけ。コンペ会場予約・会場変更条件は未記載。 旧情報は今回一括再確認していません。"
+          }
+        ]
+      },
+      "checked": "2026-10-31",
+      "scope": "公式施設案内では、コンペルームは2部屋（最大収容人数32名）と掲載され、事前予約制です。コンペの予約状況によっては、レストランでの開催を案内する場合があります。",
+      "sourceEvidence": {
+        "url": "https://booking.pacificgolf.co.jp/?p=guide.access_map&cc_id=129",
+        "sha256": "de25c7267c0695532fbd9e795df63a09913773243a22255e9ed0475318cd9fce",
+        "manifestSha256": "e808defa2cc1b6073025cc2d00d80c9f2a62a540fc268f3ee0da7b4d4d502f18",
+        "capturedAtUtc": "2026-10-30T22:25:36.104548+00:00",
+        "checked": "2026-10-31"
+      }
+    }
+  ],
+  "limitations": [
+    "Original captures/checked10/31 retained, not reread at origin11/2.",
+    "All old paragraphs/dates/source classifications retained.",
+    "No price amounts, availability or full facility revalidation claimed.",
+    "No price amounts or guaranteed availability; source identity1310 is Tenpai cc129."
+  ]
+}
